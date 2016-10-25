@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "ZedUltDashCloneMaker",
+        "Name": "ZedUltDashCloneMaker",
+        "ResourcePath": "DATA/Characters/Zed/Spells/ZedUltDashCloneMaker.inibin"
+    },
+    "Values": {
+        "SpellData": {
+            "AlternateName": "ZedUlt"
+        }
+    }
+}
