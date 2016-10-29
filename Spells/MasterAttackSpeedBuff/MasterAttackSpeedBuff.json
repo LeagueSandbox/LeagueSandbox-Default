@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "MasterAttackSpeedBuff",
+        "Name": "MasterAttackSpeedBuff",
+        "ResourcePath": "DATA/Shared/Spells/MasterAttackSpeedBuff.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "game_buff_tooltip_Mastery_Fervor"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "CrestoftheAncientGolem",
+        "Name": "CrestoftheAncientGolem",
+        "ResourcePath": "DATA/Shared/Spells/CrestoftheAncientGolem.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "game_buff_tooltip_CrestoftheAncientGolem2015"
+        }
+    }
+}
