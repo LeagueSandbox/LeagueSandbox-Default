@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "Slow",
+        "Name": "Slow",
+        "ResourcePath": "DATA/Shared/Spells/Slow.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "game_buff_tooltip_Slow"
+        }
+    }
+}
