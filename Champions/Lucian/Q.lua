@@ -17,8 +17,8 @@ function onFinishCasting()
 end
 
 function applyEffects()
-	local AD = (owner:GetStats().AttackDamage.Total*(0.45 + (spellLevel*0.15))) + (50 + (spellLevel*30))
-	dealPhysicalDamage(AD)
+	local damage = (owner:GetStats().AttackDamage.Total*(0.45 + (spellLevel*0.15))) + (50 + (spellLevel*30))
+	dealPhysicalDamage(damage)
 	
 end
 
