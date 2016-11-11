@@ -18,7 +18,7 @@ function onFinishCasting()
 end
 
 function applyEffects()
-    dealMagicalDamage(200 + spell.Level * 100 + owner:GetStats().AbilityPower.Total * 0.75)
+    dealMagicalDamage(200 + spellLevel * 100 + owner:GetStats().AbilityPower.Total * 0.75)
 end
 
 function onUpdate(diff)
