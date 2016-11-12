@@ -3,11 +3,11 @@ function onStartCasting()
     local maxHealth = owner:GetStats().HealthPoints.Total
     
     if newHealth >= maxHealth then
-		owner:GetStats().CurrentHealth = maxHealth
+        owner:GetStats().CurrentHealth = maxHealth
     else
-		owner:GetStats().CurrentHealth = newHealth
+        owner:GetStats().CurrentHealth = newHealth
     end    
-	addBuff("PirateScurvy", 1, 1, owner, owner)
+    addBuff("PirateScurvy", 1, 1, owner, owner)
 end
 
 function onFinishCasting()
