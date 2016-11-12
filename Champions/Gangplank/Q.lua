@@ -5,11 +5,11 @@ function onStartCasting()
 end
 
 function onFinishCasting()
-	local current = Vector2:new(owner.X, owner.Y)
+    local current = Vector2:new(owner.X, owner.Y)
     local to = (Vector2:new(spell.X, spell.Y) - current):normalize()
     local range = to * 625
     local trueCoords = current + range
-	local target = castTarget
+    local target = castTarget
 	
 	addProjectileTarget("pirate_parley_mis", target, false)    
 end
@@ -17,7 +17,7 @@ end
 function applyEffects()
     local target = castTarget
     local damage = owner:GetStats().AttackDamage.Total + -5 + (25*spellLevel)
-	local newGold = owner:GetStats().Gold + 3 + (1*spellLevel)
+    local newGold = owner:GetStats().Gold + 3 + (1*spellLevel)
 	
     if ((not (target == 0)) and (not isDead(target))) then
         if castTarget:GetStats().CurrentHealth > damage then
