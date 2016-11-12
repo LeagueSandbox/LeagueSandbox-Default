@@ -1,31 +1,37 @@
 Vector2 = require 'Vector2' -- include 2d vector lib 
 
-function finishCasting()
-    local castTarget = castTarget
-    local current = Vector2:new(owner.X, owner.Y)
-    if current:distance(Vector2:new(castTarget.X, castTarget.Y)) <= 625 then    
-        addProjectileTargetCustom("pirate_parley_tar.troy", 0, castTarget)
-    else
-        print("Target is too far away")
-    end
+function onStartCasting()
+	local current = Vector2:new(owner.X, owner.Y)
+    local to = (Vector2:new(spell.X, spell.Y) - current):normalize()
+    local range = to * 625
+    local trueCoords = current + range
+	local target = castTarget
+	
+	addProjectileTarget("pirate_parley_mis", target, false)       
     
 end
 
-function applyEffects()
-    local castTarget = castTarget
+function onFinishCasting()
 
-    if ((not (castTarget == 0)) and (not isDead(castTarget))) then
-        local owner = owner
-        local damage = getEffectValue(0) + owner:getStats():getTotalAd()
-        local newGold = owner:getStats():getGold() + 3 + 1*spellLevel
-        
-        if castTarget:getStats():getCurrentHealth() >= damage then
-            owner:dealDamageTo(castTarget, damage, DAMAGE_TYPE_PHYSICAL, DAMAGE_SOURCE_SPELL)
+end
+
+function applyEffects()
+    local target = castTarget
+    local damage = owner:GetStats().AttackDamage.Total + -5 + (25*spellLevel)
+	local newGold = owner:GetStats().Gold + 3 + (1*spellLevel)
+	
+    if ((not (target == 0)) and (not isDead(target))) then
+        if castTarget:GetStats().CurrentHealth > damage then
+            owner:dealDamageTo(target, damage, TYPE_PHYSICAL, SOURCE_ATTACK, false)
         else
-            owner:getStats():setGold(newGold)
-            owner:dealDamageTo(CastTarget, damage, DAMAGE_TYPE_PHYSICAL, DAMAGE_SOURCE_SPELL)
+            owner:GetStats().Gold = newGold
+            owner:dealDamageTo(target, damage, TYPE_PHYSICAL, SOURCE_ATTACK, false)
         end    
     end
 
     destroyProjectile()
+end
+
+function onUpdate(diff)
+
 end
