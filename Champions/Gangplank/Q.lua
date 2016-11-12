@@ -1,18 +1,17 @@
 Vector2 = require 'Vector2' -- include 2d vector lib 
 
-function onStartCasting()
+function onStartCasting()   
+    
+end
+
+function onFinishCasting()
 	local current = Vector2:new(owner.X, owner.Y)
     local to = (Vector2:new(spell.X, spell.Y) - current):normalize()
     local range = to * 625
     local trueCoords = current + range
 	local target = castTarget
 	
-	addProjectileTarget("pirate_parley_mis", target, false)       
-    
-end
-
-function onFinishCasting()
-
+	addProjectileTarget("pirate_parley_mis", target, false)    
 end
 
 function applyEffects()
