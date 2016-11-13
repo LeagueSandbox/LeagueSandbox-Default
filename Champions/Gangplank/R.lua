@@ -1,7 +1,15 @@
-Vector2 = require 'Vector2' -- include 2d vector lib 
+Vector2 = require 'Vector2' -- include 2d vector lib
 
-function finishCasting()
+function onStartCasting()
+
+end
+
+function onFinishCasting()
+
 end
 
 function applyEffects()
+
 end
+
+function onUpdate(diff)
