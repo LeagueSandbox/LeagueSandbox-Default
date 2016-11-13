@@ -1,26 +1,36 @@
 Vector2 = require 'Vector2' -- include 2d vector lib 
 
-function finishCasting()
-	local castTarget = castTarget
-	local current = Vector2:new(owner.X, owner.Y)
-	if current:distance(Vector2:new(castTarget.X, castTarget.Y)) <= 625 then	
-		addProjectileTarget( castTarget )
-	else
-		print("Target is too far away")
-	end
-	
+function onStartCasting()   
+    
+end
+
+function onFinishCasting()
+    local target = castTarget
+    addProjectileTarget("Disintegrate", target, false)
 end
 
 function applyEffects()
-	local castTarget = castTarget
+    local target = castTarget
+    local AP = owner:GetStats().AbilityPower.Total*0.8
+    local damage = 45 + (spellLevel*35) + AP
 
-    if ( ( not ( castTarget == 0 ) ) and ( not isDead( castTarget ) ) ) then
-		print(getEffectValue(0))
-		local owner = owner;
-		local damage = getEffectValue(0) + owner:getStats():getTotalAp()*0.8
-
-		owner:dealDamageTo( castTarget, damage, DAMAGE_TYPE_MAGICAL, DAMAGE_SOURCE_SPELL );
-	end
-
+    if ( ( not ( target == 0 ) ) and ( not isDead(target ) ) ) then
+        dealMagicalDamage(damage)
+        if (isDead(target)) then
+            -- Mana recover
+            local manaToRecover = 55 + (spellLevel*5)
+            local newMana = owner:GetStats().CurrentMana + manaToRecover
+            local maxMana = owner:GetStats().ManaPoints.Total
+            if newMana >= maxMana then
+                owner:GetStats().CurrentMana = maxMana
+            else
+                owner:GetStats().CurrentMana = newMana
+            end
+        end
+    end
     destroyProjectile()
+end
+
+function onUpdate(diff)
+
 end
