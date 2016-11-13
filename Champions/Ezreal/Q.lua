@@ -16,7 +16,7 @@ end
 function applyEffects()
     local AD = owner:GetStats().AttackDamage.Total*1.1
     local AP = owner:GetStats().AbilityPower.Total*0.4
-    local damage = getEffectValue(0) + AD + AP
+    local damage = 15 + (spellLevel*20) + AD + AP
     owner:dealDamageTo(getTarget(), damage, TYPE_PHYSICAL, SOURCE_ATTACK, false)
     lowerCooldown(0, 1)
     lowerCooldown(1, 1)
