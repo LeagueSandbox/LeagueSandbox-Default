@@ -13,3 +13,5 @@ function applyEffects()
 end
 
 function onUpdate(diff)
+
+end
