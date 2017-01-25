@@ -4,8 +4,8 @@ function onStartCasting()
     local current = Vector2:new(owner.X, owner.Y)
     local to = (Vector2:new(spell.X, spell.Y) - current):normalize()
     local range = to * 1100
-    local trueCoords = current + range
 
+    local trueCoords = current + range
     addLaser(trueCoords.x, trueCoords.y, true)
     spellAnimation("SPELL1", owner)
     addParticle(owner, "Lucian_Q_laser.troy", trueCoords.x, trueCoords.y)
