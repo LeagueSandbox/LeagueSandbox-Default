@@ -33,7 +33,7 @@ using System;
             if (castTarget != null && ApiFunctionManager.IsDead(castTarget))
             {
                 float damage = spell.getEffectValue(0) + owner.GetStats().AttackDamage.Total * 2;
-                owner.dealDamageTo(castTarget, damage, DamageType.DAMAGE_TYPE_PHYSICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
+                owner.DealDamageTo(castTarget, damage, DamageType.DAMAGE_TYPE_PHYSICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
             }
             projectile.setToRemove();
         

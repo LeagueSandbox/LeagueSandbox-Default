@@ -32,7 +32,7 @@ using System;
          {
 
             int reduc = Math.Min(projectile.ObjectsHit.Count, 5);
-            owner.dealDamageTo(spell.Target, (spell.getEffectValue(0) + owner.GetStats().AttackDamage.Total + (1.3f * owner.GetStats().AttackDamage.Total)) + spell.getEffectValue(0) * (1 - reduc / 10), DamageType.DAMAGE_TYPE_PHYSICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
+            owner.DealDamageTo(spell.Target, (spell.getEffectValue(0) + owner.GetStats().AttackDamage.Total + (1.3f * owner.GetStats().AttackDamage.Total)) + spell.getEffectValue(0) * (1 - reduc / 10), DamageType.DAMAGE_TYPE_PHYSICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
             ApiFunctionManager.AddParticleTarget(owner, "caitlyn_Base_peaceMaker_tar_02.troy", spell.Target);
         
          }
