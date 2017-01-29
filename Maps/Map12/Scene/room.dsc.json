@@ -1,0 +1,316 @@
+{
+  "entries": [
+    {
+      "Name": "__Spawn_T1",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_C09",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_HA_AP_HeroTower",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_C015",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_HA_AP_Chains_Long",
+      "Number": -100
+    },
+    {
+      "Name": "Info_HealthPack03",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_HA_AP_BridgeLaneStatue1",
+      "Number": -100
+    },
+    {
+      "Name": "Turret_T1_C_010",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_HA_AP_Poro4",
+      "Number": -100
+    },
+    {
+      "Name": "Turret_T1_C_08",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_HA_AP_Chains_Long2",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_HA_AP_Hermit",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_C02",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_HA_AP_Chains6",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_C04",
+      "Number": -100
+    },
+    {
+      "Name": "Info_OrderRandomThingy02",
+      "Number": -100
+    },
+    {
+      "Name": "AIPath",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_HA_AP_Chains4",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_HA_AP_BridgeLaneStatue4",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_C016",
+      "Number": -100
+    },
+    {
+      "Name": "__LevelSize_",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_C011",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_HA_AP_BridgeLaneStatue2",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_HA_AP_ShpNorth",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_C06",
+      "Number": -100
+    },
+    {
+      "Name": "Turret_T1_C_09",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_HA_AP_Poro2",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_C07",
+      "Number": -100
+    },
+    {
+      "Name": "Info_ChaosRandomThingy01",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_HA_AP_Chains_Long3",
+      "Number": -100
+    },
+    {
+      "Name": "Info_HealthPack01",
+      "Number": -100
+    },
+    {
+      "Name": "OrderShop01",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_C014",
+      "Number": -100
+    },
+    {
+      "Name": "__Spawn_T2",
+      "Number": -100
+    },
+    {
+      "Name": "Turret_T2_L_04",
+      "Number": -100
+    },
+    {
+      "Name": "Info_HealthPack02",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_HA_AP_ShpSouth",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_HA_AP_BridgeLaneStatue5",
+      "Number": -100
+    },
+    {
+      "Name": "Barracks_T1_C1",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_C012",
+      "Number": -100
+    },
+    {
+      "Name": "____P_Order_Spawn_Barracks__C01",
+      "Number": -100
+    },
+    {
+      "Name": "ChaosShop01",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_HA_AP_Poro3",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_C05",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_HA_AP_Chains_Long1",
+      "Number": -100
+    },
+    {
+      "Name": "Turret_T2_L_01",
+      "Number": -100
+    },
+    {
+      "Name": "Turret_OrderTurretShrine",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_HA_AP_Poro6",
+      "Number": -100
+    },
+    {
+      "Name": "Barracks_T2_C1",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_HA_AP_Cutaway",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_HA_AP_BridgeLaneStatue8",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_HA_AP_BridgeLaneStatue7",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_HA_AP_PeriphBridge",
+      "Number": -100
+    },
+    {
+      "Name": "Turret_T2_L_02",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_HA_AP_Viking",
+      "Number": -100
+    },
+    {
+      "Name": "Turret_ChaosTurretShrine",
+      "Number": -100
+    },
+    {
+      "Name": "Info_HealthPack04",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_C010",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_HA_AP_BridgeLaneStatue3",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_HA_AP_BridgeLaneStatue6",
+      "Number": -100
+    },
+    {
+      "Name": "HQ_T1",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_HA_AP_Chains1",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_C013",
+      "Number": -100
+    },
+    {
+      "Name": "Turret_T2_L_03",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_HA_AP_Poro",
+      "Number": -100
+    },
+    {
+      "Name": "HQ_T2",
+      "Number": -100
+    },
+    {
+      "Name": "Turret_T1_C_07",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_C03",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_HA_AP_Hermit_Robot1",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_HA_AP_BannerMidBridge",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_HA_AP_Chains5",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_HA_AP_Poro5",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_HA_AP_Chains3",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_HA_AP_Chains2",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_HA_AP_Poro1",
+      "Number": -100
+    },
+    {
+      "Name": "Info_OrderRandomThingy01",
+      "Number": -100
+    },
+    {
+      "Name": "____P_Chaos_Spawn_Barracks__C01",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_C08",
+      "Number": -100
+    }
+  ]
+}

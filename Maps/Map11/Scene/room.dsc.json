@@ -1,0 +1,16 @@
+{
+  "entries": [
+    {
+      "Name": "chaosShop01",
+      "Number": -100
+    },
+    {
+      "Name": "AIPath",
+      "Number": -100
+    },
+    {
+      "Name": "orderShop01",
+      "Number": -100
+    }
+  ]
+}
