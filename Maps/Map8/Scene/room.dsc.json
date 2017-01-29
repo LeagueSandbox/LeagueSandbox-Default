@@ -1,0 +1,784 @@
+{
+  "entries": [
+    {
+      "Name": "__NAV_6_000",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_6_001",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_6_002",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_6_003",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_6_004",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_6_005",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_6_012",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_7_000",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_7_001",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_7_002",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_7_003",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_8_002",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_7_010",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_8_003",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_8_004",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_8_005",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_8_006",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_8_007",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_8_008",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_8_009",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_8_010",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_8_011",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_8_012",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_8_013",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_9_000",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_9_001",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_6_006",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_6_007",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_6_008",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_6_009",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_6_010",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_6_011",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_7_004",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_7_005",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_7_006",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_7_007",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_7_008",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_7_009",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_7_011",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_7_012",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_8_000",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_8_001",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_9_002",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_9_003",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_9_004",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_9_005",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_9_006",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_9_007",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_9_008",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_9_009",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_9_010",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_9_011",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_5_000",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_5_001",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_5_002",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_5_003",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_5_004",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_5_005",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_5_006",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_5_007",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_5_008",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_1_000",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_1_001",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_1_002",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_1_003",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_1_004",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_1_005",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_1_006",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_1_007",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_2_001",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_2_002",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_2_003",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_2_004",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_2_005",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_2_006",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_3_002",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_2_007",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_3_008",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_3_009",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_3_010",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_4_000",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_4_001",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_4_002",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_4_003",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_4_004",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_4_005",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_4_006",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_4_007",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_2_000",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_1_008",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_2_008",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_2_009",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_3_000",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_3_001",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_3_003",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_3_004",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_3_005",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_3_006",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_3_007",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_4_008",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_0_000",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_0_001",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_0_002",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_0_003",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_0_004",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_0_005",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_0_006",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_0_007",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_0_008",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_0_009",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_0_010",
+      "Number": -100
+    },
+    {
+      "Name": "__NAV_0_011",
+      "Number": -100
+    },
+    {
+      "Name": "Info_NeutralC",
+      "Number": -100
+    },
+    {
+      "Name": "Info_NeutralB_sub1",
+      "Number": -100
+    },
+    {
+      "Name": "Info_NeutralA",
+      "Number": -100
+    },
+    {
+      "Name": "Info_NeutralB_sub2",
+      "Number": -100
+    },
+    {
+      "Name": "Info_NeutralC_sub2",
+      "Number": -100
+    },
+    {
+      "Name": "Info_NeutralC_sub1",
+      "Number": -100
+    },
+    {
+      "Name": "Info_NeutralB",
+      "Number": -100
+    },
+    {
+      "Name": "Info_NeutralA_sub2",
+      "Number": -100
+    },
+    {
+      "Name": "Info_NeutralA_sub1",
+      "Number": -100
+    },
+    {
+      "Name": "Info_SigilB",
+      "Number": -100
+    },
+    {
+      "Name": "Info_SigilA",
+      "Number": -100
+    },
+    {
+      "Name": "Info_HealthRelicA",
+      "Number": -100
+    },
+    {
+      "Name": "Info_HealthRelicB",
+      "Number": -100
+    },
+    {
+      "Name": "Info_HealthRelicC",
+      "Number": -100
+    },
+    {
+      "Name": "Info_LesserRelic6",
+      "Number": -100
+    },
+    {
+      "Name": "Info_LesserRelic7",
+      "Number": -100
+    },
+    {
+      "Name": "Info_LesserRelic1",
+      "Number": -100
+    },
+    {
+      "Name": "Info_LesserRelic2",
+      "Number": -100
+    },
+    {
+      "Name": "Info_LesserRelic3",
+      "Number": -100
+    },
+    {
+      "Name": "Info_LesserRelic4",
+      "Number": -100
+    },
+    {
+      "Name": "Info_LesserRelic5",
+      "Number": -100
+    },
+    {
+      "Name": "Info_LesserRelic8",
+      "Number": -100
+    },
+    {
+      "Name": "Info_SpeedShrine1",
+      "Number": -100
+    },
+    {
+      "Name": "Info_SpeedShrine2",
+      "Number": -100
+    },
+    {
+      "Name": "Info_SpeedShrine3",
+      "Number": -100
+    },
+    {
+      "Name": "Info_SpeedShrine5",
+      "Number": -100
+    },
+    {
+      "Name": "chaosShop01",
+      "Number": -100
+    },
+    {
+      "Name": "orderShop01",
+      "Number": -100
+    },
+    {
+      "Name": "Turret_OrderTurretShrine",
+      "Number": -100
+    },
+    {
+      "Name": "Turret_ChaosTurretShrine",
+      "Number": -100
+    },
+    {
+      "Name": "Turret_OrderTurretShrine1",
+      "Number": -100
+    },
+    {
+      "Name": "Turret_ChaosTurretShrine1",
+      "Number": -100
+    },
+    {
+      "Name": "__Spawn_T2",
+      "Number": -100
+    },
+    {
+      "Name": "__Spawn_T1",
+      "Number": -100
+    },
+    {
+      "Name": "Info_Spawn_Barrier1",
+      "Number": -100
+    },
+    {
+      "Name": "Info_Spawn_Barrier2",
+      "Number": -100
+    },
+    {
+      "Name": "Info_Spawn_Order_Crystal",
+      "Number": -100
+    },
+    {
+      "Name": "Info_Spawn_Chaos_Crystal",
+      "Number": -100
+    },
+    {
+      "Name": "Info_ChaosPortalExit",
+      "Number": -100
+    },
+    {
+      "Name": "Info_OrderPortalExit",
+      "Number": -100
+    },
+    {
+      "Name": "Info_LargeRelic1",
+      "Number": -100
+    },
+    {
+      "Name": "Info_LargeRelic2",
+      "Number": -100
+    },
+    {
+      "Name": "Info_PointA",
+      "Number": -100
+    },
+    {
+      "Name": "Info_PointB",
+      "Number": -100
+    },
+    {
+      "Name": "Info_PointC",
+      "Number": -100
+    },
+    {
+      "Name": "Info_PointD",
+      "Number": -100
+    },
+    {
+      "Name": "Info_PointE",
+      "Number": -100
+    },
+    {
+      "Name": "Info_MinionSpawnE1",
+      "Number": -100
+    },
+    {
+      "Name": "Info_MinionSpawnE2",
+      "Number": -100
+    },
+    {
+      "Name": "Info_MinionSpawnA1",
+      "Number": -100
+    },
+    {
+      "Name": "Info_MinionSpawnA2",
+      "Number": -100
+    },
+    {
+      "Name": "Info_MinionSpawnB1",
+      "Number": -100
+    },
+    {
+      "Name": "Info_MinionSpawnB2",
+      "Number": -100
+    },
+    {
+      "Name": "Info_MinionSpawnC1",
+      "Number": -100
+    },
+    {
+      "Name": "Info_MinionSpawnC2",
+      "Number": -100
+    },
+    {
+      "Name": "Info_MinionSpawnD1",
+      "Number": -100
+    },
+    {
+      "Name": "Info_MinionSpawnD2",
+      "Number": -100
+    },
+    {
+      "Name": "Info_MinionGraveyardA",
+      "Number": -100
+    },
+    {
+      "Name": "Info_MinionGraveyardB",
+      "Number": -100
+    },
+    {
+      "Name": "Info_MinionGraveyardC",
+      "Number": -100
+    },
+    {
+      "Name": "Info_MinionGraveyardD",
+      "Number": -100
+    },
+    {
+      "Name": "Info_MinionGraveyardE",
+      "Number": -100
+    },
+    {
+      "Name": "Info_BombPoint",
+      "Number": -100
+    },
+    {
+      "Name": "__LevelSize_",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_Odin_Windmill_Gears",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_Odin_Windmill_Propellers",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_Odin_Lifts_Buckets",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_Odin_Lifts_Crystal",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_OdinRockSaw02",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_OdinRockSaw01",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_Odin_Drill",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_Odin_SoG_Order",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_OdinClaw",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_SwainBeam1",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_SwainBeam2",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_SwainBeam3",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_Odin_SoG_Chaos",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_OdinCrane",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_OdinCrane1",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_Odin_SOG_Order_Crystal",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_Odin_SOG_Chaos_Crystal",
+      "Number": -100
+    },
+    {
+      "Name": "AIPath",
+      "Number": -100
+    },
+    {
+      "Name": "Lake01",
+      "Number": -100
+    }
+  ]
+}
