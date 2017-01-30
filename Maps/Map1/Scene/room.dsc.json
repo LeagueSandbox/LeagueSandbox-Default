@@ -1,0 +1,156 @@
+{
+  "entries": [
+    {
+      "Name": "Lake01",
+      "Number": -100
+    },
+    {
+      "Name": "Turret_T1_C_02",
+      "Number": -100
+    },
+    {
+      "Name": "Turret_T1_C_01",
+      "Number": -100
+    },
+    {
+      "Name": "Turret_T1_C_07",
+      "Number": -100
+    },
+    {
+      "Name": "Turret_T1_C_03",
+      "Number": -100
+    },
+    {
+      "Name": "Turret_T1_C_06",
+      "Number": -100
+    },
+    {
+      "Name": "Turret_T1_L_02",
+      "Number": -100
+    },
+    {
+      "Name": "Turret_T1_L_03",
+      "Number": -100
+    },
+    {
+      "Name": "Turret_T1_R_02",
+      "Number": -100
+    },
+    {
+      "Name": "Turret_T1_R_03",
+      "Number": -100
+    },
+    {
+      "Name": "Turret_T1_C_04",
+      "Number": -100
+    },
+    {
+      "Name": "Turret_T1_C_05",
+      "Number": -100
+    },
+    {
+      "Name": "Turret_T2_C_05",
+      "Number": -100
+    },
+    {
+      "Name": "Turret_T2_C_04",
+      "Number": -100
+    },
+    {
+      "Name": "Turret_T2_R_03",
+      "Number": -100
+    },
+    {
+      "Name": "Turret_T2_R_02",
+      "Number": -100
+    },
+    {
+      "Name": "Turret_T2_L_02",
+      "Number": -100
+    },
+    {
+      "Name": "Turret_T2_L_03",
+      "Number": -100
+    },
+    {
+      "Name": "Turret_T2_L_01",
+      "Number": -100
+    },
+    {
+      "Name": "Turret_T2_C_02",
+      "Number": -100
+    },
+    {
+      "Name": "Turret_T2_C_01",
+      "Number": -100
+    },
+    {
+      "Name": "Turret_T2_C_03",
+      "Number": -100
+    },
+    {
+      "Name": "Turret_T2_R_01",
+      "Number": -100
+    },
+    {
+      "Name": "HQ_T1",
+      "Number": -100
+    },
+    {
+      "Name": "HQ_T2",
+      "Number": -100
+    },
+    {
+      "Name": "Barracks_T1_R1",
+      "Number": -100
+    },
+    {
+      "Name": "Barracks_T1_C1",
+      "Number": -100
+    },
+    {
+      "Name": "Barracks_T1_L1",
+      "Number": -100
+    },
+    {
+      "Name": "Barracks_T2_C1",
+      "Number": -100
+    },
+    {
+      "Name": "Barracks_T2_R1",
+      "Number": -100
+    },
+    {
+      "Name": "Barracks_T2_L1",
+      "Number": -100
+    },
+    {
+      "Name": "Turret_OrderTurretShrine",
+      "Number": -100
+    },
+    {
+      "Name": "Turret_ChaosTurretShrine",
+      "Number": -100
+    },
+    {
+      "Name": "chaosShop01",
+      "Number": -100
+    },
+    {
+      "Name": "orderShop01",
+      "Number": -100
+    },
+    {
+      "Name": "AIPath",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_Tryndamere",
+      "Number": -100
+    },
+    {
+      "Name": "LevelProp_Teemo",
+      "Number": -100
+    }
+  ]
+}
