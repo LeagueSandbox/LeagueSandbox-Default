@@ -1,35 +1,28 @@
-using System;
- using System.Collections.Generic;
- using System.Linq;
- using System.Text;
- using System.Threading.Tasks;
- using System.Numerics;
- using LeagueSandbox.GameServer.Logic.GameObjects;
- using LeagueSandbox.GameServer.Logic.API;
+using LeagueSandbox.GameServer.Logic.GameObjects;
 
- namespace Nautilus
+namespace Nautilus
  {
      public class R
      {
-         public static void onStartCasting(Champion owner, Spell spell, Unit target)
+         public static void OnStartCasting(Champion owner, Spell spell, Unit target)
          {
 
         
         
          }
-         public static void onFinishCasting(Champion owner, Spell spell, Unit target)
+         public static void OnFinishCasting(Champion owner, Spell spell, Unit target)
          {
 
         
         
          }
-         public static void applyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
+         public static void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
          {
 
         
         
          }
-         public static void onUpdate(double diff) {
+         public static void OnUpdate(double diff) {
        
         
           

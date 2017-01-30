@@ -1,9 +1,4 @@
-﻿using System;
- using System.Collections.Generic;
- using System.Linq;
- using System.Text;
- using System.Threading.Tasks;
- using System.Numerics;
+﻿using System.Numerics;
  using LeagueSandbox.GameServer.Logic.GameObjects;
  using LeagueSandbox.GameServer.Logic.API;
 
@@ -11,11 +6,11 @@ namespace Ezreal
 {
     public class E
     {
-        public static void onStartCasting(Champion owner, Spell spell, Unit target)
+        public static void OnStartCasting(Champion owner, Spell spell, Unit target)
         {
         }
 
-        public static void onFinishCasting(Champion owner, Spell spell, Unit target)
+        public static void OnFinishCasting(Champion owner, Spell spell, Unit target)
         {
             var current = new Vector2(owner.X, owner.Y);
             var to = new Vector2(spell.X, spell.Y) - current;
@@ -60,14 +55,14 @@ namespace Ezreal
             }
         }
 
-        public static void applyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
+        public static void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
         {
             owner.DealDamageTo(target, 25f + spell.Level * 50f + owner.GetStats().AbilityPower.Total * 0.75f,
                 DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
             projectile.setToRemove();
         }
 
-        public static void onUpdate(double diff)
+        public static void OnUpdate(double diff)
         {
         }
     }

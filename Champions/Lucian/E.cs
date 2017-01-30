@@ -6,12 +6,12 @@ namespace Lucian
 {
     public class E
     {
-        public static void onStartCasting(Champion owner, Spell spell, Unit target)
+        public static void OnStartCasting(Champion owner, Spell spell, Unit target)
         {
 
         }
 
-        public static void onFinishCasting(Champion owner, Spell spell, Unit target)
+        public static void OnFinishCasting(Champion owner, Spell spell, Unit target)
         {
             var current = new Vector2(owner.X, owner.Y);
             var to = Vector2.Normalize(new Vector2(spell.X, spell.Y) - current);
@@ -21,12 +21,12 @@ namespace Lucian
             ApiFunctionManager.DashToLocation(owner, trueCoords.X, trueCoords.Y, 1500, false, "SPELL3");
         }
 
-        public static void applyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
+        public static void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
         {
 
         }
 
-        public static void onUpdate(double diff)
+        public static void OnUpdate(double diff)
         {
 
         }
