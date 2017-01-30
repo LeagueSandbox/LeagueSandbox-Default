@@ -34,7 +34,7 @@ namespace Olaf
         public static void applyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
         {
             ApiFunctionManager.AddParticleTarget(owner, "olaf_axeThrow_tar.troy", target, 1);
-            var AD = owner.GetStats().AttackDamage.Total * 1.0f;
+            var AD = owner.GetStats().AttackDamage.Total * 0.9f;
             var AP = owner.GetStats().AttackDamage.Total * 0.0f;
             var damage = 15 + spell.Level * 20 + AD + AP;
             owner.DealDamageTo(target, damage, DamageType.DAMAGE_TYPE_PHYSICAL, DamageSource.DAMAGE_SOURCE_ATTACK, false);
