@@ -5,22 +5,22 @@ namespace Annie
 {
     public class Q
     {
-        public static void onStartCasting(Champion owner, Spell spell, Unit target)
+        public static void OnStartCasting(Champion owner, Spell spell, Unit target)
         {
 
         }
 
-        public static void onFinishCasting(Champion owner, Spell spell, Unit target)
+        public static void OnFinishCasting(Champion owner, Spell spell, Unit target)
         {
 
             spell.AddProjectileTarget("Disintegrate", target, false);
 
         }
 
-        public static void applyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
+        public static void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
         {
-            var AP = owner.GetStats().AbilityPower.Total * 0.8f;
-            var damage = 45 + spell.Level * 35 + AP;
+            var ap = owner.GetStats().AbilityPower.Total * 0.8f;
+            var damage = 45 + spell.Level * 35 + ap;
 
             if (target != null && !ApiFunctionManager.IsDead(target))
             {
@@ -45,7 +45,7 @@ namespace Annie
 
         }
 
-        public static void onUpdate(double diff)
+        public static void OnUpdate(double diff)
         {
 
         }

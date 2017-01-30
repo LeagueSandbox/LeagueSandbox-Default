@@ -6,7 +6,7 @@ namespace Lux
 {
     public class R
     {
-        public static void onStartCasting(Champion owner, Spell spell, Unit target)
+        public static void OnStartCasting(Champion owner, Spell spell, Unit target)
         {
             var current = new Vector2(owner.X, owner.Y);
             var to = Vector2.Normalize(new Vector2(spell.X, spell.Y) - current);
@@ -20,17 +20,17 @@ namespace Lux
             ApiFunctionManager.AddParticleTarget(owner, "LuxMaliceCannon_cas.troy", owner);
         }
 
-        public static void onFinishCasting(Champion owner, Spell spell, Unit target)
+        public static void OnFinishCasting(Champion owner, Spell spell, Unit target)
         {
 
         }
 
-        public static void applyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
+        public static void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
         {
             owner.DealDamageTo(spell.Target, 200f + spell.Level * 100f + owner.GetStats().AbilityPower.Total * 0.75f, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
         }
 
-        public static void onUpdate(double diff)
+        public static void OnUpdate(double diff)
         {
 
         }

@@ -6,12 +6,12 @@ namespace Ezreal
 {
     public class Q
     {
-        public static void onStartCasting(Champion owner, Spell spell, Unit target)
+        public static void OnStartCasting(Champion owner, Spell spell, Unit target)
         {
             ApiFunctionManager.AddParticleTarget(owner, "ezreal_bow.troy", owner, 1, "L_HAND");
         }
 
-        public static void onFinishCasting(Champion owner, Spell spell, Unit target)
+        public static void OnFinishCasting(Champion owner, Spell spell, Unit target)
         {
             var current = new Vector2(owner.X, owner.Y);
             var to = Vector2.Normalize(new Vector2(spell.X, spell.Y) - current);
@@ -21,11 +21,11 @@ namespace Ezreal
             spell.AddProjectile("EzrealMysticShotMissile", trueCoords.X, trueCoords.Y);
         }
 
-        public static void applyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
+        public static void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
         {
-            var AD = owner.GetStats().AttackDamage.Total * 1.1f;
-            var AP = owner.GetStats().AbilityPower.Total * 0.4f;
-            var damage = 15 + spell.Level * 20 + AD + AP;
+            var ad = owner.GetStats().AttackDamage.Total * 1.1f;
+            var ap = owner.GetStats().AbilityPower.Total * 0.4f;
+            var damage = 15 + spell.Level * 20 + ad + ap;
             owner.DealDamageTo(target, damage, DamageType.DAMAGE_TYPE_PHYSICAL, DamageSource.DAMAGE_SOURCE_ATTACK, false);
             spell.LowerCooldown(0, 1);
             spell.LowerCooldown(1, 1);
@@ -34,7 +34,7 @@ namespace Ezreal
             projectile.setToRemove();
         }
 
-        public static void onUpdate(double diff)
+        public static void OnUpdate(double diff)
         {
 
         }

@@ -1,9 +1,4 @@
-using System;
- using System.Collections.Generic;
- using System.Linq;
- using System.Text;
- using System.Threading.Tasks;
- using System.Numerics;
+using System.Numerics;
  using LeagueSandbox.GameServer.Logic.GameObjects;
  using LeagueSandbox.GameServer.Logic.API;
 
@@ -11,13 +6,13 @@ using System;
  {
      public class R
      {
-         public static void onStartCasting(Champion owner, Spell spell, Unit target)
+         public static void OnStartCasting(Champion owner, Spell spell, Unit target)
          {
 
         
         
          }
-         public static void onFinishCasting(Champion owner, Spell spell, Unit target)
+         public static void OnFinishCasting(Champion owner, Spell spell, Unit target)
          {
             Unit castTarget = target;
             Vector2 current = new Vector2(owner.X, owner.Y);
@@ -27,7 +22,7 @@ using System;
             }
         
          }
-         public static void applyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
+         public static void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
          {
             Unit castTarget = target;
             if (castTarget != null && ApiFunctionManager.IsDead(castTarget))
@@ -38,7 +33,7 @@ using System;
             projectile.setToRemove();
         
          }
-         public static void onUpdate(double diff) {
+         public static void OnUpdate(double diff) {
        
         
           

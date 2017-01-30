@@ -1,9 +1,4 @@
-using System;
- using System.Collections.Generic;
- using System.Linq;
- using System.Text;
- using System.Threading.Tasks;
- using System.Numerics;
+using System.Numerics;
  using LeagueSandbox.GameServer.Logic.GameObjects;
  using LeagueSandbox.GameServer.Logic.API;
 
@@ -11,12 +6,12 @@ namespace Blitzcrank
 {
     public class Q
     {
-        public static void onStartCasting(Champion owner, Spell spell, Unit target)
+        public static void OnStartCasting(Champion owner, Spell spell, Unit target)
         {
             spell.spellAnimation("SPELL1", owner);
         }
 
-        public static void onFinishCasting(Champion owner, Spell spell, Unit target)
+        public static void OnFinishCasting(Champion owner, Spell spell, Unit target)
         {
             var current = new Vector2(owner.X, owner.Y);
             var to = Vector2.Normalize(new Vector2(spell.X, spell.Y) - current);
@@ -26,10 +21,10 @@ namespace Blitzcrank
             spell.AddProjectile("RocketGrabMissile", trueCoords.X, trueCoords.Y);
         }
 
-        public static void applyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
+        public static void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
         {
-            var AP = owner.GetStats().AbilityPower.Total;
-            var damage = 25 + spell.Level * 55 + AP;
+            var ap = owner.GetStats().AbilityPower.Total;
+            var damage = 25 + spell.Level * 55 + ap;
             owner.DealDamageTo(spell.Target, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
 
             if (!spell.Target.IsDead)
@@ -46,7 +41,7 @@ namespace Blitzcrank
             projectile.setToRemove();
         }
 
-        public static void onUpdate(double diff)
+        public static void OnUpdate(double diff)
         {
 
         }
