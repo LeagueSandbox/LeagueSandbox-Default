@@ -8,6 +8,7 @@ namespace Ezreal
     {
         public static void OnStartCasting(Champion owner, Spell spell, Unit target)
         {
+
         }
 
         public static void OnFinishCasting(Champion owner, Spell spell, Unit target)
@@ -64,6 +65,7 @@ namespace Ezreal
 
         public static void OnUpdate(double diff)
         {
+
         }
     }
 }
