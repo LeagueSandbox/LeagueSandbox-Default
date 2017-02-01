@@ -12,9 +12,7 @@ namespace Annie
 
         public static void OnFinishCasting(Champion owner, Spell spell, Unit target)
         {
-
             spell.AddProjectileTarget("Disintegrate", target, false);
-
         }
 
         public static void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)

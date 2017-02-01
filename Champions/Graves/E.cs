@@ -24,7 +24,7 @@ namespace Graves
 
         public static void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
         {
-            //owner.AddBuff(new Buff(game, "Quickdraw", 4, 0, owner));
+            
         }
 
         public static void OnUpdate(double diff)
