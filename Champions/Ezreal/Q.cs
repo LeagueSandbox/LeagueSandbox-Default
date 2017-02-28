@@ -16,6 +16,8 @@ namespace Ezreal
         public void OnDeactivate(Champion owner) { }
         public void OnStartCasting(Champion owner, Spell spell, Unit target){
             ApiFunctionManager.AddParticleTarget(owner, "ezreal_bow.troy", owner, 1, "L_HAND");
+
+            owner.AddBuffGameScript("Quickdraw", "Quickdraw", spell);
         }
         public void OnFinishCasting(Champion owner, Spell spell, Unit target) {
             var current = new Vector2(owner.X, owner.Y);
