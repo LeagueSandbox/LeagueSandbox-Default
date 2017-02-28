@@ -1,38 +1,22 @@
 using System;
- using System.Collections.Generic;
- using System.Linq;
- using System.Text;
- using System.Threading.Tasks;
- using System.Numerics;
- using LeagueSandbox.GameServer.Logic.GameObjects;
- using LeagueSandbox.GameServer.Logic.API;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Numerics;
+using LeagueSandbox.GameServer.Logic.GameObjects;
+using LeagueSandbox.GameServer.Logic.API;
+using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
- namespace JarvanIV
- {
-     public class Q
-     {
-         public static void onStartCasting(Champion owner, Spell spell, Unit target)
-         {
-
-        
-        
-         }
-         public static void onFinishCasting(Champion owner, Spell spell, Unit target)
-         {
-
-        
-        
-         }
-         public static void applyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
-         {
-
-        
-        
-         }
-         public static void onUpdate(double diff) {
-       
-        
-          
-         }
+namespace JarvanIV
+{
+    public class Q : GameScript
+    {
+        public void OnActivate(Champion owner) { }
+        public void OnDeactivate(Champion owner) { }
+        public void OnStartCasting(Champion owner, Spell spell, Unit target){}
+        public void OnFinishCasting(Champion owner, Spell spell, Unit target) {}
+        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile) {}
+        public void OnUpdate(double diff) {}
      }
- }
+}
