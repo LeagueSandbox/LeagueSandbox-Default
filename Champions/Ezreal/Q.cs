@@ -29,6 +29,13 @@ namespace Ezreal
             var trueCoords = current + range;
 
             spell.AddProjectile("EzrealMysticShotMissile", trueCoords.X, trueCoords.Y);
+
+            //Create an extra spell after 3 seconds to test
+            ApiFunctionManager.LogInfo("Finished casting, creating timer");
+            ApiFunctionManager.CreateTimer(3.0f, () => {
+                ApiFunctionManager.LogInfo("3 second timer finished, adding another projectile");
+                spell.AddProjectile("EzrealMysticShotMissile", trueCoords.X, trueCoords.Y);
+            });
         }
         public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile) {
             var ad = owner.GetStats().AttackDamage.Total * 1.1f;
