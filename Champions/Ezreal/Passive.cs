@@ -12,7 +12,16 @@ namespace Ezreal
 {
     public class Passive : GameScript
     {
-        public void OnActivate(Champion owner) { }
+        public void OnActivate(Champion owner)
+        {
+            ApiFunctionManager.LogInfo("Ezreal Passive OnActivate");
+            ApiEventManager.addListenerOnChampionDamaged(this, owner, selfWasDamaged);
+        }
+
+        private void selfWasDamaged()
+        {
+            ApiFunctionManager.LogInfo("Ezreal was damaged");
+        }
         public void OnDeactivate(Champion owner) { }
         public void OnStartCasting(Champion owner, Spell spell, Unit target){}
         public void OnFinishCasting(Champion owner, Spell spell, Unit target) {}

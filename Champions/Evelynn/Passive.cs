@@ -12,8 +12,19 @@ namespace Evelynn
 {
     public class Passive : GameScript
     {
-        public void OnActivate(Champion owner) { }
-        public void OnDeactivate(Champion owner) { }
+        public void OnActivate(Champion owner) {
+            ApiEventManager.addListenerOnChampionDamaged(this, owner, selfWasDamaged);
+        }
+
+        private void selfWasDamaged()
+        {
+
+        }
+
+        public void OnDeactivate(Champion owner) {
+            //Listeners are automatically removed when GameScripts deactivate
+        }
+
         public void OnStartCasting(Champion owner, Spell spell, Unit target){}
         public void OnFinishCasting(Champion owner, Spell spell, Unit target) {}
         public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile) {}
