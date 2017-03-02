@@ -15,7 +15,7 @@ namespace Ezreal
         public void OnActivate(Champion owner)
         {
             ApiFunctionManager.LogInfo("Ezreal Passive OnActivate");
-            ApiEventManager.addListenerOnChampionDamaged(this, owner, selfWasDamaged);
+            ApiEventManager.OnChampionDamageTaken.AddListener(this, owner, selfWasDamaged);
         }
 
         private void selfWasDamaged()
