@@ -13,7 +13,7 @@ namespace Evelynn
     public class Passive : GameScript
     {
         public void OnActivate(Champion owner) {
-            ApiEventManager.addListenerOnChampionDamaged(this, owner, selfWasDamaged);
+            ApiEventManager.OnChampionDamaged.AddListener(this, owner, selfWasDamaged);
         }
 
         private void selfWasDamaged()
