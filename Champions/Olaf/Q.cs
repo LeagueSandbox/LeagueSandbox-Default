@@ -22,10 +22,10 @@ namespace Olaf
             var to = new Vector2(spell.X, spell.Y) - current;
             Vector2 trueCoords;
  
-            if (to.Length() > 1650)
+            if (to.Length() > 1651)
             {
                 to = Vector2.Normalize(to);
-                var range = to * 1650;
+                var range = to * 1651;
                 trueCoords = current + range;
             }
             else
