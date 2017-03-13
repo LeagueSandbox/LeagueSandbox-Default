@@ -9,13 +9,12 @@ namespace Quickdraw
         ChampionStatModifier statMod = new ChampionStatModifier();
         public void OnActivate(Champion owner, Spell ownerSpell)
         {
-            statMod.AttackSpeed.PercentBonus = (ownerSpell.Level + 2) * 10;
-            owner.AddStatModifier(statMod);
+
         }
 
         public void OnDeactivate(Champion owner)
         {
-            owner.RemoveStatModifier(statMod);
+
         }
 
         public void OnUpdate(double diff)
@@ -25,12 +24,13 @@ namespace Quickdraw
 
         public void OnActivate(Unit unit, Spell ownerSpell)
         {
-
+            statMod.AttackSpeed.PercentBonus = (ownerSpell.Level + 2) * 10;
+            unit.AddStatModifier(statMod);
         }
 
         public void OnDeactivate(Unit unit)
         {
-
+            unit.RemoveStatModifier(statMod);
         }
     }
 }
