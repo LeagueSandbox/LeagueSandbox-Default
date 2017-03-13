@@ -22,5 +22,15 @@ namespace Quickdraw
         {
             
         }
+
+        public void OnActivate(Unit unit, Spell ownerSpell)
+        {
+
+        }
+
+        public void OnDeactivate(Unit unit)
+        {
+
+        }
     }
 }
