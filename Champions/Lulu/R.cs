@@ -16,14 +16,8 @@ namespace Lulu
         public void OnDeactivate(Champion owner) { }
         public void OnStartCasting(Champion owner, Spell spell, Unit target)
         {
-            var buff = owner.AddBuffGameScript("LuluR", "LuluR", spell);
-            var visualBuff = ApiFunctionManager.AddBuffHUDVisual("LuluR", 7.0f, 1, owner);
-            ApiFunctionManager.CreateTimer(7.0f, () =>
-            {
-                ApiFunctionManager.RemoveBuffHUDVisual(visualBuff);
-                owner.RemoveBuffGameScript(buff);
-            });
-
+            owner.AddBuffGameScript("LuluR", "LuluR", spell, removeAfter: 7.0f, isUnique: true);
+            ApiFunctionManager.AddBuffHUDVisual("LuluR", 7.0f, 1, owner, removeAfter: 7.0f);
         }
         public void OnFinishCasting(Champion owner, Spell spell, Unit target)
         {

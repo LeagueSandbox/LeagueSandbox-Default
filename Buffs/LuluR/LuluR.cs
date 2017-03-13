@@ -11,23 +11,13 @@ namespace LuluR
 
         public void OnActivate(Unit unit, Spell ownerSpell)
         {
-
-        }
-
-        public void OnActivate(Champion owner, Spell ownerSpell)
-        {
             statMod.Size.PercentBonus = statMod.Size.PercentBonus + 1;
-            owner.AddStatModifier(statMod);
+            unit.AddStatModifier(statMod);
         }
 
         public void OnDeactivate(Unit unit)
         {
-
-        }
-
-        public void OnDeactivate(Champion owner)
-        {
-            owner.RemoveStatModifier(statMod);
+            unit.RemoveStatModifier(statMod);
         }
 
         public void OnUpdate(double diff)
