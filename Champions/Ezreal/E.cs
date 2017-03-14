@@ -1,18 +1,23 @@
-﻿using System.Numerics;
- using LeagueSandbox.GameServer.Logic.GameObjects;
- using LeagueSandbox.GameServer.Logic.API;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Numerics;
+using LeagueSandbox.GameServer.Logic.GameObjects;
+using LeagueSandbox.GameServer.Logic.API;
+using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
 namespace Ezreal
 {
-    public class E
+    public class E : GameScript
     {
-        public static void OnStartCasting(Champion owner, Spell spell, Unit target)
-        {
+        public void OnActivate(Champion owner) { }
+        public void OnDeactivate(Champion owner) { }
+        public void OnStartCasting(Champion owner, Spell spell, Unit target){
 
         }
-
-        public static void OnFinishCasting(Champion owner, Spell spell, Unit target)
-        {
+        public void OnFinishCasting(Champion owner, Spell spell, Unit target) {
             var current = new Vector2(owner.X, owner.Y);
             var to = new Vector2(spell.X, spell.Y) - current;
             Vector2 trueCoords;
@@ -55,17 +60,13 @@ namespace Ezreal
                 }
             }
         }
-
-        public static void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
-        {
+        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile) {
             owner.DealDamageTo(target, 25f + spell.Level * 50f + owner.GetStats().AbilityPower.Total * 0.75f,
                 DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
             projectile.setToRemove();
         }
-
-        public static void OnUpdate(double diff)
-        {
+        public void OnUpdate(double diff) {
 
         }
-    }
+     }
 }

@@ -1,15 +1,18 @@
 using LeagueSandbox.GameServer.Logic.GameObjects;
 using LeagueSandbox.GameServer.Logic.API;
+using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
+using System;
+
 namespace Global
 {
-    public static class SummonerHeal
+    public class SummonerHeal : GameScript
     {
-        public static void OnStartCasting(Champion owner, Spell spell, Unit target)
+        public void OnStartCasting(Champion owner, Spell spell, Unit target)
         {
 
         }
 
-        public static void OnFinishCasting(Champion owner, Spell spell, Unit target)
+        public void OnFinishCasting(Champion owner, Spell spell, Unit target)
         {
             var units = ApiFunctionManager.GetChampionsInRange(owner, 850, true);
 
@@ -80,14 +83,22 @@ namespace Global
             ApiFunctionManager.AddParticleTarget(owner, "global_ss_heal_speedboost.troy", owner);
         }
 
-        public static void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
+        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
         {
 
         }
 
-        public static void OnUpdate(double diff)
+        public void OnUpdate(double diff)
         {
 
+        }
+
+        public void OnActivate(Champion owner)
+        {
+        }
+
+        public void OnDeactivate(Champion owner)
+        {
         }
     }
 }

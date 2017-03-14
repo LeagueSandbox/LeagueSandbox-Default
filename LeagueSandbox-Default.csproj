@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Buffs\LuluR\LuluR.cs" />
     <Compile Include="Buffs\Quickdraw\Quickdraw.cs" />
     <Compile Include="Champions\Aatrox\Q.cs" />
     <Compile Include="Champions\Aatrox\W.cs" />

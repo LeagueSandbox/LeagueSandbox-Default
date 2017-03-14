@@ -1,17 +1,22 @@
-using System.Numerics;
 using LeagueSandbox.GameServer.Logic.GameObjects;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using LeagueSandbox.GameServer.Logic.GameObjects;
+using LeagueSandbox.GameServer.Logic.API;
+using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
 namespace Kalista
 {
-    public class Passive
+    public class Passive : GameScript
     {
-        public static void OnUpdate(Unit owner, double diff) { }
-        public static void OnDamageTaken(Unit owner, Unit attacker, float damage, DamageType type, DamageSource source) { }
-        public static void OnAutoAttack(Unit owner, Unit target) { }
-        public static void OnDealDamage(Unit owner, Unit target, float damage, DamageType damageType, DamageSource source) { }
-        public static void OnSpellCast(Unit owner, Vector2 coords, Spell slot, Unit target) { }
-        public static void OnDie(Unit owner, Unit killer) { }
-        public static void OnCollideWithTerrain(Unit owner) { }
-        public static void OnCollide(Unit owner, Unit collider) { }
+        public void OnActivate(Champion owner) { }
+        public void OnDeactivate(Champion owner) { }
+        public void OnStartCasting(Champion owner, Spell spell, Unit target){}
+        public void OnFinishCasting(Champion owner, Spell spell, Unit target) {}
+        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile) {}
+        public void OnUpdate(double diff) {}
     }
 }

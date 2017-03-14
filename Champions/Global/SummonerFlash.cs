@@ -1,17 +1,18 @@
 using System.Numerics;
 using LeagueSandbox.GameServer.Logic.GameObjects;
 using LeagueSandbox.GameServer.Logic.API;
+using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
 namespace Global
 {
-    public static class SummonerFlash
+    public class SummonerFlash : GameScript
     {
-        public static void OnStartCasting(Champion owner, Spell spell, Unit target)
+        public void OnStartCasting(Champion owner, Spell spell, Unit target)
         {
 
         }
 
-        public static void OnFinishCasting(Champion owner, Spell spell, Unit target)
+        public void OnFinishCasting(Champion owner, Spell spell, Unit target)
         {
             var current = new Vector2(owner.X, owner.Y);
             var to = new Vector2(spell.X, spell.Y) - current;
@@ -34,14 +35,22 @@ namespace Global
             ApiFunctionManager.AddParticleTarget(owner, "global_ss_flash_02.troy", owner);
         }
 
-        public static void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
+        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
         {
 
         }
 
-        public static void OnUpdate(double diff)
+        public void OnUpdate(double diff)
         {
 
+        }
+
+        public void OnActivate(Champion owner)
+        {
+        }
+
+        public void OnDeactivate(Champion owner)
+        {
         }
     }
 }

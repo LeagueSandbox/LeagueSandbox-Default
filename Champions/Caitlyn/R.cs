@@ -1,21 +1,26 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Numerics;
 using LeagueSandbox.GameServer.Logic.GameObjects;
+using LeagueSandbox.GameServer.Logic.API;
+using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
 namespace Caitlyn
 {
-    public class R
+    public class R : GameScript
     {
-        public static void OnStartCasting(Champion owner, Spell spell, Unit target)
-        {
+        public void OnActivate(Champion owner) { }
+        public void OnDeactivate(Champion owner) { }
+        public void OnStartCasting(Champion owner, Spell spell, Unit target){
 
         }
-
-        public static void OnFinishCasting(Champion owner, Spell spell, Unit target)
-        {
+        public void OnFinishCasting(Champion owner, Spell spell, Unit target) {
             spell.AddProjectileTarget("CaitlynAceintheHoleMissile", target);
         }
-
-        public static void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
-        {
+        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile) {
             if (target != null && !target.IsDead)
             {
                 var damage = spell.getEffectValue(0) + owner.GetStats().AttackDamage.Total * 2;
@@ -23,10 +28,8 @@ namespace Caitlyn
             }
             projectile.setToRemove();
         }
-
-        public static void OnUpdate(double diff)
-        {
+        public void OnUpdate(double diff) {
 
         }
-    }
+     }
 }
