@@ -26,7 +26,7 @@ namespace Garen
                 ApiFunctionManager.RemoveParticle(p);
             });
 
-            for (float i = 0.0f; i <= 3.0; i+= 0.5f)
+            for (float i = 0.0f; i < 3.0; i+= 0.5f)
             {
                 ApiFunctionManager.CreateTimer(i, () =>
                 {
