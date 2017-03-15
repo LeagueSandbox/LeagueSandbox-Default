@@ -36,7 +36,7 @@ namespace Garen
         }
         private void ApplySpinDamage(Champion owner, Spell spell, Unit target)
         {
-            List<Unit> units = ApiFunctionManager.GetUnitsInRange(owner, 500, true);
+            List<Unit> units = ApiFunctionManager.GetUnitsInRange(owner, 175, true);
             foreach (Unit unit in units)
             {
                 if (unit.Team != owner.Team)
