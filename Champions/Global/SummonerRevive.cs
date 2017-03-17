@@ -19,7 +19,16 @@ namespace Global
                 return;
             }
             owner.Respawn();
+
+            ChampionStatModifier statMod = new ChampionStatModifier();
+            //statMod.MoveSpeed.PercentBonus = 125.0f;
             ApiFunctionManager.AddParticleTarget(owner, "Global_SS_Revive.troy", owner);
+            var visualBuff = ApiFunctionManager.AddBuffHUDVisual("SummonerReviveSpeedBoost", 12.0f, 1, owner);
+            ApiFunctionManager.CreateTimer(12.0f, () =>
+            {
+                ApiFunctionManager.RemoveBuffHUDVisual(visualBuff);
+                //owner.RemoveStatModifier(statMod);
+            });
         }
 
         public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
