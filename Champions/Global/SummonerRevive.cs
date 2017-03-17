@@ -21,13 +21,14 @@ namespace Global
             owner.Respawn();
 
             ChampionStatModifier statMod = new ChampionStatModifier();
-            //statMod.MoveSpeed.PercentBonus = 125.0f;
+            statMod.MoveSpeed.PercentBonus = 125.0f / 100.0f;
+            owner.AddStatModifier(statMod);
             ApiFunctionManager.AddParticleTarget(owner, "Global_SS_Revive.troy", owner);
             var visualBuff = ApiFunctionManager.AddBuffHUDVisual("SummonerReviveSpeedBoost", 12.0f, 1, owner);
             ApiFunctionManager.CreateTimer(12.0f, () =>
             {
                 ApiFunctionManager.RemoveBuffHUDVisual(visualBuff);
-                //owner.RemoveStatModifier(statMod);
+                owner.RemoveStatModifier(statMod);
             });
         }
 
