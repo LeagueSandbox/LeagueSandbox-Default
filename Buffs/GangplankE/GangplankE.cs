@@ -10,12 +10,9 @@ namespace GangplankE
 
         public void OnActivate(Unit unit, Spell ownerSpell)
         {
-
             statMod.AttackDamage.BaseBonus = 5 + ownerSpell.Level * 7;
             statMod.MoveSpeed.PercentBonus = (5 + ownerSpell.Level * 3) / 100f;
             unit.AddStatModifier(statMod);
-
-            
         }
 
         public void OnDeactivate(Unit unit)

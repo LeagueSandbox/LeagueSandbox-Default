@@ -23,19 +23,13 @@ namespace Veigar
             {
                 ApiFunctionManager.AddParticleTarget(owner, "Veigar_Base_Q_cas.troy", owner);
             }
-            
-            
-
         }
-        public void OnFinishCasting(Champion owner, Spell spell, Unit target) {
-
+        public void OnFinishCasting(Champion owner, Spell spell, Unit target)
+        {
             spell.AddProjectileTarget("VeigarBalefulStrike", target);
-            
-            
         }
         public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
         {
-
             // 60% of your own AP
             var ap = owner.GetStats().AbilityPower.Total * 0.6f;
             // 80/125/170/215/260 Damage + Your AP
@@ -59,7 +53,6 @@ namespace Veigar
                 {
                     ApiFunctionManager.AddParticleTarget(owner, "Veigar_Skin08_Q_powerup.troy", owner);
                     ApiFunctionManager.AddParticleTarget(owner, "Veigar_Skin08_Q_minionKill.troy", owner);
-                    
                 }
                 else
                 {
@@ -80,7 +73,6 @@ namespace Veigar
                 {
                     ApiFunctionManager.AddParticleTarget(owner, "Veigar_Base_Q_powerup.troy", owner);
                 }
-                
             }
             //if Q kills a Monster --> Add 2/4/6/8/10 permanent AP
             if (ApiFunctionManager.IsDead(target) && ApiFunctionManager.UnitIsMonster(target))
@@ -98,8 +90,6 @@ namespace Veigar
                 }
             }
         }
-        public void OnUpdate(double diff) {
-
-        }
+        public void OnUpdate(double diff) { }
      }
 }

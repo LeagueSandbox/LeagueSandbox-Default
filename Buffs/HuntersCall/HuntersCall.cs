@@ -13,7 +13,6 @@ namespace HuntersCall
         {
             statMod.AttackSpeed.PercentBonus = 0.2f + ownerSpell.Level * 0.1f;
             unit.AddStatModifier(statMod);
-
         }
 
         public void OnDeactivate(Unit unit)

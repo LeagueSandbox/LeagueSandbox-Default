@@ -25,10 +25,6 @@ namespace Jinx
             ApiFunctionManager.FaceDirection(owner, trueCoords, true, 0);
             spell.spellAnimation("SPELL4", owner);
             ApiFunctionManager.AddParticleTarget(owner, "Jinx_R_Cas.troy", owner, 1, "Rocket_Launcher_End");
-
-            
-
-            
         }
         public void OnFinishCasting(Champion owner, Spell spell, Unit target)
         {
@@ -38,10 +34,7 @@ namespace Jinx
             var trueCoords = current + range;
 
             spell.AddProjectile("JinxR", trueCoords.X, trueCoords.Y);
-
         }
-
-        
         public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
         {
             List<Unit> units = ApiFunctionManager.GetUnitsInRange(owner, 225, true);
@@ -55,7 +48,6 @@ namespace Jinx
                     float misHPDMG = new[] { 0.25f, 0.3f, 0.35f }[spell.Level - 1] * misHP;
                     float minDMG = 75 + spell.Level * 50 + bonusAd * 0.5f;
 
-
                     for (int i = 0; i < 10; i++)
                     {
                         ApiFunctionManager.CreateTimer(0.1f, () =>
@@ -64,17 +56,12 @@ namespace Jinx
                             var damage = dmg + misHPDMG;
                             owner.DealDamageTo(target, damage, DamageType.DAMAGE_TYPE_PHYSICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
                             projectile.setToRemove();
-
                         });
-
                     }
                 }
             }
 
         }
-        public void OnUpdate(double diff)
-        {
-
-        }
+        public void OnUpdate(double diff) { }
     }
 }

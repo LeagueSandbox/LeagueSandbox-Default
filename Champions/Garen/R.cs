@@ -16,9 +16,8 @@ namespace Garen
         public void OnDeactivate(Champion owner) { }
         public void OnStartCasting(Champion owner, Spell spell, Unit target)
         {
-            ApiFunctionManager.PlaySpellAnimation(owner, "Spell4");
+            spell.spellAnimation("SPELL4", owner);
             ApiFunctionManager.AddParticleTarget(owner, "Garen_Base_R_Cas.troy", owner);
-
         }
         public void OnFinishCasting(Champion owner, Spell spell, Unit target)
         {
@@ -27,7 +26,6 @@ namespace Garen
             ApiFunctionManager.AddParticleTarget(owner, "Garen_Base_R_Tar_Impact.troy", target);
             ApplyDamage(owner, spell, target);
         }
-
         public void ApplyDamage(Champion owner, Spell spell, Unit target)
         {
             float misHealth = new[] { .286f, .333f, .40f}[spell.Level - 1] * (target.GetStats().HealthPoints.Total - target.GetStats().CurrentHealth);
@@ -38,16 +36,8 @@ namespace Garen
                 ApiFunctionManager.AddParticleTarget(owner, "Garen_Base_R_Champ_Kill.troy", target);
                 ApiFunctionManager.AddParticleTarget(owner, "Garen_Base_R_Champ_Death.troy", target);
             }
-                
-            
         }
-
-        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
-        {
-            
-        }
-        public void OnUpdate(double diff) {
-
-        }
+        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile) { }
+        public void OnUpdate(double diff) { }
      }
 }
