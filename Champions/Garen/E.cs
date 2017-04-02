@@ -18,6 +18,7 @@ namespace Garen
         }
         public void OnStartCasting(Champion owner, Spell spell, Unit target)
         {
+            spell.spellAnimation("SPELL3", owner);
             Particle p = ApiFunctionManager.AddParticleTarget(owner, "Garen_Base_E_Spin.troy", owner, 1);
             var visualBuff = ApiFunctionManager.AddBuffHUDVisual("GarenE", 3.0f, 1, owner);
             ApiFunctionManager.CreateTimer(3.0f, () =>
