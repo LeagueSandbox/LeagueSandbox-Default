@@ -12,7 +12,6 @@ namespace Blitzcrank
 {
     public class W : GameScript
     {
-        //Overdrive      OverdriveSlow
         public void OnActivate(Champion owner) { }
         public void OnDeactivate(Champion owner) { }
         public void OnStartCasting(Champion owner, Spell spell, Unit target){
