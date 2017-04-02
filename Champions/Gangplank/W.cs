@@ -11,26 +11,12 @@ namespace Gangplank
         {
             ApplyHeal(owner, spell);
             owner.ClearAllCrowdControl();
-
         }
-        public void OnFinishCasting(Champion owner, Spell spell, Unit target)
-        {
-
-        }
-        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile) {
-            
-        }
-
-        public void OnUpdate(double diff) {
-
-        }
-
         private void ApplyHeal(Champion owner, Spell spell)
         {
             var heal = new[] {80, 150, 220, 290, 360}[spell.Level - 1] + owner.GetStats().AbilityPower.Total;
             var newHealth = owner.GetStats().CurrentHealth + heal;
             var maxHealth = owner.GetStats().HealthPoints.Total;
-
 
             if (newHealth >= maxHealth)
             {
@@ -40,7 +26,9 @@ namespace Gangplank
             {
                 owner.GetStats().CurrentHealth = newHealth;
             }
-
         }
-     }
+        public void OnFinishCasting(Champion owner, Spell spell, Unit target) { }
+        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile) { }
+        public void OnUpdate(double diff) { }
+    }
 }

@@ -25,25 +25,16 @@ namespace Jinx
             ApiFunctionManager.AddParticleTarget(owner, "Jinx_W_Beam.troy", owner);
             spell.spellAnimation("SPELL2", owner);
             ApiFunctionManager.AddParticleTarget(owner, "Jinx_W_Cas.troy.troy", owner);
-
             ApiFunctionManager.CreateTimer(0.6f, () =>
             {
                 ApiFunctionManager.AddParticle(owner, "Jinx_W_Mis.troy", trueCoords.X, trueCoords.Y);
                 ApiFunctionManager.AddParticleTarget(owner, "Jinx_W_Tar.troy", target);
                 spell.AddProjectile("JinxW", trueCoords.X, trueCoords.Y);
             });
-            
-
-
         }
-        public void OnFinishCasting(Champion owner, Spell spell, Unit target) {
-
-
-
-        }
+        public void OnFinishCasting(Champion owner, Spell spell, Unit target) { }
         public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
         {
-           
                 if (target.Team != owner.Team)
                 {
                     var ad = owner.GetStats().AttackDamage.Total * 1.4f;
@@ -51,11 +42,7 @@ namespace Jinx
                     owner.DealDamageTo(target, damage, DamageType.DAMAGE_TYPE_PHYSICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
                     projectile.setToRemove();
                 }
-            
-
         }
-        public void OnUpdate(double diff) {
-
-        }
+        public void OnUpdate(double diff) { }
      }
 }

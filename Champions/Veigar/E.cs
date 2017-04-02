@@ -28,7 +28,6 @@ namespace Veigar
                 {
                     ApiFunctionManager.AddParticle(owner, "Veigar_Skin08_E_cas.troy", spell.X, spell.Y);
                     ApiFunctionManager.AddParticleTarget(owner, "Veigar_Skin08_W_cas_hand.troy", owner);
-
                 }
                 else
                 {
@@ -41,8 +40,6 @@ namespace Veigar
                 {
                     ApiFunctionManager.AddParticle(owner, "Veigar_Skin08_E_cas.troy", trueCoords.X, trueCoords.Y);
                     ApiFunctionManager.AddParticleTarget(owner, "Veigar_Skin08_W_cas_hand.troy", owner);
-
-
                 }
                 else
                 {
@@ -61,45 +58,32 @@ namespace Veigar
 
             if (castrange <= 700)
             {
-                
                     spell.AddProjectile("VeigarEventHorizon", spell.X, spell.Y);
 
                     if (owner.Skin == 8)
                     {
                         ApiFunctionManager.AddParticle(owner, "Veigar_Skin08_E_cage_green.troy", spell.X, spell.Y);
-
                     }
                     else
                     {
                         ApiFunctionManager.AddParticle(owner, "Veigar_Base_E_cage_green.troy", spell.X, spell.Y);
                     }
-                    
-                
             }
             else
             {
-                
                     spell.AddProjectile("VeigarEventHorizon", trueCoords.X, trueCoords.Y);
 
                     if (owner.Skin == 8)
                     {
                         ApiFunctionManager.AddParticle(owner, "Veigar_Skin08_E_cage_green.troy", trueCoords.X, trueCoords.Y);
-
                     }
                     else
                     {
                         ApiFunctionManager.AddParticle(owner, "Veigar_Base_E_cage_green.troy", trueCoords.X, trueCoords.Y);
                     }
-                    
-                
             }
-            
         }
-        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile) {
-
-        }
-        public void OnUpdate(double diff) {
-
-        }
+        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile) { }
+        public void OnUpdate(double diff) { }
      }
 }

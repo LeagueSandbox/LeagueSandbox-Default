@@ -13,7 +13,6 @@ namespace VeigarQ
         {
             statMod.AbilityPower.FlatBonus = ownerSpell.Level * 1;
             unit.AddStatModifier(statMod);
-
         }
 
         public void OnDeactivate(Unit unit)

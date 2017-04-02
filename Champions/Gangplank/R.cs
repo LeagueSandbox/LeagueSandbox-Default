@@ -10,26 +10,21 @@ namespace Gangplank
     {
         public void OnActivate(Champion owner) { }
         public void OnDeactivate(Champion owner) { }
-
         public void OnStartCasting(Champion owner, Spell spell, Unit target)
         {
             foreach (var champion in ApiFunctionManager.GetChampionsInRange(owner, 20000, true))
             {
                 if (champion.Team == owner.Team)
                 {
-                    ApiFunctionManager.AddParticle(owner, "pirate_cannonBarrage_aoe_indicator_green.troy", spell.X,
-                        spell.Y);
+                    ApiFunctionManager.AddParticle(owner, "pirate_cannonBarrage_aoe_indicator_green.troy", spell.X, spell.Y);
                 }
 
                 else
                 {
-                    ApiFunctionManager.AddParticle(owner, "pirate_cannonBarrage_aoe_indicator_red.troy", spell.X,
-                        spell.Y);
+                    ApiFunctionManager.AddParticle(owner, "pirate_cannonBarrage_aoe_indicator_red.troy", spell.X, spell.Y);
                 }
-
             }
         }
-
         public void OnFinishCasting(Champion owner, Spell spell, Unit target)
         {
             var current = new Vector2(owner.X, owner.Y);
@@ -54,27 +49,14 @@ namespace Gangplank
                     ApiFunctionManager.AddParticle(owner, "pirate_cannonBarrage_tar.troy", spell.X, spell.Y);
                     ApplyDamage(owner, spell, target);
                 });
-
-
             }
-
         }
-        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
-        {
-
-        }
-        public void OnUpdate(double diff)
-        {
-
-        }
-
         public void ApplyDamage(Champion owner, Spell spell, Unit target)
         {
             Target t = new Target(spell.X, spell.Y);
             List<Unit> units = ApiFunctionManager.GetUnitsInRange(t, 600, true);
             foreach (Unit unit in units)
             {
-                
                 if (unit.Team != owner.Team)
                 {
                     //MAGICAL DAMAGE PER SECOND: 75 / 120 / 165 (+ 20% AP)
@@ -82,13 +64,12 @@ namespace Gangplank
                     var damage = 30 + spell.Level * 45 + ap;
                     owner.DealDamageTo(unit, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
                 }
-
-
             }
-
-
-
         }
+        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile) { }
+        public void OnUpdate(double diff) { }
+
+        
     }
 
 }

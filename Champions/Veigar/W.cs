@@ -13,14 +13,8 @@ namespace Veigar
 {
     public class W : GameScript
     {
-        public void OnActivate(Champion owner)
-        {
-        }
-
-        public void OnDeactivate(Champion owner)
-        {
-        }
-
+        public void OnActivate(Champion owner) { }
+        public void OnDeactivate(Champion owner) { }
         public void OnStartCasting(Champion owner, Spell spell, Unit target)
         {
             var current = new Vector2(owner.X, owner.Y);
@@ -37,7 +31,6 @@ namespace Veigar
                     ApiFunctionManager.AddParticle(owner, "Veigar_Skin08_W_cas.troy", spell.X, spell.Y);
                     ApiFunctionManager.AddParticle(owner, "Veigar_Skin08_W_warning.troy", spell.X, spell.Y);
                     ApiFunctionManager.AddParticleTarget(owner, "Veigar_Skin08_W_cas_hand.troy", owner);
-
                 }
                 else
                 {
@@ -52,8 +45,6 @@ namespace Veigar
                     ApiFunctionManager.AddParticle(owner, "Veigar_Skin08_W_cas.troy", trueCoords.X, trueCoords.Y);
                     ApiFunctionManager.AddParticle(owner, "Veigar_Skin08_W_warning.troy", trueCoords.X, trueCoords.Y);
                     ApiFunctionManager.AddParticleTarget(owner, "Veigar_Skin08_W_cas_hand.troy", owner);
-
-
                 }
                 else
                 {
@@ -61,9 +52,7 @@ namespace Veigar
                     ApiFunctionManager.AddParticle(owner, "Veigar_Base_W_warning.troy", spell.X, spell.Y);
                 }
             }
-
         }
-
         public void OnFinishCasting(Champion owner, Spell spell, Unit target)
         {
             var current = new Vector2(owner.X, owner.Y);
@@ -82,7 +71,6 @@ namespace Veigar
                     if (owner.Skin == 8)
                     {
                         ApiFunctionManager.AddParticle(owner, "Veigar_Skin08_W_aoe_explosion.troy", spell.X, spell.Y);
-
                     }
                     else
                     {
@@ -100,7 +88,6 @@ namespace Veigar
                     if (owner.Skin == 8)
                     {
                         ApiFunctionManager.AddParticle(owner, "Veigar_Skin08_W_aoe_explosion.troy", trueCoords.X, trueCoords.Y);
-
                     }
                     else
                     {
@@ -111,16 +98,8 @@ namespace Veigar
             }
         }
 
-        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
-        {
-            
-        }
-
-        public void OnUpdate(double diff)
-        {
-
-        }
-
+        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile) { }
+        public void OnUpdate(double diff) { }
         public void ApplyDamage(Champion owner, Spell spell, Unit target)
         {
             var current = new Vector2(owner.X, owner.Y);
@@ -146,7 +125,6 @@ namespace Veigar
                         owner.DealDamageTo(unit, damage, DamageType.DAMAGE_TYPE_MAGICAL,
                             DamageSource.DAMAGE_SOURCE_SPELL, false);
                     }
-
                 }
             }
             else
@@ -165,7 +143,6 @@ namespace Veigar
                         owner.DealDamageTo(unit, damage, DamageType.DAMAGE_TYPE_MAGICAL,
                             DamageSource.DAMAGE_SOURCE_SPELL, false);
                     }
-
                 }
             }
         }

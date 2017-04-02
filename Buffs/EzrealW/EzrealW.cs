@@ -13,7 +13,6 @@ namespace EzrealW
         {
             statMod.AttackSpeed.PercentBonus = 0.15f + ownerSpell.Level * 0.05f;
             unit.AddStatModifier(statMod);
-
         }
 
         public void OnDeactivate(Unit unit)

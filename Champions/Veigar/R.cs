@@ -19,7 +19,6 @@ namespace Veigar
             if (owner.Skin == 8)
             {
                 ApiFunctionManager.AddParticleTarget(owner, "Veigar_Skin08_R_cas.troy", owner);
-
             }
             else
             {
@@ -32,7 +31,6 @@ namespace Veigar
             if (owner.Skin == 8)
             {
                 ApiFunctionManager.AddParticleTarget(owner, "Veigar_Skin08_R_tar.troy", target);
-
             }
             else
             {
@@ -51,8 +49,6 @@ namespace Veigar
             owner.DealDamageTo(target, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
             projectile.setToRemove();
         }
-        public void OnUpdate(double diff) {
-
-        }
+        public void OnUpdate(double diff) { }
      }
 }
