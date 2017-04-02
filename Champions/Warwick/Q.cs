@@ -38,7 +38,7 @@ namespace Warwick
             // Damage = 75 / 125 / 175 / 225 / 275
             var damageFlat = 25 + spell.Level * 50;
 
-            //decides if damageFlat or damagePer has the higher damage 
+            //Decides if damageFlat or damagePer has the higher damage 
 
             if (target is Monster)
             {
@@ -56,7 +56,6 @@ namespace Warwick
                     owner.GetStats().CurrentHealth = newHealth;
                 }
             }
-
             if (damageFlat > damagePer)
             {
                 var damage = damageFlat + ap;

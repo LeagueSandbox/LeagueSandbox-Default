@@ -25,19 +25,16 @@ namespace Teemo
                 target.RemoveBuffGameScript(buff);
             });
         }
-        public void OnFinishCasting(Champion owner, Spell spell, Unit target) {
-            var current = new Vector2(owner.X, owner.Y);
-            var to = Vector2.Normalize(new Vector2(spell.X, spell.Y) - current);
-            var range = to * 580;
-            var trueCoords = current + range;
-
-            spell.AddProjectile("ToxicShot", trueCoords.X, trueCoords.Y);
+        public void OnFinishCasting(Champion owner, Spell spell, Unit target)
+        {
+            spell.AddProjectileTarget("BlindingDart", target);
         }
         public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
         {
             var ap = owner.GetStats().AbilityPower.Total * 0.8f;
             var damage = 35 + spell.Level * 45 + ap;
             owner.DealDamageTo(target, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
+            projectile.setToRemove();
         }
         public void OnUpdate(double diff) {
 

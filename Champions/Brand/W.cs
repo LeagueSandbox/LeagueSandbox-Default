@@ -82,9 +82,19 @@ namespace Brand
                 {
                     if (unit.Team != owner.Team)
                     {
+                        var passive = unit.GetStats().HealthPoints.Total * 0.02f;
                         var ap = owner.GetStats().AbilityPower.Total * 0.6f;
                         var damage = 30 + spell.Level * 45 + ap;
                         owner.DealDamageTo(unit, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
+                        for (float i = 0.0f; i < 4.0; i += 1.0f)
+                        {
+                            ApiFunctionManager.CreateTimer(i, () =>
+                            {
+                                owner.DealDamageTo(unit, passive, DamageType.DAMAGE_TYPE_MAGICAL,
+                                    DamageSource.DAMAGE_SOURCE_SPELL, false);
+                                ApiFunctionManager.AddBuffHUDVisual("BrandAblaze", 4.0f, 1, unit, removeAfter: 4.0f);
+                            });
+                        }
                     }
                 }
             }

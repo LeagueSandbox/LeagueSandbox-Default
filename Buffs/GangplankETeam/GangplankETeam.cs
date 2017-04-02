@@ -13,6 +13,7 @@ namespace GangplankETeam
             statMod.AttackDamage.FlatBonus = (5 + ownerSpell.Level * 7) * 0.5f;
             statMod.MoveSpeed.PercentBonus = (5 + ownerSpell.Level * 3) / 200f;
             unit.AddStatModifier(statMod);
+
         }
 
         public void OnDeactivate(Unit unit)
