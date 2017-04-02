@@ -25,8 +25,22 @@ namespace Ezreal
 
             spell.AddProjectile("EzrealEssenceFluxMissile", trueCoords.X, trueCoords.Y);
         }
-        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile) {
+        public void ApplyEffects(Champion owner, Unit champion, Spell spell, Projectile projectile)
+        {
+           
+                if (champion.Team != owner.Team)
+                {
+                    var ap = owner.GetStats().AbilityPower.Total * 0.8f;
+                    var damage = 25 + spell.Level * 45 + ap;
+                    owner.DealDamageTo(champion, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL,
+                        false);
+                }
 
+                if (champion.Team == owner.Team)
+                {
+                    champion.AddBuffGameScript("EzrealW", "EzrealW", spell, 5.0f);
+                }
+            
         }
         public void OnUpdate(double diff) {
 

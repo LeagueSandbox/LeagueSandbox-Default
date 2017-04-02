@@ -1,11 +1,5 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Numerics;
 using LeagueSandbox.GameServer.Logic.GameObjects;
-using LeagueSandbox.GameServer.Logic.API;
 using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
 namespace Gangplank
@@ -18,7 +12,7 @@ namespace Gangplank
 
         }
         public void OnFinishCasting(Champion owner, Spell spell, Unit target) {
-            spell.AddProjectileTarget("pirate_parley_mis", target);
+            spell.AddProjectileTarget("Parley", target);
         }
         public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile) {
             var isCrit = new Random().Next(0, 100) < owner.GetStats().CriticalChance.Total;
