@@ -7,19 +7,24 @@ namespace LuluWDebuff
 {
     class LuluWDebuff : BuffGameScript
     {
-        UnitCrowdControl crowd = new UnitCrowdControl(CrowdControlType.Disarm);
-        ChampionStatModifier statMod = new ChampionStatModifier();
+        UnitCrowdControl crowdDisarm = new UnitCrowdControl(CrowdControlType.Disarm);
+        UnitCrowdControl crowdSilence = new UnitCrowdControl(CrowdControlType.Silence);
+        ChampionStatModifier statMod;
 
         public void OnActivate(Unit unit, Spell ownerSpell)
         {
+            statMod = new ChampionStatModifier();
             statMod.MoveSpeed.BaseBonus = statMod.MoveSpeed.BaseBonus - 60;
-            unit.ApplyCrowdControl(crowd);
+            unit.ApplyCrowdControl(crowdDisarm);
+            unit.ApplyCrowdControl(crowdSilence);
             unit.AddStatModifier(statMod);
         }
 
         public void OnDeactivate(Unit unit)
         {
-            unit.RemoveCrowdControl(crowd);
+            unit.RemoveCrowdControl(crowdDisarm);
+            unit.RemoveCrowdControl(crowdSilence);
+            unit.RemoveStatModifier(statMod);
         }
 
         public void OnUpdate(double diff)
