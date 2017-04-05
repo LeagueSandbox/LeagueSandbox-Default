@@ -7,10 +7,11 @@ namespace OverdriveSlow
 {
     class OverdriveSlow : BuffGameScript
     {
-        ChampionStatModifier statMod = new ChampionStatModifier();
+        ChampionStatModifier statMod;
 
         public void OnActivate(Unit unit, Spell ownerSpell)
         {
+            statMod = new ChampionStatModifier();
             statMod.MoveSpeed.PercentBonus = statMod.MoveSpeed.PercentBonus - 0.3f;
             unit.AddStatModifier(statMod);
         }

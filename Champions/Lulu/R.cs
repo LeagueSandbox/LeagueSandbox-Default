@@ -32,7 +32,6 @@ namespace Lulu
         {
         }
         public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile) {
-
         }
         public void OnUpdate(double diff) {
 
