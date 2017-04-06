@@ -22,7 +22,9 @@ namespace Lulu
             if (champion.Team != owner.Team)
             {
                 spell.AddProjectileTarget("LuluWTwo", target);
-            } else {
+            }
+            else
+            {
                 Particle p = ApiFunctionManager.AddParticleTarget(owner, "Lulu_W_buf_02.troy", target, 1);
                 ApiFunctionManager.AddParticleTarget(owner, "Lulu_W_buf_01.troy", target, 1);
                 float time = 2.5f + 0.5f * spell.Level;
