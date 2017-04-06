@@ -22,14 +22,14 @@ namespace Lulu
             if (champion.Team != owner.Team){
                 spell.AddProjectileTarget("LuluWTwo", target);
             } else {
-                Particle p1 = ApiFunctionManager.AddParticleTarget(owner, "Lulu_W_buf_02.troy", target, 1);
-                Particle p2 = ApiFunctionManager.AddParticleTarget(owner, "Lulu_W_buf_01.troy", target, 1);
+                Particle p = ApiFunctionManager.AddParticleTarget(owner, "Lulu_W_buf_02.troy", target, 1);
+                ApiFunctionManager.AddParticleTarget(owner, "Lulu_W_buf_01.troy", target, 1);
                 float time = 2.5f + 0.5f * spell.Level;
                 var buff = target.AddBuffGameScript("LuluWBuff", "LuluWBuff", spell);
                 var visualBuff = ApiFunctionManager.AddBuffHUDVisual("LuluWBuff", time, 1, target);
                 ApiFunctionManager.CreateTimer(time, () =>
                 {
-                    ApiFunctionManager.RemoveParticle(p2);
+                    ApiFunctionManager.RemoveParticle(p);
                     ApiFunctionManager.RemoveBuffHUDVisual(visualBuff);
                     owner.RemoveBuffGameScript(buff);
                 });
@@ -56,18 +56,25 @@ namespace Lulu
         public void OnUpdate(double diff) {
 
         }
-        void changeModel(float skinId, Unit target){
-            if (skinId == 0){
-                ApiFunctionManager.SetChampionModel((Champion)target, "LuluSquill");
-            } else if (skinId == 1){
-                ApiFunctionManager.SetChampionModel((Champion)target, "LuluCupcake");
-            } else if (skinId == 2){
-                ApiFunctionManager.SetChampionModel((Champion)target, "LuluKitty");
-            } else if (skinId == 3){
-                ApiFunctionManager.SetChampionModel((Champion)target, "LuluDragon");
-            } else if (skinId == 4){
-                ApiFunctionManager.SetChampionModel((Champion)target, "LuluSnowman");
-            }
-        }
+        void changeModel(int skinId, Unit target){
+            switch(skinId)
+            {
+                case 0:
+                    ApiFunctionManager.SetChampionModel((Champion)target, "LuluSquill");
+                    break;
+                case 1:
+                    ApiFunctionManager.SetChampionModel((Champion)target, "LuluCupcake");
+                    break;
+                case 2:
+                    ApiFunctionManager.SetChampionModel((Champion)target, "LuluKitty");
+                    break;
+                case 3:
+                    ApiFunctionManager.SetChampionModel((Champion)target, "LuluDragon");
+                    break;
+                case 4:
+                    ApiFunctionManager.SetChampionModel((Champion)target, "LuluSnowman");
+                    break;
+          }
+      }
     }
 }
