@@ -23,7 +23,8 @@ namespace Caitlyn
         public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile) {
             if (target != null && !target.IsDead)
             {
-                var damage = spell.getEffectValue(0) + owner.GetStats().AttackDamage.Total * 2;
+                // 250/475/700
+                var damage = 250 + owner.GetStats().AttackDamage.Total * 2;
                 owner.DealDamageTo(target, damage, DamageType.DAMAGE_TYPE_PHYSICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
             }
             projectile.setToRemove();
