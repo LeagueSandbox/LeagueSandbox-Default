@@ -19,7 +19,8 @@ namespace Lulu
          }
         public void OnFinishCasting(Champion owner, Spell spell, Unit target) {
             Champion champion = (Champion)target;
-            if (champion.Team != owner.Team){
+            if (champion.Team != owner.Team)
+            {
                 spell.AddProjectileTarget("LuluWTwo", target);
             } else {
                 Particle p = ApiFunctionManager.AddParticleTarget(owner, "Lulu_W_buf_02.troy", target, 1);
