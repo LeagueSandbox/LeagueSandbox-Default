@@ -238,6 +238,16 @@
     <Compile Include="Champions\Janna\E.cs" />
     <Compile Include="Champions\Janna\R.cs" />
     <Compile Include="Champions\Janna\Passive.cs" />
+    <Compile Include="Champions\JarvanIV\E.cs" />
+    <Compile Include="Champions\JarvanIV\Passive.cs" />
+    <Compile Include="Champions\JarvanIV\Q.cs" />
+    <Compile Include="Champions\JarvanIV\R.cs" />
+    <Compile Include="Champions\JarvanIV\W.cs" />
+    <Compile Include="Champions\Jax\E.cs" />
+    <Compile Include="Champions\Jax\Passive.cs" />
+    <Compile Include="Champions\Jax\Q.cs" />
+    <Compile Include="Champions\Jax\R.cs" />
+    <Compile Include="Champions\Jax\W.cs" />
     <Compile Include="Champions\Jayce\Q.cs" />
     <Compile Include="Champions\Jayce\W.cs" />
     <Compile Include="Champions\Jayce\E.cs" />
