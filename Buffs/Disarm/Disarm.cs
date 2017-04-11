@@ -1,27 +1,30 @@
-using System;
 using LeagueSandbox.GameServer.Logic.GameObjects;
-using LeagueSandbox.GameServer.Logic.Scripting;
 using LeagueSandbox.GameServer.Logic.API;
+using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
 namespace Disarm
 {
-    class Disarm : BuffGameScript
+    class Disarm : IGameScript
     {
         UnitCrowdControl crowd = new UnitCrowdControl(CrowdControlType.Disarm);
 
-        public void OnActivate(Unit unit, Spell ownerSpell)
+        GameScriptInformation info;
+        Spell spell;
+        Unit owner;
+        Unit target;
+        public void OnActivate(GameScriptInformation scriptInfo)
         {
-            unit.ApplyCrowdControl(crowd);
+            info = scriptInfo;
+            spell = info.OwnerSpell;
+            owner = info.OwnerUnit;
+            target = info.TargetUnit;
+
+            target.ApplyCrowdControl(crowd);
         }
-
-        public void OnDeactivate(Unit unit)
+        
+        public void OnDeactivate()
         {
-            unit.RemoveCrowdControl(crowd);
-        }
-
-        public void OnUpdate(double diff)
-        {
-
+            target.RemoveCrowdControl(crowd);
         }
     }
 }
