@@ -1,8 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Numerics;
 using LeagueSandbox.GameServer.Logic.GameObjects;
 using LeagueSandbox.GameServer.Logic.API;
@@ -10,14 +5,22 @@ using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
 namespace Ezreal
 {
-    public class E : GameScript
+    public class E : IGameScript
     {
-        public void OnActivate(Champion owner) { }
-        public void OnDeactivate(Champion owner) { }
-        public void OnStartCasting(Champion owner, Spell spell, Unit target){
-
+        GameScriptInformation info;
+        Spell spell;
+        Unit owner;
+        public void OnActivate(GameScriptInformation scriptInfo)
+        {
+            info = scriptInfo;
+            spell = info.OwnerSpell;
+            owner = info.OwnerUnit;
+            //Setup event listeners
+            ApiEventManager.OnSpellFinishCast.AddListener(this, spell, OnFinishCasting);
+            ApiEventManager.OnSpellApplyEffects.AddListener(this, spell, ApplyEffects);
         }
-        public void OnFinishCasting(Champion owner, Spell spell, Unit target) {
+        public void OnDeactivate() { }
+        public void OnFinishCasting(Unit target) {
             var current = new Vector2(owner.X, owner.Y);
             var to = new Vector2(spell.X, spell.Y) - current;
             Vector2 trueCoords;
@@ -32,9 +35,13 @@ namespace Ezreal
             {
                 trueCoords = new Vector2(spell.X, spell.Y);
             }
-            ApiFunctionManager.AddParticle(owner, "Ezreal_arcaneshift_cas.troy", owner.X, owner.Y);
+            if (owner is Champion)
+            {
+
+                ApiFunctionManager.AddParticle(owner as Champion, "Ezreal_arcaneshift_cas.troy", owner.X, owner.Y);
+                ApiFunctionManager.AddParticleTarget(owner as Champion, "Ezreal_arcaneshift_flash.troy", owner);
+            }
             ApiFunctionManager.TeleportTo(owner, trueCoords.X, trueCoords.Y);
-            ApiFunctionManager.AddParticleTarget(owner, "Ezreal_arcaneshift_flash.troy", owner);
             Unit target2 = null;
             var units = ApiFunctionManager.GetUnitsInRange(owner, 700, true);
 
@@ -60,13 +67,10 @@ namespace Ezreal
                 }
             }
         }
-        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile) {
+        public void ApplyEffects(Unit target, Projectile projectile) {
             owner.DealDamageTo(target, 25f + spell.Level * 50f + owner.GetStats().AbilityPower.Total * 0.75f,
                 DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
             projectile.setToRemove();
-        }
-        public void OnUpdate(double diff) {
-
         }
      }
 }

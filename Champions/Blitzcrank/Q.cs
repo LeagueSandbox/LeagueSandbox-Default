@@ -10,14 +10,26 @@ using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
 namespace Blitzcrank
 {
-    public class Q : GameScript
+    public class Q : IGameScript
     {
-        public void OnActivate(Champion owner) { }
-        public void OnDeactivate(Champion owner) { }
-        public void OnStartCasting(Champion owner, Spell spell, Unit target){
+        GameScriptInformation info;
+        Spell spell;
+        Unit owner;
+        public void OnActivate(GameScriptInformation scriptInfo) {
+            info = scriptInfo;
+            spell = info.OwnerSpell;
+            owner = info.OwnerUnit;
+            //Setup event listeners
+            ApiEventManager.OnSpellCast.AddListener(this, spell, OnStartCasting);
+            ApiEventManager.OnSpellFinishCast.AddListener(this, spell, OnFinishCasting);
+            ApiEventManager.OnSpellApplyEffects.AddListener(this, spell, ApplyEffects);
+        }
+        public void OnDeactivate() { }
+
+        public void OnStartCasting(Unit target){
             spell.spellAnimation("SPELL1", owner);
         }
-        public void OnFinishCasting(Champion owner, Spell spell, Unit target) {
+        public void OnFinishCasting(Unit target) {
             var current = new Vector2(owner.X, owner.Y);
             var to = Vector2.Normalize(new Vector2(spell.X, spell.Y) - current);
             var range = to * 925;
@@ -25,14 +37,17 @@ namespace Blitzcrank
 
             spell.AddProjectile("RocketGrabMissile", trueCoords.X, trueCoords.Y);
         }
-        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile) {
+        public void ApplyEffects(Unit target, Projectile projectile) {
             var ap = owner.GetStats().AbilityPower.Total;
             var damage = 25 + spell.Level * 55 + ap;
             owner.DealDamageTo(spell.Target, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
 
             if (!spell.Target.IsDead)
             {
-                ApiFunctionManager.AddParticleTarget(owner, "Blitzcrank_Grapplin_tar.troy", spell.Target, 1, "L_HAND");
+                if (owner is Champion)
+                {
+                    ApiFunctionManager.AddParticleTarget(owner as Champion, "Blitzcrank_Grapplin_tar.troy", spell.Target, 1, "L_HAND");
+                }
                 var current = new Vector2(owner.X, owner.Y);
                 var to = Vector2.Normalize(new Vector2(spell.X, spell.Y) - current);
                 var range = to * 50;
@@ -42,9 +57,6 @@ namespace Blitzcrank
             }
 
             projectile.setToRemove();
-        }
-        public void OnUpdate(double diff) {
-
         }
      }
 }

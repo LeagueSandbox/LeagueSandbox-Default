@@ -1,27 +1,31 @@
 ﻿using System;
 using LeagueSandbox.GameServer.Logic.GameObjects;
 using LeagueSandbox.GameServer.Logic.Scripting;
+using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
 namespace Quickdraw
 {
-    class Quickdraw : BuffGameScript
+    class Quickdraw : IGameScript
     {
         ChampionStatModifier statMod = new ChampionStatModifier();
-
-        public void OnUpdate(double diff)
+        GameScriptInformation info;
+        Spell spell;
+        Unit owner;
+        Unit target;
+        public void OnActivate(GameScriptInformation scriptInfo)
         {
-            
+            info = scriptInfo;
+            spell = info.OwnerSpell;
+            owner = info.OwnerUnit;
+            target = info.TargetUnit;
+
+            statMod.AttackSpeed.PercentBonus = owner.GetStats().Level * 10.0f / 100.0f;
+            target.AddStatModifier(statMod);
         }
 
-        public void OnActivate(Unit unit, Spell ownerSpell)
+        public void OnDeactivate()
         {
-            statMod.AttackSpeed.PercentBonus = ownerSpell.Level * 10.0f / 100.0f;
-            unit.AddStatModifier(statMod);
-        }
-
-        public void OnDeactivate(Unit unit)
-        {
-            unit.RemoveStatModifier(statMod);
+            target.RemoveStatModifier(statMod);
         }
     }
 }

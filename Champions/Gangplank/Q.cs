@@ -1,26 +1,29 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Numerics;
 using LeagueSandbox.GameServer.Logic.GameObjects;
 using LeagueSandbox.GameServer.Logic.API;
 using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
 namespace Gangplank
 {
-    public class Q : GameScript
+    public class Q : IGameScript
     {
-        public void OnActivate(Champion owner) { }
-        public void OnDeactivate(Champion owner) { }
-        public void OnStartCasting(Champion owner, Spell spell, Unit target){
-
+        GameScriptInformation info;
+        Spell spell;
+        Unit owner;
+        public void OnActivate(GameScriptInformation scriptInfo)
+        {
+            info = scriptInfo;
+            spell = info.OwnerSpell;
+            owner = info.OwnerUnit;
+            //Setup event listeners
+            ApiEventManager.OnSpellFinishCast.AddListener(this, spell, OnFinishCasting);
+            ApiEventManager.OnSpellApplyEffects.AddListener(this, spell, ApplyEffects);
         }
-        public void OnFinishCasting(Champion owner, Spell spell, Unit target) {
+        public void OnDeactivate() { }
+        public void OnFinishCasting(Unit target) {
             spell.AddProjectileTarget("pirate_parley_mis", target);
         }
-        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile) {
+        public void ApplyEffects(Unit target, Projectile projectile) {
             var isCrit = new Random().Next(0, 100) < owner.GetStats().CriticalChance.Total;
             var baseDamage = new[] {20, 45, 70, 95, 120}[spell.Level - 1] + owner.GetStats().AttackDamage.Total;
             var damage = isCrit ? baseDamage * owner.GetStats().getCritDamagePct() / 100 : baseDamage;
@@ -45,9 +48,6 @@ namespace Gangplank
                 }
                 projectile.setToRemove();
             }
-        }
-        public void OnUpdate(double diff) {
-
         }
      }
 }

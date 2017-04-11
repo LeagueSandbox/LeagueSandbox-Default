@@ -10,14 +10,22 @@ using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
 namespace Olaf
 {
-    public class Q : GameScript
+    public class Q : IGameScript
     {
-        public void OnActivate(Champion owner) { }
-        public void OnDeactivate(Champion owner) { }
-        public void OnStartCasting(Champion owner, Spell spell, Unit target){
-
+        GameScriptInformation info;
+        Spell spell;
+        Unit owner;
+        public void OnActivate(GameScriptInformation scriptInfo)
+        {
+            info = scriptInfo;
+            spell = info.OwnerSpell;
+            owner = info.OwnerUnit;
+            //Setup event listeners
+            ApiEventManager.OnSpellFinishCast.AddListener(this, spell, OnFinishCasting);
+            ApiEventManager.OnSpellApplyEffects.AddListener(this, spell, ApplyEffects);
         }
-        public void OnFinishCasting(Champion owner, Spell spell, Unit target) {
+        public void OnDeactivate() { }
+        public void OnFinishCasting(Unit target) {
             var current = new Vector2(owner.X, owner.Y);
             var to = new Vector2(spell.X, spell.Y) - current;
             Vector2 trueCoords;
@@ -35,15 +43,12 @@ namespace Olaf
  
             spell.AddProjectile("OlafAxeThrowDamage", trueCoords.X, trueCoords.Y);
         }
-        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile) {
-            ApiFunctionManager.AddParticleTarget(owner, "olaf_axeThrow_tar.troy", target, 1);
+        public void ApplyEffects(Unit target, Projectile projectile) {
+            if (owner is Champion) ApiFunctionManager.AddParticleTarget(owner as Champion, "olaf_axeThrow_tar.troy", target, 1);
             var AD = owner.GetStats().AttackDamage.Total * 1.1f;
             var AP = owner.GetStats().AttackDamage.Total * 0.0f;
             var damage = 15 + spell.Level * 20 + AD + AP;
             owner.DealDamageTo(target, damage, DamageType.DAMAGE_TYPE_PHYSICAL, DamageSource.DAMAGE_SOURCE_ATTACK, false);
-        }
-        public void OnUpdate(double diff) {
-
         }
      }
 }

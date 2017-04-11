@@ -1,40 +1,44 @@
 using LeagueSandbox.GameServer.Logic.GameObjects;
 using LeagueSandbox.GameServer.Logic.API;
 using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
-using System.Numerics;
 using System.Collections.Generic;
 
 namespace Garen
 {
-    public class E : GameScript
+    public class E : IGameScript
     {
-        public void OnActivate(Champion owner)
+        GameScriptInformation info;
+        Spell spell;
+        Unit owner;
+        public void OnActivate(GameScriptInformation scriptInfo)
         {
+            info = scriptInfo;
+            spell = info.OwnerSpell;
+            owner = info.OwnerUnit;
+            //Setup event listeners
+            ApiEventManager.OnSpellCast.AddListener(this, spell, OnStartCasting);
         }
-
-        public void OnDeactivate(Champion owner)
+        public void OnDeactivate() { }
+        public void OnStartCasting(Unit target)
         {
-
-        }
-        public void OnStartCasting(Champion owner, Spell spell, Unit target)
-        {
-            Particle p = ApiFunctionManager.AddParticleTarget(owner, "Garen_Base_E_Spin.troy", owner, 1);
+            Particle p = null;
+            if (owner is Champion) p = ApiFunctionManager.AddParticleTarget(owner as Champion, "Garen_Base_E_Spin.troy", owner, 1);
             var visualBuff = ApiFunctionManager.AddBuffHUDVisual("GarenE", 3.0f, 1, owner);
             ApiFunctionManager.CreateTimer(3.0f, () =>
             {
                 ApiFunctionManager.RemoveBuffHUDVisual(visualBuff);
-                ApiFunctionManager.RemoveParticle(p);
+                if (p != null) ApiFunctionManager.RemoveParticle(p);
             });
 
             for (float i = 0.0f; i < 3.0; i+= 0.5f)
             {
                 ApiFunctionManager.CreateTimer(i, () =>
                 {
-                    ApplySpinDamage(owner, spell, target);
+                    ApplySpinDamage(target);
                 });
             }
         }
-        private void ApplySpinDamage(Champion owner, Spell spell, Unit target)
+        private void ApplySpinDamage(Unit target)
         {
             List<Unit> units = ApiFunctionManager.GetUnitsInRange(owner, 175, true);
             foreach (Unit unit in units)
@@ -48,17 +52,6 @@ namespace Garen
                     owner.DealDamageTo(unit, damage, DamageType.DAMAGE_TYPE_PHYSICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
                 }
             }
-        }
-
-        public void OnFinishCasting(Champion owner, Spell spell, Unit target)
-        {
-        }
-        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
-        {
-        }
-        public void OnUpdate(double diff)
-        {
-
         }
     }
 }

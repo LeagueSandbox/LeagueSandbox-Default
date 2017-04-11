@@ -10,17 +10,25 @@ using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
 namespace Annie
 {
-    public class Q : GameScript
+    public class Q : IGameScript
     {
-        public void OnActivate(Champion owner) { }
-        public void OnDeactivate(Champion owner) { }
-        public void OnStartCasting(Champion owner, Spell spell, Unit target){
-
+        GameScriptInformation info;
+        Spell spell;
+        Unit owner;
+        public void OnActivate(GameScriptInformation scriptInfo)
+        {
+            info = scriptInfo;
+            spell = info.OwnerSpell;
+            owner = info.OwnerUnit;
+            //Setup event listeners
+            ApiEventManager.OnSpellFinishCast.AddListener(this, spell, OnFinishCasting);
+            ApiEventManager.OnSpellApplyEffects.AddListener(this, spell, ApplyEffects);
         }
-        public void OnFinishCasting(Champion owner, Spell spell, Unit target) {
+        public void OnDeactivate() { }
+        public void OnFinishCasting(Unit target) {
             spell.AddProjectileTarget("Disintegrate", target, false);
         }
-        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile) {
+        public void ApplyEffects(Unit target, Projectile projectile) {
             var ap = owner.GetStats().AbilityPower.Total * 0.8f;
             var damage = 45 + spell.Level * 35 + ap;
 
@@ -44,10 +52,6 @@ namespace Annie
                 }
             }
             projectile.setToRemove();
-
-        }
-        public void OnUpdate(double diff) {
-
         }
      }
 }

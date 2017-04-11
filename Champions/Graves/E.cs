@@ -10,27 +10,28 @@ using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
 namespace Graves
 {
-    public class E : GameScript
+    public class E : IGameScript
     {
-        public void OnActivate(Champion owner) { }
-        public void OnDeactivate(Champion owner) { }
-        public void OnStartCasting(Champion owner, Spell spell, Unit target){
-
+        GameScriptInformation info;
+        Spell spell;
+        Unit owner;
+        public void OnActivate(GameScriptInformation scriptInfo)
+        {
+            info = scriptInfo;
+            spell = info.OwnerSpell;
+            owner = info.OwnerUnit;
+            //Setup event listeners
+            ApiEventManager.OnSpellFinishCast.AddListener(this, spell, OnFinishCasting);
         }
-        public void OnFinishCasting(Champion owner, Spell spell, Unit target) {
+        public void OnDeactivate() { }
+        public void OnFinishCasting(Unit target) {
             var current = new Vector2(owner.X, owner.Y);
             var to = Vector2.Normalize(new Vector2(spell.X, spell.Y) - current);
             var range = to * 425;
             var trueCoords = current + range;
 
             ApiFunctionManager.DashToLocation(owner, trueCoords.X, trueCoords.Y, 1200, false, "Spell3");
-            ApiFunctionManager.AddParticleTarget(owner, "Graves_Move_OnBuffActivate.troy", owner);
-        }
-        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile) {
-            
-        }
-        public void OnUpdate(double diff) {
-
+            if (owner is Champion) ApiFunctionManager.AddParticleTarget(owner as Champion, "Graves_Move_OnBuffActivate.troy", owner);
         }
      }
 }

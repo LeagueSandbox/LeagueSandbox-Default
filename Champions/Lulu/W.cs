@@ -10,55 +10,74 @@ using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
 namespace Lulu
 {
-    public class W : GameScript
+    public class W : IGameScript
     {
-        public void OnActivate(Champion owner) { }
-        public void OnDeactivate(Champion owner) { }
-        public void OnStartCasting(Champion owner, Spell spell, Unit target){
+        GameScriptInformation info;
+        Spell spell;
+        Unit owner;
+        public void OnActivate(GameScriptInformation scriptInfo)
+        {
+            info = scriptInfo;
+            spell = info.OwnerSpell;
+            owner = info.OwnerUnit;
+            //Setup event listeners
+            ApiEventManager.OnSpellCast.AddListener(this, spell, OnStartCasting);
+            ApiEventManager.OnSpellFinishCast.AddListener(this, spell, OnFinishCasting);
+            ApiEventManager.OnSpellApplyEffects.AddListener(this, spell, ApplyEffects);
+        }
+        public void OnStartCasting(Unit target){
             spell.spellAnimation("SPELL2", owner);
          }
-        public void OnFinishCasting(Champion owner, Spell spell, Unit target) {
-            Champion champion = (Champion)target;
-            if (champion.Team != owner.Team)
+        public void OnDeactivate()
+        {
+
+        }
+        public void OnFinishCasting(Unit target) {
+            if (ApiFunctionManager.GetTeam(target) != ApiFunctionManager.GetTeam(owner))
             {
                 spell.AddProjectileTarget("LuluWTwo", target);
             }
             else
             {
-                Particle p = ApiFunctionManager.AddParticleTarget(owner, "Lulu_W_buf_02.troy", target, 1);
-                ApiFunctionManager.AddParticleTarget(owner, "Lulu_W_buf_01.troy", target, 1);
+                Particle p = null;
+                if (owner is Champion)
+                {
+                    p = ApiFunctionManager.AddParticleTarget(owner as Champion, "Lulu_W_buf_02.troy", target, 1);
+                    ApiFunctionManager.AddParticleTarget(owner as Champion, "Lulu_W_buf_01.troy", target, 1);
+                }
                 float time = 2.5f + 0.5f * spell.Level;
                 var buff = target.AddBuffGameScript("LuluWBuff", "LuluWBuff", spell);
                 var visualBuff = ApiFunctionManager.AddBuffHUDVisual("LuluWBuff", time, 1, target);
                 ApiFunctionManager.CreateTimer(time, () =>
                 {
-                    ApiFunctionManager.RemoveParticle(p);
+                    if (p != null) ApiFunctionManager.RemoveParticle(p);
                     ApiFunctionManager.RemoveBuffHUDVisual(visualBuff);
                     owner.RemoveBuffGameScript(buff);
                 });
             }
         }
-        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile) {
-            Champion champion = (Champion)target;
-            float time = 1 + 0.25f * spell.Level;
-            var buff = target.AddBuffGameScript("LuluWDebuff", "LuluWDebuff", spell);
-            var visualBuff = ApiFunctionManager.AddBuffHUDVisual("LuluWDebuff", time, 1, target);
-            string model = champion.Model;
-            changeModel(owner.Skin, target);
-
-            Particle p = ApiFunctionManager.AddParticleTarget(owner, "Lulu_W_polymorph_01.troy", target, 1);
-            ApiFunctionManager.CreateTimer(time, () =>
+        public void ApplyEffects(Unit target, Projectile projectile) {
+            if (target is Champion)
             {
-                ApiFunctionManager.RemoveParticle(p);
-                ApiFunctionManager.RemoveBuffHUDVisual(visualBuff);
-                owner.RemoveBuffGameScript(buff);
-                ApiFunctionManager.SetChampionModel((Champion)target, model);
-            });
-            projectile.setToRemove();
-         }
-        public void OnUpdate(double diff) {
+                Champion champion = (Champion)target;
+                Champion ownerChampion = owner as Champion;
+                float time = 1 + 0.25f * spell.Level;
+                var buff = target.AddBuffGameScript("LuluWDebuff", "LuluWDebuff", spell);
+                var visualBuff = ApiFunctionManager.AddBuffHUDVisual("LuluWDebuff", time, 1, target);
+                string model = champion.Model;
+                changeModel(ownerChampion.Skin, target);
 
-        }
+                Particle p = ApiFunctionManager.AddParticleTarget(ownerChampion, "Lulu_W_polymorph_01.troy", target, 1);
+                ApiFunctionManager.CreateTimer(time, () =>
+                {
+                    ApiFunctionManager.RemoveParticle(p);
+                    ApiFunctionManager.RemoveBuffHUDVisual(visualBuff);
+                    owner.RemoveBuffGameScript(buff);
+                    ApiFunctionManager.SetChampionModel((Champion)target, model);
+                });
+                projectile.setToRemove();
+            }
+         }
         void changeModel(int skinId, Unit target){
             switch(skinId)
             {

@@ -5,14 +5,21 @@ using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
 namespace Global
 {
-    public class SummonerFlash : GameScript
+    public class SummonerFlash : IGameScript
     {
-        public void OnStartCasting(Champion owner, Spell spell, Unit target)
+        GameScriptInformation info;
+        Spell spell;
+        Unit owner;
+        public void OnActivate(GameScriptInformation scriptInfo)
         {
-
+            info = scriptInfo;
+            spell = info.OwnerSpell;
+            owner = info.OwnerUnit;
+            //Setup event listeners
+            ApiEventManager.OnSpellFinishCast.AddListener(this, spell, OnFinishCasting);
         }
-
-        public void OnFinishCasting(Champion owner, Spell spell, Unit target)
+        public void OnDeactivate() { }
+        public void OnFinishCasting(Unit target)
         {
             var current = new Vector2(owner.X, owner.Y);
             var to = new Vector2(spell.X, spell.Y) - current;
@@ -29,28 +36,12 @@ namespace Global
                 trueCoords = new Vector2(spell.X, spell.Y);
             }
 
-            ApiFunctionManager.AddParticle(owner, "global_ss_flash.troy", owner.X, owner.Y);
             ApiFunctionManager.TeleportTo(owner, trueCoords.X, trueCoords.Y);
-
-            ApiFunctionManager.AddParticleTarget(owner, "global_ss_flash_02.troy", owner);
-        }
-
-        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
-        {
-
-        }
-
-        public void OnUpdate(double diff)
-        {
-
-        }
-
-        public void OnActivate(Champion owner)
-        {
-        }
-
-        public void OnDeactivate(Champion owner)
-        {
+            if (owner is Champion)
+            {
+            ApiFunctionManager.AddParticle(owner as Champion, "global_ss_flash.troy", owner.X, owner.Y);
+            ApiFunctionManager.AddParticleTarget(owner as Champion, "global_ss_flash_02.troy", owner);
+            }
         }
     }
 }
