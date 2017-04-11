@@ -16,14 +16,22 @@ namespace Lulu
         public void OnDeactivate(Champion owner) { }
         public void OnStartCasting(Champion owner, Spell spell, Unit target)
         {
-            owner.AddBuffGameScript("LuluR", "LuluR", spell, removeAfter: 7.0f, isUnique: true);
-            ApiFunctionManager.AddBuffHUDVisual("LuluR", 7.0f, 1, owner, removeAfter: 7.0f);
+            Particle p = ApiFunctionManager.AddParticleTarget(owner, "Lulu_R_cas.troy", target, 1);
+            var buff = target.AddBuffGameScript("LuluR", "LuluR", spell);
+            var visualBuff = ApiFunctionManager.AddBuffHUDVisual("LuluR", 7.0f, 1, owner);
+            ApiFunctionManager.CreateTimer(7.0f, () =>
+            {
+                ApiFunctionManager.RemoveParticle(p);
+                ApiFunctionManager.RemoveBuffHUDVisual(visualBuff);
+                owner.RemoveBuffGameScript(buff);
+                ApiFunctionManager.AddParticleTarget(owner, "Lulu_R_expire.troy", target, 1);
+            });
+
         }
         public void OnFinishCasting(Champion owner, Spell spell, Unit target)
         {
         }
         public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile) {
-
         }
         public void OnUpdate(double diff) {
 
