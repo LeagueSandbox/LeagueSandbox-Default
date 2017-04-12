@@ -10,13 +10,12 @@ namespace Global
         public void OnStartCasting(Champion owner, Spell spell, Unit target)
         {
             ChampionStatModifier statMod = new ChampionStatModifier();
-			statMod.MoveSpeed.PercentBonus = 27 / 100.0f;
-			owner.AddStatModifier(statMod);
-            ApiFunctionManager.AddBuffHUDVisual("Haste", 10.0f, 1, owner, 10.0f);
+            statMod.MoveSpeed.PercentBonus = 27 / 100.0f;
+            owner.AddStatModifier(statMod);
+            var HasteBuff = ApiFunctionManager.AddBuffHUDVisual("SummonerHaste", 10.0f, 1, owner, 10.0f);
             ApiFunctionManager.CreateTimer(10.0f, () =>
             {
                 owner.RemoveStatModifier(statMod);
-
 
             });
 
