@@ -54,10 +54,16 @@ namespace Global
                 {
                     mostWoundedAlliedChampion.GetStats().CurrentHealth = newHealth;
                 }
+                ApiFunctionManager.AddBuffHUDVisual("SummonerHeal", 1.0f, 1, mostWoundedAlliedChampion, 1.0f);
+                ChampionStatModifier statMod2 = new ChampionStatModifier();
+                statMod2.MoveSpeed.PercentBonus = 30 / 100.0f;
+                mostWoundedAlliedChampion.AddStatModifier(statMod2);
+                ApiFunctionManager.CreateTimer(1.0f, () =>
+                {
+                    mostWoundedAlliedChampion.RemoveStatModifier(statMod2);
 
-                //local buff = Buff.new("Haste", 1.0, mostWoundedAlliedChampion, owner)
-                //buff: setMovementSpeedPercentModifier(30)
-                //addBuff(buff)
+
+                });
 
                 ApiFunctionManager.AddParticleTarget(mostWoundedAlliedChampion, "global_ss_heal_02.troy", mostWoundedAlliedChampion);
                 ApiFunctionManager.AddParticleTarget(mostWoundedAlliedChampion, "global_ss_heal_speedboost.troy", mostWoundedAlliedChampion);
@@ -75,10 +81,17 @@ namespace Global
                 owner.GetStats().CurrentHealth = newHealth;
             }
 
-            //local buff2 = Buff.new("Haste", 1.0, owner, owner)
-            //buff2: setMovementSpeedPercentModifier(30)
-            //addBuff(buff2)
-            
+            ApiFunctionManager.AddBuffHUDVisual("SummonerHeal", 1.0f, 1, owner, 1.0f);
+            ChampionStatModifier statMod = new ChampionStatModifier();
+            statMod.MoveSpeed.PercentBonus = 30 / 100.0f;
+            owner.AddStatModifier(statMod);
+            ApiFunctionManager.CreateTimer(1.0f, () =>
+            {
+                owner.RemoveStatModifier(statMod);
+
+
+            });
+
             ApiFunctionManager.AddParticleTarget(owner, "global_ss_heal.troy", owner);
             ApiFunctionManager.AddParticleTarget(owner, "global_ss_heal_speedboost.troy", owner);
         }
