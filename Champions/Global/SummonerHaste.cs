@@ -15,10 +15,8 @@ namespace Global
             var HasteBuff = ApiFunctionManager.AddBuffHUDVisual("SummonerHaste", 10.0f, 1, owner, 10.0f);
             ApiFunctionManager.CreateTimer(10.0f, () =>
             {
-                owner.RemoveStatModifier(statMod);
-
+               owner.RemoveStatModifier(statMod);
             });
-
         }
 
         public void OnFinishCasting(Champion owner, Spell spell, Unit target)
