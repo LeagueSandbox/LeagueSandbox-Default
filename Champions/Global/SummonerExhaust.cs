@@ -1,36 +1,40 @@
-using LeagueSandbox.GameServer.Core.Logic.PacketHandlers;
-using LeagueSandbox.GameServer.Core.Logic.RAF;
-using LeagueSandbox.GameServer.Logic;
-using LeagueSandbox.GameServer.Logic.API;
-using LeagueSandbox.GameServer.Logic.Enet;
 using LeagueSandbox.GameServer.Logic.GameObjects;
-using LeagueSandbox.GameServer.Logic.Packets;
+using LeagueSandbox.GameServer.Logic.API;
 using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
-using System.Collections.Generic;
+using System;
 
 namespace Global
 {
-    public class Recall : GameScript
+    public class SummonerExhaust : GameScript
     {
-
         public void OnStartCasting(Champion owner, Spell spell, Unit target)
         {
 
         }
+
         public void OnFinishCasting(Champion owner, Spell spell, Unit target)
         {
-            var visualBuff = ApiFunctionManager.AddBuffHUDVisual("Recall", 8.0f, 1, owner);
-            var AddParticle = ApiFunctionManager.AddParticleTarget(owner, "TeleportHome.troy", owner);
-            ApiFunctionManager.CreateTimer(8.0f, () =>
+
+            ChampionStatModifier statMod = new ChampionStatModifier();
+            statMod.MoveSpeed.PercentBonus -= 30.0f / 100.0f;
+            statMod.AttackSpeed.PercentBonus -= 30.0f / 100.0f;
+            statMod.Armor.BaseBonus -= 10;
+            statMod.MagicResist.BaseBonus -= 10;
+            target.AddStatModifier(statMod);
+            ApiFunctionManager.AddParticleTarget(owner, "Global_SS_Exhaust.troy", target);
+            var visualBuff = ApiFunctionManager.AddBuffHUDVisual("SummonerExhaustDebuff", 2.5f, 1, target);
+            ApiFunctionManager.CreateTimer(2.5f, () =>
             {
                 ApiFunctionManager.RemoveBuffHUDVisual(visualBuff);
-                owner.Recall(owner);
+                target.RemoveStatModifier(statMod);
             });
         }
+
         public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
         {
 
         }
+
         public void OnUpdate(double diff)
         {
 
