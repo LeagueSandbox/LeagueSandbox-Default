@@ -8,9 +8,9 @@ using LeagueSandbox.GameServer.Logic.GameObjects;
 using LeagueSandbox.GameServer.Logic.API;
 using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
-namespace Ezreal
+namespace Spells
 {
-    public class Passive : GameScript
+    public class EzrealRisingSpellForce : GameScript
     {
         public void OnActivate(Champion owner)
         {

@@ -8,9 +8,9 @@ using LeagueSandbox.GameServer.Logic.GameObjects;
 using LeagueSandbox.GameServer.Logic.API;
 using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
-namespace Lucian
+namespace Spells
 {
-    public class E : GameScript
+    public class LucianE : GameScript
     {
         public void OnActivate(Champion owner) { }
         public void OnDeactivate(Champion owner) { }

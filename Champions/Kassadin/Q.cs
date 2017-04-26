@@ -8,9 +8,9 @@ using LeagueSandbox.GameServer.Logic.GameObjects;
 using LeagueSandbox.GameServer.Logic.API;
 using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
-namespace Kassadin
+namespace Spells
 {
-    public class Q : GameScript
+    public class NullLance : GameScript
     {
         public void OnActivate(Champion owner) { }
         public void OnDeactivate(Champion owner) { }

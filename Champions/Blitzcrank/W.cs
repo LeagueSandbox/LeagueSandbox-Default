@@ -8,9 +8,9 @@ using LeagueSandbox.GameServer.Logic.GameObjects;
 using LeagueSandbox.GameServer.Logic.API;
 using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
-namespace Blitzcrank
+namespace Spells
 {
-    public class W : GameScript
+    public class Overdrive : GameScript
     {
         public void OnActivate(Champion owner) { }
         public void OnDeactivate(Champion owner) { }

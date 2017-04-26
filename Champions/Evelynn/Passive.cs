@@ -8,9 +8,9 @@ using LeagueSandbox.GameServer.Logic.GameObjects;
 using LeagueSandbox.GameServer.Logic.API;
 using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
-namespace Evelynn
+namespace Spells
 {
-    public class Passive : GameScript
+    public class EvelynnPassive : GameScript
     {
         public void OnActivate(Champion owner) {
             ApiEventManager.OnChampionDamageTaken.AddListener(this, owner, selfWasDamaged);

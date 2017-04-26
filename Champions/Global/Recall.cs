@@ -8,7 +8,7 @@ using LeagueSandbox.GameServer.Logic.Packets;
 using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 using System.Collections.Generic;
 
-namespace Global
+namespace Spells
 {
     public class Recall : GameScript
     {

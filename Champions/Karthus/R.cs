@@ -9,9 +9,9 @@ using LeagueSandbox.GameServer.Logic.API;
 using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 using LeagueSandbox.GameServer;
 
-namespace Karthus
+namespace Spells
 {
-    public class R : GameScript
+    public class FallenOne : GameScript
     {
         public void OnActivate(Champion owner) { }
         public void OnDeactivate(Champion owner) { }

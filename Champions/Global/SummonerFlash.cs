@@ -3,7 +3,7 @@ using LeagueSandbox.GameServer.Logic.GameObjects;
 using LeagueSandbox.GameServer.Logic.API;
 using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
-namespace Global
+namespace Spells
 {
     public class SummonerFlash : GameScript
     {
