@@ -3,7 +3,7 @@ using LeagueSandbox.GameServer.Logic.API;
 using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 using System;
 
-namespace Global
+namespace Spells
 {
     public class SummonerSmite : GameScript
     {

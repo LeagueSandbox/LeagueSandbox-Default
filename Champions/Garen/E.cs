@@ -4,9 +4,9 @@ using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 using System.Numerics;
 using System.Collections.Generic;
 
-namespace Garen
+namespace Spells
 {
-    public class E : GameScript
+    public class GarenE : GameScript
     {
         public void OnActivate(Champion owner)
         {
