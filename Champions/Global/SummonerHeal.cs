@@ -73,17 +73,7 @@ namespace Spells
             {
                 owner.GetStats().CurrentHealth = newHealth;
             }
-<<<<<<< HEAD
 
-            //local buff2 = Buff.new("Haste", 1.0, owner, owner)
-            //buff2: setMovementSpeedPercentModifier(30)
-            //addBuff(buff2)
-            if (owner is Champion)
-            {
-                ApiFunctionManager.AddParticleTarget(owner as Champion, "global_ss_heal.troy", owner);
-                ApiFunctionManager.AddParticleTarget(owner as Champion, "global_ss_heal_speedboost.troy", owner);
-            }
-=======
             ApiFunctionManager.AddBuffHUDVisual("SummonerHeal", 1.0f, 1, owner, 1.0f);
             ChampionStatModifier statMod = new ChampionStatModifier();
             statMod.MoveSpeed.PercentBonus = 30 / 100.0f;
@@ -92,27 +82,9 @@ namespace Spells
             {
                 owner.RemoveStatModifier(statMod);
             });
-            ApiFunctionManager.AddParticleTarget(owner, "global_ss_heal.troy", owner);
-            ApiFunctionManager.AddParticleTarget(owner, "global_ss_heal_speedboost.troy", owner);
+            ApiFunctionManager.AddParticleTarget((owner as Champion), "global_ss_heal.troy", owner);
+            ApiFunctionManager.AddParticleTarget((owner as Champion), "global_ss_heal_speedboost.troy", owner);
         }
-
-        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
-        {
-
-        }
-
-        public void OnUpdate(double diff)
-        {
-
-        }
-
-        public void OnActivate(Champion owner)
-        {
-        }
-
-        public void OnDeactivate(Champion owner)
-        {
->>>>>>> refs/remotes/origin/indev
-        }
+        
     }
 }

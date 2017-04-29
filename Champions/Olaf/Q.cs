@@ -10,11 +10,7 @@ using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
 namespace Spells
 {
-<<<<<<< HEAD
-    public class Q : IGameScript
-=======
-    public class OlafAxeThrowCast : GameScript
->>>>>>> refs/remotes/origin/indev
+    public class OlafAxeThrowCast : IGameScript
     {
         GameScriptInformation info;
         Spell spell;

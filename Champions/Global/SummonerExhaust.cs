@@ -1,18 +1,24 @@
 using LeagueSandbox.GameServer.Logic.GameObjects;
 using LeagueSandbox.GameServer.Logic.API;
 using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
-using System;
 
 namespace Spells
 {
-    public class SummonerExhaust : GameScript
+    public class SummonerExhaust : IGameScript
     {
-        public void OnStartCasting(Champion owner, Spell spell, Unit target)
+        Unit owner;
+        public void OnActivate(GameScriptInformation gameScriptInformation)
+        {
+            owner = gameScriptInformation.OwnerUnit;
+            ApiEventManager.OnSpellFinishCast.AddListener(this, gameScriptInformation.OwnerSpell, OnFinishCasting);
+        }
+
+        public void OnDeactivate()
         {
 
         }
 
-        public void OnFinishCasting(Champion owner, Spell spell, Unit target)
+        public void OnFinishCasting(Unit target)
         {
 
             ChampionStatModifier statMod = new ChampionStatModifier();
@@ -21,7 +27,7 @@ namespace Spells
             statMod.Armor.BaseBonus -= 10;
             statMod.MagicResist.BaseBonus -= 10;
             target.AddStatModifier(statMod);
-            ApiFunctionManager.AddParticleTarget(owner, "Global_SS_Exhaust.troy", target);
+            ApiFunctionManager.AddParticleTarget((owner as Champion), "Global_SS_Exhaust.troy", target);
             var visualBuff = ApiFunctionManager.AddBuffHUDVisual("SummonerExhaustDebuff", 2.5f, 1, target);
             ApiFunctionManager.CreateTimer(2.5f, () =>
             {
@@ -29,23 +35,6 @@ namespace Spells
                 target.RemoveStatModifier(statMod);
             });
         }
-
-        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
-        {
-
-        }
-
-        public void OnUpdate(double diff)
-        {
-
-        }
-
-        public void OnActivate(Champion owner)
-        {
-        }
-
-        public void OnDeactivate(Champion owner)
-        {
-        }
+        
     }
 }

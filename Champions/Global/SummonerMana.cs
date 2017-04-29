@@ -5,15 +5,21 @@ using System;
 
 namespace Spells
 {
-    public class SummonerMana : GameScript
+    public class SummonerMana : IGameScript
     {
         private const float PERCENT_MAX_MANA_HEAL = 0.40f;
-        public void OnStartCasting(Champion owner, Spell spell, Unit target)
+        Unit owner;
+        public void OnActivate(GameScriptInformation gameScriptInformation)
         {
-
+            owner = gameScriptInformation.OwnerUnit;
+            ApiEventManager.OnSpellFinishCast.AddListener(this, gameScriptInformation.OwnerSpell, OnFinishCasting);
         }
 
-        public void OnFinishCasting(Champion owner, Spell spell, Unit target)
+        public void OnDeactivate()
+        {
+        }
+
+        public void OnFinishCasting(Unit target)
         {
             var units = ApiFunctionManager.GetChampionsInRange(owner, 600, true);
             Champion nearbychampion = null;
@@ -50,25 +56,7 @@ namespace Spells
                 owner.GetStats().CurrentMana = mp + maxMp * PERCENT_MAX_MANA_HEAL;
             else
                 owner.GetStats().CurrentMana = maxMp;
-            ApiFunctionManager.AddParticleTarget(owner, "global_ss_clarity_02.troy", owner);
-        }
-
-        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
-        {
-
-        }
-
-        public void OnUpdate(double diff)
-        {
-
-        }
-
-        public void OnActivate(Champion owner)
-        {
-        }
-
-        public void OnDeactivate(Champion owner)
-        {
+            ApiFunctionManager.AddParticleTarget((owner as Champion), "global_ss_clarity_02.troy", owner);
         }
     }
 }

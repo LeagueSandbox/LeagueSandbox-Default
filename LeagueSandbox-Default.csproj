@@ -54,40 +54,7 @@
     <Compile Include="Buffs\OverdriveSlow\OverdriveSlow.cs" />
     <Compile Include="Buffs\Overdrive\Overdrive.cs" />
     <Compile Include="Buffs\Quickdraw\Quickdraw.cs" />
-<<<<<<< HEAD
     <Compile Include="Buffs\Silence\Silence.cs" />
-    <Compile Include="Champions\Aatrox\Q.cs" />
-    <Compile Include="Champions\Aatrox\W.cs" />
-    <Compile Include="Champions\Aatrox\E.cs" />
-    <Compile Include="Champions\Aatrox\R.cs" />
-    <Compile Include="Champions\Aatrox\Passive.cs" />
-    <Compile Include="Champions\Ahri\Q.cs" />
-    <Compile Include="Champions\Ahri\W.cs" />
-    <Compile Include="Champions\Ahri\E.cs" />
-    <Compile Include="Champions\Ahri\R.cs" />
-    <Compile Include="Champions\Ahri\Passive.cs" />
-    <Compile Include="Champions\Akali\Q.cs" />
-    <Compile Include="Champions\Akali\W.cs" />
-    <Compile Include="Champions\Akali\E.cs" />
-    <Compile Include="Champions\Akali\R.cs" />
-    <Compile Include="Champions\Akali\Passive.cs" />
-    <Compile Include="Champions\Alistar\Q.cs" />
-    <Compile Include="Champions\Alistar\W.cs" />
-    <Compile Include="Champions\Alistar\E.cs" />
-    <Compile Include="Champions\Alistar\R.cs" />
-    <Compile Include="Champions\Alistar\Passive.cs" />
-    <Compile Include="Champions\Amumu\Q.cs" />
-    <Compile Include="Champions\Amumu\W.cs" />
-    <Compile Include="Champions\Amumu\E.cs" />
-    <Compile Include="Champions\Amumu\R.cs" />
-    <Compile Include="Champions\Amumu\Passive.cs" />
-    <Compile Include="Champions\Anivia\Q.cs" />
-    <Compile Include="Champions\Anivia\W.cs" />
-    <Compile Include="Champions\Anivia\E.cs" />
-    <Compile Include="Champions\Anivia\R.cs" />
-    <Compile Include="Champions\Anivia\Passive.cs" />
-=======
->>>>>>> refs/remotes/origin/indev
     <Compile Include="Champions\Annie\Q.cs" />
     <Compile Include="Champions\Blitzcrank\Q.cs" />
     <Compile Include="Champions\Blitzcrank\W.cs" />
@@ -111,64 +78,6 @@
     <Compile Include="Champions\Global\SummonerRevive.cs" />
     <Compile Include="Champions\Global\SummonerSmite.cs" />
     <Compile Include="Champions\Graves\E.cs" />
-<<<<<<< HEAD
-    <Compile Include="Champions\Graves\R.cs" />
-    <Compile Include="Champions\Graves\Passive.cs" />
-    <Compile Include="Champions\Hecarim\Q.cs" />
-    <Compile Include="Champions\Hecarim\W.cs" />
-    <Compile Include="Champions\Hecarim\E.cs" />
-    <Compile Include="Champions\Hecarim\R.cs" />
-    <Compile Include="Champions\Hecarim\Passive.cs" />
-    <Compile Include="Champions\Heimerdinger\Q.cs" />
-    <Compile Include="Champions\Heimerdinger\W.cs" />
-    <Compile Include="Champions\Heimerdinger\E.cs" />
-    <Compile Include="Champions\Heimerdinger\R.cs" />
-    <Compile Include="Champions\Heimerdinger\Passive.cs" />
-    <Compile Include="Champions\Irelia\Q.cs" />
-    <Compile Include="Champions\Irelia\W.cs" />
-    <Compile Include="Champions\Irelia\E.cs" />
-    <Compile Include="Champions\Irelia\R.cs" />
-    <Compile Include="Champions\Irelia\Passive.cs" />
-    <Compile Include="Champions\Janna\Q.cs" />
-    <Compile Include="Champions\Janna\W.cs" />
-    <Compile Include="Champions\Janna\E.cs" />
-    <Compile Include="Champions\Janna\R.cs" />
-    <Compile Include="Champions\Janna\Passive.cs" />
-    <Compile Include="Champions\JarvanIV\E.cs" />
-    <Compile Include="Champions\JarvanIV\Passive.cs" />
-    <Compile Include="Champions\JarvanIV\Q.cs" />
-    <Compile Include="Champions\JarvanIV\R.cs" />
-    <Compile Include="Champions\JarvanIV\W.cs" />
-    <Compile Include="Champions\Jax\E.cs" />
-    <Compile Include="Champions\Jax\Passive.cs" />
-    <Compile Include="Champions\Jax\Q.cs" />
-    <Compile Include="Champions\Jax\R.cs" />
-    <Compile Include="Champions\Jax\W.cs" />
-    <Compile Include="Champions\Jayce\Q.cs" />
-    <Compile Include="Champions\Jayce\W.cs" />
-    <Compile Include="Champions\Jayce\E.cs" />
-    <Compile Include="Champions\Jayce\R.cs" />
-    <Compile Include="Champions\Jayce\Passive.cs" />
-    <Compile Include="Champions\Jinx\Q.cs" />
-    <Compile Include="Champions\Jinx\W.cs" />
-    <Compile Include="Champions\Jinx\E.cs" />
-    <Compile Include="Champions\Jinx\R.cs" />
-    <Compile Include="Champions\Jinx\Passive.cs" />
-    <Compile Include="Champions\Kalista\Q.cs" />
-    <Compile Include="Champions\Kalista\W.cs" />
-    <Compile Include="Champions\Kalista\E.cs" />
-    <Compile Include="Champions\Kalista\R.cs" />
-    <Compile Include="Champions\Kalista\Passive.cs" />
-    <Compile Include="Champions\Karma\Q.cs" />
-    <Compile Include="Champions\Karma\W.cs" />
-    <Compile Include="Champions\Karma\E.cs" />
-    <Compile Include="Champions\Karma\R.cs" />
-    <Compile Include="Champions\Karma\Passive.cs" />
-    <Compile Include="Champions\Karthus\Q.cs" />
-    <Compile Include="Champions\Karthus\W.cs" />
-    <Compile Include="Champions\Karthus\E.cs" />
-=======
->>>>>>> refs/remotes/origin/indev
     <Compile Include="Champions\Karthus\R.cs" />
     <Compile Include="Champions\Kassadin\Q.cs" />
     <Compile Include="Champions\Lucian\Q.cs" />
@@ -187,6 +96,7 @@
       <Name>GameServerLib</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>xcopy /i /e /s /y /f "$(SolutionDir)GameServerApp\Content\Data\*" "$(SolutionDir)GameServerApp\bin\$(ConfigurationName)\Content\Data\*"</PostBuildEvent>

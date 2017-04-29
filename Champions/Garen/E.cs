@@ -5,11 +5,7 @@ using System.Collections.Generic;
 
 namespace Spells
 {
-<<<<<<< HEAD
-    public class E : IGameScript
-=======
-    public class GarenE : GameScript
->>>>>>> refs/remotes/origin/indev
+    public class GarenE : IGameScript
     {
         GameScriptInformation info;
         Spell spell;

@@ -1,34 +1,22 @@
-<<<<<<< HEAD
-=======
-using LeagueSandbox.GameServer.Logic.GameObjects;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using LeagueSandbox.GameServer.Logic.GameObjects;
 using LeagueSandbox.GameServer.Logic.API;
 using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
+using System;
 
 namespace Spells
 {
-    public class EzrealRisingSpellForce : GameScript
+    public class EzrealRisingSpellForce : IGameScript
     {
-        public void OnActivate(Champion owner)
+        public void OnActivate(GameScriptInformation gameScriptInformation)
         {
             ApiFunctionManager.LogInfo("Ezreal Passive OnActivate");
-            ApiEventManager.OnChampionDamageTaken.AddListener(this, owner, selfWasDamaged);
+            ApiEventManager.OnUnitDamageTaken.AddListener(this, gameScriptInformation.OwnerUnit, selfWasDamaged);
         }
 
         private void selfWasDamaged()
         {
             ApiFunctionManager.LogInfo("Ezreal was damaged");
         }
-        public void OnDeactivate(Champion owner) { }
-        public void OnStartCasting(Champion owner, Spell spell, Unit target){}
-        public void OnFinishCasting(Champion owner, Spell spell, Unit target) {}
-        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile) {}
-        public void OnUpdate(double diff) {}
+        public void OnDeactivate() { }
     }
 }
->>>>>>> refs/remotes/origin/indev

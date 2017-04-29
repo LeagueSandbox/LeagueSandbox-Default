@@ -4,11 +4,7 @@ using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
 namespace Spells
 {
-<<<<<<< HEAD
-    public class Q : IGameScript
-=======
-    public class NullLance : GameScript
->>>>>>> refs/remotes/origin/indev
+    public class NullLance : IGameScript
     {
         GameScriptInformation info;
         Spell spell;

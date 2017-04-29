@@ -5,11 +5,7 @@ using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
 namespace Spells
 {
-<<<<<<< HEAD
-    public class W : IGameScript
-=======
-    public class EzrealEssenceFlux : GameScript
->>>>>>> refs/remotes/origin/indev
+    public class EzrealEssenceFlux : IGameScript
     {
         GameScriptInformation info;
         Spell spell;

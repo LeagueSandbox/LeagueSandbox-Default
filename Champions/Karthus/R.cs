@@ -6,11 +6,7 @@ using LeagueSandbox.GameServer;
 
 namespace Spells
 {
-<<<<<<< HEAD
-    public class R : IGameScript
-=======
-    public class FallenOne : GameScript
->>>>>>> refs/remotes/origin/indev
+    public class FallenOne : IGameScript
     {
         GameScriptInformation info;
         Spell spell;
