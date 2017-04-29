@@ -3,9 +3,13 @@ using LeagueSandbox.GameServer.Logic.API;
 using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 using System.Collections.Generic;
 
-namespace Garen
+namespace Spells
 {
+<<<<<<< HEAD
     public class E : IGameScript
+=======
+    public class GarenE : GameScript
+>>>>>>> refs/remotes/origin/indev
     {
         GameScriptInformation info;
         Spell spell;

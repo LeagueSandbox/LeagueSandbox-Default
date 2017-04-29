@@ -8,9 +8,13 @@ using LeagueSandbox.GameServer.Logic.GameObjects;
 using LeagueSandbox.GameServer.Logic.API;
 using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
-namespace Lulu
+namespace Spells
 {
+<<<<<<< HEAD
     public class R : IGameScript
+=======
+    public class LuluR : GameScript
+>>>>>>> refs/remotes/origin/indev
     {
         GameScriptInformation info;
         Spell spell;

@@ -4,9 +4,13 @@ using LeagueSandbox.GameServer.Logic.GameObjects;
 using LeagueSandbox.GameServer.Logic.API;
 using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
-namespace Caitlyn
+namespace Spells
 {
+<<<<<<< HEAD
     public class Q : IGameScript
+=======
+    public class CaitlynPiltoverPeacemaker : GameScript
+>>>>>>> refs/remotes/origin/indev
     {
         GameScriptInformation info;
         Spell spell;

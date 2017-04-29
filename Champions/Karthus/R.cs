@@ -4,9 +4,13 @@ using LeagueSandbox.GameServer.Logic.API;
 using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 using LeagueSandbox.GameServer;
 
-namespace Karthus
+namespace Spells
 {
+<<<<<<< HEAD
     public class R : IGameScript
+=======
+    public class FallenOne : GameScript
+>>>>>>> refs/remotes/origin/indev
     {
         GameScriptInformation info;
         Spell spell;

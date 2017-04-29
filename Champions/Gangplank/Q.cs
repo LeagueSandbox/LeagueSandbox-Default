@@ -3,9 +3,13 @@ using LeagueSandbox.GameServer.Logic.GameObjects;
 using LeagueSandbox.GameServer.Logic.API;
 using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
-namespace Gangplank
+namespace Spells
 {
+<<<<<<< HEAD
     public class Q : IGameScript
+=======
+    public class Parley : GameScript
+>>>>>>> refs/remotes/origin/indev
     {
         GameScriptInformation info;
         Spell spell;

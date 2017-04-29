@@ -8,9 +8,13 @@ using LeagueSandbox.GameServer.Logic.GameObjects;
 using LeagueSandbox.GameServer.Logic.API;
 using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
-namespace Blitzcrank
+namespace Spells
 {
+<<<<<<< HEAD
     public class Q : IGameScript
+=======
+    public class RocketGrab : GameScript
+>>>>>>> refs/remotes/origin/indev
     {
         GameScriptInformation info;
         Spell spell;

@@ -3,9 +3,13 @@ using LeagueSandbox.GameServer.Logic.GameObjects;
 using LeagueSandbox.GameServer.Logic.API;
 using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
-namespace Ezreal
+namespace Spells
 {
+<<<<<<< HEAD
     public class E : IGameScript
+=======
+    public class EzrealArcaneShift : GameScript
+>>>>>>> refs/remotes/origin/indev
     {
         GameScriptInformation info;
         Spell spell;
