@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behavior\Poro\Poro.cs" />
     <Compile Include="Buffs\Blind\Blind.cs" />
     <Compile Include="Buffs\Disarm\Disarm.cs" />
     <Compile Include="Buffs\Invulnerable\Invulnerable.cs" />
