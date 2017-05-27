@@ -89,7 +89,4 @@
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <PropertyGroup>
-    <PostBuildEvent>xcopy /i /e /s /y /f "$(SolutionDir)GameServerApp\Content\Data\*" "$(SolutionDir)GameServerApp\bin\$(ConfigurationName)\Content\Data\*"</PostBuildEvent>
-  </PropertyGroup>
 </Project>
