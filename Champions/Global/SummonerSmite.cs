@@ -5,36 +5,23 @@ using System;
 
 namespace Spells
 {
-    public class SummonerSmite : GameScript
+    public class SummonerSmite : IGameScript
     {
-        public void OnStartCasting(Champion owner, Spell spell, Unit target)
+        Unit owner;
+        public void OnActivate(GameScriptInformation gameScriptInformation)
         {
-            ApiFunctionManager.AddParticleTarget(owner, "Global_SS_Smite.troy", target, 1);
+            owner = gameScriptInformation.OwnerUnit;
+            ApiEventManager.OnSpellCast.AddListener(this, gameScriptInformation.OwnerSpell, OnStartCasting);
+        }
+
+        public void OnDeactivate()
+        {
+        }
+        public void OnStartCasting(Unit target)
+        {
+            ApiFunctionManager.AddParticleTarget((owner as Champion), "Global_SS_Smite.troy", target, 1);
             var damage = 370 + owner.GetStats().Level * 20;
             owner.DealDamageTo(target, damage, DamageType.DAMAGE_TYPE_TRUE, DamageSource.DAMAGE_SOURCE_SPELL, false);
-        }
-
-        public void OnFinishCasting(Champion owner, Spell spell, Unit target)
-        {
-
-        }
-
-        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
-        {
-
-        }
-
-        public void OnUpdate(double diff)
-        {
-
-        }
-
-        public void OnActivate(Champion owner)
-        {
-        }
-
-        public void OnDeactivate(Champion owner)
-        {
         }
     }
 }

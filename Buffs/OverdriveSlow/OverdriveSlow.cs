@@ -1,29 +1,31 @@
-using System;
 using LeagueSandbox.GameServer.Logic.GameObjects;
-using LeagueSandbox.GameServer.Logic.Scripting;
-using LeagueSandbox.GameServer.Logic.API;
+using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
 namespace OverdriveSlow
 {
-    class OverdriveSlow : BuffGameScript
+    class OverdriveSlow : IGameScript
     {
         ChampionStatModifier statMod;
 
-        public void OnActivate(Unit unit, Spell ownerSpell)
+        GameScriptInformation info;
+        Spell spell;
+        Unit owner;
+        Unit target;
+        public void OnActivate(GameScriptInformation scriptInfo)
         {
+            info = scriptInfo;
+            spell = info.OwnerSpell;
+            owner = info.OwnerUnit;
+            target = info.TargetUnit;
+            
             statMod = new ChampionStatModifier();
             statMod.MoveSpeed.PercentBonus = statMod.MoveSpeed.PercentBonus - 0.3f;
-            unit.AddStatModifier(statMod);
+            target.AddStatModifier(statMod);
         }
 
-        public void OnDeactivate(Unit unit)
+        public void OnDeactivate()
         {
-            unit.RemoveStatModifier(statMod);
-        }
-
-        public void OnUpdate(double diff)
-        {
-            
+            target.RemoveStatModifier(statMod);
         }
     }
 }

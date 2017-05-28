@@ -10,32 +10,34 @@ using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
 namespace Spells
 {
-    public class Overdrive : GameScript
+    public class Overdrive : IGameScript
     {
-        public void OnActivate(Champion owner) { }
-        public void OnDeactivate(Champion owner) { }
-        public void OnStartCasting(Champion owner, Spell spell, Unit target){
-            Particle p = ApiFunctionManager.AddParticleTarget(owner, "Overdrive_buf.troy", target, 1);
+        GameScriptInformation info;
+        Spell spell;
+        Unit owner;
+        public void OnActivate(GameScriptInformation scriptInfo)
+        {
+            info = scriptInfo;
+            spell = info.OwnerSpell;
+            owner = info.OwnerUnit;
+            //Setup event listeners
+            ApiEventManager.OnSpellCast.AddListener(this, spell, OnStartCasting);
+        }
+        public void OnDeactivate() { }
+        public void OnStartCasting(Unit target){
+            Particle p = null;
+            if (owner is Champion)
+            {
+                p = ApiFunctionManager.AddParticleTarget(owner as Champion, "Overdrive_buf.troy", target, 1);
+            }
             var buff = target.AddBuffGameScript("Overdrive", "Overdrive", spell);
             var visualBuff = ApiFunctionManager.AddBuffHUDVisual("Overdrive", 8.0f, 1, owner);
             ApiFunctionManager.CreateTimer(8.0f, () =>
             {
-                ApiFunctionManager.RemoveParticle(p);
+                if (p != null) ApiFunctionManager.RemoveParticle(p);
                 ApiFunctionManager.RemoveBuffHUDVisual(visualBuff);
                 target.RemoveBuffGameScript(buff);
             });
-        
-        
-        
-        }
-        public void OnFinishCasting(Champion owner, Spell spell, Unit target) {
-
-        }
-        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile) {
-
-        }
-        public void OnUpdate(double diff) {
-
         }
      }
 }

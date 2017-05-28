@@ -1,26 +1,28 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Numerics;
-using LeagueSandbox.GameServer.Logic.GameObjects;
 using LeagueSandbox.GameServer.Logic.API;
+using LeagueSandbox.GameServer.Logic.GameObjects;
 using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
 namespace Spells
 {
-    public class CaitlynAceintheHole : GameScript
+    public class CaitlynAceintheHole : IGameScript
     {
-        public void OnActivate(Champion owner) { }
-        public void OnDeactivate(Champion owner) { }
-        public void OnStartCasting(Champion owner, Spell spell, Unit target){
-
+        GameScriptInformation info;
+        Spell spell;
+        Unit owner;
+        public void OnActivate(GameScriptInformation scriptInfo)
+        {
+            info = scriptInfo;
+            spell = info.OwnerSpell;
+            owner = info.OwnerUnit;
+            //Setup event listeners
+            ApiEventManager.OnSpellFinishCast.AddListener(this, spell, OnFinishCasting);
+            ApiEventManager.OnSpellApplyEffects.AddListener(this, spell, ApplyEffects);
         }
-        public void OnFinishCasting(Champion owner, Spell spell, Unit target) {
+        public void OnDeactivate() { }
+        public void OnFinishCasting(Unit target) {
             spell.AddProjectileTarget("CaitlynAceintheHoleMissile", target);
         }
-        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile) {
+        public void ApplyEffects(Unit target, Projectile projectile) {
             if (target != null && !target.IsDead)
             {
                 // 250/475/700
@@ -28,9 +30,6 @@ namespace Spells
                 owner.DealDamageTo(target, damage, DamageType.DAMAGE_TYPE_PHYSICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
             }
             projectile.setToRemove();
-        }
-        public void OnUpdate(double diff) {
-
         }
      }
 }

@@ -10,24 +10,21 @@ using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
 namespace Spells
 {
-    public class EvelynnPassive : GameScript
+    public class EvelynnPassive : IGameScript
     {
-        public void OnActivate(Champion owner) {
-            ApiEventManager.OnChampionDamageTaken.AddListener(this, owner, selfWasDamaged);
+
+        public void OnActivate(GameScriptInformation gameScriptInformation)
+        {
+            ApiEventManager.OnUnitDamageTaken.AddListener(this, gameScriptInformation.OwnerUnit, selfWasDamaged);
+        }
+
+        public void OnDeactivate()
+        {
         }
 
         private void selfWasDamaged()
         {
 
         }
-
-        public void OnDeactivate(Champion owner) {
-            //Listeners are automatically removed when GameScripts deactivate
-        }
-
-        public void OnStartCasting(Champion owner, Spell spell, Unit target){}
-        public void OnFinishCasting(Champion owner, Spell spell, Unit target) {}
-        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile) {}
-        public void OnUpdate(double diff) {}
     }
 }

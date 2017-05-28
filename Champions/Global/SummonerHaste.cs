@@ -5,9 +5,20 @@ using System;
 
 namespace Spells
 {
-    public class SummonerHaste : GameScript
+    public class SummonerHaste : IGameScript
     {
-        public void OnStartCasting(Champion owner, Spell spell, Unit target)
+        Unit owner;
+        public void OnActivate(GameScriptInformation gameScriptInformation)
+        {
+            owner = gameScriptInformation.OwnerUnit;
+            ApiEventManager.OnSpellCast.AddListener(this, gameScriptInformation.OwnerSpell, OnStartCasting);
+        }
+
+        public void OnDeactivate()
+        {
+        }
+
+        public void OnStartCasting(Unit target)
         {
             ChampionStatModifier statMod = new ChampionStatModifier();
             statMod.MoveSpeed.PercentBonus = 27 / 100.0f;
@@ -17,29 +28,6 @@ namespace Spells
             {
                owner.RemoveStatModifier(statMod);
             });
-        }
-
-        public void OnFinishCasting(Champion owner, Spell spell, Unit target)
-        {
-
-        }
-
-        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
-        {
-
-        }
-
-        public void OnUpdate(double diff)
-        {
-
-        }
-
-        public void OnActivate(Champion owner)
-        {
-        }
-
-        public void OnDeactivate(Champion owner)
-        {
         }
     }
 }

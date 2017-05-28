@@ -10,12 +10,25 @@ using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
 namespace Spells
 {
-    public class BlindingDart : GameScript
+    public class BlindingDart : IGameScript
     {
-        public void OnActivate(Champion owner) { }
-        public void OnDeactivate(Champion owner) { }
-        public void OnStartCasting(Champion owner, Spell spell, Unit target) { }
-        public void OnFinishCasting(Champion owner, Spell spell, Unit target) {
+        GameScriptInformation info;
+        Spell spell;
+        Unit owner;
+        public void OnActivate(GameScriptInformation scriptInfo)
+        {
+            info = scriptInfo;
+            spell = info.OwnerSpell;
+            owner = info.OwnerUnit;
+            //Setup event listeners
+            ApiEventManager.OnSpellFinishCast.AddListener(this, spell, OnFinishCasting);
+            ApiEventManager.OnSpellApplyEffects.AddListener(this, spell, ApplyEffects);
+        }
+        public void OnDeactivate()
+        {
+
+        }
+        public void OnFinishCasting(Unit target) {
             var current = new Vector2(owner.X, owner.Y);
             var to = Vector2.Normalize(new Vector2(spell.X, spell.Y) - current);
             var range = to * 580;
@@ -23,7 +36,7 @@ namespace Spells
 
             spell.AddProjectile("ToxicShot", trueCoords.X, trueCoords.Y);
         }
-        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
+        public void ApplyEffects(Unit target, Projectile projectile)
         {
             var ap = owner.GetStats().AbilityPower.Total * 0.8f;
             var damage = 35 + spell.Level * 45 + ap;
@@ -37,6 +50,5 @@ namespace Spells
                 target.RemoveBuffGameScript(buff);
             });
         }
-        public void OnUpdate(double diff) { }
      }
 }

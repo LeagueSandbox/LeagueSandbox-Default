@@ -10,11 +10,22 @@ using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
 namespace Spells
 {
-    public class LucianQ : GameScript
+    public class LucianQ : IGameScript
     {
-        public void OnActivate(Champion owner) { }
-        public void OnDeactivate(Champion owner) { }
-        public void OnStartCasting(Champion owner, Spell spell, Unit target){
+        GameScriptInformation info;
+        Spell spell;
+        Unit owner;
+        public void OnActivate(GameScriptInformation scriptInfo)
+        {
+            info = scriptInfo;
+            spell = info.OwnerSpell;
+            owner = info.OwnerUnit;
+            //Setup event listeners
+            ApiEventManager.OnSpellCast.AddListener(this, spell, OnStartCasting);
+            ApiEventManager.OnSpellApplyEffects.AddListener(this, spell, ApplyEffects);
+        }
+        public void OnDeactivate() { }
+        public void OnStartCasting(Unit target){
             var current = new Vector2(owner.X, owner.Y);
             var to = Vector2.Normalize(new Vector2(spell.X, spell.Y) - current);
             var range = to * 1100;
@@ -22,18 +33,15 @@ namespace Spells
 
             spell.AddLaser(trueCoords.X, trueCoords.Y);
             spell.spellAnimation("SPELL1", owner);
-            ApiFunctionManager.AddParticle(owner, "Lucian_Q_laser.troy", trueCoords.X, trueCoords.Y);
-            ApiFunctionManager.AddParticleTarget(owner, "Lucian_Q_cas.troy", owner);
+            if (owner is Champion)
+            {
+                ApiFunctionManager.AddParticle(owner as Champion, "Lucian_Q_laser.troy", trueCoords.X, trueCoords.Y);
+                ApiFunctionManager.AddParticleTarget(owner as Champion, "Lucian_Q_cas.troy", owner);
+            }
         }
-        public void OnFinishCasting(Champion owner, Spell spell, Unit target) {
-
-        }
-        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile) {
+        public void ApplyEffects(Unit target, Projectile projectile) {
             var damage = owner.GetStats().AttackDamage.Total * (0.45f + spell.Level * 0.15f) + (50 + spell.Level * 30);
             owner.DealDamageTo(spell.Target, damage, DamageType.DAMAGE_TYPE_PHYSICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
-        }
-        public void OnUpdate(double diff) {
-
         }
      }
 }

@@ -5,14 +5,21 @@ using System;
 
 namespace Spells
 {
-    public class SummonerHeal : GameScript
+    public class SummonerHeal : IGameScript
     {
-        public void OnStartCasting(Champion owner, Spell spell, Unit target)
+        GameScriptInformation info;
+        Spell spell;
+        Unit owner;
+        public void OnActivate(GameScriptInformation scriptInfo)
         {
-
+            info = scriptInfo;
+            spell = info.OwnerSpell;
+            owner = info.OwnerUnit;
+            //Setup event listeners
+            ApiEventManager.OnSpellFinishCast.AddListener(this, spell, OnFinishCasting);
         }
-
-        public void OnFinishCasting(Champion owner, Spell spell, Unit target)
+        public void OnDeactivate() { }
+        public void OnFinishCasting(Unit target)
         {
             var units = ApiFunctionManager.GetChampionsInRange(owner, 850, true);
             Champion mostWoundedAlliedChampion = null;
@@ -66,6 +73,7 @@ namespace Spells
             {
                 owner.GetStats().CurrentHealth = newHealth;
             }
+
             ApiFunctionManager.AddBuffHUDVisual("SummonerHeal", 1.0f, 1, owner, 1.0f);
             ChampionStatModifier statMod = new ChampionStatModifier();
             statMod.MoveSpeed.PercentBonus = 30 / 100.0f;
@@ -74,26 +82,9 @@ namespace Spells
             {
                 owner.RemoveStatModifier(statMod);
             });
-            ApiFunctionManager.AddParticleTarget(owner, "global_ss_heal.troy", owner);
-            ApiFunctionManager.AddParticleTarget(owner, "global_ss_heal_speedboost.troy", owner);
+            ApiFunctionManager.AddParticleTarget((owner as Champion), "global_ss_heal.troy", owner);
+            ApiFunctionManager.AddParticleTarget((owner as Champion), "global_ss_heal_speedboost.troy", owner);
         }
-
-        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
-        {
-
-        }
-
-        public void OnUpdate(double diff)
-        {
-
-        }
-
-        public void OnActivate(Champion owner)
-        {
-        }
-
-        public void OnDeactivate(Champion owner)
-        {
-        }
+        
     }
 }
