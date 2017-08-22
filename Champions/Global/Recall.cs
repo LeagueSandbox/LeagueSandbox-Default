@@ -1,4 +1,3 @@
-using LeagueSandbox.GameServer.Core.Logic.PacketHandlers;
 using LeagueSandbox.GameServer.Logic;
 using LeagueSandbox.GameServer.Logic.API;
 using LeagueSandbox.GameServer.Logic.Enet;
@@ -11,7 +10,6 @@ namespace Spells
 {
     public class Recall : GameScript
     {
-
         public void OnStartCasting(Champion owner, Spell spell, Unit target)
         {
 
