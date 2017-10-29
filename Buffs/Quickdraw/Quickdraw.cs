@@ -1,5 +1,7 @@
 ﻿using System;
 using LeagueSandbox.GameServer.Logic.GameObjects;
+using LeagueSandbox.GameServer.Logic.GameObjects.Spells;
+using LeagueSandbox.GameServer.Logic.GameObjects.Statistics;
 using LeagueSandbox.GameServer.Logic.Scripting;
 
 namespace Quickdraw
