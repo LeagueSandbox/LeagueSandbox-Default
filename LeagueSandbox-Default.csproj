@@ -50,6 +50,7 @@
     <Compile Include="Champions\Annie\Q.cs" />
     <Compile Include="Champions\Blitzcrank\Q.cs" />
     <Compile Include="Champions\Blitzcrank\W.cs" />
+    <Compile Include="Champions\Caitlyn\E.cs" />
     <Compile Include="Champions\Caitlyn\Q.cs" />
     <Compile Include="Champions\Caitlyn\R.cs" />
     <Compile Include="Champions\Evelynn\Passive.cs" />
