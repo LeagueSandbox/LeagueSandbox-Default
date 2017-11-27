@@ -40,27 +40,7 @@ namespace Spells
             var damage = 80 + spell.Level * 50 + ap;
             owner.DealDamageTo(target, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
 
-            var slowDuration = 1.0f;
-            switch (spell.Level)
-            {
-                case 1:
-                    slowDuration = 1;
-                    break;
-                case 2:
-                    slowDuration = 1.25f;
-                    break;
-                case 3:
-                    slowDuration = 1.5f;
-                    break;
-                case 4:
-                    slowDuration = 1.75f;
-                    break;
-                case 5:
-                    slowDuration = 2;
-                    break;
-                default:
-                    break;
-            }
+            var slowDuration = new[] {0, 1, 1.25f, 1.5f, 1.75f, 2}[spell.Level];
             ApiFunctionManager.AddBuff("Slow", slowDuration, 1, target, owner);
             ApiFunctionManager.AddParticleTarget(owner, "caitlyn_entrapment_tar.troy", target);
             ApiFunctionManager.AddParticleTarget(owner, "caitlyn_entrapment_slow.troy", target);
