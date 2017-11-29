@@ -30,6 +30,12 @@ namespace Spells
             }
 
             ApiFunctionManager.AddParticle(owner, "global_ss_flash.troy", owner.X, owner.Y);
+
+            if (owner.IsDashing)
+            {
+                ApiFunctionManager.CancelDash(owner); 
+            }
+
             ApiFunctionManager.TeleportTo(owner, trueCoords.X, trueCoords.Y);
 
             ApiFunctionManager.AddParticleTarget(owner, "global_ss_flash_02.troy", owner);
