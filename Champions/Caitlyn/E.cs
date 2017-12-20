@@ -16,11 +16,10 @@ namespace Spells
 
         public void OnDeactivate(Champion owner) { }
 
-        public void OnStartCasting(Champion owner, Spell spell, Unit target) {
-            spell.spellAnimation("Spell3", owner);
-        }
+        public void OnStartCasting(Champion owner, Spell spell, Unit target) { }
 
-        public void OnFinishCasting(Champion owner, Spell spell, Unit target) {
+        public void OnFinishCasting(Champion owner, Spell spell, Unit target)
+        {
             // Calculate net coords
             var current = new Vector2(owner.X, owner.Y);
             var to = Vector2.Normalize(new Vector2(spell.X, spell.Y) - current);
@@ -32,12 +31,12 @@ namespace Spells
             var dashCoords = current + dash;
             ApiFunctionManager.DashToLocation(owner, dashCoords.X, dashCoords.Y, 1000, true, "Spell3b");
             spell.AddProjectile("CaitlynEntrapmentMissile", trueCoords.X, trueCoords.Y);
-            spell.spellAnimation("Spell3_fallback", owner);
         }
 
-        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile) {
+        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
+        {
             var ap = owner.GetStats().AbilityPower.Total * 0.8f;
-            var damage = 80 + spell.Level * 50 + ap;
+            var damage = 80 + (spell.Level - 1) * 50 + ap;
             owner.DealDamageTo(target, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
 
             var slowDuration = new[] {0, 1, 1.25f, 1.5f, 1.75f, 2}[spell.Level];
