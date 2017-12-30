@@ -14,13 +14,13 @@ namespace Spells
     {
         public void OnActivate(Champion owner) { }
         public void OnDeactivate(Champion owner) { }
-        public void OnStartCasting(Champion owner, Spell spell, Unit target){
+        public void OnStartCasting(Champion owner, Spell spell, ObjAIBase target){
 
         }
-        public void OnFinishCasting(Champion owner, Spell spell, Unit target) {
+        public void OnFinishCasting(Champion owner, Spell spell, ObjAIBase target) {
             spell.AddProjectileTarget("CaitlynAceintheHoleMissile", target);
         }
-        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile) {
+        public void ApplyEffects(Champion owner, ObjAIBase target, Spell spell, Projectile projectile) {
             if (target != null && !target.IsDead)
             {
                 // 250/475/700

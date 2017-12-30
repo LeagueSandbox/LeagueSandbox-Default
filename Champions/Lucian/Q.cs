@@ -14,7 +14,7 @@ namespace Spells
     {
         public void OnActivate(Champion owner) { }
         public void OnDeactivate(Champion owner) { }
-        public void OnStartCasting(Champion owner, Spell spell, Unit target){
+        public void OnStartCasting(Champion owner, Spell spell, ObjAIBase target){
             var current = new Vector2(owner.X, owner.Y);
             var to = Vector2.Normalize(new Vector2(spell.X, spell.Y) - current);
             var range = to * 1100;
@@ -25,10 +25,10 @@ namespace Spells
             ApiFunctionManager.AddParticle(owner, "Lucian_Q_laser.troy", trueCoords.X, trueCoords.Y);
             ApiFunctionManager.AddParticleTarget(owner, "Lucian_Q_cas.troy", owner);
         }
-        public void OnFinishCasting(Champion owner, Spell spell, Unit target) {
+        public void OnFinishCasting(Champion owner, Spell spell, ObjAIBase target) {
 
         }
-        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile) {
+        public void ApplyEffects(Champion owner, ObjAIBase target, Spell spell, Projectile projectile) {
             var damage = owner.GetStats().AttackDamage.Total * (0.45f + spell.Level * 0.15f) + (50 + spell.Level * 30);
             owner.DealDamageTo(spell.Target, damage, DamageType.DAMAGE_TYPE_PHYSICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
         }
