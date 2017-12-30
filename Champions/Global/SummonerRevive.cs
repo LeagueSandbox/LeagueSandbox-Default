@@ -7,12 +7,12 @@ namespace Spells
 {
     public class SummonerRevive : GameScript
     {
-        public void OnStartCasting(Champion owner, Spell spell, Unit target)
+        public void OnStartCasting(Champion owner, Spell spell, ObjAIBase target)
         {
 
         }
 
-        public void OnFinishCasting(Champion owner, Spell spell, Unit target)
+        public void OnFinishCasting(Champion owner, Spell spell, ObjAIBase target)
         {
             if (!owner.IsDead)
             {
@@ -32,7 +32,7 @@ namespace Spells
             });
         }
 
-        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
+        public void ApplyEffects(Champion owner, ObjAIBase target, Spell spell, Projectile projectile)
         {
 
         }

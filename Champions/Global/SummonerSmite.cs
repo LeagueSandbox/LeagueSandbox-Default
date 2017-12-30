@@ -7,19 +7,19 @@ namespace Spells
 {
     public class SummonerSmite : GameScript
     {
-        public void OnStartCasting(Champion owner, Spell spell, Unit target)
+        public void OnStartCasting(Champion owner, Spell spell, ObjAIBase target)
         {
             ApiFunctionManager.AddParticleTarget(owner, "Global_SS_Smite.troy", target, 1);
             var damage = 370 + owner.GetStats().Level * 20;
             owner.DealDamageTo(target, damage, DamageType.DAMAGE_TYPE_TRUE, DamageSource.DAMAGE_SOURCE_SPELL, false);
         }
 
-        public void OnFinishCasting(Champion owner, Spell spell, Unit target)
+        public void OnFinishCasting(Champion owner, Spell spell, ObjAIBase target)
         {
 
         }
 
-        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
+        public void ApplyEffects(Champion owner, ObjAIBase target, Spell spell, Projectile projectile)
         {
 
         }

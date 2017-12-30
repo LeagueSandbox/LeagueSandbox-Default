@@ -14,13 +14,13 @@ namespace Spells
     {
         public void OnActivate(Champion owner) { }
         public void OnDeactivate(Champion owner) { }
-        public void OnStartCasting(Champion owner, Spell spell, Unit target){
+        public void OnStartCasting(Champion owner, Spell spell, ObjAIBase target){
 
         }
-        public void OnFinishCasting(Champion owner, Spell spell, Unit target) {
+        public void OnFinishCasting(Champion owner, Spell spell, ObjAIBase target) {
             spell.AddProjectileTarget("pirate_parley_mis", target);
         }
-        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile) {
+        public void ApplyEffects(Champion owner, ObjAIBase target, Spell spell, Projectile projectile) {
             var isCrit = new Random().Next(0, 100) < owner.GetStats().CriticalChance.Total;
             var baseDamage = new[] {20, 45, 70, 95, 120}[spell.Level - 1] + owner.GetStats().AttackDamage.Total;
             var damage = isCrit ? baseDamage * owner.GetStats().getCritDamagePct() / 100 : baseDamage;

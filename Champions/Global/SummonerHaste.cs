@@ -7,7 +7,7 @@ namespace Spells
 {
     public class SummonerHaste : GameScript
     {
-        public void OnStartCasting(Champion owner, Spell spell, Unit target)
+        public void OnStartCasting(Champion owner, Spell spell, ObjAIBase target)
         {
             ChampionStatModifier statMod = new ChampionStatModifier();
             statMod.MoveSpeed.PercentBonus = 27 / 100.0f;
@@ -19,12 +19,12 @@ namespace Spells
             });
         }
 
-        public void OnFinishCasting(Champion owner, Spell spell, Unit target)
+        public void OnFinishCasting(Champion owner, Spell spell, ObjAIBase target)
         {
 
         }
 
-        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
+        public void ApplyEffects(Champion owner, ObjAIBase target, Spell spell, Projectile projectile)
         {
 
         }
