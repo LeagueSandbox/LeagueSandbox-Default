@@ -13,13 +13,13 @@ namespace Quickdraw
             
         }
 
-        public void OnActivate(Unit unit, Spell ownerSpell)
+        public void OnActivate(ObjAIBase unit, Spell ownerSpell)
         {
             statMod.AttackSpeed.PercentBonus = ownerSpell.Level * 10.0f / 100.0f;
             unit.AddStatModifier(statMod);
         }
 
-        public void OnDeactivate(Unit unit)
+        public void OnDeactivate(ObjAIBase unit)
         {
             unit.RemoveStatModifier(statMod);
         }
