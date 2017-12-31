@@ -9,7 +9,7 @@ namespace LuluWBuff
     {
         ChampionStatModifier statMod;
 
-        public void OnActivate(Unit unit, Spell ownerSpell)
+        public void OnActivate(ObjAIBase unit, Spell ownerSpell)
         {
             double ap = ownerSpell.Owner.GetStats().AbilityPower.Total * 0.001;
             statMod = new ChampionStatModifier();
@@ -17,7 +17,7 @@ namespace LuluWBuff
             unit.AddStatModifier(statMod);
         }
 
-        public void OnDeactivate(Unit unit)
+        public void OnDeactivate(ObjAIBase unit)
         {
             unit.RemoveStatModifier(statMod);
         }
