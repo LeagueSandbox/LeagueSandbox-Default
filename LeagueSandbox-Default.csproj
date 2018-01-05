@@ -53,6 +53,7 @@
     <Compile Include="Champions\Caitlyn\E.cs" />
     <Compile Include="Champions\Caitlyn\Q.cs" />
     <Compile Include="Champions\Caitlyn\R.cs" />
+    <Compile Include="Champions\Caitlyn\W.cs" />
     <Compile Include="Champions\Evelynn\Passive.cs" />
     <Compile Include="Champions\Ezreal\Q.cs" />
     <Compile Include="Champions\Ezreal\W.cs" />
