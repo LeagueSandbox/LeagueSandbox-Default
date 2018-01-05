@@ -7,12 +7,12 @@ namespace Spells
 {
     public class SummonerExhaust : GameScript
     {
-        public void OnStartCasting(Champion owner, Spell spell, Unit target)
+        public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target)
         {
 
         }
 
-        public void OnFinishCasting(Champion owner, Spell spell, Unit target)
+        public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target)
         {
 
             ChampionStatModifier statMod = new ChampionStatModifier();
@@ -30,7 +30,7 @@ namespace Spells
             });
         }
 
-        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
+        public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile)
         {
 
         }

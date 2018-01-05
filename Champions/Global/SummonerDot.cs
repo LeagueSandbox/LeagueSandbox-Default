@@ -7,7 +7,7 @@ namespace Spells
 {
     public class SummonerDot : GameScript
     {
-        public void OnStartCasting(Champion owner, Spell spell, Unit target)
+        public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target)
         {
             var visualBuff = ApiFunctionManager.AddBuffHUDVisual("SummonerDot", 5.0f, 1, target);
             Particle p = ApiFunctionManager.AddParticleTarget(owner, "Global_SS_Ignite.troy", target, 1);
@@ -33,12 +33,12 @@ namespace Spells
             });
         }
 
-        public void OnFinishCasting(Champion owner, Spell spell, Unit target)
+        public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target)
         {
 
         }
 
-        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
+        public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile)
         {
 
         }

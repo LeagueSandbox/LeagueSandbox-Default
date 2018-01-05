@@ -7,12 +7,12 @@ namespace Spells
 {
     public class SummonerHeal : GameScript
     {
-        public void OnStartCasting(Champion owner, Spell spell, Unit target)
+        public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target)
         {
 
         }
 
-        public void OnFinishCasting(Champion owner, Spell spell, Unit target)
+        public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target)
         {
             var units = ApiFunctionManager.GetChampionsInRange(owner, 850, true);
             Champion mostWoundedAlliedChampion = null;
@@ -78,7 +78,7 @@ namespace Spells
             ApiFunctionManager.AddParticleTarget(owner, "global_ss_heal_speedboost.troy", owner);
         }
 
-        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
+        public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile)
         {
 
         }

@@ -14,7 +14,7 @@ namespace Spells
     {
         public void OnActivate(Champion owner) { }
         public void OnDeactivate(Champion owner) { }
-        public void OnStartCasting(Champion owner, Spell spell, Unit target){
+        public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target){
             Particle p = ApiFunctionManager.AddParticleTarget(owner, "Overdrive_buf.troy", target, 1);
             var buff = target.AddBuffGameScript("Overdrive", "Overdrive", spell);
             var visualBuff = ApiFunctionManager.AddBuffHUDVisual("Overdrive", 8.0f, 1, owner);
@@ -28,10 +28,10 @@ namespace Spells
         
         
         }
-        public void OnFinishCasting(Champion owner, Spell spell, Unit target) {
+        public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target) {
 
         }
-        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile) {
+        public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile) {
 
         }
         public void OnUpdate(double diff) {

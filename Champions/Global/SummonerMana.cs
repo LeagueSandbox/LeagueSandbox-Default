@@ -8,12 +8,12 @@ namespace Spells
     public class SummonerMana : GameScript
     {
         private const float PERCENT_MAX_MANA_HEAL = 0.40f;
-        public void OnStartCasting(Champion owner, Spell spell, Unit target)
+        public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target)
         {
 
         }
 
-        public void OnFinishCasting(Champion owner, Spell spell, Unit target)
+        public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target)
         {
             var units = ApiFunctionManager.GetChampionsInRange(owner, 600, true);
             Champion nearbychampion = null;
@@ -53,7 +53,7 @@ namespace Spells
             ApiFunctionManager.AddParticleTarget(owner, "global_ss_clarity_02.troy", owner);
         }
 
-        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
+        public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile)
         {
 
         }

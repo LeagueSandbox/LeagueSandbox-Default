@@ -14,10 +14,10 @@ namespace Spells
     {
         public void OnActivate(Champion owner) { }
         public void OnDeactivate(Champion owner) { }
-        public void OnStartCasting(Champion owner, Spell spell, Unit target){
+        public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target){
             ApiFunctionManager.AddParticleTarget(owner, "Ezreal_bow_huge.troy", owner, 1, "L_HAND");
         }
-        public void OnFinishCasting(Champion owner, Spell spell, Unit target) {
+        public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target) {
             var current = new Vector2(owner.X, owner.Y);
             var to = Vector2.Normalize(new Vector2(spell.X, spell.Y) - current);
             var range = to * 20000;
@@ -25,7 +25,7 @@ namespace Spells
 
             spell.AddProjectile("EzrealTrueshotBarrage", trueCoords.X, trueCoords.Y, true);
         }
-        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile) {
+        public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile) {
             var reduc = Math.Min(projectile.ObjectsHit.Count, 7);
             var bonusAd = owner.GetStats().AttackDamage.Total - owner.GetStats().AttackDamage.BaseValue;
             var ap = owner.GetStats().AbilityPower.Total * 0.9f;
