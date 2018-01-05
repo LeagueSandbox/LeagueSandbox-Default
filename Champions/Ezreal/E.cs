@@ -61,7 +61,7 @@ namespace Spells
             }
         }
         public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile) {
-            owner.DealDamageTo(target, 25f + spell.Level * 50f + owner.GetStats().AbilityPower.Total * 0.75f,
+            target.TakeDamage(owner, 25f + spell.Level * 50f + owner.GetStats().AbilityPower.Total * 0.75f,
                 DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
             projectile.setToRemove();
         }

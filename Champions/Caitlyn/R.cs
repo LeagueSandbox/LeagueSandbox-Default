@@ -25,7 +25,7 @@ namespace Spells
             {
                 // 250/475/700
                 var damage = 250 + owner.GetStats().AttackDamage.Total * 2;
-                owner.DealDamageTo(target, damage, DamageType.DAMAGE_TYPE_PHYSICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
+                target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_PHYSICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
             }
             projectile.setToRemove();
         }

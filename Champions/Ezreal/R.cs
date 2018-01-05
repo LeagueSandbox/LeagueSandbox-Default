@@ -30,7 +30,7 @@ namespace Spells
             var bonusAd = owner.GetStats().AttackDamage.Total - owner.GetStats().AttackDamage.BaseValue;
             var ap = owner.GetStats().AbilityPower.Total * 0.9f;
             var damage = 200 + spell.Level * 150 + bonusAd + ap;
-            owner.DealDamageTo(target, damage * (1 - reduc / 10), DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
+            target.TakeDamage(owner, damage * (1 - reduc / 10), DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
         }
         public void OnUpdate(double diff) {
 

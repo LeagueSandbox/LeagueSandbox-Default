@@ -28,7 +28,7 @@ namespace Spells
         public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile) {
             var ap = owner.GetStats().AbilityPower.Total;
             var damage = 25 + spell.Level * 55 + ap;
-            owner.DealDamageTo(spell.Target, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
+            spell.Target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
 
             if (!spell.Target.IsDead)
             {

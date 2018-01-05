@@ -27,7 +27,7 @@ namespace Spells
             var goldIncome = new[] {4, 5, 6, 7, 8}[spell.Level - 1];
             if (target != null && !target.IsDead)
             {
-                owner.DealDamageTo(target, damage, DamageType.DAMAGE_TYPE_PHYSICAL, DamageSource.DAMAGE_SOURCE_ATTACK, false);
+                target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_PHYSICAL, DamageSource.DAMAGE_SOURCE_ATTACK, false);
                 if (target.IsDead)
                 {
                     owner.GetStats().Gold += goldIncome;

@@ -40,7 +40,7 @@ namespace Spells
             var AD = owner.GetStats().AttackDamage.Total * 1.1f;
             var AP = owner.GetStats().AttackDamage.Total * 0.0f;
             var damage = 15 + spell.Level * 20 + AD + AP;
-            owner.DealDamageTo(target, damage, DamageType.DAMAGE_TYPE_PHYSICAL, DamageSource.DAMAGE_SOURCE_ATTACK, false);
+            target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_PHYSICAL, DamageSource.DAMAGE_SOURCE_ATTACK, false);
         }
         public void OnUpdate(double diff) {
 

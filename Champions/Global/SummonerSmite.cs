@@ -11,7 +11,7 @@ namespace Spells
         {
             ApiFunctionManager.AddParticleTarget(owner, "Global_SS_Smite.troy", target, 1);
             var damage = 370 + owner.GetStats().Level * 20;
-            owner.DealDamageTo(target, damage, DamageType.DAMAGE_TYPE_TRUE, DamageSource.DAMAGE_SOURCE_SPELL, false);
+            target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_TRUE, DamageSource.DAMAGE_SOURCE_SPELL, false);
         }
 
         public void OnFinishCasting(Champion owner, Spell spell, Unit target)

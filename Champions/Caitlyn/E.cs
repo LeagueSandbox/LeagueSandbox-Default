@@ -37,7 +37,7 @@ namespace Spells
         {
             var ap = owner.GetStats().AbilityPower.Total * 0.8f;
             var damage = 80 + (spell.Level - 1) * 50 + ap;
-            owner.DealDamageTo(target, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
+            target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
 
             var slowDuration = new[] {0, 1, 1.25f, 1.5f, 1.75f, 2}[spell.Level];
             ApiFunctionManager.AddBuff("Slow", slowDuration, 1, target, owner);

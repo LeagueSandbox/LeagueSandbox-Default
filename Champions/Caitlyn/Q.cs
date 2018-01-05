@@ -29,7 +29,7 @@ namespace Spells
             var reduc = Math.Min(projectile.ObjectsHit.Count, 5);
             var baseDamage = new[] {20, 60, 100, 140, 180}[spell.Level - 1] + 1.3f * owner.GetStats().AttackDamage.Total;
             var damage = baseDamage * (1 - reduc / 10);
-            owner.DealDamageTo(target, damage, DamageType.DAMAGE_TYPE_PHYSICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
+            target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_PHYSICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
         }
         public void OnUpdate(double diff) {
 

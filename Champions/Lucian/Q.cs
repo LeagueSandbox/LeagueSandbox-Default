@@ -30,7 +30,7 @@ namespace Spells
         }
         public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile) {
             var damage = owner.GetStats().AttackDamage.Total * (0.45f + spell.Level * 0.15f) + (50 + spell.Level * 30);
-            owner.DealDamageTo(spell.Target, damage, DamageType.DAMAGE_TYPE_PHYSICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
+            spell.Target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_PHYSICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
         }
         public void OnUpdate(double diff) {
 

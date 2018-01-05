@@ -26,7 +26,7 @@ namespace Spells
 
             if (target != null && !ApiFunctionManager.IsDead(target))
             {
-                owner.DealDamageTo(target, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
+                target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
                 if (target.IsDead)
                 {
                 }

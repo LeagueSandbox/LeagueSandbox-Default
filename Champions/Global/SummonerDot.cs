@@ -12,22 +12,22 @@ namespace Spells
             var visualBuff = ApiFunctionManager.AddBuffHUDVisual("SummonerDot", 5.0f, 1, target);
             Particle p = ApiFunctionManager.AddParticleTarget(owner, "Global_SS_Ignite.troy", target, 1);
             var damage = 10 + owner.GetStats().Level * 4;
-            owner.DealDamageTo(target, damage, DamageType.DAMAGE_TYPE_TRUE, DamageSource.DAMAGE_SOURCE_SPELL, false);
+            target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_TRUE, DamageSource.DAMAGE_SOURCE_SPELL, false);
             ApiFunctionManager.CreateTimer(1.0f, () =>
             {
-                owner.DealDamageTo(target, damage, DamageType.DAMAGE_TYPE_TRUE, DamageSource.DAMAGE_SOURCE_SPELL, false);
+                target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_TRUE, DamageSource.DAMAGE_SOURCE_SPELL, false);
             });
             ApiFunctionManager.CreateTimer(2.0f, () =>
             {
-                owner.DealDamageTo(target, damage, DamageType.DAMAGE_TYPE_TRUE, DamageSource.DAMAGE_SOURCE_SPELL, false);
+                target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_TRUE, DamageSource.DAMAGE_SOURCE_SPELL, false);
             });
             ApiFunctionManager.CreateTimer(3.0f, () =>
             {
-                owner.DealDamageTo(target, damage, DamageType.DAMAGE_TYPE_TRUE, DamageSource.DAMAGE_SOURCE_SPELL, false);
+                target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_TRUE, DamageSource.DAMAGE_SOURCE_SPELL, false);
             });
             ApiFunctionManager.CreateTimer(4.0f, () =>
             {
-                owner.DealDamageTo(target, damage, DamageType.DAMAGE_TYPE_TRUE, DamageSource.DAMAGE_SOURCE_SPELL, false);
+                target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_TRUE, DamageSource.DAMAGE_SOURCE_SPELL, false);
                 ApiFunctionManager.RemoveParticle(p);
                 ApiFunctionManager.RemoveBuffHUDVisual(visualBuff);
             });
