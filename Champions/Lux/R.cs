@@ -14,7 +14,7 @@ namespace Spells
     {
         public void OnActivate(Champion owner) { }
         public void OnDeactivate(Champion owner) { }
-        public void OnStartCasting(Champion owner, Spell spell, Unit target){
+        public void OnStartCasting(Champion owner, Spell spell, ObjAIBase target){
             var current = new Vector2(owner.X, owner.Y);
             var to = Vector2.Normalize(new Vector2(spell.X, spell.Y) - current);
             var range = to * 3340;
@@ -26,10 +26,10 @@ namespace Spells
             spell.spellAnimation("SPELL4", owner);
             ApiFunctionManager.AddParticleTarget(owner, "LuxMaliceCannon_cas.troy", owner);
         }
-        public void OnFinishCasting(Champion owner, Spell spell, Unit target) {
+        public void OnFinishCasting(Champion owner, Spell spell, ObjAIBase target) {
 
         }
-        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile) {
+        public void ApplyEffects(Champion owner, ObjAIBase target, Spell spell, Projectile projectile) {
             owner.DealDamageTo(spell.Target, 200f + spell.Level * 100f + owner.GetStats().AbilityPower.Total * 0.75f, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
         }
         public void OnUpdate(double diff) {

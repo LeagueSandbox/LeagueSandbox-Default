@@ -11,7 +11,7 @@ namespace LuluWDebuff
         UnitCrowdControl crowdSilence = new UnitCrowdControl(CrowdControlType.Silence);
         ChampionStatModifier statMod;
 
-        public void OnActivate(Unit unit, Spell ownerSpell)
+        public void OnActivate(ObjAIBase unit, Spell ownerSpell)
         {
             statMod = new ChampionStatModifier();
             statMod.MoveSpeed.BaseBonus = statMod.MoveSpeed.BaseBonus - 60;
@@ -20,7 +20,7 @@ namespace LuluWDebuff
             unit.AddStatModifier(statMod);
         }
 
-        public void OnDeactivate(Unit unit)
+        public void OnDeactivate(ObjAIBase unit)
         {
             unit.RemoveCrowdControl(crowdDisarm);
             unit.RemoveCrowdControl(crowdSilence);

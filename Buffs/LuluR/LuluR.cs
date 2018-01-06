@@ -13,7 +13,7 @@ namespace LuluR
         float healthNow;
         float healthBonus;
 
-        public void OnActivate(Unit unit, Spell ownerSpell)
+        public void OnActivate(ObjAIBase unit, Spell ownerSpell)
         {
             statMod = new ChampionStatModifier();
             statMod.Size.PercentBonus = statMod.Size.PercentBonus + 1;
@@ -24,7 +24,7 @@ namespace LuluR
             unit.AddStatModifier(statMod);
         }
 
-        public void OnDeactivate(Unit unit)
+        public void OnDeactivate(ObjAIBase unit)
         {
             healthNow = unit.GetStats().CurrentHealth - healthBonus;
             meantimeDamage = healthBefore - healthNow;
