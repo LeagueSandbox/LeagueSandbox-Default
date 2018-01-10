@@ -9,12 +9,12 @@ namespace Silence
     {
         UnitCrowdControl crowd = new UnitCrowdControl(CrowdControlType.Silence);
 
-        public void OnActivate(Unit unit, Spell ownerSpell)
+        public void OnActivate(ObjAIBase unit, Spell ownerSpell)
         {
             unit.ApplyCrowdControl(crowd);
         }
 
-        public void OnDeactivate(Unit unit)
+        public void OnDeactivate(ObjAIBase unit)
         {
             unit.RemoveCrowdControl(crowd);
         }

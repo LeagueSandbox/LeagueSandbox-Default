@@ -16,9 +16,9 @@ namespace Spells
 
         public void OnDeactivate(Champion owner) { }
 
-        public void OnStartCasting(Champion owner, Spell spell, Unit target) { }
+        public void OnStartCasting(Champion owner, Spell spell, ObjAIBase target) { }
 
-        public void OnFinishCasting(Champion owner, Spell spell, Unit target)
+        public void OnFinishCasting(Champion owner, Spell spell, ObjAIBase target)
         {
             // Calculate net coords
             var current = new Vector2(owner.X, owner.Y);
@@ -33,7 +33,7 @@ namespace Spells
             spell.AddProjectile("CaitlynEntrapmentMissile", trueCoords.X, trueCoords.Y);
         }
 
-        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
+        public void ApplyEffects(Champion owner, ObjAIBase target, Spell spell, Projectile projectile)
         {
             var ap = owner.GetStats().AbilityPower.Total * 0.8f;
             var damage = 80 + (spell.Level - 1) * 50 + ap;

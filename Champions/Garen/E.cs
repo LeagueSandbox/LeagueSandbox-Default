@@ -16,7 +16,7 @@ namespace Spells
         {
 
         }
-        public void OnStartCasting(Champion owner, Spell spell, Unit target)
+        public void OnStartCasting(Champion owner, Spell spell, ObjAIBase target)
         {
             Particle p = ApiFunctionManager.AddParticleTarget(owner, "Garen_Base_E_Spin.troy", owner, 1);
             var visualBuff = ApiFunctionManager.AddBuffHUDVisual("GarenE", 3.0f, 1, owner);
@@ -50,10 +50,10 @@ namespace Spells
             }
         }
 
-        public void OnFinishCasting(Champion owner, Spell spell, Unit target)
+        public void OnFinishCasting(Champion owner, Spell spell, ObjAIBase target)
         {
         }
-        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile)
+        public void ApplyEffects(Champion owner, ObjAIBase target, Spell spell, Projectile projectile)
         {
         }
         public void OnUpdate(double diff)

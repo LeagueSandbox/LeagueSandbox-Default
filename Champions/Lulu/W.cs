@@ -14,10 +14,10 @@ namespace Spells
     {
         public void OnActivate(Champion owner) { }
         public void OnDeactivate(Champion owner) { }
-        public void OnStartCasting(Champion owner, Spell spell, Unit target){
+        public void OnStartCasting(Champion owner, Spell spell, ObjAIBase target){
             spell.spellAnimation("SPELL2", owner);
          }
-        public void OnFinishCasting(Champion owner, Spell spell, Unit target) {
+        public void OnFinishCasting(Champion owner, Spell spell, ObjAIBase target) {
             Champion champion = (Champion)target;
             if (champion.Team != owner.Team)
             {
@@ -38,7 +38,7 @@ namespace Spells
                 });
             }
         }
-        public void ApplyEffects(Champion owner, Unit target, Spell spell, Projectile projectile) {
+        public void ApplyEffects(Champion owner, ObjAIBase target, Spell spell, Projectile projectile) {
             Champion champion = (Champion)target;
             float time = 1 + 0.25f * spell.Level;
             var buff = target.AddBuffGameScript("LuluWDebuff", "LuluWDebuff", spell);
