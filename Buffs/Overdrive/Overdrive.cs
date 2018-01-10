@@ -9,7 +9,7 @@ namespace Overdrive
     {
         ChampionStatModifier statMod;
 
-        public void OnActivate(Unit unit, Spell ownerSpell)
+        public void OnActivate(ObjAIBase unit, Spell ownerSpell)
         {
             statMod = new ChampionStatModifier();
             statMod.MoveSpeed.PercentBonus = statMod.MoveSpeed.PercentBonus + (12f + ownerSpell.Level * 4) / 100f;
@@ -17,7 +17,7 @@ namespace Overdrive
             unit.AddStatModifier(statMod);
         }
 
-        public void OnDeactivate(Unit unit)
+        public void OnDeactivate(ObjAIBase unit)
         {
             unit.RemoveStatModifier(statMod);
         }

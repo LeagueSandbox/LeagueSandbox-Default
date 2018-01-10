@@ -9,14 +9,14 @@ namespace OverdriveSlow
     {
         ChampionStatModifier statMod;
 
-        public void OnActivate(Unit unit, Spell ownerSpell)
+        public void OnActivate(ObjAIBase unit, Spell ownerSpell)
         {
             statMod = new ChampionStatModifier();
             statMod.MoveSpeed.PercentBonus = statMod.MoveSpeed.PercentBonus - 0.3f;
             unit.AddStatModifier(statMod);
         }
 
-        public void OnDeactivate(Unit unit)
+        public void OnDeactivate(ObjAIBase unit)
         {
             unit.RemoveStatModifier(statMod);
         }
