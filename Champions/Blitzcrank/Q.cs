@@ -38,7 +38,7 @@ namespace Spells
                 var range = to * 50;
                 var trueCoords = current + range;
 
-                ApiFunctionManager.DashToLocation(spell.Target, trueCoords.X, trueCoords.Y, spell.SpellData.MissileSpeed, true);
+                ApiFunctionManager.DashToLocation((ObjAIBase)spell.Target, trueCoords.X, trueCoords.Y, spell.SpellData.MissileSpeed, true);
             }
 
             projectile.setToRemove();

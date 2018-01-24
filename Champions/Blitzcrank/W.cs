@@ -16,13 +16,13 @@ namespace Spells
         public void OnDeactivate(Champion owner) { }
         public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target){
             Particle p = ApiFunctionManager.AddParticleTarget(owner, "Overdrive_buf.troy", target, 1);
-            var buff = target.AddBuffGameScript("Overdrive", "Overdrive", spell);
+            var buff = ((ObjAIBase)target).AddBuffGameScript("Overdrive", "Overdrive", spell);
             var visualBuff = ApiFunctionManager.AddBuffHUDVisual("Overdrive", 8.0f, 1, owner);
             ApiFunctionManager.CreateTimer(8.0f, () =>
             {
                 ApiFunctionManager.RemoveParticle(p);
                 ApiFunctionManager.RemoveBuffHUDVisual(visualBuff);
-                target.RemoveBuffGameScript(buff);
+                ((ObjAIBase)target).RemoveBuffGameScript(buff);
             });
         
         

@@ -22,7 +22,7 @@ namespace Spells
             statMod.MagicResist.BaseBonus -= 10;
             target.AddStatModifier(statMod);
             ApiFunctionManager.AddParticleTarget(owner, "Global_SS_Exhaust.troy", target);
-            var visualBuff = ApiFunctionManager.AddBuffHUDVisual("SummonerExhaustDebuff", 2.5f, 1, target);
+            var visualBuff = ApiFunctionManager.AddBuffHUDVisual("SummonerExhaustDebuff", 2.5f, 1, (ObjAIBase)target);
             ApiFunctionManager.CreateTimer(2.5f, () =>
             {
                 ApiFunctionManager.RemoveBuffHUDVisual(visualBuff);
