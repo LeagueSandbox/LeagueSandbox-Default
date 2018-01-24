@@ -14,10 +14,10 @@ namespace Spells
     {
         public void OnActivate(Champion owner) { }
         public void OnDeactivate(Champion owner) { }
-        public void OnStartCasting(Champion owner, Spell spell, ObjAIBase target){
+        public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target){
 
         }
-        public void OnFinishCasting(Champion owner, Spell spell, ObjAIBase target) {
+        public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target) {
             var current = new Vector2(owner.X, owner.Y);
             var to = new Vector2(spell.X, spell.Y) - current;
             Vector2 trueCoords;
@@ -35,12 +35,12 @@ namespace Spells
  
             spell.AddProjectile("OlafAxeThrowDamage", trueCoords.X, trueCoords.Y);
         }
-        public void ApplyEffects(Champion owner, ObjAIBase target, Spell spell, Projectile projectile) {
+        public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile) {
             ApiFunctionManager.AddParticleTarget(owner, "olaf_axeThrow_tar.troy", target, 1);
             var AD = owner.GetStats().AttackDamage.Total * 1.1f;
             var AP = owner.GetStats().AttackDamage.Total * 0.0f;
             var damage = 15 + spell.Level * 20 + AD + AP;
-            owner.DealDamageTo(target, damage, DamageType.DAMAGE_TYPE_PHYSICAL, DamageSource.DAMAGE_SOURCE_ATTACK, false);
+            target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_PHYSICAL, DamageSource.DAMAGE_SOURCE_ATTACK, false);
         }
         public void OnUpdate(double diff) {
 

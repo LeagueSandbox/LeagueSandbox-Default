@@ -25,9 +25,9 @@ namespace Spells
             //Listeners are automatically removed when GameScripts deactivate
         }
 
-        public void OnStartCasting(Champion owner, Spell spell, ObjAIBase target){}
-        public void OnFinishCasting(Champion owner, Spell spell, ObjAIBase target) {}
-        public void ApplyEffects(Champion owner, ObjAIBase target, Spell spell, Projectile projectile) {}
+        public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target){}
+        public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target) {}
+        public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile) {}
         public void OnUpdate(double diff) {}
     }
 }

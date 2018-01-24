@@ -14,10 +14,10 @@ namespace Spells
     {
         public void OnActivate(Champion owner) { }
         public void OnDeactivate(Champion owner) { }
-        public void OnStartCasting(Champion owner, Spell spell, ObjAIBase target)
+        public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target)
         {
             Particle p = ApiFunctionManager.AddParticleTarget(owner, "Lulu_R_cas.troy", target, 1);
-            var buff = target.AddBuffGameScript("LuluR", "LuluR", spell);
+            var buff = ((ObjAIBase)target).AddBuffGameScript("LuluR", "LuluR", spell);
             var visualBuff = ApiFunctionManager.AddBuffHUDVisual("LuluR", 7.0f, 1, owner);
             ApiFunctionManager.CreateTimer(7.0f, () =>
             {
@@ -28,10 +28,10 @@ namespace Spells
             });
 
         }
-        public void OnFinishCasting(Champion owner, Spell spell, ObjAIBase target)
+        public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target)
         {
         }
-        public void ApplyEffects(Champion owner, ObjAIBase target, Spell spell, Projectile projectile) {
+        public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile) {
         }
         public void OnUpdate(double diff) {
 

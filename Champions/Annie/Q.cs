@@ -14,19 +14,19 @@ namespace Spells
     {
         public void OnActivate(Champion owner) { }
         public void OnDeactivate(Champion owner) { }
-        public void OnStartCasting(Champion owner, Spell spell, ObjAIBase target){
+        public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target){
 
         }
-        public void OnFinishCasting(Champion owner, Spell spell, ObjAIBase target) {
+        public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target) {
             spell.AddProjectileTarget("Disintegrate", target, false);
         }
-        public void ApplyEffects(Champion owner, ObjAIBase target, Spell spell, Projectile projectile) {
+        public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile) {
             var ap = owner.GetStats().AbilityPower.Total * 0.8f;
             var damage = 45 + spell.Level * 35 + ap;
 
             if (target != null && !ApiFunctionManager.IsDead(target))
             {
-                owner.DealDamageTo(target, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
+                target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
                 if (target.IsDead)
                 {
                     spell.LowerCooldown(0, spell.getCooldown());

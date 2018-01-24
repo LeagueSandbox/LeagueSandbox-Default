@@ -14,10 +14,10 @@ namespace Spells
     {
         public void OnActivate(Champion owner) { }
         public void OnDeactivate(Champion owner) { }
-        public void OnStartCasting(Champion owner, Spell spell, ObjAIBase target){
+        public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target){
             spell.spellAnimation("SPELL1", owner);
         }
-        public void OnFinishCasting(Champion owner, Spell spell, ObjAIBase target) {
+        public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target) {
             var current = new Vector2(owner.X, owner.Y);
             var to = Vector2.Normalize(new Vector2(spell.X, spell.Y) - current);
             var range = to * 925;
@@ -25,10 +25,10 @@ namespace Spells
 
             spell.AddProjectile("RocketGrabMissile", trueCoords.X, trueCoords.Y);
         }
-        public void ApplyEffects(Champion owner, ObjAIBase target, Spell spell, Projectile projectile) {
+        public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile) {
             var ap = owner.GetStats().AbilityPower.Total;
             var damage = 25 + spell.Level * 55 + ap;
-            owner.DealDamageTo(spell.Target, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
+            spell.Target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
 
             if (!spell.Target.IsDead)
             {
@@ -38,7 +38,7 @@ namespace Spells
                 var range = to * 50;
                 var trueCoords = current + range;
 
-                ApiFunctionManager.DashToLocation(spell.Target, trueCoords.X, trueCoords.Y, spell.SpellData.MissileSpeed, true);
+                ApiFunctionManager.DashToLocation((ObjAIBase)spell.Target, trueCoords.X, trueCoords.Y, spell.SpellData.MissileSpeed, true);
             }
 
             projectile.setToRemove();

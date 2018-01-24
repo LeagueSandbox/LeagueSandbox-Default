@@ -7,12 +7,12 @@ namespace Spells
 {
     public class SummonerFlash : GameScript
     {
-        public void OnStartCasting(Champion owner, Spell spell, ObjAIBase target)
+        public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target)
         {
 
         }
 
-        public void OnFinishCasting(Champion owner, Spell spell, ObjAIBase target)
+        public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target)
         {
             var current = new Vector2(owner.X, owner.Y);
             var to = new Vector2(spell.X, spell.Y) - current;
@@ -35,7 +35,7 @@ namespace Spells
             ApiFunctionManager.AddParticleTarget(owner, "global_ss_flash_02.troy", owner);
         }
 
-        public void ApplyEffects(Champion owner, ObjAIBase target, Spell spell, Projectile projectile)
+        public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile)
         {
 
         }

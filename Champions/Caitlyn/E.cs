@@ -16,9 +16,9 @@ namespace Spells
 
         public void OnDeactivate(Champion owner) { }
 
-        public void OnStartCasting(Champion owner, Spell spell, ObjAIBase target) { }
+        public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target) { }
 
-        public void OnFinishCasting(Champion owner, Spell spell, ObjAIBase target)
+        public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target)
         {
             // Calculate net coords
             var current = new Vector2(owner.X, owner.Y);
@@ -33,14 +33,14 @@ namespace Spells
             spell.AddProjectile("CaitlynEntrapmentMissile", trueCoords.X, trueCoords.Y);
         }
 
-        public void ApplyEffects(Champion owner, ObjAIBase target, Spell spell, Projectile projectile)
+        public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile)
         {
             var ap = owner.GetStats().AbilityPower.Total * 0.8f;
             var damage = 80 + (spell.Level - 1) * 50 + ap;
-            owner.DealDamageTo(target, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
+            target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
 
             var slowDuration = new[] {0, 1, 1.25f, 1.5f, 1.75f, 2}[spell.Level];
-            ApiFunctionManager.AddBuff("Slow", slowDuration, 1, target, owner);
+            ApiFunctionManager.AddBuff("Slow", slowDuration, 1, (ObjAIBase)target, owner);
             ApiFunctionManager.AddParticleTarget(owner, "caitlyn_entrapment_tar.troy", target);
             ApiFunctionManager.AddParticleTarget(owner, "caitlyn_entrapment_slow.troy", target);
 

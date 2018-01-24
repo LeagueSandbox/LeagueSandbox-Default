@@ -16,7 +16,7 @@ namespace Spells
         {
 
         }
-        public void OnStartCasting(Champion owner, Spell spell, ObjAIBase target)
+        public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target)
         {
             Particle p = ApiFunctionManager.AddParticleTarget(owner, "Garen_Base_E_Spin.troy", owner, 1);
             var visualBuff = ApiFunctionManager.AddBuffHUDVisual("GarenE", 3.0f, 1, owner);
@@ -34,7 +34,7 @@ namespace Spells
                 });
             }
         }
-        private void ApplySpinDamage(Champion owner, Spell spell, Unit target)
+        private void ApplySpinDamage(Champion owner, Spell spell, AttackableUnit target)
         {
             List<Unit> units = ApiFunctionManager.GetUnitsInRange(owner, 500, true);
             foreach (Unit unit in units)
@@ -45,15 +45,15 @@ namespace Spells
                     float ad = new[] { .7f, .8f, .9f, 1f, 1.1f }[spell.Level - 1] * owner.GetStats().AttackDamage.Total * 0.5f;
                     float damage = new[] { 20, 45, 70, 95, 120 }[spell.Level - 1] * 0.5f + ad;
                     if (unit is Minion) damage *= 0.75f;
-                    owner.DealDamageTo(unit, damage, DamageType.DAMAGE_TYPE_PHYSICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
+                    target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_PHYSICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
                 }
             }
         }
 
-        public void OnFinishCasting(Champion owner, Spell spell, ObjAIBase target)
+        public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target)
         {
         }
-        public void ApplyEffects(Champion owner, ObjAIBase target, Spell spell, Projectile projectile)
+        public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile)
         {
         }
         public void OnUpdate(double diff)

@@ -14,19 +14,19 @@ namespace Spells
     {
         public void OnActivate(Champion owner) { }
         public void OnDeactivate(Champion owner) { }
-        public void OnStartCasting(Champion owner, Spell spell, ObjAIBase target){
+        public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target){
             ApiFunctionManager.AddParticleTarget(owner, "Kassadin_Base_cas.troy", owner, 1, "L_HAND");
         }
-        public void OnFinishCasting(Champion owner, Spell spell, ObjAIBase target) {
+        public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target) {
             spell.AddProjectileTarget("NullLance", target, true);
         }
-        public void ApplyEffects(Champion owner, ObjAIBase target, Spell spell, Projectile projectile) {
+        public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile) {
             var ap = owner.GetStats().AbilityPower.Total * 0.7f;
             var damage = 30 + spell.Level * 50 + ap;
 
             if (target != null && !ApiFunctionManager.IsDead(target))
             {
-                owner.DealDamageTo(target, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
+                target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
                 if (target.IsDead)
                 {
                 }
