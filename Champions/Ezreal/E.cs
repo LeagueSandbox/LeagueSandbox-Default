@@ -1,27 +1,30 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Numerics;
 using LeagueSandbox.GameServer.Logic.GameObjects;
 using LeagueSandbox.GameServer.Logic.API;
+using LeagueSandbox.GameServer.Logic.GameObjects.AttackableUnits;
 using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
 namespace Spells
 {
     public class EzrealArcaneShift : GameScript
     {
-        public void OnActivate(Champion owner) { }
-        public void OnDeactivate(Champion owner) { }
-        public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target){
-
+        public void OnActivate(Champion owner)
+        {
         }
-        public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target) {
+
+        public void OnDeactivate(Champion owner)
+        {
+        }
+
+        public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target)
+        {
+        }
+
+        public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target)
+        {
             var current = new Vector2(owner.X, owner.Y);
             var to = new Vector2(spell.X, spell.Y) - current;
             Vector2 trueCoords;
-
             if (to.Length() > 475)
             {
                 to = Vector2.Normalize(to);
@@ -32,12 +35,12 @@ namespace Spells
             {
                 trueCoords = new Vector2(spell.X, spell.Y);
             }
+
             ApiFunctionManager.AddParticle(owner, "Ezreal_arcaneshift_cas.troy", owner.X, owner.Y);
             ApiFunctionManager.TeleportTo(owner, trueCoords.X, trueCoords.Y);
             ApiFunctionManager.AddParticleTarget(owner, "Ezreal_arcaneshift_flash.troy", owner);
-            Unit target2 = null;
+            AttackableUnit target2 = null;
             var units = ApiFunctionManager.GetUnitsInRange(owner, 700, true);
-
             foreach (var value in units)
             {
                 float distance = 700;
@@ -52,6 +55,7 @@ namespace Spells
                     }
                 }
             }
+
             if (target2 != null)
             {
                 if (!ApiFunctionManager.UnitIsTurret(target2))
@@ -60,13 +64,16 @@ namespace Spells
                 }
             }
         }
-        public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile) {
+
+        public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile)
+        {
             target.TakeDamage(owner, 25f + spell.Level * 50f + owner.GetStats().AbilityPower.Total * 0.75f,
                 DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
             projectile.setToRemove();
         }
-        public void OnUpdate(double diff) {
 
+        public void OnUpdate(double diff)
+        {
         }
-     }
+    }
 }

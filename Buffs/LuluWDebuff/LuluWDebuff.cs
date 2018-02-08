@@ -1,30 +1,29 @@
-using System;
 using LeagueSandbox.GameServer.Logic.GameObjects;
 using LeagueSandbox.GameServer.Logic.Scripting;
 using LeagueSandbox.GameServer.Logic.API;
 
 namespace LuluWDebuff
 {
-    class LuluWDebuff : BuffGameScript
+    internal class LuluWDebuff : BuffGameScript
     {
-        UnitCrowdControl crowdDisarm = new UnitCrowdControl(CrowdControlType.Disarm);
-        UnitCrowdControl crowdSilence = new UnitCrowdControl(CrowdControlType.Silence);
-        ChampionStatModifier statMod;
+        private UnitCrowdControl _crowdDisarm = new UnitCrowdControl(CrowdControlType.Disarm);
+        private UnitCrowdControl _crowdSilence = new UnitCrowdControl(CrowdControlType.Silence);
+        private ChampionStatModifier _statMod;
 
         public void OnActivate(ObjAIBase unit, Spell ownerSpell)
         {
-            statMod = new ChampionStatModifier();
-            statMod.MoveSpeed.BaseBonus = statMod.MoveSpeed.BaseBonus - 60;
-            unit.ApplyCrowdControl(crowdDisarm);
-            unit.ApplyCrowdControl(crowdSilence);
-            unit.AddStatModifier(statMod);
+            _statMod = new ChampionStatModifier();
+            _statMod.MoveSpeed.BaseBonus = _statMod.MoveSpeed.BaseBonus - 60;
+            unit.ApplyCrowdControl(_crowdDisarm);
+            unit.ApplyCrowdControl(_crowdSilence);
+            unit.AddStatModifier(_statMod);
         }
 
         public void OnDeactivate(ObjAIBase unit)
         {
-            unit.RemoveCrowdControl(crowdDisarm);
-            unit.RemoveCrowdControl(crowdSilence);
-            unit.RemoveStatModifier(statMod);
+            unit.RemoveCrowdControl(_crowdDisarm);
+            unit.RemoveCrowdControl(_crowdSilence);
+            unit.RemoveStatModifier(_statMod);
         }
 
         public void OnUpdate(double diff)
