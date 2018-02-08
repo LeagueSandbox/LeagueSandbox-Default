@@ -1,22 +1,21 @@
-using System;
 using LeagueSandbox.GameServer.Logic.GameObjects;
 using LeagueSandbox.GameServer.Logic.Scripting;
 using LeagueSandbox.GameServer.Logic.API;
 
 namespace Invulnerable
 {
-    class Invulnerable : BuffGameScript
+    internal class Invulnerable : BuffGameScript
     {
-        UnitCrowdControl crowd = new UnitCrowdControl(CrowdControlType.Invulnerable);
+        private UnitCrowdControl _crowd = new UnitCrowdControl(CrowdControlType.Invulnerable);
 
         public void OnActivate(ObjAIBase unit, Spell ownerSpell)
         {
-            unit.ApplyCrowdControl(crowd);
+            unit.ApplyCrowdControl(_crowd);
         }
 
         public void OnDeactivate(ObjAIBase unit)
         {
-            unit.RemoveCrowdControl(crowd);
+            unit.RemoveCrowdControl(_crowd);
         }
 
         public void OnUpdate(double diff)
@@ -25,3 +24,4 @@ namespace Invulnerable
         }
     }
 }
+

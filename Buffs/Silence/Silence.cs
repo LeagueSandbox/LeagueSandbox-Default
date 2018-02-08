@@ -1,22 +1,21 @@
-using System;
 using LeagueSandbox.GameServer.Logic.GameObjects;
 using LeagueSandbox.GameServer.Logic.Scripting;
 using LeagueSandbox.GameServer.Logic.API;
 
 namespace Silence
 {
-    class Silence : BuffGameScript
+    internal class Silence : BuffGameScript
     {
-        UnitCrowdControl crowd = new UnitCrowdControl(CrowdControlType.Silence);
+        private UnitCrowdControl _crowd = new UnitCrowdControl(CrowdControlType.Silence);
 
         public void OnActivate(ObjAIBase unit, Spell ownerSpell)
         {
-            unit.ApplyCrowdControl(crowd);
+            unit.ApplyCrowdControl(_crowd);
         }
 
         public void OnDeactivate(ObjAIBase unit)
         {
-            unit.RemoveCrowdControl(crowd);
+            unit.RemoveCrowdControl(_crowd);
         }
 
         public void OnUpdate(double diff)

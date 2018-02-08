@@ -1,7 +1,7 @@
 using LeagueSandbox.GameServer.Logic.GameObjects;
 using LeagueSandbox.GameServer.Logic.API;
 using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
-using System;
+using LeagueSandbox.GameServer.Logic.GameObjects.AttackableUnits;
 
 namespace Spells
 {
@@ -16,17 +16,14 @@ namespace Spells
 
         public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target)
         {
-
         }
 
         public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile)
         {
-
         }
 
         public void OnUpdate(double diff)
         {
-
         }
 
         public void OnActivate(Champion owner)
@@ -38,3 +35,4 @@ namespace Spells
         }
     }
 }
+
