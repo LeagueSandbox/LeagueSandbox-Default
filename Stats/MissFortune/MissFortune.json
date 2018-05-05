@@ -51,7 +51,7 @@
             "MPRegenPerLevel": 0.13,
             "Name": "game_character_displayname_MissFortune",
             "Passive1Icon": "MissFortune_Strut.dds",
-            "Passive1LuaName": "Draw a Bead",
+            "Passive1LuaName": "MissFortuneStrut",
             "Passive1Name": "game_character_passiveName_MissFortune",
             "PassLev1Desc1": "game_character_passiveDescription_MissFortune",
             "PathfindingCollisionRadius": 35,
