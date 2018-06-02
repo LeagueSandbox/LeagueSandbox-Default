@@ -19,7 +19,7 @@ namespace Spells
         {
             Particle p = ApiFunctionManager.AddParticleTarget(owner, "Lulu_R_cas.troy", target, 1);
             var buff = ((ObjAIBase) target).AddBuffGameScript("LuluR", "LuluR", spell);
-            var visualBuff = ApiFunctionManager.AddBuffHUDVisual("LuluR", 7.0f, 1, owner);
+            var visualBuff = ApiFunctionManager.AddBuffHUDVisual("LuluR", 7.0f, 1, BuffType.CombatEnchancer, owner);
             ApiFunctionManager.CreateTimer(7.0f, () =>
             {
                 ApiFunctionManager.RemoveParticle(p);

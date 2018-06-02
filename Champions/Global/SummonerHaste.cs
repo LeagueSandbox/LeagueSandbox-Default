@@ -9,11 +9,9 @@ namespace Spells
     {
         public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target)
         {
-            ChampionStatModifier statMod = new ChampionStatModifier();
-            statMod.MoveSpeed.PercentBonus = 27 / 100.0f;
-            owner.AddStatModifier(statMod);
-            var hasteBuff = ApiFunctionManager.AddBuffHUDVisual("SummonerHaste", 10.0f, 1, owner, 10.0f);
-            ApiFunctionManager.CreateTimer(10.0f, () => { owner.RemoveStatModifier(statMod); });
+            owner.Stats.AdditiveMovementSpeedBonus += 0.27f;
+            var hasteBuff = ApiFunctionManager.AddBuffHUDVisual("SummonerHaste", 10.0f, 1, BuffType.Haste, owner, 10.0f);
+            ApiFunctionManager.CreateTimer(10, () => owner.Stats.AdditiveMovementSpeedBonus -= 0.27f);
         }
 
         public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target)

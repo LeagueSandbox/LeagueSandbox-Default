@@ -28,11 +28,15 @@ namespace Spells
 
         public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target)
         {
-            var ap = owner.GetStats().AbilityPower.Total;
+            var ap = owner.Stats.TotalAbilityPower;
             var damage = 100 + spell.Level * 150 + ap * 0.6f;
-            foreach (var enemyTarget in ApiFunctionManager.GetChampionsInRange(owner, 20000, true)
-                .Where(x => x.Team == CustomConvert.GetEnemyTeam(owner.Team)))
+            var enemyTeam = CustomConvert.GetEnemyTeam(owner.Team);
+            foreach (var enemyTarget in ApiFunctionManager.GetChampionsInRange(owner, 20000, true))
             {
+                if (enemyTarget.Team != enemyTeam)
+                {
+                    continue;
+                }
                 enemyTarget.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL,
                     false);
             }

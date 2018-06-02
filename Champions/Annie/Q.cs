@@ -1,3 +1,4 @@
+using System;
 using LeagueSandbox.GameServer.Logic.GameObjects;
 using LeagueSandbox.GameServer.Logic.API;
 using LeagueSandbox.GameServer.Logic.GameObjects.AttackableUnits;
@@ -26,7 +27,7 @@ namespace Spells
 
         public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile)
         {
-            var ap = owner.GetStats().AbilityPower.Total * 0.8f;
+            var ap = owner.Stats.TotalAbilityPower * 0.8f;
             var damage = 45 + spell.Level * 35 + ap;
             if (target != null && !ApiFunctionManager.IsDead(target))
             {
@@ -36,16 +37,9 @@ namespace Spells
                 {
                     spell.LowerCooldown(0, spell.getCooldown());
                     float manaToRecover = 55 + spell.Level * 5;
-                    var newMana = owner.GetStats().CurrentMana + manaToRecover;
-                    var maxMana = owner.GetStats().ManaPoints.Total;
-                    if (newMana >= maxMana)
-                    {
-                        owner.GetStats().CurrentMana = maxMana;
-                    }
-                    else
-                    {
-                        owner.GetStats().CurrentMana = newMana;
-                    }
+                    var newMana = owner.Stats.CurrentPar + manaToRecover;
+                    var maxMana = owner.Stats.TotalPar;
+                    owner.Stats.CurrentPar = Math.Min(maxMana, newMana);
                 }
             }
 

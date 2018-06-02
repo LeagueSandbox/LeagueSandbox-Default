@@ -5,19 +5,20 @@ namespace Overdrive
 {
     internal class Overdrive : BuffGameScript
     {
-        private ChampionStatModifier _statMod;
-
+        private float _movementSpeedBonus;
+        private float _attackSpeedBonus;
         public void OnActivate(ObjAIBase unit, Spell ownerSpell)
         {
-            _statMod = new ChampionStatModifier();
-            _statMod.MoveSpeed.PercentBonus = _statMod.MoveSpeed.PercentBonus + (12f + ownerSpell.Level * 4) / 100f;
-            _statMod.AttackSpeed.PercentBonus = _statMod.AttackSpeed.PercentBonus + (22f + 8f * ownerSpell.Level) / 100f;
-            unit.AddStatModifier(_statMod);
+            _movementSpeedBonus = (12 + ownerSpell.Level * 4) / 100f;
+            _attackSpeedBonus = (22 + 8 * ownerSpell.Level) / 100f;
+            unit.Stats.AdditiveMovementSpeedBonus += _movementSpeedBonus;
+            unit.Stats.PercentAttackSpeedMod += _attackSpeedBonus;
         }
 
         public void OnDeactivate(ObjAIBase unit)
         {
-            unit.RemoveStatModifier(_statMod);
+            unit.Stats.AdditiveMovementSpeedBonus -= _movementSpeedBonus;
+            unit.Stats.PercentAttackSpeedMod -= _attackSpeedBonus;
         }
 
         public void OnUpdate(double diff)

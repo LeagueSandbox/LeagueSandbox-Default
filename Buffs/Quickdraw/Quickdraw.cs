@@ -5,8 +5,7 @@ namespace Quickdraw
 {
     internal class Quickdraw : BuffGameScript
     {
-        private ChampionStatModifier _statMod = new ChampionStatModifier();
-
+        private float _bonusGiven;
         public void OnUpdate(double diff)
         {
             
@@ -14,13 +13,13 @@ namespace Quickdraw
 
         public void OnActivate(ObjAIBase unit, Spell ownerSpell)
         {
-            _statMod.AttackSpeed.PercentBonus = ownerSpell.Level * 10.0f / 100.0f;
-            unit.AddStatModifier(_statMod);
+            _bonusGiven = 0.2f + 0.1f * ownerSpell.Level;
+            unit.Stats.PercentAttackSpeedMod += _bonusGiven;
         }
 
         public void OnDeactivate(ObjAIBase unit)
         {
-            unit.RemoveStatModifier(_statMod);
+            unit.Stats.PercentAttackSpeedMod -= _bonusGiven;
         }
     }
 }
