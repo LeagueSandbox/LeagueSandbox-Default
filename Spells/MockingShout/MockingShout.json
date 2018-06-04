@@ -73,7 +73,7 @@
             "HavePointEffect": "0",
             "HitBoneName": "",
             "HitEffectName": "Tryndamere_W_Tar.troy",
-            "InventoryIcon": "48thSlave_Pacify.dds",
+            "InventoryIcon": "Tryndamere_W.dds",
             "IsDisabledWhileDead": 1,
             "IsToggleSpell": "0",
             "Level1Desc": "Level 1",

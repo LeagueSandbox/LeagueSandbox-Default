@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "HealthPotion",
+        "Name": "HealthPotion",
+        "ResourcePath": "DATA/Items/ItemGroups/HealthPotion.inibin"
+    },
+    "Values": {
+        "Data": {
+            "MaxGroupOwnable": 5
+        }
+    }
+}

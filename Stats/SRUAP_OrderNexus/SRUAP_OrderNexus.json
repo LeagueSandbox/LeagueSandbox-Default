@@ -13,7 +13,7 @@
         },
         "HealthBar": {
             "UnitBarKey": "NexusPaladin",
-            "WorldOffset": "0 -2,5 0"
+            "WorldOffset": "0 -2.5 0"
         },
         "Info": {
             "IconCircle": "Nexus_Blue_Square.dds",

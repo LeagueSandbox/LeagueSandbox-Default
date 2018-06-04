@@ -49,10 +49,6 @@
             "PostAttackMoveDelay": 0,
             "SelectionHeight": "0",
             "SelectionRadius": "0",
-            "Spell1": "",
-            "Spell2": "",
-            "Spell3": "",
-            "Spell4": "",
             "SpellBlock": "30",
             "SpellBlockPerLevel": "0"
         },

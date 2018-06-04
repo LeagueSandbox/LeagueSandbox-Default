@@ -9,24 +9,6 @@
         "BuffData": {
             "DynamicTooltip": "game_buff_tooltip_AatroxQ"
         },
-        "OffsetTargeting": {
-            "OT_AreaRadius": 0,
-            "OT_AreaRadius1": 0,
-            "OT_AreaRadius2": 0,
-            "OT_AreaRadius3": 0,
-            "OT_AreaRadius4": 0,
-            "OT_AreaRadius5": 0,
-            "OT_DisplaysAreaIndicator": "0",
-            "OT_DisplaysLineIndicator": "0",
-            "OT_LineEndsAtTargetPoint": 1,
-            "OT_LineLength": 0,
-            "OT_LineLength1": 0,
-            "OT_LineLength2": 0,
-            "OT_LineLength3": 0,
-            "OT_LineLength4": 0,
-            "OT_LineLength5": 0,
-            "OT_LineWidth": 0
-        },
         "SpellData": {
             "AfterEffectName": "AnnieBasicAttack_mis.troy",
             "AlternateName": "AatroxQ",
@@ -46,9 +28,7 @@
             "CastConeAngle": "45.0000",
             "CastConeDistance": "100.0000",
             "CastFrame": 7.5,
-            "CastRadius": "150.0000",
-            "CastRadiusSecondary": "275.0000",
-            "CastRadiusSecondaryTexture": "AOE_leona_outer.dds",
+            "CastRadius": "285.0000",
             "CastRadiusTexture": "AOE.tga",
             "CastRange": "25000.0000",
             "CastRange1": "25000.0000",
@@ -57,7 +37,6 @@
             "CastRange4": "25000.0000",
             "CastRange5": "25000.0000",
             "CastRange6": "25000.0000",
-            "CastRangeDisplayOverride": "650.0000",
             "CastRangeUseBoundingBoxes": "0",
             "CastTargetAdditionalUnitsRadius": 0,
             "CastType": "0",
@@ -151,7 +130,7 @@
             "LocationTargettingLength1": 0,
             "LocationTargettingLength2": 0,
             "LocationTargettingLength3": 0,
-            "LocationTargettingLength4": 0,
+            "LocationTargettingLength4": "0.0000s",
             "LocationTargettingLength5": 0,
             "LocationTargettingLength6": 0,
             "LocationTargettingWidth1": 0,
@@ -182,6 +161,7 @@
             "MissilePerceptionBubbleRevealsStealth": "0",
             "MissileSpeed": "20.0000",
             "MissileTargetHeightAugment": "100.0000",
+            "NumSpellTargeters": 3,
             "OverrideCastTime": 0.25,
             "ParticleStartOffset": "0.0000 0.0000 0.0000",
             "PointEffectName": "",
@@ -202,10 +182,26 @@
             "Version": 1,
             "x1": 0
         },
+        "SpellTargeter1": {
+            "DrawableType": "Range",
+            "OverrideBaseRange": "650"
+        },
+        "SpellTargeter2": {
+            "ConstraintRange": "600",
+            "DrawableType": "AOE",
+            "IsConstrainedToRange": 1,
+            "OverrideRadius": "150"
+        },
+        "SpellTargeter3": {
+            "ConstraintRange": "600",
+            "DrawableType": "AOE",
+            "IsConstrainedToRange": 1,
+            "OverrideRadius": "270"
+        },
         "UNKNOWN_HASHES": {
             "1536257324": "0",
             "237522587": "0",
-            "578141852": 0,
+            "2795114602": "AOE_leona_outer.dds",
             "944948707": "0"
         }
     }

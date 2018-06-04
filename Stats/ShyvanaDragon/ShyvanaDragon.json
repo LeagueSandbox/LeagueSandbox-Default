@@ -8,7 +8,7 @@
     "Values": {
         "Data": {
             "AcquisitionRange": "600",
-            "Armor": 22,
+            "Armor": 27.628,
             "ArmorMaterial": "Metal",
             "ArmorPerLevel": 3.35,
             "AttackDelayCastOffsetPercent": -0.05877193,
@@ -17,13 +17,13 @@
             "AttackSpeedPerLevel": 2.5,
             "BaseAttack_Probability": 0.6,
             "BaseCritChance": "0",
-            "BaseDamage": 55,
+            "BaseDamage": 60.712,
             "BaseDodge": "0",
             "BaseFactorHPRegen": 0,
             "BaseFactorMPRegen": 0,
-            "BaseHP": 435,
-            "BaseMP": "100",
-            "BaseStaticHPRegen": 1.45,
+            "BaseHP": 594.6,
+            "BaseMP": "100.0",
+            "BaseStaticHPRegen": 1.7188,
             "BaseStaticMPRegen": 0,
             "championId": 102,
             "ChasingAttackRangePercent": 0.3,
@@ -76,10 +76,11 @@
             "Spell2": "ShyvanaImmolationAura",
             "Spell3": "ShyvanaFireball",
             "Spell4": "ShyvanaTransformCast",
-            "SpellBlock": "30",
+            "SpellBlock": 32.1,
             "SpellBlockPerLevel": 1.25,
             "Tips1": "game_character_tips_Shyvana",
             "Tips2": "game_character_opposing_tips_Shyvana",
+            "UnitTags": "Champion",
             "WeaponMaterial": "ShyvanaDragonBasicAttack"
         },
         "HealthBar": {
@@ -89,8 +90,8 @@
         },
         "IdleParticles": {
             "NumberOfParticles": 2,
-            "Particle1": "shyvana_dragon_idle.troy BUFFBONE_CSTM_EYE1",
-            "Particle2": "shyvana_dragon_idle.troy BUFFBONE_CSTM_EYE2"
+            "Particle1": "Shyvana_Base_dragon_idle.troy BUFFBONE_CSTM_EYE1",
+            "Particle2": "Shyvana_Base_dragon_idle.troy BUFFBONE_CSTM_EYE2"
         },
         "Info": {
             "IconCircle": "Shyvana_Circle_0.dds",
@@ -146,6 +147,16 @@
             "SkinScale": "1.0",
             "Texture": "shyvana_frost_dragon_TX_CM.dds"
         },
+        "MeshSkin5": {
+            "Animations": "ShyvanaSkin05.blnd",
+            "ChampionSkinID": 102005,
+            "ChampionSkinName": "ShyvanaSkin05",
+            "SelfIllumination": 0.7,
+            "SimpleSkin": "shyvana_skin05_dragon.skn",
+            "Skeleton": "shyvana_skin05_dragon.skl",
+            "SkinScale": "1.0",
+            "Texture": "Shyvana_Skin05_Dragon_TX_CM.dds"
+        },
         "Package": {
             "FallbackPackage": "Shyvana"
         },
@@ -162,32 +173,16 @@
             "105898023": 4,
             "11266465": "Highlander",
             "1639648700": "Permamently increases Master Yi's damage, additionally he can activate it to triple it's effect for a short period, at the cost of the passive benefit for a period of time.",
-            "2452862585": "Special1.wav",
-            "2452862586": "Special2.wav",
-            "245402728": "Attack1.wav",
-            "245402729": "Attack2.wav",
-            "245402730": "Attack3.wav",
-            "245402731": "Attack4.wav",
             "2779212989": "Master Yi moves like a blur through the battlefield, moving and attacking faster",
             "2786390348": 4,
-            "2896212226": "Ready.wav",
             "3646501220": "Alpha Strike",
             "3655487418": "Master Yi slashes through the battlefield, this deals damage and has a chance to slay minions instantly.",
             "386495002": "0",
             "3866412067": "Meditate",
             "4086322914": "Wuju Style",
-            "4123230931": "Death.wav",
             "4146314945": "fighter,melee",
             "500084411": "Master Yi meditates, restoring health each second.",
-            "767627316": 7,
-            "789899530": "Click1.wav",
-            "789899531": "Click2.wav",
-            "789899532": "Click3.wav",
-            "789899533": "Click4.wav",
-            "882852607": "Move1.wav",
-            "882852608": "Move2.wav",
-            "882852609": "Move3.wav",
-            "882852610": "Move4.wav"
+            "767627316": 7
         }
     }
 }

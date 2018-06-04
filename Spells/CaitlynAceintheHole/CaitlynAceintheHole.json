@@ -108,7 +108,7 @@
             "HaveHitEffect": "0",
             "HavePointEffect": "0",
             "HitBoneName": "",
-            "HitEffectName": "caitlyn_ace_tar.troy",
+            "HitEffectName": "caitlyn_Base_ace_tar.troy",
             "InventoryIcon": "Caitlyn_AceintheHole.dds",
             "IsDisabledWhileDead": 1,
             "IsToggleSpell": "0",

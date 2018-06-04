@@ -6,15 +6,22 @@
         "ResourcePath": "DATA/Characters/Karthus/Skins/Base/Base.inibin"
     },
     "Values": {
+        "ContextualAction": {
+            "RuleConfigFile": "Karthus_Base.cac"
+        },
+        "IdleParticles": {
+            "NumberOfParticles": "0",
+            "Particle1": "Karthus_Base_P_Avatar.troy root"
+        },
         "MeshSkin": {
             "Animations": "BaseLich.blnd",
             "ChampionSkinID": "30000",
-            "ChampionSkinName": "BaseLich",
+            "ChampionSkinName": "Karthus",
             "SelfIllumination": 0.7,
             "SimpleSkin": "Karthus.skn",
             "Skeleton": "Karthus.skl",
-            "SkinScale": 1.35,
-            "Texture": "Karthus.dds"
+            "SkinScale": 1.05,
+            "Texture": "Karthus_base_TX_CM.dds"
         }
     }
 }

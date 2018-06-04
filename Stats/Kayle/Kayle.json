@@ -8,23 +8,23 @@
     "Values": {
         "Data": {
             "AcquisitionRange": "600",
-            "Armor": 21,
+            "Armor": 26.88,
             "ArmorMaterial": "Metal",
             "ArmorPerLevel": 3.5,
             "AttackDelayCastOffsetPercent": "-0.087414966",
             "AttackDelayOffsetPercent": -0.02,
             "AttackRange": 125,
-            "AttackSpeedPerLevel": 2.5,
+            "AttackSpeedPerLevel": 2.2,
             "BaseAttack_Probability": 0.5,
             "BaseCritChance": "0",
-            "BaseDamage": 53.3,
+            "BaseDamage": 56.004,
             "BaseDodge": "0",
             "BaseFactorHPRegen": "0",
             "BaseFactorMPRegen": "0",
-            "BaseHP": 418,
-            "BaseMP": 255,
-            "BaseStaticHPRegen": 1.4,
-            "BaseStaticMPRegen": 1.38,
+            "BaseHP": 574.24,
+            "BaseMP": 322.2,
+            "BaseStaticHPRegen": 1.652,
+            "BaseStaticMPRegen": 1.2,
             "championId": "10",
             "ChasingAttackRangePercent": 0.5,
             "Classification": "Strong",
@@ -46,7 +46,7 @@
             "Lore1": "game_character_lore_Kayle",
             "MoveSpeed": 335,
             "MPPerLevel": "40",
-            "MPRegenPerLevel": 0.105,
+            "MPRegenPerLevel": 0.16,
             "Name": "game_character_displayname_Kayle",
             "Passive1Desc": "Kayle increases the Attack speed of all nearby friendly Champions.",
             "Passive1Icon": "Kayle_Passive.dds",
@@ -65,20 +65,22 @@
             "Spell2": "JudicatorDivineBlessing",
             "Spell3": "JudicatorRighteousFury",
             "Spell4": "JudicatorIntervention",
-            "SpellBlock": "30",
+            "SpellBlock": "30.0",
             "SpellBlockPerLevel": "0",
             "Tips1": "game_character_tips_Kayle",
             "Tips2": "game_character_opposing_tips_Kayle",
+            "UnitTags": "Champion",
             "WeaponMaterial": "JudicatorBasicAttack"
         },
         "DefaultAnimations": {
             "Animation1": "Buffbones",
-            "NumberOfAnimations": 1
+            "Animation2": "Propeller",
+            "NumberOfAnimations": 2
         },
         "HealthBar": {
             "ParallaxOffset": "0",
             "XOffset": "0",
-            "YOffset": -1.6
+            "YOffset": "0"
         },
         "IdleParticles": {
             "NumberOfParticles": 6,
@@ -101,7 +103,8 @@
             "SimpleSkin": "Kayle.skn",
             "Skeleton": "Kayle.skl",
             "SkinScale": 1.08,
-            "Texture": "Kayle_Base_TX_CM.dds"
+            "Texture": "Kayle_Base_TX_CM.dds",
+            "YOffset": "-0.6"
         },
         "MeshSkin1": {
             "Animations": "KayleBase.blnd",
@@ -111,7 +114,8 @@
             "SimpleSkin": "Kayle.skn",
             "Skeleton": "Kayle.skl",
             "SkinScale": 1.08,
-            "Texture": "Kayle_silver2011_TX_CM.dds"
+            "Texture": "Kayle_silver2011_TX_CM.dds",
+            "YOffset": "-0.6"
         },
         "MeshSkin2": {
             "Animations": "KayleBase.blnd",
@@ -121,7 +125,8 @@
             "SimpleSkin": "Kayle.skn",
             "Skeleton": "Kayle.skl",
             "SkinScale": 1.08,
-            "Texture": "Kayle_Viridian2011_TX_CM.dds"
+            "Texture": "Kayle_Viridian2011_TX_CM.dds",
+            "YOffset": "-0.6"
         },
         "MeshSkin3": {
             "Animations": "KayleBase.blnd",
@@ -131,7 +136,8 @@
             "SimpleSkin": "kayle_helmetless.skn",
             "Skeleton": "kayle_helmetless.skl",
             "SkinScale": 1.08,
-            "Texture": "Kayle_Helmetless2011_TX_CM.dds"
+            "Texture": "Kayle_Helmetless2011_TX_CM.dds",
+            "YOffset": "-0.6"
         },
         "MeshSkin4": {
             "Animations": "KayleBase.blnd",
@@ -141,7 +147,8 @@
             "SimpleSkin": "kayle_gunmetal.skn",
             "Skeleton": "kayle_gunmetal.skl",
             "SkinScale": 1.08,
-            "Texture": "kayle_gunmetal_TX_CM.dds"
+            "Texture": "kayle_gunmetal_TX_CM.dds",
+            "YOffset": "-0.6"
         },
         "MeshSkin5": {
             "Animations": "KayleBase.blnd",
@@ -151,7 +158,8 @@
             "SimpleSkin": "Kayle_Judgement.skn",
             "Skeleton": "Kayle_Judgement.skl",
             "SkinScale": 1.08,
-            "Texture": "kayle_judgement_TX_CM.dds"
+            "Texture": "kayle_judgement_TX_CM.dds",
+            "YOffset": "-0.6"
         },
         "MeshSkin6": {
             "Animations": "MetalWingedJudicator.blnd",
@@ -164,31 +172,45 @@
             "Texture": "kayle_metalwinged_TX_CM.dds",
             "UsesSkinVO": "true"
         },
+        "MeshSkin7": {
+            "Animations": "Kayle_skin07.blnd",
+            "ChampionSkinID": 10007,
+            "ChampionSkinName": "KayleSkin07",
+            "GlossTexture": "Kayle_Skin07_TX_GM.dds",
+            "ReflectionFresnel": 0.900000036,
+            "ReflectionFresnelBlue": 1.5,
+            "ReflectionFresnelGreen": 1.9,
+            "ReflectionFresnelRed": 1.9,
+            "ReflectionMap": "kayle_Skin07_TX_RM.dds",
+            "ReflectionOpacityDirect": 1,
+            "ReflectionOpacityGlancing": 1,
+            "SelfIllumination": 0.7,
+            "SimpleSkin": "Kayle_Skin07.skn",
+            "Skeleton": "Kayle_Skin07.skl",
+            "SkinScale": 1.08,
+            "SubmeshesToHide": "Kayle_Drones",
+            "Texture": "kayle_Skin07_TX_CM.dds",
+            "YOffset": "-0.6"
+        },
         "UNKNOWN_HASHES": {
             "1040761625": 7,
-            "105898023": 5,
+            "105898023": 7,
+            "11181614": 65535,
             "11266465": "Righteous Fury",
             "113008000": 14,
             "121269505": "0",
-            "122525173": "Judicator_buf.troy root",
             "129531010": "0",
             "137792515": "0",
             "1639648700": "Blesses a target friendly champion, granting increased regeneration and speed.",
             "2179197562": "true",
             "2441097661": "ATTACKER",
-            "2452862585": "Special1.wav",
-            "2452862586": "Special2.wav",
-            "245402728": "Attack1.wav",
-            "245402729": "Attack2.wav",
-            "245402730": "Attack3.wav",
-            "245402731": "Attack4.wav",
             "2500095475": "support",
             "2689327441": "false",
             "2779212989": "Ignites Kayle's sword with a holy flame, granting Kayle a ranged splash attack.",
             "2786390348": 6,
             "2895832853": "true",
-            "2896212226": "Ready.wav",
             "3319269524": "true",
+            "3399594011": "Kayle_skin07QuadCopter_TX_CM.dds",
             "3646501220": "Reckoning",
             "3655487418": "Strikes a target, dealing damage and slowing it.  If the enemy has killed an allied champion recently, Reckoning deals extreme damge and stuns the target.",
             "386495002": 2.5,
@@ -198,21 +220,13 @@
             "4015135009": "false",
             "4086322914": "Divine Blessing",
             "4094915649": 1056,
-            "4123230931": "Death.wav",
             "4146314945": "fighter",
             "500084411": "Shields Kayle for a short time, causing her to be immune to damage.",
             "504412356": "true",
             "510504319": "0",
             "736056122": "true",
             "767627316": 6,
-            "789899530": "Click1.wav",
-            "789899531": "Click2.wav",
-            "789899532": "Click3.wav",
-            "789899533": "Click4.wav",
-            "882852607": "Move1.wav",
-            "882852608": "Move2.wav",
-            "882852609": "Move3.wav",
-            "882852610": "Move4.wav",
+            "861732461": "Kayle_Drones",
             "923756730": "true"
         }
     }

@@ -76,7 +76,7 @@
             "HitBoneName": "",
             "HitEffectName": "default.troy",
             "InventoryIcon1": "Velkoz_Q2.dds",
-            "IsDisabledWhileDead": 1,
+            "IsDisabledWhileDead": "0",
             "IsToggleSpell": 1,
             "Level1Desc": "Level 1",
             "Level2Desc": "Level 2",

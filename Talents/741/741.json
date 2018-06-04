@@ -1,0 +1,20 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "741",
+        "Name": "741",
+        "ResourcePath": "DATA/Talents/741.inibin"
+    },
+    "Values": {
+        "SpellData": {
+            "InventoryIcon": "741.dds",
+            "Level1Desc": "game_mastery_level1desc_741",
+            "Level2Desc": "game_mastery_level2desc_741",
+            "Level3Desc": "game_mastery_level3desc_741",
+            "Level4Desc": "game_mastery_level4desc_741",
+            "Level5Desc": "game_mastery_level5desc_741",
+            "Name": "game_mastery_displayname_741",
+            "Ranks": 2
+        }
+    }
+}

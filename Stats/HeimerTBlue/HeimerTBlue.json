@@ -28,6 +28,7 @@
             "CritPerLevel": 0,
             "DamagePerLevel": "0",
             "Description": "game_character_description_H28QApexTurret",
+            "DisableAggroIndicator": "true",
             "EnemyTooltip": "",
             "ExpGivenOnDeath": 0,
             "FriendlyTooltip": "",
@@ -45,13 +46,15 @@
             "PerceptionBubbleRadius": "1000",
             "SelectionHeight": "60.0",
             "SelectionRadius": "60.0000",
+            "Significance": 0.3,
             "Spell1": "HeimerdingerTurretBigEnergyBlast",
             "Spell2": "BaseSpell",
             "Spell3": "BaseSpell",
             "Spell4": "BaseSpell",
             "SpellBlock": 25,
             "Tips2": "game_character_opposing_tips_Heimerdinger",
-            "TowerTargetingPriorityBoost": "10"
+            "TowerTargetingPriorityBoost": "10",
+            "UnitTags": "Minion | Minion_Summon"
         },
         "IdleParticles": {
             "NumberOfParticles": 2,

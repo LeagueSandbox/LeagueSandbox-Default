@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "BootsHomeguard",
+        "Name": "BootsHomeguard",
+        "ResourcePath": "DATA/Items/ItemGroups/BootsHomeguard.inibin"
+    },
+    "Values": {
+        "Data": {
+            "MaxGroupOwnable": 1
+        }
+    }
+}

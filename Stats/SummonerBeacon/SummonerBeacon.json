@@ -57,24 +57,8 @@
             "Texture": "SummonerBeacon.dds"
         },
         "UNKNOWN_HASHES": {
-            "2452862585": "Special1.wav",
-            "2452862586": "Special2.wav",
-            "245402728": "Attack1.wav",
-            "245402729": "Attack2.wav",
-            "245402730": "Attack3.wav",
-            "245402731": "Attack4.wav",
-            "2896212226": "Ready.wav",
             "386495002": "6.0",
-            "3983263047": "0",
-            "4123230931": "Death.wav",
-            "789899530": "Click1.wav",
-            "789899531": "Click2.wav",
-            "789899532": "Click3.wav",
-            "789899533": "Click4.wav",
-            "882852607": "Move1.wav",
-            "882852608": "Move2.wav",
-            "882852609": "Move3.wav",
-            "882852610": "Move4.wav"
+            "3983263047": "0"
         }
     }
 }

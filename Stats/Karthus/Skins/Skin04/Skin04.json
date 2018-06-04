@@ -6,15 +6,21 @@
         "ResourcePath": "DATA/Characters/Karthus/Skins/Skin04/Skin04.inibin"
     },
     "Values": {
+        "ContextualAction": {
+            "RuleConfigFile": "Karthus_Skin04.cac"
+        },
         "MeshSkin": {
             "Animations": "BaseLich.blnd",
             "ChampionSkinID": 30004,
-            "ChampionSkinName": "pentakillLich",
+            "ChampionSkinName": "KarthusSkin04",
             "SelfIllumination": 0.7,
             "SimpleSkin": "karthus_pentakill.skn",
             "Skeleton": "karthus_pentakill.skl",
-            "SkinScale": 1.35,
+            "SkinScale": 1.07,
             "Texture": "karthus_pentakill_TX_CM.dds"
+        },
+        "UNKNOWN_HASHES": {
+            "2625724482": "true"
         }
     }
 }

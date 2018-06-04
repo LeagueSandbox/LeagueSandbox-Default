@@ -7,8 +7,8 @@
     },
     "Values": {
         "Data": {
-            "AcquisitionRange": "1000",
-            "Armor": 18,
+            "AcquisitionRange": 575,
+            "Armor": 23.04,
             "ArmorMaterial": "Flesh",
             "ArmorPerLevel": 3,
             "AttackDelayCastOffsetPercent": "-0.098084019",
@@ -17,14 +17,14 @@
             "AttackSpeedPerLevel": 3.38,
             "BaseAttack_Probability": 1,
             "BaseCritChance": "0",
-            "BaseDamage": 49,
+            "BaseDamage": 49.04,
             "BaseDodge": "0",
             "BaseFactorHPRegen": "0",
             "BaseFactorMPRegen": "0",
-            "BaseHP": 389,
-            "BaseMP": "220",
-            "BaseStaticHPRegen": 1,
-            "BaseStaticMPRegen": 1.30000007,
+            "BaseHP": 525.08,
+            "BaseMP": 287.2,
+            "BaseStaticHPRegen": 1.2016,
+            "BaseStaticMPRegen": 1.4512,
             "championId": 29,
             "ChasingAttackRangePercent": 0.8,
             "CritAttack": "TwitchCritAttack",
@@ -61,14 +61,15 @@
             "Spell2": "TwitchVenomCask",
             "Spell3": "TwitchExpunge",
             "Spell4": "TwitchFullAutomatic",
-            "SpellBlock": "30",
+            "SpellBlock": "30.0",
             "SpellBlockPerLevel": "0",
             "Tips1": "game_character_tips_Twitch",
-            "Tips2": "game_character_opposing_tips_Twitch"
+            "Tips2": "game_character_opposing_tips_Twitch",
+            "UnitTags": "Champion"
         },
         "HealthBar": {
             "XOffset": "0",
-            "YOffset": 65535
+            "YOffset": -0.25
         },
         "IdleParticles": {
             "NumberOfParticles": 1,
@@ -80,7 +81,7 @@
         },
         "UNKNOWN_HASHES": {
             "1040761625": 3,
-            "105898023": 8,
+            "105898023": 6,
             "1639648700": "Deals damage to all nearby enemies depending on target's Deadly Venom.",
             "2500095475": "assassin",
             "2779212989": "For 10 attacks, Twitch attacks very rapidly with line hits, but deals reduced damage.",

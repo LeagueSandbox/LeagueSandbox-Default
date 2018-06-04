@@ -7,16 +7,18 @@
     },
     "Values": {
         "Builds": {
-            "Item1": 3067,
+            "Item1": 2051,
             "Item10": 3185,
-            "Item2": 3105,
-            "Item3": 3044,
-            "Item4": "3010",
-            "Item5": 3136,
-            "Item6": 3083,
-            "Item7": 2049,
-            "Item8": 2045,
-            "Item9": 3084
+            "Item11": 3102,
+            "Item12": 3071,
+            "Item2": 2049,
+            "Item3": 3067,
+            "Item4": 3044,
+            "Item5": 3211,
+            "Item6": "3010",
+            "Item7": 3105,
+            "Item8": 3136,
+            "Item9": 2045
         },
         "Categories": {
             "Armor": "0",
@@ -29,7 +31,6 @@
             "LifeSteal": "0",
             "Mana": "0",
             "ManaRegen": "0",
-            "Movement": "0",
             "SpellBlock": "0",
             "SpellDamage": "0"
         },
@@ -63,7 +64,6 @@
             "InventoryIcon": "1028_RubyCrystal.dds",
             "IsRecipe": "0",
             "ItemClass": 2,
-            "ItemId": 1028,
             "ItemType": 2,
             "MaxStack": 1,
             "PercentArmorMod": "0",
@@ -77,7 +77,7 @@
             "PercentHPRegenMod": "0",
             "PercentMagicDamageMod": "0",
             "PercentMovementSpeedMod": "0",
-            "percentMPPoolMod": "0",
+            "PercentMPPoolMod": "0",
             "PercentMPRegenMod": "0",
             "PercentPhysicalDamageMod": "0",
             "PercentSpellBlockMod": "0",
@@ -86,10 +86,10 @@
             "UseWhenAcquired": "0"
         },
         "UNKNOWN_HASHES": {
-            "213732736": "0",
-            "2170881362": "0",
-            "2260911910": "0",
-            "3993544488": "0"
+            "2036632410": 3083,
+            "2036632411": 3084,
+            "2036632412": 3022,
+            "2036632413": 3056
         }
     }
 }

@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "DoransShowdown",
+        "Name": "DoransShowdown",
+        "ResourcePath": "DATA/Items/ItemGroups/DoransShowdown.inibin"
+    },
+    "Values": {
+        "Data": {
+            "MaxGroupOwnable": 2
+        }
+    }
+}

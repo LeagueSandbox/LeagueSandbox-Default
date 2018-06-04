@@ -21,7 +21,7 @@
             "BaseDodge": 0,
             "BaseFactorHPRegen": "0",
             "BaseFactorMPRegen": "0",
-            "BaseHP": "850",
+            "BaseHP": "1250",
             "BaseMP": "0",
             "BaseStaticHPRegen": "0",
             "BaseStaticMPRegen": "0",
@@ -50,10 +50,11 @@
             "Spell2": "BaseSpell",
             "Spell3": "BaseSpell",
             "Spell4": "BaseSpell",
+            "UnitTags": "Monster | Monster_Large",
             "WeaponMaterial": "GolemBasicAttack"
         },
         "HealthBar": {
-            "WorldOffset": "0 -0,45 0"
+            "WorldOffset": "0 -0.45 0"
         },
         "IdleParticles": {
             "NumberOfParticles": "0",

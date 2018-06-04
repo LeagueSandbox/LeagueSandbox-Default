@@ -1,0 +1,20 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "742",
+        "Name": "742",
+        "ResourcePath": "DATA/Talents/742.inibin"
+    },
+    "Values": {
+        "SpellData": {
+            "InventoryIcon": "742.dds",
+            "Level1Desc": "game_mastery_level1desc_742",
+            "Level2Desc": "game_mastery_level2desc_742",
+            "Level3Desc": "game_mastery_level3desc_742",
+            "Level4Desc": "game_mastery_level4desc_742",
+            "Level5Desc": "game_mastery_level5desc_742",
+            "Name": "game_mastery_displayname_742",
+            "Ranks": 4
+        }
+    }
+}

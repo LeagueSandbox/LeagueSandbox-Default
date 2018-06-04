@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "PinkWards",
+        "Name": "PinkWards",
+        "ResourcePath": "DATA/Items/ItemGroups/PinkWards.inibin"
+    },
+    "Values": {
+        "Data": {
+            "MaxGroupOwnable": 2
+        }
+    }
+}

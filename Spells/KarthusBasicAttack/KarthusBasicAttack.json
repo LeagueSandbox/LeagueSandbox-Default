@@ -29,7 +29,7 @@
             "OT_LineWidth": 0
         },
         "SpellData": {
-            "AfterEffectName": "LichBasicAttack_tar.troy",
+            "AfterEffectName": "Karthus_Base_AA_tar.troy",
             "AIBlockLevel": 65535,
             "AIEndOnly": "0",
             "AILifetime": "-1.0000",
@@ -155,7 +155,7 @@
             "HaveHitEffect": 1,
             "HavePointEffect": "0",
             "HitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
-            "HitEffectName": "LichBasicAttack_tar.troy",
+            "HitEffectName": "Karthus_Base_AA_tar.troy",
             "HitEffectPlayerName": "",
             "InventoryIcon": "",
             "InventoryIcon1": "",
@@ -202,8 +202,8 @@
             "MinimapIconDisplayFlag": 1,
             "MinimapIconRotation": "0",
             "MissileAccel": 0,
-            "MissileBoneName": "BUFFBONE_GLB_WEAPON_1",
-            "MissileEffect": "LichBasicAttack_mis.troy",
+            "MissileBoneName": "snap_weapon2world",
+            "MissileEffect": "Karthus_Base_AA_mis.troy",
             "MissileEffectPlayer": "",
             "MissileFixedTravelTime": 0,
             "MissileGravity": 0,

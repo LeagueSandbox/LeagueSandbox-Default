@@ -56,7 +56,7 @@
             "InventoryIcon": "FallenAngel_DarkBinding.dds",
             "InventoryIcon1": "FallenAngel_DarkBinding.dds",
             "InventoryIcon2": "",
-            "IsDisabledWhileDead": 1,
+            "IsDisabledWhileDead": "0",
             "LineMissileCollisionFromStartPoint": "0",
             "LineMissileDelayDestroyAtEndSeconds": 0,
             "LineMissileEndsAtTargetPoint": "0",

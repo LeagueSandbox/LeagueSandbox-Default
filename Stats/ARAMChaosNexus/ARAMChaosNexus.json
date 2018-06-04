@@ -8,7 +8,8 @@
     "Values": {
         "Data": {
             "ArmorMaterial": "Stone",
-            "Name": "game_character_displayname_ChaosNexus"
+            "Name": "game_character_displayname_ChaosNexus",
+            "UnitTags": "Structure | Structure_Nexus"
         },
         "IdleParticles": {
             "NumberOfParticles": 11,
@@ -33,10 +34,6 @@
             "Skeleton": "Nexus.skl",
             "SkinScale": "1.0",
             "Texture": "Chaos_Nexus_diff.dds"
-        },
-        "UNKNOWN_HASHES": {
-            "122525180": "Chaos_Nexus_Base_Glow.troy base1",
-            "122525181": "Chaos_Nexus_Base_Glow.troy base2"
         }
     }
 }

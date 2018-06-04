@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "GoldBase",
+        "Name": "GoldBase",
+        "ResourcePath": "DATA/Items/ItemGroups/GoldBase.inibin"
+    },
+    "Values": {
+        "Data": {
+            "MaxGroupOwnable": 1
+        }
+    }
+}

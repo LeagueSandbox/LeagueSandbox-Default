@@ -24,7 +24,7 @@
             "CastRange": "760.0000",
             "CastTargetAdditionalUnitsRadius": 0,
             "CastType": "0",
-            "Cooldown": "75.0000",
+            "Cooldown": "90.0000",
             "DelayCastOffsetPercent": 0,
             "DelayTotalTimePercent": 0,
             "Description": "game_spell_description_SummonerSmite",
@@ -56,6 +56,7 @@
             "MissileSpeed": "20.0000",
             "PlatformEnabled": "true",
             "PointEffectName": "",
+            "RequiredUnitTags": "Monster_Large | Monster_Epic | Minion",
             "SelectionPreference": "foe",
             "Sound_CastName": "Annie_Incinerate_3.wav",
             "Sound_HitName": "none.wav",
@@ -67,10 +68,10 @@
             "Version": 1
         },
         "UNKNOWN_HASHES": {
-            "2228163378": 3,
-            "277208870": "CLASSIC TUTORIAL ODIN",
+            "2228163378": "10",
+            "277208870": "CLASSIC TUTORIAL",
             "2805055179": 11,
-            "4075546787": 3
+            "4075546787": "10"
         }
     }
 }

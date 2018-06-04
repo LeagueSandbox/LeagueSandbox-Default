@@ -45,7 +45,7 @@
             "UnitTags": "Structure | Structure_Turret | Structure_Turret_Shrine"
         },
         "HealthBar": {
-            "WorldOffset": "0 -0,3 0"
+            "WorldOffset": "0 -0.3 0"
         },
         "IdleParticles": {
             "BeamParticle": "Chaos_Spawn_turret_beam.troy joint2",

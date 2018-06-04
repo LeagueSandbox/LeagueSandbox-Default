@@ -73,7 +73,7 @@
             "HavePointEffect": "0",
             "HitBoneName": "",
             "HitEffectName": "Tryndamere_Heal.troy",
-            "InventoryIcon": "DarkChampion_Bloodlust.dds",
+            "InventoryIcon": "Tryndamere_Q.dds",
             "IsDisabledWhileDead": 1,
             "IsToggleSpell": "0",
             "Level1Desc": "Level 1",

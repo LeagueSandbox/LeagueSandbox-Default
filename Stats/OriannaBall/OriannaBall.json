@@ -27,7 +27,6 @@
             "BaseStaticMPRegen": 65535,
             "ChasingAttackRangePercent": 0.8,
             "Classification": "Arcane",
-            "CritAttack": "",
             "CritAttack_AttackDelayCastOffsetPercent": 0.0121875,
             "CritAttack_AttackDelayOffsetPercent": "0",
             "CritDamageBonus": 2,
@@ -71,7 +70,15 @@
         "MeshSkin": {
             "Animations": "OrianaBase.blnd",
             "ChampionSkinName": "OrianaBase",
-            "SelfIllumination": 0.7,
+            "GlossTexture": "orianna_base_TX_GM.dds",
+            "ReflectionFresnel": 0.3,
+            "ReflectionFresnelBlue": 0.6,
+            "ReflectionFresnelGreen": 0.6,
+            "ReflectionFresnelRed": 0.6,
+            "ReflectionMap": "orianna_base_TX_RM.dds",
+            "ReflectionOpacityDirect": 0.900000036,
+            "ReflectionOpacityGlancing": 0.4,
+            "SelfIllumination": 1,
             "SimpleSkin": "orianna_ball.skn",
             "Skeleton": "orianna_ball.skl",
             "SkinScale": 1.30000007,
@@ -84,7 +91,7 @@
             "SimpleSkin": "orianna_goth_ball.skn",
             "Skeleton": "orianna_goth_ball.skl",
             "SkinScale": 1.30000007,
-            "Texture": "oriana_goth_TX_CM.dds"
+            "Texture": "orianna_goth_TX_CM.dds"
         },
         "MeshSkin2": {
             "Animations": "OrianaBase.blnd",
@@ -121,33 +128,17 @@
             "105898023": 3,
             "11266465": "Wish",
             "1639648700": "Instantly restores mana to target friendly champion.",
-            "2452862585": "Special1.wav",
-            "2452862586": "Special2.wav",
-            "245402728": "Attack1.wav",
-            "245402729": "Attack2.wav",
-            "245402730": "Attack3.wav",
-            "245402731": "Attack4.wav",
             "2779212989": "Instantly restores health to all friendly Champions.",
             "2786390348": 5,
-            "2896212226": "Ready.wav",
             "3646501220": "Starcall",
             "3655487418": "A shower of stars falls from the sky, striking all nearby enemies for damage and reducing their magic resistance temporarily.",
             "386495002": 4,
             "3866412067": "Astral Blessing",
             "3983263047": 0,
             "4086322914": "Infuse",
-            "4123230931": "Death.wav",
             "4146314945": "support,heal,pusher,farmer,tough,ranged",
             "500084411": "Soraka blesses a friendly unit, restoring Health every 2 seconds for a short time.",
-            "767627316": 2,
-            "789899530": "Click1.wav",
-            "789899531": "Click2.wav",
-            "789899532": "Click3.wav",
-            "789899533": "Click4.wav",
-            "882852607": "Move1.wav",
-            "882852608": "Move2.wav",
-            "882852609": "Move3.wav",
-            "882852610": "Move4.wav"
+            "767627316": 2
         }
     }
 }

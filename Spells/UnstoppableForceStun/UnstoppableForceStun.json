@@ -67,7 +67,7 @@
             "HaveHitEffect": "0",
             "HavePointEffect": "0",
             "HitBoneName": "root",
-            "HitEffectName": "UnstoppableForce_tar.troy",
+            "HitEffectName": "Malphite_Base_UnstoppableForce_tar.troy",
             "InventoryIcon": "Minotaur_Headbutt.dds",
             "IsDisabledWhileDead": 1,
             "IsToggleSpell": "0",

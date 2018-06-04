@@ -50,7 +50,7 @@
         },
         "HealthBar": {
             "UnitBarKey": "Turret",
-            "WorldOffset": "0 -0,15 0"
+            "WorldOffset": "0 -0.15 0"
         },
         "IdleParticles": {
             "BeamParticle": "LaserSight_beam.troy joint2",

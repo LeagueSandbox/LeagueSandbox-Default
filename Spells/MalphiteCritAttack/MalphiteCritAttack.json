@@ -12,6 +12,7 @@
             "AnimationName": "Crit",
             "AnimationWinddownName": "",
             "ApplyAttackDamage": "0",
+            "ApplyMaterialOnHitSound": 1,
             "BelongsToAvatar": "0",
             "BounceRadius": "450.0000",
             "CanCastWhileDisabled": "0",

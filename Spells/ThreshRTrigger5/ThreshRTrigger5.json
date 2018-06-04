@@ -168,7 +168,6 @@
         },
         "UNKNOWN_HASHES": {
             "237522587": "0",
-            "3154915691": "AffectEnemies | AffectNeutral | AffectMinions | AffectHeroes | AlwaysSelf",
             "944948707": "0"
         }
     }

@@ -13,7 +13,7 @@
             "GlossTexture": "KogMaw_Skin08_TX_GM.dds",
             "MaterialOverride0Submesh": "Hook",
             "MaterialOverride0Texture": "KogMaw_skin08_hook_TX_CM.dds",
-            "OverrideBoundingBox": "262,8 281,4 262,8",
+            "OverrideBoundingBox": "262.8 281.4 262.8",
             "ReflectionFresnel": 0.5,
             "ReflectionFresnelBlue": 0.5,
             "ReflectionFresnelGreen": 0.5,

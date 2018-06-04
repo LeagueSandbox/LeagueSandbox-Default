@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "Flasks",
+        "Name": "Flasks",
+        "ResourcePath": "DATA/Items/ItemGroups/Flasks.inibin"
+    },
+    "Values": {
+        "Data": {
+            "PurchaseCooldown": 5
+        }
+    }
+}

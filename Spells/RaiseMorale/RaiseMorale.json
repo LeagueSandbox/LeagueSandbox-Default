@@ -169,7 +169,7 @@
             "PointEffectName": "",
             "RangeIndicatorTextureName": "DefaultRangeIndicator.dds",
             "SelectionPreference": "foe",
-            "SpellRevealsChampion": 1,
+            "SpellRevealsChampion": "0",
             "StartCooldown": 0,
             "SubjectToGlobalCooldown": 1,
             "TargettingType": 4,

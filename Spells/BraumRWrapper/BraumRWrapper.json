@@ -47,15 +47,15 @@
             "Effect3Level1Amount": "4.000",
             "Effect3Level2Amount": "4.000",
             "Effect3Level3Amount": "4.000",
-            "Effect4Level1Amount": "60.000",
-            "Effect4Level2Amount": "60.000",
+            "Effect4Level1Amount": "40.000",
+            "Effect4Level2Amount": "50.000",
             "Effect4Level3Amount": "60.000",
-            "Effect5Level1Amount": 1.5,
-            "Effect5Level2Amount": 1.5,
+            "Effect5Level1Amount": "1.0",
+            "Effect5Level2Amount": 1.25,
             "Effect5Level3Amount": 1.5,
-            "Effect6Level1Amount": 1.5,
-            "Effect6Level2Amount": 1.5,
-            "Effect6Level3Amount": 1.5,
+            "Effect6Level1Amount": 0.25,
+            "Effect6Level2Amount": 0.25,
+            "Effect6Level3Amount": 0.25,
             "Flags": 347136,
             "FloatVarsDecimals1": "0",
             "FloatVarsDecimals2": "0",
@@ -119,6 +119,7 @@
             "OverrideBaseRange": "250"
         },
         "SpellTargeter2": {
+            "AlwaysDraw": 1,
             "DrawableType": "Line",
             "FallbackDirection": "MouseDir",
             "LineWidth": 125,
@@ -128,7 +129,6 @@
         },
         "UNKNOWN_HASHES": {
             "237522587": "0",
-            "3326040803": "",
             "944948707": "0"
         }
     }

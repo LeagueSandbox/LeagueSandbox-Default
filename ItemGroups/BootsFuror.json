@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "BootsFuror",
+        "Name": "BootsFuror",
+        "ResourcePath": "DATA/Items/ItemGroups/BootsFuror.inibin"
+    },
+    "Values": {
+        "Data": {
+            "MaxGroupOwnable": 1
+        }
+    }
+}

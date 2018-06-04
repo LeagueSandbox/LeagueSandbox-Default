@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "JungleItems",
+        "Name": "JungleItems",
+        "ResourcePath": "DATA/Items/ItemGroups/JungleItems.inibin"
+    },
+    "Values": {
+        "Data": {
+            "MaxGroupOwnable": 1
+        }
+    }
+}

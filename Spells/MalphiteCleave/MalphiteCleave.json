@@ -10,7 +10,7 @@
             "DynamicTooltip": "game_buff_tooltip_MalphiteCleave"
         },
         "SpellData": {
-            "AfterEffectName": "Malphite_Enrage_glow.troy",
+            "AfterEffectName": "Malphite_Base_Enrage_glow.troy",
             "AlternateName": "Obduracy",
             "AnimationLoopName": "",
             "AnimationName": "Spell1",
@@ -71,7 +71,7 @@
             "HaveHitEffect": "0",
             "HavePointEffect": "0",
             "HitBoneName": "root",
-            "HitEffectName": "Malphite_Enrage_glow.troy",
+            "HitEffectName": "Malphite_Base_Enrage_glow.troy",
             "InventoryIcon": "Malphite_BrutalStrikes.dds",
             "IsDisabledWhileDead": 1,
             "IsToggleSpell": "0",

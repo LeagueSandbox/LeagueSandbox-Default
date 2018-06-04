@@ -8,7 +8,7 @@
     "Values": {
         "Data": {
             "AcquisitionRange": "600",
-            "Armor": 13,
+            "Armor": 19.72,
             "ArmorMaterial": "Flesh",
             "ArmorPerLevel": 4,
             "AttackDelayCastOffsetPercent": -0.12,
@@ -17,14 +17,14 @@
             "AttackSpeedPerLevel": 2.61,
             "BaseAttack_Probability": 0.5,
             "BaseCritChance": "0",
-            "BaseDamage": 48,
+            "BaseDamage": 51.208,
             "BaseDodge": "0",
             "BaseFactorHPRegen": "0",
             "BaseFactorMPRegen": "0",
-            "BaseHP": 365,
-            "BaseMP": 305,
-            "BaseStaticHPRegen": 0.900000036,
-            "BaseStaticMPRegen": 1.38,
+            "BaseHP": 489.32,
+            "BaseMP": 377.24,
+            "BaseStaticHPRegen": 1.0848,
+            "BaseStaticMPRegen": 1.80000007,
             "championId": 267,
             "CritAttack": "NamiCritAttack",
             "CritAttack_AttackDelayCastOffsetPercent": -0.12,
@@ -47,9 +47,9 @@
             "IsMelee": "false",
             "LevelDodge": "0",
             "Lore1": "game_character_lore_Nami",
-            "MoveSpeed": "340",
+            "MoveSpeed": 335,
             "MPPerLevel": 43,
-            "MPRegenPerLevel": 0.12,
+            "MPRegenPerLevel": 0.08,
             "Name": "game_character_displayname_Nami",
             "Passive1Desc": "",
             "Passive1Icon": "NamiPassive.dds",
@@ -72,10 +72,11 @@
             "Spell2": "NamiW",
             "Spell3": "NamiE",
             "Spell4": "NamiR",
-            "SpellBlock": "30",
+            "SpellBlock": "30.0",
             "SpellBlockPerLevel": "0",
             "Tips1": "game_character_tips_Nami",
-            "Tips2": "game_character_opposing_tips_Nami"
+            "Tips2": "game_character_opposing_tips_Nami",
+            "UnitTags": "Champion"
         },
         "DefaultAnimations": {
             "Animation1": "idle_waves",
@@ -84,11 +85,12 @@
         "HealthBar": {
             "ParallaxOffset": "0",
             "XOffset": "0",
-            "YOffset": -0.4
+            "YOffset": 1
         },
         "IdleParticles": {
-            "NumberOfParticles": 1,
-            "Particle1": "Nami_Water_Pool.troy C_BUFFBONE_GLB_LAYOUT_LOC"
+            "NumberOfParticles": 2,
+            "Particle1": "Nami_Base_Z_Water_Pool.troy C_BUFFBONE_GLB_LAYOUT_LOC",
+            "Particle2": "Nami_Skin02_idle.troy Buffbone_Cstm_Weapon_3"
         },
         "Info": {
             "IconCircle": "Nami_Circle.dds",
@@ -97,7 +99,7 @@
         "UNKNOWN_HASHES": {
             "1012245577": "0",
             "1040761625": 7,
-            "105898023": 8,
+            "105898023": 5,
             "11266465": "NamiR",
             "113008000": 16,
             "121269505": "0",

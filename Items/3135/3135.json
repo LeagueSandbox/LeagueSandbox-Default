@@ -18,7 +18,6 @@
             "MagicPenetration": 1,
             "Mana": "0",
             "ManaRegen": "0",
-            "Movement": "0",
             "SpellBlock": "0",
             "SpellDamage": 1
         },
@@ -31,6 +30,7 @@
             "DisplayName": "game_item_displayname_3135",
             "DropsOnDeath": "0",
             "DynamicTooltip": "game_item_tooltip_3135",
+            "Effect1Amount": 0.35,
             "Epicness": 1,
             "FlatArmorMod": "0",
             "FlatAttackSpeedMod": "0",
@@ -52,7 +52,6 @@
             "IsRecipe": 1,
             "ItemCalloutSpectator": 1,
             "ItemClass": 1,
-            "ItemId": 3135,
             "ItemType": 1,
             "MaxStack": 1,
             "PercentArmorMod": "0",
@@ -67,7 +66,7 @@
             "PercentMagicDamageMod": "0",
             "PercentMagicPenetrationMod": "0",
             "PercentMovementSpeedMod": "0",
-            "percentMPPoolMod": "0",
+            "PercentMPPoolMod": "0",
             "PercentMPRegenMod": "0",
             "PercentPhysicalDamageMod": "0",
             "PercentSpellBlockMod": "0",
@@ -76,15 +75,8 @@
             "RecipeItem2": 1052,
             "RecipeItem3": "0",
             "RecipeItem4": "0",
-            "SpellName": "",
             "UseEffect": "0",
             "UseWhenAcquired": "0"
-        },
-        "UNKNOWN_HASHES": {
-            "213732736": "0",
-            "2170881362": "0",
-            "2260911910": "0",
-            "3993544488": "0"
         }
     }
 }

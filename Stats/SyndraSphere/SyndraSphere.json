@@ -8,19 +8,19 @@
     "Values": {
         "Data": {
             "AcquisitionRange": "600",
-            "Armor": "30",
+            "Armor": "30.0",
             "ArmorPerLevel": "0",
             "AttackRange": "20",
             "AttackSpeedPerLevel": 2,
             "BaseCritChance": "0",
-            "BaseDamage": "10",
+            "BaseDamage": "8.0",
             "BaseDodge": "0",
             "BaseFactorHPRegen": "0",
             "BaseFactorMPRegen": "0",
-            "BaseHP": 1,
-            "BaseMP": 25,
-            "BaseStaticHPRegen": "0",
-            "BaseStaticMPRegen": 65535,
+            "BaseHP": "1.0",
+            "BaseMP": "25.0",
+            "BaseStaticHPRegen": 0,
+            "BaseStaticMPRegen": "-1.0",
             "ChasingAttackRangePercent": 0.8,
             "Classification": "Arcane",
             "CritDamageBonus": 2,
@@ -46,8 +46,9 @@
             "SelectionRadius": "110",
             "ServerOnly": "0",
             "Significance": 0.3,
-            "SpellBlock": "60",
-            "SpellBlockPerLevel": "0"
+            "SpellBlock": "60.0",
+            "SpellBlockPerLevel": "0",
+            "UnitTags": "Special | Special_SyndraSphere"
         },
         "Info": {
             "IconCircle": "",
@@ -72,8 +73,6 @@
             "Texture": "orianna_base_TX_CM.dds"
         },
         "UNKNOWN_HASHES": {
-            "122525173": "Syndra_DarkSphere_idle.troy root",
-            "2979245175": 1,
             "386495002": 4,
             "3983263047": 0
         }

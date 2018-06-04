@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "GreenWards",
+        "Name": "GreenWards",
+        "ResourcePath": "DATA/Items/ItemGroups/GreenWards.inibin"
+    },
+    "Values": {
+        "Data": {
+            "MaxGroupOwnable": 3
+        }
+    }
+}

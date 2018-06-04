@@ -7,7 +7,8 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_KhazixR"
+            "DynamicTooltip": "game_buff_tooltip_KhazixR",
+            "ShowInTrackerUI": 1
         },
         "OffsetTargeting": {
             "OT_AreaRadius": 0,
@@ -132,9 +133,9 @@
             "Effect4Level3Amount": "2.0000",
             "Effect4Level6Amount": 0,
             "Effect5Level0Amount": 0,
-            "Effect5Level1Amount": "10.0000",
-            "Effect5Level2Amount": "20.0000",
-            "Effect5Level3Amount": "30.0000",
+            "Effect5Level1Amount": "1.0000",
+            "Effect5Level2Amount": "2.0000",
+            "Effect5Level3Amount": "3.0000",
             "Effect5Level4Amount": "1.0000",
             "Effect5Level5Amount": "1.0000",
             "Effect5Level6Amount": 0,

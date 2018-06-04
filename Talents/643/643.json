@@ -1,0 +1,20 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "643",
+        "Name": "643",
+        "ResourcePath": "DATA/Talents/643.inibin"
+    },
+    "Values": {
+        "SpellData": {
+            "InventoryIcon": "643.dds",
+            "Level1Desc": "game_mastery_level1desc_643",
+            "Level2Desc": "game_mastery_level2desc_643",
+            "Level3Desc": "game_mastery_level3desc_643",
+            "Level4Desc": "game_mastery_level4desc_643",
+            "Level5Desc": "game_mastery_level5desc_643",
+            "Name": "game_mastery_displayname_643",
+            "Ranks": 3
+        }
+    }
+}

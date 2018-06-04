@@ -143,6 +143,7 @@
             "LocationTargettingWidth5": 0,
             "LocationTargettingWidth6": 0,
             "LockConeToPlayer": "0",
+            "LookAtPolicy": "off",
             "LuaOnMissileUpdateDistanceInterval": 0,
             "ManaCost1": 0,
             "ManaCost2": 0,

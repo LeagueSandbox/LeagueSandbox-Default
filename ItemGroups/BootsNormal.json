@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "BootsNormal",
+        "Name": "BootsNormal",
+        "ResourcePath": "DATA/Items/ItemGroups/BootsNormal.inibin"
+    },
+    "Values": {
+        "Data": {
+            "MaxGroupOwnable": 1
+        }
+    }
+}
