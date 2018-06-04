@@ -1,0 +1,45 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "DeathTimes",
+        "Name": "DeathTimes",
+        "ResourcePath": "LEVELS/Map8/DeathTimes.inibin"
+    },
+    "Values": {
+        "DeathTimeScaling": {
+            "IncrementTime": "0",
+            "PercentCap": "0",
+            "PercentIncrease": "0",
+            "StartTime": "0"
+        },
+        "DeathTimeSettings": {
+            "AllowDeathTimeMods": 1,
+            "StartDeathTimerForZombies": "0"
+        },
+        "DeathWaveRespawn": {
+            "WaveRespawnInterval": 12
+        },
+        "TimeDeadPerLevel": {
+            "Level01": 26,
+            "Level02": 26,
+            "Level03": 26,
+            "Level04": 26,
+            "Level05": 26,
+            "Level06": 26,
+            "Level07": 26,
+            "Level08": 26,
+            "Level09": 26,
+            "Level10": 26,
+            "Level11": 26,
+            "Level12": 26,
+            "Level13": 26,
+            "Level14": 26,
+            "Level15": 26,
+            "Level16": 26,
+            "Level17": 26,
+            "Level18": 26,
+            "Level19": 26,
+            "Level20": 26
+        }
+    }
+}

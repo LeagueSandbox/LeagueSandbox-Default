@@ -1,0 +1,38 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "DeathTimes",
+        "Name": "DeathTimes",
+        "ResourcePath": "LEVELS/Map10/DeathTimes.inibin"
+    },
+    "Values": {
+        "DeathTimeScaling": {
+            "IncrementTime": "60",
+            "PercentCap": 1.5,
+            "PercentIncrease": 0.04,
+            "StartTime": "1020"
+        },
+        "TimeDeadPerLevel": {
+            "Level01": 16,
+            "Level02": 17,
+            "Level03": 18,
+            "Level04": 19,
+            "Level05": "20",
+            "Level06": 21,
+            "Level07": 22,
+            "Level08": 23,
+            "Level09": 25,
+            "Level10": 27,
+            "Level11": 29,
+            "Level12": 31,
+            "Level13": 32,
+            "Level14": 33,
+            "Level15": 34,
+            "Level16": 35,
+            "Level17": 36,
+            "Level18": 37,
+            "Level19": "40",
+            "Level20": "40"
+        }
+    }
+}

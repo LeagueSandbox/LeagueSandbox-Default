@@ -1,0 +1,76 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "bounty",
+        "Name": "bounty",
+        "ResourcePath": "DATA/Globals/bounty.inibin"
+    },
+    "Values": {
+        "ARAM": {
+            "AssistDurationOverride": "15.0",
+            "BaseGold": "140",
+            "DeathStreakPenalty": 0.21,
+            "FirstBloodBonus": "80",
+            "GoldPoolForAssist": "0.5834",
+            "KillStreakBonus": "0.3",
+            "MaxKillStreakBonus": 4,
+            "MinDeathsForStreak": 2,
+            "MinDeathStreakPenalty": 0.05,
+            "MinKillsForStreak": 2
+        },
+        "FIRSTBLOOD": {
+            "BaseGold": "200",
+            "FirstBloodBonus": "50",
+            "timeBasedMinValuePercent": 1,
+            "timeToMaxValueInSeconds": "0",
+            "timeToMinValueInSeconds": "0"
+        },
+        "Global": {
+            "AssistDeathstreakReduction": "1.0",
+            "AssistDurationOverride": "15.0",
+            "assistGoldPerStreak": "15.0",
+            "assistGoldStreakCap": "60.0",
+            "assistGoldStreakStart": "15.00",
+            "assistPoolMax": 0.5,
+            "assistPoolMaxValueTime": "210",
+            "assistPoolMin": 0.25,
+            "assistPoolMinValueTime": "90",
+            "AssistStreakBonus": 0,
+            "assistStreakMin": 1,
+            "BaseGold": "300",
+            "BountyRoundDownIncrement": "10",
+            "DeathStreakPenalty": 0.2,
+            "FirstBloodBonus": "100",
+            "GoldPoolForAssist": "0.5",
+            "KillStreakBonus": 0.165,
+            "MaxKillStreakBonus": 1.66667,
+            "MinAssistsForStreak": "10",
+            "MinDeathsForStreak": 2,
+            "MinDeathStreakPenalty": 0.1666667,
+            "MinionGoldDeathstreakReductionRatio": 0.001,
+            "MinionGoldValueForBounty": "0.001",
+            "MinKillsForStreak": 2,
+            "MinMinionGoldValueForBounty": "500",
+            "PercentBountyResetOnDeath": "1.0",
+            "timeBasedMinValuePercent": "1.0",
+            "timeToMaxValueInSeconds": "240",
+            "timeToMinValueInSeconds": "120"
+        },
+        "ODIN": {
+            "AssistDurationOverride": "15.0",
+            "BaseGold": "100",
+            "DeathStreakPenalty": 0.21,
+            "FirstBloodBonus": "0",
+            "GoldPoolForAssist": "0.5834",
+            "KillStreakBonus": "0.3",
+            "MaxKillStreakBonus": 4,
+            "MinDeathsForStreak": 2,
+            "MinDeathStreakPenalty": 0.3,
+            "MinKillsForStreak": 2
+        },
+        "UNKNOWN_HASHES": {
+            "1073357452": "0",
+            "4270427098": "0"
+        }
+    }
+}
