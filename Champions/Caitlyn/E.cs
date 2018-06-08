@@ -16,6 +16,11 @@ namespace Spells
         {
         }
 
+        public void OnUpdate(double asd)
+        {
+
+        }
+
         public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target)
         {
         }
