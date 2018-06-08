@@ -16,7 +16,7 @@ namespace Spells
         {
         }
 
-        public void OnUpdate(double asd)
+        public void OnUpdate(double diff)
         {
 
         }
