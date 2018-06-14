@@ -7,7 +7,7 @@
     },
     "Values": {
         "MeshSkin": {
-            "Animations": "rengar.blnd",
+            "Animations": "Rengar.blnd",
             "ChampionSkinID": "107000",
             "ChampionSkinName": "Rengar",
             "OverrideBoundingBox": "180 250 180",

@@ -53,6 +53,7 @@
             "Spell3": "WrathoftheAncients",
             "Spell4": "WormAttack",
             "SpellBlock": "70",
+            "UnitTags": "Monster | Monster_Epic",
             "WeaponMaterial": "WormBasicAttack"
         },
         "HealthBar": {
@@ -89,7 +90,6 @@
         },
         "UNKNOWN_HASHES": {
             "2818610673": 16,
-            "352783488": "RedLaneTower_diffuse_Cmask.dds",
             "386495002": 0,
             "3983263047": "0"
         }

@@ -11,6 +11,7 @@
             "ChampionSkinID": 74002,
             "ChampionSkinName": "HeimerdingerSkin02",
             "ExtraCharacterPreloads": "HeimerTYellow,HeimerTBlue",
+            "OverrideBoundingBox": "100 200 100",
             "SelfIllumination": 0.7,
             "SimpleSkin": "Heimerdinger_Failed.skn",
             "Skeleton": "Heimerdinger_Failed.skl",

@@ -9,6 +9,7 @@
         "MeshSkin": {
             "Animations": "HA_AP_Hermit_Robot.blnd",
             "ChampionSkinName": "HA_AP_Hermit_Robot",
+            "GlossTexture": "HA_AP_Hermit_Robot_TX_GM.dds",
             "ReflectionFresnel": 0.900000036,
             "ReflectionFresnelBlue": 0.5,
             "ReflectionFresnelGreen": 0.8,
@@ -21,9 +22,6 @@
             "Skeleton": "HA_AP_Hermit_Robot.skl",
             "SkinScale": 1.2,
             "Texture": "HA_AP_Hermit_Robot_TX_CM.dds"
-        },
-        "UNKNOWN_HASHES": {
-            "4118570059": 1
         }
     }
 }

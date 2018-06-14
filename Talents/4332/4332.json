@@ -1,0 +1,16 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "4332",
+        "Name": "4332",
+        "ResourcePath": "DATA/Talents/4332.inibin"
+    },
+    "Values": {
+        "SpellData": {
+            "InventoryIcon": "732.dds",
+            "Level1Desc": "game_mastery_level1desc_4332",
+            "Name": "game_mastery_displayname_4332",
+            "Ranks": 1
+        }
+    }
+}

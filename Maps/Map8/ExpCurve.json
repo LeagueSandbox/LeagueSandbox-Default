@@ -1,0 +1,36 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "ExpCurve",
+        "Name": "ExpCurve",
+        "ResourcePath": "LEVELS/Map8/ExpCurve.inibin"
+    },
+    "Values": {
+        "EXP": {
+            "Level10": 4772,
+            "Level11": 5647,
+            "Level12": 6577,
+            "Level13": 7562,
+            "Level14": 8592,
+            "Level15": 9662,
+            "Level16": 10937,
+            "Level17": 12292,
+            "Level18": 13717,
+            "Level19": 15202,
+            "Level2": 1,
+            "Level20": 16737,
+            "Level3": 2,
+            "Level4": 792,
+            "Level5": 1247,
+            "Level6": 1787,
+            "Level7": 2412,
+            "Level8": 3112,
+            "Level9": 3902
+        },
+        "ExpGrantedOnDeath": {
+            "BaseExpMultiple": 0.55,
+            "LevelDifferenceExpMultiple": 0.08,
+            "MinimumExpMultiple": 0.15
+        }
+    }
+}

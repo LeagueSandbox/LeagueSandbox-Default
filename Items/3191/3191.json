@@ -19,7 +19,6 @@
             "LifeSteal": "0",
             "Mana": "0",
             "ManaRegen": "0",
-            "Movement": "0",
             "SpellBlock": "0",
             "SpellDamage": 1
         },
@@ -34,6 +33,8 @@
             "DisplayName": "game_item_displayname_3191",
             "DropsOnDeath": "0",
             "DynamicTooltip": "game_item_tooltip_3191",
+            "Effect1Amount": 0.5,
+            "Effect2Amount": "30",
             "FlatArmorMod": "30",
             "FlatAttackSpeedMod": "0",
             "flatBlockMod": "0",
@@ -43,7 +44,7 @@
             "flatEXPBonus": "0",
             "FlatHPPoolMod": "0",
             "FlatHPRegenMod": "0",
-            "FlatMagicDamageMod": "20",
+            "FlatMagicDamageMod": 25,
             "FlatMovementSpeedMod": "0",
             "FlatMPPoolMod": "0",
             "FlatMPRegenMod": "0",
@@ -53,7 +54,6 @@
             "InventoryIcon": "3191_Seekers_Armguard.dds",
             "IsRecipe": 1,
             "ItemClass": 1,
-            "ItemId": 3191,
             "ItemType": 4,
             "MaxStack": 1,
             "PercentArmorMod": "0",
@@ -67,23 +67,16 @@
             "PercentHPRegenMod": "0",
             "PercentMagicDamageMod": "0",
             "PercentMovementSpeedMod": "0",
-            "percentMPPoolMod": "0",
+            "PercentMPPoolMod": "0",
             "PercentMPRegenMod": "0",
             "PercentPhysicalDamageMod": "0",
             "PercentSpellBlockMod": "0",
-            "Price": 125,
+            "Price": 465,
             "RecipeItem1": 1029,
             "RecipeItem2": 1052,
-            "RecipeItem3": 1029,
             "SpellName": "AtmasImpalerDummySpell",
             "UseEffect": "0",
             "UseWhenAcquired": "0"
-        },
-        "UNKNOWN_HASHES": {
-            "213732736": "0",
-            "2170881362": "0",
-            "2260911910": "0",
-            "3993544488": "0"
         }
     }
 }

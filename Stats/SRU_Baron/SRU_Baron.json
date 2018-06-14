@@ -79,7 +79,7 @@
             "AttachToBone": "Head1",
             "HPPerTick": "1000",
             "UnitBarKey": "Baron",
-            "WorldOffset": "0 -1,2 0"
+            "WorldOffset": "0 -1.2 0"
         },
         "Info": {
             "IconCircle": "Baron_Circle.dds",

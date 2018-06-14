@@ -10,7 +10,7 @@
             "Animations": "FossilKogMaw.blnd",
             "ChampionSkinID": 96007,
             "ChampionSkinName": "FossilKogMaw",
-            "OverrideBoundingBox": "262,8 281,4 262,8",
+            "OverrideBoundingBox": "262.8 281.4 262.8",
             "SelfIllumination": 0.7,
             "SimpleSkin": "kogMaw_fossil.skn",
             "Skeleton": "kogMaw_fossil.skl",

@@ -8,7 +8,7 @@
     "Values": {
         "Data": {
             "AcquisitionRange": "550",
-            "Armor": 16,
+            "Armor": 21.88,
             "ArmorMaterial": "Flesh",
             "ArmorPerLevel": 3.5,
             "AttackDelayCastOffsetPercent": "-0.111613475",
@@ -17,14 +17,14 @@
             "AttackSpeedPerLevel": 2.8,
             "BaseAttack_Probability": 0.75,
             "BaseCritChance": "0",
-            "BaseDamage": 47.2,
+            "BaseDamage": 50.24,
             "BaseDodge": "0",
             "BaseFactorHPRegen": "0",
             "BaseFactorMPRegen": "0",
-            "BaseHP": "350",
-            "BaseMP": 235,
-            "BaseStaticHPRegen": 1.1,
-            "BaseStaticMPRegen": 1.4,
+            "BaseHP": 484.4,
+            "BaseMP": 310.6,
+            "BaseStaticHPRegen": 1.2848,
+            "BaseStaticMPRegen": 1.6184,
             "championId": 81,
             "ChasingAttackRangePercent": 0.8,
             "CritAttack": "EzrealCritAttack",
@@ -52,7 +52,7 @@
             "Passive1Desc": "While out of combat, Ashe's critical strike chance increases every 3 seconds, but lasts for only one attack.",
             "Passive1Icon": "Ezreal_RisingSpellForce.dds",
             "Passive1Level1": 1,
-            "Passive1LuaName": "EzrealRisingSpellForce",
+            "Passive1LuaName": "EzrealRisingSpellForceBuff",
             "Passive1Name": "game_character_passiveName_Ezreal",
             "PassLev1Desc1": "game_character_passiveDescription_Ezreal",
             "PathfindingCollisionRadius": 35,
@@ -64,10 +64,11 @@
             "Spell2": "EzrealEssenceFlux",
             "Spell3": "EzrealArcaneShift",
             "Spell4": "EzrealTrueshotBarrage",
-            "SpellBlock": "30",
+            "SpellBlock": "30.0",
             "SpellBlockPerLevel": "0",
             "Tips1": "game_character_tips_Ezreal",
-            "Tips2": "game_character_opposing_tips_Ezreal"
+            "Tips2": "game_character_opposing_tips_Ezreal",
+            "UnitTags": "Champion"
         },
         "DefaultAnimations": {
             "Animation1": "Buffbones",
@@ -156,9 +157,19 @@
             "SkinScale": 1.1,
             "Texture": "ezreal_TPA_TX_CM.dds"
         },
+        "MeshSkin7": {
+            "Animations": "BaseEzreal.blnd",
+            "ChampionSkinID": 81007,
+            "ChampionSkinName": "Ezreal_Skin07",
+            "SelfIllumination": 0.7,
+            "SimpleSkin": "Ezreal_Skin07.skn",
+            "Skeleton": "Ezreal_Skin07.skl",
+            "SkinScale": 1.1,
+            "Texture": "Ezreal_Skin07_TX_CM.dds"
+        },
         "UNKNOWN_HASHES": {
             "1040761625": 6,
-            "105898023": 8,
+            "105898023": 7,
             "113008000": "0",
             "121269505": "0",
             "129531010": "0",

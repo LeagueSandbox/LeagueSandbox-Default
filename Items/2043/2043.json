@@ -17,7 +17,6 @@
             "LifeSteal": "0",
             "Mana": "0",
             "ManaRegen": "0",
-            "Movement": "0",
             "SpellBlock": "0",
             "SpellDamage": "0",
             "Stealth": 1,
@@ -34,6 +33,8 @@
             "DisplayName": "game_item_displayname_2043",
             "DropsOnDeath": "0",
             "DynamicTooltip": "game_item_tooltip_2043",
+            "Effect1Amount": 1,
+            "Effect2Amount": 2,
             "Epicness": "0",
             "FlatArmorMod": "0",
             "FlatAttackSpeedMod": "0",
@@ -56,7 +57,6 @@
             "ItemCalloutPlayer": 1,
             "ItemClass": 1,
             "ItemGroup": "PinkWards",
-            "ItemId": 2043,
             "ItemType": 1,
             "MaxStack": 2,
             "PercentArmorMod": "0",
@@ -70,21 +70,18 @@
             "PercentHPRegenMod": "0",
             "PercentMagicDamageMod": "0",
             "PercentMovementSpeedMod": "0",
-            "percentMPPoolMod": "0",
+            "PercentMPPoolMod": "0",
             "PercentMPRegenMod": "0",
             "PercentPhysicalDamageMod": "0",
             "PercentSpellBlockMod": "0",
             "Price": "100",
-            "SellBackModifier": "0.4",
+            "SellBackModifier": 0.4,
             "SpellName": "VisionWard",
             "UseEffect": 1,
             "UseWhenAcquired": "0"
         },
         "UNKNOWN_HASHES": {
-            "213732736": "0",
-            "2170881362": "0",
-            "2260911910": "0",
-            "3993544488": "0"
+            "4091408602": 1
         }
     }
 }

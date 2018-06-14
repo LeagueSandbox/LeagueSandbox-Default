@@ -9,9 +9,8 @@
         "Builds": {
             "Item1": 3111,
             "Item2": 3028,
-            "Item3": 3105,
-            "Item4": 3091,
-            "Item5": 3155
+            "Item3": 3091,
+            "Item4": 3155
         },
         "Categories": {
             "Armor": "0",
@@ -24,7 +23,6 @@
             "LifeSteal": "0",
             "Mana": "0",
             "ManaRegen": "0",
-            "Movement": "0",
             "SpellBlock": 1,
             "SpellDamage": "0"
         },
@@ -53,12 +51,11 @@
             "FlatMPPoolMod": "0",
             "FlatMPRegenMod": "0",
             "FlatPhysicalDamageMod": "0",
-            "FlatSpellBlockMod": "20",
+            "FlatSpellBlockMod": 25,
             "InStore": 1,
             "InventoryIcon": "1033_Elementium_Threaded_Cloak.dds",
             "IsRecipe": "0",
             "ItemClass": 2,
-            "ItemId": 1033,
             "ItemType": 2,
             "MaxStack": 1,
             "PercentArmorMod": "0",
@@ -72,19 +69,13 @@
             "PercentHPRegenMod": "0",
             "PercentMagicDamageMod": "0",
             "PercentMovementSpeedMod": "0",
-            "percentMPPoolMod": "0",
+            "PercentMPPoolMod": "0",
             "PercentMPRegenMod": "0",
             "PercentPhysicalDamageMod": "0",
             "PercentSpellBlockMod": "0",
-            "Price": "400",
+            "Price": "500",
             "UseEffect": "0",
             "UseWhenAcquired": "0"
-        },
-        "UNKNOWN_HASHES": {
-            "213732736": "0",
-            "2170881362": "0",
-            "2260911910": "0",
-            "3993544488": "0"
         }
     }
 }

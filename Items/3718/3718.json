@@ -2,7 +2,7 @@
     "MetaData": {
         "ContentFormatVersion": 4,
         "Id": "3718",
-        "Name": "3718",
+        "Name": "Enchantment: Devourer",
         "ResourcePath": "DATA/Items/3718.inibin"
     },
     "Values": {
@@ -83,7 +83,7 @@
             "PercentHPRegenMod": "0",
             "PercentMagicDamageMod": "0",
             "PercentMovementSpeedMod": "0",
-            "percentMPPoolMod": "0",
+            "PercentMPPoolMod": "0",
             "PercentMPRegenMod": "0",
             "PercentPhysicalDamageMod": "0",
             "PercentSpellBlockMod": "0",

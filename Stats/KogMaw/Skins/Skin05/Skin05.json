@@ -10,7 +10,7 @@
             "Animations": "BaseKogMaw.blnd",
             "ChampionSkinID": 96005,
             "ChampionSkinName": "NewYearDragonKogMaw",
-            "OverrideBoundingBox": "262,8 281,4 262,8",
+            "OverrideBoundingBox": "262.8 281.4 262.8",
             "SelfIllumination": 0.7,
             "SimpleSkin": "KogMaw_dragon.skn",
             "Skeleton": "KogMaw_dragon.skl",

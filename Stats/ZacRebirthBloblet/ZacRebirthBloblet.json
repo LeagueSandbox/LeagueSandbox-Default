@@ -28,8 +28,6 @@
             "DamagePerLevel": 3.2,
             "Description": "game_character_description_AniviaEgg",
             "ExpGivenOnDeath": "0",
-            "ExtraSpell1": "",
-            "ExtraSpell2": "",
             "GoldGivenOnDeath": "0",
             "HPPerLevel": 65,
             "HPRegenPerLevel": "0",
@@ -60,16 +58,14 @@
             "PerceptionBubbleRadius": "1200",
             "SelectionHeight": "130",
             "SelectionRadius": "130",
-            "Spell1": "",
-            "Spell2": "",
-            "Spell3": "",
-            "Spell4": "",
+            "Significance": 0.3,
             "SpellBlock": "0",
             "SpellBlockPerLevel": "0",
             "Tips1": "game_character_tips_RebirthEgg",
             "Tips2": "In general, Caster characters do well with items that have +Mana Points, +Mana Regeneration, +Spell Damage, and +Movement Speed. Caster characters can often benefit from Legendary items with activatable abilities.",
             "Tips3": "In general, Caster characters should not buy items that have +Damage, +Attack Rate, or +Critical Rate.",
-            "TowerTargetingPriorityBoost": "10"
+            "TowerTargetingPriorityBoost": "10",
+            "UnitTags": "Minion | Minion_Summon"
         },
         "HealthBar": {
             "ParallaxOffset": "0",

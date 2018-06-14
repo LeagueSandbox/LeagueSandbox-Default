@@ -1,0 +1,20 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "552",
+        "Name": "552",
+        "ResourcePath": "DATA/Talents/552.inibin"
+    },
+    "Values": {
+        "SpellData": {
+            "InventoryIcon": "552.dds",
+            "Level1Desc": "game_mastery_level1desc_552",
+            "Level2Desc": "game_mastery_level2desc_552",
+            "Level3Desc": "game_mastery_level3desc_552",
+            "Level4Desc": "game_mastery_level4desc_552",
+            "Level5Desc": "game_mastery_level5desc_552",
+            "Name": "game_mastery_displayname_552",
+            "Ranks": 3
+        }
+    }
+}

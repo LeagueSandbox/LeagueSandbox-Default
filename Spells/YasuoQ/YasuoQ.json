@@ -7,7 +7,8 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_YasuoQ"
+            "DynamicTooltip": "game_buff_tooltip_YasuoQ",
+            "ShowInTrackerUI": 1
         },
         "SpellData": {
             "AfterEffectName": "",
@@ -125,9 +126,6 @@
         },
         "UNKNOWN_HASHES": {
             "237522587": "0",
-            "2866766312": "Temp_Yasuo_SeismicShard_mis.troy",
-            "2909177193": "Chloenil_Attack_1b_Impact_1.wav",
-            "3090571359": "Chloenil_Attack_1a_Release_1.wav",
             "944948707": "0"
         }
     }

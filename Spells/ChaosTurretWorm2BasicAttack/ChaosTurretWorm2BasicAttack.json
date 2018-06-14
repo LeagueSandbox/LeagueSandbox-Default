@@ -166,7 +166,7 @@
             "MissileTargetHeightAugment": "100.0000",
             "MissileUnblockable": 1,
             "OverrideCastTime": 0,
-            "ParticleStartOffset": "0.0000 0.0000 0.0000",
+            "ParticleStartOffset": "0.0000 400.0000 0.0000",
             "PointEffectName": "",
             "RangeIndicatorTextureName": "DefaultRangeIndicator.dds",
             "SelectionPreference": "none",

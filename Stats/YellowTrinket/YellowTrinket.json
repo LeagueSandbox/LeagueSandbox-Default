@@ -34,7 +34,9 @@
             "PARType": "Shield",
             "PathfindingCollisionRadius": 5,
             "PerceptionBubbleRadius": "900.0",
-            "Significance": 0.3
+            "RecordAsWard": 1,
+            "Significance": 0.3,
+            "UnitTags": "Ward"
         },
         "HealthBar": {
             "HPPerTick": 1
@@ -44,6 +46,9 @@
         },
         "Minimap": {
             "MinimapIconOverride": "Ward"
+        },
+        "Package": {
+            "FallbackPackage": "SightWard"
         }
     }
 }

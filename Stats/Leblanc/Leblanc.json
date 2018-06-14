@@ -9,7 +9,7 @@
         "Data": {
             "AbilityPowerIncPerLevel": "0",
             "AcquisitionRange": 525,
-            "Armor": 16,
+            "Armor": 21.88,
             "ArmorMaterial": "Flesh",
             "ArmorPerLevel": 3.5,
             "AttackDelayCastOffsetPercent": "-0.133333333",
@@ -19,14 +19,14 @@
             "BaseAbilityPower": "0",
             "BaseAttack_Probability": 0.6,
             "BaseCritChance": "0",
-            "BaseDamage": 51,
+            "BaseDamage": 54.88,
             "BaseDodge": "0",
             "BaseFactorHPRegen": "0",
             "BaseFactorMPRegen": "0",
-            "BaseHP": "390",
-            "BaseMP": "250",
-            "BaseStaticHPRegen": 1.30000007,
-            "BaseStaticMPRegen": 1.38,
+            "BaseHP": "516.0",
+            "BaseMP": "334.0",
+            "BaseStaticHPRegen": 1.4848,
+            "BaseStaticMPRegen": 1.2,
             "championId": 7,
             "ChasingAttackRangePercent": 0.8,
             "Classification": "Arcane",
@@ -53,7 +53,7 @@
             "Metadata": "faction:Noxus,gender:female",
             "MoveSpeed": 335,
             "MPPerLevel": "50",
-            "MPRegenPerLevel": 0.12,
+            "MPRegenPerLevel": 0.16,
             "Name": "game_character_displayname_Leblanc",
             "Passive1Icon": "LeblancMirrorImage.dds",
             "Passive1LuaName": "LeblancPassive",
@@ -68,21 +68,26 @@
             "Spell2": "LeblancSlide",
             "Spell3": "LeblancSoulShackle",
             "Spell4": "LeblancMimic",
-            "SpellBlock": "30",
+            "SpellBlock": "30.0",
             "SpellBlockPerLevel": "0",
             "Tips1": "game_character_tips_Leblanc",
-            "Tips2": "game_character_opposing_tips_Leblanc"
+            "Tips2": "game_character_opposing_tips_Leblanc",
+            "UnitTags": "Champion"
+        },
+        "DefaultAnimations": {
+            "Animation1": "Birdhold",
+            "NumberOfAnimations": 1
         },
         "HealthBar": {
             "ParallaxOffset": "0",
             "XOffset": "0",
-            "YOffset": -0.6
+            "YOffset": 0.2
         },
         "IdleParticles": {
             "NumberOfParticles": 4,
-            "Particle1": "leBlanc_idle.troy BUFFBONE_CSTM_CRYSTAL_3",
-            "Particle2": "leBlanc_idle_crystal_medium.troy BUFFBONE_CSTM_CRYSTAL_2",
-            "Particle3": "leBlanc_idle_crystal_small.troy BUFFBONE_CSTM_CRYSTAL_1",
+            "Particle1": "LeBlanc_Base_idle.troy BUFFBONE_CSTM_CRYSTAL_3",
+            "Particle2": "LeBlanc_Base_idle_crystalMed.troy BUFFBONE_CSTM_CRYSTAL_2",
+            "Particle3": "LeBlanc_Base_idle_crystalSm.troy BUFFBONE_CSTM_CRYSTAL_1",
             "Particle4": "leBlanc_Whitequeen_idle.troy BUFFBONE_CSTM_LAMP"
         },
         "Info": {
@@ -98,34 +103,18 @@
             "129531010": "0",
             "137792515": "0",
             "1639648700": "Shields Annie from harm, reducing damage she takes and returning damage to melee attackers.",
-            "2452862585": "Special1.wav",
-            "2452862586": "Special2.wav",
-            "245402728": "Attack1.wav",
-            "245402729": "Attack2.wav",
-            "245402730": "Attack3.wav",
-            "245402731": "Attack4.wav",
             "2500095475": "mage",
             "2779212989": "Annie wills her bear Tibbers to life, dealing damage to units in the area. Tibbers can attack and also burns enemies that stand near him.",
             "2786390348": 4,
-            "2896212226": "Ready.wav",
             "3646501220": "Disintegrate",
             "3655487418": "Annie hurls a mana infused fireball, dealing damage and refunding the mana cost if it destroys the target.",
             "3866412067": "Incinerate",
             "4086322914": "Molten Shield",
             "4094915649": 1056,
-            "4123230931": "Death.wav",
             "4146314945": "assassin",
             "500084411": "Annie casts a cone of fire, dealing damage to all targets in the area.",
             "510504319": "0",
-            "767627316": 1,
-            "789899530": "Click1.wav",
-            "789899531": "Click2.wav",
-            "789899532": "Click3.wav",
-            "789899533": "Click4.wav",
-            "882852607": "Move1.wav",
-            "882852608": "Move2.wav",
-            "882852609": "Move3.wav",
-            "882852610": "Move4.wav"
+            "767627316": 1
         }
     }
 }

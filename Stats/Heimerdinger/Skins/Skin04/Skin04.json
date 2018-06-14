@@ -11,6 +11,7 @@
             "ChampionSkinID": 74004,
             "ChampionSkinName": "HeimerdingerSkin04",
             "ExtraCharacterPreloads": "HeimerTYellow,HeimerTBlue",
+            "OverrideBoundingBox": "100 200 100",
             "SelfIllumination": 0.7,
             "SimpleSkin": "Heimerdinger_Snowman.skn",
             "Skeleton": "Heimerdinger_Snowman.skl",

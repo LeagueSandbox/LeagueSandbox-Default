@@ -6,14 +6,17 @@
         "ResourcePath": "DATA/Characters/Karthus/Skins/Skin02/Skin02.inibin"
     },
     "Values": {
+        "ContextualAction": {
+            "RuleConfigFile": "Karthus_Base.cac"
+        },
         "MeshSkin": {
-            "Animations": "BaseLich.blnd",
+            "Animations": "KarthusSkin02.blnd",
             "ChampionSkinID": 30002,
-            "ChampionSkinName": "StatueLich",
+            "ChampionSkinName": "KarthusSkin02",
             "SelfIllumination": 0.7,
             "SimpleSkin": "Karthus_Liberty.skn",
             "Skeleton": "Karthus_Liberty.skl",
-            "SkinScale": 1.35,
+            "SkinScale": 1.05,
             "Texture": "karthus_liberty_TX_CM.dds"
         }
     }

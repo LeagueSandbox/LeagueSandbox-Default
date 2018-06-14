@@ -8,7 +8,7 @@
     "Values": {
         "Data": {
             "AcquisitionRange": 575,
-            "Armor": 15,
+            "Armor": 20.04,
             "ArmorMaterial": "Flesh",
             "ArmorPerLevel": 3,
             "AttackDelayCastOffsetPercent": "-0.154166667",
@@ -17,14 +17,14 @@
             "AttackSpeedPerLevel": 2.11,
             "BaseAttack_Probability": 0.5,
             "BaseCritChance": "0",
-            "BaseDamage": "50",
+            "BaseDamage": 53.376,
             "BaseDodge": "0",
             "BaseFactorHPRegen": "0",
             "BaseFactorMPRegen": "0",
-            "BaseHP": 355,
-            "BaseMP": "250",
-            "BaseStaticHPRegen": 0.97,
-            "BaseStaticMPRegen": 1.42,
+            "BaseHP": 479.32,
+            "BaseMP": "334.0",
+            "BaseStaticHPRegen": 1.138,
+            "BaseStaticMPRegen": 1.2,
             "championId": 143,
             "CritAttack": "ZyraCritAttack",
             "CritAttack_AttackDelayCastOffsetPercent": "-0.154166667",
@@ -36,7 +36,6 @@
             "ExtraAttack1": "ZyraBasicAttack2",
             "ExtraAttack1_Probability": 0.5,
             "ExtraSpell1": "ZyraBrambleZoneSplash",
-            "ExtraSpell2": "",
             "ExtraSpell3": "ZyraGraspingRoots",
             "ExtraSpell6": "ZyraPassiveDeathMissile",
             "HPPerLevel": 74,
@@ -46,7 +45,7 @@
             "Lore1": "game_character_lore_Zyra",
             "MoveSpeed": 325,
             "MPPerLevel": "50",
-            "MPRegenPerLevel": 0.15,
+            "MPRegenPerLevel": 0.16,
             "Name": "game_character_displayname_Zyra",
             "Passive1Icon": "ZyraP.dds",
             "Passive1LuaName": "ZyraPassiveDeathDisplay",
@@ -60,10 +59,11 @@
             "Spell2": "ZyraSeed",
             "Spell3": "ZyraGraspingRoots",
             "Spell4": "ZyraBrambleZone",
-            "SpellBlock": "30",
+            "SpellBlock": "30.0",
             "SpellBlockPerLevel": "0",
             "Tips1": "game_character_tips_Zyra",
             "Tips2": "game_character_opposing_tips_Zyra",
+            "UnitTags": "Champion",
             "WeaponMaterial": "ZyraBasicAttack"
         },
         "HealthBar": {
@@ -92,7 +92,8 @@
             "SimpleSkin": "Zyra.skn",
             "Skeleton": "Zyra.skl",
             "SkinScale": 1.30000007,
-            "Texture": "Zyra_base_TX_CM.dds"
+            "Texture": "Zyra_base_TX_CM.dds",
+            "YOffset": "0.04"
         },
         "MeshSkin1": {
             "Animations": "Zyra.blnd",
@@ -103,7 +104,8 @@
             "SimpleSkin": "Zyra_hellvine.skn",
             "Skeleton": "Zyra_hellvine.skl",
             "SkinScale": 1.30000007,
-            "Texture": "Zyra_hellvine_TX_CM.dds"
+            "Texture": "Zyra_hellvine_TX_CM.dds",
+            "YOffset": "0.042"
         },
         "MeshSkin2": {
             "Animations": "ZyraSkin02.blnd",
@@ -114,7 +116,8 @@
             "SimpleSkin": "Zyra_Skin02.skn",
             "Skeleton": "Zyra_Skin02.skl",
             "SkinScale": 1.30000007,
-            "Texture": "Zyra_Skin02_TX_CM.dds"
+            "Texture": "Zyra_Skin02_TX_CM.dds",
+            "YOffset": "0.042"
         },
         "MeshSkin3": {
             "Animations": "Zyra.blnd",
@@ -126,7 +129,8 @@
             "SimpleSkin": "Zyra_Skin03.skn",
             "Skeleton": "Zyra_Skin03.skl",
             "SkinScale": 1.30000007,
-            "Texture": "Zyra_Skin03_TX_CM.dds"
+            "Texture": "Zyra_Skin03_TX_CM.dds",
+            "YOffset": "0.042"
         },
         "UNKNOWN_HASHES": {
             "1040761625": 8,
@@ -137,8 +141,9 @@
             "129531010": 15,
             "137792515": 8,
             "1639648700": "Anivia shoots a freezing bolt that deals double damage to anyone chilled.",
+            "2019678731": "true",
             "2179197562": "true",
-            "2441097661": "SUPPORT",
+            "2441097661": "SUPPORT,NIGHTMARE,NIGHTMARE_MID",
             "2500095475": "support",
             "2689327441": "false",
             "2779212989": "Anivia calls forth a gale of snow and ice that damages and chills units in a large area.  The storm may be called forth and cancelled at will.",

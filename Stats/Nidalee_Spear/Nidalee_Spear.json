@@ -15,7 +15,7 @@
             "SelfIllumination": 0.7,
             "SimpleSkin": "Nidalee_Spear.skn",
             "Skeleton": "Nidalee_Spear.skl",
-            "SkinScale": 1.7,
+            "SkinScale": 3.2,
             "Texture": "Nidalee_Spear.dds"
         }
     }

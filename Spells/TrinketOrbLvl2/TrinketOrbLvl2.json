@@ -14,7 +14,7 @@
             "ApplyAttackDamage": "0",
             "BelongsToAvatar": "0",
             "BounceRadius": "450.0000",
-            "CanCastWhileDisabled": 1,
+            "CanCastWhileDisabled": "0",
             "CantCancelWhileChanneling": "0",
             "CantCancelWhileWindingUp": "0",
             "CastConeAngle": "45.0000",

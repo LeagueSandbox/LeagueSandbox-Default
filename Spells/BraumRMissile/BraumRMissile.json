@@ -35,7 +35,7 @@
             "CastRangeUseBoundingBoxes": "0",
             "CastTargetAdditionalUnitsRadius": 0,
             "CastType": 3,
-            "Coefficient": "1.0000;",
+            "Coefficient": "1.0000",
             "Coefficient2": 0,
             "Cooldown": "9.0000",
             "Cooldown1": "140.0000",
@@ -150,7 +150,6 @@
         },
         "UNKNOWN_HASHES": {
             "237522587": "0",
-            "3326040803": "",
             "944948707": "0"
         }
     }

@@ -154,7 +154,7 @@
             "HaveHitBone": "0",
             "HaveHitEffect": 1,
             "HavePointEffect": "0",
-            "HitBoneName": "",
+            "HitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
             "HitEffectName": "sound_impact_01.troy",
             "HitEffectPlayerName": "",
             "InventoryIcon": "GreenTerror_FeralScream.dds",

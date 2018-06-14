@@ -108,6 +108,7 @@
             "TargettingType": 5,
             "TextFlags": "AffectEnemies | AffectFriends | AffectNeutral | AffectMinions | AffectHeroes | AffectTurrets",
             "TriggersGlobalCooldown": 1,
+            "UseAnimatorFramerate": 1,
             "Version": 1
         }
     }

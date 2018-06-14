@@ -7,7 +7,7 @@
     },
     "Values": {
         "SpellData": {
-            "AfterEffectName": "globalhit_physical.troy",
+            "AfterEffectName": "",
             "AnimationLoopName": "",
             "AnimationName": "Attack1",
             "AnimationWinddownName": "",

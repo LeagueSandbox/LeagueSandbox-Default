@@ -1,0 +1,30 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "StatsProgression",
+        "Name": "StatsProgression",
+        "ResourcePath": "LEVELS/Map10/StatsProgression.inibin"
+    },
+    "Values": {
+        "PerLevelStatsFactor": {
+            "Level1": "0",
+            "Level10": 1,
+            "Level11": 1.035,
+            "Level12": 1.07,
+            "Level13": 1.105,
+            "Level14": 1.14,
+            "Level15": 1.175,
+            "Level16": 1.21,
+            "Level17": 1.245,
+            "Level18": 1.28,
+            "Level2": 0.72,
+            "Level3": 0.755,
+            "Level4": 0.79,
+            "Level5": 0.825,
+            "Level6": 0.86,
+            "Level7": 0.895,
+            "Level8": 0.93,
+            "Level9": 0.965
+        }
+    }
+}

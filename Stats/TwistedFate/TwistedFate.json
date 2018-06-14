@@ -7,7 +7,7 @@
     },
     "Values": {
         "Data": {
-            "Armor": 15.25,
+            "Armor": 20.542,
             "ArmorMaterial": "Flesh",
             "ArmorPerLevel": 3.15,
             "AttackDelayCastOffsetPercent": "-0.055964382",
@@ -16,14 +16,14 @@
             "AttackSpeedPerLevel": 3.22,
             "BaseAttack_Probability": 0.25,
             "BaseCritChance": "0",
-            "BaseDamage": 46.41,
+            "BaseDamage": 49.954,
             "BaseDodge": "0",
             "BaseFactorHPRegen": "0",
             "BaseFactorMPRegen": "0",
-            "BaseHP": 384,
-            "BaseMP": 202,
-            "BaseStaticHPRegen": 0.900000036,
-            "BaseStaticMPRegen": 1.30000007,
+            "BaseHP": 521.76,
+            "BaseMP": 265.84,
+            "BaseStaticHPRegen": 1.1016,
+            "BaseStaticMPRegen": 1.2,
             "championId": 4,
             "ChasingAttackRangePercent": 0.8,
             "CritAttack": "TwistedFateCritAttack",
@@ -51,7 +51,7 @@
             "Lore1": "game_character_lore_TwistedFate",
             "MoveSpeed": "330",
             "MPPerLevel": 38,
-            "MPRegenPerLevel": 0.1,
+            "MPRegenPerLevel": 0.16,
             "Name": "game_character_displayname_TwistedFate",
             "Passive1Desc": "Increases all friendly Champions' critical strike chance",
             "Passive1Icon": "Cardmaster_SealFate.dds",
@@ -70,10 +70,11 @@
             "Spell2": "PickACard",
             "Spell3": "CardmasterStack",
             "Spell4": "Destiny",
-            "SpellBlock": "30",
+            "SpellBlock": "30.0",
             "SpellBlockPerLevel": "0",
             "Tips1": "game_character_tips_TwistedFate",
-            "Tips2": "game_character_opposing_tips_TwistedFate"
+            "Tips2": "game_character_opposing_tips_TwistedFate",
+            "UnitTags": "Champion"
         },
         "IdleParticles": {
             "NumberOfParticles": 1,
@@ -162,6 +163,16 @@
             "Skeleton": "TwistedFate_underworld.skl",
             "SkinScale": 1,
             "Texture": "Twistedfate_underworld_TX_CM.dds"
+        },
+        "MeshSkin8": {
+            "Animations": "BaseTwistedFate.blnd",
+            "ChampionSkinID": 4008,
+            "ChampionSkinName": "TwistedFateSkin08",
+            "SelfIllumination": 0.7,
+            "SimpleSkin": "TwistedFate_skin08.skn",
+            "Skeleton": "TwistedFate_skin08.skl",
+            "SkinScale": 1,
+            "Texture": "TwistedFate_skin08_TX_CM.dds"
         },
         "UNKNOWN_HASHES": {
             "1040761625": 6,

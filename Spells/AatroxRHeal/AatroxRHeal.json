@@ -128,7 +128,7 @@
             "ManaCost4": 0,
             "ManaCost5": 0,
             "MissileBoneName": "spine",
-            "MissileEffect": "Aatrox_R_active_mis.troy",
+            "MissileEffect": "Aatrox_Base_R_active_mis.troy",
             "MissileFixedTravelTime": 0.35,
             "MissileGravity": "200.000",
             "MissilePerceptionBubbleRadius": 0,

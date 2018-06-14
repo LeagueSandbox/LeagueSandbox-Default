@@ -54,6 +54,7 @@
             "Spell3": "BaseSpell",
             "Spell4": "BaseSpell",
             "SpellBlock": "50",
+            "UnitTags": "Minion | Minion_Summon",
             "UseChampionVisibility": 1
         },
         "Info": {
@@ -66,7 +67,6 @@
         "UNKNOWN_HASHES": {
             "2179197562": "false",
             "2818610673": 0,
-            "2888588042": "EliseSpiderlingBasicAttack",
             "386495002": 0,
             "3983263047": "1.0"
         }

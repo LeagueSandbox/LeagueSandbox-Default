@@ -114,6 +114,10 @@
         },
         "SpellTargeter1": {
             "DrawableType": "Line",
+            "End_AngleOffset": "0",
+            "End_BasePosition": "Owner",
+            "End_DistanceOffset": "700",
+            "End_OrientationType": "MouseDir",
             "LineWidth": "40",
             "OverrideBaseRange": "1400",
             "start": "Owner"

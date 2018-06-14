@@ -119,7 +119,7 @@
             "Skeleton": "Zyra_Skin02_Thorn.skl",
             "SkinScale": 1,
             "Texture": "zyra_skin02_slowPlant_TX_CM.dds",
-            "WorldOffset": "0 -0,25 0"
+            "WorldOffset": "0 -0.25 0"
         },
         "UNKNOWN_HASHES": {
             "1040761625": 3,

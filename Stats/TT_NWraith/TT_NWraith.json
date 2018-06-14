@@ -20,7 +20,7 @@
             "BaseDodge": 0,
             "BaseFactorHPRegen": "0",
             "BaseFactorMPRegen": "0",
-            "BaseHP": "550",
+            "BaseHP": "1000",
             "BaseMP": "0",
             "BaseStaticHPRegen": "0",
             "BaseStaticMPRegen": "0",
@@ -48,7 +48,8 @@
             "Spell1": "BaseSpell",
             "Spell2": "BaseSpell",
             "Spell3": "BaseSpell",
-            "Spell4": "BaseSpell"
+            "Spell4": "BaseSpell",
+            "UnitTags": "Monster | Monster_Large"
         },
         "IdleParticles": {
             "NumberOfParticles": 1,

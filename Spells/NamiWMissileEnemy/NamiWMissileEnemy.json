@@ -203,7 +203,7 @@
             "MinimapIconRotation": "0",
             "MissileAccel": 0,
             "MissileBoneName": "R_hand",
-            "MissileEffect": "Nami_W_mis_enemy.troy",
+            "MissileEffect": "Nami_Base_W_mis_enemy.troy",
             "MissileEffectPlayer": "",
             "MissileFixedTravelTime": 0,
             "MissileGravity": "70.0000",

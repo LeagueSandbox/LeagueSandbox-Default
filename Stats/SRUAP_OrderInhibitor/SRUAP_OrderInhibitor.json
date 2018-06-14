@@ -13,7 +13,7 @@
         },
         "HealthBar": {
             "UnitBarKey": "Turret",
-            "WorldOffset": "0 -3,7 0"
+            "WorldOffset": "0 -3.7 0"
         },
         "IdleParticles": {
             "NumberOfParticles": "0"

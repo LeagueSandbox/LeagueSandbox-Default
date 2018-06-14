@@ -1,0 +1,20 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "4154",
+        "Name": "4154",
+        "ResourcePath": "DATA/Talents/4154.inibin"
+    },
+    "Values": {
+        "SpellData": {
+            "InventoryIcon": "4143.dds",
+            "Level1Desc": "game_mastery_level1desc_4154",
+            "Level2Desc": "game_mastery_level2desc_4154",
+            "Level3Desc": "game_mastery_level3desc_4154",
+            "Level4Desc": "game_mastery_level4desc_4154",
+            "Level5Desc": "game_mastery_level5desc_4154",
+            "Name": "game_mastery_displayname_4154",
+            "Ranks": 1
+        }
+    }
+}
