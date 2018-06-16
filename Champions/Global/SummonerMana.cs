@@ -1,3 +1,4 @@
+using System;
 using LeagueSandbox.GameServer.Logic.GameObjects;
 using LeagueSandbox.GameServer.Logic.API;
 using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
@@ -19,14 +20,13 @@ namespace Spells
             Champion nearbychampion = null;
             float lowestManaPercentage = 100;
             float maxMana;
-            float newMana;
             for (var i = 0; i <= units.Count - 1; i++)
             {
                 var value = units[i];
                 if (owner.Team == value.Team && i != 0)
                 {
-                    var currentMana = value.GetStats().CurrentMana;
-                    maxMana = value.GetStats().ManaPoints.Total;
+                    var currentMana = value.Stats.CurrentPar;
+                    maxMana = value.Stats.TotalPar;
                     if (currentMana * 100 / maxMana < lowestManaPercentage && owner != value)
                     {
                         lowestManaPercentage = currentMana * 100 / maxMana;
@@ -37,21 +37,20 @@ namespace Spells
 
             if (nearbychampion != null)
             {
-                var mp2 = nearbychampion.GetStats().CurrentMana;
-                var maxMp2 = nearbychampion.GetStats().ManaPoints.Total;
-                if (mp2 + maxMp2 * PERCENT_MAX_MANA_HEAL < maxMp2)
-                    nearbychampion.GetStats().CurrentMana = mp2 + maxMp2 * PERCENT_MAX_MANA_HEAL;
-                else
-                    nearbychampion.GetStats().CurrentMana = maxMp2;
+                var mp2 = nearbychampion.Stats.CurrentPar;
+                var maxMp2 = nearbychampion.Stats.TotalPar;
+                var newMana = mp2 + maxMp2 * PERCENT_MAX_MANA_HEAL;
+
+                nearbychampion.Stats.CurrentPar = Math.Min(maxMp2, newMana);
+                
                 ApiFunctionManager.AddParticleTarget(nearbychampion, "global_ss_clarity_02.troy", nearbychampion);
             }
 
-            var mp = owner.GetStats().CurrentMana;
-            var maxMp = owner.GetStats().ManaPoints.Total;
-            if (mp + maxMp * PERCENT_MAX_MANA_HEAL < maxMp)
-                owner.GetStats().CurrentMana = mp + maxMp * PERCENT_MAX_MANA_HEAL;
-            else
-                owner.GetStats().CurrentMana = maxMp;
+            var mp = owner.Stats.CurrentPar;
+            var maxMp = owner.Stats.TotalPar;
+            var newMp = mp + maxMp * PERCENT_MAX_MANA_HEAL;
+
+            owner.Stats.CurrentPar = Math.Min(newMp, maxMp);
             ApiFunctionManager.AddParticleTarget(owner, "global_ss_clarity_02.troy", owner);
         }
 

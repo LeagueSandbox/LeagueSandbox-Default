@@ -19,16 +19,14 @@ namespace Spells
             }
 
             owner.Respawn();
-
-            ChampionStatModifier statMod = new ChampionStatModifier();
-            statMod.MoveSpeed.PercentBonus = 125.0f / 100.0f;
-            owner.AddStatModifier(statMod);
+            owner.Stats.MultiplicativeMovementSpeedBonus.Add(1.25f);
             ApiFunctionManager.AddParticleTarget(owner, "Global_SS_Revive.troy", owner);
-            var visualBuff = ApiFunctionManager.AddBuffHUDVisual("SummonerReviveSpeedBoost", 12.0f, 1, owner);
+            var visualBuff = ApiFunctionManager.AddBuffHUDVisual("SummonerReviveSpeedBoost", 12.0f, 1, BuffType.Haste, owner);
+
             ApiFunctionManager.CreateTimer(12.0f, () =>
             {
                 ApiFunctionManager.RemoveBuffHUDVisual(visualBuff);
-                owner.RemoveStatModifier(statMod);
+                owner.Stats.MultiplicativeMovementSpeedBonus.Remove(1.25f);
             });
         }
 

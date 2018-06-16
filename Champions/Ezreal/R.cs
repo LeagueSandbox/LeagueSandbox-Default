@@ -35,8 +35,8 @@ namespace Spells
         public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile)
         {
             var reduc = Math.Min(projectile.ObjectsHit.Count, 7);
-            var bonusAd = owner.GetStats().AttackDamage.Total - owner.GetStats().AttackDamage.BaseValue;
-            var ap = owner.GetStats().AbilityPower.Total * 0.9f;
+            var bonusAd = owner.Stats.TotalAttackDamage - owner.Stats.BaseAttackDamage;
+            var ap = owner.Stats.TotalAbilityPower * 0.9f;
             var damage = 200 + spell.Level * 150 + bonusAd + ap;
             target.TakeDamage(owner, damage * (1 - reduc / 10), DamageType.DAMAGE_TYPE_MAGICAL,
                 DamageSource.DAMAGE_SOURCE_SPELL, false);

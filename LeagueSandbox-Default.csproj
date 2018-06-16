@@ -51,7 +51,6 @@
     <Compile Include="Buffs\LuluR\LuluR.cs" />
     <Compile Include="Buffs\LuluWBuff\LuluWBuff.cs" />
     <Compile Include="Buffs\LuluWDebuff\LuluWDebuff.cs" />
-    <Compile Include="Buffs\OverdriveSlow\OverdriveSlow.cs" />
     <Compile Include="Buffs\Overdrive\Overdrive.cs" />
     <Compile Include="Buffs\Quickdraw\Quickdraw.cs" />
     <Compile Include="Buffs\Silence\Silence.cs" />

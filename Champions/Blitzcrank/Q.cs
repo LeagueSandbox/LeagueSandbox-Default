@@ -32,7 +32,7 @@ namespace Spells
 
         public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile)
         {
-            var ap = owner.GetStats().AbilityPower.Total;
+            var ap = owner.Stats.TotalAbilityPower;
             var damage = 25 + spell.Level * 55 + ap;
             spell.Target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL,
                 false);
