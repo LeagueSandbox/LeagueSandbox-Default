@@ -47,7 +47,7 @@ namespace Spells
                 }
 
                 ApiFunctionManager.AddBuffHUDVisual("SummonerHeal", 1.0f, 1, mostWoundedAlliedChampion, 1.0f);
-                ChampionStatModifier statMod2 = new ChampionStatModifier();
+                StatsModifier statMod2 = new StatsModifier();
                 statMod2.MoveSpeed.PercentBonus = 30 / 100.0f;
                 mostWoundedAlliedChampion.AddStatModifier(statMod2);
                 ApiFunctionManager.CreateTimer(1.0f, () => { mostWoundedAlliedChampion.RemoveStatModifier(statMod2); });
@@ -69,7 +69,7 @@ namespace Spells
             }
 
             ApiFunctionManager.AddBuffHUDVisual("SummonerHeal", 1.0f, 1, owner, 1.0f);
-            ChampionStatModifier statMod = new ChampionStatModifier();
+            StatsModifier statMod = new StatsModifier();
             statMod.MoveSpeed.PercentBonus = 30 / 100.0f;
             owner.AddStatModifier(statMod);
             ApiFunctionManager.CreateTimer(1.0f, () => { owner.RemoveStatModifier(statMod); });

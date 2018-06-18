@@ -5,7 +5,7 @@ namespace Quickdraw
 {
     internal class Quickdraw : BuffGameScript
     {
-        private ChampionStatModifier _statMod = new ChampionStatModifier();
+        private StatsModifier _statMod = new StatsModifier();
 
         public void OnUpdate(double diff)
         {
