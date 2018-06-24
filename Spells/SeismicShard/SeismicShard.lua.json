@@ -1,0 +1,8 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "GlacialMalphite",
+        "2": "MalphiteSkin06"
+    },
+    "BuffName": "SeismicShard",
+    "BuffTextureName": "Malphite_SeismicShard.dds"
+}

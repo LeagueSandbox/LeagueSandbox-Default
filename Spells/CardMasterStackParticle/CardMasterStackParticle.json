@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_CardMasterStackParticle",
+            "DynamicTooltip": "<titleLeft>Stacked Deck</titleLeft><mainText>Twisted Fate's next basic attack deals bonus Magic Damage.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
             "ShowInTrackerUI": 1
         }
     }

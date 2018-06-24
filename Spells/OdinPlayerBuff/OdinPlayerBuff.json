@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_OdinPlayerBuff"
+            "DynamicTooltip": "<titleLeft>Crystal Scar's Aura</titleLeft><mainText>This unit has:<br>     Increased Ability Resource Regeneration<br>     Gains Experience Passively</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

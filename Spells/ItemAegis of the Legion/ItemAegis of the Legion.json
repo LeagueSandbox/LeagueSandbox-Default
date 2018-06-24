@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Aegis_of_the_Legion"
+            "DynamicTooltip": "<titleLeft>Legion Aura</titleLeft><mainText>Nearby allied units have increased Magic Resistance and Health Regeneration.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

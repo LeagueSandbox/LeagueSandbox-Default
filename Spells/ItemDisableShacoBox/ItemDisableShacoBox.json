@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_ItemDisable"
+            "DynamicTooltip": "<titleLeft>Disabled</titleLeft><mainText>This trap has been disabled and will not trigger while disabled.</mainText>"
         }
     }
 }

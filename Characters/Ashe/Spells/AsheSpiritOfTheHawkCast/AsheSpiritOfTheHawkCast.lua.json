@@ -1,0 +1,8 @@
+{
+    "PersistsThroughDeath": true,
+    "IsDamagingSpell": true,
+    "NonDispellable": true,
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "SpellDamageRatio": 0.5
+}

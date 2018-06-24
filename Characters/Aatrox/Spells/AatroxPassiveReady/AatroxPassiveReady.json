@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "AatroxPassiveReady",
+        "Name": "AatroxPassiveReady",
+        "ResourcePath": "DATA/Characters/Aatrox/Spells/AatroxPassiveReady.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Blood Well</titleLeft><mainText>Upon taking fatal damage, Aatrox goes into a stasis for 3 seconds and is healed over the duration.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

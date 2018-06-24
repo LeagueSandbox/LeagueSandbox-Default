@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_NightmareBotSpiritNocturne"
+            "DynamicTooltip": "<titleLeft>Bonus Doom: Paranoia</titleLeft><mainText>This champion reduces the sight radius of nearby enemy champions and minions.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

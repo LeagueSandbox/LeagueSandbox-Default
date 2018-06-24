@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_SpellWeaving"
+            "DynamicTooltip": "<titleLeft>Spell Weaving</titleLeft><mainText>This unit has increased Spell Damage.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "KalistaPassiveBuff",
+        "Name": "KalistaPassiveBuff",
+        "ResourcePath": "DATA/Characters/Kalista/Spells/KalistaPassiveBuff.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Martial Poise</titleLeft><mainText>Kalista cannot cancel her attacks. If the target leaves vision, her attack will miss.<br><br>If Kalista enters a movement command while winding up her basic attack or Pierce, she will drive through in that direction when she launches her attack, lunging a short distance. <br><br><u>Dash distance scales with boot tier</u> and is 25% greater when lunging backward.</mainText>"
+        }
+    }
+}

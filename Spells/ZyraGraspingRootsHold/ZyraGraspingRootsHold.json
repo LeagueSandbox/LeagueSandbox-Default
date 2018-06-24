@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_ZyraGraspingRootsHold"
+            "DynamicTooltip": "<titleLeft>Grasping Roots</titleLeft><mainText>Rooted. Literally.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

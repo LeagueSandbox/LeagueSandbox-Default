@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_CaitlynYordleTrapSight"
+            "DynamicTooltip": "<titleLeft>Yordle Trap: Sight</titleLeft><mainText>Caitlyn can see this unit.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

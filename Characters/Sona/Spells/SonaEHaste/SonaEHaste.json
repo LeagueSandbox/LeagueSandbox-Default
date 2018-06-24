@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "SonaEHaste",
+        "Name": "SonaEHaste",
+        "ResourcePath": "DATA/Characters/Sona/Spells/SonaEHaste.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Song of Celerity</titleLeft><mainText>Sona has granted this unit increased Movement Speed.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

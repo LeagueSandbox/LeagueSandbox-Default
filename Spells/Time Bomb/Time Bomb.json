@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Time_Bomb"
+            "DynamicTooltip": "<titleLeft>Time Bomb</titleLeft><mainText>This unit has a bomb attached to them. The bomb will detonate soon, dealing damage to surrounding units.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

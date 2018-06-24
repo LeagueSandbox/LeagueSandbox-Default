@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Stark's_Fervor_Aura"
+            "DynamicTooltip": "<titleLeft>Zeke's Herald</titleLeft><mainText>This champion has increased Attack Damage and Lifesteal.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

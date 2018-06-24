@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_ShyvanaDragonScales"
+            "DynamicTooltip": "<titleLeft>Reinforced Scales</titleLeft><mainText>Shyvana's Armor and Magic Resistances are temporarily increased.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

@@ -1,0 +1,13 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "CyberNocturne"
+    },
+    "BuffName": "NocturneParanoia",
+    "CastingBreaksStealth": true,
+    "BuffTextureName": "Nocturne_Paranoia.dds",
+    "DoesntBreakShields": true,
+    "SpellToggleSlot": 4.0,
+    "IsDamagingSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "NotSingleTargetSpell": false
+}

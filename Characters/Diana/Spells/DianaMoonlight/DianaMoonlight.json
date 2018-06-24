@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "DianaMoonlight",
+        "Name": "DianaMoonlight",
+        "ResourcePath": "DATA/Characters/Diana/Spells/DianaMoonlight.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Moonlight</titleLeft><mainText>Diana has vision of you and Lunar Rush has no cooldown if it targets you.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

@@ -1,0 +1,5 @@
+{
+    "PersistsThroughDeath": true,
+    "BuffName": "NightmareBotLuxBuff",
+    "BuffTextureName": "LuxFinaleFunkeln.dds"
+}

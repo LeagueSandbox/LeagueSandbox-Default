@@ -1,0 +1,25 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "NidaleePassiveHunt",
+        "Name": "Prowl",
+        "ResourcePath": "DATA/Characters/Nidalee/Spells/NidaleePassiveHunt.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Prowl</titleLeft><mainText>Moving through brush increases Nidalee's Movement Speed by 10% for 2 seconds, increased to 30% toward visible enemy champions within 5500 range.<br><br>Damaging champions with Javelin Toss and Bushwhack causes her to <font color='#FFF673'>Hunt</font> these targets for 4 seconds, granting vision of them and Prowl's increased Movement Speed toward them. Additionally, her next Takedown, Pounce, and Swipe are enhanced against the <font color='#FFF673'>Hunted</font> target.</mainText>"
+        },
+        "SpellData": {
+            "CastRange": 5900.0,
+            "Description": "Prowl",
+            "DisplayName": "Prowl",
+            "DynamicExtended": "game_spell_levelup_NidaleePassiveHunt",
+            "DynamicTooltip": "<titleLeft>Prowl</titleLeft><mainText>Moving through brush increases Nidalee's Movement Speed by 10% for 2 seconds, increased to 30% toward visible enemy champions within 5500 range.<br><br>Hitting champions with Javelin Toss and Bushwhack triggers a <font color='#FFF673'>Hunt</font>, revealing them for 4 seconds. During this time, Nidalee gains 10% Movement Speed (increased to 30% toward the <font color='#FFF673'>Hunted</font> target) and her first Takedown and Pounce are enhanced against them.</mainText>",
+            "InventoryIcon": "Nidalee_Passive.dds",
+            "MinimapIconDisplayFlag": 1,
+            "MinimapIconRotation": 0,
+            "UseMinimapTargeting": 1,
+            "Version": 1
+        }
+    }
+}

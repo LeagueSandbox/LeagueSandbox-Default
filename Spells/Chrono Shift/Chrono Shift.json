@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_ChronoShift",
+            "DynamicTooltip": "<titleLeft>Chronoshift</titleLeft><mainText>Upon taking lethal damage, this unit will instead be reverted in time to before they took lethal damage.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
             "ShowInTrackerUI": 1
         }
     }

@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "MoveAway",
+        "Name": "MoveAway",
+        "ResourcePath": "DATA/Shared/Spells/MoveAway.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Knocked Away</titleLeft><mainText>This unit is knocked airborne.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

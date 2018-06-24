@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Dragon_Vision_Buff"
+            "DynamicTooltip": "<titleLeft>Seeing Eye</titleLeft><mainText>Upon dying, the team that kills this unit gains vision of the surrounding area for 90 seconds.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

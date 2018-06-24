@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Stealth"
+            "DynamicTooltip": "<titleLeft>Unseen</titleLeft><mainText>This unit cannot be seen.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

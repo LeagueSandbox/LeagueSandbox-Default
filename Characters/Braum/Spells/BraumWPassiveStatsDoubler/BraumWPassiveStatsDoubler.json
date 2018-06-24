@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "BraumWPassiveStatsDoubler",
+        "Name": "BraumWPassiveStatsDoubler",
+        "ResourcePath": "DATA/Characters/Braum/Spells/BraumWPassiveStatsDoubler.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Stand Behind Me</titleLeft> <mainText>Braum is granting Armor and Magic Resist.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "NasusQStacks",
+        "Name": "NasusQStacks",
+        "ResourcePath": "DATA/Characters/Nasus/Spells/NasusQStacks.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Siphoning Strike</titleLeft><mainText>When Siphoning Strike slays a unit, its damage permanently increases.<br><br>Current Siphoning Strike bonus damage: @f1@</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        },
+        "SpellData": {
+            "InventoryIcon": "Nasus_SiphoningStrike.dds"
+        }
+    }
+}

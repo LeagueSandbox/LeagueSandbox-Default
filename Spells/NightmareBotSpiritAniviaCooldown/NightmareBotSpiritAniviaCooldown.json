@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_NightmareBotSpiritAniviaCooldown"
+            "DynamicTooltip": "<titleLeft>Bonus Doom: Rebirth</titleLeft><mainText>This champion was recently reborn and must regain their strength.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

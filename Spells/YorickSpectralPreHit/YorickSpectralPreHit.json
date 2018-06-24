@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_YorickSpectralPreHit",
+            "DynamicTooltip": "<titleLeft>Omen of War</titleLeft><mainText>Yorick's next attack will deal bonus damage and summon a Spectral Ghoul.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
             "ShowInTrackerUI": 1
         }
     }

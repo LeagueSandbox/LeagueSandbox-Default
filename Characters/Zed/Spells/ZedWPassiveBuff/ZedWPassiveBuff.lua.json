@@ -1,0 +1,5 @@
+{
+    "PersistsThroughDeath": true,
+    "BuffName": "ZedWPassiveBuff",
+    "BuffTextureName": "shadowninja_w.dds"
+}

@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_LightningRodCounter"
+            "DynamicTooltip": "<titleLeft>Ionic Spark: Charging</titleLeft><mainText>Ionic spark is being charged by autoattack.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_SummonerOdinPromote"
+            "DynamicTooltip": "<titleLeft>Promoted</titleLeft><mainText>This unit has been promoted to an anti Command Point cannon. It has massive bonuses to its stats and grants the gold for its kills to its caster.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

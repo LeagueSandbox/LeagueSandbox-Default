@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_NocturneShroudofDarknessShield",
+            "DynamicTooltip": "<titleLeft>Shroud of Darkness: Shield</titleLeft><mainText>Nocturne will block the next incoming enemy ability.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
             "ShowInTrackerUI": 1
         }
     }

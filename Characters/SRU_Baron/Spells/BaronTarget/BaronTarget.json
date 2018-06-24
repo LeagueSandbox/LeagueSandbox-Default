@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "BaronTarget",
+        "Name": "BaronTarget",
+        "ResourcePath": "DATA/Characters/SRU_Baron/Spells/BaronTarget.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Baron's Gaze</titleLeft><mainText>This unit deals 50% reduced damage to Baron Nashor.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "Sru_CrabNimbleness",
+        "Name": "Sru_CrabNimbleness",
+        "ResourcePath": "DATA/Characters/Sru_Crab/Spells/Sru_CrabNimbleness.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft><font color='#33AA33'>Elusive</font> <font color='#FFDD33'>V</font></titleLeft><mainText>Grants +50% Damage Reduction while this unit is not stunned or rooted.</mainText><postScriptLeft>Source: <font color='#FFFFFF'>Monster Passive</font color></postScriptLeft>"
+        }
+    }
+}

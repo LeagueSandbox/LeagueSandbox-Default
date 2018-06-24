@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_ItemCrystalFlaskCharge"
+            "DynamicTooltip": "<titleLeft>Crystalline Flask</titleLeft><mainText>Crystalline flask is available for use.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

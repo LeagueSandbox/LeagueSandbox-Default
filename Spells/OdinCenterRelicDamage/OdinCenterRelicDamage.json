@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_OdinCenterRelicDamage"
+            "DynamicTooltip": "<titleLeft>Storm Shield: Lightning</titleLeft><mainText>Attacks and damaging spellcasts proc a damaging nuke on afflicted targets. Max of once every 4 seconds.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

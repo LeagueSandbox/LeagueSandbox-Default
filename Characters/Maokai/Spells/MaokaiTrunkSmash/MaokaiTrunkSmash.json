@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "MaokaiTrunkSmash",
+        "Name": "MaokaiTrunkSmash",
+        "ResourcePath": "DATA/Characters/Maokai/Spells/MaokaiTrunkSmash.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Shield Arm</titleLeft><mainText>Maokai holds his shield arm up, improving his Armor.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

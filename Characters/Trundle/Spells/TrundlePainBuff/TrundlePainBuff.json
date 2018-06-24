@@ -1,0 +1,14 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "TrundlePainBuff",
+        "Name": "TrundlePainBuff",
+        "ResourcePath": "DATA/Characters/Trundle/Spells/TrundlePainBuff.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Subjugate</titleLeft><mainText>Trundle is sapping Health, Armor and Magic Resist from an enemy.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
+            "ShowInTrackerUI": 1
+        }
+    }
+}

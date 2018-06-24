@@ -1,0 +1,6 @@
+{
+    "BuffTextureName": "Nautilus_StaggeringBlow.dds",
+    "PersistsThroughDeath": true,
+    "BuffName": "NautilusPassiveRoot",
+    "PopupMessage1": "game_floatingtext_Snared"
+}

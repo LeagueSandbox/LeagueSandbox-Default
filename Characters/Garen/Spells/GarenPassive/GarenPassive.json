@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "GarenPassive",
+        "Name": "GarenPassive",
+        "ResourcePath": "DATA/Characters/Garen/Spells/GarenPassive.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Perseverance</titleLeft><mainText>If Garen has not been struck by damage or enemy abilities for the last <font color='#FFFFFF'>@f2@</font> seconds, he regenerates <font color='#CC3300'>@f1@</font> health every 5 seconds (<font color='#FFFFFF'>@f3@%</font> of max Health). Minion damage does not stop Perseverance. <br><br>At level 11 damage from non-epic monsters will no longer stop Perserverance.<br>At level 16 the power of Perserverance is increased significantly.</mainText>"
+        }
+    }
+}

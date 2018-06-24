@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "VelkozEStun",
+        "Name": "VelkozEStun",
+        "ResourcePath": "DATA/Characters/Velkoz/Spells/VelkozEStun.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Knocked Airborne</titleLeft><mainText>This unit has been knocked airborne by Vel'Koz.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

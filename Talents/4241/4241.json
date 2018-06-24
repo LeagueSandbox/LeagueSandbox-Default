@@ -1,17 +1,17 @@
 {
     "MetaData": {
         "ContentFormatVersion": 4,
-        "Id": "4241",
-        "Name": "4241",
+        "Id": 4241,
+        "Name": "Perseverance ",
         "ResourcePath": "DATA/Talents/4241.inibin"
     },
     "Values": {
         "SpellData": {
             "InventoryIcon": "622.dds",
-            "Level1Desc": "game_mastery_level1desc_4241",
-            "Level2Desc": "game_mastery_level2desc_4241",
-            "Level3Desc": "game_mastery_level3desc_4241",
-            "Name": "game_mastery_displayname_4241",
+            "Level1Desc": "Regenerates 0.35% of missing Health every 5 seconds",
+            "Level2Desc": "Regenerates 0.675% of missing Health every 5 seconds",
+            "Level3Desc": "Regenerates 1% of missing Health every 5 seconds",
+            "Name": "Perseverance ",
             "Ranks": 3
         }
     }

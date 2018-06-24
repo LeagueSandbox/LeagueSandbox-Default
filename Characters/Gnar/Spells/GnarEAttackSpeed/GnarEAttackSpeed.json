@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "GnarEAttackSpeed",
+        "Name": "GnarEAttackSpeed",
+        "ResourcePath": "DATA/Characters/Gnar/Spells/GnarEAttackSpeed.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Excited</titleLeft><mainText>Gnar is enjoying himself and has increased Attack Speed.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

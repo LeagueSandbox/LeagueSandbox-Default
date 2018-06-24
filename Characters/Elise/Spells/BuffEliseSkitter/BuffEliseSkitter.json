@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "BuffEliseSkitter",
+        "Name": "BuffEliseSkitter",
+        "ResourcePath": "DATA/Characters/Elise/Spells/BuffEliseSkitter.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Skittering Frenzy</titleLeft><mainText>This unit has increased Attack Speed and heals Elise when it attacks.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_OdinLightbringer"
+            "DynamicTooltip": "<titleLeft>Revealed</titleLeft><mainText>This unit can be seen by the enemy team.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Abyssal_Scepter"
+            "DynamicTooltip": "<titleLeft>Abyssal Scepter</titleLeft><mainText>This unit's magic resistance is reduced.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

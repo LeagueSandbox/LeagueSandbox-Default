@@ -1,0 +1,14 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "Death Defied Buff",
+        "Name": "Death Defied Buff",
+        "ResourcePath": "DATA/Characters/Karthus/Spells/Death Defied Buff.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Death Defied</titleLeft><mainText>Karthus has been slain, but his spirit continues casting spells, attempting to take his enemies with him.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
+            "ShowInTrackerUI": 1
+        }
+    }
+}

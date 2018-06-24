@@ -1,0 +1,12 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "BloodkingVladimir"
+    },
+    "DoesntBreakShields": false,
+    "BuffName": "EvelynnWSlow",
+    "CastingBreaksStealth": false,
+    "BuffTextureName": "Evelynn_Drink.dds",
+    "SpellFXOverrideSkins": {
+        "1": "BloodkingVladimir"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "AutoBuffActivateEffect": "TT_masterbuff2.troy",
+    "NonDispellable": true,
+    "BuffName": "TreelineMasterBuffT2Hexakill",
+    "BuffTextureName": "TreelineMasterBuffT2.dds"
+}

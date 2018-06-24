@@ -1,0 +1,6 @@
+{
+    "NonDispellable": true,
+    "PersistsThroughDeath": true,
+    "BuffName": "PantheonEPassive",
+    "BuffTextureName": "Pantheon_CD.dds"
+}

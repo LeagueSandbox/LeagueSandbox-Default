@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Black_Shield",
+            "DynamicTooltip": "<titleLeft>Black Shield</titleLeft><mainText>This unit is immune to disables and absorbs incoming magic damage.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
             "ShowInTrackerUI": 1
         }
     }

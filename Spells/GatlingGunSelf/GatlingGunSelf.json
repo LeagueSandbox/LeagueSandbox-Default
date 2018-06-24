@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_GatlingGunSelf"
+            "DynamicTooltip": "<titleLeft>Gatling Gun</titleLeft><mainText>Corki's gatling gun is firing at targets in front of him.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

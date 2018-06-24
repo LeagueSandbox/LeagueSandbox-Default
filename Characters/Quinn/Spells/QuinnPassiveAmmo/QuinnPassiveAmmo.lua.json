@@ -1,0 +1,13 @@
+{
+    "BuffName": "QuinnPassiveAmmo",
+    "AutoBuffActivateEffect": "Quinn_Base_P_Buff.troy",
+    "NotSingleTargetSpell": false,
+    "BuffTextureName": "Quinn_W.dds",
+    "AutoBuffActivateAttachBoneName": "Weapon_Top",
+    "AutoBuffActivateEffect2": "Global_Haste.troy",
+    "DoOnPreDamageInExpirationOrder": true,
+    "OnPreDamagePriority": 3.0,
+    "AutoBuffActivateAttachBoneName2": "Buffbone_Glb_Ground_Loc",
+    "DoesntTriggerSpellCasts": false,
+    "IsDamagingSpell": true
+}

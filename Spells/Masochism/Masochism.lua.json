@@ -1,0 +1,12 @@
+{
+    "BuffName": "Masochism",
+    "AutoBuffActivateEffect": "dr_mundo_masochism_cas.troy",
+    "NotSingleTargetSpell": false,
+    "BuffTextureName": "DrMundo_Masochism.dds",
+    "AutoBuffActivateAttachBoneName": "R_hand",
+    "AutoBuffActivateEffect2": "dr_mundo_masochism_cas.troy",
+    "IsDeathRecapSource": true,
+    "AutoBuffActivateAttachBoneName2": "L_hand",
+    "DoesntTriggerSpellCasts": false,
+    "IsDamagingSpell": true
+}

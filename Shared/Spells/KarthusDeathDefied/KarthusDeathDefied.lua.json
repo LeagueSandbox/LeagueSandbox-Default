@@ -1,0 +1,6 @@
+{
+    "NonDispellable": true,
+    "PersistsThroughDeath": true,
+    "BuffName": "Death Defied",
+    "BuffTextureName": "Lich_Untransmutable.dds"
+}

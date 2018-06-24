@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_JarvanIVDragonStrikeDebuff"
+            "DynamicTooltip": "<titleLeft>Dragon Strike</titleLeft><mainText>This unit's Armor has been reduced.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

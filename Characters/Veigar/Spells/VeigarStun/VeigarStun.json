@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "VeigarStun",
+        "Name": "VeigarStun",
+        "ResourcePath": "DATA/Characters/Veigar/Spells/VeigarStun.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Stunned</titleLeft><mainText>This unit is stunned. It can take no actions.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

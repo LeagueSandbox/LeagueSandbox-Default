@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "BuffEliseESlow",
+        "Name": "BuffEliseESlow",
+        "ResourcePath": "DATA/Characters/Elise/Spells/BuffEliseESlow.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Cocoon: Slow</titleLeft><mainText>This unit has been slowed by Elise's Cocoon.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

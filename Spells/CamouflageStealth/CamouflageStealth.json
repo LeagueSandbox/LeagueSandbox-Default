@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_CamouflageStealth",
+            "DynamicTooltip": "<titleLeft>Camouflage</titleLeft><mainText>Teemo is stealthed.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
             "ShowInTrackerUI": 1
         }
     }

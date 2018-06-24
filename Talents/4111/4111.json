@@ -1,15 +1,15 @@
 {
     "MetaData": {
         "ContentFormatVersion": 4,
-        "Id": "4111",
-        "Name": "4111",
+        "Id": 4111,
+        "Name": "Double-Edged Sword",
         "ResourcePath": "DATA/Talents/4111.inibin"
     },
     "Values": {
         "SpellData": {
             "InventoryIcon": "514.dds",
-            "Level1Desc": "game_mastery_level1desc_4111",
-            "Name": "game_mastery_displayname_4111",
+            "Level1Desc": "Melee - Deal an additional 2% damage and receive an additional 1% damage\\nRanged - Deal an additional 1.5% damage and receive an additional 1.5% damage",
+            "Name": "Double-Edged Sword",
             "Ranks": 1
         }
     }

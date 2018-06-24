@@ -1,0 +1,22 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "Glory_in_Death",
+        "Name": "Glory in Death",
+        "ResourcePath": "DATA/Characters/Sion/Spells/Glory_in_Death.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Glory in Death</titleLeft><mainText>Sion fights even after death!</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
+            "Sound_VOEventCategory": "OrderConfirmation"
+        },
+        "SpellData": {
+            "AlternateName": "SionPassiveZombie",
+            "DisplayName": "Glory in Death",
+            "Version": 1
+        },
+        "UNKNOWN_HASHES": {
+            "2592744643": true
+        }
+    }
+}

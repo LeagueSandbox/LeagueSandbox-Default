@@ -1,0 +1,5 @@
+{
+    "AutoBuffActivateEffect": "GLOBAL_FREEZE.TROY",
+    "BuffName": "Frozen Mallet Slow",
+    "BuffTextureName": "122_Frozen_Heart.dds"
+}

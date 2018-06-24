@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Hunter's_Call"
+            "DynamicTooltip": "<titleLeft>Hunter's Call</titleLeft><mainText>This unit's Attack Speed is increased.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

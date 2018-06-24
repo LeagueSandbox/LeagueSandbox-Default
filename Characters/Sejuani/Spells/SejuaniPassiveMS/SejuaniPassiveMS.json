@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "SejuaniPassiveMS",
+        "Name": "SejuaniPassiveMS",
+        "ResourcePath": "DATA/Characters/Sejuani/Spells/SejuaniPassiveMS.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Frost Armor</titleLeft><mainText>This unit has increased armor and movement-slowing effects on it are reduced.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "AutoBuffActivateAttachBoneName2": "BUFFBONE_CSTM_WEAPON_2",
+    "BuffName": "Radiance",
+    "SpellToggleSlot": 4.0,
+    "AutoBuffActivateEffect": "Taric_HammerFlare.troy",
+    "CastingBreaksStealth": true,
+    "BuffTextureName": "GemKnight_Radiance.dds",
+    "AutoBuffActivateAttachBoneName3": "spine",
+    "AutoBuffActivateAttachBoneName": "BUFFBONE_CSTM_WEAPON_1",
+    "DoesntBreakShields": true,
+    "AutoBuffActivateEffect2": "Taric_HammerFlare.troy",
+    "AutoBuffActivateEffect3": "Taric_ShoulderFlare.troy",
+    "NonDispellable": true,
+    "IsDamagingSpell": false,
+    "DoesntTriggerSpellCasts": true,
+    "NotSingleTargetSpell": true
+}

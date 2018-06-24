@@ -1,15 +1,15 @@
 {
     "MetaData": {
         "ContentFormatVersion": 4,
-        "Id": "4321",
-        "Name": "4321",
+        "Id": 4321,
+        "Name": "Conjuror",
         "ResourcePath": "DATA/Talents/4321.inibin"
     },
     "Values": {
         "SpellData": {
             "InventoryIcon": "732.dds",
-            "Level1Desc": "game_mastery_level1desc_4321",
-            "Name": "game_mastery_displayname_4321",
+            "Level1Desc": "Summoned units and traps have 10% increased duration\\n\\nThis does not work on wards",
+            "Name": "Conjuror",
             "Ranks": 1
         }
     }

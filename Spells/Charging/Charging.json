@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Charging"
+            "DynamicTooltip": "<titleLeft>Charging</titleLeft><mainText>Minotaur is charging at his target.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

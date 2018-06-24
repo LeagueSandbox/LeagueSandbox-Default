@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_NightmareBotLuxBuff"
+            "DynamicTooltip": "<titleLeft>Doom Lux</titleLeft><mainText>Doom Lux’s abilities have been fragmented into multiple light beams.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

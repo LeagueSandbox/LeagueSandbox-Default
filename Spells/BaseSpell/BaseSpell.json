@@ -2,25 +2,25 @@
     "MetaData": {
         "ContentFormatVersion": 4,
         "Id": "BaseSpell",
-        "Name": "BaseSpell",
+        "Name": "game_spell_displayname_BaseSpell",
         "ResourcePath": "DATA/Spells/BaseSpell.inibin"
     },
     "Values": {
         "SpellData": {
             "AfterEffectName": "AnnieBasicAttack_mis.troy",
             "AnimationName": "\"\"",
-            "CastConeAngle": "45.0000",
-            "CastConeDistance": "100.0000",
-            "CastFrame": "10.0000",
-            "CastRadius": "100.0000",
-            "CastRange": "200.0000",
-            "CastType": "0",
-            "Cooldown": "-100.0000",
+            "CastConeAngle": 45.0,
+            "CastConeDistance": 100.0,
+            "CastFrame": 10.0,
+            "CastRadius": 100.0,
+            "CastRange": 200.0,
+            "CastType": 0,
+            "Cooldown": -100.0,
             "Description": "game_spell_description_BaseSpell",
             "DisplayName": "game_spell_displayname_BaseSpell",
             "Flags": 3072,
-            "HaveAfterEffect": "0",
-            "HaveHitEffect": "0",
+            "HaveAfterEffect": 0,
+            "HaveHitEffect": 0,
             "HitEffectName": "AnnieBasicAttack_mis.troy",
             "InventoryIcon": "",
             "Level1Desc": "NONE",
@@ -38,8 +38,8 @@
             "MissileSpeed": 0,
             "Sound_CastName": "none.wav",
             "Sound_HitName": "none.wav",
-            "TargettingType": "0",
-            "UseAnimatorFramerate": "0",
+            "TargettingType": 0,
+            "UseAnimatorFramerate": 0,
             "Version": 1
         }
     }

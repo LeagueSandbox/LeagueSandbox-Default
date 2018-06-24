@@ -1,0 +1,12 @@
+{
+    "AutoBuffActivateAttachBoneName": "weapon",
+    "SpellFXOverrideSkins": {
+        "1": "RocketTristana"
+    },
+    "BuffName": "Rapid Fire",
+    "TriggersSpellCasts": true,
+    "AutoBuffActivateEffect": "rapidfire_buf.troy",
+    "NotSingleTargetSpell": true,
+    "BuffTextureName": "Tristana_headshot.dds",
+    "DoesntTriggerSpellCasts": false
+}

@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Bloodmail2"
+            "DynamicTooltip": "<titleLeft>Overlord's Bloodmail</titleLeft><mainText>This unit is healing.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

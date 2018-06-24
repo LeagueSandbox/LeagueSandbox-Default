@@ -1,0 +1,13 @@
+{
+    "BuffName": "JaxEvasion",
+    "AutoBuffActivateEffect": "JaxDodger.troy",
+    "CastingBreaksStealth": true,
+    "BuffTextureName": "Armsmaster_Disarm.dds",
+    "DoesntBreakShields": true,
+    "AutoBuffActivateEffect2": "jax_immortal_e_cas_02.troy",
+    "OnPreDamagePriority": 3.0,
+    "AutoBuffActivateAttachBoneName2": "R_hand",
+    "IsDamagingSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "NotSingleTargetSpell": false
+}

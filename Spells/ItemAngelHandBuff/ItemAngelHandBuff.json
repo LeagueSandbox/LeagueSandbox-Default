@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_ItemAngelHandBuff"
+            "DynamicTooltip": "<titleLeft>Frenzy</titleLeft><mainText>This unit's Attack Speed is increased.</i></font></mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

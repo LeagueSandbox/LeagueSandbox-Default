@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_CorkiMissileBarrageCounterBig",
+            "DynamicTooltip": "<titleLeft>The Big One</titleLeft><mainText>Corki has loaded a more powerful missile for his next Missile Barrage.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
             "ShowInTrackerUI": 1
         }
     }

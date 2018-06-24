@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_ForcePulseAvailable",
+            "DynamicTooltip": "<titleLeft>Force Pulse Available</titleLeft><mainText>Kassadin can cast Force Pulse.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
             "ShowInTrackerUI": 1
         }
     }

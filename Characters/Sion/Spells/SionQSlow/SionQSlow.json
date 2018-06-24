@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "SionQSlow",
+        "Name": "SionQSlow",
+        "ResourcePath": "DATA/Characters/Sion/Spells/SionQSlow.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Decimating Smash</titleLeft><mainText>This unit has reduced Movement Speed.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

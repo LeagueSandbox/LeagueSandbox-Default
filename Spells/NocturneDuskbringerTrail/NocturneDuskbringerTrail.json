@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_NocturneDuskbringerTrail"
+            "DynamicTooltip": "<titleLeft>Duskbringer: Dusk Trail</titleLeft><mainText>This unit is leaving behind a Dusk Trail, empowering Nocturne while he is on it.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

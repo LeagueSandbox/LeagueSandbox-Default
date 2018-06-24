@@ -1,0 +1,6 @@
+{
+    "NonDispellable": true,
+    "PersistsThroughDeath": true,
+    "BuffName": "NautilusPassive",
+    "BuffTextureName": "3114_Malady.dds"
+}

@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "BlindMonkIronWill",
+        "Name": "BlindMonkIronWill",
+        "ResourcePath": "DATA/Characters/LeeSin/Spells/BlindMonkIronWill.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Iron Will</titleLeft><mainText>Lee Sin has increased Lifesteal and Spell Vamp.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

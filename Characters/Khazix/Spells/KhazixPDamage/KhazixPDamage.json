@@ -1,0 +1,19 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "KhazixPDamage",
+        "Name": "Unseen Threat",
+        "ResourcePath": "DATA/Characters/Khazix/Spells/KhazixPDamage.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Unseen Threat</titleLeft><mainText>Kha'Zix's next basic attack against a champion deals bonus magic damage and slows.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
+            "ShowInTrackerUI": 1
+        },
+        "SpellData": {
+            "Description": "When Kha'Zix is not visible to the enemy team, he gains Unseen Threat, causing his next basic attack against an enemy Champion to deal bonus magic damage and slow.",
+            "DisplayName": "Unseen Threat",
+            "InventoryIcon": "Khazix_P.dds"
+        }
+    }
+}

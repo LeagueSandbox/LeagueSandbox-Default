@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Energized",
+            "DynamicTooltip": "<titleLeft>Energized</titleLeft><mainText>Annie's next offensive ability will stun its targets.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
             "ShowInTrackerUI": 1
         }
     }

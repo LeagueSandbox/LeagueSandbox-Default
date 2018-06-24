@@ -1,0 +1,20 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "BraumPassive",
+        "Name": "Concussive Blows",
+        "ResourcePath": "DATA/Characters/Braum/Spells/BraumPassive.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Concussive Blows</titleLeft> <mainText>Braum and his allies continue to add stacks of Concussive Blows with basic attacks, at 4 stacks this unit will be stunned.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        },
+        "SpellData": {
+            "AlternateName": "BraumPassive",
+            "Description": "Braum's basic attacks apply Concussive Blows. Once the first stack is applied, <font color='#FFF673'>ally</font> basic attacks also stack Concussive Blows. <br><br>Upon reaching 4 stacks, the target is stunned and takes magic damage. For the next few seconds they cannot receive new stacks, but take bonus magic damage from Braum's attacks.",
+            "DisplayName": "Concussive Blows",
+            "DynamicTooltip": "<titleLeft>Concussive Blows</titleLeft><mainText>Braum's basic attacks apply Concussive Blows. Once the first stack is applied, <font color='#FFF673'>ally</font> basic attacks also stack Concussive Blows. <br><br>Upon reaching 4 stacks, the target is stunned and takes magic damage. For the next few seconds they cannot receive new stacks, but take bonus magic damage from Braum's attacks.</mainText>",
+            "InventoryIcon": "Braum_Passive.dds"
+        }
+    }
+}

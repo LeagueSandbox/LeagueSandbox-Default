@@ -2,15 +2,15 @@
     "MetaData": {
         "ContentFormatVersion": 4,
         "Id": "NightmareBotSpiritGarenSource",
-        "Name": "NightmareBotSpiritGarenSource",
+        "Name": "Bonus Doom: Garen",
         "ResourcePath": "DATA/Spells/NightmareBotSpiritGarenSource.inibin"
     },
     "Values": {
         "SpellData": {
             "AlternateName": "NightmareBotSpiritGarenSource",
-            "CastType": "0",
-            "Description": "game_spell_description_NightmareBotSpiritGaren",
-            "DisplayName": "game_spell_displayname_NightmareBotSpiritGaren",
+            "CastType": 0,
+            "Description": "Every brush you can’t see into nearby this champion, could have Garen hiding in it. Demacia! ",
+            "DisplayName": "Bonus Doom: Garen",
             "Flags": 329748,
             "InventoryIcon": "NightmareBotSpiritGaren.dds",
             "TargettingType": 4,

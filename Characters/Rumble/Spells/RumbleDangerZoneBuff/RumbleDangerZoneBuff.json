@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "RumbleDangerZoneBuff",
+        "Name": "RumbleDangerZoneBuff",
+        "ResourcePath": "DATA/Characters/Rumble/Spells/RumbleDangerZoneBuff.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Danger Zone</titleLeft><mainText>Rumble is heating up. All of his abilities have additional effects.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

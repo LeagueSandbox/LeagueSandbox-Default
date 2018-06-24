@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_LuluWBuff"
+            "DynamicTooltip": "<titleLeft>Lulu's Assistance</titleLeft><mainText>This unit's speed is increased.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

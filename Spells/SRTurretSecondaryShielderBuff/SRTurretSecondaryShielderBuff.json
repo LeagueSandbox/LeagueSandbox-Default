@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_IronStylusBuff"
+            "DynamicTooltip": "<titleLeft>Iron Solari Shield</titleLeft><mainText>This unit is absorbing damage.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

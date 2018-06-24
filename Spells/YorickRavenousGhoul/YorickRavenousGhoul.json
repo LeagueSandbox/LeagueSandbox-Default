@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_YorickRavenousGhoul"
+            "DynamicTooltip": "<titleLeft>Famine</titleLeft><mainText>Damage dealt by this ghoul heals Yorick.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

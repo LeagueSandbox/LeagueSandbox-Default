@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_TT_SpeedShrine_Buff"
+            "DynamicTooltip": "<titleLeft>Speed Boost</titleLeft><mainText>This unit has 20% increased Movement Speed. This bonus fades over time.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

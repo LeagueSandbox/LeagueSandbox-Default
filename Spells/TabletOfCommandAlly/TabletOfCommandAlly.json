@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_TabletOfCommandAlly"
+            "DynamicTooltip": "<titleLeft>Valor Aura - Banner</titleLeft><mainText>This unit regenerates Health faster.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

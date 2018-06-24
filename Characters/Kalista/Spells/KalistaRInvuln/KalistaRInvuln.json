@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "KalistaRInvuln",
+        "Name": "KalistaRInvuln",
+        "ResourcePath": "DATA/Characters/Kalista/Spells/KalistaRInvuln.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Fate's Call</titleLeft><mainText>Your mouse click will cause you to fly toward target position, knocking up enemy champions hit.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

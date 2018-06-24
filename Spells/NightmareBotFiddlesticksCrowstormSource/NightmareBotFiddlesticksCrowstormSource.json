@@ -2,15 +2,15 @@
     "MetaData": {
         "ContentFormatVersion": 4,
         "Id": "NightmareBotFiddlesticksCrowstormSource",
-        "Name": "NightmareBotFiddlesticksCrowstormSource",
+        "Name": "Doomed Crowstorm",
         "ResourcePath": "DATA/Spells/NightmareBotFiddlesticksCrowstormSource.inibin"
     },
     "Values": {
         "SpellData": {
             "AlternateName": "NightmareBotFiddlesticksCrowstormSource",
-            "CastType": "0",
-            "Description": "game_spell_description_NightmareBotFiddlesticksCrowstorm",
-            "DisplayName": "game_spell_displayname_NightmareBotFiddlesticksCrowstorm",
+            "CastType": 0,
+            "Description": "The ghosts of Doom Fiddlesticks are everywhere! Anywhere nearby where you have no vision, they could be waiting to Crowstorm from the darkness.",
+            "DisplayName": "Doomed Crowstorm",
             "Flags": 329748,
             "InventoryIcon": "Fiddlesticks_CrowstormSurprise.dds",
             "TargettingType": 4,

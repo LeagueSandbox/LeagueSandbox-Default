@@ -1,0 +1,9 @@
+{
+    "DoesntBreakShields": true,
+    "IsDamagingSpell": false,
+    "BuffName": "JarvanIVDemacianStandard",
+    "CastTime": 0.115,
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "BuffTextureName": "14.dds"
+}

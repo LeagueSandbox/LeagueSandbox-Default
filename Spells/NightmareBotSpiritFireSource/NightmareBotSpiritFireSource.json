@@ -2,15 +2,15 @@
     "MetaData": {
         "ContentFormatVersion": 4,
         "Id": "NightmareBotSpiritFireSource",
-        "Name": "NightmareBotSpiritFireSource",
+        "Name": "Bonus Doom: Burnout",
         "ResourcePath": "DATA/Spells/NightmareBotSpiritFireSource.inibin"
     },
     "Values": {
         "SpellData": {
             "AlternateName": "NightmareBotSpiritFireSource",
-            "CastType": "0",
-            "Description": "game_spell_description_NightmareBotSpiritFire",
-            "DisplayName": "game_spell_displayname_NightmareBotSpiritFire",
+            "CastType": 0,
+            "Description": "This champion scorches the earth where they walk, leaving behind a trail of fire.",
+            "DisplayName": "Bonus Doom: Burnout",
             "Flags": 329748,
             "InventoryIcon": "ShyvanaScorchedEarth.dds",
             "TargettingType": 4,

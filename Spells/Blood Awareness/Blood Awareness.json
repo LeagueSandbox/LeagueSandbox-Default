@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Blood_Awareness"
+            "DynamicTooltip": "<titleLeft>Blood Awareness</titleLeft><mainText>Nearby enemy champions at low health will send Warwick into a frenzy.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

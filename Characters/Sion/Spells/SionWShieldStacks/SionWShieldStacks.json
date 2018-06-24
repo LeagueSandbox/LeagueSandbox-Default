@@ -1,0 +1,14 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "SionWShieldStacks",
+        "Name": "SionWShieldStacks",
+        "ResourcePath": "DATA/Characters/Sion/Spells/SionWShieldStacks.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Soul Furnace</titleLeft><mainText>Sion has shielded himself, he can detonate the shield after 2 seconds dealing damage to enemies around him. Remaining shield value is shown on the counter.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
+            "ShowInTrackerUI": 1
+        }
+    }
+}

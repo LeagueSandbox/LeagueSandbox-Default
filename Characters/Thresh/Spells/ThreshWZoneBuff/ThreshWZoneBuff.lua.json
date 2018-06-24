@@ -1,0 +1,11 @@
+{
+    "PersistsThroughDeath": true,
+    "BuffName": "ThreshWZoneBuff",
+    "NotSingleTargetSpell": true,
+    "BuffTextureName": "FallenAngel_TormentedSoil.dds",
+    "AutoBuffActivateAttachBoneName3": "R_hand",
+    "DoesntBreakShields": true,
+    "CastingBreaksStealth": false,
+    "DoesntTriggerSpellCasts": true,
+    "IsDamagingSpell": false
+}

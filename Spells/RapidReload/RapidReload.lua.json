@@ -1,0 +1,6 @@
+{
+    "NonDispellable": true,
+    "PersistsThroughDeath": true,
+    "BuffName": "RapidReload",
+    "BuffTextureName": "Corki_RapidReload.dds"
+}

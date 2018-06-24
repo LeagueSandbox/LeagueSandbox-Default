@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_ItemSmiteChallenge"
+            "DynamicTooltip": "<titleLeft>Challenged</titleLeft><mainText>This unit is revealed and takes additional true damage when hit by challenging champion.</mainText>"
         }
     }
 }

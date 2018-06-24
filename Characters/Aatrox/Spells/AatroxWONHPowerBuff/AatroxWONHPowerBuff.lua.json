@@ -1,0 +1,13 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "AatroxSkin02"
+    },
+    "BuffName": "AatroxWONHPowerBuff",
+    "AutoBuffActivateEffect": "Aatrox_Base_W_Buff_Power.troy",
+    "BuffTextureName": "Aatrox_W1Passive.dds",
+    "AutoBuffActivateAttachBoneName3": "Root",
+    "AutoBuffActivateAttachBoneName": "R_Hand",
+    "AutoBuffActivateEffect2": "Aatrox_Base_W_Buff_Power.troy",
+    "AutoBuffActivateAttachBoneName2": "L_Hand",
+    "AutoBuffActivateEffect3": "Aatrox_Base_W_Buff_Power_sound.troy"
+}

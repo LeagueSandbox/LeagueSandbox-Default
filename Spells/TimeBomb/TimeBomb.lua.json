@@ -1,0 +1,8 @@
+{
+    "IsDamagingSpell": true,
+    "BuffName": "Time Bomb",
+    "NonDispellable": true,
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "BuffTextureName": "Chronokeeper_Chronoblast.dds"
+}

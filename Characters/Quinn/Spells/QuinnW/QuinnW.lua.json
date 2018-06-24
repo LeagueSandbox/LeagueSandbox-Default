@@ -1,0 +1,16 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "PhoenixQuinn",
+        "2": "QuinnValor_Phoenix",
+        "3": "QuinnSkin02",
+        "4": "QuinnValorSkin02"
+    },
+    "BuffName": "QuinnW",
+    "NotSingleTargetSpell": false,
+    "OnPreDamagePriority": 3.0,
+    "DoesntBreakShields": true,
+    "AutoBuffActivateEvent": "DeathsCaress_buf.troy",
+    "DoOnPreDamageInExpirationOrder": true,
+    "DoesntTriggerSpellCasts": false,
+    "IsDamagingSpell": true
+}

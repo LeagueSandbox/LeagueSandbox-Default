@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_GalioRunicSkin"
+            "DynamicTooltip": "<titleLeft>Runic Skin</titleLeft><mainText>Galio converts 50% of his Magic Resist into Ability Power.<br><br>Bonus Ability Power: <font color='#99FF99'>@f1@</font></mainText>"
         }
     }
 }

@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "JinxCatchMeEnemy",
+        "Name": "JinxCatchMeEnemy",
+        "ResourcePath": "DATA/Characters/Jinx/Spells/JinxCatchMeEnemy.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Catch me if you can!</titleLeft><mainText>Jinx is causing chaos again. How obnoxious...<br><br>Criminals Apprehended: <font color='#FFFFFF'>@f1@</font></mainText>"
+        }
+    }
+}

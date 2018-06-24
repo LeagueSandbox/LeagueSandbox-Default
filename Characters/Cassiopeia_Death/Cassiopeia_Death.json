@@ -1,0 +1,104 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "Cassiopeia_Death",
+        "Name": "Cassiopeia",
+        "ResourcePath": "DATA/Characters/Cassiopeia_Death/Cassiopeia_Death.inibin"
+    },
+    "Values": {
+        "Data": {
+            "AcquisitionRange": 550,
+            "Armor": 18.22,
+            "ArmorMaterial": "Flesh",
+            "ArmorPerLevel": 4,
+            "AttackDelayCastOffsetPercent": -0.108,
+            "AttackDelayOffsetPercent": -0.034,
+            "AttackRange": 550,
+            "AttackSpeedPerLevel": 1.68,
+            "BaseAttack_Probability": 0.6,
+            "BaseCritChance": 0,
+            "BaseDamage": 50.376,
+            "BaseDodge": 0,
+            "BaseFactorHPRegen": 0,
+            "BaseFactorMPRegen": 0,
+            "BaseHP": 506.0,
+            "BaseMP": 334.0,
+            "BaseStaticHPRegen": 1.138,
+            "BaseStaticMPRegen": 1.1048,
+            "championId": 69,
+            "CritAttack": "CassiopeiaCritAttack",
+            "CritAttack_AttackDelayCastOffsetPercent": -0.108,
+            "CritAttack_AttackDelayOffsetPercent": -0.034,
+            "CritDamageBonus": 2,
+            "CritPerLevel": 0,
+            "DamagePerLevel": 3.2,
+            "Description": "the Serpent's Embrace",
+            "ExtraAttack1": "CassiopeiaBasicAttack2",
+            "ExtraAttack1_Probability": 0.4,
+            "HPPerLevel": 75,
+            "HPRegenPerLevel": 0.1,
+            "IsMelee": false,
+            "LevelDodge": 0,
+            "Lore1": "Cassiopeia is a terrifying creature - half woman, half snake - whose slightest glance brings death. The youngest daughter of one of Noxus' most influential families, she was once a beautiful and cunning temptress capable of manipulating the hardest heart. Transformed by the venom of an ancient Shuriman tomb guardian, she continues to serve Noxian interests as she always has, just in a more... visceral way.",
+            "MoveSpeed": 335,
+            "MPPerLevel": 50,
+            "MPRegenPerLevel": 0.11,
+            "Name": "Cassiopeia",
+            "Passive1Icon": "Cassiopeia_DeadlyCadence.dds",
+            "Passive1LuaName": "CassiopeiaDeadlyCadence",
+            "Passive1Name": "Aspect of the Serpent",
+            "PassLev1Desc1": "Cassiopeia gains stacks of Aspect of the Serpent for poisoning enemy champions and killing poisoned units. She then gets bonuses based on the number of these stacks.",
+            "PathfindingCollisionRadius": 40.8,
+            "PlatformEnabled": false,
+            "SelectionHeight": 120.0,
+            "SelectionRadius": 120.0,
+            "Spell1": "CassiopeiaNoxiousBlast",
+            "Spell2": "CassiopeiaMiasma",
+            "Spell3": "CassiopeiaTwinFang",
+            "Spell4": "CassiopeiaPetrifyingGaze",
+            "SpellBlock": 30.0,
+            "SpellBlockPerLevel": 0,
+            "Tips1": "<ul><li>Use Twin Fang on poisoned stationary targets like monsters and units stunned by her Petrifying Gaze for maximum damage.<li>Lead your enemy when targeting with Noxious Blast to ensure the hit.</ul>",
+            "Tips2": "<ul><li>Be wary of Cassiopeia's damage potential with Twin Fang when she has you poisoned.<li>Turn away from Cassiopeia when she is casting Petrifying Gaze to get slowed instead of stunned.</ul>",
+            "UnitTags": "Champion"
+        },
+        "HealthBar": {
+            "ParallaxOffset": 0,
+            "XOffset": 0,
+            "YOffset": -0.4
+        },
+        "IdleParticles": {
+            "NumberOfParticles": 0
+        },
+        "Info": {
+            "IconCircle": "Cassiopeia_Circle_0.dds",
+            "IconSquare": "Cassiopeia_Square_0.dds"
+        },
+        "Package": {
+            "FallbackPackage": "Cassiopeia"
+        },
+        "RecItems": {
+            "RecItem1": 1056,
+            "RecItem2": 3020,
+            "RecItem3": 3136,
+            "RecItem4": 3116,
+            "RecItem5": 3027,
+            "RecItem6": 3089
+        },
+        "UNKNOWN_HASHES": {
+            "1040761625": 9,
+            "105898023": 10,
+            "11266465": "Glacial Storm",
+            "1639648700": "Anivia shoots a freezing bolt that deals double damage to anyone chilled.",
+            "2779212989": "Anivia calls forth a gale of snow and ice that damages and chills units in a large area.  The storm may be called forth and cancelled at will.",
+            "2786390348": 5,
+            "3646501220": "Flash Frost",
+            "3655487418": "Anivia fires a shard of ice that chills anyone it touches.  She may then explode the shard to do additional damage and stun.",
+            "3866412067": "Crystalize",
+            "4086322914": "Frostbite",
+            "4146314945": "mage,support,slow,ranged,nuke,stun",
+            "500084411": "Anivia summons a wall of ice that blocks all movement for 5 seconds.",
+            "767627316": 2
+        }
+    }
+}

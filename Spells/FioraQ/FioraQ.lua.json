@@ -1,0 +1,23 @@
+{
+    "BuffName": "FioraQDebuff",
+    "DoesntBreakShields": true,
+    "IsDamagingSpell": true,
+    "ChainMissileParameters": {
+        "CanHitCaster": 0.0,
+        "CanHitFriends": 0.0,
+        "CanHitSameTargetConsecutively": 0.0,
+        "MaximumHits": {
+            "1": 10.0,
+            "2": 10.0,
+            "3": 10.0,
+            "4": 10.0,
+            "5": 10.0
+        },
+        "CanHitEnemies": 1.0,
+        "CanHitSameTarget": 0.0
+    },
+    "BuffTextureName": "Fiora_Lunge.dds",
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "CastingBreaksStealth": true
+}

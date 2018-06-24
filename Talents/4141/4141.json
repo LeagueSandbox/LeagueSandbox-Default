@@ -1,17 +1,17 @@
 {
     "MetaData": {
         "ContentFormatVersion": 4,
-        "Id": "4141",
-        "Name": "4141",
+        "Id": 4141,
+        "Name": "Blade Weaving",
         "ResourcePath": "DATA/Talents/4141.inibin"
     },
     "Values": {
         "SpellData": {
             "InventoryIcon": "562.dds",
-            "Level1Desc": "game_mastery_level1desc_4141",
-            "Level2Desc": "game_mastery_level2desc_4141",
-            "Level3Desc": "game_mastery_level3desc_4141",
-            "Name": "game_mastery_displayname_4141",
+            "Level1Desc": "Damaging an enemy champion with a spell increases Basic Attack Damage by 1%, stacking up to 3 times (max 3% damage increase)",
+            "Level2Desc": "",
+            "Level3Desc": "",
+            "Name": "Blade Weaving",
             "Ranks": 1
         }
     }

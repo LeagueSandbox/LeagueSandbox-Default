@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_EvelynnWPassive"
+            "DynamicTooltip": "<titleLeft>Frenzy</titleLeft><mainText>Evelynn is increasing her Movement Speed in combat.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

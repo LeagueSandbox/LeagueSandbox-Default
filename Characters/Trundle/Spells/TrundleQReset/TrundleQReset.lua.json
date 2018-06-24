@@ -1,0 +1,10 @@
+{
+    "BuffName": "TrundleQ",
+    "DoesntBreakShields": false,
+    "IsDamagingSpell": true,
+    "TriggersSpellCasts": true,
+    "BuffTextureName": "Trundle_Q.dds",
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": true,
+    "CastingBreaksStealth": true
+}

@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_OrianaDissonanceAlly"
+            "DynamicTooltip": "<titleLeft>Static Push</titleLeft><mainText>This unit's Movement Speed is increased.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

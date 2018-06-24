@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_JarvanIVMartialCadence"
+            "DynamicTooltip": "<titleLeft>Martial Cadence</titleLeft><mainText>The first basic attack on an enemy deals 10% of their current Health as bonus physical damage (max: 400 damage). This effect cannot occur again on the same enemy for @f1@ seconds.</mainText>"
         }
     }
 }

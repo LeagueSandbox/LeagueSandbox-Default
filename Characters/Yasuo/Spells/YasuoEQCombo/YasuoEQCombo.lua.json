@@ -1,0 +1,12 @@
+{
+    "IsDeathRecapSource": true,
+    "SpellFXOverrideSkins": {
+        "1": "YasuoSkin02"
+    },
+    "IsDamagingSpell": true,
+    "SpellToggleSlot": 1.0,
+    "BuffName": "RenekthonCleaveReady",
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "BuffTextureName": "AkaliCrescentSlash.dds"
+}

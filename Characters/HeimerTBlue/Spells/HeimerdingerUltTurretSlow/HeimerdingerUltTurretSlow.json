@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "HeimerdingerUltTurretSlow",
+        "Name": "HeimerdingerUltTurretSlow",
+        "ResourcePath": "DATA/Characters/HeimerTBlue/Spells/HeimerdingerUltTurretSlow.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>H-28Q Apex Turret</titleLeft><mainText>This unit has been slowed by the massive impact of an H-28Q Apex Turret.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

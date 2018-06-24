@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "JayceStanceHammer",
+        "Name": "JayceStanceHammer",
+        "ResourcePath": "DATA/Characters/Jayce/Spells/JayceStanceHammer.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Mercury Hammer</titleLeft><mainText>Jayce is wielding the Mercury Hammer and is melee.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

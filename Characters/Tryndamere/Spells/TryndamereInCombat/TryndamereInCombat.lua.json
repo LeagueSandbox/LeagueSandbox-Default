@@ -1,0 +1,5 @@
+{
+    "NonDispellable": true,
+    "PersistsThroughDeath": true,
+    "BuffName": "TryndamereInCombat"
+}

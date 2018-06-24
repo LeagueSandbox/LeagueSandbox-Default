@@ -1,0 +1,14 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "InfernalGuardianTimer",
+        "Name": "InfernalGuardianTimer",
+        "ResourcePath": "DATA/Characters/Annie/Spells/InfernalGuardianTimer.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Command: Tibbers</titleLeft><mainText>Tibbers is summoned to do Annie's bidding for 45 seconds.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
+            "ShowInTrackerUI": 1
+        }
+    }
+}

@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_NautilusPassive"
+            "DynamicTooltip": "<titleLeft>Staggering Blow</titleLeft><mainText>Nautilus' basic attacks deal @f1@ bonus physical damage and immobilize his target for @f2@ seconds.<br><br>This effect cannot trigger on the same target more than once every @f3@ seconds.</mainText>"
         }
     }
 }

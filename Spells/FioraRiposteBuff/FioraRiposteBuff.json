@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_FioraRiposteBuff"
+            "DynamicTooltip": "<titleLeft>Riposte: Attack Damage</titleLeft><mainText>Fiora's Attack Damage is permanently increased.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

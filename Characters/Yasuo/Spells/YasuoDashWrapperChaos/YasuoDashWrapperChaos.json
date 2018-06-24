@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "YasuoDashWrapperChaos",
+        "Name": "YasuoDashWrapperChaos",
+        "ResourcePath": "DATA/Characters/Yasuo/Spells/YasuoDashWrapperChaos.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Sweeping Blade</titleLeft><mainText>This unit is immune to Yasuo's Sweeping Blade for a short time.</mainText>"
+        }
+    }
+}

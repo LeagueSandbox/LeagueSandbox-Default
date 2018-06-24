@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "TwitchAmbushBuff",
+        "Name": "TwitchAmbushBuff",
+        "ResourcePath": "DATA/Characters/Twitch/Spells/TwitchAmbushBuff.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Ambush Attack</titleLeft><mainText>Twitch's Attack Speed is increased.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

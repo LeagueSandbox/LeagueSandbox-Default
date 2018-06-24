@@ -1,0 +1,13 @@
+{
+    "PersistsThroughDeath": true,
+    "IsDamagingSpell": false,
+    "CastingBreaksStealth": true,
+    "BuffTextureName": "ZiggsE.dds",
+    "DoesntBreakShields": true,
+    "SpellFXOverrideSkins": {
+        "1": "ZiggsSnowday"
+    },
+    "IsDeathRecapSource": true,
+    "DoesntTriggerSpellCasts": false,
+    "NotSingleTargetSpell": true
+}

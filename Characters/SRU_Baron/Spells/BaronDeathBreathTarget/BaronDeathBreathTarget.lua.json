@@ -1,0 +1,12 @@
+{
+    "BuffName": "ShadowMark",
+    "TriggersSpellCasts": true,
+    "AutoBuffActivateEffect": "",
+    "CastingBreaksStealth": true,
+    "BuffTextureName": "Evelynn_ReadyToBetray.dds",
+    "AutoBuffActivateAttachBoneName": "",
+    "DoesntBreakShields": true,
+    "IsDamagingSpell": true,
+    "DoesntTriggerSpellCasts": true,
+    "NotSingleTargetSpell": true
+}

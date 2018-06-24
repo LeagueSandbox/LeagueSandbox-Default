@@ -1,0 +1,10 @@
+{
+    "SpellToggleSlot": 3.0,
+    "PersistsThroughDeath": true,
+    "IsDamagingSpell": false,
+    "TriggersSpellCasts": true,
+    "NonDispellable": true,
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "BuffName": "Archer's Mark"
+}

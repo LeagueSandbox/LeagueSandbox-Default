@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "AhriSeduceDoom",
+        "Name": "AhriSeduceDoom",
+        "ResourcePath": "DATA/Characters/Ahri/Spells/AhriSeduceDoom.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Doomed!</titleLeft><mainText>This unit takes 20% more magic damage from Ahri.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

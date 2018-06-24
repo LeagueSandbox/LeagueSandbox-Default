@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "IsPirateHunter",
+        "Name": "IsPirateHunter",
+        "ResourcePath": "DATA/Characters/MissFortune/Spells/IsPirateHunter.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Pirate Hunter</titleLeft><mainText>Yarr! I'm a mighty Pirate... hunter!</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

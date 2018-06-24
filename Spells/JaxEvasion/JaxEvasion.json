@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_JaxEvasion",
+            "DynamicTooltip": "<titleLeft>Evasion</titleLeft><mainText>Jax is dodging all incoming attacks and takes reduced damage from area of affect abilities.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
             "ShowInTrackerUI": 1
         }
     }

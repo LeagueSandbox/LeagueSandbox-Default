@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Toxic_Attack"
+            "DynamicTooltip": "<titleLeft>Toxic Attack</titleLeft><mainText>Teemo's attacks poison the target, causing them to take damage over time.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

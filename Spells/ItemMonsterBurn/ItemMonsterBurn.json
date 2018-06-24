@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_ItemMonsterBurn"
+            "DynamicTooltip": "<titleLeft>Burning</titleLeft><mainText>Suffering magic damage every second.</mainText>"
         }
     }
 }

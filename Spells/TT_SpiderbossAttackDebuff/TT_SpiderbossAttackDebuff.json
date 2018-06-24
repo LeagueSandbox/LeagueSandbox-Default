@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_TTSpiderbossAttackDebuff"
+            "DynamicTooltip": "<titleLeft>Corrosion</titleLeft><mainText>This unit has its armor and magic resistance reduced with each strike from Vilemaw.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

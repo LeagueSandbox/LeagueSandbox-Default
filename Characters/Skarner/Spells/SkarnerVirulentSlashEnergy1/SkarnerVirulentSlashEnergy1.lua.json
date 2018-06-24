@@ -1,0 +1,8 @@
+{
+    "AutoBuffActivateAttachBoneName": "L_crystals",
+    "AutoBuffActivateEffect2": "Skarner_Base_Q_Buf.troy",
+    "AutoBuffActivateEffect": "Skarner_Base_Q_Buf.troy",
+    "AutoBuffActivateEffect3": "Skarner_Base_Q_Buf.troy",
+    "AutoBuffActivateAttachBoneName2": "R_crystals",
+    "AutoBuffActivateAttachBoneName3": "tail_t"
+}

@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "Detonating Shot",
+        "Name": "Detonating Shot",
+        "ResourcePath": "DATA/Characters/Tristana/Spells/Detonating Shot.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Explosive Shot</titleLeft><mainText>Tristana's victims explode on death, damaging nearby enemies.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "RumbleOverheat",
+        "Name": "RumbleOverheat",
+        "ResourcePath": "DATA/Characters/Rumble/Spells/RumbleOverheat.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Overheat!</titleLeft><mainText>Rumble is Overheating, gaining bonus magic damage on attacks but is silenced.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
+            "ShowInTrackerUI": 1
+        }
+    }
+}

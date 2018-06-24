@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "RenektonSliceAndDiceShred",
+        "Name": "RenektonSliceAndDiceShred",
+        "ResourcePath": "DATA/Characters/Renekton/Spells/RenektonSliceAndDiceShred.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Armor Reduction</titleLeft><mainText>This unit's Armor has been reduced by an empowered Slice and Dice.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

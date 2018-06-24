@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_FioraQCD",
+            "DynamicTooltip": "<titleLeft>Lunge: Ready</titleLeft><mainText>Fiora can Lunge a second time.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
             "ShowInTrackerUI": 1
         }
     }

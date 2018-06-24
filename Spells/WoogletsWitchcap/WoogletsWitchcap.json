@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Wooglets_Witchcap"
+            "DynamicTooltip": "<titleLeft>Wooglet's Witchcap</titleLeft><mainText>This unit is in stasis.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

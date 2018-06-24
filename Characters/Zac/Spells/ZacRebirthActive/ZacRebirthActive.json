@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "ZacRebirthActive",
+        "Name": "ZacRebirthActive",
+        "ResourcePath": "DATA/Characters/Zac/Spells/ZacRebirthActive.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Cell Division</titleLeft><mainText>Zac's bloblets are attempting to recombine, and he will revive if they survive.</mainText>"
+        }
+    }
+}

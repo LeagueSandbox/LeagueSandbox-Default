@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "KhazixHuntDefeatK",
+        "Name": "KhazixHuntDefeatK",
+        "ResourcePath": "DATA/Characters/Khazix/Spells/KhazixHuntDefeatK.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Defeat!</titleLeft><mainText><font color='#FDD017' >''Rengar has slain his otherworldly nemesis Kha'Zix, proving to the world that he is the ultimate hunter.''</font></mainText>"
+        }
+    }
+}

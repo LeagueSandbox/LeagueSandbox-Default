@@ -1,0 +1,21 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "DianaPassiveDeathRecap",
+        "Name": "Moonsilver Blade",
+        "ResourcePath": "DATA/Characters/Diana/Spells/DianaPassiveDeathRecap.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Moonsilver Blade</titleLeft><mainText>Gains @f3@% increased Attack Speed. Every third strike cleaves nearby enemies for an additional @f1@ <font color='#99FF99'>(+@f2@)</font> magic damage.</mainText>"
+        },
+        "SpellData": {
+            "Description": "game_spell_description_DianaPassive",
+            "DisplayName": "Moonsilver Blade",
+            "DynamicExtended": "game_spell_levelup_DianaPassive",
+            "DynamicTooltip": "<titleLeft>Moonsilver Blade</titleLeft><mainText>Gains increased Attack Speed. Every third strike cleaves nearby enemies for an additional magic damage.</mainText>",
+            "InventoryIcon": "Diana_Passive_LunarBlade.dds",
+            "Version": 1
+        }
+    }
+}

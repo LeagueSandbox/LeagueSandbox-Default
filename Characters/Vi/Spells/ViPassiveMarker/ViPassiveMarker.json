@@ -1,0 +1,16 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "ViPassiveMarker",
+        "Name": "ViPassiveMarker",
+        "ResourcePath": "DATA/Characters/Vi/Spells/ViPassiveMarker.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Blast Shield</titleLeft><mainText>Activated abilities grant a shield equal to 10% of Vi's max Health for 3 seconds when they hit an enemy (<font color='#FFFFFF'>@f3@</font> second cooldown).<br><br>Shield Strength: <font color='#FF3300'>@f2@</font></mainText>"
+        },
+        "SpellData": {
+            "FloatVarsDecimals1": 0
+        }
+    }
+}

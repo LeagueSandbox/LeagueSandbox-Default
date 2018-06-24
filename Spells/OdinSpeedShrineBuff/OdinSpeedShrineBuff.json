@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_OdinSpeedShrineBuff"
+            "DynamicTooltip": "<titleLeft>Speed Shrine</titleLeft><mainText>This unit has 30% increased Movement Speed. This bonus fades over time.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

@@ -1,0 +1,21 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "NidaleeCougarScent",
+        "Name": "Being Tracked",
+        "ResourcePath": "DATA/Characters/Nidalee/Spells/NidaleeCougarScent.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Being Tracked</titleLeft><mainText>Nidalee retains vision of all enemies she is <font color='#FFF673'>Hunting</font>.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        },
+        "SpellData": {
+            "Description": "game_spell_description_NidaleeCougarScent",
+            "DisplayName": "Being Tracked",
+            "DynamicExtended": "game_spell_levelup_NidaleeCougarScent",
+            "DynamicTooltip": "game_spell_tooltip_NidaleeCougarScent",
+            "InventoryIcon": "Nidalee_OnTheProwl.dds",
+            "Version": 1
+        }
+    }
+}

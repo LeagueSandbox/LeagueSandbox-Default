@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_ItemSmitePlayerStack"
+            "DynamicTooltip": "<titleLeft>Devastating Smite</titleLeft><mainText>This unit's Smite spell deals bonus damage when targeting a Champion from killing large monsters.<br><br>Damage to Champions: <font color='#FFFFFF'>@f1@</font></mainText>"
         }
     }
 }

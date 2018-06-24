@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_YorickOmenRevenant"
+            "DynamicTooltip": "<titleLeft>Revenant</titleLeft><mainText>Yorick has created an image of an ally. If that ally dies while this Revenant is alive, the Revenant will sacrifice itself to reanimate them.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

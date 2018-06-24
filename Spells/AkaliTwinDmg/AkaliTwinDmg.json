@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_AkaliTwinDmg"
+            "DynamicTooltip": "<titleLeft>Discipline of Might</titleLeft><mainText>Akali's abilities heal her for @f1@% of the damage dealt.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

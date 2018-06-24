@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Resistant_Skin"
+            "DynamicTooltip": "<titleLeft>Resistant Skin</titleLeft><mainText>Baron Nashor is immune to debuffs, and his Health increases every minute.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

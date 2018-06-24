@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "LucianWBuff",
+        "Name": "LucianWBuff",
+        "ResourcePath": "DATA/Characters/Lucian/Spells/LucianWBuff.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Ardent Blaze</titleLeft><mainText>Lucian has increased Movement Speed.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "DravenPassiveStacks",
+        "Name": "DravenPassiveStacks",
+        "ResourcePath": "DATA/Characters/Draven/Spells/DravenPassiveStacks.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Adoration</titleLeft><mainText>Welcome to the League of Draven!</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

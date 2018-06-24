@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_ItemHornCounter"
+            "DynamicTooltip": "<titleLeft>Guardian's Horn</titleLeft><mainText>The Guardian's Horn will be ready after @f1@ enemy spell casts!</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

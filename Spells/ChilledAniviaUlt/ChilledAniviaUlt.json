@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Chilled"
+            "DynamicTooltip": "<titleLeft>Chilled</titleLeft><mainText>This unit has reduced Movement Speed and Attack Speed.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

@@ -1,0 +1,10 @@
+{
+    "BuffTextureName": "VeigarEntropy.dds",
+    "PersistsThroughDeath": true,
+    "IsDamagingSpell": false,
+    "BuffName": "VeigarEquilibrium",
+    "NonDispellable": true,
+    "CastingBreaksStealth": false,
+    "DoesntTriggerSpellCasts": true,
+    "NotSingleTargetSpell": true
+}

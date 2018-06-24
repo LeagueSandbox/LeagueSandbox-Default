@@ -1,0 +1,10 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "SingedSkin06"
+    },
+    "BuffName": "Poison Trail",
+    "SpellToggleSlot": 1.0,
+    "NotSingleTargetSpell": true,
+    "BuffTextureName": "Singed_Q.dds",
+    "DoesntTriggerSpellCasts": true
+}

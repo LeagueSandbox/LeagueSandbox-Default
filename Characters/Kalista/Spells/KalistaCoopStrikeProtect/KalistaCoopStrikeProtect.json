@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "KalistaCoopStrikeProtect",
+        "Name": "KalistaCoopStrikeProtect",
+        "ResourcePath": "DATA/Characters/Kalista/Spells/KalistaCoopStrikeProtect.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Oathsworn</titleLeft><mainText>This unit has been struck down and is protected for 8 seconds.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

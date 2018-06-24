@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "SonaEZone",
+        "Name": "SonaEZone",
+        "ResourcePath": "DATA/Characters/Sona/Spells/SonaEZone.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Song of Celerity</titleLeft><mainText>Sona's zone grants bonus Movement Speed to her allies.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

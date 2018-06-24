@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "CannonBarrageSlow",
+        "Name": "CannonBarrageSlow",
+        "ResourcePath": "DATA/Characters/Gangplank/Spells/CannonBarrageSlow.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Cannon Barrage</titleLeft><mainText>This unit is slowed while inside the Cannon Barrage area.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

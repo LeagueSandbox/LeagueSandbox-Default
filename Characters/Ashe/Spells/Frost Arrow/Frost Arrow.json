@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "Frost Arrow",
+        "Name": "Frost Arrow",
+        "ResourcePath": "DATA/Characters/Ashe/Spells/Frost Arrow.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Frost Shot</titleLeft><mainText>This unit is slowed.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

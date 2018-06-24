@@ -1,0 +1,10 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "JinxSkin01"
+    },
+    "IsDamagingSpell": true,
+    "BuffName": "Dark Binding",
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": true,
+    "BuffTextureName": "FallenAngel_DarkBinding.dds"
+}

@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "AzirQSlow",
+        "Name": "AzirQSlow",
+        "ResourcePath": "DATA/Characters/Azir/Spells/AzirQSlow.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Conquering Sands</titleLeft><mainText>This unit has been slowed by Azir's Conquering Sands.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

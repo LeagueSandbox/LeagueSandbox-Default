@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_SyndraPassive"
+            "DynamicTooltip": "<titleLeft>Transcendent</titleLeft><mainText>Spells gain extra effects at max rank.<br><br><font color='#FF9900'>Dark Sphere:</font> Deals 15% bonus damage to Champions.<br><font color='#FF9900'>Force of Will:</font> Increases the slowing duration by 33%.<br><font color='#FF9900'>Scatter the Weak:</font> Spell width increased by 50%.<br><font color='#FF9900'>Unleashed Power:</font> Range increased by 75.</mainText>"
         }
     }
 }

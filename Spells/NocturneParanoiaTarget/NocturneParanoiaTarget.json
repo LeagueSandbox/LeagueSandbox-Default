@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_NocturneParanoiaTarget"
+            "DynamicTooltip": "<titleLeft>Paranoia</titleLeft><mainText>This unit has reduced sight radius and cannot see their allies.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

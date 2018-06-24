@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "CrestoftheAncientGolem",
+        "Name": "CrestoftheAncientGolem",
+        "ResourcePath": "DATA/Shared/Spells/CrestoftheAncientGolem.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Crest of Insight</titleLeft><mainText>This unit grants nearby allies increased Mana and Energy Regeneration and @f1@% Cooldown Reduction. If slain, this buff transfers to the killer.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

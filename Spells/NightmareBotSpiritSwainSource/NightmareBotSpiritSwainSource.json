@@ -2,15 +2,15 @@
     "MetaData": {
         "ContentFormatVersion": 4,
         "Id": "NightmareBotSpiritSwainSource",
-        "Name": "NightmareBotSpiritSwainSource",
+        "Name": "Bonus Doom: Ravenous Flock",
         "ResourcePath": "DATA/Spells/NightmareBotSpiritSwainSource.inibin"
     },
     "Values": {
         "SpellData": {
             "AlternateName": "NightmareBotSpiritSwainSource",
-            "CastType": "0",
-            "Description": "game_spell_description_NightmareBotSpiritSwain",
-            "DisplayName": "game_spell_displayname_NightmareBotSpiritSwain",
+            "CastType": 0,
+            "Description": "Ravens circle this champion and strike out at nearby enemies dealing magic damage. This champion is healed for a portion of the damage dealt to champions and minions.",
+            "DisplayName": "Bonus Doom: Ravenous Flock",
             "Flags": 329748,
             "InventoryIcon": "SwainRavenousFlock.dds",
             "TargettingType": 4,

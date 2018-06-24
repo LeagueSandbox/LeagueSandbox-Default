@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "KogMawIcathianSurpriseSound",
+        "Name": "KogMawIcathianSurpriseSound",
+        "ResourcePath": "DATA/Characters/KogMaw/Spells/KogMawIcathianSurpriseSound.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Icathian Surprise: RUN!!!</titleLeft><mainText>RUN AWAY!!!!!!!!!!!!</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

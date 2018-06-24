@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_MordekaiserCOTGDot"
+            "DynamicTooltip": "<titleLeft>Children of the Grave</titleLeft><mainText>This unit is taking damage each second, and Mordekaiser is healed for the amount of damage dealt.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

@@ -1,0 +1,31 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "TT_OrderInhibitor_D",
+        "Name": "Destroyed Blue Inhibitor",
+        "ResourcePath": "DATA/Characters/TT_OrderInhibitor_D/TT_OrderInhibitor_D.inibin"
+    },
+    "Values": {
+        "Data": {
+            "ArmorMaterial": "Stone",
+            "Name": "Destroyed Blue Inhibitor"
+        },
+        "IdleParticles": {
+            "NumberOfParticles": 1,
+            "Particle1": "Dest_Order_Inhibitor_idle.troy root"
+        },
+        "Info": {
+            "IconCircle": "OrderLaneTower_Icon_C.dds",
+            "IconSquare": "Inhibitor_square_blue.dds"
+        },
+        "MeshSkin": {
+            "Animations": "TT_OrderInhibitor_DBase.blnd",
+            "ChampionSkinName": "TT_OrderInhibitor_DBase",
+            "SelfIllumination": 0.5,
+            "SimpleSkin": "Inhibitor.skn",
+            "Skeleton": "Inhibitor.skl",
+            "SkinScale": 1,
+            "Texture": "OrderInhibitor_D.dds"
+        }
+    }
+}

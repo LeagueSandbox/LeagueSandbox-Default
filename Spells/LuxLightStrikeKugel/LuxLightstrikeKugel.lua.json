@@ -1,0 +1,8 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "SteelLegionLux"
+    },
+    "PersistsThroughDeath": true,
+    "BuffName": "LuxEEnd",
+    "BuffTextureName": "LuxLightStrikeKugel.dds"
+}

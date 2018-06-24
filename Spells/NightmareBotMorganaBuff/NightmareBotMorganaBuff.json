@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_NightmareBotMorganaBuff"
+            "DynamicTooltip": "<titleLeft>Doom Morgana</titleLeft><mainText>Doom Morgana’s Dark Binding has fragmented and also added to her Tormented Soil.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

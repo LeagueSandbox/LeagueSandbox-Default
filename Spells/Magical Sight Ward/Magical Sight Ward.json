@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Magical_Sight_Ward"
+            "DynamicTooltip": "<titleLeft>Magical Sight</titleLeft><mainText>This ward is revealing the nearby area and can see invisible units.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_ItemBTOverhealDecay"
+            "DynamicTooltip": "<titleLeft>Bloodthirster Hungers</titleLeft><mainText>Bloodthirster is hungry for more death and destruction. The shield is rapidly fading as the hunger grows.</font></mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

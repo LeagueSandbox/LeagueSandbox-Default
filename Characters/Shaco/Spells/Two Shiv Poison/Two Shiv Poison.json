@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "Two Shiv Poison",
+        "Name": "Two Shiv Poison",
+        "ResourcePath": "DATA/Characters/Shaco/Spells/Two Shiv Poison.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Two-Shiv Poison</titleLeft><mainText>This unit's Movement Speed is reduced. If this unit is a minion or monster, it has a chance to miss its attacks. </mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

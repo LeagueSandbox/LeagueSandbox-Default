@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "Focus",
+        "Name": "Focus",
+        "ResourcePath": "DATA/Characters/Ashe/Spells/Focus.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Focus</titleLeft><mainText>If Ashe has not attacked for 3 seconds, she starts gaining @f1@ stacks of Focus every second. At 100 stacks Ashe's next attack will critically strike.<br><br>Initial Focus stacks are equal to Ashe's Critical Strike Chance.</mainText>"
+        }
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "PersistsThroughDeath": true,
+    "BuffName": "ThreshPassiveSoulsGain",
+    "IsDeathRecapSource": true,
+    "DoesntTriggerSpellCasts": true,
+    "BuffTextureName": "Thresh_Passive.dds"
+}

@@ -1,0 +1,9 @@
+{
+    "DoesntBreakShields": false,
+    "IsDamagingSpell": false,
+    "BuffName": "HeimerdingerQ",
+    "BuffTextureName": "Jester_DeathWard.dds",
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "CastingBreaksStealth": true
+}

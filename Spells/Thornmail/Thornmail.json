@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Thornmail"
+            "DynamicTooltip": "<titleLeft>Thornmail</titleLeft><mainText>On being hit, returns 20% of damage taken (20 damage minimum).</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

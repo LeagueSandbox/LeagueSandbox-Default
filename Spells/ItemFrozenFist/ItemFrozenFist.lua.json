@@ -1,0 +1,8 @@
+{
+    "AutoBuffActivateAttachBoneName": "L_Buffbone_Glb_Hand_Loc",
+    "BuffName": "ItemFrozenFist",
+    "AutoBuffActivateEffect": "bluehands_buf.troy",
+    "AutoBuffActivateAttachBoneName2": "R_Buffbone_Glb_Hand_Loc",
+    "BuffTextureName": "3025_Frozen_Fist.dds",
+    "AutoBuffActivateEffect2": "bluehands_buf.troy"
+}

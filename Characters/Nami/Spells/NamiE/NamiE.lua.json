@@ -1,0 +1,7 @@
+{
+    "BuffName": "NamiEtt",
+    "IsDeathRecapSource": true,
+    "NotSingleTargetSpell": false,
+    "BuffTextureName": "NamiE.dds",
+    "DoesntTriggerSpellCasts": false
+}

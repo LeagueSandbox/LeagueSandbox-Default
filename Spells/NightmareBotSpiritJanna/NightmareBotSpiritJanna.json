@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_NightmareBotSpiritJana"
+            "DynamicTooltip": "<titleLeft>Bonus Doom: Howling Gale</titleLeft><mainText>This champion summons whirlwinds nearby that briefly knock enemy champions airborne and disappear after a short time.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

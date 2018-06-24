@@ -1,17 +1,17 @@
 {
     "MetaData": {
         "ContentFormatVersion": 4,
-        "Id": "4132",
-        "Name": "4132",
+        "Id": 4132,
+        "Name": "Martial Mastery",
         "ResourcePath": "DATA/Talents/4132.inibin"
     },
     "Values": {
         "SpellData": {
             "InventoryIcon": "522.dds",
-            "Level1Desc": "game_mastery_level1desc_4132",
-            "Level2Desc": "game_mastery_level2desc_4132",
-            "Level3Desc": "game_mastery_level3desc_4132",
-            "Name": "game_mastery_displayname_4132",
+            "Level1Desc": "+4 Attack Damage",
+            "Level2Desc": "",
+            "Level3Desc": "",
+            "Name": "Martial Mastery",
             "Ranks": 1
         }
     }

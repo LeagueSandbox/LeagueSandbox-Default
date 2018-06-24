@@ -1,0 +1,9 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "ZombieBrand"
+    },
+    "DoesntBreakShields": true,
+    "SpellFXOverrideSkins": {
+        "1": "ZombieBrand"
+    }
+}

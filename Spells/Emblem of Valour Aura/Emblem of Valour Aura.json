@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Emblem_of_Valour_Aura"
+            "DynamicTooltip": "<titleLeft>Valor Aura - Emblem</titleLeft><mainText>Nearby allies regenerate Health faster.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

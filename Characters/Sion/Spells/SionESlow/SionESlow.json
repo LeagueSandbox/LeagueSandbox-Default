@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "SionESlow",
+        "Name": "SionESlow",
+        "ResourcePath": "DATA/Characters/Sion/Spells/SionESlow.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Roar of the Slayer</titleLeft><mainText>This unit has reduced Movement Speed.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

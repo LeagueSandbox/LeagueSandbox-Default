@@ -1,0 +1,14 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "RengarPassiveBuff",
+        "Name": "RengarPassiveBuff",
+        "ResourcePath": "DATA/Characters/Rengar/Spells/RengarPassiveBuff.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Unseen Predator</titleLeft><mainText>Rengar will leap to the target when using his next basic attack.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
+            "ShowInTrackerUI": 1
+        }
+    }
+}

@@ -1,15 +1,15 @@
 {
     "MetaData": {
         "ContentFormatVersion": 4,
-        "Id": "4323",
-        "Name": "4323",
+        "Id": 4323,
+        "Name": "Strength of Spirit",
         "ResourcePath": "DATA/Talents/4323.inibin"
     },
     "Values": {
         "SpellData": {
             "InventoryIcon": "743.dds",
-            "Level1Desc": "game_mastery_level1desc_4323",
-            "Name": "game_mastery_displayname_4323",
+            "Level1Desc": "+1 Health Regen per 5 seconds for every 300 maximum Mana",
+            "Name": "Strength of Spirit",
             "Ranks": 1
         }
     }

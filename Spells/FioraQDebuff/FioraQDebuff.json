@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_FioraQDebuff"
+            "DynamicTooltip": "<titleLeft>Lunge</titleLeft><mainText>Fiora's movement speed is increased.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

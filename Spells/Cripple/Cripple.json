@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Cripple"
+            "DynamicTooltip": "<titleLeft>Cripple</titleLeft><mainText>This unit's Attack Speed is reduced.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

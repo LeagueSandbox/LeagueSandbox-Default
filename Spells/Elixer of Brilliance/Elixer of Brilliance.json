@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Elixer_of_Brilliance"
+            "DynamicTooltip": "<titleLeft>Elixir of Brilliance</titleLeft><mainText>This unit has massively increased Ability Power and Cooldown Reduction.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

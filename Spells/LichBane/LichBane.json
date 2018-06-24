@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_LichBane",
+            "DynamicTooltip": "<titleLeft>Lich Bane</titleLeft><mainText>This unit will deal bonus damage based on their ability power on its next attack.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
             "ShowInTrackerUI": 1
         }
     }

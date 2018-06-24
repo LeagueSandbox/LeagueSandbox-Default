@@ -1,0 +1,11 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "RumbleSkin03"
+    },
+    "SpellFXOverrideSkins": {
+        "1": "RumbleSkin03"
+    },
+    "IsDamagingSpell": true,
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": false
+}

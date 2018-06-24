@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "RengarERoot",
+        "Name": "RengarERoot",
+        "ResourcePath": "DATA/Characters/Rengar/Spells/RengarERoot.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Bola Root</titleLeft><mainText>This unit is rooted.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

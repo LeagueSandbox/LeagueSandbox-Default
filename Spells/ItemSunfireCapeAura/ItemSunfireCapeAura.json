@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Sunfire_Cape_Aura"
+            "DynamicTooltip": "<titleLeft>Sunfire Cape Aura</titleLeft><mainText>Taking damage from Sunfire Cape every second.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

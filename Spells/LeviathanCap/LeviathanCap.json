@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_LeviathanCap"
+            "DynamicTooltip": "<titleLeft>Leviathan Armor @Stack@</titleLeft><mainText>Increases health by @f1@.<br>At 20 stacks, damage dealt to this champion is reduced by 15%.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

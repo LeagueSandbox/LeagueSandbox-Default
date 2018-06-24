@@ -1,0 +1,13 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "RenektonSkin06"
+    },
+    "BuffName": "RenektonExecuteReady",
+    "AutoBuffActivateEffect": "Renekton_Weapon_Hot.troy",
+    "NotSingleTargetSpell": true,
+    "BuffTextureName": "Renekton_Execute.dds",
+    "AutoBuffActivateAttachBoneName": "C_BUFFBONE_GLB_HEAD_LOC",
+    "AutoBuffActivateEffect2": "Renekton_Runewars_Rage_Skin.troy",
+    "DoesntTriggerSpellCasts": false,
+    "SpellToggleSlot": 2.0
+}

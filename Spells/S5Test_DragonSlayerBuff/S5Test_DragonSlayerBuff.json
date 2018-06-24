@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_S5Test_DragonSlayerBuff"
+            "DynamicTooltip": "<titleLeft>Dragon Slayer (@Stack@)</titleLeft><mainText>Slaying the Dragon steals part of it's power. Slaying 5 or more Dragons grants Aspect of the Dragon for a short time.<br><br><font color='#FFFF55'>Dragon's Might:</font> +8% Attack Damage and Ability Power<br><font color='#FFFF55'>Dragon's Dominance:</font> +15% damage to Minions and Monsters<br><font color='#FFFF55'>Dragon's Flight:</font> +5% Movement Speed<br><font color='#FFFF55'>Dragon's Wrath:</font> +15% damage to Towers and Buildings<br><font color='#FFFF55'>Aspect of the Dragon:</font> Doubles other bonuses and your attacks burn enemies for 150 true damage over 3 seconds. Lasts 180 seconds.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

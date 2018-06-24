@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Zhonyas_Ring"
+            "DynamicTooltip": "<titleLeft>Zhonya's Hourglass</titleLeft><mainText>This unit is in stasis.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

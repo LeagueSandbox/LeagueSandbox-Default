@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "UdyrBearActivation",
+        "Name": "UdyrBearActivation",
+        "ResourcePath": "DATA/Characters/Udyr/Spells/UdyrBearActivation.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Primal Charge</titleLeft><mainText>Udyr charges forth with grizzly intent, gaining Movement Speed and ignorning unit collision.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

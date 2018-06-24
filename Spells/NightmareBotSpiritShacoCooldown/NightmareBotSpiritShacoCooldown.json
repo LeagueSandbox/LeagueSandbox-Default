@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_NightmareBotSpiritShacoCooldown"
+            "DynamicTooltip": "<titleLeft>Bonus Doom: Hallucinate</titleLeft><mainText>This champion has recently created a clone of themselves and cannot do so again for a short time.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

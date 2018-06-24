@@ -1,0 +1,6 @@
+{
+    "NonDispellable": true,
+    "PersistsThroughDeath": true,
+    "BuffName": "Consecration Self",
+    "BuffTextureName": "Soraka_Consecration.dds"
+}

@@ -1,15 +1,15 @@
 {
     "MetaData": {
         "ContentFormatVersion": 4,
-        "Id": "4343",
-        "Name": "4343",
+        "Id": 4343,
+        "Name": "Expanded Mind",
         "ResourcePath": "DATA/Talents/4343.inibin"
     },
     "Values": {
         "SpellData": {
             "InventoryIcon": "731.dds",
-            "Level1Desc": "game_mastery_level1desc_4343",
-            "Name": "game_mastery_displayname_4343",
+            "Level1Desc": "+2% increased maximum Mana",
+            "Name": "Expanded Mind",
             "Ranks": 1
         }
     }

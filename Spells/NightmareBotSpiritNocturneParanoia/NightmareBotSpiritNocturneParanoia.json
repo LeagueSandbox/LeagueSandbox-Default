@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_NightmareBotSpiritNocturneParanoia"
+            "DynamicTooltip": "<titleLeft>Bonus Doom: Paranoia</titleLeft><mainText>This unit has a reduced sight radius due to a nearby enemy Doom Bot with the Bonus Doom: Paranoia.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

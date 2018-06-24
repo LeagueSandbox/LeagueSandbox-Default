@@ -1,0 +1,11 @@
+{
+    "DoesntBreakShields": true,
+    "IsDamagingSpell": false,
+    "SpellFXOverrideSkins": {
+        "1": "AstronautTeemo"
+    },
+    "BuffName": "Noxious Trap",
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "BuffTextureName": "Bowmaster_ArchersMark.dds"
+}

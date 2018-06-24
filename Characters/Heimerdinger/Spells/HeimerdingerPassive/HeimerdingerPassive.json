@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "HeimerdingerPassive",
+        "Name": "HeimerdingerPassive",
+        "ResourcePath": "DATA/Characters/Heimerdinger/Spells/HeimerdingerPassive.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Techmaturgical Repair Bots</titleLeft><mainText>Heimerdinger gives nearby allied champions and H-28G Turrets bonus Health Regeneration. <br><br><font color='#FFFF99'>Regeneration:</font> @f1@ Health per 5 seconds.</mainText>"
+        }
+    }
+}

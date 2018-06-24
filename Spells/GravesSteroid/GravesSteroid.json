@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_GravesSteroid"
+            "DynamicTooltip": "<titleLeft>Quickdraw</titleLeft><mainText>Graves has increased Attack Speed.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

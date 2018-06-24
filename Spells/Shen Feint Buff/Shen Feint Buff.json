@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Shen_Feint_Buff"
+            "DynamicTooltip": "<titleLeft>Feint</titleLeft><mainText>Shen is absorbing damage.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

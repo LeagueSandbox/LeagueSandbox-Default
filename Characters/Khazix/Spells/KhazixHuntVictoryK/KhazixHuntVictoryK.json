@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "KhazixHuntVictoryK",
+        "Name": "KhazixHuntVictoryK",
+        "ResourcePath": "DATA/Characters/Khazix/Spells/KhazixHuntVictoryK.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Victory!</titleLeft><mainText><font color='#FDD017' >''Kha'Zix has slain his bestial nemesis Rengar, evolving into the ultimate predator.''</font></mainText>"
+        }
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "BuffName": "KitaesAphoticOrb2",
+    "IsDeathRecapSource": true,
+    "NotSingleTargetSpell": true,
+    "BuffTextureName": "3188_Blackfire_Torch.dds",
+    "DoesntTriggerSpellCasts": false
+}

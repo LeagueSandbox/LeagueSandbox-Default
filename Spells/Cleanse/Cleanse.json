@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Cleanse"
+            "DynamicTooltip": "<titleLeft>Cleanse</titleLeft><mainText>Any incoming crowd control effects on this target are reduced by 65%.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

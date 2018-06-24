@@ -1,0 +1,10 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "DariusSkin04"
+    },
+    "SpellFXOverrideSkins": {
+        "1": "DariusSkin04"
+    },
+    "BuffName": "Stun",
+    "BuffTextureName": "Darius_Icon_Axe_Grab.dds"
+}

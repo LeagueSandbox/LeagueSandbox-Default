@@ -1,0 +1,12 @@
+{
+    "PersistsThroughDeath": true,
+    "BuffName": "InfernalGuardianTimer",
+    "CastingBreaksStealth": true,
+    "BuffTextureName": "Annie_R2.dds",
+    "DoesntBreakShields": true,
+    "SpellToggleSlot": 4.0,
+    "NonDispellable": true,
+    "IsDamagingSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "NotSingleTargetSpell": true
+}

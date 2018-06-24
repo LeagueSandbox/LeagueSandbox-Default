@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Black_Cleaver"
+            "DynamicTooltip": "<titleLeft>The Black Cleaver (@Stack@)</titleLeft><mainText>This unit's Armor is reduced by a percentage.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

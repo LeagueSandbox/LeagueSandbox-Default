@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "UdyrTurtleActivation",
+        "Name": "UdyrTurtleActivation",
+        "ResourcePath": "DATA/Characters/Udyr/Spells/UdyrTurtleActivation.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Spiritual Shell</titleLeft><mainText>Udyr is protected by a temporary shield that absorbs incoming damage.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

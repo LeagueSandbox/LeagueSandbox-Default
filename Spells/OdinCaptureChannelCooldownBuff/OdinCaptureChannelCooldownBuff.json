@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_OdinCaptureChannelCooldownBuff"
+            "DynamicTooltip": "<titleLeft>Interrupted</titleLeft><mainText>Your capture has been interrupted; you will be able to try another capture in 3 seconds.</mainText>"
         }
     }
 }

@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Paranoia"
+            "DynamicTooltip": "<titleLeft>Dread</titleLeft><mainText>Enemy units near Fiddlesticks have their Magic Resistance reduced by 10.</mainText>"
         }
     }
 }

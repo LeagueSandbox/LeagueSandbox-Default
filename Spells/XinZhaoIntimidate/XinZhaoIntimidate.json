@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_XinZhaoIntimidate"
+            "DynamicTooltip": "<titleLeft>Challenged</titleLeft><mainText>This unit's Armor has been reduced.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

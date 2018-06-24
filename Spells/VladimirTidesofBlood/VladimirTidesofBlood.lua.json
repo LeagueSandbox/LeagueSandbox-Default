@@ -1,0 +1,15 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "BloodkingVladimir"
+    },
+    "DoesntBreakShields": true,
+    "IsDamagingSpell": true,
+    "TriggersSpellCasts": true,
+    "SpellFXOverrideSkins": {
+        "1": "BloodkingVladimir",
+        "2": "VladimirSkin06"
+    },
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "BuffTextureName": "Vladimir_TidesofBlood.dds"
+}

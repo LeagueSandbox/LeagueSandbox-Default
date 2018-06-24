@@ -1,0 +1,12 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "ClassicTrundle"
+    },
+    "DoesntBreakShields": true,
+    "IsDamagingSpell": false,
+    "BuffName": "TrundleCircle",
+    "BuffTextureName": "Trundle_E.dds",
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "CastingBreaksStealth": true
+}

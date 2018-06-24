@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Visionary_Counter",
+            "DynamicTooltip": "<titleLeft>Visionary</titleLeft><mainText>Nunu is charging up for a free spell.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
             "ShowInTrackerUI": 1
         }
     }

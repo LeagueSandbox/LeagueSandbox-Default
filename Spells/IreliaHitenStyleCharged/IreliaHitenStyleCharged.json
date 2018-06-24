@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_IreliaHitenStyleCharged",
+            "DynamicTooltip": "<titleLeft>Hiten Style: Charged</titleLeft><mainText>Irelia's physical attacks deal bonus true damage and restore Health.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
             "ShowInTrackerUI": 1
         }
     }

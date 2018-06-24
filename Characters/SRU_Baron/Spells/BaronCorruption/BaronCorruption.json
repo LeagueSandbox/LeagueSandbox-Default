@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "BaronCorruption",
+        "Name": "BaronCorruption",
+        "ResourcePath": "DATA/Characters/SRU_Baron/Spells/BaronCorruption.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Void Corruption</titleLeft><mainText>Baron Nashor is surrounded by an aura of destruction. If angered, he deals magic damage and applies a stack of Corrosion to a nearby champion with the smallest amount of Corrosion stacks.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

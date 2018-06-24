@@ -1,0 +1,13 @@
+{
+    "BuffName": "VayneTumble",
+    "AutoBuffActivateEffect": "Global_Haste.troy",
+    "CastingBreaksStealth": true,
+    "BuffTextureName": "Renekton_SliceAndDice.dds",
+    "AutoBuffActivateAttachBoneName": "l_hnd",
+    "DoesntBreakShields": false,
+    "AutoBuffActivateEffect2": "Global_Haste.troy",
+    "AutoBuffActivateAttachBoneName2": "r_hnd",
+    "IsDamagingSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "NotSingleTargetSpell": true
+}

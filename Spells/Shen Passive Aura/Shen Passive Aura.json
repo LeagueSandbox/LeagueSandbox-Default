@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Shen_Passive_Aura",
+            "DynamicTooltip": "<titleLeft>Ki Strike</titleLeft><mainText>The next attack will deal bonus damage to the target.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
             "ShowInTrackerUI": 1
         }
     }

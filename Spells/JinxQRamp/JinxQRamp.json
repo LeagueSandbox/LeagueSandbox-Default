@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_JinxQRamp",
+            "DynamicTooltip": "<titleLeft>Rev'd Up</titleLeft><mainText>Jinx's minigun has increased Attack Speed.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
             "ShowInTrackerUI": 1
         }
     }

@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "UdyrPassiveBuff",
+        "Name": "UdyrPassiveBuff",
+        "ResourcePath": "DATA/Characters/Udyr/Spells/UdyrPassiveBuff.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Monkey's Agility</titleLeft><mainText>Upon entering a stance, Udyr gains 10% Attack Speed and 5 Movement Speed for 5 seconds (effect stacks up to 3 times).</mainText>"
+        }
+    }
+}

@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_XenZhaoComboAuto",
+            "DynamicTooltip": "<titleLeft>Three Talon Strike</titleLeft><mainText>Xin Zhao's next attack deals bonus damage.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
             "ShowInTrackerUI": 1
         }
     }

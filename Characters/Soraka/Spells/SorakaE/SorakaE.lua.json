@@ -1,0 +1,11 @@
+{
+    "PersistsThroughDeath": true,
+    "BuffName": "Equinox",
+    "TriggersSpellCasts": true,
+    "SpellFXOverrideSkins": {
+        "1": "SorakaSkin04"
+    },
+    "NotSingleTargetSpell": false,
+    "BuffTextureName": "Soraka_E.dds",
+    "IsDeathRecapSource": true
+}

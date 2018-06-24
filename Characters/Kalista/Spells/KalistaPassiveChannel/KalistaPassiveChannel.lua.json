@@ -1,0 +1,14 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "SurprisePartyFiddlesticks",
+        "2": "CandyCaneFiddlesticks"
+    },
+    "BuffName": "Drain",
+    "CastingBreaksStealth": true,
+    "BuffTextureName": "Fiddlesticks_ConjureScarecrow.dds",
+    "DoesntBreakShields": true,
+    "IsDeathRecapSource": true,
+    "IsDamagingSpell": true,
+    "DoesntTriggerSpellCasts": true,
+    "NotSingleTargetSpell": false
+}

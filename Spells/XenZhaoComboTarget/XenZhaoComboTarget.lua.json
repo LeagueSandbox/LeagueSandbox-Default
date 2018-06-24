@@ -1,0 +1,8 @@
+{
+    "SpellToggleSlot": 1.0,
+    "SpellFXOverrideSkins": {
+        "1": "ZhaoYunXinZhao"
+    },
+    "BuffName": "XenZhaoComboTarget",
+    "BuffTextureName": "XinZhao_ThreeTalon.dds"
+}

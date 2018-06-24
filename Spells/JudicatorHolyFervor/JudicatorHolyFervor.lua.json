@@ -1,0 +1,8 @@
+{
+    "AutoBuffActivateAttachBoneName": "",
+    "PersistsThroughDeath": true,
+    "BuffName": "JudicatorHolyFervor",
+    "AutoBuffActivateEffect": "",
+    "BuffTextureName": "Judicator_DivineBlessing.dds",
+    "NonDispellable": true
+}

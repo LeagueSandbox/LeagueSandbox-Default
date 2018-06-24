@@ -1,0 +1,12 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "GatekeeperGalio"
+    },
+    "SpellFXOverrideSkins": {
+        "1": "GatekeeperGalio"
+    },
+    "IsDamagingSpell": true,
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "BuffName": "GalioRighteousGust"
+}

@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_NightmareBotGalioBuff"
+            "DynamicTooltip": "<titleLeft>Doom Galio</titleLeft><mainText>Doom Galio’s Resolute Smite and Righteous Gust have fragmented, and he will periodically create taunt zones next to nearby enemy champions.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_SummonerClairvoyanceSight"
+            "DynamicTooltip": "<titleLeft>Revealed</titleLeft><mainText>This unit is being revealed by a recent Clairvoyance.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

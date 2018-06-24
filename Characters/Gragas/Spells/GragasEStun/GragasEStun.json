@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "GragasEStun",
+        "Name": "GragasEStun",
+        "ResourcePath": "DATA/Characters/Gragas/Spells/GragasEStun.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Powerball Stun</titleLeft><mainText>This unit is stunned.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

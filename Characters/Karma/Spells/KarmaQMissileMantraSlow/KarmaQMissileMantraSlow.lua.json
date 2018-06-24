@@ -1,0 +1,7 @@
+{
+    "AutoBuffActivateAttachBoneName": "Buffbone_Glb_Ground_Loc",
+    "BuffName": "KarmaQMissile",
+    "PopupMessage1": "game_floatingtext_Slowed",
+    "AutoBuffActivateEffect": "GLOBAL_SLOW.TROY",
+    "BuffTextureName": "Karma_Q2.dds"
+}

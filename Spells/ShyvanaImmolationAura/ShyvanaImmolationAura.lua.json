@@ -1,0 +1,13 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "FrostShyvana"
+    },
+    "BuffName": "ShyvanaScorchedEarth",
+    "AutoBuffActivateEffect": "Shyvana_Base_W_Burnout.troy",
+    "NotSingleTargetSpell": true,
+    "BuffTextureName": "ShyvanaScorchedEarth.dds",
+    "AutoBuffActivateAttachBoneName": "c_buffbone_glb_layout_loc",
+    "DoesntBreakShields": true,
+    "DoesntTriggerSpellCasts": false,
+    "IsDamagingSpell": true
+}

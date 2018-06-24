@@ -1,0 +1,13 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "AniviaEggBlackIce"
+    },
+    "BuffName": "Rebirth",
+    "CastingBreaksStealth": true,
+    "BuffTextureName": "Cryophoenix_Rebirth.dds",
+    "DoesntBreakShields": true,
+    "NonDispellable": true,
+    "IsDamagingSpell": false,
+    "DoesntTriggerSpellCasts": true,
+    "NotSingleTargetSpell": false
+}

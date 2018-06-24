@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "KhazixHuntDefeatR",
+        "Name": "KhazixHuntDefeatR",
+        "ResourcePath": "DATA/Characters/Khazix/Spells/KhazixHuntDefeatR.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Defeat!</titleLeft><mainText><font color='#FDD017' >''Kha'Zix has slain his bestial nemesis Rengar, evolving into the ultimate predator.''</font></mainText>"
+        }
+    }
+}

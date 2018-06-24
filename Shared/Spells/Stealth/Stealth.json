@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "Stealth",
+        "Name": "Stealth",
+        "ResourcePath": "DATA/Shared/Spells/Stealth.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Unseen</titleLeft><mainText>This unit cannot be seen.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

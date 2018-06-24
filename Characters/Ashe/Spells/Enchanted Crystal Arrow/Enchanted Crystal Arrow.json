@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "Enchanted Crystal Arrow",
+        "Name": "Enchanted Crystal Arrow",
+        "ResourcePath": "DATA/Characters/Ashe/Spells/Enchanted Crystal Arrow.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Enchanted Crystal Arrow</titleLeft><mainText>This unit is frozen solid.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

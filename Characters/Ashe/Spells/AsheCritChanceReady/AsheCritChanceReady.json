@@ -1,0 +1,14 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "AsheCritChanceReady",
+        "Name": "AsheCritChanceReady",
+        "ResourcePath": "DATA/Characters/Ashe/Spells/AsheCritChanceReady.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Focus</titleLeft><mainText>Ashe's next attack will critically strike.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
+            "ShowInTrackerUI": 1
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "DoesntBreakShields": false,
+    "IsDamagingSpell": false,
+    "SpellFXOverrideSkins": {
+        "1": "GlacialMalphite",
+        "2": "MalphiteSkin06"
+    },
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "CastingBreaksStealth": true
+}

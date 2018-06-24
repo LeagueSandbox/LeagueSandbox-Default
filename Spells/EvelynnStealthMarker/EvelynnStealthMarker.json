@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_EvelynnStealthMarker",
+            "DynamicTooltip": "<titleLeft>Stealth</titleLeft><mainText>Evelynn can only be seen by nearby enemy champions or by true sight.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
             "ShowInTrackerUI": 1
         }
     }

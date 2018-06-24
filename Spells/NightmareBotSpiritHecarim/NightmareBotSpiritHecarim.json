@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_NightmareBotSpiritHecarim"
+            "DynamicTooltip": "<titleLeft>Bonus Doom: Onslaught of Shadows</titleLeft><mainText>Spectral riders are summoned alongside this champion, causing enemy champions and minions they touch to flee in terror.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

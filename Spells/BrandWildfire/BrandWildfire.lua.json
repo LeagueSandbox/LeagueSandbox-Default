@@ -1,0 +1,18 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "ZombieBrand"
+    },
+    "PersistsThroughDeath": true,
+    "BuffName": "Spell Flux",
+    "CastingBreaksStealth": true,
+    "BuffTextureName": "Ryze_LightningFlux.dds",
+    "DoesntBreakShields": true,
+    "SpellFXOverrideSkins": {
+        "1": "FrostFireBrand",
+        "2": "ZombieBrand"
+    },
+    "SpellDamageRatio": 1.0,
+    "IsDamagingSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "NotSingleTargetSpell": false
+}

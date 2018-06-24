@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "ViktorGravitonSlow",
+        "Name": "ViktorGravitonSlow",
+        "ResourcePath": "DATA/Characters/Viktor/Spells/ViktorGravitonSlow.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Heavy Gravity</titleLeft><mainText>This unit has reduced Movement Speed.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

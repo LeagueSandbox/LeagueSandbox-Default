@@ -1,15 +1,15 @@
 {
     "MetaData": {
         "ContentFormatVersion": 4,
-        "Id": "4324",
-        "Name": "4324",
+        "Id": 4324,
+        "Name": "Alchemist",
         "ResourcePath": "DATA/Talents/4324.inibin"
     },
     "Values": {
         "SpellData": {
             "InventoryIcon": "732.dds",
-            "Level1Desc": "game_mastery_level1desc_4324",
-            "Name": "game_mastery_displayname_4324",
+            "Level1Desc": "Increases the duration of potions and elixirs by 10%",
+            "Name": "Alchemist",
             "Ranks": 1
         }
     }

@@ -1,0 +1,9 @@
+{
+    "PersistsThroughDeath": true,
+    "BuffName": "KatarinaPassive",
+    "BuffTextureName": "Katarina_Voracity.dds",
+    "NonDispellable": true,
+    "CastingBreaksStealth": false,
+    "DoesntTriggerSpellCasts": false,
+    "NotSingleTargetSpell": true
+}

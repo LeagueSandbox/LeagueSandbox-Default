@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_NightmareBotEzrealBuff"
+            "DynamicTooltip": "<titleLeft>Doom Ezreal</titleLeft><mainText>Doom Ezreal’s abilities have been fragmented into multiple energy waves.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

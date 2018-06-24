@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "SkarnerPassiveBuff",
+        "Name": "SkarnerPassiveBuff",
+        "ResourcePath": "DATA/Characters/Skarner/Spells/SkarnerPassiveBuff.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Crystal Venom</titleLeft><mainText>At 3 stacks of Crystal Venom, Skarner's attack will stun this unit.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

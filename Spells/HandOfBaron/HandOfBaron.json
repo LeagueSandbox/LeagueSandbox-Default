@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_HandOfBaron"
+            "DynamicTooltip": "<titleLeft><font color='#FFFFFF'>Hand of Baron</font></titleLeft><mainText>This unit has the favor of Baron Nashor and has the following bonuses:<br><br><font color='#AAAA55'>Empowered Recall<br>Increased Attack Damage and Ability Power<br>Nearby allied minions are vastly enhanced</font></mainText><postScriptLeft>Source: Granted by slaying Baron Nashor</postScriptLeft>"
         }
     }
 }

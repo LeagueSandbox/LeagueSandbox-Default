@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "Root",
+        "Name": "Root",
+        "ResourcePath": "DATA/Shared/Spells/Root.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Rooted</titleLeft><mainText>This unit is rooted, it cannot move or use movement related skills.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

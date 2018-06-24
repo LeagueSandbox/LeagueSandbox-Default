@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Rebirth_Marker"
+            "DynamicTooltip": "<titleLeft>Rebirth</titleLeft><mainText>Upon taking fatal damage, Anivia reverts to an egg, healing to full Health and receiving @f1@ Armor and Magic Resist. If she survives for 6 seconds, she is reborn.<br><br>Rebirth has a 4 minute cooldown.</mainText>"
         }
     }
 }

@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "DariusSlow",
+        "Name": "DariusSlow",
+        "ResourcePath": "DATA/Characters/Darius/Spells/DariusSlow.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Crippled</titleLeft><mainText>Attack and Movement Speed slowed.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

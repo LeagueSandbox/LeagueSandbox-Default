@@ -1,0 +1,14 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "maokaisapmagichot",
+        "Name": "maokaisapmagichot",
+        "ResourcePath": "DATA/Characters/Maokai/Spells/maokaisapmagichot.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Magical Sap</titleLeft><mainText>Maokai is drawing power from nearby spellcasts. At 5 charges, his next melee attack heals him.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
+            "ShowInTrackerUI": 1
+        }
+    }
+}

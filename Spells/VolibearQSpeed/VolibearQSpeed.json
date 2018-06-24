@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_VolibearQSpeed"
+            "DynamicTooltip": "<titleLeft>Ferocious Charge: Speed</titleLeft><mainText>Volibear moves faster if pursuing an enemy champion.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

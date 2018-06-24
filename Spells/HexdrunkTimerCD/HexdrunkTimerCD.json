@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_HexdrunkTimerCD"
+            "DynamicTooltip": "<titleLeft>Sated</titleLeft><mainText>The blade's thirst for magical energy has been sated.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

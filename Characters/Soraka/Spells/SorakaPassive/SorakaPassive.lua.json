@@ -1,0 +1,8 @@
+{
+    "AutoBuffActivateEffect": "soraka_base_passive_speed.troy",
+    "SpellFXOverrideSkins": {
+        "1": "SorakaSkin04"
+    },
+    "BuffName": "SorakaPassive",
+    "BuffTextureName": "Soraka_Passive.dds"
+}

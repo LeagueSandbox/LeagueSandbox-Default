@@ -1,15 +1,15 @@
 {
     "MetaData": {
         "ContentFormatVersion": 4,
-        "Id": "4242",
-        "Name": "4242",
+        "Id": 4242,
+        "Name": "Swiftness",
         "ResourcePath": "DATA/Talents/4242.inibin"
     },
     "Values": {
         "SpellData": {
             "InventoryIcon": "632.dds",
-            "Level1Desc": "game_mastery_level1desc_4242",
-            "Name": "game_mastery_displayname_4242",
+            "Level1Desc": "Reduces the effectiveness of slows by 10%",
+            "Name": "Swiftness",
             "Ranks": 1
         }
     }

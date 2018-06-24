@@ -1,0 +1,14 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "RengarQEmp",
+        "Name": "RengarQEmp",
+        "ResourcePath": "DATA/Characters/Rengar/Spells/RengarQEmp.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Empowered Savagery</titleLeft><mainText>Rengar's next attack will deal bonus damage and grant him Attack Speed and Attack Damage.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
+            "ShowInTrackerUI": 1
+        }
+    }
+}

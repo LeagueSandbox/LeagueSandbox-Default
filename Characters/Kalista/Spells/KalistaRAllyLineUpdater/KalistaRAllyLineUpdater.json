@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "KalistaRAllyLineUpdater",
+        "Name": "KalistaRAllyLineUpdater",
+        "ResourcePath": "DATA/Characters/Kalista/Spells/KalistaRAllyLineUpdater.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Shocking Orb</titleLeft><mainText>Stunned.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

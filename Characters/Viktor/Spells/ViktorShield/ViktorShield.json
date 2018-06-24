@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "ViktorShield",
+        "Name": "ViktorShield",
+        "ResourcePath": "DATA/Characters/Viktor/Spells/ViktorShield.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Conduit</titleLeft><mainText>This unit is temporarily shielded from damage.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

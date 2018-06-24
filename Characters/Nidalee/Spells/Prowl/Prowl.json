@@ -1,0 +1,20 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "Prowl",
+        "Name": "game_spell_displayname_Prowl",
+        "ResourcePath": "DATA/Characters/Nidalee/Spells/Prowl.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Prowl</titleLeft><mainText>Nidalee has increased Movement Speed in brush, further increased toward enemy champions she can see.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        },
+        "SpellData": {
+            "Description": "game_spell_description_Prowl",
+            "DisplayName": "game_spell_displayname_Prowl",
+            "DynamicExtended": "game_spell_levelup_Prowl",
+            "DynamicTooltip": "game_spell_tooltip_Prowl",
+            "InventoryIcon": "Nidalee_Passive.dds"
+        }
+    }
+}

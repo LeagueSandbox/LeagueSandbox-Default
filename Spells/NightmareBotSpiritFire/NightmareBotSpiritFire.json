@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_NightmareBotSpiritFire"
+            "DynamicTooltip": "<titleLeft>Bonus Doom: Burnout</titleLeft><mainText>This champion scorches the earth where they walk, leaving behind a trail of fire.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

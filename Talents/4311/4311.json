@@ -1,15 +1,15 @@
 {
     "MetaData": {
         "ContentFormatVersion": 4,
-        "Id": "4311",
-        "Name": "4311",
+        "Id": 4311,
+        "Name": "Phasewalker",
         "ResourcePath": "DATA/Talents/4311.inibin"
     },
     "Values": {
         "SpellData": {
             "InventoryIcon": "714.dds",
-            "Level1Desc": "game_mastery_level1desc_4311",
-            "Name": "game_mastery_displayname_4311",
+            "Level1Desc": "Reduces the casting time of Recall by 1 second\\n\\nDominion - Reduces the casting time of Enhanced Recall by 0.5 seconds",
+            "Name": "Phasewalker",
             "Ranks": 3
         }
     }

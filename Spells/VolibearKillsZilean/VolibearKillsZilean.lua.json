@@ -1,0 +1,6 @@
+{
+    "NonDispellable": true,
+    "PersistsThroughDeath": true,
+    "BuffName": "VolibearHatredZilean",
+    "BuffTextureName": "GSB_stealth.dds"
+}

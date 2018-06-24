@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_NightmareBotSpiritViktor"
+            "DynamicTooltip": "<titleLeft>Bonus Doom: Death Ray</titleLeft><mainText>This champion fires laser beams in a pattern around themselves, dealing magic damage to every enemy they hit.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

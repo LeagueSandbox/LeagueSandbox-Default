@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_VoidStone"
+            "DynamicTooltip": "<titleLeft>Void Stone</titleLeft><mainText>Kassadin takes 15% reduced magic damage and ignores unit collision.</mainText>"
         }
     }
 }

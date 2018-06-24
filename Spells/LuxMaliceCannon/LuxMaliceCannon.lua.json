@@ -1,0 +1,8 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "SteelLegionLux"
+    },
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": true,
+    "IsDamagingSpell": true
+}

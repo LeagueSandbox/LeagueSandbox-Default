@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "SionQKnockUp",
+        "Name": "SionQKnockUp",
+        "ResourcePath": "DATA/Characters/Sion/Spells/SionQKnockUp.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Decimating Smash</titleLeft><mainText>This unit is stunned.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_JaxRelentlessAssaultAS",
+            "DynamicTooltip": "<titleLeft>Relentless Assault</titleLeft><mainText>Jax has @f1@% increased Attack Speed.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
             "ShowInTrackerUI": 1
         }
     }

@@ -1,0 +1,14 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "PoppyParagonManager",
+        "Name": "PoppyParagonManager",
+        "ResourcePath": "DATA/Characters/Poppy/Spells/PoppyParagonManager.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Paragon of Demacia (@Stack@)</titleLeft><mainText>Poppy has +@f1@ Armor and Attack Damage.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
+            "ShowInTrackerUI": 1
+        }
+    }
+}

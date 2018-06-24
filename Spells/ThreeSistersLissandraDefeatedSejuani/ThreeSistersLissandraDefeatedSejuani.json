@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_ThreeSistersLissandraDefeatedSejuani"
+            "DynamicTooltip": "<titleLeft>Queen of the Freljord</titleLeft><mainText>No one is strong enough to stop Lissandra. The rise of the Iceborn is at hand.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

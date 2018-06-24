@@ -1,0 +1,11 @@
+{
+    "BuffName": "Slow",
+    "AutoBuffActivateEffect": "GLOBAL_SLOW.troy",
+    "CastingBreaksStealth": true,
+    "BuffTextureName": "Chronokeeper_Slow.dds",
+    "AutoBuffActivateAttachBoneName": "root",
+    "DoesntBreakShields": true,
+    "IsDamagingSpell": true,
+    "DoesntTriggerSpellCasts": true,
+    "NotSingleTargetSpell": true
+}

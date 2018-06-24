@@ -1,17 +1,17 @@
 {
     "MetaData": {
         "ContentFormatVersion": 4,
-        "Id": "4322",
-        "Name": "4322",
+        "Id": 4322,
+        "Name": "Summoner's Insight",
         "ResourcePath": "DATA/Talents/4322.inibin"
     },
     "Values": {
         "SpellData": {
             "InventoryIcon": "722.dds",
-            "Level1Desc": "game_mastery_level1desc_4322",
-            "Level2Desc": "game_mastery_level2desc_4322",
-            "Level3Desc": "game_mastery_level3desc_4322",
-            "Name": "game_mastery_displayname_4322",
+            "Level1Desc": "Reduces the cooldown of Summoner Spells by 4%",
+            "Level2Desc": "Reduces the cooldown of Summoner Spells by 7%",
+            "Level3Desc": "Reduces the cooldown of Summoner Spells by 10%",
+            "Name": "Summoner's Insight",
             "Ranks": 3
         }
     }

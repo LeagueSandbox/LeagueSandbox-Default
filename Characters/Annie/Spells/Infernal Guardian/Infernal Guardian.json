@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "Infernal Guardian",
+        "Name": "Infernal Guardian",
+        "ResourcePath": "DATA/Characters/Annie/Spells/Infernal Guardian.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Tibbers' Flame</titleLeft><mainText>Tibbers deals magic damage to all nearby enemy units every second.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

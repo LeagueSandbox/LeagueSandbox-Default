@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "ViRKnockback",
+        "Name": "ViRKnockback",
+        "ResourcePath": "DATA/Characters/Vi/Spells/ViRKnockback.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Vault Breaker</titleLeft><mainText>This unit just got clocked by Vi.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "NightmareBotAnnieFlamingBuildingsSource",
+        "Name": "Doomed Towers on Fire",
+        "ResourcePath": "DATA/Characters/Annie/Spells/NightmareBotAnnieFlamingBuildingsSource.inibin"
+    },
+    "Values": {
+        "SpellData": {
+            "AlternateName": "NightmareBotAnnieFlamingBuildingsSource",
+            "CastType": 0,
+            "Description": "Doom Annie sets nearby enemy towers on fire, dealing magic damage in an area around them.",
+            "DisplayName": "Doomed Towers on Fire",
+            "Flags": 329748,
+            "InventoryIcon": "Annie_Passive.dds",
+            "TargettingType": 4,
+            "TextFlags": "Instacast | NonDispellable | AffectFriends | AffectHeroes | AlwaysSelf",
+            "Version": 1
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "SivirPassive",
+        "Name": "SivirPassive",
+        "ResourcePath": "DATA/Characters/Sivir/Spells/SivirPassive.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Fleet of Foot</titleLeft><mainText>When Sivir hits an enemy champion with her basic attacks or abilities, she gains @f1@ Movement Speed for 2 seconds.</mainText>"
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "DoesntBreakShields": false,
+    "IsDamagingSpell": true,
+    "BuffName": "heal",
+    "BuffTextureName": "2.dds",
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "CastingBreaksStealth": true
+}

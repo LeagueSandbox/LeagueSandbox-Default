@@ -1,0 +1,12 @@
+{
+    "AutoCooldownByLevel": {
+        "1": 160.0,
+        "2": 140.0,
+        "3": 120.0
+    },
+    "BuffName": "Chrono Shift",
+    "NonDispellable": true,
+    "OnPreDamagePriority": 4.0,
+    "BuffTextureName": "Chronokeeper_Timetwister.dds",
+    "PersistsThroughDeath": true
+}

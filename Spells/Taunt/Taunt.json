@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Taunt"
+            "DynamicTooltip": "<titleLeft>Taunt</titleLeft><mainText>This unit is being forced to attack.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

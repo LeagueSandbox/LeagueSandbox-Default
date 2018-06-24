@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_VarusRShackles"
+            "DynamicTooltip": "<titleLeft>Chain of Corruption</titleLeft><mainText>This unit must move away from the approaching corruption to avoid being bound in place.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Elixer_of_Elusiveness"
+            "DynamicTooltip": "<titleLeft>Elixir of Agility</titleLeft><mainText>This unit has massively increased Attack Speed and Critical Strike Chance.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

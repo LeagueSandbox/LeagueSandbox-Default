@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Lifesteal_Attack"
+            "DynamicTooltip": "<titleLeft>Lifestealing Attacks</titleLeft><mainText>This Wraith's physical attacks steal his target's health.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

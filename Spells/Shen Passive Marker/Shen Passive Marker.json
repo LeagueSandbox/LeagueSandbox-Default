@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Shen_Passive_Marker"
+            "DynamicTooltip": "<titleLeft>Ki Strike</titleLeft><mainText>Every 9 seconds, Shen's next basic attack restores @f2@ Energy and deals (@f1@ <font color='#CC3300'>+@f3@ [10% of Shen's bonus Health]</font>) bonus magic damage.<br><br>Each time Shen attacks a minion or champion, Ki Strike's cooldown is reduced by 1 second.</mainText>"
         }
     }
 }

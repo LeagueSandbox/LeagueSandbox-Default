@@ -1,0 +1,400 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "ObjectCFG",
+        "Name": "ObjectCFG",
+        "ResourcePath": "LEVELS/Map10/scene/CFG/ObjectCFG.cfg"
+    },
+    "Values": {
+        "": {},
+        "__ANIMS_shopekeeper": {
+            "Move": "-22.2222 -20.0000 53.3333",
+            "Rot": "148.0000 0.0000 0.0000",
+            "SkinName1": "ShopKeeper"
+        },
+        "__ANIMS_shopekeeper1": {
+            "Move": "0.0000 0.0000 0.0000",
+            "Rot": "0.0000 0.0000 0.0000",
+            "SkinName1": "ShopKeeper"
+        },
+        "__P_Chaos_Spawn_Barracks__C01": {
+            "PathfindingCollisionRadius": 18.8193,
+            "SelectionHeight": 39.6217,
+            "SelectionRadius": 19.8098,
+            "SkinName1": "ChaosBarracks_Wizard"
+        },
+        "__P_Chaos_Spawn_Barracks__L01": {
+            "PathfindingCollisionRadius": 18.8196,
+            "SelectionHeight": 39.6218,
+            "SelectionRadius": 19.8093,
+            "SkinName1": "ChaosBarracks_Wizard"
+        },
+        "__P_Chaos_Spawn_Barracks__R01": {
+            "PathfindingCollisionRadius": 18.8191,
+            "SelectionHeight": 39.6217,
+            "SelectionRadius": 19.8096,
+            "SkinName1": "ChaosBarracks_Wizard"
+        },
+        "__P_Order_Spawn_Barracks__C01": {
+            "PathfindingCollisionRadius": 18.8189,
+            "SelectionHeight": 39.6217,
+            "SelectionRadius": 19.8094,
+            "SkinName1": "OrderBarracks_Wizard"
+        },
+        "__P_Order_Spawn_Barracks__L01": {
+            "PathfindingCollisionRadius": 18.819,
+            "SelectionHeight": 39.6218,
+            "SelectionRadius": 19.8095,
+            "SkinName1": "OrderBarracks_Wizard"
+        },
+        "__P_Order_Spawn_Barracks__R01": {
+            "Move": "0.0000 0.0000 0.0000",
+            "PathfindingCollisionRadius": 18.819,
+            "Rot": "0.0000 0.0000 0.0000",
+            "SelectionHeight": 39.6218,
+            "SelectionRadius": 19.8095,
+            "SkinName1": "OrderBarracks_Wizard"
+        },
+        "__Spawn_T1": {
+            "Move": "0.0000 0.0000 0.0000",
+            "Rot": "0.0000 0.0000 0.0000"
+        },
+        "__Spawn_T2": {
+            "Move": "0.0000 0.0000 0.0000",
+            "Rot": "0.0000 0.0000 0.0000"
+        },
+        "Barracks_T1_L1": {
+            "ArmorMaterial": "Wood",
+            "mArmor": 0.0,
+            "mBaseStaticHPRegen": 10,
+            "mMaxHP": 3000.0,
+            "mMaxMP": 0.0,
+            "Move": "0.0000 20.0000 0.0000",
+            "PathfindingCollisionRadius": 187.15,
+            "PerceptionBubbleRadius": 1350.0,
+            "Rot": "0.0000 0.0000 0.0000",
+            "SelectionHeight": 108.0,
+            "SelectionRadius": 225.0,
+            "SkinName1": "TT_OrderInhibitor",
+            "SkinName2": "TT_OrderInhibitor_D"
+        },
+        "Barracks_T1_R1": {
+            "ArmorMaterial": "Wood",
+            "mArmor": 0.0,
+            "mBaseStaticHPRegen": 10,
+            "mMaxHP": 3000.0,
+            "mMaxMP": 0.0,
+            "Move": "-11.1111 20.0000 20.0000",
+            "PathfindingCollisionRadius": 185.4683,
+            "PerceptionBubbleRadius": 1350.0,
+            "Rot": "0.0000 0.0000 0.0000",
+            "SelectionHeight": 108.0,
+            "SelectionRadius": 225.0,
+            "SkinName1": "TT_OrderInhibitor",
+            "SkinName2": "TT_OrderInhibitor_D"
+        },
+        "Barracks_T2_L1": {
+            "ArmorMaterial": "Wood",
+            "mArmor": 0.0,
+            "mBaseStaticHPRegen": 10,
+            "mMaxHP": 5500.0,
+            "mMaxMP": 0.0,
+            "Move": "0.0000 20.0000 0.0000",
+            "PathfindingCollisionRadius": 213.75,
+            "PerceptionBubbleRadius": 1350.0,
+            "Rot": "278.0000 0.0000 0.0000",
+            "SelectionHeight": 108.0,
+            "SelectionRadius": 225.0,
+            "SkinName1": "TT_ChaosInhibitor",
+            "SkinName2": "TT_ChaosInhibitor_D"
+        },
+        "Barracks_T2_R1": {
+            "ArmorMaterial": "Wood",
+            "mArmor": 0.0,
+            "mBaseStaticHPRegen": 10,
+            "mMaxHP": 5500.0,
+            "mMaxMP": 0.0,
+            "Move": "0.0000 20.0000 -8.8889",
+            "PathfindingCollisionRadius": 213.75,
+            "PerceptionBubbleRadius": 1350.0,
+            "Rot": "0.0000 0.0000 0.0000",
+            "SelectionHeight": 108.0,
+            "SelectionRadius": 225.0,
+            "SkinName1": "TT_ChaosInhibitor",
+            "SkinName2": "TT_ChaosInhibitor_D"
+        },
+        "ChaosShop": {
+            "PathfindingCollisionRadius": 181.2077,
+            "SelectionHeight": 469.0003,
+            "SelectionRadius": 190.7449
+        },
+        "ChaosShop01": {
+            "Move": "0.0000 0.0000 0.0000",
+            "PathfindingCollisionRadius": 0.0,
+            "Rot": "248.0000 0.0000 0.0000",
+            "SelectionHeight": 320.5078,
+            "SelectionRadius": 252.6802
+        },
+        "ChaosShop1": {
+            "PathfindingCollisionRadius": 0.0,
+            "SelectionHeight": 418.5673,
+            "SelectionRadius": 170.9817
+        },
+        "ChaosShoppopp": {
+            "Move": "0.0000 0.0000 0.0000",
+            "PathfindingCollisionRadius": 0.0,
+            "Rot": "0.0000 0.0000 0.0000",
+            "SelectionHeight": 320.5078,
+            "SelectionRadius": 234.9572
+        },
+        "GameObject": {
+            "PathfindingCollisionRadius": 0.0
+        },
+        "haosShop01": {
+            "PathfindingCollisionRadius": 0.0,
+            "SelectionHeight": 338.9408,
+            "SelectionRadius": 237.0155
+        },
+        "HQ_T1": {
+            "ArmorMaterial": "Metal",
+            "Collision Height": 0.0,
+            "Collision Radius": 319.4445,
+            "mArmor": 0.0,
+            "mBaseStaticHPRegen": 15,
+            "mMaxHP": 5000.0,
+            "mMaxMP": 0.0,
+            "Move": "-15.5556 0.0000 -24.4444",
+            "PathfindingCollisionRadius": 352.7778,
+            "PerceptionBubbleRadius": 1350.0,
+            "Rot": "0.0000 0.0000 0.0000",
+            "SelectionHeight": 117.0,
+            "SelectionRadius": 397.2222,
+            "SkinName1": "OrderNexus",
+            "SkinName2": "DestroyedNexus"
+        },
+        "HQ_T11": {
+            "PathfindingCollisionRadius": 302.5409,
+            "SelectionHeight": 158.2981,
+            "SelectionRadius": 318.4641
+        },
+        "HQ_T2": {
+            "ArmorMaterial": "Metal",
+            "mArmor": 0.0,
+            "mBaseStaticHPRegen": 15,
+            "mMaxHP": 5000.0,
+            "mMaxMP": 0.0,
+            "Move": "-15.5556 -6.6667 -17.7778",
+            "PathfindingCollisionRadius": 240.7846,
+            "PerceptionBubbleRadius": 1350.0,
+            "Rot": "0.0000 0.0000 0.0000",
+            "SelectionHeight": 381,
+            "SelectionRadius": 336,
+            "SkinName1": "ChaosNexus",
+            "SkinName2": "DestroyedNexus"
+        },
+        "HQ_T21": {
+            "PathfindingCollisionRadius": 302.5413,
+            "SelectionHeight": 158.2981,
+            "SelectionRadius": 318.4645
+        },
+        "LevelProp_ShopMale": {
+            "Move": "-55.5556 44.4445 -22.2222",
+            "PathfindingCollisionRadius": 0.0,
+            "Rot": "188.0000 0.0000 0.0000",
+            "SelectionHeight": 70.3347,
+            "SelectionRadius": 49.1514
+        },
+        "LevelProp_ShopMale1": {
+            "Move": "33.3333 55.5555 -77.7778",
+            "Rot": "172.0000 0.0000 0.0000"
+        },
+        "LevelProp_Teemo": {
+            "Move": "-55.5556 88.8889 -100.0000",
+            "Rot": "168.0000 0.0000 0.0000"
+        },
+        "LevelProp_TT_Brazier1": {
+            "Move": "11.1111 288.8889 -22.2222",
+            "Rot": "134.0000 0.0000 0.0000"
+        },
+        "LevelProp_TT_Brazier2": {
+            "Move": "-33.3334 277.7778 -11.1111",
+            "Rot": "0.0000 0.0000 0.0000"
+        },
+        "LevelProp_TT_Brazier3": {
+            "Move": "-22.2222 300.0000 0.0000",
+            "Rot": "0.0000 0.0000 0.0000"
+        },
+        "LevelProp_TT_Brazier4": {
+            "Move": "-33.3334 277.7778 22.2223",
+            "Rot": "48.0000 0.0000 0.0000"
+        },
+        "LevelProp_TT_Brazier5": {
+            "Move": "11.1111 277.7778 0.0000",
+            "Rot": "120.0000 0.0000 0.0000"
+        },
+        "LevelProp_TT_Brazier6": {
+            "Move": "-22.2222 266.6666 -11.1111",
+            "Rot": "0.0000 0.0000 0.0000"
+        },
+        "LevelProp_TT_Brazier7": {
+            "Move": "-11.1111 255.5555 -11.1111",
+            "Rot": "0.0000 0.0000 0.0000"
+        },
+        "LevelProp_TT_Brazier8": {
+            "Move": "0.0000 244.4445 11.1111",
+            "Rot": "36.0000 0.0000 0.0000"
+        },
+        "LevelProp_TT_Chains_Bot_Lane": {
+            "Move": "88.8889 -33.3334 66.6667",
+            "Rot": "0.0000 0.0000 0.0000"
+        },
+        "LevelProp_TT_Chains_Order_Base": {
+            "Move": "-233.3334 -333.3333 277.7778",
+            "Rot": "0.0000 0.0000 0.0000"
+        },
+        "LevelProp_TT_Chains_Order_Periph": {
+            "Move": "-155.5555 44.4445 222.2222",
+            "Rot": "0.0000 0.0000 0.0000"
+        },
+        "LevelProp_TT_Chains_Xaos_Base": {
+            "Move": "200.0000 -388.8889 333.3334",
+            "Rot": "0.0000 0.0000 0.0000"
+        },
+        "LevelProp_TT_Nexus_Gears": {
+            "Move": "0.0000 144.4445 0.0000",
+            "Rot": "0.0000 0.0000 0.0000"
+        },
+        "LevelProp_TT_Nexus_Gears1": {
+            "Move": "-44.4445 122.2222 -122.2222",
+            "Rot": "180.0000 0.0000 0.0000"
+        },
+        "LevelProp_TT_Shopkeeper": {
+            "Move": "-66.6667 22.2223 -55.5556",
+            "Rot": "208.0000 0.0000 0.0000"
+        },
+        "LevelProp_TT_Shopkeeper1": {
+            "Move": "22.2223 33.3333 -66.6667",
+            "Rot": "150.0000 0.0000 0.0000"
+        },
+        "Levels\\Map6\\SCENE\\__P_Chaos_Spawn_Barracks__L01.sco": {
+            "PathfindingCollisionRadius": 0.0,
+            "SelectionHeight": 0.0,
+            "SelectionRadius": 0.0
+        },
+        "Levels\\Map6\\SCENE\\__P_Chaos_Spawn_Barracks__R01.sco": {
+            "PathfindingCollisionRadius": 0.0,
+            "SelectionHeight": 0.0,
+            "SelectionRadius": 0.0
+        },
+        "Levels\\Map6\\SCENE\\__P_Order_Spawn_Barracks__L01.sco": {
+            "SelectionHeight": 0.0
+        },
+        "Levels\\Map6\\SCENE\\__P_Order_Spawn_Barracks__R01.sco": {
+            "SelectionHeight": 0.0
+        },
+        "OrderShop01": {
+            "Move": "0.0000 0.0000 0.0000",
+            "PathfindingCollisionRadius": 256.1901,
+            "Rot": "0.0000 0.0000 0.0000",
+            "SelectionHeight": 396.995,
+            "SelectionRadius": 269.6738
+        },
+        "OrderShop04": {
+            "PathfindingCollisionRadius": 0.0,
+            "SelectionHeight": 563.6843,
+            "SelectionRadius": 194.9833
+        },
+        "pasted____P_Chaos_Spawn_Barracks__L01": {
+            "PathfindingCollisionRadius": 18.8194,
+            "SelectionHeight": 39.6217,
+            "SelectionRadius": 19.8099
+        },
+        "pasted____P_Chaos_Spawn_Barracks__R01": {
+            "PathfindingCollisionRadius": 18.8194,
+            "SelectionHeight": 39.6218,
+            "SelectionRadius": 19.8099
+        },
+        "pasted____P_Order_Spawn_Barracks__L01": {
+            "PathfindingCollisionRadius": 18.819,
+            "SelectionHeight": 39.6218,
+            "SelectionRadius": 19.8095
+        },
+        "pasted____P_Order_Spawn_Barracks__R01": {
+            "PathfindingCollisionRadius": 18.819,
+            "SelectionHeight": 39.6218,
+            "SelectionRadius": 19.8095
+        },
+        "Turret_ChaosTurretShrine": {
+            "Move": "82.2222 77.7778 -46.6667",
+            "Rot": "90.0000 2.0000 0.0000"
+        },
+        "Turret_OrderTurretShrine": {
+            "Move": "46.6667 57.7778 20.0000",
+            "Rot": "90.0000 0.0000 0.0000"
+        },
+        "Turret_T1_C_01": {
+            "Move": "-6.6667 -17.7778 4.4445",
+            "Rot": "324.0000 0.0000 0.0000"
+        },
+        "Turret_T1_C_02": {
+            "Move": "-8.8889 -15.5556 4.4445",
+            "Rot": "180.0000 0.0000 0.0000"
+        },
+        "Turret_T1_C_06": {
+            "Move": "0.0000 -24.4444 -8.8889",
+            "Rot": "360.0000 0.0000 0.0000"
+        },
+        "Turret_T1_C_07": {
+            "Move": "-11.1111 -31.1111 13.3333",
+            "Rot": "294.0000 0.0000 0.0000"
+        },
+        "Turret_T1_L_02": {
+            "Move": "0.0000 -8.8889 0.0000",
+            "Rot": "296.0000 0.0000 0.0000"
+        },
+        "Turret_T1_L_03": {
+            "Move": "0.0000 -28.8889 0.0000",
+            "Rot": "282.0000 0.0000 0.0000"
+        },
+        "Turret_T1_R_02": {
+            "Move": "0.0000 -22.2222 -4.4444",
+            "Rot": "344.0000 0.0000 0.0000"
+        },
+        "Turret_T1_R_03": {
+            "Move": "15.5555 0.0000 -4.4444",
+            "Rot": "336.0000 0.0000 0.0000"
+        },
+        "Turret_T2_C_01": {
+            "Move": "-2.2222 -24.4444 4.4445",
+            "Rot": "302.0000 0.0000 0.0000"
+        },
+        "Turret_T2_C_02": {
+            "Move": "-11.1111 -13.3333 -4.4444",
+            "Rot": "68.0000 0.0000 0.0000"
+        },
+        "Turret_T2_L_01": {
+            "Move": "-2.2222 -35.5556 0.0000",
+            "Rot": "292.0000 0.0000 0.0000"
+        },
+        "Turret_T2_L_02": {
+            "Move": "0.0000 -22.2222 0.0000",
+            "Rot": "0.0000 0.0000 0.0000"
+        },
+        "Turret_T2_L_03": {
+            "Move": "0.0000 -31.1111 0.0000",
+            "Rot": "352.0000 0.0000 0.0000"
+        },
+        "Turret_T2_R_01": {
+            "Move": "-2.2222 -24.4444 0.0000",
+            "Rot": "338.0000 0.0000 0.0000"
+        },
+        "Turret_T2_R_02": {
+            "Move": "0.0000 -26.6667 -4.4444",
+            "Rot": "294.0000 0.0000 0.0000"
+        },
+        "Turret_T2_R_03": {
+            "Move": "-11.1111 -20.0000 0.0000",
+            "Rot": "288.0000 0.0000 0.0000"
+        }
+    }
+}

@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_ItemPoachersKnifeSpeed"
+            "DynamicTooltip": "<titleLeft>Scavenging Smite</titleLeft><mainText>This unit has greatly increased Movement Speed that decays over a short period of time.</mainText>"
         }
     }
 }

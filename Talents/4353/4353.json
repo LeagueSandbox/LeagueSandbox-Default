@@ -1,17 +1,17 @@
 {
     "MetaData": {
         "ContentFormatVersion": 4,
-        "Id": "4353",
-        "Name": "4353",
+        "Id": 4353,
+        "Name": "Intelligence",
         "ResourcePath": "DATA/Talents/4353.inibin"
     },
     "Values": {
         "SpellData": {
             "InventoryIcon": "752.dds",
-            "Level1Desc": "game_mastery_level1desc_4353",
-            "Level2Desc": "game_mastery_level2desc_4353",
-            "Level3Desc": "game_mastery_level3desc_4353",
-            "Name": "game_mastery_displayname_4353",
+            "Level1Desc": "+2% Cooldown Reduction and reduces the cooldown of Activated Items by 4%",
+            "Level2Desc": "+3.5% Cooldown Reduction and reduces the cooldown of Activated Items by 7%",
+            "Level3Desc": "+5% Cooldown Reduction and reduces the cooldown of Activated Items by 10%",
+            "Name": "Intelligence",
             "Ranks": 3
         }
     }

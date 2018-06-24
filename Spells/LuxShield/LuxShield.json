@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_LuxShield"
+            "DynamicTooltip": "<titleLeft>Stardust Barrier</titleLeft><mainText>This unit is protected by a damage shield.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

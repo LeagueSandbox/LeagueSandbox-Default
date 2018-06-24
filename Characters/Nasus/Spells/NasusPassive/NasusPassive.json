@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "NasusPassive",
+        "Name": "NasusPassive",
+        "ResourcePath": "DATA/Characters/Nasus/Spells/NasusPassive.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Soul Eater</titleLeft><mainText>Nasus has @f1@% bonus Life Steal.</mainText>"
+        }
+    }
+}

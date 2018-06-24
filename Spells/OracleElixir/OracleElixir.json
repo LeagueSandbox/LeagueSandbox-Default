@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_OracleElixir"
+            "DynamicTooltip": "<titleLeft>Magical Sight</titleLeft><mainText>This unit can see invisible units.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

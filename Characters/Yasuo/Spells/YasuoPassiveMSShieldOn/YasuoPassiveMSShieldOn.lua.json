@@ -1,0 +1,16 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "JannaForecast"
+    },
+    "SpellFXOverrideSkins": {
+        "1": "YasuoSkin02"
+    },
+    "BuffName": "YasuoPassiveMSShieldOn",
+    "NotSingleTargetSpell": false,
+    "BuffTextureName": "Yasuo_Passive.dds",
+    "AutoBuffActivateEvent": "DeathsCaress_buf.troy",
+    "DoOnPreDamageInExpirationOrder": true,
+    "IsDamagingSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "OnPreDamagePriority": 3.0
+}

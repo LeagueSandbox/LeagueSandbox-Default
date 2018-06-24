@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_ItemMonsterRegen"
+            "DynamicTooltip": "<titleLeft>Regenerating</titleLeft><mainText>You are regaining health and mana each second while under attack from neutral monsters.</mainText>"
         }
     }
 }

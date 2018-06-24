@@ -1,0 +1,11 @@
+{
+    "BuffName": "RengarQEmp",
+    "AutoBuffActivateEffect": "Rengar_Base_Q_Buf_Blade.troy",
+    "NotSingleTargetSpell": true,
+    "BuffTextureName": "RengarQReg.dds",
+    "AutoBuffActivateAttachBoneName": "Weapon",
+    "AutoBuffActivateEffect2": "Rengar_Base_Q_Buf_Claw.troy",
+    "AutoBuffActivateAttachBoneName2": "L_Buffbone_Glb_Hand_Loc",
+    "DoesntTriggerSpellCasts": false,
+    "CastingBreaksStealth": false
+}

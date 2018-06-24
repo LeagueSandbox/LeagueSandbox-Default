@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_HecarimPassive"
+            "DynamicTooltip": "<titleLeft>Warpath</titleLeft><mainText>Hecarim can move through units and gains Attack Damage equal to @f2@% of his bonus Movement Speed.<br><br><font color='#99FF99'>Current Attack Damage Bonus: @f1@</font></mainText>"
         }
     }
 }

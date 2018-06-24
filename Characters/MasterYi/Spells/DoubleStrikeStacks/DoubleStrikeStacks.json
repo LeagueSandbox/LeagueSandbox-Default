@@ -1,0 +1,14 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "DoubleStrikeStacks",
+        "Name": "DoubleStrikeStacks",
+        "ResourcePath": "DATA/Characters/MasterYi/Spells/DoubleStrikeStacks.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Double Strike</titleLeft><mainText>Every 4th attack, Master Yi will double strike.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
+            "ShowInTrackerUI": 1
+        }
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "DoesntBreakShields": true,
+    "IsDamagingSpell": true,
+    "SpellFXOverrideSkins": {
+        "1": "Renekton_VolcanoGod"
+    }
+}

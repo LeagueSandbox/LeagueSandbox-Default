@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_FizzMalison"
+            "DynamicTooltip": "<titleLeft>Seastone Trident</titleLeft><mainText>Fizz's basic attack has rended this target, causing it to take Magic Damage based on its missing Health.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

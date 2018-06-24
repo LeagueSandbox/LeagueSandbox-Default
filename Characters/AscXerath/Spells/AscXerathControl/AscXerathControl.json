@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "AscXerathControl",
+        "Name": "AscXerathControl",
+        "ResourcePath": "DATA/Characters/AscXerath/Spells/AscXerathControl.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Ancient Ascendant</titleLeft><mainText>Xerath reduces incoming damage by @f1@%.<br>Xerath is inedible and cannot be killed by Consume or Feast.<br><br><i><font color='#FDD017'>''I am the will of man unbound by flesh.''</font></i></mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

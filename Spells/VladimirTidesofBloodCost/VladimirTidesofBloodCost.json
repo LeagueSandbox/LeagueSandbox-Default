@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_VladimirTidesofBloodCost",
+            "DynamicTooltip": "<titleLeft>Tides of Blood: Empowered</titleLeft><mainText>Each stack increases Vladimir's healing and regeneration by @f1@%. Tides of Blood cost and damage increases by 25% per stack (Max 100%).</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
             "ShowInTrackerUI": 1
         }
     }

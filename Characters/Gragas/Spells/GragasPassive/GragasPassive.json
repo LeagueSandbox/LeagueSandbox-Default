@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "GragasPassive",
+        "Name": "GragasPassive",
+        "ResourcePath": "DATA/Characters/Gragas/Spells/GragasPassive.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Happy Hour</titleLeft><mainText>Gragas gains <font color='#CC3300'>@f1@</font> Health (4% of his maximum Health) when he casts a spell. This effect can only occur once every 8 seconds.</mainText>"
+        }
+    }
+}

@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Shen_Shadow_Dash"
+            "DynamicTooltip": "<titleLeft>Shadow Dash</titleLeft><mainText>Shen takes reduced damage while taunting enemies.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

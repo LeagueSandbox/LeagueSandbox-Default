@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "GnarWProc",
+        "Name": "GnarWProc",
+        "ResourcePath": "DATA/Characters/Gnar/Spells/GnarWProc.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Hyper</titleLeft><mainText>If Gnar hits this unit three times he will deal bonus damage.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_TreelineLanternReveal"
+            "DynamicTooltip": "<titleLeft>Revealed</titleLeft><mainText>Standing on enemy Altars reveals your position!</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

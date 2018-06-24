@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_FizzChurnTheWatersCling"
+            "DynamicTooltip": "<titleLeft>Swim Swim Swim, Hungry</titleLeft><mainText>A cute little fish circles your champion - It may be attracting Sharks.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

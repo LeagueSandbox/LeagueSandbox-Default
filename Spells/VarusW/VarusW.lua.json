@@ -1,0 +1,16 @@
+{
+    "PersistsThroughDeath": true,
+    "BuffName": "VarusW",
+    "CastingBreaksStealth": true,
+    "BuffTextureName": "VarusW.dds",
+    "DoesntBreakShields": true,
+    "SpellFXOverrideSkins": {
+        "1": "VarusAscended",
+        "2": "VarusSkin03"
+    },
+    "IsDeathRecapSource": true,
+    "SpellToggleSlot": 2.0,
+    "IsDamagingSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "NotSingleTargetSpell": false
+}

@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "RengarBushSpeedBonus",
+        "Name": "RengarBushSpeedBonus",
+        "ResourcePath": "DATA/Characters/Rengar/Spells/RengarBushSpeedBonus.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Hunter's Domain</titleLeft><mainText>This unit has increased Movement Speed.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

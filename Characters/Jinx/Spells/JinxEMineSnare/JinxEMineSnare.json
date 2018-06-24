@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "JinxEMineSnare",
+        "Name": "JinxEMineSnare",
+        "ResourcePath": "DATA/Characters/Jinx/Spells/JinxEMineSnare.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Gotcha!</titleLeft><mainText>This unit has been immobilized by a Flame Chomper and is almost certainly on fire.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

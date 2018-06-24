@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "ViWProc",
+        "Name": "ViWProc",
+        "ResourcePath": "DATA/Characters/Vi/Spells/ViWProc.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Denting Blows</titleLeft><mainText>If Vi hits this unit three times she will deal bonus damage and reduce its Armor.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

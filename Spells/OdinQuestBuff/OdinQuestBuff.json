@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_OdinQuestBuff"
+            "DynamicTooltip": "<titleLeft>Mark of the Conqueror</titleLeft><mainText>For completing a quest, this unit gains 10% increased damage.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

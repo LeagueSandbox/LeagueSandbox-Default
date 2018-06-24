@@ -1,0 +1,10 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "BloodkingVladimir"
+    },
+    "DoesntBreakShields": true,
+    "SpellFXOverrideSkins": {
+        "1": "BloodkingVladimir",
+        "2": "VladimirSkin06"
+    }
+}

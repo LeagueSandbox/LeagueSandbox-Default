@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_LuluQSlow"
+            "DynamicTooltip": "<titleLeft>Glittertrance</titleLeft><mainText>This unit's Movement Speed is heavily reduced but they will recover over time.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_ShyvanaScorchedEarth",
+            "DynamicTooltip": "<titleLeft>Burnout</titleLeft><mainText>Shyvana's Movement Speed is increased and nearby enemies take damage over time.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
             "ShowInTrackerUI": 1
         }
     }

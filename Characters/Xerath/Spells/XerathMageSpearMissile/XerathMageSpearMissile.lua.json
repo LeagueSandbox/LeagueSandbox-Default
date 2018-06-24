@@ -1,0 +1,10 @@
+{
+    "SpellToggleSlot": 1.0,
+    "DoesntBreakShields": true,
+    "IsDamagingSpell": true,
+    "BuffName": "XerathMageSpear",
+    "BuffTextureName": "Xerath_E.dds",
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": true,
+    "CastingBreaksStealth": true
+}

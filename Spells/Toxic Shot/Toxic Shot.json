@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Toxic_Shot"
+            "DynamicTooltip": "<titleLeft>Toxic Shot</titleLeft><mainText>This unit is poisoned, receiving damage each second.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

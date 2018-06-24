@@ -1,0 +1,8 @@
+{
+    "AutoBuffActivateAttachBoneName": "R_Hand",
+    "BuffName": "TwitchAmbushBuff",
+    "AutoBuffActivateEffect": "Twitch_Base_Q_Buff_Hands.troy",
+    "AutoBuffActivateAttachBoneName2": "L_Hand",
+    "BuffTextureName": "Twitch_Q_Buff.dds",
+    "AutoBuffActivateEffect2": "Twitch_Base_Q_Buff_Hands.troy"
+}

@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_ExaltedwithBaronNashor"
+            "DynamicTooltip": "<titleLeft>Exalted with Baron Nashor</titleLeft><mainText>This champion has increased Attack Damage, Ability Power, Mana regeneration, and Health regeneration.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

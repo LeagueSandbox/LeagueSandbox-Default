@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "QuinnW_Cosmetic",
+        "Name": "QuinnW_Cosmetic",
+        "ResourcePath": "DATA/Characters/Quinn/Spells/QuinnW_Cosmetic.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Harrier</titleLeft><mainText>Valor has marked this target as Vulnerable, increasing the damage of Quinn's next attack against it.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

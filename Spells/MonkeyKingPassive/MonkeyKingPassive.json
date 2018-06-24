@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_MonkeyKingPassive"
+            "DynamicTooltip": "<titleLeft>Stone Skin</titleLeft><mainText>Wukong's Armor and Magic Resistance are increased by @f1@ for each nearby enemy champion.</mainText>"
         }
     }
 }

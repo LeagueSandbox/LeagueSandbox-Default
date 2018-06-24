@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_ItemFrozenFist",
+            "DynamicTooltip": "<titleLeft>SpellBlade</titleLeft><mainText>The next basic attack will deal damage in an area around the target and create a slow zone.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
             "ShowInTrackerUI": 1
         }
     }

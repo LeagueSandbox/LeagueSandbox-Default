@@ -1,0 +1,9 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "SpecialForcesGangplank"
+    },
+    "IsDamagingSpell": true,
+    "CastingBreaksStealth": true,
+    "DoesntTriggerSpellCasts": true,
+    "NotSingleTargetSpell": true
+}

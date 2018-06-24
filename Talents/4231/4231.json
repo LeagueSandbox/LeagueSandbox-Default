@@ -1,15 +1,15 @@
 {
     "MetaData": {
         "ContentFormatVersion": 4,
-        "Id": "4231",
-        "Name": "4231",
+        "Id": 4231,
+        "Name": "Oppression",
         "ResourcePath": "DATA/Talents/4231.inibin"
     },
     "Values": {
         "SpellData": {
             "InventoryIcon": "311.dds",
-            "Level1Desc": "game_mastery_level1desc_4231",
-            "Name": "game_mastery_displayname_4231",
+            "Level1Desc": "Reduces damage taken by 3% from enemies that have impaired movement (slows, snares, taunts, stuns, etc.)",
+            "Name": "Oppression",
             "Ranks": 1
         }
     }

@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_ItemRunicAegisFriend"
+            "DynamicTooltip": "<titleLeft>Legion Aura - Bulwark</titleLeft><mainText>This unit has increased Armor, Magic Resistance, and Health Regeneration.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

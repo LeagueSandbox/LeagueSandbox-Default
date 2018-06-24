@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "AzirRHaste",
+        "Name": "AzirRHaste",
+        "ResourcePath": "DATA/Characters/Azir/Spells/AzirRHaste.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Emperor's Divide</titleLeft><mainText>This unit has increased Movement Speed after passing through Emperor's Divide.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

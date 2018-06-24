@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_ForceofNature"
+            "DynamicTooltip": "<titleLeft>Force of Nature</titleLeft><mainText>This unit regenerates 0.35% of their Maximum Health every second.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "CassiopeiaNoxiousBlastHaste",
+        "Name": "CassiopeiaNoxiousBlastHaste",
+        "ResourcePath": "DATA/Characters/Cassiopeia/Spells/CassiopeiaNoxiousBlastHaste.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Noxious Blast: Haste</titleLeft><mainText>Cassiopeia's Movement Speed is increased.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

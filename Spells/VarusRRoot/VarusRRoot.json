@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_VarusRRoot"
+            "DynamicTooltip": "<titleLeft>Chain of Corruption</titleLeft><mainText>Bound in place by Varus.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

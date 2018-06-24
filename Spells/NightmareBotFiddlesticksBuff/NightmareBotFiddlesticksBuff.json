@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_NightmareBotFiddlesticksBuff"
+            "DynamicTooltip": "<titleLeft>Doom Fiddlesticks</titleLeft><mainText>Doom Fiddlesticks' abilities have fragmented to become even more terrifying, and the his ghosts could be anywhere nearby where you have no vision, waiting to Crowstorm from the darkness.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

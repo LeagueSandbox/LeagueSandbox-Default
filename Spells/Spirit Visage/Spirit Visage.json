@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Spirit_Visage"
+            "DynamicTooltip": "<titleLeft>Spirit Visage</titleLeft><mainText>If this unit is below @Effect3Amount*100@% Health, it will regenerate @Effect4Amount*100@% of their Health every second.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

@@ -1,0 +1,14 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "LubuJarvanIV"
+    },
+    "SpellFXOverrideSkins": {
+        "1": "LubuJarvanIV"
+    },
+    "IsDamagingSpell": true,
+    "TriggersSpellCasts": true,
+    "CastTime": 0.4,
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "BuffTextureName": "JarvanIV_DragonStrike.dds"
+}

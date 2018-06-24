@@ -1,0 +1,14 @@
+{
+    "AutoCooldownByLevel": {
+        "1": 44.0,
+        "2": 38.0,
+        "3": 30.0,
+        "4": 22.0,
+        "5": 14.0
+    },
+    "BuffName": "Spell Shield",
+    "AutoBuffActivateEffect": "SpellBlock_eff.troy",
+    "NotSingleTargetSpell": true,
+    "BuffTextureName": "Summoner_boost.dds",
+    "DoesntTriggerSpellCasts": false
+}

@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_PowerFistSlow"
+            "DynamicTooltip": "<titleLeft>Power Fist</titleLeft><mainText>This unit is airborne.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "ZacRebirthCooldown",
+        "Name": "ZacRebirthCooldown",
+        "ResourcePath": "DATA/Characters/Zac/Spells/ZacRebirthCooldown.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Cell Division Cooldown</titleLeft><mainText>Zac has recently cell divided, and cannot revive himself.</mainText>"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "BuffName": "KennenLightningRush",
+    "AutoBuffActivateEffect": "",
+    "CastingBreaksStealth": true,
+    "BuffTextureName": "Kennen_LightningRush.dds",
+    "DoesntBreakShields": false,
+    "SpellToggleSlot": 3.0,
+    "IsDamagingSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "NotSingleTargetSpell": true
+}

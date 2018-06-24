@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_BladeWeaving"
+            "DynamicTooltip": "<titleLeft>Blade Weaving</titleLeft><mainText>This unit has increased Basic Attack Damage</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

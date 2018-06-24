@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_TurretFortification"
+            "DynamicTooltip": "<titleLeft>Fortification</titleLeft><mainText>Turrets are fortified with bonus Armor and Magic Resist. Minions can remove this bonus.</mainText>"
         }
     }
 }

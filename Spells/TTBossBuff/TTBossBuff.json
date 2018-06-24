@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_TTBossBuff"
+            "DynamicTooltip": "<titleLeft>Crest of Crushing Wrath</titleLeft><mainText>This unit's Health and Mana are regenerating, and this champion has increased Attack Speed and Cooldown Reduction.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

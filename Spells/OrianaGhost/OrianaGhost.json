@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_OrianaGhost"
+            "DynamicTooltip": "<titleLeft>Watchful Guardian</titleLeft><mainText>This champion is being watched over by the Ball, gaining additional defenses.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

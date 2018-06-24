@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_NautilusMinorKnockUp"
+            "DynamicTooltip": "<titleLeft>Depth Charge</titleLeft><mainText>This unit has been struck by Nautilus and has been knocked into the air briefly.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

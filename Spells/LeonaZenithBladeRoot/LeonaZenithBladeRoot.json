@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_LeonaZenithBladeRoot"
+            "DynamicTooltip": "<titleLeft>Zenith Blade: Immobilized</titleLeft><mainText>This unit has been immobilized.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

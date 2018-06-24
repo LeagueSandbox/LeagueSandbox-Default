@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "Explosive Shot Debuff",
+        "Name": "Explosive Shot Debuff",
+        "ResourcePath": "DATA/Characters/Tristana/Spells/Explosive Shot Debuff.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Explosive Shot</titleLeft><mainText>This unit is being damaged over time.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

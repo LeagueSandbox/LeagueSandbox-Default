@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_ItemStatikkShank"
+            "DynamicTooltip": "<titleLeft>Statikk Shiv</titleLeft><mainText>This unit is charging up damage for its next attack.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

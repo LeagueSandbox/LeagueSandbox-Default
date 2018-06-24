@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Destiny_Marker",
+            "DynamicTooltip": "<titleLeft>Destiny</titleLeft><mainText>Twisted Fate can see all enemy champions and can teleport to any location on the map.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
             "ShowInTrackerUI": 1
         }
     }

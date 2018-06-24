@@ -1,15 +1,15 @@
 {
     "MetaData": {
         "ContentFormatVersion": 4,
-        "Id": "4314",
-        "Name": "4314",
+        "Id": 4314,
+        "Name": "Scout",
         "ResourcePath": "DATA/Talents/4314.inibin"
     },
     "Values": {
         "SpellData": {
             "InventoryIcon": "732.dds",
-            "Level1Desc": "game_mastery_level1desc_4314",
-            "Name": "game_mastery_displayname_4314",
+            "Level1Desc": "Increases the cast range of trinket items by 15%",
+            "Name": "Scout",
             "Ranks": 1
         }
     }

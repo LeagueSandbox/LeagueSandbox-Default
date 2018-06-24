@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "ThreshPassivesoulsGainOver",
+        "Name": "ThreshPassivesoulsGainOver",
+        "ResourcePath": "DATA/Characters/Thresh/Spells/ThreshPassivesoulsGainOver.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Soul Glutton</titleLeft><mainText>Thresh's desire for souls is boundless. He continues to gain Armor and Ability Power for each additional soul.<br><br>Thresh has harvested @f1@ souls.</mainText>"
+        }
+    }
+}

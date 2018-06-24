@@ -1,0 +1,5 @@
+{
+    "PersistsThroughDeath": true,
+    "BuffName": "KalistaPassiveBuff",
+    "BuffTextureName": "Kalista_Passive.dds"
+}

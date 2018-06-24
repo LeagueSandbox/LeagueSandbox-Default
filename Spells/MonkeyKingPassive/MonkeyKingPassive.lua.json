@@ -1,0 +1,6 @@
+{
+    "NonDispellable": true,
+    "PersistsThroughDeath": true,
+    "BuffName": "MonkeyKingPassive",
+    "BuffTextureName": "Cassiopeia_PetrifyingGaze.dds"
+}

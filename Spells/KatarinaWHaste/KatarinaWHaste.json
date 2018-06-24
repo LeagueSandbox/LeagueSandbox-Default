@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_KatarinaWHaste"
+            "DynamicTooltip": "<titleLeft>Sinister Steel</titleLeft><mainText>Katarina has increased Movement Speed.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

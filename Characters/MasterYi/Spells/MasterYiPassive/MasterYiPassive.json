@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "MasterYiPassive",
+        "Name": "MasterYiPassive",
+        "ResourcePath": "DATA/Characters/MasterYi/Spells/MasterYiPassive.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Double Strike</titleLeft><mainText>Every 4th consecutive basic attack, Master Yi strikes twice (The second strike deals 50% damage).</mainText>"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "MaokaiStun",
+        "Name": "MaokaiStun",
+        "ResourcePath": "DATA/Characters/Maokai/Spells/MaokaiStun.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Arcane Smash</titleLeft><mainText>Maokai is knocking this unit away.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

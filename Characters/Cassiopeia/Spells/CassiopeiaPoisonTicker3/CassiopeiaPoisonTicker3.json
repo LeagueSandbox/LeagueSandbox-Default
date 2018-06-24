@@ -1,0 +1,14 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "CassiopeiaPoisonTicker3",
+        "Name": "CassiopeiaPoisonTicker3",
+        "ResourcePath": "DATA/Characters/Cassiopeia/Spells/CassiopeiaPoisonTicker3.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Aspect of the Serpent</titleLeft><mainText>Cassiopeia gains permanent bonuses for repeatedly poisoning her enemies:<br><br>\tAbility Power Bonus: @f3@% <font color='#99FF99'>(@f4@)</font>.<br><br>\tWhen Cassiopeia hits an enemy with Twin Fang, she heals for <font color='#FFFFFF'>@f5@</font> <font color='#99FF99'>(+@f6@).</font><br><br>\tCassiopeia gains @f7@% cooldown reduction.<br><br>This passive upgrades again at @f8@ stacks.</mainText>",
+            "ShowInTrackerUI": 1
+        }
+    }
+}

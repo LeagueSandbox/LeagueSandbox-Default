@@ -1,0 +1,14 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "maokaidrain",
+        "Name": "maokaidrain",
+        "ResourcePath": "DATA/Characters/Maokai/Spells/maokaidrain.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Vengeful Maelstrom</titleLeft><mainText>Maokai is draining energy from hostile attacks.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
+            "ShowInTrackerUI": 1
+        }
+    }
+}

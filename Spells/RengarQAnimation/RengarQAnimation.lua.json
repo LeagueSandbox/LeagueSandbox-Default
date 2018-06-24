@@ -1,0 +1,8 @@
+{
+    "AutoBuffActivateAttachBoneName": "R_Hand",
+    "BuffName": "RengarQBuff",
+    "AutoBuffActivateEffect": "talon_Q_on_hit_ready_01.troy",
+    "AutoBuffActivateAttachBoneName2": "L_Hand",
+    "BuffTextureName": "RengarQ.dds",
+    "AutoBuffActivateEffect2": "talon_Q_on_hit_ready_01.troy"
+}

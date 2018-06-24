@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "Battle Fury",
+        "Name": "Battle Fury",
+        "ResourcePath": "DATA/Characters/Tryndamere/Spells/Battle Fury.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Battle Fury</titleLeft><mainText>Tryndamere gains 5 Fury for striking a unit or 10 Fury for a critical strike, and 10 extra Fury for killing a unit. After 8 seconds of being out of combat, Tryndamere loses 5 Fury every second.<br><br>Each point of Fury grants +0.35% Critical Chance.<br><br>Current bonus Critical Chance: <font color='#99FF99'>@f1@</font>%</mainText>"
+        }
+    }
+}

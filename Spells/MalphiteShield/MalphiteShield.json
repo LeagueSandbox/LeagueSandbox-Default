@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_MalphiteShield",
+            "DynamicTooltip": "<titleLeft>Granite Shield</titleLeft><mainText>Each time Malphite doesn't take damage for <font color='#FFFFFF'>@f2@</font> seconds, he summons a shield of rock that absorbs <font color='#CC3300'>@f1@</font> (10% of his maximum Health) damage.</mainText>",
             "FloatStaticsDecimals1": 2,
             "FloatStaticsDecimals2": 2,
             "FloatStaticsDecimals3": 2,

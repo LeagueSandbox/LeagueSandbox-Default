@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Fear"
+            "DynamicTooltip": "<titleLeft>Fear</titleLeft><mainText>This unit is running around aimlessly in panic. It ignores all orders.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

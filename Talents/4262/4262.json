@@ -1,15 +1,15 @@
 {
     "MetaData": {
         "ContentFormatVersion": 4,
-        "Id": "4262",
-        "Name": "4262",
+        "Id": 4262,
+        "Name": "Tenacious",
         "ResourcePath": "DATA/Talents/4262.inibin"
     },
     "Values": {
         "SpellData": {
             "InventoryIcon": "642.dds",
-            "Level1Desc": "game_mastery_level1desc_4262",
-            "Name": "game_mastery_displayname_4262",
+            "Level1Desc": "Reduces the duration of crowd control effects by 15%",
+            "Name": "Tenacious",
             "Ranks": 1
         }
     }

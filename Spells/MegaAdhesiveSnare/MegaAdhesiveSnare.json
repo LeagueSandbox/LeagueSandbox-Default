@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_MegaAdhesiveSnare"
+            "DynamicTooltip": "<titleLeft>Stuck</titleLeft><mainText>This Unit is rooted.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

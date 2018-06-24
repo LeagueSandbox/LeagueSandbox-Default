@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_TalonDamageAmp"
+            "DynamicTooltip": "<titleLeft>Surprise</titleLeft><mainText>This unit is taking increased damage from Talon.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

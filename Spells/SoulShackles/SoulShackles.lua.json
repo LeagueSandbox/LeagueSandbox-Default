@@ -1,0 +1,12 @@
+{
+    "AutoCooldownByLevel": {
+        "1": 80.0,
+        "2": 80.0,
+        "3": 80.0
+    },
+    "IsDamagingSpell": true,
+    "BuffName": "Soul Shackles",
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "BuffTextureName": "FallenAngel_Purgatory.dds"
+}

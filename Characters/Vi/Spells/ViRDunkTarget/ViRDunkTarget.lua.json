@@ -1,0 +1,8 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "ViRacer"
+    },
+    "PersistsThroughDeath": true,
+    "BuffName": "ViRTarget",
+    "BuffTextureName": "ViR.dds"
+}

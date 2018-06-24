@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Malphite_Shield_Cooldown",
+            "DynamicTooltip": "<titleLeft>Granite Shield Cooldown</titleLeft><mainText>Granite Shield is rebuilding.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
             "FloatStaticsDecimals1": 2,
             "FloatStaticsDecimals2": 2,
             "FloatStaticsDecimals3": 2,

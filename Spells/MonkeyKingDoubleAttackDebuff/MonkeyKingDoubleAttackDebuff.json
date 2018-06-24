@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_MonkeyKingDoubleAttackDebuff"
+            "DynamicTooltip": "<titleLeft>Crushing Blow</titleLeft><mainText>This unit's Armor has been reduced.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

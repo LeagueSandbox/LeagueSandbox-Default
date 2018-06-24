@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_OrianaPowerDagger"
+            "DynamicTooltip": "<titleLeft>Clockwork Winding</titleLeft><mainText>Orianna's autoattack are empowered when attacking the same target repeatedly.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

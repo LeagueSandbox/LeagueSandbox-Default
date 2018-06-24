@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_TreelineMasterBuffT0Hexakill"
+            "DynamicTooltip": "<titleLeft>No Altars (Hexakill)</titleLeft><mainText>Capture Altars to increase your power!<br><br><font color='#FF9900'>0 Altars Controlled</font><br> +Bonus Mana Regeneration<br><font color='#505050'> Minions spawn with +@f1@% Health and Damage<br> +10% Bonus Attack Damage<br> +10% Ability Power</font></mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

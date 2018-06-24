@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "BaronDebuff",
+        "Name": "BaronDebuff",
+        "ResourcePath": "DATA/Characters/SRU_Baron/Spells/BaronDebuff.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Voracious Corrosion</titleLeft><mainText>This unit has @f1@ reduced Armor and Magic resistance (-0.5 per stack).</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

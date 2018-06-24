@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_SeismicShardBuff"
+            "DynamicTooltip": "<titleLeft>Seismic Shard Slow</titleLeft><mainText>Malphite has stolen this unit's Movement Speed.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

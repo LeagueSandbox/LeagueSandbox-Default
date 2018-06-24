@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "SorakaEPacify",
+        "Name": "SorakaEPacify",
+        "ResourcePath": "DATA/Characters/Soraka/Spells/SorakaEPacify.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Equinox</titleLeft><mainText>This unit is silenced.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

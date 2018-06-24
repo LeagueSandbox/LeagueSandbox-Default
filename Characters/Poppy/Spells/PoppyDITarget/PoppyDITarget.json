@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "PoppyDITarget",
+        "Name": "PoppyDITarget",
+        "ResourcePath": "DATA/Characters/Poppy/Spells/PoppyDITarget.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Diplomatic Immunity Target</titleLeft><mainText>This unit is the only person who can harm Poppy.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

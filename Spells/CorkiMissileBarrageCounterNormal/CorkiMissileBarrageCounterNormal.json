@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_CorkiMissileBarrageCounterNormal",
+            "DynamicTooltip": "<titleLeft>Missiles Fired @Stack@</titleLeft><mainText>Corki is building toward a Big One.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
             "ShowInTrackerUI": 1
         }
     }

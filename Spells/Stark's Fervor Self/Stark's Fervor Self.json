@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Stark's_Fervor_Self"
+            "DynamicTooltip": "<titleLeft>Zeke's Herald Aura</titleLeft><mainText>Nearby friendly champions have increased Attack Damage and Lifesteal.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_AkaliTwilightShroud"
+            "DynamicTooltip": "<titleLeft>Twilight Shroud</titleLeft><mainText>Akali is invisible.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

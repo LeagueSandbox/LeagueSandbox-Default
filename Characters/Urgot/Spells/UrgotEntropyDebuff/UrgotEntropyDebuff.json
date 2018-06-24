@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "UrgotEntropyDebuff",
+        "Name": "UrgotEntropyDebuff",
+        "ResourcePath": "DATA/Characters/Urgot/Spells/UrgotEntropyDebuff.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Zaun-Touched Bolt Augmenter</titleLeft><mainText>This unit deals 15% less damage for 2.5 seconds.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

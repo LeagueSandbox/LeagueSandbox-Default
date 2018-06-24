@@ -1,0 +1,8 @@
+{
+    "DoesntBreakShields": true,
+    "IsDamagingSpell": true,
+    "IsDeathRecapSource": true,
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": true,
+    "SpellDamageRatio": 1.0
+}

@@ -1,0 +1,63 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "XerathRMissileWrapper",
+        "Name": "Rite of the Arcane",
+        "ResourcePath": "DATA/Characters/Xerath/Spells/XerathRMissileWrapper.inibin"
+    },
+    "Values": {
+        "SpellData": {
+            "AlternateName": "XerathLocusOfPower2",
+            "AnimationName": "Attack1",
+            "CantCancelWhileWindingUp": 1,
+            "CastFrame": 0,
+            "CastRadius1": 175,
+            "CastRadius2": 200,
+            "CastRadius3": 225,
+            "CastRange": 25000,
+            "CastType": 0,
+            "Coefficient": 0.43,
+            "Cooldown": 0.6,
+            "Description": "Xerath immobilizes himself and gains three shots of a long-range attack.",
+            "DisplayName": "Rite of the Arcane",
+            "DoesntBreakChannels": 1,
+            "DynamicExtended": "<postScriptTitle>Next Level - click to level-up or press [@LevelUpHotkey@].</postScriptTitle><postScriptLeft>Damage<br>Range<br>Cooldown</postScriptLeft><postScriptRight>@Effect3Amount@ -> @Effect3AmountNL@<br>@Effect5Amount@ -> @Effect5AmountNL@<br>@Cooldown@ -> @CooldownNL@</postScriptRight>",
+            "DynamicTooltip": "<titleLeft>Rite of the Arcane (@Level@)</titleLeft><titleRight>[@Hotkey@]</titleRight><subtitleLeft>@Cost@ Mana</subtitleLeft><subtitleRight>@Cooldown@ sec Cooldown</subtitleRight><mainText>Xerath ascends to his true form, becoming rooted in place and gaining @Effect2Amount@ Arcane Barrages. This magic artillery deals @Effect3Amount@ <font color='#99FF99'>(+@CharAbilityPower@)</font> magic damage to all enemies hit.<br><br>The root ends after @Effect1Amount@ seconds, when all shots have been fired or when manually deactivated by issuing a move command. If Xerath does not fire off a single Arcane Barrage, half of the cooldown of Rite of the Arcane is refunded.</mainText>",
+            "Effect1Level0Amount": 10,
+            "Effect1Level1Amount": 10,
+            "Effect1Level2Amount": 10,
+            "Effect1Level3Amount": 10,
+            "Effect2Level0Amount": 3,
+            "Effect2Level1Amount": 3,
+            "Effect2Level2Amount": 3,
+            "Effect2Level3Amount": 3,
+            "Effect3Level0Amount": 190,
+            "Effect3Level1Amount": 190,
+            "Effect3Level2Amount": 245,
+            "Effect3Level3Amount": 300,
+            "Effect4Level0Amount": 190,
+            "Effect4Level1Amount": 190,
+            "Effect4Level2Amount": 190,
+            "Effect4Level3Amount": 190,
+            "Effect5Level0Amount": 3200,
+            "Effect5Level1Amount": 3200,
+            "Effect5Level2Amount": 4400,
+            "Effect5Level3Amount": 5600,
+            "Flags": 115748,
+            "InventoryIcon": "Xerath_R1.dds",
+            "ManaCost1": 0,
+            "ManaCost2": 0,
+            "ManaCost3": 0,
+            "ManaCost4": 0,
+            "ManaCost5": 0,
+            "NumSpellTargeters": 1,
+            "OverrideCastTime": 0,
+            "TargettingType": 2,
+            "UseAnimatorFramerate": 0,
+            "UseMinimapTargeting": 1
+        },
+        "SpellTargeter1": {
+            "DrawableType": "AOE"
+        }
+    }
+}

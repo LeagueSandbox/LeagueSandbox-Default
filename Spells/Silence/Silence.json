@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Silence"
+            "DynamicTooltip": "<titleLeft>Silence</titleLeft><mainText>This unit cannot use Abilities.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

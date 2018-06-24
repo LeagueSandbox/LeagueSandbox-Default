@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_KennenMarkOfStorm"
+            "DynamicTooltip": "<titleLeft>Mark of the Storm (@Stack@)</titleLeft><mainText> This unit will be stunned if it reaches 3 stacks of Mark of the Storm.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

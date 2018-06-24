@@ -1,0 +1,6 @@
+{
+    "AutoBuffActivateEffect": "Rengar_MS_Buff.troy",
+    "AutoBuffActivateAttachBoneName": "BUFFBONE_GLB_GROUND_LOC",
+    "BuffName": "RengarBushSpeedBonus",
+    "BuffTextureName": "RengarW.dds"
+}

@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "ViWMarker",
+        "Name": "ViWMarker",
+        "ResourcePath": "DATA/Characters/Vi/Spells/ViWMarker.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Denting Blows</titleLeft><mainText>Vi's punches dent her target's Armor.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

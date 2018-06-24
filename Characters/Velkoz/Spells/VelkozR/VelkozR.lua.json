@@ -1,0 +1,17 @@
+{
+    "AutoCooldownByLevel": {
+        "1": 12.0,
+        "2": 11.0,
+        "3": 10.0,
+        "4": 9.0,
+        "5": 8.0
+    },
+    "IsDamagingSpell": true,
+    "SpellFXOverrideSkins": {
+        "1": "VelkozSkin01"
+    },
+    "BuffName": "VelkozR",
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "BuffTextureName": "Velkoz_R.dds"
+}

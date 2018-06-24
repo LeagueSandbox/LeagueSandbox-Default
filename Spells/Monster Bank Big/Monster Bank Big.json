@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Monster_Bank_Big"
+            "DynamicTooltip": "<titleLeft>Bountiful Treasure</titleLeft><mainText>This unit has accumulated its maximum experience and gold reward.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

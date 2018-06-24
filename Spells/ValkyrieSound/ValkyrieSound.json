@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_ValkyrieSound"
+            "DynamicTooltip": "<titleLeft>Valkyrie</titleLeft><mainText>Corki takes to the sky, leaving a trail of destruction in his wake.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

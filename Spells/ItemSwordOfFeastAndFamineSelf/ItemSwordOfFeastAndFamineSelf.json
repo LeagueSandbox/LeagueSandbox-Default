@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_BladeOfTheRuinedKingSelf"
+            "DynamicTooltip": "<titleLeft>Blade of the Ruined King</titleLeft><mainText>This unit's movement is increased.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

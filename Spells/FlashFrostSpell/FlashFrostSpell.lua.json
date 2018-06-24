@@ -1,0 +1,13 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "BlackIceAnivia"
+    },
+    "BuffName": "Flash Frost",
+    "CastingBreaksStealth": true,
+    "BuffTextureName": "Cryophoenix_FrigidOrb.dds",
+    "DoesntBreakShields": true,
+    "SpellToggleSlot": 1.0,
+    "IsDamagingSpell": true,
+    "DoesntTriggerSpellCasts": true,
+    "NotSingleTargetSpell": true
+}

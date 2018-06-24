@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_NautilusMinorKnockAway"
+            "DynamicTooltip": "<titleLeft>Dragged Away</titleLeft><mainText>This unit is has been struck by Nautilus' anchor and cannot move.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

@@ -1,0 +1,6 @@
+{
+    "NonDispellable": true,
+    "PersistsThroughDeath": true,
+    "BuffName": "DoubleStrikeStacks",
+    "BuffTextureName": "MasterYi_Passive2.dds"
+}

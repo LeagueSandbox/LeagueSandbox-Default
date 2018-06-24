@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_ItemSmitePlayerStacked"
+            "DynamicTooltip": "<titleLeft>Unchained Heart</titleLeft><mainText>Your Smite can target champions.</mainText>"
         }
     }
 }

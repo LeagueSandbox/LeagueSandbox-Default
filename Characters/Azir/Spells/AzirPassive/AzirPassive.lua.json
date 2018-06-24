@@ -1,0 +1,10 @@
+{
+    "PersistsThroughDeath": true,
+    "IsDamagingSpell": true,
+    "SpellFXOverrideSkins": {
+        "1": "CyberEzreal"
+    },
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "BuffName": "AzirPassive"
+}

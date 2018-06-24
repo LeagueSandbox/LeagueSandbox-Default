@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_KennenLightningRushBuff"
+            "DynamicTooltip": "<titleLeft>Lightning Rush</titleLeft><mainText> Kennen has @f1@ bonus Armor and Magic Resist.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

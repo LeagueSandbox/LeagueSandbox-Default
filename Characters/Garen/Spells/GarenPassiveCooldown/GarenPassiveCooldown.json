@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "GarenPassiveCooldown",
+        "Name": "GarenPassiveCooldown",
+        "ResourcePath": "DATA/Characters/Garen/Spells/GarenPassiveCooldown.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Perseverance Inactive</titleLeft><mainText>Garen has taken damage recently and Perseverance is on cooldown.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

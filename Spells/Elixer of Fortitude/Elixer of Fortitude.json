@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Elixer_of_Fortitude"
+            "DynamicTooltip": "<titleLeft>Elixir of Fortitude</titleLeft><mainText>This unit has massively increased Health and Attack Damage.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "SejuaniFrostArctic",
+        "Name": "SejuaniFrostArctic",
+        "ResourcePath": "DATA/Characters/Sejuani/Spells/SejuaniFrostArctic.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Permafrost</titleLeft><mainText>Sejuani has slowed this unit's Movement Speed.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

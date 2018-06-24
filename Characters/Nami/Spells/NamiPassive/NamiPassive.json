@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "NamiPassive",
+        "Name": "NamiPassive",
+        "ResourcePath": "DATA/Characters/Nami/Spells/NamiPassive.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Surging Tides</titleLeft><mainText>When Nami's abilities hit allied champions, they gain 40 <font color='#99FF99'>(+@f1@)</font> Movement Speed for 1.5 seconds.</mainText>"
+        }
+    }
+}

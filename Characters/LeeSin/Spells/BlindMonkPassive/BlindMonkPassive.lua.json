@@ -1,0 +1,8 @@
+{
+    "AutoBuffActivateAttachBoneName": "L_hand",
+    "BuffName": "BlindMonkFlurry",
+    "AutoBuffActivateEffect": "blindMonk_passive_buf.troy",
+    "AutoBuffActivateAttachBoneName2": "R_hand",
+    "BuffTextureName": "BlindMonkPassive.dds",
+    "AutoBuffActivateEffect2": "blindMonk_passive_buf.troy"
+}

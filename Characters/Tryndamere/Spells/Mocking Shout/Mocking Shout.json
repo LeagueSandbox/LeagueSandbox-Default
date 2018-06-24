@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "Mocking Shout",
+        "Name": "Mocking Shout",
+        "ResourcePath": "DATA/Characters/Tryndamere/Spells/Mocking Shout.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Mocking Shout</titleLeft><mainText>This unit is quivering in fear and has reduced Attack Damage.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

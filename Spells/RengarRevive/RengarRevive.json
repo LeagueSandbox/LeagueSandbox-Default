@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_RengarReviveBuff"
+            "DynamicTooltip": "<titleLeft>Soul Anchor</titleLeft><mainText> This unit may consume a charge of Soul Anchor to instantly revive at their summoner platform. </mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

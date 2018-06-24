@@ -1,0 +1,5 @@
+{
+    "AutoBuffActivateEffect": "GLOBAL_SLOW.TROY",
+    "BuffName": "DariusSlow",
+    "BuffTextureName": "Darius_Icon_Hamstring.dds"
+}

@@ -1,0 +1,18 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "KhazixDroid"
+    },
+    "PersistsThroughDeath": true,
+    "BuffName": "KhazixREvo",
+    "AutoBuffActivateEffect": "Khazix_Stealth_Evolved_Texture.troy",
+    "CastingBreaksStealth": true,
+    "BuffTextureName": "Khazix_R_red.dds",
+    "DoesntBreakShields": false,
+    "SpellFXOverrideSkins": {
+        "1": "KhazixDroid",
+        "2": "KhazixSkin02"
+    },
+    "IsDamagingSpell": true,
+    "DoesntTriggerSpellCasts": true,
+    "NotSingleTargetSpell": true
+}

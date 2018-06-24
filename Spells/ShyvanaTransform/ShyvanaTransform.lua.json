@@ -1,0 +1,9 @@
+{
+    "DoesntBreakShields": true,
+    "IsDamagingSpell": true,
+    "BuffName": "ShyvanaTransform",
+    "BuffTextureName": "ShyvanaDragonsDescent.dds",
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "CastingBreaksStealth": true
+}

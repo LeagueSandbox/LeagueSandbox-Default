@@ -1,0 +1,10 @@
+{
+    "DoesntBreakShields": false,
+    "IsDamagingSpell": true,
+    "SpellFXOverrideSkins": {
+        "1": "XmasKatarina"
+    },
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "SpellDamageRatio": 1.0
+}

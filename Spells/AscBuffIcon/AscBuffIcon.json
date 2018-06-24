@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_AscBuff"
+            "DynamicTooltip": "<titleLeft>Ascension</titleLeft><mainText>This champion has ascended!<br>Mana and Energy consumption reduced by 100%<br>Health costs on abilities reduced by 50%<br>+@f1@ Health<br>+@f2@ Attack Damage<br>+@f3@ Ability Power<br>+@f4@% Armor Penetration<br>+@f4@% Magic Penetration<br>+25% Cooldown Reduction<br><br>Incoming healing and regeneration effects are reduced by 50%.<br>Always visible while Ascended, even while stealthed or in brush.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

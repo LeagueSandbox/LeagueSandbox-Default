@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Shen_Destabilize"
+            "DynamicTooltip": "<titleLeft>Destabilize</titleLeft><mainText>This unit's armor is reduced, and damage taken heals the attacker.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

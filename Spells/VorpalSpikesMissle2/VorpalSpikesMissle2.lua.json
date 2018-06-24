@@ -1,0 +1,10 @@
+{
+    "DoesntBreakShields": true,
+    "IsDamagingSpell": true,
+    "SpellFXOverrideSkins": {
+        "1": "BattlecastChogath"
+    },
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": true,
+    "IsDeathRecapSource": true
+}

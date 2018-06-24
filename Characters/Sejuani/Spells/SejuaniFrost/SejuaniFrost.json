@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "SejuaniFrost",
+        "Name": "SejuaniFrost",
+        "ResourcePath": "DATA/Characters/Sejuani/Spells/SejuaniFrost.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Frost</titleLeft><mainText>This unit will be affected by Sejuani's Permafrost when it is cast.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

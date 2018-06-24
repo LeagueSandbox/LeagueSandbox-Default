@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_ItemGhostWardCharge"
+            "DynamicTooltip": "<titleLeft>Sightstone Ward</titleLeft><mainText>Ghost Ward is available.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Rageblade"
+            "DynamicTooltip": "<titleLeft>Rageblade @Stack@</titleLeft><mainText>This unit has increased Attack Speed and Ability Power.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

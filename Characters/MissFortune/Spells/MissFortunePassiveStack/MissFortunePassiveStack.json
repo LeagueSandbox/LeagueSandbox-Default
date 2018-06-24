@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "MissFortunePassiveStack",
+        "Name": "MissFortunePassiveStack",
+        "ResourcePath": "DATA/Characters/MissFortune/Spells/MissFortunePassiveStack.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Impure Shots </titleLeft><mainText>This unit is currently taking increased damage from attacks made by Miss Fortune. Future attacks from her increase the strength of this effect.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

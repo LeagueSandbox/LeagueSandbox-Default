@@ -1,0 +1,14 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "HecarimArcade"
+    },
+    "DoesntBreakShields": true,
+    "BuffName": "HecarimW",
+    "TriggersSpellCasts": true,
+    "SpellFXOverrideSkins": {
+        "1": "HecarimArcade"
+    },
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "BuffTextureName": "Hecarim_SpiritofDread.dds"
+}

@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Wrath_of_the_Ancients"
+            "DynamicTooltip": "<titleLeft>Wrath of the Ancients</titleLeft><mainText>This unit is taking increased Magical Damage.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

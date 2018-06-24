@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_MaladySpell"
+            "DynamicTooltip": "<titleLeft>Wit's End (@Stack@)</titleLeft><mainText>This unit's magic resistance is lowered by @f1@.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

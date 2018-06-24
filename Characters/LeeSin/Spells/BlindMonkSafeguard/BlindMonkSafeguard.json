@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "BlindMonkSafeguard",
+        "Name": "BlindMonkSafeguard",
+        "ResourcePath": "DATA/Characters/LeeSin/Spells/BlindMonkSafeguard.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Safeguard</titleLeft><mainText>Absorbs the next @f1@ damage taken.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

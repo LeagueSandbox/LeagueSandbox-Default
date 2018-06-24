@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_MasteryRunicShield"
+            "DynamicTooltip": "<titleLeft>Runic Blessing</titleLeft><mainText>Absorbs @f1@ incoming damage</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

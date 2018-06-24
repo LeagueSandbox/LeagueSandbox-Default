@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "SorakaESnare",
+        "Name": "SorakaESnare",
+        "ResourcePath": "DATA/Characters/Soraka/Spells/SorakaESnare.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Equinox</titleLeft><mainText>This unit is rooted and cannot move.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "SejuaniPassive",
+        "Name": "SejuaniPassive",
+        "ResourcePath": "DATA/Characters/Sejuani/Spells/SejuaniPassive.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Frost Armor</titleLeft><mainText>Damaging an enemy with an ability or basic attack grants @f1@ Armor and reduces movement-slowing effects on Sejuani by @f1@% for 2 seconds. If Sejuani already has Frost Armor its duration increases by 2 seconds.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

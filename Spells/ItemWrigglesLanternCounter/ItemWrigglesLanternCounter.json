@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_ItemWrigglesLanternCounter"
+            "DynamicTooltip": "<titleLeft>Unleashing the Feral Flare</titleLeft><mainText>The Feral Flare will break free of the lantern upon reaching 30 kills or assists of champions and kills of large monsters. </mainText>"
         }
     }
 }

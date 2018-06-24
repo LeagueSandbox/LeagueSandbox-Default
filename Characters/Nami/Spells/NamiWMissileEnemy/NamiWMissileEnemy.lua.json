@@ -1,0 +1,11 @@
+{
+    "DoesntBreakShields": false,
+    "IsDamagingSpell": true,
+    "SpellFXOverrideSkins": {
+        "1": "SurprisePartyFiddlesticks"
+    },
+    "PersistsThroughDeath": true,
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "SpellDamageRatio": 1.0
+}

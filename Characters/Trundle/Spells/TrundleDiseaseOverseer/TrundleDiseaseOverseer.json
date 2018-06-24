@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "TrundleDiseaseOverseer",
+        "Name": "TrundleDiseaseOverseer",
+        "ResourcePath": "DATA/Characters/Trundle/Spells/TrundleDiseaseOverseer.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>King's Tribute</titleLeft><mainText>When an enemy unit dies near Trundle, he heals for @f2@% of its maximum Health.</mainText>"
+        }
+    }
+}

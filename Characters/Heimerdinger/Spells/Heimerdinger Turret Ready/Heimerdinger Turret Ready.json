@@ -1,0 +1,14 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "Heimerdinger Turret Ready",
+        "Name": "Heimerdinger Turret Ready",
+        "ResourcePath": "DATA/Characters/Heimerdinger/Spells/Heimerdinger Turret Ready.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>H-28G Evolution Turret Stockpile</titleLeft><mainText>The number of turret kits at Heimerdinger's disposal. </mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
+            "ShowInTrackerUI": 1
+        }
+    }
+}

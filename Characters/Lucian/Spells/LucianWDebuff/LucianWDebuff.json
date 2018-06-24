@@ -1,0 +1,17 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "LucianWDebuff",
+        "Name": "LucianWDebuff",
+        "ResourcePath": "DATA/Characters/Lucian/Spells/LucianWDebuff.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Ardent Blaze</titleLeft><mainText>This unit has been marked with Ardent Blaze. Lucian gains Movement Speed for damaging this unit.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        },
+        "SpellData": {
+            "AlternateName": "LucianW",
+            "InventoryIcon": "Lucian_W.dds"
+        }
+    }
+}

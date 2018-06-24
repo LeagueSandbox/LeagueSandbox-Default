@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_S5_AspectOfTheDragon"
+            "DynamicTooltip": "<titleLeft>Aspect of the Dragon</titleLeft><mainText>All dragon bonuses are doubled. Slaying Dragon again will reactivate Aspect of the Dragon.</mainText><postScriptLeft>Source: Granted when killing 5 or more Dragons</postScriptLeft>"
         }
     }
 }

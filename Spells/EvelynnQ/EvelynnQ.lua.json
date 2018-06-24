@@ -1,0 +1,9 @@
+{
+    "DoesntBreakShields": true,
+    "IsDamagingSpell": true,
+    "TriggersSpellCasts": true,
+    "BuffName": "Rapid Fire",
+    "CastingBreaksStealth": true,
+    "DoesntTriggerSpellCasts": false,
+    "BuffTextureName": "Tristana_headshot.dds"
+}

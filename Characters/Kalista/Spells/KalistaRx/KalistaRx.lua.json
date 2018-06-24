@@ -1,0 +1,23 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "BroOlaf"
+    },
+    "PersistsThroughDeath": true,
+    "BuffName": "KalistaRx",
+    "AutoBuffActivateAttachBoneName4": "R_BUFFBONE_GLB_HAND_LOC",
+    "AutoBuffActivateEffect3": "olaf_ragnorok_buff.troy",
+    "CastingBreaksStealth": true,
+    "BuffTextureName": "Kalista_R.dds",
+    "AutoBuffActivateAttachBoneName3": "L_BUFFBONE_GLB_HAND_LOC",
+    "DoesntBreakShields": true,
+    "IsDeathRecapSource": true,
+    "AutoCooldownByLevel": {
+        "1": 120.0,
+        "2": 120.0,
+        "3": 120.0
+    },
+    "AutoBuffActivateEffect4": "olaf_ragnorok_buff.troy",
+    "IsDamagingSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "NotSingleTargetSpell": true
+}

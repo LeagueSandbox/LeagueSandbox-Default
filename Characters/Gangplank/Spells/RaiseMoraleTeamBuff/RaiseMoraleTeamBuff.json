@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "RaiseMoraleTeamBuff",
+        "Name": "RaiseMoraleTeamBuff",
+        "ResourcePath": "DATA/Characters/Gangplank/Spells/RaiseMoraleTeamBuff.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Raise Morale</titleLeft><mainText>This unit's Attack Damage and Movement Speed are greatly increased.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_KennenDoubleStrikeLive",
+            "DynamicTooltip": "<titleLeft>Electrical Surge</titleLeft><mainText>Kennen's next attack will deal bonus damage and add a Mark of the Storm.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
             "ShowInTrackerUI": 1
         }
     }

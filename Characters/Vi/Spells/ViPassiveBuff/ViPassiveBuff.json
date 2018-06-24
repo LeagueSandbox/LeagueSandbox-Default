@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "ViPassiveBuff",
+        "Name": "ViPassiveBuff",
+        "ResourcePath": "DATA/Characters/Vi/Spells/ViPassiveBuff.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Blast Shield</titleLeft><mainText>Vi is shielding herself.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

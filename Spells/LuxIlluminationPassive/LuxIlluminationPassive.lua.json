@@ -1,0 +1,8 @@
+{
+    "DoesntBreakShields": false,
+    "BuffName": "LuxIlluminationPassive",
+    "NonDispellable": true,
+    "PersistsThroughDeath": true,
+    "BuffTextureName": "LuxIlluminatingFraulein.dds",
+    "DoesntTriggerSpellCasts": true
+}

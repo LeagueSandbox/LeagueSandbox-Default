@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_AlZaharSummonVoidlingBuff",
+            "DynamicTooltip": "<titleLeft>Summon Voidling</titleLeft><mainText>Every 4 spell casts, Malzahar summons a Voidling.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
             "ShowInTrackerUI": 1
         }
     }

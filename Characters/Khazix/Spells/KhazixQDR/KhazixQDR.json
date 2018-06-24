@@ -1,0 +1,21 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "KhazixQDR",
+        "Name": "Taste Their Fear (Isolated)",
+        "ResourcePath": "DATA/Characters/Khazix/Spells/KhazixQDR.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Taste Their Fear (Isolated)</titleLeft><mainText>Taste Their Fear deals bonus damage to targets isolated away from their allies.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        },
+        "SpellData": {
+            "AlternateName": "KhazixQDR",
+            "Description": "Taste Their Fear deals bonus damage to targets isolated away from their allies.",
+            "DisplayName": "Taste Their Fear (Isolated)",
+            "DynamicExtended": "",
+            "DynamicTooltip": "",
+            "InventoryIcon": "Khazix_Q.dds"
+        }
+    }
+}

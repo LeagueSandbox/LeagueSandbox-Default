@@ -1,0 +1,8 @@
+{
+    "DoesntBreakShields": false,
+    "IsDamagingSpell": false,
+    "BuffTextureName": "Armordillo_ScaledPlating.dds",
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "CastingBreaksStealth": true
+}

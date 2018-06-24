@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_SadismHeal"
+            "DynamicTooltip": "<titleLeft>Sadism Heal</titleLeft><mainText>Dr. Mundo is healed for a large portion of his maximum Health every second.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

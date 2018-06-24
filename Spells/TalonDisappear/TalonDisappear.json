@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_TalonDisappear",
+            "DynamicTooltip": "<titleLeft>Disappear</titleLeft><mainText>This unit is invisible and has increased Movement Speed.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
             "ShowInTrackerUI": 1
         }
     }

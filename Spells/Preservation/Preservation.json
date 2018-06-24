@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Preservation"
+            "DynamicTooltip": "<titleLeft>Preservation</titleLeft><mainText>This unit has bonus Health. This bonus persists through death.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "NamiRVision",
+        "Name": "NamiRVision",
+        "ResourcePath": "DATA/Characters/Nami/Spells/NamiRVision.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Revealed</titleLeft><mainText>This unit has stepped on a seed and is being briefly revealed to Zyra's team.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

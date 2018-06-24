@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_LuluEBurn"
+            "DynamicTooltip": "<titleLeft>Pix's ''Assistance''</titleLeft><mainText>Pix is following this unit, revealing this unit to his allies and being generally annoying.<br><br><font color='#EEEE99'>Hey! Listen!</font></mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

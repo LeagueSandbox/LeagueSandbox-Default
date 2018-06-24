@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_VayneInquisitionStealth"
+            "DynamicTooltip": "<titleLeft>Invisibility</titleLeft><mainText>Vayne is invisible.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

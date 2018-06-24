@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Shen_Stand_United_Target"
+            "DynamicTooltip": "<titleLeft>Stand United</titleLeft><mainText>Shen is teleporting to this unit's aid.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

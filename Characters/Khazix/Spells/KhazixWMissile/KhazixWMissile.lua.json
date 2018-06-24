@@ -1,0 +1,10 @@
+{
+    "DoesntBreakShields": true,
+    "BuffName": "KhazixWMissile",
+    "SpellFXOverrideSkins": {
+        "1": "KhazixDroid",
+        "2": "KhazixSkin02"
+    },
+    "BuffTextureName": "GreenTerror_ChitinousExoplates.dds",
+    "DoesntTriggerSpellCasts": true
+}

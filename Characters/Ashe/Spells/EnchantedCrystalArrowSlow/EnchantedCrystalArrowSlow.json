@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "EnchantedCrystalArrowSlow",
+        "Name": "EnchantedCrystalArrowSlow",
+        "ResourcePath": "DATA/Characters/Ashe/Spells/EnchantedCrystalArrowSlow.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Chilled</titleLeft><mainText>This unit has reduced Movement Speed and Attack Speed.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

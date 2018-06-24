@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_MurderBridgeBuff"
+            "DynamicTooltip": "<titleLeft>Proving Grounds Aura</titleLeft><mainText>This unit has:<br>     Increased Mana Regeneration<br>     Gains Experience Passively<br>     20% Reduced Healing Effects</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

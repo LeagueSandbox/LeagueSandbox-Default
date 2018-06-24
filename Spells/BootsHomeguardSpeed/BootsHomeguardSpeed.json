@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_BootsHomeguardSpeed"
+            "DynamicTooltip": "<titleLeft>Homeguard</titleLeft><mainText>This unit has greatly increased Movement Speed that decays over a moderate amount of time.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

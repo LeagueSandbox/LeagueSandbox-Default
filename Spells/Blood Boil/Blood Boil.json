@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Blood_Boil"
+            "DynamicTooltip": "<titleLeft>Blood Boil</titleLeft><mainText>This unit's Attack and Movement Speeds are increased.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

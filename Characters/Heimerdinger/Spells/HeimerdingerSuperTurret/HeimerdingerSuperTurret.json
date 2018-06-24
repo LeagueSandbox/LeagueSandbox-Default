@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "HeimerdingerSuperTurret",
+        "Name": "HeimerdingerSuperTurret",
+        "ResourcePath": "DATA/Characters/Heimerdinger/Spells/HeimerdingerSuperTurret.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>H-28Q Apex Turret</titleLeft><mainText>Heimerdinger's Apex Turret is operational. It charges beams twice as fast, slows targets, has immunity to crowd control, has bonus health and damage, and its attacks have area of effect.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

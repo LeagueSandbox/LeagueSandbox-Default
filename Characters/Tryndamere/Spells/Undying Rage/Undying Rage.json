@@ -1,0 +1,14 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "Undying Rage",
+        "Name": "Undying Rage",
+        "ResourcePath": "DATA/Characters/Tryndamere/Spells/Undying Rage.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Undying Rage</titleLeft><mainText>Tryndamere's Health cannot be reduced below 1.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
+            "ShowInTrackerUI": 1
+        }
+    }
+}

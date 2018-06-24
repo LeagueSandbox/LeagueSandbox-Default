@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_GravesSmokeCloud"
+            "DynamicTooltip": "<titleLeft>Smoke Screen</titleLeft><mainText>This unit has reduced Movement Speed.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

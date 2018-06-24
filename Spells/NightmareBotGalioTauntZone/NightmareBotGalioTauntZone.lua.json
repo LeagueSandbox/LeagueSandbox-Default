@@ -1,0 +1,10 @@
+{
+    "DoesntBreakShields": true,
+    "IsDamagingSpell": true,
+    "SpellFXOverrideSkins": {
+        "1": "BadSantaVeigar"
+    },
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "CastingBreaksStealth": true
+}

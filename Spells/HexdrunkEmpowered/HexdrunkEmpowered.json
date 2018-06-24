@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_HexdrunkEmpowered"
+            "DynamicTooltip": "<titleLeft>Empowered</titleLeft><mainText>The blade is absorbing magical damage.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

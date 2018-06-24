@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_RapidReload"
+            "DynamicTooltip": "<titleLeft>Hextech Shrapnel Shells</titleLeft><mainText>Corki's basic attacks deal additional true damage equal to 10% of his total Attack Damage (does not affect structures).</mainText>"
         }
     }
 }

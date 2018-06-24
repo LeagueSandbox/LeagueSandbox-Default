@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Soul_Shroud_Aura_Friend"
+            "DynamicTooltip": "<titleLeft>Soul Shroud Aura</titleLeft><mainText>Nearby friendly champions have reduced cooldowns and regenerate mana more quickly.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

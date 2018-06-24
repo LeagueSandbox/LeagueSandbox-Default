@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_JudicatorHolyFervor"
+            "DynamicTooltip": "<titleLeft>Holy Fervor</titleLeft><mainText>When Kayle attacks a champion, the target loses 3% Armor and Magic Resistance for 5 seconds. This effect stacks up to 5 times. </mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

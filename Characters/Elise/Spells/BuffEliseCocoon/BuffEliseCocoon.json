@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "BuffEliseCocoon",
+        "Name": "BuffEliseCocoon",
+        "ResourcePath": "DATA/Characters/Elise/Spells/BuffEliseCocoon.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Cocoon</titleLeft><mainText>This unit is wrapped in a web and is unable to move.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

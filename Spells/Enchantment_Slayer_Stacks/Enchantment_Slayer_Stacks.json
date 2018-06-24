@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Enchantment_Slayer_Stacks"
+            "DynamicTooltip": "<titleLeft>Devouring</titleLeft><mainText>This unit's attacks are empowered by killing Monsters and Champions. Basic attacks deal <font color='#DF73FF'>@f1@</font> bonus magic damage.</mainText>"
         }
     }
 }

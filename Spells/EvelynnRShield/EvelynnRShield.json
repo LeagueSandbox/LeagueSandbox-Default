@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_EvelynnRShield"
+            "DynamicTooltip": "<titleLeft>Sated</titleLeft><mainText>Evelynn is being shielded.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

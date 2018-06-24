@@ -1,0 +1,5 @@
+{
+    "BuffName": "ItemLightBringerBleed",
+    "BuffTextureName": "3185_Lightbringer.dds",
+    "DoesntTriggerSpellCasts": true
+}

@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "Wall of Pain",
+        "Name": "Wall of Pain",
+        "ResourcePath": "DATA/Characters/Karthus/Spells/Wall of Pain.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Wall of Pain</titleLeft><mainText>This unit's Magic Resist is reduced.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

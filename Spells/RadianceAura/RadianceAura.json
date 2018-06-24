@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_RadianceAura"
+            "DynamicTooltip": "<titleLeft>Radiance</titleLeft><mainText>This unit has increased Attack Damage and Ability Power.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

@@ -1,0 +1,9 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "GnarSkin01"
+    },
+    "IsDamagingSpell": true,
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": true,
+    "BuffName": "GnarBigQMissile"
+}

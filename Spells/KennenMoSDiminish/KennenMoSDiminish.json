@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_KennenMoSDiminish"
+            "DynamicTooltip": "<titleLeft>Diminished Mark</titleLeft><mainText>This unit will receive a reduced stun effect if stunned by Kennen again.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

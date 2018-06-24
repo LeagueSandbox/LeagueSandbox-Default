@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_MissileBarrageCheck"
+            "DynamicTooltip": "<titleLeft>Missile Barrage Ammo @Stack@</titleLeft><mainText>Corki can use his Missile Barrage.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

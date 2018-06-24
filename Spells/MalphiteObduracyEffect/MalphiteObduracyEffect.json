@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_MalphiteObduracyEffect"
+            "DynamicTooltip": "<titleLeft>Granite Shield</titleLeft><mainText>Malphite is surrounded by a wall of stone, absorbing incoming damage.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

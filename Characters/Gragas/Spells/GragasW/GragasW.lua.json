@@ -1,0 +1,17 @@
+{
+    "BuffName": "GragasDrunkenRage",
+    "AutoBuffActivateEffect": "Gragas_Base_W_Buf_Hands.troy",
+    "NotSingleTargetSpell": true,
+    "BuffTextureName": "GragasDrunkenRage.dds",
+    "AutoBuffActivateAttachBoneName": "L_BUFFBONE_GLB_HAND_LOC",
+    "AutoCooldownByLevel": {
+        "1": 50.0,
+        "2": 50.0,
+        "3": 50.0,
+        "4": 50.0,
+        "5": 50.0
+    },
+    "AutoBuffActivateEffect2": "Gragas_Base_W_Buf_Hands.troy",
+    "DoesntTriggerSpellCasts": false,
+    "AutoBuffActivateAttachBoneName2": "R_BUFFBONE_GLB_HAND_LOC"
+}

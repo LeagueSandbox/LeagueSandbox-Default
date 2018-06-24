@@ -1,0 +1,10 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "Draven_SoulReaper"
+    },
+    "IsDamagingSpell": true,
+    "BuffName": "ViRDunkTarget",
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "BuffTextureName": "ViR.dds"
+}

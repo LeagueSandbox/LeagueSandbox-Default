@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "SionRSlow",
+        "Name": "SionRSlow",
+        "ResourcePath": "DATA/Characters/Sion/Spells/SionRSlow.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Unstoppable Onslaught</titleLeft><mainText>This unit has reduced Movement Speed.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

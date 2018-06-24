@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_ItemVoidSpeed"
+            "DynamicTooltip": "<titleLeft>Point Runner</titleLeft><mainText>This unit has increased movement speed around turrets.</mainText>"
         }
     }
 }

@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_JudicatorHolyFervorDebuff"
+            "DynamicTooltip": "<titleLeft>Holy Fervor</titleLeft><mainText>This target has reduced Armor and Magic Resistance. </mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

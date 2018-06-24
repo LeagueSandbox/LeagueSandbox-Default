@@ -1,0 +1,11 @@
+{
+    "BuffName": "CaitlynYordleTrapSight",
+    "AutoBuffActivateEffect": "global_Watched.troy",
+    "CastingBreaksStealth": false,
+    "BuffTextureName": "Caitlyn_YordleSnapTrap.dds",
+    "AutoBuffActivateAttachBoneName": "C_BUFFBONE_GLB_HEAD_LOC",
+    "DoesntBreakShields": false,
+    "IsDamagingSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "NotSingleTargetSpell": false
+}

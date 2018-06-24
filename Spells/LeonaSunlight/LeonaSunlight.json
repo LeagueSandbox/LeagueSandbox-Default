@@ -2,16 +2,16 @@
     "MetaData": {
         "ContentFormatVersion": 4,
         "Id": "LeonaSunlight",
-        "Name": "LeonaSunlight",
+        "Name": "Sunlight",
         "ResourcePath": "DATA/Spells/LeonaSunlight.inibin"
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_LeonaSunlight"
+            "DynamicTooltip": "<titleLeft>Sunlight</titleLeft><mainText>You are marked by Leona. Leona's allies will deal additional magic damage upon striking you.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         },
         "SpellData": {
-            "Description": "game_spell_description_LeonaSunlight",
-            "DisplayName": "game_spell_displayname_LeonaSunlight",
+            "Description": "Leona's spells afflict enemies with Sunlight for a short duration. When allied Champions deal damage to those enemies, they consume the Sunlight debuff to deal bonus magic damage.",
+            "DisplayName": "Sunlight",
             "DynamicExtended": "game_spell_levelup_LeonaSunlight",
             "DynamicTooltip": "game_spell_tooltip_LeonaSunlight",
             "InventoryIcon": "LeonaSunlight.dds"

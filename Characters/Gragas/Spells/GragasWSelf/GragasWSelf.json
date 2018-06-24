@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "GragasWSelf",
+        "Name": "GragasWSelf",
+        "ResourcePath": "DATA/Characters/Gragas/Spells/GragasWSelf.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Drunken Bliss</titleLeft><mainText>Gragas takes reduced damage.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

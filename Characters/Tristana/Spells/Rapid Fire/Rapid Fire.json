@@ -1,0 +1,14 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "Rapid Fire",
+        "Name": "Rapid Fire",
+        "ResourcePath": "DATA/Characters/Tristana/Spells/Rapid Fire.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Rapid Fire</titleLeft><mainText>Tristana's Attack Speed is greatly increased.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
+            "ShowInTrackerUI": 1
+        }
+    }
+}

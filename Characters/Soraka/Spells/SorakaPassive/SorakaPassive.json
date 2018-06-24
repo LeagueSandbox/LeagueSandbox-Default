@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "SorakaPassive",
+        "Name": "SorakaPassive",
+        "ResourcePath": "DATA/Characters/Soraka/Spells/SorakaPassive.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Salvation</titleLeft><mainText>Soraka has increased Movement Speed.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

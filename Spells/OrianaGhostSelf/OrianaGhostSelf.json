@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_OrianaGhostSelf"
+            "DynamicTooltip": "<titleLeft>The Ball</titleLeft><mainText>Orianna currently possesses the Ball.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

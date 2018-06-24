@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "GnarTransformTired",
+        "Name": "GnarTransformTired",
+        "ResourcePath": "DATA/Characters/Gnar/Spells/GnarTransformTired.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Tired</titleLeft><mainText>Gnar is tired after raging out recently and is unable to generate Rage.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

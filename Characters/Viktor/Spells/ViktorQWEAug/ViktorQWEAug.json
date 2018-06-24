@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "ViktorQWEAug",
+        "Name": "ViktorQWEAug",
+        "ResourcePath": "DATA/Characters/Viktor/Spells/ViktorQWEAug.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Glorious Evolution</titleLeft><mainText>Viktor has augmented his abilities:<br><br><font color='#FFCC00'>Siphon Power: Viktor gains 30% Movement Speed upon cast.<br>Gravity Field: Units stunned are dragged back to the center.<br>Death Ray: An explosion follows the Death Ray's wake.<br>Chaos Storm: Moves 20% faster.</font></mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

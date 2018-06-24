@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Infinite_Duress"
+            "DynamicTooltip": "<titleLeft>Infinite Duress</titleLeft><mainText>This unit is helpless before Warwick's savage assault and can take no actions.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

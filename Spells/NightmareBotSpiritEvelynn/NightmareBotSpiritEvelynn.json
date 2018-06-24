@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_NightmareBotSpiritEvelynn"
+            "DynamicTooltip": "<titleLeft>Bonus Doom: Shadow Walk</titleLeft><mainText>When out of combat for a short time, this champion enters stealth only being able to be seen by enemy champions within range.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

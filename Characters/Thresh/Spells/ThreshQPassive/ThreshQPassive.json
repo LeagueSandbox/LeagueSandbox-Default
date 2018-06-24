@@ -1,0 +1,25 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "ThreshQPassive",
+        "Name": "Flay",
+        "ResourcePath": "DATA/Characters/Thresh/Spells/ThreshQPassive.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Flay</titleLeft><mainText>Thresh's next basic attack deals bonus Magic Damage.</mainText>",
+            "ShowInTrackerUI": 1
+        },
+        "SpellData": {
+            "AlternateName": "ThreshQPassive",
+            "Description": "Thresh's next basic attack deals bonus Magic Damage.",
+            "DisplayName": "Flay",
+            "DynamicExtended": "",
+            "DynamicTooltip": "",
+            "FloatStaticsDecimals1": 0,
+            "FloatVarsDecimals1": 0,
+            "InventoryIcon": "Thresh_E0.dds",
+            "Version": 1
+        }
+    }
+}

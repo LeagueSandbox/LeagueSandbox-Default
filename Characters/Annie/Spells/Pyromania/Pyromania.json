@@ -1,0 +1,14 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "Pyromania",
+        "Name": "Pyromania",
+        "ResourcePath": "DATA/Characters/Annie/Spells/Pyromania.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Pyromania (@Stack@)</titleLeft><mainText>Annie is charging her spells. Her next spell will stun when she has charged 4 times.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
+            "ShowInTrackerUI": 1
+        }
+    }
+}

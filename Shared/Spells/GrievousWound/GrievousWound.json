@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "GrievousWound",
+        "Name": "GrievousWound",
+        "ResourcePath": "DATA/Shared/Spells/GrievousWound.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Grievous Wound</titleLeft><mainText>This unit receives reduced healing.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

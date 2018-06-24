@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_NocturneUmbraBlades"
+            "DynamicTooltip": "<titleLeft>Umbra Blades: Ready</titleLeft><mainText>Nocturne's next attack will strike surrounding enemies for 120% physical damage and heals himself for @f1@ per target hit.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

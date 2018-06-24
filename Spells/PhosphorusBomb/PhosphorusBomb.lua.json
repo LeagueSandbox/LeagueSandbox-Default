@@ -1,0 +1,11 @@
+{
+    "DoesntBreakShields": true,
+    "IsDamagingSpell": true,
+    "SpellFXOverrideSkins": {
+        "1": "FireworksCorki"
+    },
+    "SpellDamageRatio": 1.0,
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "CastingBreaksStealth": true
+}

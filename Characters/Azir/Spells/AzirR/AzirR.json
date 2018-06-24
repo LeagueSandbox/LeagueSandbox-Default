@@ -1,0 +1,73 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "AzirR",
+        "Name": "Emperor's Divide",
+        "ResourcePath": "DATA/Characters/Azir/Spells/AzirR.inibin"
+    },
+    "Values": {
+        "SpellData": {
+            "AnimationName": "Spell4",
+            "CantCancelWhileWindingUp": 1,
+            "CastFrame": 15,
+            "CastRange": 25000,
+            "CastRangeDisplayOverride": 250,
+            "CastType": 0,
+            "Coefficient": 0.6,
+            "Cooldown": 140.0,
+            "Cooldown1": 140.0,
+            "Cooldown2": 120.0,
+            "Cooldown3": 100.0,
+            "Description": "Azir summons a wall of soldiers which charge forward, knocking back and damaging enemies.",
+            "DisplayName": "Emperor's Divide",
+            "DynamicExtended": "<postScriptTitle>Next Level - click to level-up or press [Ctrl-@Hotkey@].</postScriptTitle><postScriptLeft>Damage<br>Number of Soldiers<br>Duration<br>Cooldown</postScriptLeft><postScriptRight>@Effect1Amount@ -> @Effect1AmountNL@<br>@Effect3Amount@ -> @Effect3AmountNL@<br>@Effect4Amount@ -> @Effect4AmountNL@<br>@Cooldown@ -> @CooldownNL@</postScriptRight>",
+            "DynamicTooltip": "<titleLeft>Emperor's Divide (@Level@)</titleLeft><titleRight>[@Hotkey@]</titleRight><subtitleLeft>@Cost@ Mana</subtitleLeft><subtitleRight>@Cooldown@ sec Cooldown</subtitleRight><mainText>Azir summons a wall of armored soldiers that charge forward, knocking back enemies and dealing @Effect1Amount@ <font color='#99FF99'>(+@CharAbilityPower@)</font> magic damage. The soldiers then remain as a wall for @Effect4Amount@ seconds.<br><br>Enemies will be stopped by Emperor's Divide, even if they attempt to dash over the wall, but <font color='#FFF673'>Azir and his allies can pass freely</font> and gain @Effect5Amount@% Movement Speed for 1 second when they pass through the wall.<br><br>Emperor's Divide does not interact with Azir's basic attacks or spells.</mainText>",
+            "Effect1Level0Amount": 150,
+            "Effect1Level1Amount": 150,
+            "Effect1Level2Amount": 225,
+            "Effect1Level3Amount": 300,
+            "Effect3Level0Amount": 4,
+            "Effect3Level1Amount": 4,
+            "Effect3Level2Amount": 5,
+            "Effect3Level3Amount": 6,
+            "Effect4Level0Amount": 5,
+            "Effect4Level1Amount": 5,
+            "Effect4Level2Amount": 6,
+            "Effect4Level3Amount": 7,
+            "Effect5Level0Amount": 20,
+            "Effect5Level1Amount": 20,
+            "Effect5Level2Amount": 20,
+            "Effect5Level3Amount": 20,
+            "Flags": 262144,
+            "FloatVarsDecimals1": 0,
+            "FloatVarsDecimals2": 0,
+            "InventoryIcon": "Azir_R.dds",
+            "ManaCost1": 100.0,
+            "ManaCost2": 100.0,
+            "ManaCost3": 100.0,
+            "NumSpellTargeters": 2,
+            "OverrideCastTime": 0.5,
+            "TargettingType": 2,
+            "UseAnimatorFramerate": 1
+        },
+        "SpellTargeter1": {
+            "DrawableType": "Wall",
+            "Thickness": 140
+        },
+        "SpellTargeter2": {
+            "DrawableType": "Line",
+            "LineStopsAtEndPosition": 1
+        },
+        "UNKNOWN_HASHES": {
+            "2174695187": 400,
+            "237757164": 580,
+            "237757165": 690,
+            "237757166": 800,
+            "2834774341": "Owner",
+            "480703709": 290,
+            "480703710": 345,
+            "480703711": 400,
+            "978728671": "MouseDir"
+        }
+    }
+}

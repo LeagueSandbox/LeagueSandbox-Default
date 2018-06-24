@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "OlafBerzerkerRage",
+        "Name": "OlafBerzerkerRage",
+        "ResourcePath": "DATA/Characters/Olaf/Spells/OlafBerzerkerRage.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Berserker Rage</titleLeft><mainText>Olaf's Attack Speed is increased by 1% for each 1% of Health missing. </mainText>"
+        }
+    }
+}

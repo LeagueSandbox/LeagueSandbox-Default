@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_ItemStatikShankCharge"
+            "DynamicTooltip": "<titleLeft>Statikk Shank</titleLeft><mainText>This unit is building up electric charge. When fully charged, this unit's next attack will deal additional magic damage to up to 4 enemies.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

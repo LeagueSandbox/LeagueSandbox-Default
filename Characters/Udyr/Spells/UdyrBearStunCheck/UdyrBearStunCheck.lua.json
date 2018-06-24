@@ -1,0 +1,8 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "SpiritUdyr"
+    },
+    "PersistsThroughDeath": true,
+    "BuffName": "UdyrBearStunCheck",
+    "BuffTextureName": "Udyr_BearStance.dds"
+}

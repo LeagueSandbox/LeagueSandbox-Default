@@ -1,15 +1,15 @@
 {
     "MetaData": {
         "ContentFormatVersion": 4,
-        "Id": "4151",
-        "Name": "4151",
+        "Id": 4151,
+        "Name": "Frenzy",
         "ResourcePath": "DATA/Talents/4151.inibin"
     },
     "Values": {
         "SpellData": {
             "InventoryIcon": "551.dds",
-            "Level1Desc": "game_mastery_level1desc_4151",
-            "Name": "game_mastery_displayname_4151",
+            "Level1Desc": "Critical hits grant +5% Attack Speed for 3 seconds (stacks up to 3 times)",
+            "Name": "Frenzy",
             "Ranks": 1
         }
     }

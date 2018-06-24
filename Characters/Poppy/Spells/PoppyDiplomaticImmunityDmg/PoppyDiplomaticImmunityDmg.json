@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "PoppyDiplomaticImmunityDmg",
+        "Name": "PoppyDiplomaticImmunityDmg",
+        "ResourcePath": "DATA/Characters/Poppy/Spells/PoppyDiplomaticImmunityDmg.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Diplomatic Damage</titleLeft><mainText>Poppy deals bonus damage to the target of her Diplomatic Immunity.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

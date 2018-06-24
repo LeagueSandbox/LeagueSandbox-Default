@@ -2,17 +2,17 @@
     "MetaData": {
         "ContentFormatVersion": 4,
         "Id": "BlessingoftheLizardElder",
-        "Name": "BlessingoftheLizardElder",
+        "Name": "Blessing of the Lizard Elder",
         "ResourcePath": "DATA/Spells/BlessingoftheLizardElder.inibin"
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_BlessingoftheLizardElder"
+            "DynamicTooltip": "<titleLeft>Crest of Cinders</titleLeft><mainText>This unit's basic attacks burn the target over several seconds, if held by a champion the target is also slowed. If the buff holder is slain, this buff is transferred to their killer.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         },
         "SpellData": {
             "AlternateName": "BlessingoftheLizardElder",
-            "Description": "game_spell_description_BlessingoftheLizardElder",
-            "DisplayName": "game_spell_displayname_BlessingoftheLizardElder",
+            "Description": "This unit's attacks slow the target and burn them over several seconds. If the buff holder is slain, this buff is transferred to their killer.",
+            "DisplayName": "Blessing of the Lizard Elder",
             "InventoryIcon": "48thSlave_WaveOfLoathing.dds"
         }
     }

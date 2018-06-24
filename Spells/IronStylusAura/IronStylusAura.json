@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_IronStylusAura"
+            "DynamicTooltip": "<titleLeft>Locket of the Iron Solari</titleLeft><mainText>This champion has increased health regeneration.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_SummonerOdinSabotage"
+            "DynamicTooltip": "<titleLeft>Sabotage</titleLeft><mainText>This unit has 50% reduced Damage.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

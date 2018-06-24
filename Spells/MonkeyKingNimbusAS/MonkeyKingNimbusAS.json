@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_MonkeyKingNimbusAS"
+            "DynamicTooltip": "<titleLeft>Nimbus Speed</titleLeft><mainText>Wukong has increased Attack Speed.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

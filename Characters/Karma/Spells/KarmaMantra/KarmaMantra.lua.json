@@ -1,0 +1,8 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "KarmaClassic"
+    },
+    "SpellToggleSlot": 4.0,
+    "BuffName": "KarmaMantra",
+    "BuffTextureName": "Karma_R.dds"
+}

@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_NightmareBotZyraBuff"
+            "DynamicTooltip": "<titleLeft>Doom Zyra</titleLeft><mainText>Doom Zyra’s Rampant Growth will spawn extra plantlife near enemy champions within range of her.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

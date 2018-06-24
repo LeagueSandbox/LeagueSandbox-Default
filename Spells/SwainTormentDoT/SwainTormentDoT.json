@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_SwainTormentDoT"
+            "DynamicTooltip": "<titleLeft>Tormented</titleLeft><mainText>This target takes increased damage from Swain.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

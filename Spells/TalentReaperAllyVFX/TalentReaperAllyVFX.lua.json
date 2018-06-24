@@ -1,0 +1,6 @@
+{
+    "NonDispellable": true,
+    "PersistsThroughDeath": true,
+    "BuffName": "TalentReaper",
+    "BuffTextureName": "551.dds"
+}

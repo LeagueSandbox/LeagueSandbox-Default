@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "RengarPassive",
+        "Name": "RengarPassive",
+        "ResourcePath": "DATA/Characters/Rengar/Spells/RengarPassive.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Unseen Predator</titleLeft><mainText><font color='#EDDA74'>Abilities used on enemies build Ferocity. At 5 Ferocity abilities become empowered and are available for use immediately. Once an empowered ability is used, Ferocity is reduced to 0.</font><br><br>While in brush or stealth Rengar leaps at an enemy when using his basic attack (@f1@ range).</font></mainText>"
+        }
+    }
+}

@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_FioraFlurryMS"
+            "DynamicTooltip": "<titleLeft>Burst of Speed: Movement Speed</titleLeft><mainText>Fiora has increased Movement Speed.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

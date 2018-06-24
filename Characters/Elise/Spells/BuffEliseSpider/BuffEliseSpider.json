@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "BuffEliseSpider",
+        "Name": "BuffEliseSpider",
+        "ResourcePath": "DATA/Characters/Elise/Spells/BuffEliseSpider.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Spider Swarm</titleLeft><mainText>Elise's spell casts in Human Form ready Spiderlings. When she shifts into Spider Form, Spiderlings are summoned and attack nearby foes.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

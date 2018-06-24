@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "ViPassiveReady",
+        "Name": "ViPassiveReady",
+        "ResourcePath": "DATA/Characters/Vi/Spells/ViPassiveReady.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Blast Shield</titleLeft><mainText>Vi's shield is charged and will activate the next time she lands an ability.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

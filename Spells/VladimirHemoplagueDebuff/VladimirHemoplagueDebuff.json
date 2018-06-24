@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_VladimirHemoplagueDebuff"
+            "DynamicTooltip": "<titleLeft>Hemoplague</titleLeft><mainText>This unit will take additional damage from all sources, and will detonate.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

@@ -1,0 +1,17 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "HeimerdingerUltEDummySpell",
+        "Name": "CH-3X Lightning Grenade",
+        "ResourcePath": "DATA/Characters/Heimerdinger/Spells/HeimerdingerUltEDummySpell.inibin"
+    },
+    "Values": {
+        "SpellData": {
+            "Description": "Heimerdinger UPGRADES!!! his CH-2 Electron Storm Grenade, lobbing a bouncing grenade that discharges three times. It slows for 80% and its slow and stun radiuses are larger.",
+            "DisplayName": "CH-3X Lightning Grenade",
+            "DynamicExtended": "game_spell_levelup_HeimerdingerUltEDummySpell",
+            "DynamicTooltip": "game_spell_tooltip_HeimerdingerUltEDummySpell",
+            "InventoryIcon": "Heimerdinger_E2.dds"
+        }
+    }
+}

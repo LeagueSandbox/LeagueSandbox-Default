@@ -1,0 +1,11 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "CyberEzreal"
+    },
+    "SpellFXOverrideSkins": {
+        "1": "CyberEzreal"
+    },
+    "IsDamagingSpell": true,
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": false
+}

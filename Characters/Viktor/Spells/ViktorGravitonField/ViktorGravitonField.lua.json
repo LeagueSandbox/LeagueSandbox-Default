@@ -1,0 +1,11 @@
+{
+    "PersistsThroughDeath": true,
+    "IsDamagingSpell": true,
+    "CastingBreaksStealth": true,
+    "DoesntBreakShields": true,
+    "IsDeathRecapSource": true,
+    "NonDispellable": true,
+    "SpellToggleSlot": 4.0,
+    "DoesntTriggerSpellCasts": false,
+    "NotSingleTargetSpell": true
+}

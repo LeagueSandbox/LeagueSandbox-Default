@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Noxious_Trap"
+            "DynamicTooltip": "<titleLeft>Noxious Trap</titleLeft><mainText>This trap will detonate if an enemy steps on it, poisoning nearby enemies.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

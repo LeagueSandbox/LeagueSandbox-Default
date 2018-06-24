@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "LeblancMarkOfSilenceM",
+        "Name": "LeblancMarkOfSilenceM",
+        "ResourcePath": "DATA/Characters/Leblanc/Spells/LeblancMarkOfSilenceM.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Mimic: Sigil of Malice</titleLeft><mainText>If this unit takes damage from one of LeBlanc's abilities, the sigil will trigger, dealing damage.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

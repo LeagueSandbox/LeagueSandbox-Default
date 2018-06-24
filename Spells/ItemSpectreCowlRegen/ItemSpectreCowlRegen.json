@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_ItemSpectreCowlRegen"
+            "DynamicTooltip": "<titleLeft>Spectre's Regeneration</titleLeft><mainText>This unit has recently taken damage and is regenerating health.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

@@ -1,0 +1,6 @@
+{
+    "SpellDamageRatio": 0.5,
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": true,
+    "TriggersSpellCasts": false
+}

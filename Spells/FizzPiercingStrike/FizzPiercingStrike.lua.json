@@ -1,0 +1,14 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "FizzSkin04"
+    },
+    "DoesntBreakShields": true,
+    "IsDamagingSpell": true,
+    "SpellFXOverrideSkins": {
+        "1": "FizzSkin04"
+    },
+    "BuffName": "XenZhaoSweep",
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "CastingBreaksStealth": true
+}

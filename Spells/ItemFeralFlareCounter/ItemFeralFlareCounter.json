@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_ItemFeralFlareCounter"
+            "DynamicTooltip": "<titleLeft>Feral Flare Unleashed</titleLeft><mainText>The Feral Flare is devouring monsters and champions and ponies.</mainText>"
         }
     }
 }

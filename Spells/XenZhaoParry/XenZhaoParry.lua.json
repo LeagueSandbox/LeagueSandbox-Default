@@ -1,0 +1,15 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "ZhaoYunXinZhao"
+    },
+    "SpellFXOverrideSkins": {
+        "1": "ZhaoYunXinZhao"
+    },
+    "BuffName": "XenZhaoParry",
+    "CastingBreaksStealth": true,
+    "BuffTextureName": "XinZhao_CrescentSweep.dds",
+    "DoesntBreakShields": false,
+    "IsDamagingSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "NotSingleTargetSpell": true
+}

@@ -1,0 +1,17 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": ""
+    },
+    "SpellFXOverrideSkins": {
+        "1": "NunuBot"
+    },
+    "IsDamagingSpell": true,
+    "AutoBuffActivateEffect": "AbsoluteZero3_cas.troy",
+    "CastingBreaksStealth": true,
+    "BuffTextureName": "Yeti_Shatter.dds",
+    "DoesntBreakShields": true,
+    "BuffName": "Absolute Zero",
+    "ChannelDuration": 3.0,
+    "DoesntTriggerSpellCasts": false,
+    "NotSingleTargetSpell": true
+}

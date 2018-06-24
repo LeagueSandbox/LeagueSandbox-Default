@@ -1,0 +1,10 @@
+{
+    "DoesntBreakShields": false,
+    "IsDamagingSpell": true,
+    "SpellFXOverrideSkins": {
+        "1": "VladimirSkin06"
+    },
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": true,
+    "SpellDamageRatio": 1.0
+}

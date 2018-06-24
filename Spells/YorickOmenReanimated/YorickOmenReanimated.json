@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_YorickOmenReanimated",
+            "DynamicTooltip": "<titleLeft>Death</titleLeft><mainText>This unit has been reanimated by Yorick and is able to seek vengeance for its death.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
             "ShowInTrackerUI": 1
         }
     }

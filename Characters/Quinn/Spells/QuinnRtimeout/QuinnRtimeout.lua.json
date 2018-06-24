@@ -1,0 +1,12 @@
+{
+    "BuffName": "QuinnRForm",
+    "CastingBreaksStealth": true,
+    "BuffTextureName": "Quinn_R1.dds",
+    "DoesntBreakShields": true,
+    "SpellToggleSlot": 4.0,
+    "IsDeathRecapSource": true,
+    "NonDispellable": true,
+    "IsDamagingSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "NotSingleTargetSpell": true
+}

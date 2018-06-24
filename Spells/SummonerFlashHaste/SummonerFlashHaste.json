@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_SummonerFlashHaste"
+            "DynamicTooltip": "<titleLeft>Distorted Flash</titleLeft><mainText>Increases Movement Speed by 20%.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

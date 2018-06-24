@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_ItemSmiteShield"
+            "DynamicTooltip": "<titleLeft>Shielded</titleLeft><mainText>This unit has a shield active, absorbing damage taken.</mainText>"
         }
     }
 }

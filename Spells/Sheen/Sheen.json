@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Sheen",
+            "DynamicTooltip": "<titleLeft>Sheen</titleLeft><mainText>This unit will deal bonus damage on its next attack.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
             "ShowInTrackerUI": 1
         }
     }

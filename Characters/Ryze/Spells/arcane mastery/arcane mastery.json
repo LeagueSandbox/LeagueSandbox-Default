@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "arcane mastery",
+        "Name": "arcane mastery",
+        "ResourcePath": "DATA/Characters/Ryze/Spells/arcane mastery.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Arcane Mastery</titleLeft><mainText>Casting a spell reduces all other spell cooldowns by 1 second.<br><br>Ryze's abilities scale with his maximum <font color='#44DDFF'>Mana</font>.</mainText>"
+        }
+    }
+}

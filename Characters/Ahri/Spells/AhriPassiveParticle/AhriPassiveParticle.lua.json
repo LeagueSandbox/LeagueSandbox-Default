@@ -1,0 +1,7 @@
+{
+    "AutoBuffActivateAttachBoneName": "",
+    "PersistsThroughDeath": true,
+    "BuffName": "AhriSoulCrusher",
+    "AutoBuffActivateEffect": "",
+    "BuffTextureName": "Ahri_SoulEater.dds"
+}

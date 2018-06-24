@@ -1,0 +1,10 @@
+{
+    "AutoBuffActivateAttachBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+    "PersistsThroughDeath": true,
+    "BuffName": "ElixirOfWrath",
+    "NonDispellable": true,
+    "AutoBuffActivateEffect": "Global_Item_ElixirOfWrath_Buf.troy",
+    "NotSingleTargetSpell": true,
+    "BuffTextureName": "2140_Elixir_of_Wrath.dds",
+    "DoesntTriggerSpellCasts": true
+}

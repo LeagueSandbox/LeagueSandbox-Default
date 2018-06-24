@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Flee"
+            "DynamicTooltip": "<titleLeft>Terrify</titleLeft><mainText>This unit is fleeing in terror. It ignores all orders.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

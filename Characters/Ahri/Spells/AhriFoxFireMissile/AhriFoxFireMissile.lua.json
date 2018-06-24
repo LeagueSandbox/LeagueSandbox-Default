@@ -1,0 +1,8 @@
+{
+    "IsDamagingSpell": true,
+    "SpellDamageRatio": 1.0,
+    "BuffName": "AhriFoxFire",
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "BuffTextureName": "Ahri_FoxFire.dds"
+}

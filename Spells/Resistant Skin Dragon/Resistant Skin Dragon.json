@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Resistant_Skin_Dragon"
+            "DynamicTooltip": "<titleLeft>Resistant Skin</titleLeft><mainText>This unit is immune to all disabling debuffs.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

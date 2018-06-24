@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "SionVOStacks",
+        "Name": "SionVOStacks",
+        "ResourcePath": "DATA/Characters/Sion/Spells/SionVOStacks.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Sion VO Value</titleLeft><mainText>Sion's VO Value</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

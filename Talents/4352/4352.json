@@ -1,16 +1,16 @@
 {
     "MetaData": {
         "ContentFormatVersion": 4,
-        "Id": "4352",
-        "Name": "4352",
+        "Id": 4352,
+        "Name": "Bandit",
         "ResourcePath": "DATA/Talents/4352.inibin"
     },
     "Values": {
         "SpellData": {
             "InventoryIcon": "751.dds",
-            "Level1Desc": "game_mastery_level1desc_4352",
-            "Level2Desc": "game_mastery_level2desc_4352",
-            "Name": "game_mastery_displayname_4352",
+            "Level1Desc": "Melee - Grants +15 Gold on champion kill or assist\\nRanged - Grants +3 Gold each time an enemy champion is attacked. This cannot trigger on the same champion more than once every 5 seconds",
+            "Level2Desc": "",
+            "Name": "Bandit",
             "Ranks": 1
         }
     }

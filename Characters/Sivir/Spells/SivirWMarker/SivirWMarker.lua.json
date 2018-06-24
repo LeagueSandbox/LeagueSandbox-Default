@@ -1,0 +1,9 @@
+{
+    "AutoBuffActivateAttachBoneName": "Buffbone_Cstm_Weapon_1",
+    "BuffName": "SivirWMarker",
+    "NonDispellable": true,
+    "AutoBuffActivateEffect": "Sivir_Base_W_Buff.troy",
+    "NotSingleTargetSpell": true,
+    "BuffTextureName": "Sivir_W.dds",
+    "DoesntTriggerSpellCasts": false
+}

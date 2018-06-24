@@ -1,0 +1,9 @@
+{
+    "BuffName": "XerathQ",
+    "IsDamagingSpell": true,
+    "SpellToggleSlot": 1.0,
+    "NonDispellable": true,
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "BuffTextureName": "Xerath_Arcanopulse.dds"
+}

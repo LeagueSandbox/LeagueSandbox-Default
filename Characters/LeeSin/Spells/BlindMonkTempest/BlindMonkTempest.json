@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "BlindMonkTempest",
+        "Name": "BlindMonkTempest",
+        "ResourcePath": "DATA/Characters/LeeSin/Spells/BlindMonkTempest.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Tempest</titleLeft><mainText>Lee Sin is tracking this unit and can hit them with Cripple.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

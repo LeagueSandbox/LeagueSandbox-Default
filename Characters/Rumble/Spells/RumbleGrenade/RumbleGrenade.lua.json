@@ -1,0 +1,11 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "RumbleSkin03"
+    },
+    "IsDamagingSpell": true,
+    "SpellToggleSlot": 3.0,
+    "BuffName": "RumbleGrenade",
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "BuffTextureName": "Rumble_Electro Harpoon.dds"
+}

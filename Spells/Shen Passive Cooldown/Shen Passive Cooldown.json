@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Shen_Passive_Cooldown"
+            "DynamicTooltip": "<titleLeft>Empty Ki</titleLeft><mainText>Ki Strike is recharging.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

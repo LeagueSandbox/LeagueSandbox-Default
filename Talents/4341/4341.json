@@ -1,15 +1,15 @@
 {
     "MetaData": {
         "ContentFormatVersion": 4,
-        "Id": "4341",
-        "Name": "4341",
+        "Id": 4341,
+        "Name": "Scavenger",
         "ResourcePath": "DATA/Talents/4341.inibin"
     },
     "Values": {
         "SpellData": {
             "InventoryIcon": "731.dds",
-            "Level1Desc": "game_mastery_level1desc_4341",
-            "Name": "game_mastery_displayname_4341",
+            "Level1Desc": "+1 Gold each time an ally kills a nearby lane minion",
+            "Name": "Scavenger",
             "Ranks": 1
         }
     }

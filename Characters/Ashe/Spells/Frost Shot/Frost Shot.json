@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "Frost Shot",
+        "Name": "Frost Shot",
+        "ResourcePath": "DATA/Characters/Ashe/Spells/Frost Shot.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Frost Shot</titleLeft><mainText>Ashe's basic attacks slow the target.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

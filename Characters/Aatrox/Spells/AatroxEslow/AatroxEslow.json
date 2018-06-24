@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "AatroxEslow",
+        "Name": "AatroxEslow",
+        "ResourcePath": "DATA/Characters/Aatrox/Spells/AatroxEslow.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Ground Slam Debuff</titleLeft><mainText>This unit's Attack Speed is reduced.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

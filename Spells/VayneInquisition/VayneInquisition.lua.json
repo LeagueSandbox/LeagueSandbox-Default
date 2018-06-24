@@ -1,0 +1,18 @@
+{
+    "BuffName": "VayneInquisition",
+    "AutoBuffActivateEffect": "vayne_ult_primary_buf.troy",
+    "NotSingleTargetSpell": true,
+    "BuffTextureName": "Vayne_Inquisition.dds",
+    "AutoBuffActivateAttachBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+    "AutoCooldownByLevel": {
+        "1": 75.0,
+        "2": 75.0,
+        "3": 75.0,
+        "4": 18.0,
+        "5": 14.0
+    },
+    "AutoBuffActivateEffect2": "vayne_ult_primary_buf_02.troy",
+    "AutoBuffActivateEffect3": "vayne_ult_primary_buf_03.troy",
+    "DoesntTriggerSpellCasts": false,
+    "AutoBuffActivateAttachBoneName2": "C_BUFFBONE_GLB_CENTER_LOC"
+}

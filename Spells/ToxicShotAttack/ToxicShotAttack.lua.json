@@ -1,0 +1,9 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "AstronautTeemo"
+    },
+    "BuffName": "Toxic Shot",
+    "NotSingleTargetSpell": true,
+    "BuffTextureName": "Teemo_PoisonedDart.dds",
+    "DoesntTriggerSpellCasts": true
+}

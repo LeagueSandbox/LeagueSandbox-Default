@@ -1,17 +1,17 @@
 {
     "MetaData": {
         "ContentFormatVersion": 4,
-        "Id": "4331",
-        "Name": "4331",
+        "Id": 4331,
+        "Name": "Greed",
         "ResourcePath": "DATA/Talents/4331.inibin"
     },
     "Values": {
         "SpellData": {
             "InventoryIcon": "731.dds",
-            "Level1Desc": "game_mastery_level1desc_4331",
-            "Level2Desc": "game_mastery_level2desc_4331",
-            "Level3Desc": "game_mastery_level3desc_4331",
-            "Name": "game_mastery_displayname_4331",
+            "Level1Desc": "+0.5 Gold every 10 seconds",
+            "Level2Desc": "+1 Gold every 10 seconds",
+            "Level3Desc": "+1.5 Gold every 10 seconds",
+            "Name": "Greed",
             "Ranks": 3
         }
     }

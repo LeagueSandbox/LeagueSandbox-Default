@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Carnivore"
+            "DynamicTooltip": "<titleLeft>Carnivore</titleLeft><mainText>Killing an enemy restores @f1@ Health and @f2@ Mana.</mainText>"
         }
     }
 }

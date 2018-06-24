@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Empathize"
+            "DynamicTooltip": "<titleLeft>Soul Siphon</titleLeft><mainText>Gains @f1@% bonus Spell Vamp.</mainText>"
         }
     }
 }

@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Ferocious_Howl",
+            "DynamicTooltip": "<titleLeft>Unbreakable Will</titleLeft><mainText>Alistar has increased Attack Damage and is nearly impervious to harm.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
             "ShowInTrackerUI": 1
         }
     }

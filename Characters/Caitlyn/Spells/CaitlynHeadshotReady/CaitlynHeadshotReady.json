@@ -1,0 +1,14 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "CaitlynHeadshotReady",
+        "Name": "CaitlynHeadshotReady",
+        "ResourcePath": "DATA/Characters/Caitlyn/Spells/CaitlynHeadshotReady.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Headshot: Ready</titleLeft><mainText>Caitlyn's next basic attack will deal either 150% damage to a champion or 250% damage to a minion.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
+            "ShowInTrackerUI": 1
+        }
+    }
+}

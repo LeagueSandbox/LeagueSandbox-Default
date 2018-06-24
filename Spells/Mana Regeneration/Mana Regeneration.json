@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Mana_Regeneration"
+            "DynamicTooltip": "<titleLeft>Mana Regeneration Aura</titleLeft><mainText>Nearby friendly champions have their Mana Regen increased.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

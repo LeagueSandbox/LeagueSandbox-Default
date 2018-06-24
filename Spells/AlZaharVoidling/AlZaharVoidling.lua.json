@@ -1,0 +1,9 @@
+{
+    "DoesntBreakShields": false,
+    "IsDamagingSpell": false,
+    "BuffName": "AlZaharVoidling",
+    "BuffTextureName": "AlZahar_SummonVoidling.dds",
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "CastingBreaksStealth": true
+}

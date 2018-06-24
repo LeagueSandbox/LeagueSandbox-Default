@@ -1,15 +1,15 @@
 {
     "MetaData": {
         "ContentFormatVersion": 4,
-        "Id": "4224",
-        "Name": "4224",
+        "Id": 4224,
+        "Name": "Bladed Armor",
         "ResourcePath": "DATA/Talents/4224.inibin"
     },
     "Values": {
         "SpellData": {
             "InventoryIcon": "624.dds",
-            "Level1Desc": "game_mastery_level1desc_4224",
-            "Name": "game_mastery_displayname_4224",
+            "Level1Desc": "Taking Basic Attack Damage from neutral monsters cause them to bleed, dealing physical damage equal to 1% of their current Health each second\\nThis does not work against lane minions",
+            "Name": "Bladed Armor",
             "Ranks": 1
         }
     }

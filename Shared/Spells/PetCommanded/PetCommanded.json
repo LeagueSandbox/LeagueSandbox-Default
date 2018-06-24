@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "PetCommanded",
+        "Name": "PetCommanded",
+        "ResourcePath": "DATA/Shared/Spells/PetCommanded.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Under Orders!</titleLeft><mainText>This unit is being ordered about by a champion.</mainText><postScriptLeft>Source: None</postScriptLeft>"
+        }
+    }
+}

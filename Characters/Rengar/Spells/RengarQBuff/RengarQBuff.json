@@ -1,0 +1,14 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "RengarQBuff",
+        "Name": "RengarQBuff",
+        "ResourcePath": "DATA/Characters/Rengar/Spells/RengarQBuff.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Savagery</titleLeft><mainText>Rengar's next attack will deal bonus damage.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
+            "ShowInTrackerUI": 1
+        }
+    }
+}

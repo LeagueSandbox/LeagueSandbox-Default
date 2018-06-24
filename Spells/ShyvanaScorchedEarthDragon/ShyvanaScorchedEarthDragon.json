@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_ShyvanaScorchedEarthDragon",
+            "DynamicTooltip": "<titleLeft>Burnout</titleLeft><mainText>Shyvana's Movement Speed is increased and she leaves a path of fire behind, dealing damage to enemies that stand in it.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
             "ShowInTrackerUI": 1
         }
     }

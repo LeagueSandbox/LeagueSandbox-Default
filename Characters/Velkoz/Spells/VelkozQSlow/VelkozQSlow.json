@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "VelkozQSlow",
+        "Name": "VelkozQSlow",
+        "ResourcePath": "DATA/Characters/Velkoz/Spells/VelkozQSlow.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Slowed</titleLeft><mainText>This unit is slowed by Plasma Fission.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "NonDispellable": true,
+    "PersistsThroughDeath": true,
+    "BuffName": "VladimirBloodGorged",
+    "BuffTextureName": "Vladimir_BloodGorged.dds"
+}

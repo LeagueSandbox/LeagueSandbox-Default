@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_SummonerIgnite"
+            "DynamicTooltip": "<titleLeft>Summoner Ignite</titleLeft><mainText>This unit is taking damage each second, and healing and regeneration are reduced by 50%.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

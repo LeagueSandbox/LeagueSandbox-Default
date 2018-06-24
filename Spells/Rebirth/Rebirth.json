@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Rebirth"
+            "DynamicTooltip": "<titleLeft>Rebirth</titleLeft><mainText>Anivia reverted to an egg and will soon be reborn!</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

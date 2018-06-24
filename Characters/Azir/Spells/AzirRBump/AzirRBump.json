@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "AzirRBump",
+        "Name": "AzirRBump",
+        "ResourcePath": "DATA/Characters/Azir/Spells/AzirRBump.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Emperor's Divide</titleLeft><mainText>This unit is being Knocked Back by Emperor's Divide.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Frozen_Mallet_Slow"
+            "DynamicTooltip": "<titleLeft>Slowed</titleLeft><mainText>This unit's Movement Speed is slowed.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

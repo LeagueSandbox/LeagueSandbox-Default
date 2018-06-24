@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_XenZhaoBattleCryPassive"
+            "DynamicTooltip": "<titleLeft>Battle Cry</titleLeft><mainText>Xin Zhao heals himself every third attack.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

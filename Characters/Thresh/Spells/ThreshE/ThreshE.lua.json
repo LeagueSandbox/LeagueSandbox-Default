@@ -1,0 +1,10 @@
+{
+    "IsDeathRecapSource": true,
+    "DoesntBreakShields": false,
+    "IsDamagingSpell": true,
+    "BuffName": "ThreshE",
+    "BuffTextureName": "Thresh_E.dds",
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "CastingBreaksStealth": true
+}

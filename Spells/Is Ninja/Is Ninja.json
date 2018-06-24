@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Is_Ninja"
+            "DynamicTooltip": "<titleLeft>Ninja</titleLeft><mainText>This unit is a flippin' Ninja.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

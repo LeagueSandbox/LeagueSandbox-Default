@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_LuluWDebuff"
+            "DynamicTooltip": "<titleLeft>Lulu's ''Assistance''</titleLeft><mainText>This unit is pacified and cannot attack or cast spells.<br><br>This unit is also adorable.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

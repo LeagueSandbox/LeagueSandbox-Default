@@ -1,0 +1,10 @@
+{
+    "AutoBuffActivateAttachBoneName": "",
+    "DoesntBreakShields": true,
+    "IsDamagingSpell": false,
+    "BuffName": "WaypointBuff",
+    "AutoBuffActivateEffect": "",
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": true,
+    "CastingBreaksStealth": false
+}

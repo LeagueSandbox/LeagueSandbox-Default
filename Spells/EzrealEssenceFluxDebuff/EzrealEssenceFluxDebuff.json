@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_EzrealEssenceFluxDebuff"
+            "DynamicTooltip": "<titleLeft>Essence Flux</titleLeft><mainText>This unit has reduced Attack Speed.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

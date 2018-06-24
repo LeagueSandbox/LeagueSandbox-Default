@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "Miss Fortune Strut Cooldown",
+        "Name": "Miss Fortune Strut Cooldown",
+        "ResourcePath": "DATA/Characters/MissFortune/Spells/Miss Fortune Strut Cooldown.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Strut Cooldown</titleLeft><mainText>Miss Fortune has taken damage and Strut is on cooldown.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "AhriSoulCrusher",
+        "Name": "AhriSoulCrusher",
+        "ResourcePath": "DATA/Characters/Ahri/Spells/AhriSoulCrusher.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Essence Theft</titleLeft><mainText>Ahri's next spell will heal her each time it hits an enemy.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
+            "ShowInTrackerUI": 1
+        }
+    }
+}

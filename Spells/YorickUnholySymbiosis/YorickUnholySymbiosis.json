@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_YorickUnholySymbiosis"
+            "DynamicTooltip": "<titleLeft>Unholy Covenant</titleLeft><mainText>For each active summon, Yorick takes 5% reduced damage and his basic attacks deal 5% more damage.<br><br>Yorick's ghouls gain 35% of his Attack Damage and Health.</mainText>"
         }
     }
 }

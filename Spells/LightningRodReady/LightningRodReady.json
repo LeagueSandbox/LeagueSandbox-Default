@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_LightningRodReady"
+            "DynamicTooltip": "<titleLeft>Ionic Spark: Ready</titleLeft><mainText>Ionic spark is ready to release a chain lightning.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

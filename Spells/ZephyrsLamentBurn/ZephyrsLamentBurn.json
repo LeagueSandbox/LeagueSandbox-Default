@@ -2,17 +2,17 @@
     "MetaData": {
         "ContentFormatVersion": 4,
         "Id": "ZephyrsLamentBurn",
-        "Name": "ZephyrsLamentBurn",
+        "Name": "Liandry's Torment",
         "ResourcePath": "DATA/Spells/ZephyrsLamentBurn.inibin"
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_ZephyrsLamentBurn"
+            "DynamicTooltip": "<titleLeft>Liandry's Torment</titleLeft><mainText>This unit is burning for a percentage of its current health each second.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         },
         "SpellData": {
             "AlternateName": "ZephyrsLamentBurn",
-            "Description": "game_spell_description_ZephyrsLamentBurn",
-            "DisplayName": "game_spell_displayname_ZephyrsLamentBurn",
+            "Description": "Liandry's Torment is burning this unit, dealing magic damage based on current Health over time. This effect's damage is doubled if the burning unit is slowed, stunned, taunted, feared, immobilized, or otherwise has their movement impaired.",
+            "DisplayName": "Liandry's Torment",
             "InventoryIcon": "3151_Liandrys_Lament.dds"
         }
     }

@@ -1,0 +1,9 @@
+{
+    "DoesntBreakShields": true,
+    "IsDamagingSpell": true,
+    "BuffName": "Deathfire Grasp",
+    "BuffTextureName": "055_Borses_Staff_of_Apocalypse.tga",
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": true,
+    "CastingBreaksStealth": true
+}

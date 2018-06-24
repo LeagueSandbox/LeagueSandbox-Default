@@ -1,0 +1,14 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "BuffEliseRappel",
+        "Name": "BuffEliseRappel",
+        "ResourcePath": "DATA/Characters/Elise/Spells/BuffEliseRappel.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Rappel</titleLeft><mainText>Elise is dangling on a web. She can descend upon nearby enemies.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
+            "ShowInTrackerUI": 1
+        }
+    }
+}

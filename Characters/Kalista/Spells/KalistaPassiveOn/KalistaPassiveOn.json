@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "KalistaPassiveOn",
+        "Name": "KalistaPassiveOn",
+        "ResourcePath": "DATA/Characters/Kalista/Spells/KalistaPassiveOn.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Stone Skin</titleLeft><mainText>Wukong's Armor and Magic Resistance are increased by @f1@ for each nearby enemy champion.</mainText>"
+        }
+    }
+}

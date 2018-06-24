@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "ZacRKnockup",
+        "Name": "ZacRKnockup",
+        "ResourcePath": "DATA/Characters/Zac/Spells/ZacRKnockup.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Knocked up</titleLeft><mainText>This unit has been knocked up by Zac.</mainText>"
+        }
+    }
+}

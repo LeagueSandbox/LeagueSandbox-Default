@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_ThreeSistersSejuaniDefeatedAshe"
+            "DynamicTooltip": "<titleLeft>Queen of the Freljord</titleLeft><mainText>Weakness has been purged from the Freljord. No one challenges Sejuani's rule.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

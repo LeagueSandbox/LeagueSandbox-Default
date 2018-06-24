@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Monster_Bank_Small"
+            "DynamicTooltip": "<titleLeft>Accumulating Treasure</titleLeft><mainText>This monster's experience and gold rewards are growing over time.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

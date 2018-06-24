@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "Consecration Self",
+        "Name": "Consecration Self",
+        "ResourcePath": "DATA/Characters/Soraka/Spells/Consecration Self.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Salvation</titleLeft><mainText>Soraka gains 70% bonus Movement Speed when moving towards ally Champions who are below 40% Health. (Allies must be within 2500 range of Soraka)</mainText>"
+        }
+    }
+}

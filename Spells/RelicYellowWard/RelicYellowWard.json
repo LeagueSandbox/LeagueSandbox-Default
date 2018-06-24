@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_RelicYellowWard"
+            "DynamicTooltip": "<titleLeft>Totem Trinket Ward</titleLeft><mainText>This ward is revealing the nearby area.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

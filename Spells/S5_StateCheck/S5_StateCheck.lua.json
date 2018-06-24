@@ -1,0 +1,7 @@
+{
+    "IsDamagingSpell": true,
+    "BuffName": "S5Test_BaseBuff",
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "BuffTextureName": "37.dds"
+}

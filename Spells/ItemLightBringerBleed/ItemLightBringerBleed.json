@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_ItemLightBringerBleed"
+            "DynamicTooltip": "<titleLeft>Bleeding</titleLeft><mainText>This unit is bleeding damage over time and being revealed.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

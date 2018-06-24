@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "EliseSpiderQSlow",
+        "Name": "EliseSpiderQSlow",
+        "ResourcePath": "DATA/Characters/Elise/Spells/EliseSpiderQSlow.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Venomous Bite: Slow</titleLeft><mainText>This unit has been slowed by Elise's Venomous Bite.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

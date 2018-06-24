@@ -1,0 +1,6 @@
+{
+    "AutoBuffActivateAttachBoneName": "l_hand",
+    "AutoBuffActivateAttachBoneName2": "r_hand",
+    "BuffName": "SejuaniNorthernWinds",
+    "BuffTextureName": "Sejuani_NorthernWinds.dds"
+}

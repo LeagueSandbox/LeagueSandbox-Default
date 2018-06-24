@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "Tailwind",
+        "Name": "Tailwind",
+        "ResourcePath": "DATA/Characters/Janna/Spells/Tailwind.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Tailwind</titleLeft><mainText>Increases Movement Speed by 5%.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

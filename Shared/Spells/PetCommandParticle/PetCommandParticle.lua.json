@@ -1,0 +1,10 @@
+{
+    "IsPetDurationBuff": true,
+    "DoesntBreakShields": true,
+    "IsDamagingSpell": true,
+    "SpellDamageRatio": 0.5,
+    "BuffName": "PetCommanded",
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": true,
+    "BuffTextureName": "27.dds"
+}

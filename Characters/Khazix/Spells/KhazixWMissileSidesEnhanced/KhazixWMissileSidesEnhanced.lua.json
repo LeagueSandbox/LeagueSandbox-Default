@@ -1,0 +1,7 @@
+{
+    "DoesntBreakShields": false,
+    "DoesntTriggerSpellCasts": true,
+    "SpellFXOverrideSkins": {
+        "1": "KhazixSkin02"
+    }
+}

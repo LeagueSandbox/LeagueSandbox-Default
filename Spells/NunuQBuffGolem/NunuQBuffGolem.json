@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_NunuQBuffGolem"
+            "DynamicTooltip": "<titleLeft>Well Fed - <font color='#FFFF33'>Elemental Delight</font></titleLeft><mainText>Nunu's Yeti Willump has recently eaten an Elemental and has bonus Health and Size.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

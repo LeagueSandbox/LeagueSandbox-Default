@@ -1,0 +1,9 @@
+{
+    "DoesntBreakShields": "False",
+    "IsDamagingSpell": true,
+    "TriggersSpellCasts": true,
+    "BuffName": "VayneCondemn",
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "BuffTextureName": "Vayne_Condemn.dds"
+}

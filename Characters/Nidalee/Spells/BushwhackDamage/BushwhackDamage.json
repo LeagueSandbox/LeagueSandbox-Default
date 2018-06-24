@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "BushwhackDamage",
+        "Name": "BushwhackDamage",
+        "ResourcePath": "DATA/Characters/Nidalee/Spells/BushwhackDamage.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Bushwhacked</titleLeft><mainText>This unit is revealed and taking periodic damage.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "AzirQ",
+        "Name": "Conquering Sands",
+        "ResourcePath": "DATA/Characters/Azir/Spells/AzirQ.inibin"
+    },
+    "Values": {
+        "SpellData": {
+            "AnimationName": "Spell1",
+            "CantCancelWhileWindingUp": 1,
+            "CastFrame": 7.5,
+            "CastRange": 800,
+            "CastRangeDisplayOverride": 800,
+            "CastType": 0,
+            "Coefficient": 0.5,
+            "Cooldown": 10,
+            "Cooldown1": 10,
+            "Cooldown2": 9,
+            "Cooldown3": 8,
+            "Cooldown4": 7,
+            "Cooldown5": 6,
+            "Description": "Azir sends all Sand Soldiers toward a target location. Sand Soldiers deal magic damage to all targets they pass through and apply a stacking slow for 1 second.",
+            "DisplayName": "Conquering Sands",
+            "DynamicExtended": "<postScriptTitle>Next Level - click to level-up or press [Ctrl-@Hotkey@].</postScriptTitle><postScriptLeft>Damage<br>Cooldown</postScriptLeft><postScriptRight>@Effect1Amount@ -> @Effect1AmountNL@<br>@Cooldown@ -> @CooldownNL@</postScriptRight>",
+            "DynamicTooltip": "<titleLeft>Conquering Sands (@Level@)</titleLeft><titleRight>[@Hotkey@]</titleRight><subtitleLeft>@Cost@ Mana</subtitleLeft><subtitleRight>@Cooldown@ sec Cooldown</subtitleRight><mainText>Azir sends all <font color='#EED6AF'>Sand Soldiers</font> toward a target location. <font color='#EED6AF'>Sand Soldiers</font> deal @Effect1Amount@ <font color='#99FF99'>(+@CharAbilityPower@)</font> magic damage to all enemies they pass through and apply a stacking @Effect2Amount*-100@% slow for 1 second.</mainText>",
+            "Effect1Level0Amount": 75,
+            "Effect1Level1Amount": 75,
+            "Effect1Level2Amount": 105,
+            "Effect1Level3Amount": 135,
+            "Effect1Level4Amount": 165,
+            "Effect1Level5Amount": 195,
+            "Effect2Level0Amount": -0.25,
+            "Effect2Level1Amount": -0.25,
+            "Effect2Level2Amount": -0.25,
+            "Effect2Level3Amount": -0.25,
+            "Effect2Level4Amount": -0.25,
+            "Effect2Level5Amount": -0.25,
+            "Flags": 115712,
+            "InventoryIcon": "Azir_Q.dds",
+            "ManaCost1": 70,
+            "ManaCost2": 70,
+            "ManaCost3": 70,
+            "ManaCost4": 70,
+            "ManaCost5": 70,
+            "NumSpellTargeters": 2,
+            "OverrideCastTime": 0.25,
+            "TargettingType": 10,
+            "UseAnimatorFramerate": 0
+        },
+        "SpellTargeter1": {
+            "DrawableType": "Line",
+            "LineStopsAtEndPosition": 1,
+            "LineWidth": 60,
+            "MinimumDisplayedRange": 1,
+            "OverrideBaseRange": 2550,
+            "Start_BasePosition": "OffsetObject"
+        },
+        "SpellTargeter2": {
+            "DrawableType": "Range"
+        }
+    }
+}

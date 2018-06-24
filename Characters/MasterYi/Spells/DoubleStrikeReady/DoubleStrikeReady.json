@@ -1,0 +1,14 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "DoubleStrikeReady",
+        "Name": "DoubleStrikeReady",
+        "ResourcePath": "DATA/Characters/MasterYi/Spells/DoubleStrikeReady.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Double Strike</titleLeft><mainText>Master Yi's next attack will be a Double Strike.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
+            "ShowInTrackerUI": 1
+        }
+    }
+}

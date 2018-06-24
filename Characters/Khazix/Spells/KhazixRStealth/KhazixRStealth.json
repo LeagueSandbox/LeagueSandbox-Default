@@ -1,0 +1,14 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "KhazixRStealth",
+        "Name": "KhazixRStealth",
+        "ResourcePath": "DATA/Characters/Khazix/Spells/KhazixRStealth.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Void Assault: Stealth</titleLeft><mainText>Kha'Zix is stealthed.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
+            "ShowInTrackerUI": 1
+        }
+    }
+}

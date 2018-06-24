@@ -1,0 +1,14 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "NamiEtt",
+        "Name": "NamiEtt",
+        "ResourcePath": "DATA/Characters/Nami/Spells/NamiEtt.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Tidecaller's Blessing</titleLeft><mainText>This unit's attacks deal bonus magic damage and apply a slow to the target for a short duration.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
+            "ShowInTrackerUI": 1
+        }
+    }
+}

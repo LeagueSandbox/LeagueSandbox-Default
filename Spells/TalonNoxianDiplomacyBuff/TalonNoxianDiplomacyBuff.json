@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_TalonNoxianDiplomacyBuff",
+            "DynamicTooltip": "<titleLeft>Noxian Diplomacy</titleLeft><mainText>This unit's next attack will deal extra damage and cause the enemy to bleed.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
             "ShowInTrackerUI": 1
         }
     }

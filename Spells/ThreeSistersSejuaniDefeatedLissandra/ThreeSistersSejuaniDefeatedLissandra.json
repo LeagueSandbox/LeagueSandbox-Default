@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_ThreeSistersSejuaniDefeatedLissandra"
+            "DynamicTooltip": "<titleLeft>Queen of the Freljord</titleLeft><mainText>The Freljord has been purified. No one challenges Sejuani's rule.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

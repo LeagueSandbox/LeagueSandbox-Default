@@ -1,0 +1,14 @@
+{
+    "DoesntBreakShields": true,
+    "IsDamagingSpell": true,
+    "AutoCooldownByLevel": {
+        "1": 24.0,
+        "2": 22.0,
+        "3": 20.0,
+        "4": 18.0,
+        "5": 16.0
+    },
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "CastingBreaksStealth": true
+}

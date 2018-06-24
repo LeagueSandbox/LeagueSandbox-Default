@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "GnarStun",
+        "Name": "GnarStun",
+        "ResourcePath": "DATA/Characters/Gnar/Spells/GnarStun.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Stunned</titleLeft><mainText>This unit is stunned. It can take no actions.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

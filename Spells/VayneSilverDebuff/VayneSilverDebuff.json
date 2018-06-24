@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_VayneSilverDebuff"
+            "DynamicTooltip": "<titleLeft>Silver Bolts</titleLeft><mainText>Vayne will deal bonus damage if she strikes this target three times.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

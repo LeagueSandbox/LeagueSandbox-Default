@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_S5Test_BaseBuff"
+            "DynamicTooltip": "<titleLeft><font color='#FFFF55'>Homefield Advantage</font></titleLeft><mainText>+10% Movement Speed<br>+10 Armor and Magic Resistance</mainText><postScriptLeft>Source: Granted when the Champion is in their own Base.</postScriptLeft>"
         }
     }
 }

@@ -1,0 +1,8 @@
+{
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": true,
+    "SpellFXOverrideSkins": {
+        "1": "MetalWingedJudicator",
+        "2": "KayleSkin07"
+    }
+}

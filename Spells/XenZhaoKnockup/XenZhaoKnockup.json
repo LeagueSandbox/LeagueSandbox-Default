@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_XenZhaoKnockup"
+            "DynamicTooltip": "<titleLeft>Three Talon Strike</titleLeft><mainText>This unit has been knocked into the air by Xin Zhao.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

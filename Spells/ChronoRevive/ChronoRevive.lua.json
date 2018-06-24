@@ -1,0 +1,6 @@
+{
+    "NonDispellable": true,
+    "PersistsThroughDeath": true,
+    "BuffName": "Chrono Shift",
+    "BuffTextureName": "Chronokeeper_Timetwister.dds"
+}

@@ -1,0 +1,14 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "XerathAscended2OnHit",
+        "Name": "XerathAscended2OnHit",
+        "ResourcePath": "DATA/Characters/Xerath/Spells/XerathAscended2OnHit.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Mana Surge</titleLeft><mainText>Xerath's next basic attack will restore Mana.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
+            "ShowInTrackerUI": 1
+        }
+    }
+}

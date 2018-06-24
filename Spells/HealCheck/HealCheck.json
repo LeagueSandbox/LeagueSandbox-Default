@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_HealCheck"
+            "DynamicTooltip": "<titleLeft>Recently Healed</titleLeft><mainText>This unit has recently been healed by a summoner. If healed by an allied summoner, their heal is diminished by 50%.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

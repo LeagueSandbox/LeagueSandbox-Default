@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Rally_Aura"
+            "DynamicTooltip": "<titleLeft>Rally Aura</titleLeft><mainText>Nearby allied champions have increased Attack Damage. </mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

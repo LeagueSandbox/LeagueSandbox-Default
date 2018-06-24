@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_NightmareBotZiggsBuff"
+            "DynamicTooltip": "<titleLeft>Doom Ziggs</titleLeft><mainText>Doom Ziggs’ Mega Inferno Bomb has fragmented, and his bombs have started rolling around, chasing enemy champions.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

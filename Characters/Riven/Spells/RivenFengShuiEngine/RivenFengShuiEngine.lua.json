@@ -1,0 +1,11 @@
+{
+    "BuffName": "RivenFengShuiEngine",
+    "CastingBreaksStealth": true,
+    "BuffTextureName": "RivenBladeoftheExile.dds",
+    "DoesntBreakShields": true,
+    "SpellToggleSlot": 4.0,
+    "NonDispellable": true,
+    "IsDamagingSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "NotSingleTargetSpell": true
+}

@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_ZyraSeedTrapVision"
+            "DynamicTooltip": "<titleLeft>Revealed</titleLeft><mainText>This unit has stepped on a seed and is being briefly revealed to Zyra's team.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

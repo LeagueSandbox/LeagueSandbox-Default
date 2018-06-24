@@ -1,0 +1,11 @@
+{
+    "DoesntBreakShields": true,
+    "IsDamagingSpell": false,
+    "SpellFXOverrideSkins": {
+        "1": "CaitlynSkin06"
+    },
+    "BuffTextureName": "Caitlyn_YordleSnapTrap.dds",
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "CastingBreaksStealth": true
+}

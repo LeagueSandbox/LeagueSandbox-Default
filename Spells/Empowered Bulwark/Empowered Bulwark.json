@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Empowered_Bulwark"
+            "DynamicTooltip": "<titleLeft>Empowered Bulwark</titleLeft><mainText>Singed gains an additional @f2@ Health for each @f3@ Mana.<br><br>Bonus Health: <font color='#FF0000'>@f1@</font></mainText>"
         }
     }
 }

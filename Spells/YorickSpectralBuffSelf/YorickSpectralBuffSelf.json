@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_YorickSpectralBuffSelf"
+            "DynamicTooltip": "<titleLeft>Spectral Speed</titleLeft><mainText>Yorick moves faster while the Spectral Ghoul remains alive.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_NightmareBotSpiritGaren"
+            "DynamicTooltip": "<titleLeft>Bonus Doom: Garen</titleLeft><mainText>Every brush you can’t see into nearby this champion, could have Garen hiding in it. Demacia!</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

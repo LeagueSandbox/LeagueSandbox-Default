@@ -1,0 +1,12 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "ZiggsSnowday"
+    },
+    "DoesntBreakShields": true,
+    "IsDamagingSpell": false,
+    "PersistsThroughDeath": true,
+    "BuffTextureName": "ZiggsE.dds",
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "CastingBreaksStealth": true
+}

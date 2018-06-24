@@ -1,0 +1,5 @@
+{
+    "AutoBuffActivateEffect": "JarvanQuick_buf.troy",
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": false
+}

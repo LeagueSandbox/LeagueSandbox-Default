@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_JaxPassive"
+            "DynamicTooltip": "<titleLeft>Relentless Assault</titleLeft><mainText>Jax's basic attacks increase his Attack Speed by <font color='#FFFFFF'>@f1@%</font> for 2.5 seconds (effect stacks up to 6 times).</mainText>"
         }
     }
 }

@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_AkaliTwinDisciplines"
+            "DynamicTooltip": "<titleLeft>Twin Disciplines</titleLeft><mainText><font color='#FF9900'>Discipline of Force: </font>Akali's basic attacks deal an additional 6% Bonus Magic Damage, increasing by 1% for every 6 Ability Power.<br><br>Bonus Magic Damage: <font color='#99FF99'>@f1@</font><br><br><font color='#FF9900'>Discipline of Might: </font>Akali gains 6% Spell Vamp, increasing by 1% for every 6 Bonus Attack Damage.<br><br>Bonus Spell Vamp: <font color='#FF8C00'>@f2@%</font></mainText>"
         }
     }
 }

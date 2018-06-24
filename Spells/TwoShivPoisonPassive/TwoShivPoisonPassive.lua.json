@@ -1,0 +1,9 @@
+{
+    "DoesntBreakShields": false,
+    "IsDamagingSpell": true,
+    "BuffName": "Two Shiv Poison Passive",
+    "BuffTextureName": "Jester_IncrediblyPrecise.dds",
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "CastingBreaksStealth": true
+}

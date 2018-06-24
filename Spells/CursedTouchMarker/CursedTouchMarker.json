@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_CursedTouchMarker"
+            "DynamicTooltip": "<titleLeft>Cursed Touch</titleLeft><mainText>Amumu's basic attacks reduce his target's Magic Resist by @f1@ for 3 seconds.</mainText>"
         }
     }
 }

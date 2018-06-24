@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_VolibearPassiveCD"
+            "DynamicTooltip": "<titleLeft>Chosen of the Storm: Unavailable</titleLeft><mainText>Volibear has recently regenerated Health, and must recover his strength.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

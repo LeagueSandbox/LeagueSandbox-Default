@@ -7,11 +7,11 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_SwainDampeningFieldMana"
+            "DynamicTooltip": "<titleLeft>Carrion Renewal</titleLeft><mainText>Swain restores <font color='#44DDFF'>@f1@</font> Mana (9 + 1 per level) whenever he kills an enemy unit. On Champion kill or assist, he restores <font color='#44DDFF'>@f2@</font> Mana instead (9% of his Maximum Mana).</mainText>"
         },
         "SpellData": {
-            "FloatVarsDecimals1": "0",
-            "FloatVarsDecimals2": "0"
+            "FloatVarsDecimals1": 0,
+            "FloatVarsDecimals2": 0
         }
     }
 }

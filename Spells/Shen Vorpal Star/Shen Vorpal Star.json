@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Shen_Vorpal_Star"
+            "DynamicTooltip": "<titleLeft>Vorpal Blade</titleLeft><mainText>Attacks made against this unit heal the attacker.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

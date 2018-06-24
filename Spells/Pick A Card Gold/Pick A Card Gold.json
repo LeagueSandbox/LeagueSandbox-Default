@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Pick_A_Card_Gold",
+            "DynamicTooltip": "<titleLeft>Gold Card</titleLeft><mainText>Twisted Fate's next attack will deal bonus damage and stun the target.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
             "ShowInTrackerUI": 1
         }
     }

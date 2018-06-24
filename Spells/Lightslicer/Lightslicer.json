@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Lightslicer"
+            "DynamicTooltip": "<titleLeft>Divine Blessing</titleLeft><mainText>This unit has @f1@% Critical Strike Chance for a short time or a certain number of attacks.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

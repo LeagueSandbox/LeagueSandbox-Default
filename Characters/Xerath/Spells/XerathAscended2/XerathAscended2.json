@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "XerathAscended2",
+        "Name": "XerathAscended2",
+        "ResourcePath": "DATA/Characters/Xerath/Spells/XerathAscended2.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Mana Surge</titleLeft><mainText>Every @f3@ seconds Xerath's next basic attack against a minion or a monster restores <font color='#FFFFFF'>@f1@</font> Mana. Mana Surge restores <font color='#FFFFFF'>@f2@</font> Mana if attacking champions.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

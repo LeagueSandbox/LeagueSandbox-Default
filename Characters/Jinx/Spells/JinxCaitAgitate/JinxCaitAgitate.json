@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "JinxCaitAgitate",
+        "Name": "JinxCaitAgitate",
+        "ResourcePath": "DATA/Characters/Jinx/Spells/JinxCaitAgitate.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Agitated</titleLeft><mainText>And you thought Vi was obnoxious....</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

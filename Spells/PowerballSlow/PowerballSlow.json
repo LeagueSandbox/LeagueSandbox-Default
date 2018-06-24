@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_PowerballSlow"
+            "DynamicTooltip": "<titleLeft>Powerball Slow</titleLeft><mainText>This unit is slowed.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

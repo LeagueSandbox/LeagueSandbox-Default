@@ -1,0 +1,112 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "YorickDecayedGhoul",
+        "Name": "Trundle",
+        "ResourcePath": "DATA/Characters/YorickDecayedGhoul/YorickDecayedGhoul.inibin"
+    },
+    "Values": {
+        "Data": {
+            "AcquisitionRange": 400,
+            "Armor": 10,
+            "ArmorMaterial": "Flesh",
+            "ArmorPerLevel": 0,
+            "AttackDelayCastOffsetPercent": -0.091666667,
+            "AttackDelayOffsetPercent": -0.0672,
+            "AttackRange": 125,
+            "AttackSpeedPerLevel": 0,
+            "BaseAttack_Probability": 1.0,
+            "BaseCritChance": 0,
+            "BaseDamage": 10,
+            "BaseDodge": 0,
+            "BaseFactorHPRegen": 0,
+            "BaseFactorMPRegen": 0,
+            "BaseHP": 60,
+            "BaseMP": 0,
+            "BaseStaticHPRegen": 2.0,
+            "BaseStaticMPRegen": 0,
+            "ChasingAttackRangePercent": 0.5,
+            "Classification": "Strong",
+            "CritDamageBonus": 2,
+            "CritPerLevel": 0,
+            "DamagePerLevel": 0,
+            "DelayCastOffsetPercent": -0.75,
+            "DelayTotalTimePercent": -0.1,
+            "Description": "the Troll King",
+            "ExpGivenOnDeath": 0,
+            "GameplayCollisionRadius": 1.0,
+            "GoldGivenOnDeath": 5,
+            "HPPerLevel": 0,
+            "HPRegenPerLevel": 0,
+            "IsMelee": true,
+            "LevelDodge": 0,
+            "Lore1": "Trundle is a hulking and devious troll with a mischievous streak. There is nothing he can't beat into submission and bend to his will, not even the ice itself. With his massive, frozen club, he chills his enemies to the core and runs them through with jagged shards of ice. Fiercely territorial, Trundle chases down anyone foolish enough to enter his domain and laughs as they bleed onto the tundra.<br><br>Trundle's warband once followed a foolish and cowardly chieftain. Under such a weak leader, Trundle feared he and his kin would fall prey to the other troll hordes scattered across the tundra. When his challenge to the chieftain ended in humiliation, Trundle did something that wasn't very troll-like: instead of his fists, he turned to his wits. Thinking on his hairy feet, he spun a tall tale about the troll leaders of old, claiming they wielded weapons of great power as symbols of their right to rule. Though he'd made up the story on the spot, Trundle wagered that if he could find or steal such a weapon, he would become the rightful leader of the warband. The trolls believed him, but none thought him capable of undertaking such a challenge. Knowing the boastful troll would die trying, the foolish chieftain agreed and Trundle departed to the familiar sound of laughter.<br><br>Alone but undaunted, Trundle ventured into the foreboding realm of the dreaded Ice Witch. There, hidden among the many ancient and dangerous secrets, he hoped to find a weapon to prove his elaborate tale. He out-muscled the Ice Witch's guards and outsmarted her dark magic traps, but nothing he scavenged matched the power he'd described to his kin. Finally, he found an unexpected prize: a huge and magical club of never-melting True Ice. Grasping the weapon, he marveled at the cold power that ran through him. But then the wrathful Ice Witch herself appeared. As she summoned her dark magic, Trundle believed he had met his end, but another clever idea struck him. With a knowing grin, he offered the Ice Witch a devious proposition: a troll army, he told her, would be of much more use to her than one troll corpse....<br><br>When Trundle returned to the warband, his fellow trolls bowed to his conquest. Calling his weapon ''Boneshiver,'' he took a moment to enjoy the look of numb shock on his chieftain's face before he caved it in. Seizing command, Trundle announced that there would no longer be chieftains - only a Troll King before whom all of his kind would kneel. The trolls rallied behind their brash, new leader and prepared for the coming war. With Trundle leading the charge, the time of the trolls had finally come.<br><br>''Outsmart anyone you can't beat, and beat anyone you can't outsmart.'' <br>-- Trundle",
+            "MoveSpeed": 300,
+            "MPPerLevel": 0,
+            "MPRegenPerLevel": 0,
+            "Name": "Trundle",
+            "Passive1Icon": "Trundle_Decompose.dds",
+            "Passive1Level1": 1,
+            "Passive1Level2": 4,
+            "Passive1Level3": 7,
+            "Passive1LuaName": "TrundleDiseaseOverseer",
+            "Passive1Name": "King's Tribute",
+            "PassLev1Desc1": "When an enemy unit dies near Trundle, he heals for a percent of its maximum Health.",
+            "PathfindingCollisionRadius": 0,
+            "PostAttackMoveDelay": 0,
+            "SelectionHeight": 75,
+            "SelectionRadius": 75,
+            "Significance": 0.3,
+            "SpellBlock": 20,
+            "SpellBlockPerLevel": 0,
+            "Tips1": "<ul><li>Trundle excels at fighting within his Frozen Domain. Try to draw enemies onto it.<li>Use Subjugate to soften a powerful enemy tank or to create a target for your team to focus fire.<li>Chomp is good for lowering the physical damage of enemies; try to focus it on enemy physical damage dealers.</ul>",
+            "Tips2": "<ul><li>Trundle is very powerful at location-based combat. Try to draw him off of his Frozen Domain.<li>Make sure to get out of his Pillar of Ice as quickly as possible, as it significantly slows you down.</ul>",
+            "UnitTags": "Minion | Minion_Summon",
+            "WeaponMaterial": "YorickGhoulBasicAttack"
+        },
+        "HealthBar": {
+            "ParallaxOffset": 0,
+            "XOffset": 0,
+            "YOffset": -0.6
+        },
+        "IdleParticles": {
+            "NumberOfParticles": 1,
+            "Particle1": "yorick_necroGhoul_idle.troy root"
+        },
+        "Info": {
+            "IconCircle": "YorickDecayedGhoul_Square.dds",
+            "IconSquare": "YorickDecayedGhoul_Square.dds"
+        },
+        "MeshSkin": {
+            "Animations": "BaseYorick.blnd",
+            "ChampionSkinID": 93000,
+            "ChampionSkinName": "BaseYorick",
+            "SelfIllumination": 0.7,
+            "SimpleSkin": "YorickDecayedGhoul.skn",
+            "Skeleton": "YorickDecayedGhoul.skl",
+            "SkinScale": 1.1,
+            "Texture": "yorick_base_PET_stinky_TX_CM.dds"
+        },
+        "RecItems": {
+            "RecItem1": 1054,
+            "RecItem2": 3111,
+            "RecItem3": 3044,
+            "RecItem4": 3022,
+            "RecItem5": 3035,
+            "RecItem6": 3026
+        },
+        "UNKNOWN_HASHES": {
+            "11266465": "Undying Rage",
+            "1639648700": "Tryndamere slices toward target location, dealing damage to enemies in his path.",
+            "2779212989": "Tryndamere's lust for battle becomes so strong that he is unable to die, no matter how wounded he becomes.",
+            "3646501220": "Bloodlust",
+            "3655487418": "Tryndamere thrives on the thrills of combat.  Whenever Tryndamere kills a unit or critically strikes, he temporarily gains increased damage and critical damage, and he can consume his Bloodlust to restore health.",
+            "386495002": 2,
+            "3866412067": "Mocking Shout",
+            "3983263047": 0,
+            "4086322914": "Slash",
+            "4146314945": "fighter,melee",
+            "500084411": "Tryndamere issues a brave call toward his cowardly enemies.  Enemies deal reduced damage for a few seconds, and enemies turned away from Tryndamere are mocked mercilessly and move slowly like the chicken they are."
+        }
+    }
+}

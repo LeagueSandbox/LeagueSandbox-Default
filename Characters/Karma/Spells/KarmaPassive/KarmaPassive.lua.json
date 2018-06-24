@@ -1,0 +1,5 @@
+{
+    "PersistsThroughDeath": true,
+    "BuffName": "KarmaPassive",
+    "BuffTextureName": "KarmaInnerFlame.dds"
+}

@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_RelentlessBarrier"
+            "DynamicTooltip": "<titleLeft>The Champ</titleLeft><mainText>Jax has increased Armor and Magic Resist.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

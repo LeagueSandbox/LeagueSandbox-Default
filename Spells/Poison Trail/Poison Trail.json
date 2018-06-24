@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_PoisonTrail"
+            "DynamicTooltip": "<titleLeft>Poison Trail</titleLeft><mainText>Singed is releasing poisonous gas.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

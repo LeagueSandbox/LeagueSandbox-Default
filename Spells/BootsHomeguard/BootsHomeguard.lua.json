@@ -1,0 +1,10 @@
+{
+    "BuffName": "BootsHomeguard",
+    "DoesntBreakShields": false,
+    "IsDamagingSpell": true,
+    "AutoBuffActivateEffectFlags": "EFFCREATE_UPDATE_ORIENTATION",
+    "BuffTextureName": "Summoner_haste.dds",
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "CastingBreaksStealth": true
+}

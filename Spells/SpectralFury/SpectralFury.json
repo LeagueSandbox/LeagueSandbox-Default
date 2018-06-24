@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_SpectralFury"
+            "DynamicTooltip": "<titleLeft>Poltergeist's Ascension</titleLeft><mainText>This unit has increased Movement Speed and dramatically increased Attack Speed.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

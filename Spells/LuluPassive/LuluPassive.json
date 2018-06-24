@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_LuluPassive"
+            "DynamicTooltip": "<titleLeft>Pix, Faerie Companion</titleLeft><mainText>Pix fires a barrage of 3 bolts, dealing @f1@ <font color='#99FF99'>(+@f2@)</font> magic damage total, at whomever Lulu attacks.<br><br>These bolts are homing but can be blocked by other units.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

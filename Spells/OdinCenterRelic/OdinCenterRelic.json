@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_OdinCenterRelic"
+            "DynamicTooltip": "<titleLeft>Storm Shield: Shield</titleLeft><mainText>This unit has:<br>@f1@ Health Shield.<br><br>If this champion has not been hit for 10 seconds, the effect recharges.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

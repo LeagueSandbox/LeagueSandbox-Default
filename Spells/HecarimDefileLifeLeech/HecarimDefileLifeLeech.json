@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_HecarimDefileLifeLeech"
+            "DynamicTooltip": "<titleLeft>Spirit of Dread</titleLeft><mainText>This unit is taking damage over time. Any damage this unit takes heals Hecarim.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

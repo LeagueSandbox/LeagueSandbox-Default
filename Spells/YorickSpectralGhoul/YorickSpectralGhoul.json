@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_YorickSpectralGhoul"
+            "DynamicTooltip": "<titleLeft>War</titleLeft><mainText>This ghoul has increased movement speed and deals bonus damage each attack.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_AlZaharVoidling"
+            "DynamicTooltip": "<titleLeft>Voidling</titleLeft><mainText>This is an uncontrollable creature of the Void summoned by Malzahar.  Lasts 21 seconds.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

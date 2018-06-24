@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_TreelineMasterBuffT1"
+            "DynamicTooltip": "<titleLeft>One Altar</titleLeft><mainText>Capture Altars to increase your power!<br><br><font color='#FF9900'>1 Altar Controlled</font><br> +Bonus Mana Regeneration<br> +3 Gold per Kill<br><font color='#505050'> +10% Bonus Attack Damage<br> +10% Ability Power</font></mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

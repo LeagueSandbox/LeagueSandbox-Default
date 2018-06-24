@@ -1,0 +1,17 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "BraumMarkDamageTracker",
+        "Name": "BraumMarkDamageTracker",
+        "ResourcePath": "DATA/Characters/Braum/Spells/BraumMarkDamageTracker.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Concussive Blows</titleLeft> <mainText><font color='#FFFFFF'>Braum and his allies work together to stun a target.</font><br>Braum's basic attacks apply Concussive Blows for 4 seconds. Once the first stack is applied, <font color='#FFF673'>ally</font> basic attacks also stack Concussive Blows. <br><br>Upon reaching 4 stacks, the target is stunned for <font color='#FFFFFF'>@f2@</font> second(s) and takes <font color='#FFFFFF'>@f1@</font> magic damage. For the next <font color='#FFFFFF'>@f3@</font> seconds they cannot receive stacks, but take <font color='#FFFFFF'>@f5@</font> bonus magic damage from Braum's attacks.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
+            "FloatVarsDecimals1": 1,
+            "FloatVarsDecimals2": 2,
+            "FloatVarsDecimals3": 0,
+            "FloatVarsDecimals5": 0
+        }
+    }
+}

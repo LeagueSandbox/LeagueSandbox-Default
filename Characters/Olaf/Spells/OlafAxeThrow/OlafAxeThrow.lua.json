@@ -1,0 +1,13 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "BroOlaf"
+    },
+    "DoesntBreakShields": true,
+    "IsDamagingSpell": true,
+    "SpellFXOverrideSkins": {
+        "1": "PentakillOlaf"
+    },
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": true,
+    "CastingBreaksStealth": true
+}

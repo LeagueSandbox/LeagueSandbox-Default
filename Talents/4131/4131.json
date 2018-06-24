@@ -1,15 +1,15 @@
 {
     "MetaData": {
         "ContentFormatVersion": 4,
-        "Id": "4131",
-        "Name": "4131",
+        "Id": 4131,
+        "Name": "Spell Weaving",
         "ResourcePath": "DATA/Talents/4131.inibin"
     },
     "Values": {
         "SpellData": {
             "InventoryIcon": "562.dds",
-            "Level1Desc": "game_mastery_level1desc_4131",
-            "Name": "game_mastery_displayname_4131",
+            "Level1Desc": "Damaging an enemy champion with a Basic Attack increases Spell Damage by 1%, stacking up to 3 times (max 3% damage increase)",
+            "Name": "Spell Weaving",
             "Ranks": 1
         }
     }

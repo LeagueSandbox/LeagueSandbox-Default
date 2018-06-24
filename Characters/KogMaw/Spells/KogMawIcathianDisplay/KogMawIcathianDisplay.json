@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "KogMawIcathianDisplay",
+        "Name": "KogMawIcathianDisplay",
+        "ResourcePath": "DATA/Characters/KogMaw/Spells/KogMawIcathianDisplay.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Icathian Surprise</titleLeft><mainText>Upon dying, Kog'Maw starts a chain reaction in his body which causes him to detonate after 4 seconds; dealing @f1@ true damage to surrounding enemies.</mainText>"
+        }
+    }
+}

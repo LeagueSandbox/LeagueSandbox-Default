@@ -1,15 +1,15 @@
 {
     "MetaData": {
         "ContentFormatVersion": 4,
-        "Id": "4244",
-        "Name": "4244",
+        "Id": 4244,
+        "Name": "Evasive",
         "ResourcePath": "DATA/Talents/4244.inibin"
     },
     "Values": {
         "SpellData": {
             "InventoryIcon": "654.dds",
-            "Level1Desc": "game_mastery_level1desc_4244",
-            "Name": "game_mastery_displayname_4244",
+            "Level1Desc": "Reduces damage taken by 4% from Area of Effect magic damage",
+            "Name": "Evasive",
             "Ranks": 1
         }
     }

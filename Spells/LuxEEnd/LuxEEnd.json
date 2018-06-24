@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_LuxEEnd",
+            "DynamicTooltip": "<titleLeft>Detonate</titleLeft><mainText>Lux can detonate her Lucent Singularity.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
             "ShowInTrackerUI": 1
         }
     }

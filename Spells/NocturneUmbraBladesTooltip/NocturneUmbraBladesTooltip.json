@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_NocturneUmbraBladesTooltip"
+            "DynamicTooltip": "<titleLeft>Umbra Blades</titleLeft><mainText>Every 10 seconds, Nocturne's next attack will strike surrounding enemies for 120% physical damage and heals himself for @f1@ per target hit.</mainText>"
         }
     }
 }

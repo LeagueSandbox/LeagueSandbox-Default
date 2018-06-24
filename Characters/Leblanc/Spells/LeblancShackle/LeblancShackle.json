@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "LeblancShackle",
+        "Name": "LeblancShackle",
+        "ResourcePath": "DATA/Characters/Leblanc/Spells/LeblancShackle.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Ethereal Chains</titleLeft><mainText>This unit cannot move.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

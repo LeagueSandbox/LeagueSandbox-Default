@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_XenZhaoComboAutoFinish",
+            "DynamicTooltip": "<titleLeft>Three Talon Strike</titleLeft><mainText>Xin Zhao's next attack deals bonus damage and knocks his opponent into the air.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
             "ShowInTrackerUI": 1
         }
     }

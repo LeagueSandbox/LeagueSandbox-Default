@@ -1,0 +1,14 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "WujuStyleSuperCharged",
+        "Name": "WujuStyleSuperCharged",
+        "ResourcePath": "DATA/Characters/MasterYi/Spells/WujuStyleSuperCharged.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Wuju Style Activated</titleLeft><mainText>Master Yi has activated Wuju Style to deal bonus true damage.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
+            "ShowInTrackerUI": 1
+        }
+    }
+}

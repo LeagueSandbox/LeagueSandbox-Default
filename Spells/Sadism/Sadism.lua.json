@@ -1,0 +1,17 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "CorporateMundo"
+    },
+    "BuffName": "Sadism",
+    "AutoBuffActivateEffect": "dr_mundo_heal.troy",
+    "NotSingleTargetSpell": true,
+    "BuffTextureName": "DrMundo_Sadism.dds",
+    "AutoCooldownByLevel": {
+        "1": 90.0,
+        "2": 75.0,
+        "3": 60.0
+    },
+    "NonDispellable": true,
+    "DoesntTriggerSpellCasts": false,
+    "IsDamagingSpell": true
+}

@@ -1,0 +1,18 @@
+{
+    "AutoBuffActivateAttachBoneName": "BUFFBONE_CSTM_WEAPONA",
+    "DoesntBreakShields": true,
+    "SpellFXOverrideSkins": {
+        "1": "GravesSkin05"
+    },
+    "TriggersSpellCasts": true,
+    "AutoBuffActivateEffect": "Graves_ClusterShot_cas.troy",
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "AutoCooldownByLevel": {
+        "1": 20.0,
+        "2": 16.0,
+        "3": 12.0,
+        "4": 8.0,
+        "5": 4.0
+    }
+}

@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_PowerballStun"
+            "DynamicTooltip": "<titleLeft>Powerball Stun</titleLeft><mainText>This unit is stunned.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

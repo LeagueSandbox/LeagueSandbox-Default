@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_ShadowWalkRevealedDebuff"
+            "DynamicTooltip": "<titleLeft>Revealed</titleLeft><mainText>Evelynn is unstealthed.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

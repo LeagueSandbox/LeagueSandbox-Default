@@ -1,0 +1,8 @@
+{
+    "DoesntBreakShields": true,
+    "BuffName": "Charging",
+    "SpellDamageRatio": 1.0,
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "BuffTextureName": "Minotaur_Headbutt.dds"
+}

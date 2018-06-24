@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "RumbleShieldBuff",
+        "Name": "RumbleShieldBuff",
+        "ResourcePath": "DATA/Characters/Rumble/Spells/RumbleShieldBuff.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Speed Boost!</titleLeft><mainText>Rumble is moving quickly.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

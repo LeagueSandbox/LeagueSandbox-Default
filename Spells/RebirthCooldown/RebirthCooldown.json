@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_RebirthCooldown"
+            "DynamicTooltip": "<titleLeft>Egg Timer</titleLeft><mainText>Anivia was recently reborn and must regain her strength.</mainText> <postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

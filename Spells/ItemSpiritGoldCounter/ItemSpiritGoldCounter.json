@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_ItemSpiritGold"
+            "DynamicTooltip": "<titleLeft>Conservation</titleLeft><mainText>On killing the next Large or Epic monster, gain gold equal to the number of Conservation stacks up to 40.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

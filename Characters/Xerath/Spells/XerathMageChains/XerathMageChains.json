@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "XerathMageChains",
+        "Name": "XerathMageChains",
+        "ResourcePath": "DATA/Characters/Xerath/Spells/XerathMageChains.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Shocking Orb</titleLeft><mainText>Stunned.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

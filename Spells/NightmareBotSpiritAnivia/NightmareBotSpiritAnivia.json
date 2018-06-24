@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_NightmareBotSpiritAnivia"
+            "DynamicTooltip": "<titleLeft>Bonus Doom: Rebirth</titleLeft><mainText>Upon taking lethal damage, this champion will transform into an egg with 100% health. If the egg survives for a short time, the Champion is revived with the same percentage health that their egg had.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

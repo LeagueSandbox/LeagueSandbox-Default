@@ -1,0 +1,5 @@
+{
+    "NotSingleTargetSpell": false,
+    "DoesntBreakShields": true,
+    "TriggersSpellCasts": true
+}

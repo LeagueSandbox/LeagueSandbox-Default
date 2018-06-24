@@ -1,0 +1,12 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "ZombieBrand"
+    },
+    "SpellFXOverrideSkins": {
+        "1": "ZombieBrand"
+    },
+    "IsDamagingSpell": true,
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "SpellDamageRatio": 1.0
+}

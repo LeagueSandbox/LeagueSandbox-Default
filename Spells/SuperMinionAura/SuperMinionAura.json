@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_SuperMinionAura"
+            "DynamicTooltip": "<titleLeft>Inspired Minion</titleLeft><mainText>This unit is inspired by a nearby Super Minion</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

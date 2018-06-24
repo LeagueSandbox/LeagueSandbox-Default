@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "AhriPassive",
+        "Name": "AhriPassive",
+        "ResourcePath": "DATA/Characters/Ahri/Spells/AhriPassive.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Essence Theft</titleLeft><mainText>Gains a charge of Essence Theft whenever a spell hits an enemy (max: 3 charges per spell). Upon reaching 9 charges, Ahri's next spell heals her for <font color='#FFFFFF'>@f1@</font> <font color='#99FF99'>(+@f2@)</font> Health each time it hits an enemy.</mainText>"
+        }
+    }
+}

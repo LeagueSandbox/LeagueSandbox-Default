@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_ManaBarrier"
+            "DynamicTooltip": "<titleLeft>Mana Barrier Active</titleLeft><mainText>Blitzcrank's Mana Barrier is active, absorbing all damage taken until the shield is broken.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

@@ -1,0 +1,17 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "HyenaWarwick"
+    },
+    "AutoCooldownByLevel": {
+        "1": 45.0,
+        "2": 40.0,
+        "3": 35.0,
+        "4": 30.0,
+        "5": 25.0
+    },
+    "BuffName": "Haste",
+    "TriggersSpellCasts": true,
+    "NotSingleTargetSpell": true,
+    "BuffTextureName": "Wolfman_Bloodscent.dds",
+    "DoesntTriggerSpellCasts": true
+}

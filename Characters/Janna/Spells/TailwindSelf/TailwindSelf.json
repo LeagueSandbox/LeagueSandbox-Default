@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "TailwindSelf",
+        "Name": "TailwindSelf",
+        "ResourcePath": "DATA/Characters/Janna/Spells/TailwindSelf.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Tailwind</titleLeft><mainText>Janna and her nearby allied champions gain 5% increased Movement Speed.</mainText>"
+        }
+    }
+}

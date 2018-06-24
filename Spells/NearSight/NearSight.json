@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_NearSight"
+            "DynamicTooltip": "<titleLeft>Near Sighted</titleLeft><mainText>This unit has reduced sight radius and cannot see his allies.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

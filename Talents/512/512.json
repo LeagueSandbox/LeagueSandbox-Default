@@ -1,8 +1,8 @@
 {
     "MetaData": {
         "ContentFormatVersion": 4,
-        "Id": "512",
-        "Name": "512",
+        "Id": 512,
+        "Name": "game_mastery_displayname_512",
         "ResourcePath": "DATA/Talents/512.inibin"
     },
     "Values": {

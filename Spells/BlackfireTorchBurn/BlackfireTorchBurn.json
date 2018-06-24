@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_BlackfireTorchBurn"
+            "DynamicTooltip": "<titleLeft>Blackfire Torch</titleLeft><mainText>Taking damage over time!</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

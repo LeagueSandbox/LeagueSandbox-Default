@@ -1,0 +1,7 @@
+{
+    "BuffName": "Teleport",
+    "BuffTextureName": "Summoner_teleport.dds",
+    "CastingBreaksStealth": true,
+    "DoesntTriggerSpellCasts": true,
+    "NotSingleTargetSpell": true
+}

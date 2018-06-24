@@ -1,0 +1,5 @@
+{
+    "PersistsThroughDeath": true,
+    "BuffName": "RengarPassive",
+    "DoesntTriggerSpellCasts": true
+}

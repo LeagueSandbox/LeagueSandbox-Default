@@ -1,0 +1,15 @@
+{
+    "PersistsThroughDeath": true,
+    "BuffName": "ZyraPQueenOfThorns",
+    "CastingBreaksStealth": true,
+    "BuffTextureName": "ZyraP.dds",
+    "DoesntBreakShields": true,
+    "SpellFXOverrideSkins": {
+        "1": "Zyra_hellvine",
+        "2": "ZyraSkin02"
+    },
+    "NonDispellable": true,
+    "IsDamagingSpell": false,
+    "DoesntTriggerSpellCasts": true,
+    "NotSingleTargetSpell": false
+}

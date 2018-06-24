@@ -1,15 +1,15 @@
 {
     "MetaData": {
         "ContentFormatVersion": 4,
-        "Id": "4253",
-        "Name": "4253",
+        "Id": 4253,
+        "Name": "Runic Blessing",
         "ResourcePath": "DATA/Talents/4253.inibin"
     },
     "Values": {
         "SpellData": {
             "InventoryIcon": "642.dds",
-            "Level1Desc": "game_mastery_level1desc_4253",
-            "Name": "game_mastery_displayname_4253",
+            "Level1Desc": "Start the game with a 50 Health shield. This shield regenerates each time after respawning",
+            "Name": "Runic Blessing",
             "Ranks": 1
         }
     }

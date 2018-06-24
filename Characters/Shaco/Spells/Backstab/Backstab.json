@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "Backstab",
+        "Name": "Backstab",
+        "ResourcePath": "DATA/Characters/Shaco/Spells/Backstab.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Backstab</titleLeft><mainText>Shaco deals 20% bonus damage when attacking from behind.</mainText>"
+        }
+    }
+}

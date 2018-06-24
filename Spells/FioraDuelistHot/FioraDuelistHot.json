@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_FioraDuelistHot"
+            "DynamicTooltip": "<titleLeft>Duelist</titleLeft><mainText>Fiora's Health Regeneration is increased.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

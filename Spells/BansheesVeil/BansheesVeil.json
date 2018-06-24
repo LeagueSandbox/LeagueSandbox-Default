@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_BansheesVeil"
+            "DynamicTooltip": "<titleLeft>Banshee's Veil</titleLeft><mainText>The next unfriendly ability used on this unit will have no effect.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

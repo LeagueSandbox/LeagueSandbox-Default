@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Paranoia_Aura"
+            "DynamicTooltip": "<titleLeft>Dread</titleLeft><mainText>This unit's Magic Resistance has been reduced.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

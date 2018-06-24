@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "UdyrBearStunCheck",
+        "Name": "UdyrBearStunCheck",
+        "ResourcePath": "DATA/Characters/Udyr/Spells/UdyrBearStunCheck.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Mauled</titleLeft><mainText>This unit has been recently hit by Udyr in Bear Stance. Subsequent attacks from Udyr will not stun them.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

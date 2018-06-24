@@ -1,0 +1,9 @@
+{
+    "SpellDamageRatio": 1.0,
+    "IsDamagingSpell": true,
+    "PopupMessage1": "game_floatingtext_Slowed",
+    "BuffName": "LissandraRSlow",
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": true,
+    "BuffTextureName": "Lissandra_R.dds"
+}

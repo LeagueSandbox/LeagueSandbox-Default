@@ -1,0 +1,14 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "GarenQBuff",
+        "Name": "GarenQBuff",
+        "ResourcePath": "DATA/Characters/Garen/Spells/GarenQBuff.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Decisive Strike</titleLeft><mainText>Garen's next attack silences his target and deals bonus damage.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
+            "ShowInTrackerUI": 1
+        }
+    }
+}

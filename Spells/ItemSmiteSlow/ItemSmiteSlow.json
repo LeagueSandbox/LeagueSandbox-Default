@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_ItemSmiteSlow"
+            "DynamicTooltip": "<titleLeft>Slowed</titleLeft><mainText>This unit is moving more slowly.</mainText>"
         }
     }
 }

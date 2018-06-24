@@ -1,0 +1,10 @@
+{
+    "DoesntBreakShields": false,
+    "IsDamagingSpell": true,
+    "SpellFXOverrideSkins": {
+        "1": ""
+    },
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "CastingBreaksStealth": true
+}

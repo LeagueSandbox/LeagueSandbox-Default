@@ -1,0 +1,16 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "NasusSkin05"
+    },
+    "SpellFXOverrideSkins": {
+        "1": "NasusSkin05"
+    },
+    "BuffName": "NasusR",
+    "CastingBreaksStealth": true,
+    "BuffTextureName": "Nasus_R.dds",
+    "DoesntBreakShields": true,
+    "NonDispellable": true,
+    "IsDamagingSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "NotSingleTargetSpell": true
+}

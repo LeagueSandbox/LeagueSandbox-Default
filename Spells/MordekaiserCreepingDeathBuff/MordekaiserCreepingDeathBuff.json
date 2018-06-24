@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_MordekaiserCreepingDeathBuff"
+            "DynamicTooltip": "<titleLeft>Creeping Death</titleLeft><mainText>Nearby enemies take damage per second. Additionally, this unit has increased Armor and Magic Resistance.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

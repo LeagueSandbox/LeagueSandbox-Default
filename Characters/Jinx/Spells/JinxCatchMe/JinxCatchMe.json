@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "JinxCatchMe",
+        "Name": "JinxCatchMe",
+        "ResourcePath": "DATA/Characters/Jinx/Spells/JinxCatchMe.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Catch me if you can!</titleLeft><mainText>Cait and Vi are chasing you. How fun!<br><br>Cops Outsmarted: <font color='#FFFFFF'>@f1@</font></mainText>"
+        }
+    }
+}

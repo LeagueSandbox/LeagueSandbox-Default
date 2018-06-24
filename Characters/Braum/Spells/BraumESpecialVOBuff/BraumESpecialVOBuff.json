@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "BraumESpecialVOBuff",
+        "Name": "BraumESpecialVOBuff",
+        "ResourcePath": "DATA/Characters/Braum/Spells/BraumESpecialVOBuff.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Danger Zone</titleLeft><mainText>Rumble is heating up. All of his abilities have additional effects.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

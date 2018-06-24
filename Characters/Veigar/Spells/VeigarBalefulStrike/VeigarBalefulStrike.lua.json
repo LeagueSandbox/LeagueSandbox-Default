@@ -1,0 +1,20 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "VeigarSkin08"
+    },
+    "AutoCooldownByLevel": {
+        "1": 8.0,
+        "2": 7.0,
+        "3": 6.0,
+        "4": 5.0,
+        "5": 4.0
+    },
+    "IsDamagingSpell": true,
+    "SpellFXOverrideSkins": {
+        "1": "BadSantaVeigar",
+        "2": "VeigarSkin08"
+    },
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "SpellDamageRatio": 1.0
+}

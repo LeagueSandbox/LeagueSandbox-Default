@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "ZedPassiveToolTip",
+        "Name": "ZedPassiveToolTip",
+        "ResourcePath": "DATA/Characters/Zed/Spells/ZedPassiveToolTip.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Contempt for the Weak</titleLeft><mainText>Whenever Zed basic attacks an enemy below 50% Health, he deals an additional @f1@% of their maximum Health as Magic Damage. This effect cannot occur on a given target more than once every 10 seconds.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

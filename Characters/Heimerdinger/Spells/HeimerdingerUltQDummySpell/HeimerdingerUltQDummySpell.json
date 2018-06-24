@@ -1,0 +1,17 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "HeimerdingerUltQDummySpell",
+        "Name": "H-28Q Apex Turret",
+        "ResourcePath": "DATA/Characters/Heimerdinger/Spells/HeimerdingerUltQDummySpell.inibin"
+    },
+    "Values": {
+        "SpellData": {
+            "Description": "Heimerdinger UPGRADES!!! his H-28G Evolution Turret, placing an enormous turret that slows targets, charges beams twice as fast, and has splash damage, increased range, damage, and health.",
+            "DisplayName": "H-28Q Apex Turret",
+            "DynamicExtended": "game_spell_levelup_HeimerdingerUltQDummySpell",
+            "DynamicTooltip": "game_spell_tooltip_HeimerdingerUltQDummySpell",
+            "InventoryIcon": "Heimerdinger_Q2.dds"
+        }
+    }
+}

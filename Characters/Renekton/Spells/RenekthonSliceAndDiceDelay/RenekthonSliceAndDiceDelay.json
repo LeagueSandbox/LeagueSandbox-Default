@@ -1,0 +1,14 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "RenekthonSliceAndDiceDelay",
+        "Name": "RenekthonSliceAndDiceDelay",
+        "ResourcePath": "DATA/Characters/Renekton/Spells/RenekthonSliceAndDiceDelay.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Dice</titleLeft><mainText>Renekton can dash again to a location, dealing physical damage to enemies struck along his path.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
+            "ShowInTrackerUI": 1
+        }
+    }
+}

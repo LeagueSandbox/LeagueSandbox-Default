@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "GnarTransform",
+        "Name": "GnarTransform",
+        "ResourcePath": "DATA/Characters/Gnar/Spells/GnarTransform.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Mega Gnar</titleLeft><mainText>Gnar is fully enraged.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

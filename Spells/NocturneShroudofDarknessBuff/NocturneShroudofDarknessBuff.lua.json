@@ -1,0 +1,17 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "CyberNocturne"
+    },
+    "SpellFXOverrideSkins": {
+        "1": "CyberNocturne"
+    },
+    "BuffName": "NocturneShroudofDarkness",
+    "TriggersSpellCasts": true,
+    "AutoBuffActivateEffect": "nocturne_shroud_AttackSpeed_buff.troy",
+    "NotSingleTargetSpell": true,
+    "BuffTextureName": "Nocturne_ShroudofDarkness.dds",
+    "AutoBuffActivateAttachBoneName": "R_hand",
+    "AutoBuffActivateEffect2": "nocturne_shroud_AttackSpeed_buff.troy",
+    "DoesntTriggerSpellCasts": false,
+    "AutoBuffActivateAttachBoneName2": "L_hand"
+}

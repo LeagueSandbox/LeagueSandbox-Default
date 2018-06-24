@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_GravesPassiveGrit"
+            "DynamicTooltip": "<titleLeft>True Grit</titleLeft><mainText>Graves has @f1@ bonus Armor and Magic Resistance.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

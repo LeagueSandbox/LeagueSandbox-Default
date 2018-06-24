@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_PickACard",
+            "DynamicTooltip": "<titleLeft>Pick A Card</titleLeft><mainText>Twisted Fate is shuffling the deck, looking for a card.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
             "ShowInTrackerUI": 1
         }
     }

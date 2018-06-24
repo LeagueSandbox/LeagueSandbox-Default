@@ -1,0 +1,9 @@
+{
+    "DoesntBreakShields": true,
+    "SpellFXOverrideSkins": {
+        "1": "CaitlynSkin06"
+    },
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "SpellDamageRatio": 1.0
+}

@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "KhazixHuntEnemy",
+        "Name": "KhazixHuntEnemy",
+        "ResourcePath": "DATA/Characters/Khazix/Spells/KhazixHuntEnemy.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>The Hunt is On!</titleLeft><mainText>Rengar must kill Kha'Zix first to become the ultimate hunter. (Assists count.)<br><br><font color='#FDD017' >''This twisted monster has evaded me for too long. I will have his head!'' - Rengar</font></mainText>"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "BuffName": "Wuju Style",
+    "AutoBuffActivateAttachBoneName4": "buffbone_cstm_weapon_3",
+    "AutoBuffActivateEffect": "Wujustyle_buf.troy",
+    "NotSingleTargetSpell": false,
+    "BuffTextureName": "Aatrox_SunderingStrikes.dds",
+    "AutoBuffActivateAttachBoneName3": "buffbone_cstm_weapon_2",
+    "AutoBuffActivateAttachBoneName": "weaponstreak",
+    "AutoBuffActivateEffect2": "MasterYi_Tribal_Wuju_Sword_Yellow.troy",
+    "AutoBuffActivateEffect4": "MasterYi_Tribal_Wuju_Sword_3rd_Yellow.troy",
+    "NonDispellable": true,
+    "AutoBuffActivateEffect3": "MasterYi_Tribal_Wuju_Sword_2nd_Yellow.troy",
+    "DoesntTriggerSpellCasts": false,
+    "AutoBuffActivateAttachBoneName2": "buffbone_cstm_weapon_1"
+}

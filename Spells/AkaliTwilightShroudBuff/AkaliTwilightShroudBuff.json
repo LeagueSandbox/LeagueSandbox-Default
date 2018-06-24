@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_AkaliTwilightShroudBuff"
+            "DynamicTooltip": "<titleLeft>Twilight Shroud</titleLeft><mainText>Akali has a burst of increased Movement Speed when entering stealth.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

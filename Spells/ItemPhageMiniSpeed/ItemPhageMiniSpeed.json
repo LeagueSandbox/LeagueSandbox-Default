@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_ItemPhageMiniSpeed"
+            "DynamicTooltip": "<titleLeft>Rage</titleLeft><mainText>This unit has increased Movement Speed.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

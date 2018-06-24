@@ -1,0 +1,6 @@
+{
+    "AutoBuffActivateEffect": "volibear_passive_heal.troy",
+    "NonDispellable": true,
+    "BuffName": "VolibearPassiveHeal",
+    "BuffTextureName": "VolibearPassive.dds"
+}

@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "SivirPassiveSpeed",
+        "Name": "SivirPassiveSpeed",
+        "ResourcePath": "DATA/Characters/Sivir/Spells/SivirPassiveSpeed.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Fleet of Foot</titleLeft><mainText>This unit has increased Movement Speed.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

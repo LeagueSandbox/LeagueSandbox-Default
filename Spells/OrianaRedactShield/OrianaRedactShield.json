@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_OrianaRedactShield"
+            "DynamicTooltip": "<titleLeft>Command: Protect</titleLeft><mainText>This champion is shielded from damage.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

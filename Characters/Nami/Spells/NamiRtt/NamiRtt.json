@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "NamiRtt",
+        "Name": "NamiRtt",
+        "ResourcePath": "DATA/Characters/Nami/Spells/NamiRtt.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Tidal Wave</titleLeft><mainText>This unit has been slowed massively.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

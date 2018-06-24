@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Soul_Shackles"
+            "DynamicTooltip": "<titleLeft>Soul Shackles</titleLeft><mainText>This champion's soul is shackled to Morgana. If they remain near Morgana until the end of the ability's duration, they will receive damage and be stunned.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

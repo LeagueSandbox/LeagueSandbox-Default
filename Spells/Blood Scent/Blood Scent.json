@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Blood_Scent",
+            "DynamicTooltip": "<titleLeft>Blood Scent</titleLeft><mainText>This unit has been detected by Warwick, all enemy players have vision of this unit.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
             "ShowInTrackerUI": 1
         }
     }

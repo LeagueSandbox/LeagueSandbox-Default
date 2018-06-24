@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_SwainShadowGraspRoot"
+            "DynamicTooltip": "<titleLeft>Nevermove</titleLeft><mainText>This unit is being held in place by powerful talons.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_NunuQBuffLizard"
+            "DynamicTooltip": "<titleLeft>Well Fed - <font color='#FFAA33'>Mystery Meat</font></titleLeft><mainText>Nunu's Yeti Willump has recently eaten something and deals bonus magic damage on attack.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Dark_Binding"
+            "DynamicTooltip": "<titleLeft>Dark Binding</titleLeft><mainText>This unit is netted to the ground.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

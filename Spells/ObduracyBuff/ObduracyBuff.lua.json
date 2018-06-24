@@ -1,0 +1,12 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "GlacialMalphite",
+        "2": "MalphiteSkin06"
+    },
+    "IsDamagingSpell": false,
+    "BuffName": "MalphiteDamageBuff",
+    "BuffTextureName": "Malphite_BrutalStrikes.dds",
+    "CastingBreaksStealth": true,
+    "DoesntTriggerSpellCasts": false,
+    "NotSingleTargetSpell": true
+}

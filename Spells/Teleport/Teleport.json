@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Teleport"
+            "DynamicTooltip": "<titleLeft>Teleport</titleLeft><mainText>This champion is teleporting to a distant location.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

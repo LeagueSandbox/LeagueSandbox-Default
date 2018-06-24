@@ -1,0 +1,12 @@
+{
+    "PersistsThroughDeath": true,
+    "BuffName": "NautilusPassiveCheck",
+    "AutoBuffActivateEffect": "",
+    "AutoBuffActivateEffect4": "",
+    "BuffTextureName": "Nautilus_StaggeringBlow.dds",
+    "AutoBuffActivateAttachBoneName3": "",
+    "AutoBuffActivateAttachBoneName": "",
+    "AutoBuffActivateEffect2": "",
+    "NonDispellable": true,
+    "AutoBuffActivateAttachBoneName2": ""
+}

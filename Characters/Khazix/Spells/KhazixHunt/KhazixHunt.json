@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "KhazixHunt",
+        "Name": "KhazixHunt",
+        "ResourcePath": "DATA/Characters/Khazix/Spells/KhazixHunt.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>The Hunt is On!</titleLeft><mainText>Kha'Zix must kill Rengar first to become the ultimate predator. (Assists count.)<br><br><font color='#FDD017' >''I have grown and adapted since I took his eye. I will feast on lion!'' - Kha'Zix</font></mainText>"
+        }
+    }
+}

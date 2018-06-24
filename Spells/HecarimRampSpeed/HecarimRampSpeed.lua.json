@@ -1,0 +1,16 @@
+{
+    "BuffName": "HecarimRamp",
+    "SpellToggleSlot": 1.0,
+    "AutoBuffActivateEffect": "Hecarim_E_buf.troy",
+    "CastingBreaksStealth": true,
+    "BuffTextureName": "Hecarim_DevastingCharge.dds",
+    "AutoBuffActivateAttachBoneName3": "BUFFBONE_GLB_WEAPON_1",
+    "AutoBuffActivateAttachBoneName": "C_BUFFBONE_GLB_CENTER_LOC",
+    "DoesntBreakShields": false,
+    "AutoBuffActivateEffect2": "Hecarim_E_weapon_buf.troy",
+    "AutoBuffActivateEffect3": "Hecarim_E_weapon_buf2.troy",
+    "AutoBuffActivateAttachBoneName2": "Weapon",
+    "IsDamagingSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "NotSingleTargetSpell": true
+}

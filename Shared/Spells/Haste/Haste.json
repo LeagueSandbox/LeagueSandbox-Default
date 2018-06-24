@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "Haste",
+        "Name": "Haste",
+        "ResourcePath": "DATA/Shared/Spells/Haste.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Ghost</titleLeft><mainText>This unit's Movement Speed is increased.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

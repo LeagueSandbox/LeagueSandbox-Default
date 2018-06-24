@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_NightmareBotMalzaharBuff"
+            "DynamicTooltip": "<titleLeft>Doom Malzahar</titleLeft><mainText>Doom Malzahar’s abilities have fragmented, and he’s brought extra voidlings with him from the void.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_FlashFrost",
+            "DynamicTooltip": "<titleLeft>Flash Frost</titleLeft><mainText>Anivia holds the ice shard together with a frigid wind.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
             "ShowInTrackerUI": 1
         }
     }

@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_DeathLotusSound"
+            "DynamicTooltip": "<titleLeft>Death Lotus</titleLeft><mainText>Katarina is channeling her ultimate. Enemy champions stay in range at their peril!</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

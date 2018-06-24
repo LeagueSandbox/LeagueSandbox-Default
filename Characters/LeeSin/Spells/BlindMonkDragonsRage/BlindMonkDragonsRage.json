@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "BlindMonkDragonsRage",
+        "Name": "BlindMonkDragonsRage",
+        "ResourcePath": "DATA/Characters/LeeSin/Spells/BlindMonkDragonsRage.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Dragon's Rage</titleLeft><mainText>This unit will damage and knock up any allied units it collides with.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

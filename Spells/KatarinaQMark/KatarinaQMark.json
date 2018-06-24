@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_KatarinaDaggered"
+            "DynamicTooltip": "<titleLeft>Mark of the Sinister Blade</titleLeft><mainText>Katarina's next spell or basic attack against this target will deal bonus magic damage.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

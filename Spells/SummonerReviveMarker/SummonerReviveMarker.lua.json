@@ -1,0 +1,6 @@
+{
+    "NonDispellable": true,
+    "PersistsThroughDeath": true,
+    "BuffName": "Preservation",
+    "BuffTextureName": "Summoner_revive.dds"
+}

@@ -1,0 +1,9 @@
+{
+    "AutoBuffActivateAttachBoneName": "C_BUFFBONE_GLB_HEAD_LOC",
+    "DoesntBreakShields": true,
+    "BuffName": "SummonerIgnite",
+    "AutoBuffActivateEffect": "GLOBAL_watched.troy",
+    "CastingBreaksStealth": true,
+    "DoesntTriggerSpellCasts": true,
+    "BuffTextureName": "SummonerIgnite.dds"
+}

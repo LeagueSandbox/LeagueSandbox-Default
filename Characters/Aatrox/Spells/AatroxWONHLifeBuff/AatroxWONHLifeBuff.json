@@ -1,0 +1,14 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "AatroxWONHLifeBuff",
+        "Name": "AatroxWONHLifeBuff",
+        "ResourcePath": "DATA/Characters/Aatrox/Spells/AatroxWONHLifeBuff.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Blood Thirst: Ready</titleLeft><mainText>Aatrox's next attack will heal him.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
+            "ShowInTrackerUI": 1
+        }
+    }
+}

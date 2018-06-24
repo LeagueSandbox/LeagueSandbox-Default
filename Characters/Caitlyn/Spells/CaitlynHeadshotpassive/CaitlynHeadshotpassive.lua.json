@@ -1,0 +1,6 @@
+{
+    "NonDispellable": true,
+    "PersistsThroughDeath": true,
+    "BuffName": "Headshot Marker",
+    "BuffTextureName": "Caitlyn_Headshot.dds"
+}

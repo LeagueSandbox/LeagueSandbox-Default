@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "KogMawLivingArtillerySight",
+        "Name": "KogMawLivingArtillerySight",
+        "ResourcePath": "DATA/Characters/KogMaw/Spells/KogMawLivingArtillerySight.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Living Artillery</titleLeft><mainText>Kog'Maw can see you.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

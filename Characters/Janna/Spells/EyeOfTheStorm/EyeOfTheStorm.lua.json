@@ -1,0 +1,16 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "JannaForecast"
+    },
+    "SpellFXOverrideSkins": {
+        "1": "JannaForecast"
+    },
+    "BuffName": "Eye Of The Storm",
+    "NotSingleTargetSpell": false,
+    "BuffTextureName": "Janna_EyeOfTheStorm.dds",
+    "AutoBuffActivateEvent": "DeathsCaress_buf.troy",
+    "DoOnPreDamageInExpirationOrder": true,
+    "IsDamagingSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "OnPreDamagePriority": 3.0
+}

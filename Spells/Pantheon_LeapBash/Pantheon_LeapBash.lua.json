@@ -1,0 +1,8 @@
+{
+    "DoesntBreakShields": true,
+    "IsDamagingSpell": true,
+    "AutoBuffActivateEffect": "pantheon_aegis_self.troy",
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "CastingBreaksStealth": true
+}

@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_FizzSeastoneActive",
+            "DynamicTooltip": "<titleLeft>Seastone Trident - Charged</titleLeft><mainText>For a short time, Fizz's attacks deal extra Magic Damage and apply Grievous Wounds to his target.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
             "ShowInTrackerUI": 1
         }
     }

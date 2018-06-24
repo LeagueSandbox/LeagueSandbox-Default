@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "SonaPassive",
+        "Name": "SonaPassive",
+        "ResourcePath": "DATA/Characters/Sona/Spells/SonaPassive.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Power Chord</titleLeft><mainText>After casting 3 non-ultimate spells, Sona's next basic attack deals @f1@ <font color='#99FF99'>(+@f2@)</font> bonus magic damage and has an additional effect based on the song Sona last activated.</mainText>"
+        }
+    }
+}

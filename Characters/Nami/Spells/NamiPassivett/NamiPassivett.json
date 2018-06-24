@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "NamiPassivett",
+        "Name": "NamiPassivett",
+        "ResourcePath": "DATA/Characters/Nami/Spells/NamiPassivett.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Surging Tides</titleLeft><mainText>This unit's has increased Movement Speed for a short duration.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

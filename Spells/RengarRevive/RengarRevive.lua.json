@@ -1,0 +1,5 @@
+{
+    "PersistsThroughDeath": true,
+    "BuffName": "RengarRevive",
+    "BuffTextureName": "3345_Soul_Anchor.dds"
+}

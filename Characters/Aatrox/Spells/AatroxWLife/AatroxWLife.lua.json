@@ -1,0 +1,11 @@
+{
+    "PersistsThroughDeath": true,
+    "BuffName": "AatroxWLife",
+    "SpellFXOverrideSkins": {
+        "1": "AatroxSkin02"
+    },
+    "NonDispellable": true,
+    "NotSingleTargetSpell": false,
+    "BuffTextureName": "Aatrox_W2.dds",
+    "DoesntTriggerSpellCasts": false
+}

@@ -1,0 +1,14 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "Howling Gale",
+        "Name": "Howling Gale",
+        "ResourcePath": "DATA/Characters/Janna/Spells/Howling Gale.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Howling Gale</titleLeft><mainText>Janna can activate Howling Gale to release her whirlwind.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
+            "ShowInTrackerUI": 1
+        }
+    }
+}

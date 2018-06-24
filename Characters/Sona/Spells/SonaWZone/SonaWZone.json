@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "SonaWZone",
+        "Name": "SonaWZone",
+        "ResourcePath": "DATA/Characters/Sona/Spells/SonaWZone.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Aria of Perseverance</titleLeft><mainText>Sona's zone grants allies a temporary shield.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "TryndamereDemonsword"
+    },
+    "SpellFXOverrideSkins": null,
+    "AutoBuffActivateEffect": "",
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": false
+}

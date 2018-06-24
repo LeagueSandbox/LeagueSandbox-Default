@@ -1,0 +1,15 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "YasuoSkin02"
+    },
+    "SpellFXOverrideSkins": {
+        "1": "YasuoSkin01",
+        "2": "YasuoSkin02"
+    },
+    "IsDamagingSpell": true,
+    "TriggersSpellCasts": true,
+    "BuffName": "YasuoQ",
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": true,
+    "BuffTextureName": "Garen_DecisiveStrike.dds"
+}

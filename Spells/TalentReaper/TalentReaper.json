@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Mastery_TalentReaper"
+            "DynamicTooltip": "<titleLeft>Spoils of War</titleLeft><mainText>Upon killing a minion, you and the closest nearby allied champion gain full gold value from that kill and are healed.<br><br>This effect requires a nearby allied champion and a charge of Spoils of War.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

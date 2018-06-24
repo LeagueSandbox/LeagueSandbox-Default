@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_ItemBansheesVeilRegen"
+            "DynamicTooltip": "<titleLeft>Banshee's Regeneration</titleLeft><mainText>This unit has recently taken damage and is regenerating Health.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

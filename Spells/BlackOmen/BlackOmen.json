@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_BlackOmen"
+            "DynamicTooltip": "<titleLeft>Black Omen</titleLeft><mainText>This unit has dramatically decreased Attack Speed.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

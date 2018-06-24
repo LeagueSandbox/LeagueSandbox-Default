@@ -1,0 +1,16 @@
+{
+    "AutoCooldownByLevel": {
+        "1": 22.0,
+        "2": 20.0,
+        "3": 18.0,
+        "4": 16.0,
+        "5": 14.0
+    },
+    "BuffName": "UrgotSwapDef",
+    "SpellFXOverrideSkins": {
+        "1": "BattlecastUrgot"
+    },
+    "NotSingleTargetSpell": false,
+    "BuffTextureName": "UrgotPositionReverser.dds",
+    "DoesntTriggerSpellCasts": false
+}

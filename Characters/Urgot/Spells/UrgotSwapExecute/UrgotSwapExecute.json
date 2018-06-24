@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "UrgotSwapExecute",
+        "Name": "UrgotSwapExecute",
+        "ResourcePath": "DATA/Characters/Urgot/Spells/UrgotSwapExecute.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Hyper-Kinetic Position Reverser</titleLeft><mainText>This unit was recently swapped by Hyper-Kinetic Position Reverser.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

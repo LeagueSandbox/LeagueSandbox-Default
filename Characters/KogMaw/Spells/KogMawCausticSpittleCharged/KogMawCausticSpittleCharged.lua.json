@@ -1,0 +1,9 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "KogMawSkin08"
+    },
+    "BuffName": "KogMawCausticSpittleCharged",
+    "NotSingleTargetSpell": false,
+    "BuffTextureName": "KogMaw_CausticSpittle.dds",
+    "DoesntTriggerSpellCasts": false
+}

@@ -1,0 +1,14 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "On The Hunt",
+        "Name": "On The Hunt",
+        "ResourcePath": "DATA/Characters/Sivir/Spells/On The Hunt.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>On The Hunt</titleLeft><mainText>This unit's Movement Speed is increased.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
+            "ShowInTrackerUI": 1
+        }
+    }
+}

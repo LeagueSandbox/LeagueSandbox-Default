@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_MalphiteDamageBuff"
+            "DynamicTooltip": "<titleLeft>Brutal Strength</titleLeft><mainText>Malphite has increased Attack Damage and Armor.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

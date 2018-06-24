@@ -1,0 +1,14 @@
+{
+    "AutoCooldownByLevel": {
+        "1": 50.0,
+        "2": 50.0,
+        "3": 50.0,
+        "4": 50.0,
+        "5": 50.0
+    },
+    "BuffName": "ItemFaithShaker",
+    "BuffTextureName": "3056_Ohmwrecker.dds",
+    "CastingBreaksStealth": true,
+    "DoesntTriggerSpellCasts": true,
+    "NotSingleTargetSpell": true
+}

@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_AlZaharNetherGraspSound"
+            "DynamicTooltip": "<titleLeft>Nether Grasp</titleLeft><mainText>Malzahar is channeling to keep his target suppressed.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

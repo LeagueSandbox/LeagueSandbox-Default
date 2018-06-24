@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_NightmareBotSpiritWarwickDebuff"
+            "DynamicTooltip": "<titleLeft>Bonus Doom: Blood Scent</titleLeft><mainText>This unit has been detected by a Doom Bot, all enemy champions have vision of this unit.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

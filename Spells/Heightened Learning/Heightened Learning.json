@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Heightened_Learning"
+            "DynamicTooltip": "<titleLeft>Heightened Learning</titleLeft><mainText>Zilean and his nearby allied champions receive 8% additional experience.</mainText>"
         }
     }
 }

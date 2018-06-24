@@ -1,0 +1,5 @@
+{
+    "PersistsThroughDeath": true,
+    "BuffName": "NightmareBotBlitzcrankBuff",
+    "BuffTextureName": "Blitzcrank_RocketGrab.dds"
+}

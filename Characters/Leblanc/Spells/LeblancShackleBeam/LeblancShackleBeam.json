@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "LeblancShackleBeam",
+        "Name": "LeblancShackleBeam",
+        "ResourcePath": "DATA/Characters/Leblanc/Spells/LeblancShackleBeam.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Ethereal Chains</titleLeft><mainText>This unit must move away from LeBlanc to break the chain and not be disabled.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

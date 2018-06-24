@@ -1,0 +1,11 @@
+{
+    "PersistsThroughDeath": true,
+    "BuffName": "RebirthCooldown",
+    "CastingBreaksStealth": false,
+    "BuffTextureName": "Cryophoenix_Rebirth_Charging.dds",
+    "DoesntBreakShields": true,
+    "NonDispellable": true,
+    "IsDamagingSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "NotSingleTargetSpell": true
+}

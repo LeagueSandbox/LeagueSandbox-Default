@@ -1,0 +1,6 @@
+{
+    "AutoBuffActivateEffect": "globl_slow.troy",
+    "BuffTextureName": "Malphite_GroundSlam.dds",
+    "BuffName": "LandslideDebuff",
+    "PopupMessage1": "game_floatingtext_Slowed"
+}

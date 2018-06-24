@@ -1,0 +1,14 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "QuinnRForm",
+        "Name": "QuinnRForm",
+        "ResourcePath": "DATA/Characters/Quinn/Spells/QuinnRForm.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Tag Team</titleLeft><mainText>Valor can move through units and has increased Movement Speed. This bonus is larger out of combat.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
+            "ShowInTrackerUI": 1
+        }
+    }
+}

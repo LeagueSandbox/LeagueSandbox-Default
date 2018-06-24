@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_NightmareBotSpiritShaco"
+            "DynamicTooltip": "<titleLeft>Bonus Doom: Hallucinate</titleLeft><mainText>Whenever this champion is below 40% health, they create a clone of themselves, which explodes when dying dealing magic damage to nearby enemies.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

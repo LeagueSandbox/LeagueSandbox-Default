@@ -1,0 +1,537 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "ObjectCFG",
+        "Name": "ObjectCFG",
+        "ResourcePath": "LEVELS/Map1/Scene/CFG/ObjectCFG.cfg"
+    },
+    "Values": {
+        "": {},
+        "__ANIMS_chaosShrineTurret": {
+            "Move": "35.5556 -2.2222 -86.6667",
+            "Rot": "168.0000 0.0000 0.0000",
+            "SkinName1": "ChaosTurretShrine"
+        },
+        "__ANIMS_orderShrineTurret": {
+            "Move": "-2.2222 0.0000 97.7778",
+            "Rot": "0.0000 0.0000 0.0000",
+            "SkinName1": "OrderTurretShrine"
+        },
+        "__ANIMS_shopekeeper": {
+            "Move": "-11.1111 31.1111 8.8889",
+            "Rot": "140.0000 0.0000 0.0000",
+            "SkinName1": "ShopKeeper"
+        },
+        "__ANIMS_shopekeeper2": {
+            "Move": "-35.5556 -13.3333 42.2222",
+            "Rot": "174.0000 0.0000 0.0000",
+            "SkinName1": "ShopKeeper"
+        },
+        "__ANIMS_store1": {
+            "Move": "15.5555 -13.3333 4.4445",
+            "Rot": "138.0000 0.0000 0.0000",
+            "SkinName1": "shop"
+        },
+        "__ANIMS_store2": {
+            "Move": "0.0000 -13.3333 -20.0000",
+            "Rot": "184.0000 0.0000 0.0000",
+            "SkinName1": "shop"
+        },
+        "__P_Chaos_Spawn_Barracks__C01": {
+            "PathfindingCollisionRadius": 18.8193,
+            "SelectionHeight": 39.6217,
+            "SelectionRadius": 19.8098,
+            "SkinName1": "ChaosBarracks_Wizard"
+        },
+        "__P_Chaos_Spawn_Barracks__L01": {
+            "PathfindingCollisionRadius": 18.8196,
+            "SelectionHeight": 39.6217,
+            "SelectionRadius": 19.8101,
+            "SkinName1": "ChaosBarracks_Wizard"
+        },
+        "__P_Chaos_Spawn_Barracks__R01": {
+            "PathfindingCollisionRadius": 18.8191,
+            "SelectionHeight": 39.6218,
+            "SelectionRadius": 19.8101,
+            "SkinName1": "ChaosBarracks_Wizard"
+        },
+        "__P_Order_Spawn_Barracks__C01": {
+            "PathfindingCollisionRadius": 18.8189,
+            "SelectionHeight": 39.6217,
+            "SelectionRadius": 19.8094,
+            "SkinName1": "OrderBarracks_Wizard"
+        },
+        "__P_Order_Spawn_Barracks__L01": {
+            "PathfindingCollisionRadius": 18.819,
+            "SelectionHeight": 39.6218,
+            "SelectionRadius": 19.8095,
+            "SkinName1": "OrderBarracks_Wizard"
+        },
+        "__P_Order_Spawn_Barracks__R01": {
+            "PathfindingCollisionRadius": 18.819,
+            "SelectionHeight": 39.6218,
+            "SelectionRadius": 19.8094,
+            "SkinName1": "OrderBarracks_Wizard"
+        },
+        "Barracks_T1_C1": {
+            "ArmorMaterial": "Wood",
+            "mArmor": 0.0,
+            "mBaseStaticHPRegen": 15,
+            "mMaxHP": 3000.0,
+            "mMaxMP": 0.0,
+            "PathfindingCollisionRadius": 186.7707,
+            "PerceptionBubbleRadius": 1350.0,
+            "SelectionHeight": 115.0,
+            "SelectionRadius": 225.0,
+            "SkinName1": "OrderInhibitor",
+            "SkinName2": "OrderInhibitor_D"
+        },
+        "Barracks_T1_L1": {
+            "ArmorMaterial": "Wood",
+            "mArmor": 0.0,
+            "mBaseStaticHPRegen": 15,
+            "mMaxHP": 3000.0,
+            "mMaxMP": 0.0,
+            "PathfindingCollisionRadius": 187.15,
+            "PerceptionBubbleRadius": 1350.0,
+            "SelectionHeight": 105.0,
+            "SelectionRadius": 197.0,
+            "SkinName1": "OrderInhibitor",
+            "SkinName2": "OrderInhibitor_D"
+        },
+        "Barracks_T1_R1": {
+            "ArmorMaterial": "Wood",
+            "mArmor": 0.0,
+            "mBaseStaticHPRegen": 15,
+            "mMaxHP": 3000.0,
+            "mMaxMP": 0.0,
+            "PathfindingCollisionRadius": 185.4683,
+            "PerceptionBubbleRadius": 1350.0,
+            "SelectionHeight": 103.0,
+            "SelectionRadius": 219.4444,
+            "SkinName1": "OrderInhibitor",
+            "SkinName2": "OrderInhibitor_D"
+        },
+        "Barracks_T2_C1": {
+            "ArmorMaterial": "Wood",
+            "mArmor": 0.0,
+            "mBaseStaticHPRegen": 15,
+            "mMaxHP": 5500.0,
+            "mMaxMP": 0.0,
+            "PathfindingCollisionRadius": 213.75,
+            "PerceptionBubbleRadius": 1350.0,
+            "SelectionHeight": 108.0,
+            "SelectionRadius": 225.0,
+            "SkinName1": "ChaosInhibitor",
+            "SkinName2": "ChaosInhibitor_D"
+        },
+        "Barracks_T2_L1": {
+            "ArmorMaterial": "Wood",
+            "mArmor": 0.0,
+            "mBaseStaticHPRegen": 15,
+            "mMaxHP": 5500.0,
+            "mMaxMP": 0.0,
+            "PathfindingCollisionRadius": 213.75,
+            "PerceptionBubbleRadius": 1350.0,
+            "SelectionHeight": 108.0,
+            "SelectionRadius": 225.0,
+            "SkinName1": "ChaosInhibitor",
+            "SkinName2": "ChaosInhibitor_D"
+        },
+        "Barracks_T2_R1": {
+            "ArmorMaterial": "Wood",
+            "mArmor": 0.0,
+            "mBaseStaticHPRegen": 15,
+            "mMaxHP": 5500.0,
+            "mMaxMP": 0.0,
+            "PathfindingCollisionRadius": 213.75,
+            "PerceptionBubbleRadius": 1350.0,
+            "SelectionHeight": 108.0,
+            "SelectionRadius": 225.0,
+            "SkinName1": "ChaosInhibitor",
+            "SkinName2": "ChaosInhibitor_D"
+        },
+        "ChaosShop": {
+            "PathfindingCollisionRadius": 181.2077,
+            "SelectionHeight": 469.0003,
+            "SelectionRadius": 190.7449
+        },
+        "ChaosShop01": {
+            "PathfindingCollisionRadius": 0.0,
+            "SelectionHeight": 320.5078,
+            "SelectionRadius": 252.6802
+        },
+        "ChaosShop1": {
+            "PathfindingCollisionRadius": 0.0,
+            "SelectionHeight": 418.5673,
+            "SelectionRadius": 170.9817
+        },
+        "ChaosTorch05": {
+            "Move": "0.0000 0.0000 0.0000",
+            "Rot": "0.0000 0.0000 0.0000"
+        },
+        "GameObject": {
+            "PathfindingCollisionRadius": 0.0
+        },
+        "HQ_T1": {
+            "ArmorMaterial": "Metal",
+            "Collision Height": 0.0,
+            "Collision Radius": 319.4445,
+            "mArmor": 0.0,
+            "mBaseStaticHPRegen": 20,
+            "mMaxHP": 5500.0,
+            "mMaxMP": 0.0,
+            "PathfindingCollisionRadius": 352.7778,
+            "PerceptionBubbleRadius": 1350.0,
+            "SelectionHeight": 117.0,
+            "SelectionRadius": 397.2222,
+            "SkinName1": "OrderNexus",
+            "SkinName2": "DestroyedNexus"
+        },
+        "HQ_T2": {
+            "ArmorMaterial": "Metal",
+            "Collision Height": 0.0,
+            "Collision Radius": 319.4445,
+            "mArmor": 0.0,
+            "mBaseStaticHPRegen": 20,
+            "mMaxHP": 5500.0,
+            "mMaxMP": 0.0,
+            "PathfindingCollisionRadius": 352.7778,
+            "PerceptionBubbleRadius": 1350.0,
+            "SelectionHeight": 117.0,
+            "SelectionRadius": 397.2222,
+            "SkinName1": "ChaosNexus",
+            "SkinName2": "DestroyedNexus"
+        },
+        "LevelProp_ShopFemale": {
+            "PathfindingCollisionRadius": 0.0,
+            "SelectionHeight": 39.6217,
+            "SelectionRadius": 19.8098,
+            "SkinName1": "ShopFemale"
+        },
+        "LevelProp_Shopkeeper_Male": {
+            "PathfindingCollisionRadius": 0.0,
+            "SelectionHeight": 39.6217,
+            "SelectionRadius": 19.8098
+        },
+        "LevelProp_ShopMale": {
+            "Move": "33.3333 0.0000 -44.4445",
+            "PathfindingCollisionRadius": 0.0,
+            "Rot": "224.0000 0.0000 0.0000",
+            "SelectionHeight": 39.6217,
+            "SelectionRadius": 19.8098
+        },
+        "LevelProp_ShopMale1": {
+            "Move": "0.0000 0.0000 0.0000",
+            "PathfindingCollisionRadius": 0.0,
+            "Rot": "158.0000 0.0000 0.0000",
+            "SelectionHeight": 39.6217,
+            "SelectionRadius": 19.8098,
+            "SkinName1": "ShopMale"
+        },
+        "LevelProp_Yonkey": {
+            "Move": "122.2222 -33.3334 -133.3333",
+            "Rot": "66.0000 0.0000 0.0000"
+        },
+        "LevelProp_Yonkey1": {
+            "Move": "-11.1111 0.0000 -22.2222",
+            "Rot": "30.0000 0.0000 0.0000"
+        },
+        "Levels\\Map1\\SCENE\\__P_Chaos_Spawn_Barracks__C01.sco": {
+            "SelectionHeight": 0.0,
+            "SelectionRadius": 0.0
+        },
+        "Levels\\Map1\\SCENE\\__P_Chaos_Spawn_Barracks__L01.sco": {
+            "SelectionHeight": 0.0,
+            "SelectionRadius": 0.0
+        },
+        "Levels\\Map1\\SCENE\\__P_Chaos_Spawn_Barracks__R01.sco": {
+            "SelectionHeight": 0.0,
+            "SelectionRadius": 0.0
+        },
+        "Levels\\Map1\\SCENE\\__P_Order_Spawn_Barracks__C01.sco": {
+            "SelectionHeight": 0.0,
+            "SelectionRadius": 0.0
+        },
+        "Levels\\Map1\\SCENE\\__P_Order_Spawn_Barracks__L01.sco": {
+            "SelectionHeight": 0.0,
+            "SelectionRadius": 0.0
+        },
+        "Levels\\Map1\\SCENE\\__P_Order_Spawn_Barracks__R01.sco": {
+            "SelectionHeight": 0.0,
+            "SelectionRadius": 0.0
+        },
+        "Levels\\Map1\\SCENE\\chaosShop01.sco": {
+            "PathfindingCollisionRadius": 0.0,
+            "SelectionHeight": 0.0,
+            "SelectionRadius": 0.0
+        },
+        "Levels\\Map1\\SCENE\\HQ_T1.sco": {
+            "PathfindingCollisionRadius": 0.0,
+            "SelectionHeight": 0.0,
+            "SelectionRadius": 0.0
+        },
+        "Levels\\Map1\\SCENE\\HQ_T2.sco": {
+            "PathfindingCollisionRadius": 0.0,
+            "SelectionHeight": 0.0,
+            "SelectionRadius": 0.0
+        },
+        "Levels\\Map1\\SCENE\\orderShop01.sco": {
+            "PathfindingCollisionRadius": 0.0,
+            "SelectionHeight": 0.0,
+            "SelectionRadius": 0.0
+        },
+        "navfromlive:__P_Chaos_Spawn_Barracks__C01": {
+            "PathfindingCollisionRadius": 0.475,
+            "SelectionHeight": 0.0,
+            "SelectionRadius": 0.5
+        },
+        "navfromlive:__P_Chaos_Spawn_Barracks__L01": {
+            "PathfindingCollisionRadius": 0.475,
+            "SelectionHeight": 0.0,
+            "SelectionRadius": 0.5
+        },
+        "navfromlive:__P_Chaos_Spawn_Barracks__R01": {
+            "PathfindingCollisionRadius": 0.475,
+            "SelectionHeight": 0.0,
+            "SelectionRadius": 0.5
+        },
+        "navfromlive:__P_Order_Spawn_Barracks__C01": {
+            "PathfindingCollisionRadius": 0.475,
+            "SelectionHeight": 0.0,
+            "SelectionRadius": 0.5
+        },
+        "navfromlive:__P_Order_Spawn_Barracks__L01": {
+            "PathfindingCollisionRadius": 0.475,
+            "SelectionHeight": 0.0,
+            "SelectionRadius": 0.5
+        },
+        "navfromlive:__P_Order_Spawn_Barracks__R01": {
+            "PathfindingCollisionRadius": 0.475,
+            "SelectionHeight": 0.0,
+            "SelectionRadius": 0.5
+        },
+        "navfromlive1:__P_Chaos_Spawn_Barracks__C01": {
+            "PathfindingCollisionRadius": 0.475,
+            "SelectionHeight": 0.0,
+            "SelectionRadius": 0.5
+        },
+        "navfromlive1:__P_Chaos_Spawn_Barracks__L01": {
+            "PathfindingCollisionRadius": 0.475,
+            "SelectionHeight": 0.0,
+            "SelectionRadius": 0.5
+        },
+        "navfromlive1:__P_Chaos_Spawn_Barracks__R01": {
+            "PathfindingCollisionRadius": 0.475,
+            "SelectionHeight": 0.0,
+            "SelectionRadius": 0.5
+        },
+        "navfromlive1:__P_Order_Spawn_Barracks__C01": {
+            "PathfindingCollisionRadius": 0.475,
+            "SelectionHeight": 0.0,
+            "SelectionRadius": 0.5
+        },
+        "navfromlive1:__P_Order_Spawn_Barracks__L01": {
+            "PathfindingCollisionRadius": 0.475,
+            "SelectionHeight": 0.0,
+            "SelectionRadius": 0.5
+        },
+        "navfromlive1:__P_Order_Spawn_Barracks__R01": {
+            "PathfindingCollisionRadius": 0.475,
+            "SelectionHeight": 0.0,
+            "SelectionRadius": 0.5
+        },
+        "navfromlive2:__P_Chaos_Spawn_Barracks__C01": {
+            "PathfindingCollisionRadius": 0.475,
+            "SelectionHeight": 0.0,
+            "SelectionRadius": 0.5
+        },
+        "navfromlive2:__P_Chaos_Spawn_Barracks__L01": {
+            "PathfindingCollisionRadius": 0.475,
+            "SelectionHeight": 0.0,
+            "SelectionRadius": 0.5
+        },
+        "navfromlive2:__P_Chaos_Spawn_Barracks__R01": {
+            "PathfindingCollisionRadius": 0.475,
+            "SelectionHeight": 0.0,
+            "SelectionRadius": 0.5
+        },
+        "navfromlive2:__P_Order_Spawn_Barracks__C01": {
+            "PathfindingCollisionRadius": 0.475,
+            "SelectionHeight": 0.0,
+            "SelectionRadius": 0.5
+        },
+        "navfromlive2:__P_Order_Spawn_Barracks__L01": {
+            "PathfindingCollisionRadius": 0.475,
+            "SelectionHeight": 0.0,
+            "SelectionRadius": 0.5
+        },
+        "navfromlive2:__P_Order_Spawn_Barracks__R01": {
+            "PathfindingCollisionRadius": 0.475,
+            "SelectionHeight": 0.0,
+            "SelectionRadius": 0.5
+        },
+        "OrderShop01": {
+            "PathfindingCollisionRadius": 256.1901,
+            "SelectionHeight": 396.995,
+            "SelectionRadius": 269.6738
+        },
+        "OrderShop04": {
+            "PathfindingCollisionRadius": 0.0,
+            "SelectionHeight": 563.6843,
+            "SelectionRadius": 194.9833
+        },
+        "pathfrmlive:__P_Chaos_Spawn_Barracks__C01": {
+            "PathfindingCollisionRadius": 0.475,
+            "SelectionHeight": 0.0,
+            "SelectionRadius": 0.5
+        },
+        "pathfrmlive:__P_Chaos_Spawn_Barracks__L01": {
+            "PathfindingCollisionRadius": 0.475,
+            "SelectionHeight": 0.0,
+            "SelectionRadius": 0.5
+        },
+        "pathfrmlive:__P_Chaos_Spawn_Barracks__R01": {
+            "PathfindingCollisionRadius": 0.475,
+            "SelectionHeight": 0.0,
+            "SelectionRadius": 0.5
+        },
+        "pathfrmlive:__P_Order_Spawn_Barracks__C01": {
+            "PathfindingCollisionRadius": 0.475,
+            "SelectionHeight": 0.0,
+            "SelectionRadius": 0.5
+        },
+        "pathfrmlive:__P_Order_Spawn_Barracks__L01": {
+            "PathfindingCollisionRadius": 0.475,
+            "SelectionHeight": 0.0,
+            "SelectionRadius": 0.5
+        },
+        "pathfrmlive:__P_Order_Spawn_Barracks__R01": {
+            "PathfindingCollisionRadius": 0.475,
+            "SelectionHeight": 0.0,
+            "SelectionRadius": 0.5
+        },
+        "pathfrmlive1:__P_Chaos_Spawn_Barracks__C01": {
+            "PathfindingCollisionRadius": 0.475,
+            "SelectionHeight": 0.0,
+            "SelectionRadius": 0.5
+        },
+        "pathfrmlive1:__P_Chaos_Spawn_Barracks__L01": {
+            "PathfindingCollisionRadius": 0.475,
+            "SelectionHeight": 0.0,
+            "SelectionRadius": 0.5
+        },
+        "pathfrmlive1:__P_Chaos_Spawn_Barracks__R01": {
+            "PathfindingCollisionRadius": 0.475,
+            "SelectionHeight": 0.0,
+            "SelectionRadius": 0.5
+        },
+        "pathfrmlive1:__P_Order_Spawn_Barracks__C01": {
+            "PathfindingCollisionRadius": 0.475,
+            "SelectionHeight": 0.0,
+            "SelectionRadius": 0.5
+        },
+        "pathfrmlive1:__P_Order_Spawn_Barracks__L01": {
+            "PathfindingCollisionRadius": 0.475,
+            "SelectionHeight": 0.0,
+            "SelectionRadius": 0.5
+        },
+        "pathfrmlive1:__P_Order_Spawn_Barracks__R01": {
+            "PathfindingCollisionRadius": 0.475,
+            "SelectionHeight": 0.0,
+            "SelectionRadius": 0.5
+        },
+        "Turret_ChaosTurretShrine": {
+            "Move": "0.0000 0.0000 0.0000",
+            "Rot": "322.0000 0.0000 0.0000"
+        },
+        "Turret_OrderTurretShrine": {
+            "Move": "0.0000 0.0000 0.0000",
+            "Rot": "158.0000 0.0000 0.0000"
+        },
+        "Turret_T1_C_01": {
+            "Move": "0.0000 0.0000 0.0000",
+            "Rot": "32.0000 0.0000 0.0000"
+        },
+        "Turret_T1_C_02": {
+            "Move": "0.0000 0.0000 0.0000",
+            "Rot": "332.0000 0.0000 0.0000"
+        },
+        "Turret_T1_C_04": {
+            "Move": "-15.5556 0.0000 0.0000",
+            "Rot": "28.0000 0.0000 0.0000"
+        },
+        "Turret_T1_C_05": {
+            "Move": "-8.8889 0.0000 6.6667",
+            "Rot": "358.0000 0.0000 0.0000"
+        },
+        "Turret_T1_C_06": {
+            "Move": "0.0000 0.0000 0.0000",
+            "Rot": "48.0000 0.0000 0.0000"
+        },
+        "Turret_T1_C_07": {
+            "Move": "0.0000 0.0000 0.0000",
+            "Rot": "310.0000 0.0000 0.0000"
+        },
+        "Turret_T1_L_02": {
+            "Move": "0.0000 0.0000 13.3333",
+            "Rot": "66.0000 0.0000 0.0000"
+        },
+        "Turret_T1_L_03": {
+            "Move": "0.0000 0.0000 0.0000",
+            "Rot": "40.0000 0.0000 0.0000"
+        },
+        "Turret_T1_R_02": {
+            "Move": "0.0000 0.0000 0.0000",
+            "Rot": "304.0000 0.0000 0.0000"
+        },
+        "Turret_T1_R_03": {
+            "Move": "0.0000 0.0000 0.0000",
+            "Rot": "342.0000 0.0000 0.0000"
+        },
+        "Turret_T2_C_01": {
+            "Move": "0.0000 0.0000 0.0000",
+            "Rot": "14.0000 0.0000 0.0000"
+        },
+        "Turret_T2_C_02": {
+            "Move": "0.0000 0.0000 0.0000",
+            "Rot": "344.0000 0.0000 0.0000"
+        },
+        "Turret_T2_C_03": {
+            "Move": "0.0000 0.0000 0.0000",
+            "Rot": "0.0000 0.0000 0.0000"
+        },
+        "Turret_T2_C_04": {
+            "Move": "0.0000 0.0000 0.0000",
+            "Rot": "22.0000 0.0000 0.0000"
+        },
+        "Turret_T2_C_05": {
+            "Move": "0.0000 0.0000 0.0000",
+            "Rot": "348.0000 0.0000 0.0000"
+        },
+        "Turret_T2_L_01": {
+            "Move": "0.0000 0.0000 0.0000",
+            "Rot": "304.0000 0.0000 0.0000"
+        },
+        "Turret_T2_L_02": {
+            "Move": "0.0000 0.0000 0.0000",
+            "Rot": "300.0000 0.0000 0.0000"
+        },
+        "Turret_T2_L_03": {
+            "Move": "0.0000 0.0000 0.0000",
+            "Rot": "344.0000 0.0000 0.0000"
+        },
+        "Turret_T2_R_01": {
+            "Move": "0.0000 0.0000 0.0000",
+            "Rot": "38.0000 0.0000 0.0000"
+        },
+        "Turret_T2_R_02": {
+            "Move": "0.0000 0.0000 0.0000",
+            "Rot": "62.0000 0.0000 0.0000"
+        },
+        "Turret_T2_R_03": {
+            "Move": "0.0000 0.0000 0.0000",
+            "Rot": "20.0000 0.0000 0.0000"
+        }
+    }
+}

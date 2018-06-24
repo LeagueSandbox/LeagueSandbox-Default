@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_YorickDecayingGhoul"
+            "DynamicTooltip": "<titleLeft>Pestilence</titleLeft><mainText>A noxious cloud of disease swirls around this ghoul slowing nearby enemies.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

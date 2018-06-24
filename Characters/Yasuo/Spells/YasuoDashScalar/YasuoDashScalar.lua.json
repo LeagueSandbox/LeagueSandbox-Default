@@ -1,0 +1,18 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "0"
+    },
+    "BuffName": "YasuoDashScalar",
+    "CastingBreaksStealth": true,
+    "BuffTextureName": "Yasuo_E.dds",
+    "DoesntBreakShields": true,
+    "AutoCooldownByLevel": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0
+    },
+    "NonDispellable": true,
+    "IsDamagingSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "NotSingleTargetSpell": true
+}

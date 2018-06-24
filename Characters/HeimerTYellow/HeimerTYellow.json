@@ -1,0 +1,71 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "HeimerTYellow",
+        "Name": "H-28G Evolution Turret",
+        "ResourcePath": "DATA/Characters/HeimerTYellow/HeimerTYellow.inibin"
+    },
+    "Values": {
+        "Data": {
+            "AcquisitionRange": 450,
+            "Armor": 10,
+            "ArmorMaterial": "Metal",
+            "ArmorPerLevel": 0,
+            "AttackDelayCastOffsetPercent": -0.01198,
+            "AttackDelayOffsetPercent": -0.5,
+            "AttackRange": 530,
+            "AttackSpeedPerLevel": 0,
+            "BaseAttack_Probability": 0.5,
+            "BaseCritChance": 0,
+            "BaseDamage": 0.001,
+            "BaseDodge": 0,
+            "BaseFactorHPRegen": 0,
+            "BaseFactorMPRegen": 0,
+            "BaseHP": 10000,
+            "BaseMP": 50,
+            "BaseStaticHPRegen": 0,
+            "BaseStaticMPRegen": 0,
+            "CritDamageBonus": 1,
+            "CritPerLevel": 0,
+            "DamagePerLevel": 0,
+            "Description": "H-28G Evolution Turret",
+            "DisableAggroIndicator": true,
+            "EnemyTooltip": "",
+            "ExpGivenOnDeath": 0,
+            "ExtraAttack1": "HeimerTYellowBasicAttack2",
+            "ExtraAttack1_Probability": 0.5,
+            "FriendlyTooltip": "",
+            "GameplayCollisionRadius": 35.0,
+            "GoldGivenOnDeath": 5.0,
+            "HPPerLevel": 0,
+            "IsImportantBotTarget": true,
+            "IsMelee": false,
+            "LevelDodge": 0,
+            "MoveSpeed": 0,
+            "MPPerLevel": 0,
+            "Name": "H-28G Evolution Turret",
+            "PARType": "MANA",
+            "PathfindingCollisionRadius": 1,
+            "PerceptionBubbleRadius": 650,
+            "SelectionHeight": 60.0,
+            "SelectionRadius": 60.0,
+            "Significance": 0.3,
+            "Spell1": "HeimerdingerTurretEnergyBlast",
+            "Spell2": "BaseSpell",
+            "Spell3": "BaseSpell",
+            "Spell4": "BaseSpell",
+            "SpellBlock": 25,
+            "Tips2": "<ul><li>It's better to destroy all of Heimerdinger's turrets at once with the help of creeps than to fight them one at a time.<li>Be wary of Heimerdinger's Upgrade!!!, as he can use it to find an answer to most trouble he gets into. Once his ultimate is down, go in for the kill!</ul>",
+            "TowerTargetingPriorityBoost": 10,
+            "UnitTags": "Minion | Minion_Summon"
+        },
+        "Info": {
+            "IconCircle": "Turret_Circle.dds",
+            "IconSquare": "Turret_Square.dds"
+        },
+        "UNKNOWN_HASHES": {
+            "386495002": 0,
+            "3983263047": 0
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "CrestoftheAncientGolemAura",
+        "Name": "CrestoftheAncientGolemAura",
+        "ResourcePath": "DATA/Shared/Spells/CrestoftheAncientGolemAura.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Crest of Insight</titleLeft><mainText>This unit has increased Cooldown Reduction as well as increased Mana and Energy Regeneration. </mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

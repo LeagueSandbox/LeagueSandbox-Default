@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_AlZaharSummonVoidlingReady",
+            "DynamicTooltip": "<titleLeft>Summon Voidling: Ready</titleLeft><mainText>Malzahar's next spell will summon a Voidling.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
             "ShowInTrackerUI": 1
         }
     }

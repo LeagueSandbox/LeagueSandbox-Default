@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_TurretInitialArmor"
+            "DynamicTooltip": "<titleLeft>Bulwark</titleLeft><mainText>This turret has bonus Armor.</mainText>"
         }
     }
 }

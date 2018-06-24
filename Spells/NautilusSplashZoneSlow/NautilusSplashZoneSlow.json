@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_NautilusSplashZoneSlow"
+            "DynamicTooltip": "<titleLeft>Splishy Splashy</titleLeft><mainText>This unit's movement speed is reduced but will gradually return to normal.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

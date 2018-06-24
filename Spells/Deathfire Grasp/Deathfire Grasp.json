@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Deathfire_Grasp"
+            "DynamicTooltip": "<titleLeft>Deathfire Grasp</titleLeft><mainText>This unit is being burned for a percent of its maximum Health each sec.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

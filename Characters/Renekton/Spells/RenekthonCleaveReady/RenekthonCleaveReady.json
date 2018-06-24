@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "RenekthonCleaveReady",
+        "Name": "RenekthonCleaveReady",
+        "ResourcePath": "DATA/Characters/Renekton/Spells/RenekthonCleaveReady.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Fury</titleLeft><mainText>Renekton has enough Fury for an empowered attack.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

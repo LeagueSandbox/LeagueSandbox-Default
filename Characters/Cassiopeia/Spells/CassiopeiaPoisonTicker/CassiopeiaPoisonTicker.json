@@ -1,0 +1,14 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "CassiopeiaPoisonTicker",
+        "Name": "CassiopeiaPoisonTicker",
+        "ResourcePath": "DATA/Characters/Cassiopeia/Spells/CassiopeiaPoisonTicker.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Aspect of the Serpent</titleLeft><mainText>Cassiopeia gains permanent bonuses for repeatedly poisoning her enemies.<br><br>This passive upgrades at @f5@ stacks.</mainText>",
+            "ShowInTrackerUI": 1
+        }
+    }
+}

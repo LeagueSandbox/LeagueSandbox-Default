@@ -1,0 +1,12 @@
+{
+    "BuffName": "EvelynnE",
+    "AutoBuffActivateEffect": "evelynn_E_buf.troy",
+    "NotSingleTargetSpell": false,
+    "BuffTextureName": "Evelynn_Ravage.dds",
+    "AutoBuffActivateAttachBoneName": "L_hand",
+    "AutoBuffActivateEffect2": "Evelynn_e_buf.troy",
+    "AutoBuffActivateAttachBoneName2": "R_hand",
+    "IsDamagingSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "CastingBreaksStealth": true
+}

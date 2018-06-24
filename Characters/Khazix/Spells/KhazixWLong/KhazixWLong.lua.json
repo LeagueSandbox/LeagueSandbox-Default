@@ -1,0 +1,14 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "KhazixDroid"
+    },
+    "DoesntBreakShields": true,
+    "BuffName": "MissileBarrageCheck",
+    "NonDispellable": true,
+    "SpellFXOverrideSkins": {
+        "1": "KhazixDroid",
+        "2": "KhazixSkin02"
+    },
+    "BuffTextureName": "Corki_MissileBarrage.dds",
+    "PersistsThroughDeath": true
+}

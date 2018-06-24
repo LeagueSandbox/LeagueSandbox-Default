@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Move_Quick_Cooldown"
+            "DynamicTooltip": "<titleLeft>Move Quick Cooldown</titleLeft><mainText>Teemo has taken damage and is not moving quickly.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

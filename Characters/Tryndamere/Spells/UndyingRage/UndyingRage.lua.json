@@ -1,0 +1,23 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "TryndamereDemonsword"
+    },
+    "SpellFXOverrideSkins": {
+        "1": "TryndamereDemonsword"
+    },
+    "BuffName": "Undying Rage",
+    "AutoBuffActivateAttachBoneName4": "spine",
+    "AutoBuffActivateEffect": "UndyingRage_buf.troy",
+    "NotSingleTargetSpell": true,
+    "BuffTextureName": "Tryndamere_R.dds",
+    "AutoBuffActivateAttachBoneName": "c_buffbone_glb_layout_loc",
+    "AutoCooldownByLevel": {
+        "1": 110.0,
+        "2": 100.0,
+        "3": 90.0
+    },
+    "NonDispellable": true,
+    "OnPreDamagePriority": 2.0,
+    "DoesntTriggerSpellCasts": false,
+    "AutoBuffActivateEffect4": "UndyingRageSpine_glow.troy"
+}

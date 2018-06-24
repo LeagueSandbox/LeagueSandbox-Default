@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_SwainBeamDamage"
+            "DynamicTooltip": "<titleLeft>Decrepified</titleLeft><mainText>This unit is taking damage over time from Swain's raven.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

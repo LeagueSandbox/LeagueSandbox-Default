@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_JannaEoTSBuff"
+            "DynamicTooltip": "<titleLeft>Cyclone Strike</titleLeft><mainText>This unit has increased attack damage.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_IreliaIonianDuelist"
+            "DynamicTooltip": "<titleLeft>Ionian Fervor</titleLeft><mainText>Reduces the duration of disables on Irelia by @f1@%.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

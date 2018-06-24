@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Mushroom_Stored"
+            "DynamicTooltip": "<titleLeft>Mushrooms Stored</titleLeft><mainText>Teemo forages for mushrooms used in his Noxious Trap.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

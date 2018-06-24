@@ -1,0 +1,14 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "XerathRShots",
+        "Name": "XerathRShots",
+        "ResourcePath": "DATA/Characters/Xerath/Spells/XerathRShots.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Rite of the Arcane</titleLeft><mainText>This is the number of Arcane Barrages Xerath can still fire.</mainText>",
+            "ShowInTrackerUI": 1
+        }
+    }
+}

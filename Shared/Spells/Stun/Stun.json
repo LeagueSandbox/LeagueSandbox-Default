@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "Stun",
+        "Name": "Stun",
+        "ResourcePath": "DATA/Shared/Spells/Stun.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Stunned</titleLeft><mainText>This unit is stunned. It can take no actions.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

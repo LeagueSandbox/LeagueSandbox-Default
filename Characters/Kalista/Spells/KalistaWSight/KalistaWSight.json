@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "KalistaWSight",
+        "Name": "KalistaWSight",
+        "ResourcePath": "DATA/Characters/Kalista/Spells/KalistaWSight.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Revealed</titleLeft><mainText>You have been seen by Kalista's Sentinel and are revealed for 4 seconds.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

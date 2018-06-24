@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "ViWBuff",
+        "Name": "ViWBuff",
+        "ResourcePath": "DATA/Characters/Vi/Spells/ViWBuff.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Go get 'em!</titleLeft><mainText>Vi just broke someone's Armor and is now ready to apply the beatdown.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

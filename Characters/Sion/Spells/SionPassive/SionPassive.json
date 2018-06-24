@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "SionPassive",
+        "Name": "SionPassive",
+        "ResourcePath": "DATA/Characters/Sion/Spells/SionPassive.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Glory in Death</titleLeft><mainText>After being killed Sion will reanimate himself, but his Health rapidly decays while he is reanimated.<br><br>He can move and attack during this time. He gains 100% Lifesteal, attacks extremely fast and will deal an additional 10% of his target's maximum Health as physical damage on hit. Max 75 bonus damage against monsters.<br><br>All of his abilities are replaced with Death Surge, which grants him a burst of Movement Speed.</mainText>"
+        }
+    }
+}

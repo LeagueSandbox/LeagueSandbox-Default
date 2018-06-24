@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "NightmareBotKarthusBuff",
+        "Name": "NightmareBotKarthusBuff",
+        "ResourcePath": "DATA/Characters/Karthus/Spells/NightmareBotKarthusBuff.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Doom Karthus</titleLeft><mainText>Doom Karthus periodically Death Defies while still alive, and his abilities have fragmented.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

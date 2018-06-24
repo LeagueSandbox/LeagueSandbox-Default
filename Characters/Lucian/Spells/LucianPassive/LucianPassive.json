@@ -1,0 +1,22 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "LucianPassive",
+        "Name": "Basic Attack",
+        "ResourcePath": "DATA/Characters/Lucian/Spells/LucianPassive.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Lightslinger</titleLeft><mainText>After completing every spell cast, Lucian's next basic attack within 6 seconds will be a double-shot.<br><br>The second shot deals <font color='#FF8C00'>@f1@</font> damage to enemy champions and structures, and applies on-hit effects. Minions and monsters take full damage from the second shot. </mainText>"
+        },
+        "SpellData": {
+            "AlternateName": "LucianBasicAttack",
+            "Description": "",
+            "DisplayName": "Basic Attack",
+            "DynamicExtended": "",
+            "DynamicTooltip": "",
+            "InventoryIcon": "1041_Long_Staff.dds",
+            "Version": 1
+        }
+    }
+}

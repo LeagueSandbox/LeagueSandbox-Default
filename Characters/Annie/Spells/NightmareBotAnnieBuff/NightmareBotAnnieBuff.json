@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "NightmareBotAnnieBuff",
+        "Name": "NightmareBotAnnieBuff",
+        "ResourcePath": "DATA/Characters/Annie/Spells/NightmareBotAnnieBuff.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Doom Annie</titleLeft><mainText>Doom Annie can set alight nearby enemy towers and burn everything. She also brought her bear Tibbers. Have you seen him?</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "ZedWPassiveBuff",
+        "Name": "ZedWPassiveBuff",
+        "ResourcePath": "DATA/Characters/Zed/Spells/ZedWPassiveBuff.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Strength of the Shadow</titleLeft><mainText>Zed gains an additional @f1@% of his bonus Attack Damage.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

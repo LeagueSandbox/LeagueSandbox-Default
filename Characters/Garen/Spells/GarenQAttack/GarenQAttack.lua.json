@@ -1,0 +1,9 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "SteellegionGaren"
+    },
+    "BuffName": "GarenSlash",
+    "NotSingleTargetSpell": true,
+    "BuffTextureName": "17.dds",
+    "DoesntTriggerSpellCasts": true
+}

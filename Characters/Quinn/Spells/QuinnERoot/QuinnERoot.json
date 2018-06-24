@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "QuinnERoot",
+        "Name": "QuinnERoot",
+        "ResourcePath": "DATA/Characters/Quinn/Spells/QuinnERoot.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Vault</titleLeft><mainText>Quinn has massively slowed this unit.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

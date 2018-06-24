@@ -1,0 +1,17 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "BattlecastChogath"
+    },
+    "PersistsThroughDeath": true,
+    "BuffName": "Vorpal Spikes",
+    "CastingBreaksStealth": false,
+    "BuffTextureName": "GreenTerror_ChitinousExoplates.dds",
+    "DoesntBreakShields": true,
+    "SpellFXOverrideSkins": {
+        "1": "BattlecastChogath"
+    },
+    "SpellToggleSlot": 3.0,
+    "IsDamagingSpell": false,
+    "DoesntTriggerSpellCasts": true,
+    "NotSingleTargetSpell": true
+}

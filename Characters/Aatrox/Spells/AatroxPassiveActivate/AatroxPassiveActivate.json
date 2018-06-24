@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "AatroxPassiveActivate",
+        "Name": "AatroxPassiveActivate",
+        "ResourcePath": "DATA/Characters/Aatrox/Spells/AatroxPassiveActivate.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Blood Well</titleLeft><mainText>Blood Well is on Cooldown.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

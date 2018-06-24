@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "Chilled",
+        "Name": "Chilled",
+        "ResourcePath": "DATA/Shared/Spells/Chilled.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Chilled</titleLeft><mainText>This unit has reduced Movement Speed and Attack Speed.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

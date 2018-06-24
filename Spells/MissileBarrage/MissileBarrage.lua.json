@@ -1,0 +1,9 @@
+{
+    "PersistsThroughDeath": true,
+    "BuffName": "MissileBarrageCheck",
+    "NonDispellable": true,
+    "BuffTextureName": "Corki_MissileBarrage.dds",
+    "SpellFXOverrideSkins": {
+        "1": "FireworksCorki"
+    }
+}

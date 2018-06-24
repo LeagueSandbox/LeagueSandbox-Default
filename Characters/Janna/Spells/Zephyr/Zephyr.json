@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "Zephyr",
+        "Name": "Zephyr",
+        "ResourcePath": "DATA/Characters/Janna/Spells/Zephyr.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Zephyr</titleLeft><mainText>Janna's Movement Speed is increased, and she is able to move through units.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

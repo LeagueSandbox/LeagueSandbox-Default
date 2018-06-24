@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "ViktorGravitonStun",
+        "Name": "ViktorGravitonStun",
+        "ResourcePath": "DATA/Characters/Viktor/Spells/ViktorGravitonStun.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Crushing Gravity</titleLeft><mainText>This unit is stunned.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

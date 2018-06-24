@@ -1,0 +1,6 @@
+{
+    "AutoBuffActivateEffect": "SRU_Crab_SpeedBuff.troy",
+    "PersistsThroughDeath": true,
+    "BuffName": "Second Sight",
+    "BuffTextureName": "Cardmaster_SealFate.dds"
+}

@@ -1,0 +1,12 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "ViSkin02"
+    },
+    "DoesntBreakShields": true,
+    "IsDamagingSpell": true,
+    "SpellDamageRatio": 1.0,
+    "BuffName": "ViR",
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "BuffTextureName": "ViR.dds"
+}

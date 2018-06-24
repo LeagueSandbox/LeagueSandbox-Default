@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "UrgotSwapTarget",
+        "Name": "UrgotSwapTarget",
+        "ResourcePath": "DATA/Characters/Urgot/Spells/UrgotSwapTarget.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Hyper-Kinetic Position Reverser Target</titleLeft><mainText>This unit is the target of Hyper-Kinetic Position Reverser and is suppressed.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "LucianSkin01"
+    },
+    "IsDamagingSpell": true,
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": true,
+    "IsDeathRecapSource": true
+}

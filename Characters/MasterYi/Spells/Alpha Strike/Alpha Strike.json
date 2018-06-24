@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "Alpha Strike",
+        "Name": "Alpha Strike",
+        "ResourcePath": "DATA/Characters/MasterYi/Spells/Alpha Strike.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Alpha Strike</titleLeft><mainText>This unit will take physical damage soon.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

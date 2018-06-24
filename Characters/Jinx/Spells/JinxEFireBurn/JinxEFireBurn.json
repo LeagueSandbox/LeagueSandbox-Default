@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "JinxEFireBurn",
+        "Name": "JinxEFireBurn",
+        "ResourcePath": "DATA/Characters/Jinx/Spells/JinxEFireBurn.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Fire!</titleLeft><mainText>This unit has been lit on fire by Jinx and is taking Magic Damage.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

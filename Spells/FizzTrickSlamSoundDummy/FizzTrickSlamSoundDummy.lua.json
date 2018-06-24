@@ -1,0 +1,12 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "FizzSkin04"
+    },
+    "SpellFXOverrideSkins": {
+        "1": "FizzSkin04"
+    },
+    "IsDamagingSpell": true,
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "SpellDamageRatio": 0.5
+}

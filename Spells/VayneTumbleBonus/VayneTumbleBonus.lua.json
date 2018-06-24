@@ -1,0 +1,9 @@
+{
+    "AutoBuffActivateAttachBoneName": "l_hand",
+    "BuffName": "VayneTumble",
+    "AutoBuffActivateEffect3": "vayne_q_cas.troy",
+    "AutoBuffActivateEffect": "vayne_Q_buf.troy",
+    "AutoBuffActivateAttachBoneName2": "r_hand",
+    "BuffTextureName": "Vayne_Tumble.dds",
+    "AutoBuffActivateEffect2": "vayne_Q_buf.troy"
+}

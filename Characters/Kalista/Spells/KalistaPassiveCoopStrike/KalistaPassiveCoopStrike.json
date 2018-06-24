@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "KalistaPassiveCoopStrike",
+        "Name": "KalistaPassiveCoopStrike",
+        "ResourcePath": "DATA/Characters/Kalista/Spells/KalistaPassiveCoopStrike.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Oathsworn</titleLeft><mainText>When Kalista and her Oathsworn both basic attack the same target within 1.5 seconds, she deals @f1@% of their max health as magic damage. 8 second cooldown per target.<br><br>Kalista's ultimate will pull the Oathsworn to her. Then, when the Oathsworn clicks any mouse button, they will fly out in a direction, knocking up the first enemy champion struck.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

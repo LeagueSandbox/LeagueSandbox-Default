@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_MordekaiserCOTGSelf",
+            "DynamicTooltip": "<titleLeft>Children of the Grave Buff</titleLeft><mainText>Mordekaiser has taken control of an enemy's spirit, gaining 1/5th of their Attack Damage (@f1@) and Ability Power (@f2@).</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
             "ShowInTrackerUI": 1
         }
     }

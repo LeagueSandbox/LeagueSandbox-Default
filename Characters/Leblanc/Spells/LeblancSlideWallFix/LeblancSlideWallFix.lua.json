@@ -1,0 +1,7 @@
+{
+    "PersistsThroughDeath": true,
+    "BuffName": "LeblancDisplacement",
+    "NonDispellable": true,
+    "BuffTextureName": "LeblancDisplacementReturn.dds",
+    "SpellToggleSlot": 2.0
+}

@@ -1,0 +1,14 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "BraumEMSBoost",
+        "Name": "BraumEMSBoost",
+        "ResourcePath": "DATA/Characters/Braum/Spells/BraumEMSBoost.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Unbreakable</titleLeft> <mainText>Braum takes reduced damage from the direction his shield is facing, has increased Movement Speed, and destroys projectiles that hit his shield.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
+            "ShowInTrackerUI": 1
+        }
+    }
+}

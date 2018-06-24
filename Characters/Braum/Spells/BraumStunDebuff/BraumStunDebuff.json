@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "BraumStunDebuff",
+        "Name": "BraumStunDebuff",
+        "ResourcePath": "DATA/Characters/Braum/Spells/BraumStunDebuff.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Concussive Blows</titleLeft> <mainText>This unit is stunned.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

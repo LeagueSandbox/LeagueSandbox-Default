@@ -1,0 +1,6 @@
+{
+    "AutoBuffActivateEffect": "GLOBAL_SLOW.TROY",
+    "BuffTextureName": "Summoner_Exhaust.dds",
+    "BuffName": "SummonerExhaustSlow",
+    "PopupMessage1": "game_floatingtext_Slowed"
+}

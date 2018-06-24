@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "Jack In The Box",
+        "Name": "Jack In The Box",
+        "ResourcePath": "DATA/Characters/Shaco/Spells/Jack In The Box.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Jack In The Box</titleLeft><mainText>This unit will attack nearby enemies.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

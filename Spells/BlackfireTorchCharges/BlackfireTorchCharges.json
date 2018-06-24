@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_BlackfireTorchCharges"
+            "DynamicTooltip": "<titleLeft>Blackfire Torch</titleLeft><mainText>One Blackfire charge is generated every 1.5 seconds.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

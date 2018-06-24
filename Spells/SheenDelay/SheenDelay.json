@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_SheenDelay"
+            "DynamicTooltip": "<titleLeft>Sheen Delay</titleLeft><mainText>Sheen, Lich Bane and Trinity Force are on cooldown. </mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

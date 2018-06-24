@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_MasteryPickpocket"
+            "DynamicTooltip": "<titleLeft>Mastery: Bandit</titleLeft><mainText>This unit has recently picked an enemy's pocket and cannot do it to that enemy again.<br><font color='#FFFF00'>Gold Earned: @f1@ </font></mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "YasuoRArmorPen",
+        "Name": "YasuoRArmorPen",
+        "ResourcePath": "DATA/Characters/Yasuo/Spells/YasuoRArmorPen.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Last Breath</titleLeft><mainText>Yasuo ignores 50% of his enemy's Bonus Armor. Bonus Armor is armor from items, runes, masteries, and buffs.</mainText>"
+        }
+    }
+}

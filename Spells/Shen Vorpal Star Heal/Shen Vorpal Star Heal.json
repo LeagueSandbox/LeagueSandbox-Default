@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Shen_Vorpal_Star_Heal"
+            "DynamicTooltip": "<titleLeft>Vorpal Blade</titleLeft><mainText>This unit is being healed @f1@ Health per second.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

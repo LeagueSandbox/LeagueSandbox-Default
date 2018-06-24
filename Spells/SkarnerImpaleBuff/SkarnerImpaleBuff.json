@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_SkarnerImpaleBuff"
+            "DynamicTooltip": "<titleLeft>Impale</titleLeft><mainText>Skarner has suppressed an enemy, and is dragging them around. He may still cast Crystal Slash and Crystalline Exoskeleton.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

@@ -1,15 +1,15 @@
 {
     "MetaData": {
         "ContentFormatVersion": 4,
-        "Id": "4251",
-        "Name": "4251",
+        "Id": 4251,
+        "Name": "Second Wind",
         "ResourcePath": "DATA/Talents/4251.inibin"
     },
     "Values": {
         "SpellData": {
             "InventoryIcon": "654.dds",
-            "Level1Desc": "game_mastery_level1desc_4251",
-            "Name": "game_mastery_displayname_4251",
+            "Level1Desc": "Increases self-healing, Health Regen, Lifesteal, and Spellvamp by 10% when below 25% Health",
+            "Name": "Second Wind",
             "Ranks": 1
         }
     }

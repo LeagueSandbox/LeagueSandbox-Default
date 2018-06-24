@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "AatroxWONHBuff",
+        "Name": "AatroxWONHBuff",
+        "ResourcePath": "DATA/Characters/Aatrox/Spells/AatroxWONHBuff.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Noxian Diplomacy</titleLeft><mainText>This unit's next attack will deal extra damage and cause the enemy to bleed.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

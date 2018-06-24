@@ -1,0 +1,12 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "NewYearDragonKogMaw",
+        "2": "KogmawSkin08"
+    },
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": true,
+    "SpellFXOverrideSkins": {
+        "1": "NewYearDragonKogMaw",
+        "2": "KogMawSkin08"
+    }
+}

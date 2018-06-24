@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "LissandraPassive",
+        "Name": "LissandraPassive",
+        "ResourcePath": "DATA/Characters/Lissandra/Spells/LissandraPassive.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Iceborn</titleLeft><mainText>Every 18 seconds Lissandra's next ability costs no Mana. This cooldown is reduced by 1 second whenever Lissandra impairs an enemy's movement with an ability (does not apply to movement-impairing effects from items). </mainText>"
+        }
+    }
+}

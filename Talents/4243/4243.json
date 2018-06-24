@@ -1,15 +1,15 @@
 {
     "MetaData": {
         "ContentFormatVersion": 4,
-        "Id": "4243",
-        "Name": "4243",
+        "Id": 4243,
+        "Name": "Reinforced Armor",
         "ResourcePath": "DATA/Talents/4243.inibin"
     },
     "Values": {
         "SpellData": {
             "InventoryIcon": "654.dds",
-            "Level1Desc": "game_mastery_level1desc_4243",
-            "Name": "game_mastery_displayname_4243",
+            "Level1Desc": "Reduces the total damage taken from critical strikes by 10%",
+            "Name": "Reinforced Armor",
             "Ranks": 1
         }
     }

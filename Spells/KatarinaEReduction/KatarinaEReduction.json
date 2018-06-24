@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_ShadowStepDodge"
+            "DynamicTooltip": "<titleLeft>Shunpo</titleLeft><mainText>Katarina is taking reduced damage.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

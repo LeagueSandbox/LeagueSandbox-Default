@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_MordekaiserCOTGPet"
+            "DynamicTooltip": "<titleLeft>The Prisoner</titleLeft><mainText>This unit is under the command of Mordekaiser.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

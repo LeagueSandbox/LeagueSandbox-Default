@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_WitsEndBuff"
+            "DynamicTooltip": "<titleLeft>Wit's End</titleLeft><mainText>This unit's magic resist has been increased by @f1@.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

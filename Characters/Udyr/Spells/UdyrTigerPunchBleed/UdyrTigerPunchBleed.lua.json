@@ -1,0 +1,10 @@
+{
+    "IsDeathRecapSource": true,
+    "DoesntBreakShields": false,
+    "IsDamagingSpell": true,
+    "BuffName": "UdyrTigerPunchBleed",
+    "BuffTextureName": "Udyr_TigerStance.dds",
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": true,
+    "CastingBreaksStealth": true
+}

@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "SonaQZone",
+        "Name": "SonaQZone",
+        "ResourcePath": "DATA/Characters/Sona/Spells/SonaQZone.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Hymn of Valor</titleLeft><mainText>Sona's zone grants allies bonus magic damage on their next attack.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

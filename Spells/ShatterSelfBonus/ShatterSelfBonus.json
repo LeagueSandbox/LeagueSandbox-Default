@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_ShatterSelfBonus"
+            "DynamicTooltip": "<titleLeft>Gemmed Armor</titleLeft><mainText>Encrusted gemstones line Taric's plating, increasing his Armor.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

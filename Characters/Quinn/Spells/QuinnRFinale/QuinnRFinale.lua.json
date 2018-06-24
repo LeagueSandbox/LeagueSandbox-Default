@@ -1,0 +1,15 @@
+{
+    "DoesntBreakShields": false,
+    "IsDamagingSpell": true,
+    "SpellFXOverrideSkins": {
+        "1": "ReefMalphite",
+        "2": "NautilusAstronaut",
+        "3": "PhoenixQuinn",
+        "4": "QuinnValor_Phoenix",
+        "5": "QuinnSkin02",
+        "6": "QuinnValorSkin02"
+    },
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "CastingBreaksStealth": true
+}

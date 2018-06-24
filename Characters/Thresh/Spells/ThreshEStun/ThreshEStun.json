@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "ThreshEStun",
+        "Name": "ThreshEStun",
+        "ResourcePath": "DATA/Characters/Thresh/Spells/ThreshEStun.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Shield Arm</titleLeft><mainText>Maokai holds his shield arm up, improving his Armor.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

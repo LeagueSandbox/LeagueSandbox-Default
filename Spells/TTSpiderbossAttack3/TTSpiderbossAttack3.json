@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_TTSpiderbossAttack3"
+            "DynamicTooltip": "<titleLeft>Vile Sting</titleLeft><mainText>Vile Sting</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

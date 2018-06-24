@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "TrundleDesecrateBuffs",
+        "Name": "TrundleDesecrateBuffs",
+        "ResourcePath": "DATA/Characters/Trundle/Spells/TrundleDesecrateBuffs.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Frozen Domain</titleLeft><mainText>Trundle's Movement Speed, Attack Speed are increased and he has increased healing from all sources.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

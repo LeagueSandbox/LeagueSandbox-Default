@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_AlZaharVoidlingPhase2"
+            "DynamicTooltip": "<titleLeft>Voidling: Full Grown</titleLeft><mainText>This Voidling has an additional 50% Damage and Armor.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

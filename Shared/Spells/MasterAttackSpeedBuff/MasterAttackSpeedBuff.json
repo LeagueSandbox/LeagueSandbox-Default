@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "MasterAttackSpeedBuff",
+        "Name": "MasterAttackSpeedBuff",
+        "ResourcePath": "DATA/Shared/Spells/MasterAttackSpeedBuff.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Mastery: Frenzy</titleLeft><mainText>This unit has increased Attack Speed.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

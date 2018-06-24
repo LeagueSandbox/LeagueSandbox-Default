@@ -1,0 +1,7 @@
+{
+    "PersistsThroughDeath": true,
+    "BuffName": "XenZhaoBattleCryPassive",
+    "NotSingleTargetSpell": false,
+    "BuffTextureName": "XenZhao_BattleCry.dds",
+    "DoesntTriggerSpellCasts": false
+}

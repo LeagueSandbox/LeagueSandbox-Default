@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_NightmareBotMonkeyKingBuff"
+            "DynamicTooltip": "<titleLeft>Doom Wukong</titleLeft><mainText>Doom Wukong’s Nimbus Strike creates additional clones which knock enemies into the air when disappearing. His Cyclone also summons Decoys that spin alongside him.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

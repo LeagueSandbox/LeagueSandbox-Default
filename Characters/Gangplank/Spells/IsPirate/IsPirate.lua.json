@@ -1,0 +1,6 @@
+{
+    "Nondispellable": true,
+    "PersistsThroughDeath": true,
+    "BuffName": "Is Pirate",
+    "BuffTextureName": "IsPirate.dds"
+}

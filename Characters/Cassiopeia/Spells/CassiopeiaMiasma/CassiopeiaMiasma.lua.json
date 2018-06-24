@@ -1,0 +1,7 @@
+{
+    "DoesntBreakShields": true,
+    "IsDamagingSpell": true,
+    "AutoBuffActivateEffect": "AcidTrail_buf.troy",
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": false
+}

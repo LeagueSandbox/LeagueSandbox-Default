@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Eternal_Thirst"
+            "DynamicTooltip": "<titleLeft>Eternal Thirst</titleLeft><mainText>Warwick's basic attacks deal @f1@ bonus magic damage and heal him for an equal amount. This effect stacks with each consecutive hit up to 3 times.</mainText>"
         }
     }
 }

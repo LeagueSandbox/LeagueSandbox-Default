@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_CursedTouch"
+            "DynamicTooltip": "<titleLeft>Cursed Touch</titleLeft><mainText>This unit has reduced Magic Resistance.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

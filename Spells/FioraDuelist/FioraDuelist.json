@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_FioraDuelist"
+            "DynamicTooltip": "<titleLeft>Duelist</titleLeft><mainText>Fiora regenerates <font color='#FFFFFF'>@f1@</font> Health over 6 seconds each time she deals physical damage.<br><br>Striking champions will cause this effect to stack up to 4 times.</mainText>"
         }
     }
 }

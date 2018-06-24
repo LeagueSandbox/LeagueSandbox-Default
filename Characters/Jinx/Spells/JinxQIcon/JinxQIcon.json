@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "JinxQIcon",
+        "Name": "JinxQIcon",
+        "ResourcePath": "DATA/Characters/Jinx/Spells/JinxQIcon.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Pow-Pow</titleLeft><mainText>Jinx is using her minigun. Attacking grants Attack Speed.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

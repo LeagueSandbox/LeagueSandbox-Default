@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Bleeding"
+            "DynamicTooltip": "<titleLeft>Bleeding</titleLeft><mainText>This unit is bleeding and taking damage over time.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

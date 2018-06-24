@@ -1,0 +1,7 @@
+{
+    "PersistsThroughDeath": true,
+    "BuffName": "ItemSmiteSlow",
+    "NotSingleTargetSpell": true,
+    "BuffTextureName": "Chronokeeper_Slow.dds",
+    "DoesntTriggerSpellCasts": false
+}

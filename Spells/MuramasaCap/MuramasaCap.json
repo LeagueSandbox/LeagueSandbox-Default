@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_MuramasaCap"
+            "DynamicTooltip": "<titleLeft>Blood Tribute @Stack@</titleLeft><mainText>Increases damage by @Effect1Amount@.<br>At @Effect4Amount@ stacks, this champion's Movement Speed is increased by @Effect5Amount*100@%.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

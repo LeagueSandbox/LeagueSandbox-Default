@@ -1,0 +1,8 @@
+{
+    "DoesntBreakShields": true,
+    "IsDamagingSpell": true,
+    "BuffName": "XenZhaoSweep",
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": true,
+    "CastingBreaksStealth": true
+}

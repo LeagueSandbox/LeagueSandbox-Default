@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_ThreeSistersAsheDefeatedSejuani"
+            "DynamicTooltip": "<titleLeft>Queen of the Freljord</titleLeft><mainText>Peace has been restored to the Freljord. Ashe will lead her people to a better future.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

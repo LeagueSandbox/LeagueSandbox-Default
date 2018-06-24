@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_SummonerExhaustDebuff"
+            "DynamicTooltip": "<titleLeft>Exhaust Debuff</titleLeft><mainText>This unit's Armor and Magic Resist are reduced, and they deal less damage.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_WardDisable"
+            "DynamicTooltip": "<titleLeft>Disabled</titleLeft><mainText>This ward has been disabled and does not grant vision.</mainText>"
         }
     }
 }

@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_AramSpeedShrineBuff"
+            "DynamicTooltip": "<titleLeft>Speed Shrine</titleLeft><mainText>This unit has 30% increased Movement Speed. The effect lasts until the unit takes damage or gets close to an enemy champion.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

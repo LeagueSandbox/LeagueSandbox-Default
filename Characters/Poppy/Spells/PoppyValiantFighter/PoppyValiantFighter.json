@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "PoppyValiantFighter",
+        "Name": "PoppyValiantFighter",
+        "ResourcePath": "DATA/Characters/Poppy/Spells/PoppyValiantFighter.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Valiant Fighter</titleLeft><mainText>All physical and Magic Damage dealt to Poppy that exceeds 10% of her current Health is reduced by 50%. This does not reduce damage from structures.</mainText>"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "DoesntBreakShields": true,
+    "IsDamagingSpell": true,
+    "SpellFXOverrideSkins": {
+        "1": "FrostShyvana"
+    },
+    "BuffName": "ShyvanaFlameBreathDebuff",
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": true,
+    "BuffTextureName": "ShyvanaFlameBreath.dds"
+}

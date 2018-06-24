@@ -1,0 +1,17 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "SpiritUdyr"
+    },
+    "PersistsThroughDeath": true,
+    "BuffName": "UdyrPhoenixStance",
+    "CastingBreaksStealth": true,
+    "BuffTextureName": "Udyr_PhoenixStance.dds",
+    "DoesntBreakShields": false,
+    "SpellFXOverrideSkins": {
+        "1": "SpiritUdyr"
+    },
+    "SpellToggleSlot": 4.0,
+    "IsDamagingSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "NotSingleTargetSpell": true
+}

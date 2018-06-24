@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Absolute_Zero"
+            "DynamicTooltip": "<titleLeft>Absolute Zero</titleLeft><mainText>Nearby enemy units have their Movement and Attack Speeds reduced. Units still in the area when this ability ends will take magic damage.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

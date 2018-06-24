@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_NetherBladeArmorPen",
+            "DynamicTooltip": "<titleLeft>Charged Nether Blade</titleLeft><mainText>Kassadin's next basic attack deals bonus magic damage and restores Mana.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
             "ShowInTrackerUI": 1
         }
     }

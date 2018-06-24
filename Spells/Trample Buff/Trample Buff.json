@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Trample_Buff"
+            "DynamicTooltip": "<titleLeft>Trample</titleLeft><mainText>Alistar can move through units and is damaging nearby enemy units and buildings.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

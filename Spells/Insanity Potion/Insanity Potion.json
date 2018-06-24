@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Insanity_Potion",
+            "DynamicTooltip": "<titleLeft>Insanity Potion</titleLeft><mainText>Singed has incredibly boosted stats.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
             "ShowInTrackerUI": 1
         }
     }

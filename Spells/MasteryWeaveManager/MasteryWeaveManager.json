@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Mastery_Fervor"
+            "DynamicTooltip": "<titleLeft>Mastery: Frenzy</titleLeft><mainText>This unit has increased Attack Speed.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

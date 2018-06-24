@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_BootsDeathmarchSpeed"
+            "DynamicTooltip": "<titleLeft>Furor</titleLeft><mainText>This unit has greatly increased Movement Speed that decays over a short time.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

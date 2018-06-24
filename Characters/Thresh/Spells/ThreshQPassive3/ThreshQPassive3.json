@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "ThreshQPassive3",
+        "Name": "ThreshQPassive3",
+        "ResourcePath": "DATA/Characters/Thresh/Spells/ThreshQPassive3.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Flay</titleLeft><mainText>Thresh's next basic attack deals bonus Magic Damage.</mainText>"
+        }
+    }
+}

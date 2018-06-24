@@ -1,0 +1,14 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "MissFortuneScattershotSlow",
+        "Name": "MissFortuneScattershotSlow",
+        "ResourcePath": "DATA/Characters/MissFortune/Spells/MissFortuneScattershotSlow.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Slowed</titleLeft><mainText>This unit's Movement Speed is slowed.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
+            "HideDurationInUI": 1
+        }
+    }
+}

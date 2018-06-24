@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_S5JungleMushroomArmorBuff"
+            "DynamicTooltip": "<titleLeft><font color='#FFFF55'>Toadstool Poison</font></titleLeft><mainText>This unit has attacked a champion with the Gift of the Toadstool and is poisoned.</mainText>"
         }
     }
 }

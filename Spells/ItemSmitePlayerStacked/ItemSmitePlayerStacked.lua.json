@@ -1,0 +1,7 @@
+{
+    "PersistsThroughDeath": true,
+    "BuffName": "ItemSmitePlayerStacked",
+    "NotSingleTargetSpell": true,
+    "BuffTextureName": "SmiteHeartOfRage.dds",
+    "DoesntTriggerSpellCasts": false
+}

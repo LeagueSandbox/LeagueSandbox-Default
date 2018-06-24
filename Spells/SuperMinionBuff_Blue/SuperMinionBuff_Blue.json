@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_SuperMinionBuff"
+            "DynamicTooltip": "<titleLeft>Minion Commander</titleLeft><mainText>This unit inspires nearby minions, granting them 70% increased damage and 70 increased Armor and Magic Resistance.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

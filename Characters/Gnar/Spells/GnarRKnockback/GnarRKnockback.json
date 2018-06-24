@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "GnarRKnockback",
+        "Name": "GnarRKnockback",
+        "ResourcePath": "DATA/Characters/Gnar/Spells/GnarRKnockback.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Wrekz'd</titleLeft><mainText>Gnar got mad and knocked this unit into the air.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

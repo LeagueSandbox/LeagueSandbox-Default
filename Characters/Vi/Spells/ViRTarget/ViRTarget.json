@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "ViRTarget",
+        "Name": "ViRTarget",
+        "ResourcePath": "DATA/Characters/Vi/Spells/ViRTarget.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Assault and Battery</titleLeft><mainText>This unit has been knocked airborne and can take no action.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

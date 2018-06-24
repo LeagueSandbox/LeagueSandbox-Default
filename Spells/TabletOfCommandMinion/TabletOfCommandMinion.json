@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_TabletOfCommandMinion"
+            "DynamicTooltip": "<titleLeft>Banner of Command</titleLeft><mainText>This unit deals increased damage.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

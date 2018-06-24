@@ -1,0 +1,10 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "FizzSkin04"
+    },
+    "IsDamagingSpell": true,
+    "BuffName": "FizzChurnTheWatersCling",
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": true,
+    "BuffTextureName": "FizzMarinerDoom.dds"
+}

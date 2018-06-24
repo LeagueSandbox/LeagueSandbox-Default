@@ -1,0 +1,10 @@
+{
+    "AutoBuffActivateAttachBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+    "PersistsThroughDeath": true,
+    "BuffName": "ElixirOfIron",
+    "NonDispellable": true,
+    "AutoBuffActivateEffect": "Global_Item_ElixirOfIron_Buf.troy",
+    "NotSingleTargetSpell": true,
+    "BuffTextureName": "2138_Elixir_of_Iron.dds",
+    "DoesntTriggerSpellCasts": true
+}

@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_RegenerationRune"
+            "DynamicTooltip": "<titleLeft>Regeneration Rune</titleLeft><mainText>Restoring Health every second (champions that are more wounded heal for more).</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

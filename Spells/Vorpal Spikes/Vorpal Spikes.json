@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Vorpal_Spikes"
+            "DynamicTooltip": "<titleLeft>Vorpal Spikes</titleLeft><mainText>Cho'Gath's attacks summon spikes to impale enemies.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

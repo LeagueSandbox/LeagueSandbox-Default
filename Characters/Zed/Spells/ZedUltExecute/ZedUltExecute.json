@@ -1,0 +1,14 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "ZedUltExecute",
+        "Name": "ZedUltExecute",
+        "ResourcePath": "DATA/Characters/Zed/Spells/ZedUltExecute.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "AlternateName": "ZedUlt",
+            "DynamicTooltip": "<titleLeft>Marked for Death</titleLeft><mainText>A percent of the damage dealt by Zed will be reapplied when this mark expires.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_VladimirBloodGorged"
+            "DynamicTooltip": "<titleLeft>Crimson Pact</titleLeft><mainText>Every 40 points of bonus Health gives Vladimir 1 Ability Power and every 1 point of Ability Power gives Vladimir 1.4 bonus Health (does not stack with itself).<br><br>Bonus Ability Power: <font color='#CC3300'>@f1@</font><br>Bonus Health: <font color='#99FF99'>@f2@</font></mainText>"
         }
     }
 }

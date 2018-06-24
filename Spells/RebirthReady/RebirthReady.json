@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_RebirthReady"
+            "DynamicTooltip": "<titleLeft>Rebirth</titleLeft><mainText>Upon taking fatal damage, Anivia will revert to an egg, receiving @f1@ Armor and Magic Resist for 6 seconds.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

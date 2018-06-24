@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Emblem_of_Valour"
+            "DynamicTooltip": "<titleLeft>Valor Aura - Emblem</titleLeft><mainText>This unit regenerates Health faster.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

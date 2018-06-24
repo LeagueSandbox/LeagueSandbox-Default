@@ -1,0 +1,8 @@
+{
+    "IsDamagingSpell": false,
+    "BuffName": "Hallucinate",
+    "BuffTextureName": "Jester_HallucinogenBomb.dds",
+    "CastingBreaksStealth": false,
+    "DoesntTriggerSpellCasts": false,
+    "NotSingleTargetSpell": true
+}

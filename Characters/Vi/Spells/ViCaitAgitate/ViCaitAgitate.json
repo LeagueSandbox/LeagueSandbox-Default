@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "ViCaitAgitate",
+        "Name": "ViCaitAgitate",
+        "ResourcePath": "DATA/Characters/Vi/Spells/ViCaitAgitate.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Agitated</titleLeft><mainText>How Agitating.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

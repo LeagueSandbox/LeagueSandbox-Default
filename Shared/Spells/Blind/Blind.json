@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "Blind",
+        "Name": "Blind",
+        "ResourcePath": "DATA/Shared/Spells/Blind.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Blind</titleLeft><mainText>This unit is blinded and cannot hit.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

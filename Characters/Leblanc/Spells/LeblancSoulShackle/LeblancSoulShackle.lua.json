@@ -1,0 +1,16 @@
+{
+    "AutoCooldownByLevel": {
+        "1": 22.0,
+        "2": 20.0,
+        "3": 18.0,
+        "4": 16.0,
+        "5": 14.0
+    },
+    "BuffName": "LeblancShackleBeam",
+    "SpellFXOverrideSkins": {
+        "1": "LeblancSkin04"
+    },
+    "NotSingleTargetSpell": false,
+    "BuffTextureName": "LeblancConjureChains.dds",
+    "DoesntTriggerSpellCasts": false
+}

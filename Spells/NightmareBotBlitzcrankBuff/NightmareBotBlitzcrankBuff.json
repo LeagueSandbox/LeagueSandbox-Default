@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_NightmareBotBlitzcrankBuff"
+            "DynamicTooltip": "<titleLeft>Definitely Not Doom Blitzcrank</titleLeft><mainText>Doom Blitzcrank has powered up all his systems, giving him extra Rocket Grabs, a gigantic Mana Barrier and Static Field, and a Power Fist that knocks multiple enemies into the air. But it’s definitely not him, so don’t worry.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

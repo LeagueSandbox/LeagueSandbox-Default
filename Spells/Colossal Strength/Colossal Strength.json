@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Colossal_Strength"
+            "DynamicTooltip": "<titleLeft>Trample</titleLeft><mainText>Each time Alistar casts a spell, he can move through units and deals <font color='#99FF99'>@f1@</font> magic damage per second to nearby enemy units and buildings for 3 seconds. Deals double damage to minions.<br><br>Base Damage: @f2@<br>Damage from Ability Power: <font color='#99FF99'>@f3@</font></mainText>"
         }
     }
 }

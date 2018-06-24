@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "GnarQSlow",
+        "Name": "GnarQSlow",
+        "ResourcePath": "DATA/Characters/Gnar/Spells/GnarQSlow.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Staggered</titleLeft><mainText>This unit's Movement Speed has been slowed after being clocked by Gnar's boomerang or boulder.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

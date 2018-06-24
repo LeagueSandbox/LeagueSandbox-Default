@@ -1,0 +1,6 @@
+{
+    "AutoBuffActivateEffect": "Global_Haste.troy",
+    "AutoBuffActivateAttachBoneName": "root",
+    "BuffName": "Haste",
+    "BuffTextureName": "Chronokeeper_Recall.dds"
+}

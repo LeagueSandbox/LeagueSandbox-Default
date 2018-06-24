@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "ViEPunch",
+        "Name": "ViEPunch",
+        "ResourcePath": "DATA/Characters/Vi/Spells/ViEPunch.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Charged Gauntlets</titleLeft><mainText>Vi is charging her punches for some serious damage.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

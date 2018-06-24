@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "BlindMonkCripple",
+        "Name": "BlindMonkCripple",
+        "ResourcePath": "DATA/Characters/LeeSin/Spells/BlindMonkCripple.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Crippled</titleLeft><mainText>This unit's Movement Speed is reduced. They will gradually return to normal over the duration of this debuff.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

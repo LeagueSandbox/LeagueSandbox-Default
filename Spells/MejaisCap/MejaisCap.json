@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_MejaisCap"
+            "DynamicTooltip": "<titleLeft>Soul Engorgement @Stack@</titleLeft><mainText>Increases Ability Power by @f1@.<br>At 20 stacks, this unit's cooldowns are reduced by 15%.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

@@ -1,0 +1,12 @@
+{
+    "PersistsThroughDeath": true,
+    "BuffName": "CassiopeiaPoisonTicker4",
+    "CastingBreaksStealth": true,
+    "BuffTextureName": "Cassiopeia_DeadlyCadence4.dds",
+    "DoesntBreakShields": false,
+    "SpellDamageRatio": 1.0,
+    "NonDispellable": true,
+    "IsDamagingSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "NotSingleTargetSpell": false
+}

@@ -1,15 +1,15 @@
 {
     "MetaData": {
         "ContentFormatVersion": 4,
-        "Id": "4342",
-        "Name": "4342",
+        "Id": 4342,
+        "Name": "Wealth",
         "ResourcePath": "DATA/Talents/4342.inibin"
     },
     "Values": {
         "SpellData": {
             "InventoryIcon": "731.dds",
-            "Level1Desc": "game_mastery_level1desc_4342",
-            "Name": "game_mastery_displayname_4342",
+            "Level1Desc": "+40 Starting Gold",
+            "Name": "Wealth",
             "Ranks": 1
         }
     }

@@ -1,0 +1,29 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "SRUAP_OrderInhibitor",
+        "Name": "Blue Inhibitor",
+        "ResourcePath": "DATA/Characters/SRUAP_OrderInhibitor/SRUAP_OrderInhibitor.inibin"
+    },
+    "Values": {
+        "Data": {
+            "ArmorMaterial": "Stone",
+            "Name": "Blue Inhibitor",
+            "UnitTags": "Structure | Structure_Inhibitor"
+        },
+        "HealthBar": {
+            "UnitBarKey": "Turret",
+            "WorldOffset": "0 -3.7 0"
+        },
+        "IdleParticles": {
+            "NumberOfParticles": 0
+        },
+        "Info": {
+            "IconCircle": "Inhibitor_Blue_Circle.dds",
+            "IconSquare": "Inhibitor_Blue_Square.dds"
+        },
+        "Package": {
+            "FallbackPackage": "SRUAP_ChaosInhibitor"
+        }
+    }
+}

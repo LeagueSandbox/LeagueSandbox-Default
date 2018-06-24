@@ -1,17 +1,17 @@
 {
     "MetaData": {
         "ContentFormatVersion": 4,
-        "Id": "4122",
-        "Name": "4122",
+        "Id": 4122,
+        "Name": "Brute Force",
         "ResourcePath": "DATA/Talents/4122.inibin"
     },
     "Values": {
         "SpellData": {
             "InventoryIcon": "522.dds",
-            "Level1Desc": "game_mastery_level1desc_4122",
-            "Level2Desc": "game_mastery_level1desc_4122",
-            "Level3Desc": "game_mastery_level1desc_4122",
-            "Name": "game_mastery_displayname_4122",
+            "Level1Desc": "+4 Attack Damage at level 18 (+0.22 Attack Damage per level)",
+            "Level2Desc": "+4 Attack Damage at level 18 (+0.22 Attack Damage per level)",
+            "Level3Desc": "+4 Attack Damage at level 18 (+0.22 Attack Damage per level)",
+            "Name": "Brute Force",
             "Ranks": 3
         }
     }

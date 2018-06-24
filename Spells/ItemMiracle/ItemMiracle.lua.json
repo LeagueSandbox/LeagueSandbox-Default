@@ -1,0 +1,12 @@
+{
+    "PersistsThroughDeath": true,
+    "BuffName": "SummonerReviveSpeedBoost",
+    "AutoBuffActivateEffectFlags": "EFFCREATE_UPDATE_ORIENTATION",
+    "CastingBreaksStealth": true,
+    "BuffTextureName": "Summoner_revive.dds",
+    "DoesntBreakShields": false,
+    "SpellToggleSlot": 1.0,
+    "IsDamagingSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "NotSingleTargetSpell": true
+}

@@ -1,0 +1,9 @@
+{
+    "DoesntBreakShields": true,
+    "IsDamagingSpell": true,
+    "SpellToggleSlot": 1.0,
+    "BuffName": "GragasQMissile",
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": true,
+    "CastingBreaksStealth": true
+}

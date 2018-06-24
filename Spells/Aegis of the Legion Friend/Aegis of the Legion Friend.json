@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Aegis_of_the_Legion_Friend"
+            "DynamicTooltip": "<titleLeft>Legion Aura</titleLeft><mainText>This unit has increased Magic Resistance and Health Regeneration.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

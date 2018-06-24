@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_NautilusPiercingGazeShield"
+            "DynamicTooltip": "<titleLeft>Wrath</titleLeft><mainText>Nautilus is shielded from incoming damage and his attacks apply a damage over time effect to nearby enemies.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

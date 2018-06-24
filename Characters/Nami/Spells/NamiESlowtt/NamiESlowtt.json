@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "NamiESlowtt",
+        "Name": "NamiESlowtt",
+        "ResourcePath": "DATA/Characters/Nami/Spells/NamiESlowtt.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Tidecaller's Blessing</titleLeft><mainText>This unit is slowed.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

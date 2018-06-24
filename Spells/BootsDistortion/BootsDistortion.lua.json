@@ -1,0 +1,12 @@
+{
+    "BuffName": "SummonerReviveSpeedBoost",
+    "AutoBuffActivateEffectFlags": "EFFCREATE_UPDATE_ORIENTATION",
+    "AutoBuffActivateEffect": "ArmordilloSpin.troy",
+    "CastingBreaksStealth": true,
+    "BuffTextureName": "Summoner_revive.dds",
+    "DoesntBreakShields": false,
+    "AutoBuffActivateEffect2": "Powerball_buf.troy",
+    "IsDamagingSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "NotSingleTargetSpell": true
+}

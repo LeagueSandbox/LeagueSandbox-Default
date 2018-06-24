@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_VolibearHatredZilean"
+            "DynamicTooltip": "<titleLeft>Armored Bear Hater</titleLeft><mainText><font color='#FDD017'>''In my day, we would never have allowed an armored bear into the League of Legends.''</font></mainText>"
         }
     }
 }

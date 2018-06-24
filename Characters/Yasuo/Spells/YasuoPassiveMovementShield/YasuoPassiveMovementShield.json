@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "YasuoPassiveMovementShield",
+        "Name": "YasuoPassiveMovementShield",
+        "ResourcePath": "DATA/Characters/Yasuo/Spells/YasuoPassiveMovementShield.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Statikk Shiv</titleLeft><mainText>This unit is charging up damage for its next attack.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

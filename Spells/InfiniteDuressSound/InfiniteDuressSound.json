@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_InfiniteDuressSound"
+            "DynamicTooltip": "<titleLeft>Infinite Duress</titleLeft><mainText>Warwick is ravaging his enemy.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

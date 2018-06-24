@@ -1,0 +1,6 @@
+{
+    "Nondispellable": true,
+    "PersistsThroughDeath": true,
+    "BuffName": "S5_DragonVengeance",
+    "BuffTextureName": "ShyvanaDragonsDescent.dds"
+}

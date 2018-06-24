@@ -1,0 +1,12 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "PaxSona"
+    },
+    "DoesntBreakShields": false,
+    "IsDamagingSpell": true,
+    "SpellDamageRatio": 1.0,
+    "BuffName": "SonaWZone",
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": true,
+    "BuffTextureName": "Sona_AriaofPerseverance.dds"
+}

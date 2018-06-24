@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_Move_Quick2",
+            "DynamicTooltip": "<titleLeft>Move Quick</titleLeft><mainText>Teemo is sprinting, gaining extreme Movement Speed for a short time.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>",
             "ShowInTrackerUI": 1
         }
     }

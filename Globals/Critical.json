@@ -121,7 +121,7 @@
             "Critical199": 0.99499,
             "Critical2": 0.00205,
             "Critical20": 0.02479,
-            "Critical200": "1.00000",
+            "Critical200": 1.0,
             "Critical21": 0.02632,
             "Critical22": 0.0279,
             "Critical23": 0.0295,

@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "BraumMarkStunReduction",
+        "Name": "BraumMarkStunReduction",
+        "ResourcePath": "DATA/Characters/Braum/Spells/BraumMarkStunReduction.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Concussive Blows Immunity</titleLeft> <mainText>This unit is immune to receiving stacks of Concussive Blows.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
+        }
+    }
+}

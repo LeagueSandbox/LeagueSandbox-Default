@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_JarvanIVDragonStrikePH2"
+            "DynamicTooltip": "<titleLeft>Dragon Strike: Knocked Up</titleLeft><mainText>This unit has been knocked up.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

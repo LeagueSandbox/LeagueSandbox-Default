@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_ManaBarrierIcon"
+            "DynamicTooltip": "<titleLeft>Mana Barrier</titleLeft><mainText>Blitzcrank's Mana Barrier can activate once every 90 seconds when he falls below 20% Health. This creates a Mana Shield equal to 50% of his current Mana that lasts up to 10 seconds.</mainText>"
         }
     }
 }

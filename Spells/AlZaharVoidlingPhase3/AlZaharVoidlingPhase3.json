@@ -7,7 +7,7 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_AlZaharVoidlingPhase3"
+            "DynamicTooltip": "<titleLeft>Voidling: Frenzied</titleLeft><mainText>This Voidling has 100% increased Attack Speed.</mainText><postScriptLeft>Source: @SourceName@</postScriptLeft>"
         }
     }
 }

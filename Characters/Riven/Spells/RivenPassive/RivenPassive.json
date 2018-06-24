@@ -1,0 +1,13 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "RivenPassive",
+        "Name": "RivenPassive",
+        "ResourcePath": "DATA/Characters/Riven/Spells/RivenPassive.inibin"
+    },
+    "Values": {
+        "BuffData": {
+            "DynamicTooltip": "<titleLeft>Runic Blade</titleLeft><mainText>Riven's abilities charge her blade, causing her basic attacks to deal an additional @f1@% physical damage. Riven's blade may be charged up to @f3@ times and expends one charge per attack.<br><br><font color='#FFFF00'>Bonus Damage:</font> <font color='#FF8C00'>@f2@</font></mainText>"
+        }
+    }
+}
