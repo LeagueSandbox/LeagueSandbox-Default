@@ -51,7 +51,7 @@
             "Name": "game_character_displayname_Katarina",
             "PARType": "None",
             "Passive1Icon": "Katarina_Voracity.dds",
-            "Passive1LuaName": "Voracity",
+            "Passive1LuaName": "KatarinaPassive",
             "Passive1Name": "game_character_passiveName_Katarina",
             "PassLev1Desc1": "game_character_passiveDescription_Katarina",
             "PathfindingCollisionRadius": 35,

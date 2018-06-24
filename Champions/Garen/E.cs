@@ -43,7 +43,7 @@ namespace Spells
                                0.5f;
                     float damage = new[] {20, 45, 70, 95, 120}[spell.Level - 1] * 0.5f + ad;
                     if (unit is Minion) damage *= 0.75f;
-                    target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_PHYSICAL, DamageSource.DAMAGE_SOURCE_SPELL,
+                    unit.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_PHYSICAL, DamageSource.DAMAGE_SOURCE_SPELL,
                         false);
                 }
             }

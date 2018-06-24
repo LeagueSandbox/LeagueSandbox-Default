@@ -19,9 +19,6 @@ namespace Spells
         public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target)
         {
             ApiFunctionManager.AddParticleTarget(owner, "ezreal_bow.troy", owner, 1, "L_HAND");
-            owner.AddBuffGameScript("Quickdraw", "Quickdraw", spell);
-            ApiFunctionManager.AddBuffHUDVisual("OlafBerzerkerRage", 6.0f, 0, owner);
-            ApiFunctionManager.AddBuffHUDVisual("Absolute_Zero", 6.0f, 0, owner);
         }
 
         public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target)
@@ -30,7 +27,17 @@ namespace Spells
             var to = Vector2.Normalize(new Vector2(spell.X, spell.Y) - current);
             var range = to * 1150;
             var trueCoords = current + range;
+            
             spell.AddProjectile("EzrealMysticShotMissile", trueCoords.X, trueCoords.Y);
+
+            var buff = owner.AddBuffGameScript("Quickdraw", "Quickdraw", spell);
+            var visualBuff = ApiFunctionManager.AddBuffHUDVisual("Quickdraw", 6.0f, 0, owner);
+
+            ApiFunctionManager.CreateTimer(6.0f, () =>
+            {
+                ApiFunctionManager.RemoveBuffHUDVisual(visualBuff);
+                owner.RemoveBuffGameScript(buff);
+            });
         }
 
         public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile)

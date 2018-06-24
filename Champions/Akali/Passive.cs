@@ -13,11 +13,6 @@ namespace Spells
             owner.GetStats().SpellVamp.PercentBonus = 6 + bonusAd % 6;
         }
 
-        private void SelfWasDamaged()
-        {
-            ApiFunctionManager.LogInfo("Ezreal was damaged");
-        }
-
         public void OnDeactivate(Champion owner)
         {
         }

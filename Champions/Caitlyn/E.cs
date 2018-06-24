@@ -16,11 +16,6 @@ namespace Spells
         {
         }
 
-        public void OnUpdate(double diff)
-        {
-
-        }
-
         public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target)
         {
         }
@@ -50,6 +45,11 @@ namespace Spells
             ApiFunctionManager.AddParticleTarget(owner, "caitlyn_entrapment_tar.troy", target);
             ApiFunctionManager.AddParticleTarget(owner, "caitlyn_entrapment_slow.troy", target);
             projectile.setToRemove();
+        }
+
+        public void OnUpdate(double diff)
+        {
+
         }
     }
 }
