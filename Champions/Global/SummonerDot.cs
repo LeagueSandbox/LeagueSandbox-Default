@@ -11,29 +11,30 @@ namespace Spells
         {
             var visualBuff = ApiFunctionManager.AddBuffHUDVisual("SummonerDot", 5.0f, 1, (ObjAIBase) target);
             Particle p = ApiFunctionManager.AddParticleTarget(owner, "Global_SS_Ignite.troy", target, 1);
+            ((ObjAIBase)target).AddBuffGameScript("GrievousWounds", "GrievousWounds", spell, 4.0f);
             var damage = 10 + owner.GetStats().Level * 4;
-            target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_TRUE, DamageSource.DAMAGE_SOURCE_SPELL, false);
+            target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_TRUE, DamageSource.DAMAGE_SOURCE_SUMMONER_SPELL, false);
             ApiFunctionManager.CreateTimer(1.0f,
                 () =>
                 {
-                    target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_TRUE, DamageSource.DAMAGE_SOURCE_SPELL,
+                    target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_TRUE, DamageSource.DAMAGE_SOURCE_SUMMONER_SPELL,
                         false);
                 });
             ApiFunctionManager.CreateTimer(2.0f,
                 () =>
                 {
-                    target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_TRUE, DamageSource.DAMAGE_SOURCE_SPELL,
+                    target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_TRUE, DamageSource.DAMAGE_SOURCE_SUMMONER_SPELL,
                         false);
                 });
             ApiFunctionManager.CreateTimer(3.0f,
                 () =>
                 {
-                    target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_TRUE, DamageSource.DAMAGE_SOURCE_SPELL,
+                    target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_TRUE, DamageSource.DAMAGE_SOURCE_SUMMONER_SPELL,
                         false);
                 });
             ApiFunctionManager.CreateTimer(4.0f, () =>
             {
-                target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_TRUE, DamageSource.DAMAGE_SOURCE_SPELL, false);
+                target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_TRUE, DamageSource.DAMAGE_SOURCE_SUMMONER_SPELL, false);
                 ApiFunctionManager.RemoveParticle(p);
                 ApiFunctionManager.RemoveBuffHUDVisual(visualBuff);
             });

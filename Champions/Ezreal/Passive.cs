@@ -10,7 +10,7 @@ namespace Spells
         public void OnActivate(Champion owner)
         {
             ApiFunctionManager.LogInfo("Ezreal Passive OnActivate");
-            ApiEventManager.OnChampionDamageTaken.AddListener(this, owner, SelfWasDamaged);
+            ApiEventManager.OnDamageTaken.AddListener(this, owner, SelfWasDamaged);
         }
 
         private void SelfWasDamaged()

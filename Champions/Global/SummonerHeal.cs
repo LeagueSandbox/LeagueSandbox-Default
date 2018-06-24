@@ -35,16 +35,8 @@ namespace Spells
 
             if (mostWoundedAlliedChampion != null)
             {
-                newHealth = mostWoundedAlliedChampion.GetStats().CurrentHealth + 75 + owner.GetStats().GetLevel() * 15;
-                maxHealth = mostWoundedAlliedChampion.GetStats().HealthPoints.Total;
-                if (newHealth >= maxHealth)
-                {
-                    mostWoundedAlliedChampion.GetStats().CurrentHealth = maxHealth;
-                }
-                else
-                {
-                    mostWoundedAlliedChampion.GetStats().CurrentHealth = newHealth;
-                }
+                newHealth = 75 + owner.GetStats().GetLevel() * 15;
+                mostWoundedAlliedChampion.RestoreHealth(newHealth);
 
                 ApiFunctionManager.AddBuffHUDVisual("SummonerHeal", 1.0f, 1, mostWoundedAlliedChampion, 1.0f);
                 ChampionStatModifier statMod2 = new ChampionStatModifier();
@@ -57,16 +49,8 @@ namespace Spells
                     mostWoundedAlliedChampion);
             }
 
-            newHealth = owner.GetStats().CurrentHealth + 75 + owner.GetStats().GetLevel() * 15;
-            maxHealth = owner.GetStats().HealthPoints.Total;
-            if (newHealth >= maxHealth)
-            {
-                owner.GetStats().CurrentHealth = maxHealth;
-            }
-            else
-            {
-                owner.GetStats().CurrentHealth = newHealth;
-            }
+            newHealth = 75 + owner.GetStats().GetLevel() * 15;
+            owner.RestoreHealth(newHealth);
 
             ApiFunctionManager.AddBuffHUDVisual("SummonerHeal", 1.0f, 1, owner, 1.0f);
             ChampionStatModifier statMod = new ChampionStatModifier();

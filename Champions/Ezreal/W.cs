@@ -32,6 +32,25 @@ namespace Spells
 
         public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile)
         {
+            if (target is Champion)
+            {
+                if (target.Team == owner.Team)
+                {
+                    var buff = ((ObjAIBase)target).AddBuffGameScript("EssenceFluxAttackSpeed", "EssenceFluxAttackSpeed", spell);
+                    var visualBuff = ApiFunctionManager.AddBuffHUDVisual("EzrealEssenceFluxBuff", 5.0f, 0, owner);
+                    ApiFunctionManager.CreateTimer(5.0f, () =>
+                    {
+                        owner.RemoveBuffGameScript(buff);
+                        ApiFunctionManager.RemoveBuffHUDVisual(visualBuff);
+                    });
+                }
+                else
+                {
+                    var ap = owner.GetStats().AbilityPower.Total * 0.8f;
+                    var damage = (new float[] { 80, 130, 180, 230, 280 }[spell.Level - 1]) + ap;
+                    target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
+                }
+            }
         }
 
         public void OnUpdate(double diff)
