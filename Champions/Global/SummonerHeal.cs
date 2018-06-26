@@ -6,7 +6,7 @@ using LeagueSandbox.GameServer.Logic.GameObjects.AttackableUnits;
 
 namespace Spells
 {
-    public class SummonerHeal : GameScript
+    public class SummonerHeal : IGameScript
     {
         public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target)
         {
@@ -40,7 +40,7 @@ namespace Spells
                 maxHealth = mostWoundedAlliedChampion.Stats.HealthPoints.Total;
                 mostWoundedAlliedChampion.Stats.CurrentHealth = Math.Min(maxHealth, newHealth);
 
-                ApiFunctionManager.AddBuffHUDVisual("SummonerHeal", 1.0f, 1, mostWoundedAlliedChampion, 1.0f);
+                ApiFunctionManager.AddBuffHudVisual("SummonerHeal", 1.0f, 1, mostWoundedAlliedChampion, 1.0f);
                 var statMod2 = new StatsModifier
                 {
                     MoveSpeed =
@@ -60,7 +60,7 @@ namespace Spells
             maxHealth = owner.Stats.HealthPoints.Total;
             owner.Stats.CurrentHealth = Math.Min(maxHealth, newHealth);
 
-            ApiFunctionManager.AddBuffHUDVisual("SummonerHeal", 1.0f, 1, owner, 1.0f);
+            ApiFunctionManager.AddBuffHudVisual("SummonerHeal", 1.0f, 1, owner, 1.0f);
             var statMod = new StatsModifier
             {
                 MoveSpeed =

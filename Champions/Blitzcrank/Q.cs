@@ -6,7 +6,7 @@ using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
 namespace Spells
 {
-    public class RocketGrab : GameScript
+    public class RocketGrab : IGameScript
     {
         public void OnActivate(Champion owner)
         {
@@ -18,7 +18,7 @@ namespace Spells
 
         public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target)
         {
-            spell.spellAnimation("SPELL1", owner);
+            spell.SpellAnimation("SPELL1", owner);
         }
 
         public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target)
@@ -43,11 +43,11 @@ namespace Spells
                 var to = Vector2.Normalize(new Vector2(spell.X, spell.Y) - current);
                 var range = to * 50;
                 var trueCoords = current + range;
-                ApiFunctionManager.DashToLocation((ObjAIBase) spell.Target, trueCoords.X, trueCoords.Y,
+                ApiFunctionManager.DashToLocation((ObjAiBase) spell.Target, trueCoords.X, trueCoords.Y,
                     spell.SpellData.MissileSpeed, true);
             }
 
-            projectile.setToRemove();
+            projectile.SetToRemove();
         }
 
         public void OnUpdate(double diff)

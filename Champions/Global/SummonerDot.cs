@@ -5,11 +5,11 @@ using LeagueSandbox.GameServer.Logic.GameObjects.AttackableUnits;
 
 namespace Spells
 {
-    public class SummonerDot : GameScript
+    public class SummonerDot : IGameScript
     {
         public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target)
         {
-            var visualBuff = ApiFunctionManager.AddBuffHUDVisual("SummonerDot", 5.0f, 1, (ObjAIBase) target);
+            var visualBuff = ApiFunctionManager.AddBuffHudVisual("SummonerDot", 5.0f, 1, (ObjAiBase) target);
             Particle p = ApiFunctionManager.AddParticleTarget(owner, "Global_SS_Ignite.troy", target, 1);
             var damage = 10 + owner.Stats.Level * 4;
             target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_TRUE, DamageSource.DAMAGE_SOURCE_SPELL, false);
@@ -35,7 +35,7 @@ namespace Spells
             {
                 target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_TRUE, DamageSource.DAMAGE_SOURCE_SPELL, false);
                 ApiFunctionManager.RemoveParticle(p);
-                ApiFunctionManager.RemoveBuffHUDVisual(visualBuff);
+                ApiFunctionManager.RemoveBuffHudVisual(visualBuff);
             });
         }
 

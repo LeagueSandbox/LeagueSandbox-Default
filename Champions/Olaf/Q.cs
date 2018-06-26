@@ -6,7 +6,7 @@ using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
 namespace Spells
 {
-    public class OlafAxeThrowCast : GameScript
+    public class OlafAxeThrowCast : IGameScript
     {
         public void OnActivate(Champion owner)
         {

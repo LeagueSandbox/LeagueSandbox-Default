@@ -3,11 +3,11 @@ using LeagueSandbox.GameServer.Logic.Scripting;
 
 namespace LuluWBuff
 {
-    internal class LuluWBuff : BuffGameScript
+    internal class LuluWBuff : IBuffGameScript
     {
         private StatsModifier _statMod;
 
-        public void OnActivate(ObjAIBase unit, Spell ownerSpell)
+        public void OnActivate(ObjAiBase unit, Spell ownerSpell)
         {
             var ap = ownerSpell.Owner.Stats.AbilityPower.Total * 0.001;
             _statMod = new StatsModifier();
@@ -15,7 +15,7 @@ namespace LuluWBuff
             unit.AddStatModifier(_statMod);
         }
 
-        public void OnDeactivate(ObjAIBase unit)
+        public void OnDeactivate(ObjAiBase unit)
         {
             unit.RemoveStatModifier(_statMod);
         }

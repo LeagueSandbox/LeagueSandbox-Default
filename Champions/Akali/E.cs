@@ -7,7 +7,7 @@ using LeagueSandbox.GameServer.Logic.GameObjects.AttackableUnits;
 
 namespace Spells
 {
-    public class AkaliShadowSwipe : GameScript
+    public class AkaliShadowSwipe : IGameScript
     {
         public void OnActivate(Champion owner)
         {

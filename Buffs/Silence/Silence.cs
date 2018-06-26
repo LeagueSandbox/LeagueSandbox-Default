@@ -4,16 +4,16 @@ using LeagueSandbox.GameServer.Logic.API;
 
 namespace Silence
 {
-    internal class Silence : BuffGameScript
+    internal class Silence : IBuffGameScript
     {
-        private UnitCrowdControl _crowd = new UnitCrowdControl(CrowdControlType.Silence);
+        private UnitCrowdControl _crowd = new UnitCrowdControl(CrowdControlType.SILENCE);
 
-        public void OnActivate(ObjAIBase unit, Spell ownerSpell)
+        public void OnActivate(ObjAiBase unit, Spell ownerSpell)
         {
             unit.ApplyCrowdControl(_crowd);
         }
 
-        public void OnDeactivate(ObjAIBase unit)
+        public void OnDeactivate(ObjAiBase unit)
         {
             unit.RemoveCrowdControl(_crowd);
         }

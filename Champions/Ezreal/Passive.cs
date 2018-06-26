@@ -5,7 +5,7 @@ using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
 namespace Spells
 {
-    public class EzrealRisingSpellForce : GameScript
+    public class EzrealRisingSpellForce : IGameScript
     {
         public void OnActivate(Champion owner)
         {

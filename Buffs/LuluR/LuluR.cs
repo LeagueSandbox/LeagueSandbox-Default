@@ -3,7 +3,7 @@ using LeagueSandbox.GameServer.Logic.Scripting;
 
 namespace LuluR
 {
-    internal class LuluR : BuffGameScript
+    internal class LuluR : IBuffGameScript
     {
         private StatsModifier _statMod;
         private float _healthBefore;
@@ -11,7 +11,7 @@ namespace LuluR
         private float _healthNow;
         private float _healthBonus;
 
-        public void OnActivate(ObjAIBase unit, Spell ownerSpell)
+        public void OnActivate(ObjAiBase unit, Spell ownerSpell)
         {
             _statMod = new StatsModifier();
             _statMod.Size.PercentBonus = _statMod.Size.PercentBonus + 1;
@@ -22,7 +22,7 @@ namespace LuluR
             unit.AddStatModifier(_statMod);
         }
 
-        public void OnDeactivate(ObjAIBase unit)
+        public void OnDeactivate(ObjAiBase unit)
         {
             _healthNow = unit.Stats.CurrentHealth - _healthBonus;
             _meantimeDamage = _healthBefore - _healthNow;

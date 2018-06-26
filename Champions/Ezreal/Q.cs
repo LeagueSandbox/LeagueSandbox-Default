@@ -6,7 +6,7 @@ using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
 namespace Spells
 {
-    public class EzrealMysticShot : GameScript
+    public class EzrealMysticShot : IGameScript
     {
         public void OnActivate(Champion owner)
         {
@@ -41,7 +41,7 @@ namespace Spells
                 spell.LowerCooldown(i, 1);
             }
 
-            projectile.setToRemove();
+            projectile.SetToRemove();
         }
 
         public void OnUpdate(double diff)

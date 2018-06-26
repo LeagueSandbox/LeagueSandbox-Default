@@ -5,7 +5,7 @@ using LeagueSandbox.GameServer.Logic.GameObjects.AttackableUnits;
 
 namespace Spells
 {
-    public class Recall : GameScript
+    public class Recall : IGameScript
     {
         public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target)
         {
@@ -13,11 +13,11 @@ namespace Spells
 
         public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target)
         {
-            var visualBuff = ApiFunctionManager.AddBuffHUDVisual("Recall", 8.0f, 1, owner);
+            var visualBuff = ApiFunctionManager.AddBuffHudVisual("Recall", 8.0f, 1, owner);
             var addParticle = ApiFunctionManager.AddParticleTarget(owner, "TeleportHome.troy", owner);
             ApiFunctionManager.CreateTimer(8.0f, () =>
             {
-                ApiFunctionManager.RemoveBuffHUDVisual(visualBuff);
+                ApiFunctionManager.RemoveBuffHudVisual(visualBuff);
                 owner.Recall(owner);
             });
         }

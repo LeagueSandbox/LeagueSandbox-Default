@@ -3,18 +3,18 @@ using LeagueSandbox.GameServer.Logic.Scripting;
 
 namespace OverdriveSlow
 {
-    internal class OverdriveSlow : BuffGameScript
+    internal class OverdriveSlow : IBuffGameScript
     {
         private StatsModifier _statMod;
 
-        public void OnActivate(ObjAIBase unit, Spell ownerSpell)
+        public void OnActivate(ObjAiBase unit, Spell ownerSpell)
         {
             _statMod = new StatsModifier();
             _statMod.MoveSpeed.PercentBonus = _statMod.MoveSpeed.PercentBonus - 0.3f;
             unit.AddStatModifier(_statMod);
         }
 
-        public void OnDeactivate(ObjAIBase unit)
+        public void OnDeactivate(ObjAiBase unit)
         {
             unit.RemoveStatModifier(_statMod);
         }

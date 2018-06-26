@@ -4,16 +4,16 @@ using LeagueSandbox.GameServer.Logic.API;
 
 namespace Disarm
 {
-    internal class Disarm : BuffGameScript
+    internal class Disarm : IBuffGameScript
     {
-        private UnitCrowdControl _crowd = new UnitCrowdControl(CrowdControlType.Disarm);
+        private UnitCrowdControl _crowd = new UnitCrowdControl(CrowdControlType.DISARM);
 
-        public void OnActivate(ObjAIBase unit, Spell ownerSpell)
+        public void OnActivate(ObjAiBase unit, Spell ownerSpell)
         {
             unit.ApplyCrowdControl(_crowd);
         }
 
-        public void OnDeactivate(ObjAIBase unit)
+        public void OnDeactivate(ObjAiBase unit)
         {
             unit.RemoveCrowdControl(_crowd);
         }

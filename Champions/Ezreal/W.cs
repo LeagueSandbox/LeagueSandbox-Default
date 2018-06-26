@@ -6,7 +6,7 @@ using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
 namespace Spells
 {
-    public class EzrealEssenceFlux : GameScript
+    public class EzrealEssenceFlux : IGameScript
     {
         public void OnActivate(Champion owner)
         {

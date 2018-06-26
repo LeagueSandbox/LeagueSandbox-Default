@@ -6,7 +6,7 @@ using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
 namespace Spells
 {
-    public class LucianQ : GameScript
+    public class LucianQ : IGameScript
     {
         public void OnActivate(Champion owner)
         {
@@ -24,7 +24,7 @@ namespace Spells
             var trueCoords = current + range;
 
             spell.AddLaser(trueCoords.X, trueCoords.Y);
-            spell.spellAnimation("SPELL1", owner);
+            spell.SpellAnimation("SPELL1", owner);
             ApiFunctionManager.AddParticle(owner, "Lucian_Q_laser.troy", trueCoords.X, trueCoords.Y);
             ApiFunctionManager.AddParticleTarget(owner, "Lucian_Q_cas.troy", owner);
         }

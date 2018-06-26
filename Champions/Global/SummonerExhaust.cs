@@ -5,7 +5,7 @@ using LeagueSandbox.GameServer.Logic.GameObjects.AttackableUnits;
 
 namespace Spells
 {
-    public class SummonerExhaust : GameScript
+    public class SummonerExhaust : IGameScript
     {
         public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target)
         {
@@ -13,7 +13,7 @@ namespace Spells
 
         public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target)
         {
-            var ai = target as ObjAIBase;
+            var ai = target as ObjAiBase;
             if (ai != null)
             {
                 StatsModifier statMod = new StatsModifier();
@@ -23,10 +23,10 @@ namespace Spells
                 statMod.MagicResist.BaseBonus -= 10;
                 ai.AddStatModifier(statMod);
                 ApiFunctionManager.AddParticleTarget(owner, "Global_SS_Exhaust.troy", target);
-                var visualBuff = ApiFunctionManager.AddBuffHUDVisual("SummonerExhaustDebuff", 2.5f, 1, (ObjAIBase)target);
+                var visualBuff = ApiFunctionManager.AddBuffHudVisual("SummonerExhaustDebuff", 2.5f, 1, (ObjAiBase)target);
                 ApiFunctionManager.CreateTimer(2.5f, () =>
                 {
-                    ApiFunctionManager.RemoveBuffHUDVisual(visualBuff);
+                    ApiFunctionManager.RemoveBuffHudVisual(visualBuff);
                     ai.RemoveStatModifier(statMod);
                 });
             }

@@ -7,7 +7,7 @@ using LeagueSandbox.GameServer.Logic.GameObjects.AttackableUnits;
 
 namespace Spells
 {
-    public class FallenOne : GameScript
+    public class FallenOne : IGameScript
     {
         public void OnActivate(Champion owner)
         {

@@ -5,7 +5,7 @@ using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
 namespace Spells
 {
-    public class LucianW : GameScript
+    public class LucianW : IGameScript
     {
         public void OnActivate(Champion owner)
         {

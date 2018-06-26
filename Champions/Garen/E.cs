@@ -6,7 +6,7 @@ using LeagueSandbox.GameServer.Logic.GameObjects.AttackableUnits;
 
 namespace Spells
 {
-    public class GarenE : GameScript
+    public class GarenE : IGameScript
     {
         public void OnActivate(Champion owner)
         {
@@ -19,10 +19,10 @@ namespace Spells
         public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target)
         {
             Particle p = ApiFunctionManager.AddParticleTarget(owner, "Garen_Base_E_Spin.troy", owner, 1);
-            var visualBuff = ApiFunctionManager.AddBuffHUDVisual("GarenE", 3.0f, 1, owner);
+            var visualBuff = ApiFunctionManager.AddBuffHudVisual("GarenE", 3.0f, 1, owner);
             ApiFunctionManager.CreateTimer(3.0f, () =>
             {
-                ApiFunctionManager.RemoveBuffHUDVisual(visualBuff);
+                ApiFunctionManager.RemoveBuffHudVisual(visualBuff);
                 ApiFunctionManager.RemoveParticle(p);
             });
             for (float i = 0.0f; i < 3.0; i += 0.5f)

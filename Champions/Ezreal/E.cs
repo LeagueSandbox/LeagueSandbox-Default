@@ -6,7 +6,7 @@ using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
 namespace Spells
 {
-    public class EzrealArcaneShift : GameScript
+    public class EzrealArcaneShift : IGameScript
     {
         public void OnActivate(Champion owner)
         {
@@ -44,7 +44,7 @@ namespace Spells
             float distance = 700;
             foreach (var value in units)
             {
-                if (owner.Team != value.Team && value is ObjAIBase)
+                if (owner.Team != value.Team && value is ObjAiBase)
                 {
                     if (Vector2.Distance(new Vector2(trueCoords.X, trueCoords.Y), new Vector2(value.X, value.Y)) <=
                         distance)
@@ -69,7 +69,7 @@ namespace Spells
         {
             target.TakeDamage(owner, 25f + spell.Level * 50f + owner.Stats.AbilityPower.Total * 0.75f,
                 DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
-            projectile.setToRemove();
+            projectile.SetToRemove();
         }
 
         public void OnUpdate(double diff)

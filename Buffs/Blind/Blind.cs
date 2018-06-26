@@ -4,16 +4,16 @@ using LeagueSandbox.GameServer.Logic.API;
 
 namespace Blind
 {
-    internal class Blind : BuffGameScript
+    internal class Blind : IBuffGameScript
     {
-        private UnitCrowdControl _crowd = new UnitCrowdControl(CrowdControlType.Blind);
+        private UnitCrowdControl _crowd = new UnitCrowdControl(CrowdControlType.BLIND);
 
-        public void OnActivate(ObjAIBase unit, Spell ownerSpell)
+        public void OnActivate(ObjAiBase unit, Spell ownerSpell)
         {
             unit.ApplyCrowdControl(_crowd);
         }
 
-        public void OnDeactivate(ObjAIBase unit)
+        public void OnDeactivate(ObjAiBase unit)
         {
             unit.RemoveCrowdControl(_crowd);
         }

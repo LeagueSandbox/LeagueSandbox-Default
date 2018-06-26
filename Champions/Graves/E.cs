@@ -6,7 +6,7 @@ using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
 namespace Spells
 {
-    public class GravesMove : GameScript
+    public class GravesMove : IGameScript
     {
         public void OnActivate(Champion owner)
         {

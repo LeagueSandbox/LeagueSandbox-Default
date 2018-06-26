@@ -6,7 +6,7 @@ using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
 namespace Spells
 {
-    public class LuxMaliceCannon : GameScript
+    public class LuxMaliceCannon : IGameScript
     {
         public void OnActivate(Champion owner)
         {
@@ -26,7 +26,7 @@ namespace Spells
             spell.AddLaser(trueCoords.X, trueCoords.Y);
             ApiFunctionManager.AddParticle(owner, "LuxMaliceCannon_beam.troy", trueCoords.X, trueCoords.Y);
             ApiFunctionManager.FaceDirection(owner, trueCoords, false);
-            spell.spellAnimation("SPELL4", owner);
+            spell.SpellAnimation("SPELL4", owner);
             ApiFunctionManager.AddParticleTarget(owner, "LuxMaliceCannon_cas.troy", owner);
         }
 

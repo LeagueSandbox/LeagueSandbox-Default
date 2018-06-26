@@ -5,7 +5,7 @@ using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
 namespace Spells
 {
-    public class Parley : GameScript
+    public class Parley : IGameScript
     {
         public void OnActivate(Champion owner)
         {
@@ -50,7 +50,7 @@ namespace Spells
                     }
                 }
 
-                projectile.setToRemove();
+                projectile.SetToRemove();
             }
         }
 

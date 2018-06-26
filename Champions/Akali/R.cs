@@ -7,7 +7,7 @@ using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
 namespace Spells
 {
-    public class AkaliShadowDance : GameScript
+    public class AkaliShadowDance : IGameScript
     {
         public void OnActivate(Champion owner)
         {

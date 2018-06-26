@@ -5,7 +5,7 @@ using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
 namespace Spells
 {
-    public class AkaliSmokeBomb : GameScript
+    public class AkaliSmokeBomb : IGameScript
     {
         public void OnActivate(Champion owner)
         {

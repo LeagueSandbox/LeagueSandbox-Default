@@ -5,7 +5,7 @@ using LeagueSandbox.GameServer.Logic.GameObjects.AttackableUnits;
 
 namespace Spells
 {
-    public class SummonerMana : GameScript
+    public class SummonerMana : IGameScript
     {
         private const float PERCENT_MAX_MANA_HEAL = 0.40f;
 

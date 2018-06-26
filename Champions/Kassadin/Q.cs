@@ -5,7 +5,7 @@ using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
 namespace Spells
 {
-    public class NullLance : GameScript
+    public class NullLance : IGameScript
     {
         public void OnActivate(Champion owner)
         {
@@ -39,7 +39,7 @@ namespace Spells
                 }
             }
 
-            projectile.setToRemove();
+            projectile.SetToRemove();
         }
 
         public void OnUpdate(double diff)

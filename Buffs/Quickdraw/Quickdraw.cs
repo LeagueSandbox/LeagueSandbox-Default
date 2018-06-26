@@ -3,7 +3,7 @@ using LeagueSandbox.GameServer.Logic.Scripting;
 
 namespace Quickdraw
 {
-    internal class Quickdraw : BuffGameScript
+    internal class Quickdraw : IBuffGameScript
     {
         private StatsModifier _statMod = new StatsModifier();
 
@@ -12,13 +12,13 @@ namespace Quickdraw
             
         }
 
-        public void OnActivate(ObjAIBase unit, Spell ownerSpell)
+        public void OnActivate(ObjAiBase unit, Spell ownerSpell)
         {
             _statMod.AttackSpeed.PercentBonus = ownerSpell.Level * 10.0f / 100.0f;
             unit.AddStatModifier(_statMod);
         }
 
-        public void OnDeactivate(ObjAIBase unit)
+        public void OnDeactivate(ObjAiBase unit)
         {
             unit.RemoveStatModifier(_statMod);
         }
