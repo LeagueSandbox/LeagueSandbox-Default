@@ -43,8 +43,8 @@ namespace Spells
         public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile)
         {
             ApiFunctionManager.AddParticleTarget(owner, "olaf_axeThrow_tar.troy", target, 1);
-            var ad = owner.GetStats().AttackDamage.Total * 1.1f;
-            var ap = owner.GetStats().AttackDamage.Total * 0.0f;
+            var ad = owner.Stats.AttackDamage.Total * 1.1f;
+            var ap = owner.Stats.AttackDamage.Total * 0.0f;
             var damage = 15 + spell.Level * 20 + ad + ap;
             target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_PHYSICAL, DamageSource.DAMAGE_SOURCE_ATTACK, false);
         }

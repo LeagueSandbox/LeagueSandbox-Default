@@ -11,7 +11,7 @@ namespace Spells
         {
             var visualBuff = ApiFunctionManager.AddBuffHUDVisual("SummonerDot", 5.0f, 1, (ObjAIBase) target);
             Particle p = ApiFunctionManager.AddParticleTarget(owner, "Global_SS_Ignite.troy", target, 1);
-            var damage = 10 + owner.GetStats().Level * 4;
+            var damage = 10 + owner.Stats.Level * 4;
             target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_TRUE, DamageSource.DAMAGE_SOURCE_SPELL, false);
             ApiFunctionManager.CreateTimer(1.0f,
                 () =>

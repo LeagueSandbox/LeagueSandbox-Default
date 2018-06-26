@@ -23,8 +23,8 @@ namespace Spells
                 var value = units[i];
                 if (owner.Team == value.Team && i != 0)
                 {
-                    var currentHealth = value.GetStats().CurrentHealth;
-                    maxHealth = value.GetStats().HealthPoints.Total;
+                    var currentHealth = value.Stats.CurrentHealth;
+                    maxHealth = value.Stats.HealthPoints.Total;
                     if (currentHealth * 100 / maxHealth < lowestHealthPercentage && owner != value)
                     {
                         lowestHealthPercentage = currentHealth * 100 / maxHealth;
@@ -35,15 +35,15 @@ namespace Spells
 
             if (mostWoundedAlliedChampion != null)
             {
-                newHealth = mostWoundedAlliedChampion.GetStats().CurrentHealth + 75 + owner.GetStats().GetLevel() * 15;
-                maxHealth = mostWoundedAlliedChampion.GetStats().HealthPoints.Total;
+                newHealth = mostWoundedAlliedChampion.Stats.CurrentHealth + 75 + owner.Stats.GetLevel() * 15;
+                maxHealth = mostWoundedAlliedChampion.Stats.HealthPoints.Total;
                 if (newHealth >= maxHealth)
                 {
-                    mostWoundedAlliedChampion.GetStats().CurrentHealth = maxHealth;
+                    mostWoundedAlliedChampion.Stats.CurrentHealth = maxHealth;
                 }
                 else
                 {
-                    mostWoundedAlliedChampion.GetStats().CurrentHealth = newHealth;
+                    mostWoundedAlliedChampion.Stats.CurrentHealth = newHealth;
                 }
 
                 ApiFunctionManager.AddBuffHUDVisual("SummonerHeal", 1.0f, 1, mostWoundedAlliedChampion, 1.0f);
@@ -57,15 +57,15 @@ namespace Spells
                     mostWoundedAlliedChampion);
             }
 
-            newHealth = owner.GetStats().CurrentHealth + 75 + owner.GetStats().GetLevel() * 15;
-            maxHealth = owner.GetStats().HealthPoints.Total;
+            newHealth = owner.Stats.CurrentHealth + 75 + owner.Stats.GetLevel() * 15;
+            maxHealth = owner.Stats.HealthPoints.Total;
             if (newHealth >= maxHealth)
             {
-                owner.GetStats().CurrentHealth = maxHealth;
+                owner.Stats.CurrentHealth = maxHealth;
             }
             else
             {
-                owner.GetStats().CurrentHealth = newHealth;
+                owner.Stats.CurrentHealth = newHealth;
             }
 
             ApiFunctionManager.AddBuffHUDVisual("SummonerHeal", 1.0f, 1, owner, 1.0f);

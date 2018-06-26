@@ -41,10 +41,10 @@ namespace Spells
             ApiFunctionManager.AddParticleTarget(owner, "Ezreal_arcaneshift_flash.troy", owner);
             AttackableUnit target2 = null;
             var units = ApiFunctionManager.GetUnitsInRange(owner, 700, true);
+            float distance = 700;
             foreach (var value in units)
             {
-                float distance = 700;
-                if (owner.Team != value.Team)
+                if (owner.Team != value.Team && value is ObjAIBase)
                 {
                     if (Vector2.Distance(new Vector2(trueCoords.X, trueCoords.Y), new Vector2(value.X, value.Y)) <=
                         distance)
@@ -67,7 +67,7 @@ namespace Spells
 
         public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile)
         {
-            target.TakeDamage(owner, 25f + spell.Level * 50f + owner.GetStats().AbilityPower.Total * 0.75f,
+            target.TakeDamage(owner, 25f + spell.Level * 50f + owner.Stats.AbilityPower.Total * 0.75f,
                 DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
             projectile.setToRemove();
         }

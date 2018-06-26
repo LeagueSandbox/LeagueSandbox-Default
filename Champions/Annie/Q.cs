@@ -26,7 +26,7 @@ namespace Spells
 
         public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile)
         {
-            var ap = owner.GetStats().AbilityPower.Total * 0.8f;
+            var ap = owner.Stats.AbilityPower.Total * 0.8f;
             var damage = 45 + spell.Level * 35 + ap;
             if (target != null && !ApiFunctionManager.IsDead(target))
             {
@@ -34,17 +34,17 @@ namespace Spells
                     false);
                 if (target.IsDead)
                 {
-                    spell.LowerCooldown(0, spell.getCooldown());
+                    spell.LowerCooldown(0, spell.GetCooldown());
                     float manaToRecover = 55 + spell.Level * 5;
-                    var newMana = owner.GetStats().CurrentMana + manaToRecover;
-                    var maxMana = owner.GetStats().ManaPoints.Total;
+                    var newMana = owner.Stats.CurrentMana + manaToRecover;
+                    var maxMana = owner.Stats.ManaPoints.Total;
                     if (newMana >= maxMana)
                     {
-                        owner.GetStats().CurrentMana = maxMana;
+                        owner.Stats.CurrentMana = maxMana;
                     }
                     else
                     {
-                        owner.GetStats().CurrentMana = newMana;
+                        owner.Stats.CurrentMana = newMana;
                     }
                 }
             }
