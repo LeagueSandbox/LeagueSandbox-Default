@@ -31,7 +31,7 @@ namespace Spells
 
         public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile)
         {
-            var ap = owner.GetStats().AbilityPower.Total * 0.4f;
+            var ap = owner.Stats.AbilityPower.Total * 0.4f;
             var damage = 15 + spell.Level * 20 + ap;
             target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_PHYSICAL, DamageSource.DAMAGE_SOURCE_ATTACK, false);
             ApiFunctionManager.AddParticleTarget(owner, "akali_markOftheAssasin_marker_tar_02.troy", target, 1, "");

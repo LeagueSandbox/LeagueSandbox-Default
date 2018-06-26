@@ -9,13 +9,8 @@ namespace Spells
     {
         public void OnActivate(Champion owner)
         {
-            var bonusAd = owner.GetStats().AttackDamage.Total - owner.GetStats().AttackDamage.BaseValue;
-            owner.GetStats().SpellVamp.PercentBonus = 6 + bonusAd % 6;
-        }
-
-        private void SelfWasDamaged()
-        {
-            ApiFunctionManager.LogInfo("Ezreal was damaged");
+            var bonusAd = owner.Stats.AttackDamage.Total - owner.Stats.AttackDamage.BaseValue;
+            owner.Stats.SpellVamp.PercentBonus = 6 + bonusAd % 6;
         }
 
         public void OnDeactivate(Champion owner)
