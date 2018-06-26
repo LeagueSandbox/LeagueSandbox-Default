@@ -128,7 +128,7 @@
             "ManaCost4": 0,
             "ManaCost5": 0,
             "MissileBoneName": "C_Buffbone_Glb_Center_Loc",
-            "MissileEffect": "Aatrox_W_Life_SelfMissile.troy",
+            "MissileEffect": "Aatrox_Base_W_Life_SelfMissile.troy",
             "MissileGravity": 0,
             "MissilePerceptionBubbleRadius": 0,
             "MissilePerceptionBubbleRevealsStealth": "0",

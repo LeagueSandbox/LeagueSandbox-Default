@@ -58,7 +58,7 @@
         },
         "HealthBar": {
             "Scale": 0.8,
-            "WorldOffset": "0 -0,2 0"
+            "WorldOffset": "0 -0.2 0"
         },
         "IdleParticles": {
             "NumberOfParticles": 1,

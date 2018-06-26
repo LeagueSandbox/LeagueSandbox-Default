@@ -96,7 +96,7 @@
             "ManaCost4": 0,
             "ManaCost5": 0,
             "MissileBoneName": "L_hand",
-            "MissileEffect": "Quinn_basicattack_mis.troy",
+            "MissileEffect": "Quinn_Base_BA_Mis.troy",
             "MissileSpeed": "2000.0000",
             "ParticleStartOffset": "0.0000 0.0000 0.0000",
             "PointEffectName": "",

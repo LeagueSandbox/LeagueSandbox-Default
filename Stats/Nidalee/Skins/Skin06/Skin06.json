@@ -11,7 +11,6 @@
             "ChampionSkinID": 76006,
             "ChampionSkinName": "HeadhunterNidalee",
             "ExtraCharacterPreloads": "Nidalee_Cougar,Nidalee_Spear",
-            "GlossTexture": "nidalee_headhunter_TX_GM.dds",
             "ReflectionFresnel": 0.6,
             "ReflectionFresnelBlue": 1.6,
             "ReflectionFresnelGreen": 1.6,
@@ -24,6 +23,9 @@
             "Skeleton": "Nidalee_headhunter.skl",
             "SkinScale": 1.35,
             "Texture": "Nidalee_headhunter_TX_CM.dds"
+        },
+        "UNKNOWN_HASHES": {
+            "4118570059": 1
         }
     }
 }

@@ -19,7 +19,6 @@
             "LifeSteal": "0",
             "Mana": "0",
             "ManaRegen": "0",
-            "Movement": "0",
             "SpellBlock": "0",
             "SpellDamage": "0",
             "Trinket": 1,
@@ -36,6 +35,10 @@
             "DisplayName": "game_item_displayname_3362",
             "DropsOnDeath": "0",
             "DynamicTooltip": "game_item_tooltip_3362",
+            "Effect1Amount": "180",
+            "Effect6Amount": 9,
+            "Effect7Amount": "30",
+            "Effect8Amount": "120",
             "Epicness": "0",
             "FlatArmorMod": "0",
             "FlatAttackSpeedMod": "0",
@@ -60,7 +63,6 @@
             "ItemCalloutSpectator": 1,
             "ItemClass": 1,
             "ItemGroup": "RelicBase",
-            "ItemId": 3362,
             "ItemType": 1,
             "MaxStack": 1,
             "PercentArmorMod": "0",
@@ -74,7 +76,7 @@
             "PercentHPRegenMod": "0",
             "PercentMagicDamageMod": "0",
             "PercentMovementSpeedMod": "0",
-            "percentMPPoolMod": "0",
+            "PercentMPPoolMod": "0",
             "PercentMPRegenMod": "0",
             "PercentPhysicalDamageMod": "0",
             "PercentSpellBlockMod": "0",
@@ -87,12 +89,6 @@
             "SpellName": "TrinketTotemLvl3B",
             "UseEffect": 1,
             "UseWhenAcquired": "0"
-        },
-        "UNKNOWN_HASHES": {
-            "213732736": "0",
-            "2170881362": "0",
-            "2260911910": "0",
-            "3993544488": "0"
         }
     }
 }

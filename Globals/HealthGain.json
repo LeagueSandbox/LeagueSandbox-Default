@@ -1,0 +1,14 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "HealthGain",
+        "Name": "HealthGain",
+        "ResourcePath": "DATA/Globals/HealthGain.inibin"
+    },
+    "Values": {
+        "Coefficients": {
+            "MCoefficient": 0.7,
+            "NCoefficient": 1.1
+        }
+    }
+}

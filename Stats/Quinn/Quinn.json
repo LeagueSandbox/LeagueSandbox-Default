@@ -7,7 +7,7 @@
     },
     "Values": {
         "Data": {
-            "Armor": 17.5,
+            "Armor": 23.38,
             "ArmorMaterial": "Flesh",
             "ArmorPerLevel": 3.5,
             "AttackDelayCastOffsetPercent": "-0.124561404",
@@ -16,14 +16,14 @@
             "AttackSpeedPerLevel": 3.10000014,
             "BaseAttack_Probability": 0.2,
             "BaseCritChance": "0",
-            "BaseDamage": 48,
+            "BaseDamage": 51.04,
             "BaseDodge": "0",
             "BaseFactorHPRegen": "0",
             "BaseFactorMPRegen": "0",
-            "BaseHP": "390",
-            "BaseMP": "210",
-            "BaseStaticHPRegen": 0.900000036,
-            "BaseStaticMPRegen": 1.26,
+            "BaseHP": 532.8,
+            "BaseMP": 268.8,
+            "BaseStaticHPRegen": 1.0848,
+            "BaseStaticMPRegen": 1.3944,
             "championId": 133,
             "ChasingAttackRangePercent": 0.8,
             "CritAttack": "QuinnCritAttack",
@@ -66,13 +66,15 @@
             "Spell2": "QuinnW",
             "Spell3": "QuinnE",
             "Spell4": "QuinnR",
-            "SpellBlock": "30",
+            "SpellBlock": "30.0",
             "SpellBlockPerLevel": "0",
             "Tips1": "game_character_tips_Quinn",
-            "Tips2": "game_character_opposing_tips_Quinn"
+            "Tips2": "game_character_opposing_tips_Quinn",
+            "UnitTags": "Champion"
         },
         "DefaultAnimations": {
-            "NumberOfAnimations": "0"
+            "Animation1": "Adjust",
+            "NumberOfAnimations": 1
         },
         "HealthBar": {
             "ParallaxOffset": "0",
@@ -88,7 +90,7 @@
         },
         "UNKNOWN_HASHES": {
             "1040761625": 2,
-            "105898023": 7,
+            "105898023": 5,
             "113008000": 2,
             "121269505": "0",
             "129531010": 7,

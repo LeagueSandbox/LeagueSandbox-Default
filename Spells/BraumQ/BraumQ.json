@@ -49,11 +49,11 @@
             "DisplayName": "game_spell_displayname_BraumQ",
             "DynamicExtended": "game_spell_levelup_BraumQ",
             "DynamicTooltip": "game_spell_tooltip_BraumQ",
-            "Effect1Level1Amount": "80.0000",
-            "Effect1Level2Amount": "125.0000",
-            "Effect1Level3Amount": "170.0000",
-            "Effect1Level4Amount": "215.0000",
-            "Effect1Level5Amount": "260.0000",
+            "Effect1Level1Amount": "60.0000",
+            "Effect1Level2Amount": "105.0000",
+            "Effect1Level3Amount": "150.0000",
+            "Effect1Level4Amount": "195.0000",
+            "Effect1Level5Amount": "240.0000",
             "Effect2Level1Amount": "70.0000",
             "Effect2Level2Amount": "70.0000",
             "Effect2Level3Amount": "70.0000",
@@ -157,7 +157,6 @@
         },
         "UNKNOWN_HASHES": {
             "237522587": "0",
-            "3326040803": "",
             "944948707": "0"
         }
     }

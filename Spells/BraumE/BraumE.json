@@ -99,9 +99,6 @@
             "Start_DistanceOffset": "0",
             "TextureBaseOverride": "Reticle_FreljordRectangle_Base_E_01.dds",
             "TextureTargetOverride": "blank.dds"
-        },
-        "UNKNOWN_HASHES": {
-            "3326040803": ""
         }
     }
 }

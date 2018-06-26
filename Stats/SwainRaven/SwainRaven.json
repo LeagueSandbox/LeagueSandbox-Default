@@ -9,7 +9,7 @@
         "Data": {
             "AbilityPowerIncPerLevel": "0",
             "AcquisitionRange": "500",
-            "Armor": 16,
+            "Armor": 22.72,
             "ArmorMaterial": "Flesh",
             "ArmorPerLevel": 4,
             "AttackDelayCastOffsetPercent": "-0.0822222222",
@@ -19,14 +19,14 @@
             "BaseAbilityPower": "0",
             "BaseAttack_Probability": "1.0",
             "BaseCritChance": "0",
-            "BaseDamage": 49,
+            "BaseDamage": 54.04,
             "BaseDodge": "0",
             "BaseFactorHPRegen": "0",
             "BaseFactorMPRegen": "0",
-            "BaseHP": 385,
-            "BaseMP": "240",
-            "BaseStaticHPRegen": 1.35,
-            "BaseStaticMPRegen": 1.36,
+            "BaseHP": 516.04,
+            "BaseMP": "324.0",
+            "BaseStaticHPRegen": 1.5684,
+            "BaseStaticMPRegen": 1.5784,
             "championId": "50",
             "CritAttack": "Swain_RavenBasicAttack",
             "CritAttack_AttackDelayCastOffsetPercent": "-0.0822222222",
@@ -61,10 +61,11 @@
             "Spell2": "SwainShadowGrasp",
             "Spell3": "SwainTorment",
             "Spell4": "SwainMetamorphism",
-            "SpellBlock": "30",
+            "SpellBlock": "30.0",
             "SpellBlockPerLevel": "0",
             "Tips1": "game_character_tips_Swain",
-            "Tips2": "game_character_opposing_tips_Swain"
+            "Tips2": "game_character_opposing_tips_Swain",
+            "UnitTags": "Champion"
         },
         "HealthBar": {
             "ParallaxOffset": "0",
@@ -123,8 +124,7 @@
         },
         "UNKNOWN_HASHES": {
             "1040761625": 9,
-            "105898023": "10",
-            "122525173": "cryopheonix_idle.troy root",
+            "105898023": 8,
             "2786390348": 5,
             "4146314945": "mage,support,root,ranged,nuke,pusher",
             "767627316": 2

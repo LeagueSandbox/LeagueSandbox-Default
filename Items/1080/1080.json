@@ -8,8 +8,7 @@
     "Values": {
         "Builds": {
             "Item1": 3206,
-            "Item2": 3207,
-            "Item3": 3209
+            "Item2": 3209
         },
         "Categories": {
             "Armor": "0",
@@ -23,7 +22,6 @@
             "LifeSteal": "0",
             "Mana": "0",
             "ManaRegen": "0",
-            "Movement": "0",
             "OnHit": "0",
             "SpellBlock": "0",
             "SpellDamage": "0"
@@ -60,7 +58,6 @@
             "IsRecipe": 1,
             "ItemCalloutSpectator": "0",
             "ItemClass": 2,
-            "ItemId": "1080",
             "ItemType": 4,
             "MaxStack": 1,
             "PercentArmorMod": "0",
@@ -75,24 +72,17 @@
             "PercentLifeStealMod": "0",
             "PercentMagicDamageMod": "0",
             "PercentMovementSpeedMod": "0",
-            "percentMPPoolMod": "0",
+            "PercentMPPoolMod": "0",
             "PercentMPRegenMod": "0",
             "PercentPhysicalDamageMod": "0",
             "PercentSpellBlockMod": "0",
-            "Price": "40",
+            "Price": 15,
             "RecipeItem1": 1039,
             "RecipeItem2": 1004,
             "RecipeItem3": 1006,
             "RecipeItem4": "0",
-            "SpellName": "",
             "UseEffect": "0",
             "UseWhenAcquired": "0"
-        },
-        "UNKNOWN_HASHES": {
-            "213732736": "0",
-            "2170881362": "0",
-            "2260911910": "0",
-            "3993544488": "0"
         }
     }
 }

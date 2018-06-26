@@ -70,7 +70,7 @@
             "HitBoneName": "pelvis",
             "HitEffectName": "Heimerdinger_Base_E_Explosion_Ult.troy",
             "InventoryIcon": "Cryophoenix_FrigidOrb.dds",
-            "IsDisabledWhileDead": 1,
+            "IsDisabledWhileDead": "0",
             "IsToggleSpell": "0",
             "Level1Desc": "Deals 70 Damage.",
             "Level2Desc": "Deals 125 Damage.",

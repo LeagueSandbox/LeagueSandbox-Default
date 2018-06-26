@@ -7,7 +7,7 @@
     },
     "Values": {
         "SpellData": {
-            "AfterEffectName": "caitlyn_entrapment_slow.troy",
+            "AfterEffectName": "",
             "AlternateName": "CaitlynEntrapment",
             "AnimationLoopName": "",
             "AnimationName": "Spell3",
@@ -108,7 +108,7 @@
             "HaveHitEffect": "0",
             "HavePointEffect": "0",
             "HitBoneName": "C_BuffBone_Glb_Center_Loc",
-            "HitEffectName": "caitlyn_entrapment_tar.troy",
+            "HitEffectName": "caitlyn_Base_entrapment_tar.troy",
             "InventoryIcon": "Caitlyn_90CaliberNet.dds",
             "IsDisabledWhileDead": 1,
             "IsToggleSpell": "0",
@@ -148,7 +148,7 @@
             "ManaCost6": 0,
             "MissileAccel": 0,
             "MissileBoneName": "Weapon_tip",
-            "MissileEffect": "caitlyn_entrapment_mis.troy",
+            "MissileEffect": "caitlyn_Base_entrapment_mis.troy",
             "MissileGravity": 0,
             "MissileMaxSpeed": "2000.0000",
             "MissileMinSpeed": "2000.0000",

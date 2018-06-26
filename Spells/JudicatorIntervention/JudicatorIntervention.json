@@ -7,7 +7,8 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_JudicatorIntervention"
+            "DynamicTooltip": "game_buff_tooltip_JudicatorIntervention",
+            "ShowInTrackerUI": 1
         },
         "SpellData": {
             "AfterEffectName": "EyeforanEye_cas.troy",
@@ -30,9 +31,9 @@
             "CastTargetAdditionalUnitsRadius": 0,
             "CastType": "0",
             "Coefficient": "1.0000",
-            "Cooldown1": "90.0000",
-            "Cooldown2": "75.0000",
-            "Cooldown3": "60.0000",
+            "Cooldown1": "100.0000",
+            "Cooldown2": "90.0000",
+            "Cooldown3": "80.0000",
             "DeathRecapPriority": "0",
             "DelayCastOffsetPercent": -0.5,
             "DelayTotalTimePercent": -0.5,
@@ -90,14 +91,6 @@
             "TriggersGlobalCooldown": 1,
             "UseAnimatorFramerate": "0",
             "Version": 1
-        },
-        "UNKNOWN_HASHES": {
-            "1385525211": "100.0000",
-            "1385525212": "90.0000",
-            "1385525213": "80.0000",
-            "3212029226": "100.0000",
-            "3212029227": "90.0000",
-            "3212029228": "80.0000"
         }
     }
 }

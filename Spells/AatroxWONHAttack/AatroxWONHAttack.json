@@ -136,7 +136,7 @@
             "HaveHitEffect": "0",
             "HavePointEffect": "0",
             "HitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
-            "HitEffectName": "Aatrox_W_Active_Hit.troy",
+            "HitEffectName": "Aatrox_Base_W_Active_Hit.troy",
             "HitEffectOrientType": 2,
             "InventoryIcon": "",
             "IsDisabledWhileDead": 1,

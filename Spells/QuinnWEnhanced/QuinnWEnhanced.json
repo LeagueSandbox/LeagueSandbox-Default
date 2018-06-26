@@ -201,7 +201,7 @@
             "MinimapIconRotation": "0",
             "MissileAccel": 0,
             "MissileBoneName": "L_hand",
-            "MissileEffect": "Quinn_W_mis.troy",
+            "MissileEffect": "Quinn_Base_W_Mis.troy",
             "MissileEffectPlayer": "",
             "MissileFixedTravelTime": 0,
             "MissileGravity": 0,

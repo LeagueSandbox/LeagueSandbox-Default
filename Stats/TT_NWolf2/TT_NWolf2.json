@@ -16,12 +16,12 @@
             "AttackSpeed": 1.5,
             "AttackSpeedPerLevel": 0,
             "BaseAttack_Probability": 0.33,
-            "BaseCritChance": 25,
-            "BaseDamage": "16.0",
+            "BaseCritChance": "0",
+            "BaseDamage": "20.0",
             "BaseDodge": 0,
             "BaseFactorHPRegen": "0",
             "BaseFactorMPRegen": "0",
-            "BaseHP": "430",
+            "BaseHP": "400",
             "BaseMP": "0",
             "BaseStaticHPRegen": "0",
             "BaseStaticMPRegen": "0",
@@ -52,6 +52,7 @@
             "Spell2": "BaseSpell",
             "Spell3": "BaseSpell",
             "Spell4": "BaseSpell",
+            "UnitTags": "Monster",
             "WeaponMaterial": "WolfBasicAttack"
         },
         "IdleParticles": {

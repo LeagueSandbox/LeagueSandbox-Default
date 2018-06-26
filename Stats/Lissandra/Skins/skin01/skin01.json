@@ -7,7 +7,7 @@
     },
     "Values": {
         "MeshSkin": {
-            "Animations": "lissandra_skin01.blnd",
+            "Animations": "Lissandra_skin01.blnd",
             "ChampionSkinID": 127001,
             "ChampionSkinName": "Lissandra_skin01",
             "OverrideBoundingBox": "130 330 130",
@@ -18,7 +18,6 @@
             "Texture": "Lissandra_deadwood_TX_CM.dds"
         },
         "UNKNOWN_HASHES": {
-            "4118570059": 1,
             "708066840": "Lissandra_Q_Spike2"
         }
     }

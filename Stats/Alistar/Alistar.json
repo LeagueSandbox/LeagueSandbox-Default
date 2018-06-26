@@ -8,7 +8,7 @@
     "Values": {
         "Data": {
             "AcquisitionRange": "600",
-            "Armor": 18.5,
+            "Armor": 24.38,
             "ArmorMaterial": "Flesh",
             "ArmorPerLevel": 3.5,
             "AttackDelayCastOffsetPercent": "-0.110855263",
@@ -17,14 +17,14 @@
             "AttackSpeedPerLevel": 2.125,
             "BaseAttack_Probability": 0.5,
             "BaseCritChance": "0",
-            "BaseDamage": 55.03,
+            "BaseDamage": 61.1116,
             "BaseDodge": "0",
             "BaseFactorHPRegen": "0",
             "BaseFactorMPRegen": "0",
-            "BaseHP": 442,
-            "BaseMP": 215,
-            "BaseStaticHPRegen": 1.45,
-            "BaseStaticMPRegen": 1.29,
+            "BaseHP": 613.36,
+            "BaseMP": 278.84,
+            "BaseStaticHPRegen": 1.7356,
+            "BaseStaticMPRegen": 1.2,
             "championId": 12,
             "ChasingAttackRangePercent": 0.5,
             "Classification": "Strong",
@@ -46,7 +46,7 @@
             "Lore1": "game_character_lore_Alistar",
             "MoveSpeed": "330",
             "MPPerLevel": 38,
-            "MPRegenPerLevel": 0.09,
+            "MPRegenPerLevel": 0.16,
             "Name": "game_character_displayname_Alistar",
             "Passive1Desc": "Alistar recieves less damage from Turrets.",
             "Passive1Icon": "Minotaur_ColossalStrength.dds",
@@ -68,10 +68,11 @@
             "Spell2": "Headbutt",
             "Spell3": "TriumphantRoar",
             "Spell4": "FerociousHowl",
-            "SpellBlock": "30",
+            "SpellBlock": 32.1,
             "SpellBlockPerLevel": 1.25,
             "Tips1": "game_character_tips_Alistar",
             "Tips2": "game_character_opposing_tips_Alistar",
+            "UnitTags": "Champion",
             "WeaponMaterial": "MinotaurBasicAttack"
         },
         "HealthBar": {
@@ -83,76 +84,6 @@
             "IconCircle": "Minotaur_Circle.dds",
             "IconSquare": "Minotaur_Square.dds"
         },
-        "MeshSkin": {
-            "Animations": "Alistar.blnd",
-            "ChampionSkinID": "12000",
-            "ChampionSkinName": "Alistar",
-            "SelfIllumination": 0.7,
-            "SimpleSkin": "Alistar.skn",
-            "Skeleton": "Alistar.skl",
-            "SkinScale": 1.4,
-            "Texture": "Minotaur_Diffuse.dds"
-        },
-        "MeshSkin1": {
-            "Animations": "Alistar.blnd",
-            "ChampionSkinID": 12001,
-            "ChampionSkinName": "BlackMinotaur",
-            "SelfIllumination": 0.7,
-            "SimpleSkin": "Alistar.skn",
-            "Skeleton": "Alistar.skl",
-            "SkinScale": 1.4,
-            "Texture": "Minotaur2Black_Diffuse.dds"
-        },
-        "MeshSkin2": {
-            "Animations": "Alistar.blnd",
-            "ChampionSkinID": 12002,
-            "ChampionSkinName": "GoldenMinotaur",
-            "SelfIllumination": 0.7,
-            "SimpleSkin": "Alistar.skn",
-            "Skeleton": "Alistar.skl",
-            "SkinScale": 1.4,
-            "Texture": "Minotaur_golden_Diffuse.dds"
-        },
-        "MeshSkin3": {
-            "Animations": "Alistar.blnd",
-            "ChampionSkinID": 12003,
-            "ChampionSkinName": "MatadorMinotaur",
-            "SelfIllumination": 0.7,
-            "SimpleSkin": "Alistar_Matador.skn",
-            "Skeleton": "Alistar_Matador.skl",
-            "SkinScale": 1.4,
-            "Texture": "Alistar_Matador_TX_CM.dds"
-        },
-        "MeshSkin4": {
-            "Animations": "Alistar.blnd",
-            "ChampionSkinID": 12004,
-            "ChampionSkinName": "CowboyMinotaur",
-            "SelfIllumination": 0.7,
-            "SimpleSkin": "Alistar_cowboy.skn",
-            "Skeleton": "Alistar_cowboy.skl",
-            "SkinScale": 1.4,
-            "Texture": "alistar_cowboy_TX_CM.dds"
-        },
-        "MeshSkin5": {
-            "Animations": "BlueAlistar.blnd",
-            "ChampionSkinID": 12005,
-            "ChampionSkinName": "BlueAlistar",
-            "SelfIllumination": 0.7,
-            "SimpleSkin": "Alistar_blue.skn",
-            "Skeleton": "Alistar_blue.skl",
-            "SkinScale": 1.4,
-            "Texture": "alistar_blue_TX_CM.dds"
-        },
-        "MeshSkin6": {
-            "Animations": "ArmoredAlistar.blnd",
-            "ChampionSkinID": 12006,
-            "ChampionSkinName": "ArmoredAlistar",
-            "SelfIllumination": 0.7,
-            "SimpleSkin": "Alistar_armored.skn",
-            "Skeleton": "Alistar_armored.skl",
-            "SkinScale": 1.4,
-            "Texture": "alistar_armored_TX_CM.dds"
-        },
         "Sounds": {
             "Attack1": "Alstair_Attack1.wav",
             "Attack2": "Alstair_Attack2.wav",
@@ -161,7 +92,7 @@
         },
         "UNKNOWN_HASHES": {
             "1040761625": 5,
-            "105898023": 8,
+            "105898023": 7,
             "11266465": "Unbreakable Will",
             "113008000": 16,
             "121269505": 7,

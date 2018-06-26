@@ -65,7 +65,7 @@
         "HealthBar": {
             "HPPerTick": "1000",
             "Scale": "2.0",
-            "WorldOffset": "0 -0,65 0"
+            "WorldOffset": "0 -0.65 0"
         },
         "Info": {
             "IconCircle": "TT_Spider_Circle.dds",

@@ -8,7 +8,7 @@
     "Values": {
         "SpellData": {
             "AfterEffectName": "AnnieBasicAttack_mis.troy",
-            "AnimationName": "Attack1",
+            "AnimationName": "\"\"",
             "CastConeAngle": "45.0000",
             "CastConeDistance": "100.0000",
             "CastFrame": "10.0000",

@@ -154,7 +154,7 @@
             "MinimapIconRotation": "0",
             "MissileAccel": 0,
             "MissileBoneName": "L_Buffbone_Glb_Hand_Loc",
-            "MissileEffect": "Nami_Q_mis.troy",
+            "MissileEffect": "Nami_Base_Q_mis.troy",
             "MissileFixedTravelTime": 0.7,
             "MissileGravity": "30.0000",
             "MissileLifetime": 0,

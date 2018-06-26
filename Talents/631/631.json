@@ -1,0 +1,20 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "631",
+        "Name": "631",
+        "ResourcePath": "DATA/Talents/631.inibin"
+    },
+    "Values": {
+        "SpellData": {
+            "InventoryIcon": "631.dds",
+            "Level1Desc": "game_mastery_level1desc_631",
+            "Level2Desc": "game_mastery_level2desc_631",
+            "Level3Desc": "game_mastery_level3desc_631",
+            "Level4Desc": "game_mastery_level4desc_631",
+            "Level5Desc": "game_mastery_level5desc_631",
+            "Name": "game_mastery_displayname_631",
+            "Ranks": 2
+        }
+    }
+}

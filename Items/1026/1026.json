@@ -8,15 +8,14 @@
     "Values": {
         "Builds": {
             "Item1": 3001,
-            "Item10": "3090",
             "Item2": 3135,
             "Item3": 3027,
             "Item4": 3029,
             "Item5": 3089,
-            "Item6": "3100",
-            "Item7": 3116,
-            "Item8": 3124,
-            "Item9": 3188
+            "Item6": 3116,
+            "Item7": 3124,
+            "Item8": 3188,
+            "Item9": "3090"
         },
         "Categories": {
             "Armor": "0",
@@ -29,7 +28,6 @@
             "LifeSteal": "0",
             "Mana": "0",
             "ManaRegen": "0",
-            "Movement": "0",
             "SpellBlock": "0",
             "SpellDamage": 1
         },
@@ -63,7 +61,6 @@
             "InventoryIcon": "1026_Blasting_Band.dds",
             "IsRecipe": "0",
             "ItemClass": 2,
-            "ItemId": 1026,
             "ItemType": 2,
             "MaxStack": 1,
             "PercentArmorMod": "0",
@@ -77,19 +74,13 @@
             "PercentHPRegenMod": "0",
             "PercentMagicDamageMod": "0",
             "PercentMovementSpeedMod": "0",
-            "percentMPPoolMod": "0",
+            "PercentMPPoolMod": "0",
             "PercentMPRegenMod": "0",
             "PercentPhysicalDamageMod": "0",
             "PercentSpellBlockMod": "0",
             "Price": "860",
             "UseEffect": "0",
             "UseWhenAcquired": "0"
-        },
-        "UNKNOWN_HASHES": {
-            "213732736": "0",
-            "2170881362": "0",
-            "2260911910": "0",
-            "3993544488": "0"
         }
     }
 }

@@ -108,7 +108,7 @@
             "HaveHitBone": 1,
             "HaveHitEffect": "0",
             "HavePointEffect": "0",
-            "HitBoneName": "spine",
+            "HitBoneName": "C_BUFFBONE_GLB_CENTER_LOC",
             "HitEffectName": "globalhit_physical.troy",
             "InventoryIcon": "",
             "InventoryIcon1": "",

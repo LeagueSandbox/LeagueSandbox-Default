@@ -8,10 +8,12 @@
     "Values": {
         "Data": {
             "ArmorMaterial": "Stone",
-            "Name": "game_character_displayname_OrderInhibitor"
+            "Name": "game_character_displayname_OrderInhibitor",
+            "UnitTags": "Structure | Structure_Inhibitor"
         },
         "HealthBar": {
-            "Scale": "2.0"
+            "Scale": "2.0",
+            "WorldOffset": "0 2 0"
         },
         "IdleParticles": {
             "NumberOfParticles": 8,
@@ -23,9 +25,6 @@
             "Particle6": "Order_Inhibit_Base_Glow.troy base2",
             "Particle7": "Order_Inhibit_Base_Glow.troy base3",
             "Particle8": "Order_Inhibit_Base_Glow.troy base4"
-        },
-        "UNKNOWN_HASHES": {
-            "122525178": "Order_Inhibit_Base_Glow.troy base1"
         }
     }
 }

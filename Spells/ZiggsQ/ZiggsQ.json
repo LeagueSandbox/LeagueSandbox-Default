@@ -25,7 +25,7 @@
             "CastConeAngle": "45.0000",
             "CastConeDistance": "100.0000",
             "CastFrame": 7.5,
-            "CastRadius": "155.0000",
+            "CastRadius": "125.0000",
             "CastRadiusSecondary": 0,
             "CastRadiusSecondaryTexture": "",
             "CastRadiusTexture": "AOE.tga",

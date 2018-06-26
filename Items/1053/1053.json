@@ -11,8 +11,7 @@
             "Item2": 3144,
             "Item3": 3181,
             "Item4": 3072,
-            "Item5": 3074,
-            "Item6": 3159
+            "Item5": 3074
         },
         "Categories": {
             "Armor": "0",
@@ -25,7 +24,6 @@
             "LifeSteal": 1,
             "Mana": "0",
             "ManaRegen": "0",
-            "Movement": "0",
             "SpellBlock": "0",
             "SpellDamage": "0"
         },
@@ -59,7 +57,6 @@
             "InventoryIcon": "1053_Vampiric_Scepter.dds",
             "IsRecipe": 1,
             "ItemClass": 2,
-            "ItemId": 1053,
             "ItemType": 4,
             "MaxStack": 1,
             "PercentArmorMod": "0",
@@ -71,10 +68,10 @@
             "PercentEXPBonus": "0",
             "PercentHPPoolMod": "0",
             "PercentHPRegenMod": "0",
-            "PercentLifeStealMod": 0.1,
+            "PercentLifeStealMod": 0.08,
             "PercentMagicDamageMod": "0",
             "PercentMovementSpeedMod": "0",
-            "percentMPPoolMod": "0",
+            "PercentMPPoolMod": "0",
             "PercentMPRegenMod": "0",
             "PercentPhysicalDamageMod": "0",
             "PercentSpellBlockMod": "0",
@@ -83,12 +80,6 @@
             "RecipeItem2": "0",
             "UseEffect": "0",
             "UseWhenAcquired": "0"
-        },
-        "UNKNOWN_HASHES": {
-            "213732736": "0",
-            "2170881362": "0",
-            "2260911910": "0",
-            "3993544488": "0"
         }
     }
 }

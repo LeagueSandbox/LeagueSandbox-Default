@@ -7,7 +7,8 @@
     },
     "Values": {
         "BuffData": {
-            "DynamicTooltip": "game_buff_tooltip_ThreshQPassive"
+            "DynamicTooltip": "game_buff_tooltip_ThreshQPassive",
+            "ShowInTrackerUI": 1
         },
         "SpellData": {
             "AlternateName": "ThreshQPassive",
@@ -17,7 +18,7 @@
             "DynamicTooltip": "game_spell_tooltip_ThreshQPassive",
             "FloatStaticsDecimals1": "0",
             "FloatVarsDecimals1": "0",
-            "InventoryIcon": "Thresh_Q.dds",
+            "InventoryIcon": "Thresh_E0.dds",
             "Version": 1
         }
     }

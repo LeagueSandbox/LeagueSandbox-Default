@@ -7,7 +7,7 @@
     },
     "Values": {
         "Data": {
-            "Armor": "10",
+            "Armor": "10.0",
             "ArmorPerLevel": "0",
             "AttackDelayCastOffsetPercent": 0.0958,
             "AttackDelayOffsetPercent": 0,
@@ -19,8 +19,8 @@
             "BaseDodge": 0,
             "BaseFactorHPRegen": 0.0015,
             "BaseFactorMPRegen": 0.0015,
-            "BaseHP": "150",
-            "BaseMP": "0",
+            "BaseHP": "402.0",
+            "BaseMP": 0,
             "BaseStaticHPRegen": 0.5,
             "BaseStaticMPRegen": 0.5,
             "CritDamageBonus": 1,
@@ -112,9 +112,7 @@
             "Texture": "AniviaIceBlock_BlackIce_TX_CM.dds"
         },
         "UNKNOWN_HASHES": {
-            "122525173": "cryo_Crystalize.troy",
             "2818610673": 0,
-            "2979245175": 1,
             "386495002": 0,
             "3983263047": "1.0"
         }

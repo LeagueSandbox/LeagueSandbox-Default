@@ -2,7 +2,7 @@
     "MetaData": {
         "ContentFormatVersion": 4,
         "Id": "3460",
-        "Name": "3460",
+        "Name": "Golden Transcendence",
         "ResourcePath": "DATA/Items/3460.inibin"
     },
     "Values": {
@@ -71,7 +71,7 @@
             "PercentLifeStealMod": "0",
             "PercentMagicDamageMod": "0",
             "PercentMovementSpeedMod": "0",
-            "percentMPPoolMod": "0",
+            "PercentMPPoolMod": "0",
             "PercentMPRegenMod": "0",
             "PercentPhysicalDamageMod": "0",
             "PercentSpellBlockMod": "0",

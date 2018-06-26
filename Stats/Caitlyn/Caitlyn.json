@@ -8,7 +8,7 @@
     "Values": {
         "Data": {
             "AcquisitionRange": "800",
-            "Armor": 17,
+            "Armor": 22.88,
             "ArmorMaterial": "Flesh",
             "ArmorPerLevel": 3.5,
             "AttackDelayCastOffsetPercent": "-0.122916667",
@@ -17,14 +17,14 @@
             "AttackSpeedPerLevel": 4,
             "BaseAttack_Probability": 0.75,
             "BaseCritChance": "0",
-            "BaseDamage": 47,
+            "BaseDamage": 50.04,
             "BaseDodge": "0",
             "BaseFactorHPRegen": "0",
             "BaseFactorMPRegen": "0",
-            "BaseHP": "390",
-            "BaseMP": 255,
-            "BaseStaticHPRegen": 0.95,
-            "BaseStaticMPRegen": 1.30000007,
+            "BaseHP": 524.4,
+            "BaseMP": 313.8,
+            "BaseStaticHPRegen": 1.1348,
+            "BaseStaticMPRegen": 1.4848,
             "championId": 51,
             "ChasingAttackRangePercent": 0.8,
             "CritAttack": "CaitlynCritAttack",
@@ -61,18 +61,19 @@
             "Spell2": "CaitlynYordleTrap",
             "Spell3": "CaitlynEntrapment",
             "Spell4": "CaitlynAceintheHole",
-            "SpellBlock": "30",
+            "SpellBlock": "30.0",
             "SpellBlockPerLevel": "0",
             "Tips1": "game_character_tips_Caitlyn",
-            "Tips2": "game_character_opposing_tips_Caitlyn"
+            "Tips2": "game_character_opposing_tips_Caitlyn",
+            "UnitTags": "Champion"
         },
         "Info": {
-            "IconCircle": "Caitlyn_Circle_0.dds",
-            "IconSquare": "Caitlyn_Square_0.dds"
+            "IconCircle": "Caitlyn_Circle.dds",
+            "IconSquare": "Caitlyn_Square.dds"
         },
         "UNKNOWN_HASHES": {
             "1040761625": 2,
-            "105898023": 4,
+            "105898023": 6,
             "113008000": "0",
             "121269505": "0",
             "129531010": 14,

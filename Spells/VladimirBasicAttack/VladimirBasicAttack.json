@@ -7,7 +7,7 @@
     },
     "Values": {
         "SpellData": {
-            "AfterEffectName": "VladBasicAttack_tar.troy",
+            "AfterEffectName": "Vladimir_Base_BA_tar.troy",
             "AlternateName": "VladimirBasicAttack",
             "AnimationLoopName": "",
             "AnimationName": "Attack1",
@@ -128,7 +128,7 @@
             "ManaCost4": 0,
             "ManaCost5": 0,
             "MissileBoneName": "BUFFBONE_GLB_WEAPON_1",
-            "MissileEffect": "VladBasicAttack_mis.troy",
+            "MissileEffect": "Vladimir_Base_BA_mis.troy",
             "MissileGravity": 0,
             "MissilePerceptionBubbleRadius": 0,
             "MissilePerceptionBubbleRevealsStealth": "0",

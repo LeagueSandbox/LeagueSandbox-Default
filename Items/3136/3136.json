@@ -22,12 +22,10 @@
             "MagicPenetration": 1,
             "Mana": "0",
             "ManaRegen": "0",
-            "Movement": "0",
             "SpellBlock": "0",
             "SpellDamage": 1
         },
         "Data": {
-            "AvatarUniqueEffect": "game_item_uniqueeffect_3028",
             "CanBeDropped": 1,
             "CanBeSold": 1,
             "Consumed": "0",
@@ -36,6 +34,7 @@
             "DisplayName": "game_item_displayname_3136",
             "DropsOnDeath": "0",
             "DynamicTooltip": "game_item_tooltip_3136",
+            "Effect1Amount": 15,
             "Epicness": 1,
             "FlatArmorMod": "0",
             "FlatAttackSpeedMod": "0",
@@ -57,7 +56,6 @@
             "IsRecipe": 1,
             "ItemCalloutSpectator": 1,
             "ItemClass": 2,
-            "ItemId": 3136,
             "ItemType": 4,
             "PercentArmorMod": "0",
             "PercentAttackSpeedMod": "0",
@@ -71,7 +69,7 @@
             "PercentLifeStealMod": "0",
             "PercentMagicDamageMod": "0",
             "PercentMovementSpeedMod": "0",
-            "percentMPPoolMod": "0",
+            "PercentMPPoolMod": "0",
             "PercentMPRegenMod": "0",
             "PercentPhysicalDamageMod": "0",
             "PercentSpellBlockMod": "0",
@@ -80,17 +78,9 @@
             "RecipeItem2": 1052,
             "RecipeItem3": "0",
             "RecipeItem4": "0",
-            "rPercentCooldownMod": "0",
-            "SellBackModifier": "0.7",
-            "SpellName": "",
+            "SellBackModifier": 0.7,
             "UseEffect": "0",
             "UseWhenAcquired": "0"
-        },
-        "UNKNOWN_HASHES": {
-            "213732736": "0",
-            "2170881362": "0",
-            "2260911910": "0",
-            "3993544488": "0"
         }
     }
 }

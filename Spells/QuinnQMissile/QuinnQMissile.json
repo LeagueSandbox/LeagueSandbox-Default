@@ -151,7 +151,7 @@
             "ManaCost6": 0,
             "MissileAccel": 0,
             "MissileBoneName": "R_hand",
-            "MissileEffect": "Quinn_Q_missile.troy",
+            "MissileEffect": "Quinn_Base_Q_Mis.troy",
             "MissileFixedTravelTime": 0,
             "MissileGravity": 0,
             "MissilePerceptionBubbleRadius": 0,

@@ -21,13 +21,11 @@
             "LifeSteal": "0",
             "Mana": "0",
             "ManaRegen": "0",
-            "Movement": "0",
             "Slow": 1,
             "SpellBlock": "0",
             "SpellDamage": "0"
         },
         "Data": {
-            "AvatarUniqueEffect": "game_item_uniqueeffect_3082",
             "CanBeDropped": 1,
             "CanBeSold": 1,
             "Consumed": "0",
@@ -36,8 +34,10 @@
             "DisplayName": "game_item_displayname_3082",
             "DropsOnDeath": "0",
             "DynamicTooltip": "game_item_tooltip_3082",
+            "Effect1Amount": -0.15,
+            "Effect2Amount": 1,
             "Epicness": 1,
-            "FlatArmorMod": "50",
+            "FlatArmorMod": 45,
             "FlatAttackSpeedMod": "0",
             "flatBlockMod": "0",
             "FlatCritChanceMod": "0",
@@ -56,7 +56,6 @@
             "InventoryIcon": "3082_Wardens_Mail.dds",
             "IsRecipe": 1,
             "ItemClass": 2,
-            "ItemId": 3082,
             "ItemType": 4,
             "MaxStack": 1,
             "PercentArmorMod": "0",
@@ -70,23 +69,17 @@
             "PercentHPRegenMod": "0",
             "PercentMagicDamageMod": "0",
             "PercentMovementSpeedMod": "0",
-            "percentMPPoolMod": "0",
+            "PercentMPPoolMod": "0",
             "PercentMPRegenMod": "0",
             "PercentPhysicalDamageMod": "0",
             "PercentSpellBlockMod": "0",
-            "Price": "280",
-            "RecipeItem1": 1031,
-            "RecipeItem2": "0",
+            "Price": "450",
+            "RecipeItem1": 1029,
+            "RecipeItem2": 1029,
             "RecipeItem3": "0",
             "RecipeItem4": "0",
             "UseEffect": "0",
             "UseWhenAcquired": "0"
-        },
-        "UNKNOWN_HASHES": {
-            "213732736": "0",
-            "2170881362": "0",
-            "2260911910": "0",
-            "3993544488": "0"
         }
     }
 }

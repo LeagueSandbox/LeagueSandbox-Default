@@ -8,7 +8,7 @@
     "Values": {
         "Data": {
             "AcquisitionRange": "600",
-            "Armor": 16,
+            "Armor": 21.88,
             "ArmorMaterial": "Flesh",
             "ArmorPerLevel": 3.5,
             "AttackDelayCastOffsetPercent": -0.072109,
@@ -17,14 +17,14 @@
             "AttackSpeedPerLevel": 2,
             "BaseAttack_Probability": 0.25,
             "BaseCritChance": "0",
-            "BaseDamage": 45,
+            "BaseDamage": 48.04,
             "BaseDodge": "0",
             "BaseFactorHPRegen": "0",
             "BaseFactorMPRegen": "0",
-            "BaseHP": "400",
-            "BaseMP": "0",
-            "BaseStaticHPRegen": 1.2,
-            "BaseStaticMPRegen": "0",
+            "BaseHP": 542.8,
+            "BaseMP": 0,
+            "BaseStaticHPRegen": 1.4016,
+            "BaseStaticMPRegen": 0,
             "championId": 8,
             "ChasingAttackRangePercent": 0.8,
             "Classification": "Arcane",
@@ -75,19 +75,20 @@
             "Spell2": "VladimirSanguinePool",
             "Spell3": "VladimirTidesofBlood",
             "Spell4": "VladimirHemoplague",
-            "SpellBlock": "30",
+            "SpellBlock": "30.0",
             "SpellBlockPerLevel": "0",
             "Tips1": "game_character_tips_Vladimir",
-            "Tips2": "game_character_opposing_tips_Vladimir"
+            "Tips2": "game_character_opposing_tips_Vladimir",
+            "UnitTags": "Champion"
         },
         "HealthBar": {
             "ParallaxOffset": "0",
             "XOffset": "0",
-            "YOffset": -0.6
+            "YOffset": 0
         },
         "IdleParticles": {
             "NumberOfParticles": "10",
-            "Particle1": "bloodball.troy BUFFBONE_GLB_WEAPON_1",
+            "Particle1": "Vladimir_Base_idle_bloodball.troy BUFFBONE_GLB_WEAPON_1",
             "Particle10": "Vlad_BloodLord_Heart.troy BUFFBONE_GLB_HEART",
             "Particle2": "vlad_king_idle_test.troy BUFFBONE_GLB_Blood_1",
             "Particle3": "vlad_king_idle_test.troy BUFFBONE_GLB_Blood_2",
@@ -150,7 +151,8 @@
             "SimpleSkin": "vladimir_biker.skn",
             "Skeleton": "vladimir_biker.skl",
             "SkinScale": 1.2,
-            "Texture": "vladimir_biker_TX_CM.dds"
+            "Texture": "vladimir_biker_TX_CM.dds",
+            "YOffset": 0.2
         },
         "MeshSkin5": {
             "Animations": "BloodkingVladimir.blnd",
@@ -163,9 +165,19 @@
             "Texture": "vladimir_bloodking_TX_CM.dds",
             "UsesSkinVO": "true"
         },
+        "MeshSkin6": {
+            "Animations": "Vladimir06.blnd",
+            "ChampionSkinID": 8006,
+            "ChampionSkinName": "VladimirSkin06",
+            "SelfIllumination": 0.7,
+            "SimpleSkin": "vladimir_skin06.skn",
+            "Skeleton": "vladimir_skin06.skl",
+            "SkinScale": 1.25,
+            "Texture": "vladimir_skin06_TX_CM.dds"
+        },
         "UNKNOWN_HASHES": {
             "1040761625": 8,
-            "105898023": 2,
+            "105898023": 7,
             "11266465": "Desperate Power",
             "113008000": "0",
             "121269505": 14,

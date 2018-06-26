@@ -7,7 +7,7 @@
     },
     "Values": {
         "SpellData": {
-            "AfterEffectName": "caitlyn_headshot_tar.troy",
+            "AfterEffectName": "caitlyn_Base_headshot_tar.troy",
             "AlternateName": "CaitlynHeadshotMissile",
             "AnimationLoopName": "",
             "AnimationName": "Passive",
@@ -108,7 +108,7 @@
             "HaveHitEffect": 1,
             "HavePointEffect": "0",
             "HitBoneName": "",
-            "HitEffectName": "globalhit_physical.troy",
+            "HitEffectName": "caitlyn_Base_BA.troy",
             "InventoryIcon": "Caitlyn_Headshot2.dds",
             "IsDisabledWhileDead": 1,
             "IsToggleSpell": "0",
@@ -148,7 +148,7 @@
             "ManaCost6": 0,
             "MissileAccel": 0,
             "MissileBoneName": "BUFFBONE_CSTM_WEAPON_5",
-            "MissileEffect": "caitlyn_passive_mis.troy",
+            "MissileEffect": "caitlyn_Base_passive_mis.troy",
             "MissileGravity": 0,
             "MissileMaxSpeed": "2500.0000",
             "MissileMinSpeed": "2500.0000",

@@ -8,7 +8,7 @@
     "Values": {
         "Data": {
             "AcquisitionRange": "600",
-            "Armor": 25,
+            "Armor": 31.384,
             "ArmorMaterial": "Metal",
             "ArmorPerLevel": 3.8,
             "AttackDelayCastOffsetPercent": "-0.070833333",
@@ -16,14 +16,14 @@
             "AttackRange": 125,
             "AttackSpeedPerLevel": 2.215,
             "BaseCritChance": "0",
-            "BaseDamage": "50",
+            "BaseDamage": 55.88,
             "BaseDodge": "0",
             "BaseFactorHPRegen": "0",
             "BaseFactorMPRegen": "0",
-            "BaseHP": "420",
-            "BaseMP": 255,
-            "BaseStaticHPRegen": 1.4,
-            "BaseStaticMPRegen": 1.4,
+            "BaseHP": 564.48,
+            "BaseMP": 310.44,
+            "BaseStaticHPRegen": 1.5848,
+            "BaseStaticMPRegen": 1.568,
             "Classification": "Strong",
             "CritDamageBonus": 2,
             "CritPerLevel": "0",
@@ -57,10 +57,11 @@
             "Spell2": "DefensiveBallCurlCancel",
             "Spell3": "PuncturingTaunt",
             "Spell4": "Tremors2",
-            "SpellBlock": "30",
+            "SpellBlock": 32.1,
             "SpellBlockPerLevel": 1.25,
             "Tips1": "game_character_tips_Rammus",
             "Tips2": "game_character_opposing_tips_Rammus",
+            "UnitTags": "Champion",
             "WeaponMaterial": "ArmordilloBasicAttack"
         },
         "HealthBar": {
@@ -161,22 +162,7 @@
             "1729141654": "0.2",
             "1729141655": "0.4",
             "1729141656": "0.6",
-            "1729141657": "0.8",
-            "2452862585": "Special1.wav",
-            "2452862586": "Special2.wav",
-            "245402728": "Attack1.wav",
-            "245402729": "Attack2.wav",
-            "245402730": "Attack3.wav",
-            "245402731": "Attack4.wav",
-            "2896212226": "Ready.wav",
-            "789899530": "Click1.wav",
-            "789899531": "Click2.wav",
-            "789899532": "Click3.wav",
-            "789899533": "Click4.wav",
-            "882852607": "Move1.wav",
-            "882852608": "Move2.wav",
-            "882852609": "Move3.wav",
-            "882852610": "Move4.wav"
+            "1729141657": "0.8"
         }
     }
 }

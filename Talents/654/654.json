@@ -1,0 +1,20 @@
+{
+    "MetaData": {
+        "ContentFormatVersion": 4,
+        "Id": "654",
+        "Name": "654",
+        "ResourcePath": "DATA/Talents/654.inibin"
+    },
+    "Values": {
+        "SpellData": {
+            "InventoryIcon": "654.dds",
+            "Level1Desc": "game_mastery_level1desc_654",
+            "Level2Desc": "game_mastery_level2desc_654",
+            "Level3Desc": "game_mastery_level3desc_654",
+            "Level4Desc": "game_mastery_level4desc_654",
+            "Level5Desc": "game_mastery_level5desc_654",
+            "Name": "game_mastery_displayname_654",
+            "Ranks": 1
+        }
+    }
+}

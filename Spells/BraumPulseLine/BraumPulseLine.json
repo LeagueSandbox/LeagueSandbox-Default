@@ -120,9 +120,6 @@
             "ConeAngle": 45,
             "ConeRange": "750",
             "DrawableType": "Cone"
-        },
-        "UNKNOWN_HASHES": {
-            "3326040803": ""
         }
     }
 }

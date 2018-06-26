@@ -67,7 +67,7 @@
             "HaveHitBone": "0",
             "HaveHitEffect": 1,
             "HavePointEffect": "0",
-            "HitBoneName": "",
+            "HitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
             "HitEffectName": "globalhit_physical.troy",
             "InventoryIcon": "",
             "IsDisabledWhileDead": 1,
