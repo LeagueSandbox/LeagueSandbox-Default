@@ -27,7 +27,7 @@ namespace Spells
 
         public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile)
         {
-            var ap = owner.GetStats().AbilityPower.Total * 0.7f;
+            var ap = owner.Stats.AbilityPower.Total * 0.7f;
             var damage = 30 + spell.Level * 50 + ap;
 
             if (target != null && !ApiFunctionManager.IsDead(target))

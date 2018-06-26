@@ -8,11 +8,11 @@ namespace LuluWDebuff
     {
         private UnitCrowdControl _crowdDisarm = new UnitCrowdControl(CrowdControlType.Disarm);
         private UnitCrowdControl _crowdSilence = new UnitCrowdControl(CrowdControlType.Silence);
-        private ChampionStatModifier _statMod;
+        private StatsModifier _statMod;
 
         public void OnActivate(ObjAIBase unit, Spell ownerSpell)
         {
-            _statMod = new ChampionStatModifier();
+            _statMod = new StatsModifier();
             _statMod.MoveSpeed.BaseBonus = _statMod.MoveSpeed.BaseBonus - 60;
             unit.ApplyCrowdControl(_crowdDisarm);
             unit.ApplyCrowdControl(_crowdSilence);

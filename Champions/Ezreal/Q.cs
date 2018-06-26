@@ -19,9 +19,6 @@ namespace Spells
         public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target)
         {
             ApiFunctionManager.AddParticleTarget(owner, "ezreal_bow.troy", owner, 1, "L_HAND");
-            owner.AddBuffGameScript("Quickdraw", "Quickdraw", spell);
-            ApiFunctionManager.AddBuffHUDVisual("OlafBerzerkerRage", 6.0f, 0, owner);
-            ApiFunctionManager.AddBuffHUDVisual("Absolute_Zero", 6.0f, 0, owner);
         }
 
         public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target)
@@ -35,14 +32,15 @@ namespace Spells
 
         public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile)
         {
-            var ad = owner.GetStats().AttackDamage.Total * 1.1f;
-            var ap = owner.GetStats().AbilityPower.Total * 0.4f;
+            var ad = owner.Stats.AttackDamage.Total * 1.1f;
+            var ap = owner.Stats.AbilityPower.Total * 0.4f;
             var damage = 15 + spell.Level * 20 + ad + ap;
             target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_PHYSICAL, DamageSource.DAMAGE_SOURCE_ATTACK, false);
-            spell.LowerCooldown(0, 1);
-            spell.LowerCooldown(1, 1);
-            spell.LowerCooldown(2, 1);
-            spell.LowerCooldown(3, 1);
+            for (byte i = 0; i < 4; i++)
+            {
+                spell.LowerCooldown(i, 1);
+            }
+
             projectile.setToRemove();
         }
 

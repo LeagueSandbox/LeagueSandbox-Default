@@ -1,3 +1,4 @@
+using System;
 using LeagueSandbox.GameServer.Logic.GameObjects;
 using LeagueSandbox.GameServer.Logic.API;
 using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
@@ -23,8 +24,8 @@ namespace Spells
                 var value = units[i];
                 if (owner.Team == value.Team && i != 0)
                 {
-                    var currentHealth = value.GetStats().CurrentHealth;
-                    maxHealth = value.GetStats().HealthPoints.Total;
+                    var currentHealth = value.Stats.CurrentHealth;
+                    maxHealth = value.Stats.HealthPoints.Total;
                     if (currentHealth * 100 / maxHealth < lowestHealthPercentage && owner != value)
                     {
                         lowestHealthPercentage = currentHealth * 100 / maxHealth;
@@ -35,20 +36,18 @@ namespace Spells
 
             if (mostWoundedAlliedChampion != null)
             {
-                newHealth = mostWoundedAlliedChampion.GetStats().CurrentHealth + 75 + owner.GetStats().GetLevel() * 15;
-                maxHealth = mostWoundedAlliedChampion.GetStats().HealthPoints.Total;
-                if (newHealth >= maxHealth)
-                {
-                    mostWoundedAlliedChampion.GetStats().CurrentHealth = maxHealth;
-                }
-                else
-                {
-                    mostWoundedAlliedChampion.GetStats().CurrentHealth = newHealth;
-                }
+                newHealth = mostWoundedAlliedChampion.Stats.CurrentHealth + 75 + owner.Stats.Level * 15;
+                maxHealth = mostWoundedAlliedChampion.Stats.HealthPoints.Total;
+                mostWoundedAlliedChampion.Stats.CurrentHealth = Math.Min(maxHealth, newHealth);
 
                 ApiFunctionManager.AddBuffHUDVisual("SummonerHeal", 1.0f, 1, mostWoundedAlliedChampion, 1.0f);
-                ChampionStatModifier statMod2 = new ChampionStatModifier();
-                statMod2.MoveSpeed.PercentBonus = 30 / 100.0f;
+                var statMod2 = new StatsModifier
+                {
+                    MoveSpeed =
+                    {
+                        PercentBonus = 0.3f
+                    }
+                };
                 mostWoundedAlliedChampion.AddStatModifier(statMod2);
                 ApiFunctionManager.CreateTimer(1.0f, () => { mostWoundedAlliedChampion.RemoveStatModifier(statMod2); });
                 ApiFunctionManager.AddParticleTarget(mostWoundedAlliedChampion, "global_ss_heal_02.troy",
@@ -57,20 +56,18 @@ namespace Spells
                     mostWoundedAlliedChampion);
             }
 
-            newHealth = owner.GetStats().CurrentHealth + 75 + owner.GetStats().GetLevel() * 15;
-            maxHealth = owner.GetStats().HealthPoints.Total;
-            if (newHealth >= maxHealth)
-            {
-                owner.GetStats().CurrentHealth = maxHealth;
-            }
-            else
-            {
-                owner.GetStats().CurrentHealth = newHealth;
-            }
+            newHealth = owner.Stats.CurrentHealth + 75 + owner.Stats.Level * 15;
+            maxHealth = owner.Stats.HealthPoints.Total;
+            owner.Stats.CurrentHealth = Math.Min(maxHealth, newHealth);
 
             ApiFunctionManager.AddBuffHUDVisual("SummonerHeal", 1.0f, 1, owner, 1.0f);
-            ChampionStatModifier statMod = new ChampionStatModifier();
-            statMod.MoveSpeed.PercentBonus = 30 / 100.0f;
+            var statMod = new StatsModifier
+            {
+                MoveSpeed =
+                {
+                    PercentBonus = 0.3f
+                }
+            };
             owner.AddStatModifier(statMod);
             ApiFunctionManager.CreateTimer(1.0f, () => { owner.RemoveStatModifier(statMod); });
             ApiFunctionManager.AddParticleTarget(owner, "global_ss_heal.troy", owner);
