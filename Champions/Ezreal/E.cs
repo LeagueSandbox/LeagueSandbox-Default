@@ -1,4 +1,5 @@
 using System.Numerics;
+using LeagueSandbox.GameServer.Logic;
 using LeagueSandbox.GameServer.Logic.API;
 using LeagueSandbox.GameServer.Logic.GameObjects;
 using LeagueSandbox.GameServer.Logic.GameObjects.AttackableUnits;
@@ -58,7 +59,7 @@ namespace Spells
 
             if (target2 != null)
             {
-                if (!ApiFunctionManager.UnitIsTurret(target2))
+                if (!((GameObject) target2 is BaseTurret))
                 {
                     spell.AddProjectileTarget("EzrealArcaneShiftMissile", target2);
                 }
