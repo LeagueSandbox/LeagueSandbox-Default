@@ -1,6 +1,8 @@
 using System;
-using LeagueSandbox.GameServer.Logic.GameObjects;
 using LeagueSandbox.GameServer.Logic.GameObjects.AttackableUnits;
+using LeagueSandbox.GameServer.Logic.GameObjects.AttackableUnits.AI;
+using LeagueSandbox.GameServer.Logic.GameObjects.Missiles;
+using LeagueSandbox.GameServer.Logic.GameObjects.Spells;
 using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
 namespace Spells

@@ -1,5 +1,7 @@
-using LeagueSandbox.GameServer.Logic.GameObjects;
-using LeagueSandbox.GameServer.Logic.Scripting;
+using LeagueSandbox.GameServer.Logic.GameObjects.AttackableUnits.AI;
+using LeagueSandbox.GameServer.Logic.GameObjects.Spells;
+using LeagueSandbox.GameServer.Logic.GameObjects.Stats;
+using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
 namespace OverdriveSlow
 {
