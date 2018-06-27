@@ -60,7 +60,7 @@ namespace Spells
                 ApiFunctionManager.RemoveParticle(p);
                 ApiFunctionManager.RemoveBuffHudVisual(visualBuff);
                 owner.RemoveBuffGameScript(buff);
-                ApiFunctionManager.SetChampionModel((Champion) target, model);
+                ((Champion) target).Model = model;
             });
             projectile.SetToRemove();
         }
@@ -74,19 +74,29 @@ namespace Spells
             switch (skinId)
             {
                 case 0:
-                    ApiFunctionManager.SetChampionModel((Champion) target, "LuluSquill");
+                {
+                    ((Champion) target).Model = "LuluSquill";
+                }
                     break;
                 case 1:
-                    ApiFunctionManager.SetChampionModel((Champion) target, "LuluCupcake");
+                {
+                    ((Champion) target).Model = "LuluCupcake";
+                }
                     break;
                 case 2:
-                    ApiFunctionManager.SetChampionModel((Champion) target, "LuluKitty");
+                {
+                    ((Champion) target).Model = "LuluKitty";
+                }
                     break;
                 case 3:
-                    ApiFunctionManager.SetChampionModel((Champion) target, "LuluDragon");
+                {
+                    ((Champion) target).Model = "LuluDragon";
+                }
                     break;
                 case 4:
-                    ApiFunctionManager.SetChampionModel((Champion) target, "LuluSnowman");
+                {
+                    ((Champion) target).Model = "LuluSnowman";
+                }
                     break;
             }
         }

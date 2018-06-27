@@ -32,7 +32,7 @@ namespace Spells
             var ap = owner.Stats.AbilityPower.Total * 0.7f;
             var damage = 30 + spell.Level * 50 + ap;
 
-            if (target != null && !ApiFunctionManager.IsDead(target))
+            if (target != null && !target.IsDead)
             {
                 target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL,
                     false);
