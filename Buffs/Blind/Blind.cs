@@ -1,6 +1,6 @@
+using LeagueSandbox.GameServer.Logic.API;
 using LeagueSandbox.GameServer.Logic.GameObjects;
 using LeagueSandbox.GameServer.Logic.Scripting;
-using LeagueSandbox.GameServer.Logic.API;
 
 namespace Blind
 {
