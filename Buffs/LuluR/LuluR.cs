@@ -26,7 +26,7 @@ namespace LuluR
         {
             _healthNow = unit.Stats.CurrentHealth - _healthBonus;
             _meantimeDamage = _healthBefore - _healthNow;
-            float bonusDamage = _healthBonus - _meantimeDamage;
+            var bonusDamage = _healthBonus - _meantimeDamage;
             unit.RemoveStatModifier(_statMod);
             if (unit.Stats.CurrentHealth > unit.Stats.HealthPoints.Total)
             {

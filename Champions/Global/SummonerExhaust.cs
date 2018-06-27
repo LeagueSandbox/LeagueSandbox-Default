@@ -16,7 +16,7 @@ namespace Spells
             var ai = target as ObjAiBase;
             if (ai != null)
             {
-                StatsModifier statMod = new StatsModifier();
+                var statMod = new StatsModifier();
                 statMod.MoveSpeed.PercentBonus -= 30.0f / 100.0f;
                 statMod.AttackSpeed.PercentBonus -= 30.0f / 100.0f;
                 statMod.Armor.BaseBonus -= 10;

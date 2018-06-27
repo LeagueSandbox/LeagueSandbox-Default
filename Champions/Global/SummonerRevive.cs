@@ -20,7 +20,7 @@ namespace Spells
 
             owner.Respawn();
 
-            StatsModifier statMod = new StatsModifier();
+            var statMod = new StatsModifier();
             statMod.MoveSpeed.PercentBonus = 125.0f / 100.0f;
             owner.AddStatModifier(statMod);
             ApiFunctionManager.AddParticleTarget(owner, "Global_SS_Revive.troy", owner);

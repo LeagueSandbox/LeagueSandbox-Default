@@ -10,7 +10,7 @@ namespace Spells
         public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target)
         {
             var visualBuff = ApiFunctionManager.AddBuffHudVisual("SummonerDot", 5.0f, 1, (ObjAiBase) target);
-            Particle p = ApiFunctionManager.AddParticleTarget(owner, "Global_SS_Ignite.troy", target, 1);
+            var p = ApiFunctionManager.AddParticleTarget(owner, "Global_SS_Ignite.troy", target, 1);
             var damage = 10 + owner.Stats.Level * 4;
             target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_TRUE, DamageSource.DAMAGE_SOURCE_SPELL, false);
             ApiFunctionManager.CreateTimer(1.0f,

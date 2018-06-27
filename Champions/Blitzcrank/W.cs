@@ -17,7 +17,7 @@ namespace Spells
 
         public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target)
         {
-            Particle p = ApiFunctionManager.AddParticleTarget(owner, "Overdrive_buf.troy", target, 1);
+            var p = ApiFunctionManager.AddParticleTarget(owner, "Overdrive_buf.troy", target, 1);
             var buff = ((ObjAiBase) target).AddBuffGameScript("Overdrive", "Overdrive", spell);
             var visualBuff = ApiFunctionManager.AddBuffHudVisual("Overdrive", 8.0f, 1, owner);
             ApiFunctionManager.CreateTimer(8.0f, () =>

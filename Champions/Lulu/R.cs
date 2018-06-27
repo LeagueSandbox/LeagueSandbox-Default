@@ -17,7 +17,7 @@ namespace Spells
 
         public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target)
         {
-            Particle p = ApiFunctionManager.AddParticleTarget(owner, "Lulu_R_cas.troy", target, 1);
+            var p = ApiFunctionManager.AddParticleTarget(owner, "Lulu_R_cas.troy", target, 1);
             var buff = ((ObjAiBase) target).AddBuffGameScript("LuluR", "LuluR", spell);
             var visualBuff = ApiFunctionManager.AddBuffHudVisual("LuluR", 7.0f, 1, owner);
             ApiFunctionManager.CreateTimer(7.0f, () =>
