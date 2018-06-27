@@ -9,7 +9,7 @@ namespace Quickdraw
 
         public void OnUpdate(double diff)
         {
-            
+
         }
 
         public void OnActivate(ObjAiBase unit, Spell ownerSpell)

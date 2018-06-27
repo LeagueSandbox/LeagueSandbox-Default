@@ -21,7 +21,7 @@ namespace OverdriveSlow
 
         public void OnUpdate(double diff)
         {
-            
+
         }
     }
 }

@@ -22,7 +22,7 @@ namespace Overdrive
 
         public void OnUpdate(double diff)
         {
-            
+
         }
     }
 }

@@ -36,7 +36,7 @@ namespace LuluR
 
         public void OnUpdate(double diff)
         {
-            
+
         }
     }
 }
