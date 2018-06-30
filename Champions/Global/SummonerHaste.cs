@@ -1,18 +1,21 @@
-using LeagueSandbox.GameServer.Logic.GameObjects;
 using LeagueSandbox.GameServer.Logic.API;
-using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 using LeagueSandbox.GameServer.Logic.GameObjects.AttackableUnits;
+using LeagueSandbox.GameServer.Logic.GameObjects.AttackableUnits.AI;
+using LeagueSandbox.GameServer.Logic.GameObjects.Missiles;
+using LeagueSandbox.GameServer.Logic.GameObjects.Spells;
+using LeagueSandbox.GameServer.Logic.GameObjects.Stats;
+using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
 namespace Spells
 {
-    public class SummonerHaste : GameScript
+    public class SummonerHaste : IGameScript
     {
         public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target)
         {
-            StatsModifier statMod = new StatsModifier();
+            var statMod = new StatsModifier();
             statMod.MoveSpeed.PercentBonus = 27 / 100.0f;
             owner.AddStatModifier(statMod);
-            var hasteBuff = ApiFunctionManager.AddBuffHUDVisual("SummonerHaste", 10.0f, 1, owner, 10.0f);
+            var hasteBuff = ApiFunctionManager.AddBuffHudVisual("SummonerHaste", 10.0f, 1, owner, 10.0f);
             ApiFunctionManager.CreateTimer(10.0f, () => { owner.RemoveStatModifier(statMod); });
         }
 

@@ -1,12 +1,15 @@
 using System;
-using LeagueSandbox.GameServer.Logic.GameObjects;
 using LeagueSandbox.GameServer.Logic.API;
-using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 using LeagueSandbox.GameServer.Logic.GameObjects.AttackableUnits;
+using LeagueSandbox.GameServer.Logic.GameObjects.AttackableUnits.AI;
+using LeagueSandbox.GameServer.Logic.GameObjects.Missiles;
+using LeagueSandbox.GameServer.Logic.GameObjects.Spells;
+using LeagueSandbox.GameServer.Logic.GameObjects.Stats;
+using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
 namespace Spells
 {
-    public class SummonerHeal : GameScript
+    public class SummonerHeal : IGameScript
     {
         public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target)
         {
@@ -40,7 +43,7 @@ namespace Spells
                 maxHealth = mostWoundedAlliedChampion.Stats.HealthPoints.Total;
                 mostWoundedAlliedChampion.Stats.CurrentHealth = Math.Min(maxHealth, newHealth);
 
-                ApiFunctionManager.AddBuffHUDVisual("SummonerHeal", 1.0f, 1, mostWoundedAlliedChampion, 1.0f);
+                ApiFunctionManager.AddBuffHudVisual("SummonerHeal", 1.0f, 1, mostWoundedAlliedChampion, 1.0f);
                 var statMod2 = new StatsModifier
                 {
                     MoveSpeed =
@@ -60,7 +63,7 @@ namespace Spells
             maxHealth = owner.Stats.HealthPoints.Total;
             owner.Stats.CurrentHealth = Math.Min(maxHealth, newHealth);
 
-            ApiFunctionManager.AddBuffHUDVisual("SummonerHeal", 1.0f, 1, owner, 1.0f);
+            ApiFunctionManager.AddBuffHudVisual("SummonerHeal", 1.0f, 1, owner, 1.0f);
             var statMod = new StatsModifier
             {
                 MoveSpeed =

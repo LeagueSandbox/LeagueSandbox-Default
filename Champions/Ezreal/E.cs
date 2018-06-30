@@ -1,12 +1,15 @@
 using System.Numerics;
-using LeagueSandbox.GameServer.Logic.GameObjects;
 using LeagueSandbox.GameServer.Logic.API;
+using LeagueSandbox.GameServer.Logic.GameObjects;
 using LeagueSandbox.GameServer.Logic.GameObjects.AttackableUnits;
+using LeagueSandbox.GameServer.Logic.GameObjects.AttackableUnits.AI;
+using LeagueSandbox.GameServer.Logic.GameObjects.Missiles;
+using LeagueSandbox.GameServer.Logic.GameObjects.Spells;
 using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
 
 namespace Spells
 {
-    public class EzrealArcaneShift : GameScript
+    public class EzrealArcaneShift : IGameScript
     {
         public void OnActivate(Champion owner)
         {
@@ -44,7 +47,7 @@ namespace Spells
             float distance = 700;
             foreach (var value in units)
             {
-                if (owner.Team != value.Team && value is ObjAIBase)
+                if (owner.Team != value.Team && value is ObjAiBase)
                 {
                     if (Vector2.Distance(new Vector2(trueCoords.X, trueCoords.Y), new Vector2(value.X, value.Y)) <=
                         distance)
@@ -58,7 +61,7 @@ namespace Spells
 
             if (target2 != null)
             {
-                if (!ApiFunctionManager.UnitIsTurret(target2))
+                if (!((GameObject) target2 is BaseTurret))
                 {
                     spell.AddProjectileTarget("EzrealArcaneShiftMissile", target2);
                 }
@@ -69,7 +72,7 @@ namespace Spells
         {
             target.TakeDamage(owner, 25f + spell.Level * 50f + owner.Stats.AbilityPower.Total * 0.75f,
                 DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
-            projectile.setToRemove();
+            projectile.SetToRemove();
         }
 
         public void OnUpdate(double diff)
