@@ -1,4 +1,6 @@
 using System.Linq;
+using GameServerCore;
+using GameServerCore.Logic.Enums;
 using LeagueSandbox.GameServer;
 using LeagueSandbox.GameServer.Logic.API;
 using LeagueSandbox.GameServer.Logic.GameObjects.AttackableUnits;
