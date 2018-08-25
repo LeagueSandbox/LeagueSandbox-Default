@@ -1,9 +1,9 @@
-﻿using LeagueSandbox.GameServer.Logic.GameObjects.AttackableUnits.AI;
-using LeagueSandbox.GameServer.Logic.GameObjects.Spells;
-using LeagueSandbox.GameServer.Logic.GameObjects.Stats;
-using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
+﻿using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
+using LeagueSandbox.GameServer.GameObjects.Spells;
+using LeagueSandbox.GameServer.GameObjects.Stats;
+using LeagueSandbox.GameServer.Scripting.CSharp;
 
-namespace Quickdraw
+namespace LeagueSandbox_Default.Buffs.Quickdraw
 {
     internal class Quickdraw : IBuffGameScript
     {
