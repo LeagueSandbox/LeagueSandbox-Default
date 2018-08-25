@@ -1,11 +1,11 @@
-using LeagueSandbox.GameServer.Logic.API;
-using LeagueSandbox.GameServer.Logic.GameObjects.AttackableUnits;
-using LeagueSandbox.GameServer.Logic.GameObjects.AttackableUnits.AI;
-using LeagueSandbox.GameServer.Logic.GameObjects.Missiles;
-using LeagueSandbox.GameServer.Logic.GameObjects.Spells;
-using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
+using LeagueSandbox.GameServer.API;
+using LeagueSandbox.GameServer.GameObjects.AttackableUnits;
+using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
+using LeagueSandbox.GameServer.GameObjects.Missiles;
+using LeagueSandbox.GameServer.GameObjects.Spells;
+using LeagueSandbox.GameServer.Scripting.CSharp;
 
-namespace Spells
+namespace LeagueSandbox_Default.Champions.Global
 {
     public class SummonerMana : IGameScript
     {
