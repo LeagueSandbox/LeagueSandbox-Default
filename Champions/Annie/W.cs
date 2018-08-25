@@ -7,7 +7,7 @@ using LeagueSandbox.GameServer.GameObjects.Spells;
 using LeagueSandbox.GameServer.Scripting.CSharp;
 using System.Numerics;
 
-namespace Spells
+namespace LeagueSandbox_Default.Champions.Annie
 {
     public class Incinerate : IGameScript
     {

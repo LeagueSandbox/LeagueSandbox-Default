@@ -7,7 +7,7 @@ using LeagueSandbox.GameServer.GameObjects.Missiles;
 using LeagueSandbox.GameServer.GameObjects.Spells;
 using LeagueSandbox.GameServer.Scripting.CSharp;
 
-namespace Spells
+namespace LeagueSandbox_Default.Champions.Lucian
 {
     public class LucianQ : IGameScript
     {
