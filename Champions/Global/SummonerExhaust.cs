@@ -6,7 +6,7 @@ using LeagueSandbox.GameServer.GameObjects.Spells;
 using LeagueSandbox.GameServer.GameObjects.Stats;
 using LeagueSandbox.GameServer.Scripting.CSharp;
 
-namespace LeagueSandbox_Default.Champions.Global
+namespace Spells
 {
     public class SummonerExhaust : IGameScript
     {

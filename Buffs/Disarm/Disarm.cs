@@ -3,7 +3,7 @@ using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
 using LeagueSandbox.GameServer.GameObjects.Spells;
 using LeagueSandbox.GameServer.Scripting.CSharp;
 
-namespace LeagueSandbox_Default.Buffs.Disarm
+namespace Disarm
 {
     internal class Disarm : IBuffGameScript
     {
