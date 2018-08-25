@@ -26,7 +26,7 @@ namespace LeagueSandbox_Default.Champions.Lux
             var range = to * 3340;
             var trueCoords = current + range;
 
-            spell.AddLaser(trueCoords.X, trueCoords.Y);
+            spell.AddLaser("LuxMaliceCannon", trueCoords.X, trueCoords.Y);
             ApiFunctionManager.AddParticle(owner, "LuxMaliceCannon_beam.troy", trueCoords.X, trueCoords.Y);
             ApiFunctionManager.FaceDirection(owner, trueCoords, false);
             spell.SpellAnimation("SPELL4", owner);
@@ -39,7 +39,7 @@ namespace LeagueSandbox_Default.Champions.Lux
 
         public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile)
         {
-            spell.Target.TakeDamage(owner, 200f + spell.Level * 100f + owner.Stats.AbilityPower.Total * 0.75f,
+            target.TakeDamage(owner, 200f + spell.Level * 100f + owner.Stats.AbilityPower.Total * 0.75f,
                 DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
         }
 
