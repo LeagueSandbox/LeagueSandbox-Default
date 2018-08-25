@@ -3,7 +3,7 @@ using LeagueSandbox.GameServer.GameObjects.Spells;
 using LeagueSandbox.GameServer.GameObjects.Stats;
 using LeagueSandbox.GameServer.Scripting.CSharp;
 
-namespace LeagueSandbox_Default.Buffs.LuluR
+namespace LuluR
 {
     internal class LuluR : IBuffGameScript
     {

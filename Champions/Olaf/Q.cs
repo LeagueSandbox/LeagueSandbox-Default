@@ -7,7 +7,7 @@ using LeagueSandbox.GameServer.GameObjects.Missiles;
 using LeagueSandbox.GameServer.GameObjects.Spells;
 using LeagueSandbox.GameServer.Scripting.CSharp;
 
-namespace LeagueSandbox_Default.Champions.Olaf
+namespace Spells
 {
     public class OlafAxeThrowCast : IGameScript
     {

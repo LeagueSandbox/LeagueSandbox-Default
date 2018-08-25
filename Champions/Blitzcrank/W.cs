@@ -5,7 +5,7 @@ using LeagueSandbox.GameServer.GameObjects.Missiles;
 using LeagueSandbox.GameServer.GameObjects.Spells;
 using LeagueSandbox.GameServer.Scripting.CSharp;
 
-namespace LeagueSandbox_Default.Champions.Blitzcrank
+namespace Spells
 {
     public class Overdrive : IGameScript
     {

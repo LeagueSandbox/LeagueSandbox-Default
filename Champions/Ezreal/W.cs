@@ -6,7 +6,7 @@ using LeagueSandbox.GameServer.GameObjects.Missiles;
 using LeagueSandbox.GameServer.GameObjects.Spells;
 using LeagueSandbox.GameServer.Scripting.CSharp;
 
-namespace LeagueSandbox_Default.Champions.Ezreal
+namespace Spells
 {
     public class EzrealEssenceFlux : IGameScript
     {

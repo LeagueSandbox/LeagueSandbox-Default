@@ -4,7 +4,7 @@ using LeagueSandbox.GameServer.GameObjects.Missiles;
 using LeagueSandbox.GameServer.GameObjects.Spells;
 using LeagueSandbox.GameServer.Scripting.CSharp;
 
-namespace LeagueSandbox_Default.Champions.Akali
+namespace Spells
 {
     public class AkaliTwinDisciplines : IGameScript
     {
