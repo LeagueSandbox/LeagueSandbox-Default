@@ -61,6 +61,7 @@
     <Compile Include="Champions\Akali\R.cs" />
     <Compile Include="Champions\Akali\W.cs" />
     <Compile Include="Champions\Annie\Q.cs" />
+    <Compile Include="Champions\Annie\W.cs" />
     <Compile Include="Champions\Blitzcrank\Q.cs" />
     <Compile Include="Champions\Blitzcrank\W.cs" />
     <Compile Include="Champions\Caitlyn\E.cs" />
@@ -74,6 +75,7 @@
     <Compile Include="Champions\Ezreal\Passive.cs" />
     <Compile Include="Champions\Gangplank\Q.cs" />
     <Compile Include="Champions\Garen\E.cs" />
+    <Compile Include="Champions\Global\DeathfireGrasp.cs" />
     <Compile Include="Champions\Global\SummonerDot.cs" />
     <Compile Include="Champions\Global\SummonerExhaust.cs" />
     <Compile Include="Champions\Global\SummonerFlash.cs" />
@@ -83,6 +85,7 @@
     <Compile Include="Champions\Global\SummonerMana.cs" />
     <Compile Include="Champions\Global\SummonerRevive.cs" />
     <Compile Include="Champions\Global\SummonerSmite.cs" />
+    <Compile Include="Champions\Global\YoumusBlade.cs" />
     <Compile Include="Champions\Graves\E.cs" />
     <Compile Include="Champions\Karthus\R.cs" />
     <Compile Include="Champions\Kassadin\Q.cs" />

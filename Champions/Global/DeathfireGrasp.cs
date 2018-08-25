@@ -1,21 +1,24 @@
-using GameServerCore.Enums;
+﻿using LeagueSandbox.GameServer.GameObjects;
 using LeagueSandbox.GameServer.API;
+using LeagueSandbox.GameServer.Scripting.CSharp;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
-using LeagueSandbox.GameServer.GameObjects.Missiles;
 using LeagueSandbox.GameServer.GameObjects.Spells;
-using LeagueSandbox.GameServer.Scripting.CSharp;
+using LeagueSandbox.GameServer.GameObjects.Missiles;
+using GameServerCore.Enums;
 
 namespace Spells
 {
-    public class SummonerSmite : IGameScript
+    public class DeathfireGrasp : IGameScript
     {
         public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target)
         {
-            ApiFunctionManager.AddParticleTarget(owner, "Global_SS_Smite.troy", target, 1);
-            var damage = new float[] {390, 410, 430, 450, 480, 510, 540, 570, 600, 640, 680, 420,
-                760, 800, 850, 900, 950, 1000}[owner.Stats.Level - 1];
-            target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_TRUE, DamageSource.DAMAGE_SOURCE_SPELL, false);
+            spell.AddProjectileTarget("DeathfireGraspSpell",target);
+            var p = ApiFunctionManager.AddParticleTarget(owner, "deathFireGrasp_tar.troy", target);
+            ApiFunctionManager.CreateTimer(4.0f, () =>
+            {
+                ApiFunctionManager.RemoveParticle(p);
+            });
         }
 
         public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target)
@@ -24,6 +27,9 @@ namespace Spells
 
         public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile)
         {
+            var damage = target.Stats.HealthPoints.Total * 0.15f;
+            target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SUMMONER_SPELL, false);
+            projectile.SetToRemove();
         }
 
         public void OnUpdate(double diff)
@@ -39,4 +45,3 @@ namespace Spells
         }
     }
 }
-
