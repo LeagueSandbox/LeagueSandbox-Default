@@ -1,4 +1,4 @@
-using GameServerCore.Enums;
+﻿using GameServerCore.Enums;
 using LeagueSandbox.GameServer.API;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
@@ -8,18 +8,20 @@ using LeagueSandbox.GameServer.Scripting.CSharp;
 
 namespace Spells
 {
-    public class SummonerSmite : IGameScript
+    public class YoumusBlade : IGameScript
     {
         public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target)
         {
-            ApiFunctionManager.AddParticleTarget(owner, "Global_SS_Smite.troy", target, 1);
-            var damage = new float[] {390, 410, 430, 450, 480, 510, 540, 570, 600, 640, 680, 420,
-                760, 800, 850, 900, 950, 1000}[owner.Stats.Level - 1];
-            target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_TRUE, DamageSource.DAMAGE_SOURCE_SPELL, false);
         }
 
         public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target)
         {
+            var buff = owner.AddBuffGameScript("YoumuusGhostblade", "YoumuusGhostblade", spell, 6.0f);
+            var p = ApiFunctionManager.AddParticleTarget(owner, "spectral_fury_activate_speed.troy", owner, 2);
+            ApiFunctionManager.CreateTimer(6.0f, () =>
+            {
+                ApiFunctionManager.RemoveParticle(p);
+            });
         }
 
         public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile)
@@ -39,4 +41,3 @@ namespace Spells
         }
     }
 }
-
