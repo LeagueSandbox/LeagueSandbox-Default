@@ -14,10 +14,12 @@ namespace Spells
         public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target)
         {
             spell.AddProjectileTarget("DeathfireGraspSpell",target);
-            var p = ApiFunctionManager.AddParticleTarget(owner, "deathFireGrasp_tar.troy", target);
+            var p1 = ApiFunctionManager.AddParticleTarget(owner, "deathFireGrasp_tar.troy", target);
+            var p2 = ApiFunctionManager.AddParticleTarget(owner, "obj_DeathfireGrasp_debuff.troy", target);
             ApiFunctionManager.CreateTimer(4.0f, () =>
             {
-                ApiFunctionManager.RemoveParticle(p);
+                ApiFunctionManager.RemoveParticle(p1);
+                ApiFunctionManager.RemoveParticle(p2);
             });
         }
 
