@@ -19,7 +19,7 @@ namespace Spells
 
         public void OnDeactivate(Champion owner)
 		{
-        }
+		}
 
         public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target)
 		{
@@ -36,7 +36,7 @@ namespace Spells
 
         public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target)
 		{
-        }
+		}
 
         public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile)
 		{
@@ -45,5 +45,5 @@ namespace Spells
         public void OnUpdate(double diff)
 		{
 		}
-    }
+	}
 }
