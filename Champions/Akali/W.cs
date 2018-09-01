@@ -34,7 +34,7 @@ namespace Spells
 
             ApiFunctionManager.CreateTimer(8.0f, () =>
             {
-                ApiFunctionManager.LogInfo("8 second timer finished, removing smoke bomb");
+                ApiFunctionManager.LogDebug("8 second timer finished, removing smoke bomb");
                 ApiFunctionManager.RemoveParticle(smokeBomb);
                 ApiFunctionManager.RemoveParticle(smokeBombBorder);
                 //TODO: Remove invisibility
