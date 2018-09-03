@@ -18,14 +18,14 @@ namespace Spells
         public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target)
         {
             var units = ApiFunctionManager.GetChampionsInRange(owner, 850, true);
+            units.Remove(owner);
             Champion mostWoundedAlliedChampion = null;
             float lowestHealthPercentage = 100;
             float maxHealth;
             float newHealth;
-            for (var i = 0; i <= units.Count - 1; i++)
-            {
-                var value = units[i];
-                if (owner.Team == value.Team && i != 0)
+            float healthGain;
+            foreach(var value in units) {
+                if (owner.Team == value.Team)
                 {
                     var currentHealth = value.Stats.CurrentHealth;
                     maxHealth = value.Stats.HealthPoints.Total;
@@ -39,41 +39,32 @@ namespace Spells
 
             if (mostWoundedAlliedChampion != null)
             {
-                newHealth = mostWoundedAlliedChampion.Stats.CurrentHealth + 75 + owner.Stats.Level * 15;
+                healthGain = 75 + (owner.Stats.Level * 15);
+                if (mostWoundedAlliedChampion.HasBuffGameScriptActive("HealCheck", "HealCheck"))
+                {
+                    healthGain *= 0.5f;
+                }
+                newHealth = mostWoundedAlliedChampion.Stats.CurrentHealth + healthGain;
                 maxHealth = mostWoundedAlliedChampion.Stats.HealthPoints.Total;
                 mostWoundedAlliedChampion.Stats.CurrentHealth = Math.Min(maxHealth, newHealth);
-
-                ApiFunctionManager.AddBuffHudVisual("SummonerHeal", 1.0f, 1, mostWoundedAlliedChampion, 1.0f);
-                var statMod2 = new StatsModifier
-                {
-                    MoveSpeed =
-                    {
-                        PercentBonus = 0.3f
-                    }
-                };
-                mostWoundedAlliedChampion.AddStatModifier(statMod2);
-                ApiFunctionManager.CreateTimer(1.0f, () => { mostWoundedAlliedChampion.RemoveStatModifier(statMod2); });
-                ApiFunctionManager.AddParticleTarget(mostWoundedAlliedChampion, "global_ss_heal_02.troy",
-                    mostWoundedAlliedChampion);
-                ApiFunctionManager.AddParticleTarget(mostWoundedAlliedChampion, "global_ss_heal_speedboost.troy",
-                    mostWoundedAlliedChampion);
+                mostWoundedAlliedChampion.AddBuffGameScript("HealSpeed", "HealSpeed", spell, 1.0f, true);
+                mostWoundedAlliedChampion.AddBuffGameScript("HealCheck", "HealCheck", spell, 35.0f, true);
+                ApiFunctionManager.AddParticleTarget(owner, "global_ss_heal_02.troy", mostWoundedAlliedChampion);
+                ApiFunctionManager.AddParticleTarget(owner, "global_ss_heal_speedboost.troy", mostWoundedAlliedChampion);
             }
 
-            newHealth = owner.Stats.CurrentHealth + 75 + owner.Stats.Level * 15;
+            healthGain = 75 + (owner.Stats.Level * 15);
+            if (owner.HasBuffGameScriptActive("HealCheck", "HealCheck"))
+            {
+                healthGain *= 0.5f;
+            }
+            newHealth = owner.Stats.CurrentHealth + healthGain;
             maxHealth = owner.Stats.HealthPoints.Total;
             owner.Stats.CurrentHealth = Math.Min(maxHealth, newHealth);
 
-            ApiFunctionManager.AddBuffHudVisual("SummonerHeal", 1.0f, 1, owner, 1.0f);
-            var statMod = new StatsModifier
-            {
-                MoveSpeed =
-                {
-                    PercentBonus = 0.3f
-                }
-            };
-            owner.AddStatModifier(statMod);
-            ApiFunctionManager.CreateTimer(1.0f, () => { owner.RemoveStatModifier(statMod); });
-            ApiFunctionManager.AddParticleTarget(owner, "global_ss_heal.troy", owner);
+            owner.AddBuffGameScript("HealSpeed", "HealSpeed", spell, 1.0f, true);
+            owner.AddBuffGameScript("HealCheck", "HealCheck", spell, 35.0f, true);
+            ApiFunctionManager.AddParticleTarget(owner, "global_ss_heal_02.troy",owner);
             ApiFunctionManager.AddParticleTarget(owner, "global_ss_heal_speedboost.troy", owner);
         }
 
