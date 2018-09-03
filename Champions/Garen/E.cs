@@ -21,7 +21,8 @@ namespace Spells
         public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target)
         {
             var p = ApiFunctionManager.AddParticleTarget(owner, "Garen_Base_E_Spin.troy", owner, 1);
-            var visualBuff = ApiFunctionManager.AddBuffHudVisual("GarenE", 3.0f, 1, owner);
+            var visualBuff = ApiFunctionManager.AddBuffHudVisual("GarenE", 3.0f, 1,
+                BuffType.COMBAT_ENCHANCER, owner);
             ApiFunctionManager.CreateTimer(3.0f, () =>
             {
                 ApiFunctionManager.RemoveBuffHudVisual(visualBuff);

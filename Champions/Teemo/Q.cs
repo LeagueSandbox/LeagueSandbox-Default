@@ -40,7 +40,7 @@ namespace Spells
             target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
             var time = 1.25f + 0.25f * spell.Level;
             var buff = ((ObjAiBase) target).AddBuffGameScript("Blind", "Blind", spell);
-            var visualBuff = ApiFunctionManager.AddBuffHudVisual("Blind", time, 1, (ObjAiBase) target);
+            var visualBuff = ApiFunctionManager.AddBuffHudVisual("Blind", time, 1, BuffType.COMBAT_DEHANCER, (ObjAiBase) target);
             ApiFunctionManager.CreateTimer(time, () =>
             {
                 ApiFunctionManager.RemoveBuffHudVisual(visualBuff);

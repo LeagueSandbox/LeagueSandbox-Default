@@ -1,3 +1,4 @@
+using GameServerCore.Enums;
 using LeagueSandbox.GameServer.API;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
@@ -35,7 +36,8 @@ namespace Spells
                 ApiFunctionManager.AddParticleTarget(owner, "Lulu_W_buf_01.troy", target, 1);
                 var time = 2.5f + 0.5f * spell.Level;
                 var buff = ((ObjAiBase) target).AddBuffGameScript("LuluWBuff", "LuluWBuff", spell);
-                var visualBuff = ApiFunctionManager.AddBuffHudVisual("LuluWBuff", time, 1, (ObjAiBase) target);
+                var visualBuff = ApiFunctionManager.AddBuffHudVisual("LuluWBuff", time, 1, BuffType.COMBAT_ENCHANCER,
+                    (ObjAiBase) target);
                 ApiFunctionManager.CreateTimer(time, () =>
                 {
                     ApiFunctionManager.RemoveParticle(p);
@@ -50,7 +52,8 @@ namespace Spells
             var champion = (Champion) target;
             var time = 1 + 0.25f * spell.Level;
             var buff = ((ObjAiBase) target).AddBuffGameScript("LuluWDebuff", "LuluWDebuff", spell);
-            var visualBuff = ApiFunctionManager.AddBuffHudVisual("LuluWDebuff", time, 1, (ObjAiBase) target);
+            var visualBuff = ApiFunctionManager.AddBuffHudVisual("LuluWDebuff", time, 1, BuffType.COMBAT_DEHANCER, 
+                (ObjAiBase) target);
             var model = champion.Model;
             ChangeModel(owner.Skin, target);
 

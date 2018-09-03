@@ -1,3 +1,4 @@
+using GameServerCore.Enums;
 using LeagueSandbox.GameServer.API;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
@@ -26,7 +27,8 @@ namespace Spells
                 statMod.MagicResist.BaseBonus -= 10;
                 ai.AddStatModifier(statMod);
                 ApiFunctionManager.AddParticleTarget(owner, "Global_SS_Exhaust.troy", target);
-                var visualBuff = ApiFunctionManager.AddBuffHudVisual("SummonerExhaustDebuff", 2.5f, 1, (ObjAiBase)target);
+                var visualBuff = ApiFunctionManager.AddBuffHudVisual("SummonerExhaustDebuff", 2.5f, 1, BuffType.COMBAT_DEHANCER,
+                    (ObjAiBase)target);
                 ApiFunctionManager.CreateTimer(2.5f, () =>
                 {
                     ApiFunctionManager.RemoveBuffHudVisual(visualBuff);

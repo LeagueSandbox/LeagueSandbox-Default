@@ -1,3 +1,4 @@
+using GameServerCore.Enums;
 using LeagueSandbox.GameServer.API;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
@@ -27,10 +28,9 @@ namespace Spells
             statMod.MoveSpeed.PercentBonus = 125.0f / 100.0f;
             owner.AddStatModifier(statMod);
             ApiFunctionManager.AddParticleTarget(owner, "Global_SS_Revive.troy", owner);
-            var visualBuff = ApiFunctionManager.AddBuffHudVisual("SummonerReviveSpeedBoost", 12.0f, 1, owner);
+            var visualBuff = ApiFunctionManager.AddBuffHudVisual("SummonerReviveSpeedBoost", 12.0f, 1, BuffType.COMBAT_ENCHANCER, owner, 12.0f);
             ApiFunctionManager.CreateTimer(12.0f, () =>
             {
-                ApiFunctionManager.RemoveBuffHudVisual(visualBuff);
                 owner.RemoveStatModifier(statMod);
             });
         }
