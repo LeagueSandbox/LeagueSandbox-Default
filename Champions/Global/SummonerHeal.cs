@@ -22,8 +22,6 @@ namespace Spells
             Champion mostWoundedAlliedChampion = null;
             float lowestHealthPercentage = 100;
             float maxHealth;
-            float newHealth;
-            float healthGain;
             foreach(var value in units) {
                 if (owner.Team == value.Team)
                 {
@@ -39,37 +37,29 @@ namespace Spells
 
             if (mostWoundedAlliedChampion != null)
             {
-                healthGain = 75 + (owner.Stats.Level * 15);
-                if (mostWoundedAlliedChampion.HasBuffGameScriptActive("HealCheck", "HealCheck"))
-                {
-                    healthGain *= 0.5f;
-                }
-                newHealth = mostWoundedAlliedChampion.Stats.CurrentHealth + healthGain;
-                maxHealth = mostWoundedAlliedChampion.Stats.HealthPoints.Total;
-                mostWoundedAlliedChampion.Stats.CurrentHealth = Math.Min(maxHealth, newHealth);
-                mostWoundedAlliedChampion.AddBuffGameScript("HealSpeed", "HealSpeed", spell, 1.0f, true);
-                mostWoundedAlliedChampion.AddBuffGameScript("HealCheck", "HealCheck", spell, 35.0f, true);
-                ApiFunctionManager.AddParticleTarget(owner, "global_ss_heal_02.troy", mostWoundedAlliedChampion);
-                ApiFunctionManager.AddParticleTarget(owner, "global_ss_heal_speedboost.troy", mostWoundedAlliedChampion);
+                PerformHeal(owner, spell, mostWoundedAlliedChampion);
             }
 
-            healthGain = 75 + (owner.Stats.Level * 15);
-            if (owner.HasBuffGameScriptActive("HealCheck", "HealCheck"))
-            {
-                healthGain *= 0.5f;
-            }
-            newHealth = owner.Stats.CurrentHealth + healthGain;
-            maxHealth = owner.Stats.HealthPoints.Total;
-            owner.Stats.CurrentHealth = Math.Min(maxHealth, newHealth);
-
-            owner.AddBuffGameScript("HealSpeed", "HealSpeed", spell, 1.0f, true);
-            owner.AddBuffGameScript("HealCheck", "HealCheck", spell, 35.0f, true);
-            ApiFunctionManager.AddParticleTarget(owner, "global_ss_heal_02.troy",owner);
-            ApiFunctionManager.AddParticleTarget(owner, "global_ss_heal_speedboost.troy", owner);
+            PerformHeal(owner, spell, owner);
         }
 
         public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile)
         {
+        }
+
+        private void PerformHeal(Champion owner, Spell spell, Champion target)
+        {
+            float healthGain = 75 + (target.Stats.Level * 15);
+            if (target.HasBuffGameScriptActive("HealCheck", "HealCheck"))
+            {
+                healthGain *= 0.5f;
+            }
+            var newHealth = target.Stats.CurrentHealth + healthGain;
+            target.Stats.CurrentHealth = Math.Min(newHealth, target.Stats.HealthPoints.Total);
+            target.AddBuffGameScript("HealSpeed", "HealSpeed", spell, 1.0f, true);
+            target.AddBuffGameScript("HealCheck", "HealCheck", spell, 35.0f, true);
+            ApiFunctionManager.AddParticleTarget(owner, "global_ss_heal_02.troy", target);
+            ApiFunctionManager.AddParticleTarget(owner, "global_ss_heal_speedboost.troy", target);
         }
 
         public void OnUpdate(double diff)
