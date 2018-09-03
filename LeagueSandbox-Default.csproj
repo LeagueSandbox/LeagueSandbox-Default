@@ -47,6 +47,7 @@
   <ItemGroup>
     <Compile Include="Buffs\Blind\Blind.cs" />
     <Compile Include="Buffs\Disarm\Disarm.cs" />
+    <Compile Include="Buffs\Highlander\Highlander.cs" />
     <Compile Include="Buffs\Invulnerable\Invulnerable.cs" />
     <Compile Include="Buffs\LuluR\LuluR.cs" />
     <Compile Include="Buffs\LuluWBuff\LuluWBuff.cs" />
@@ -55,6 +56,7 @@
     <Compile Include="Buffs\Overdrive\Overdrive.cs" />
     <Compile Include="Buffs\Quickdraw\Quickdraw.cs" />
     <Compile Include="Buffs\Silence\Silence.cs" />
+    <Compile Include="Buffs\YoumuusGhostblade\YoumuusGhostblade.cs" />
     <Compile Include="Champions\Akali\E.cs" />
     <Compile Include="Champions\Akali\Passive.cs" />
     <Compile Include="Champions\Akali\Q.cs" />
@@ -95,6 +97,7 @@
     <Compile Include="Champions\Lulu\W.cs" />
     <Compile Include="Champions\Lulu\R.cs" />
     <Compile Include="Champions\Lux\R.cs" />
+    <Compile Include="Champions\MasterYi\R.cs" />
     <Compile Include="Champions\Olaf\Q.cs" />
     <Compile Include="Champions\Teemo\Q.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
