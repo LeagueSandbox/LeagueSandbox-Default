@@ -47,6 +47,8 @@
   <ItemGroup>
     <Compile Include="Buffs\Blind\Blind.cs" />
     <Compile Include="Buffs\Disarm\Disarm.cs" />
+    <Compile Include="Buffs\HealCheck\HealCheck.cs" />
+    <Compile Include="Buffs\HealSpeed\HealSpeed.cs" />
     <Compile Include="Buffs\Highlander\Highlander.cs" />
     <Compile Include="Buffs\Invulnerable\Invulnerable.cs" />
     <Compile Include="Buffs\LuluR\LuluR.cs" />
