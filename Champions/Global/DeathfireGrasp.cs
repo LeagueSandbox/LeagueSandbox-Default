@@ -16,6 +16,8 @@ namespace Spells
             spell.AddProjectileTarget("DeathfireGraspSpell",target);
             var p1 = ApiFunctionManager.AddParticleTarget(owner, "deathFireGrasp_tar.troy", target);
             var p2 = ApiFunctionManager.AddParticleTarget(owner, "obj_DeathfireGrasp_debuff.troy", target);
+            ApiFunctionManager.AddBuffHudVisual("DeathfireGraspSpell", 4.0f, 1, BuffType.COMBAT_DEHANCER,
+                (ObjAiBase)target, 4.0f);
             ApiFunctionManager.CreateTimer(4.0f, () =>
             {
                 ApiFunctionManager.RemoveParticle(p1);

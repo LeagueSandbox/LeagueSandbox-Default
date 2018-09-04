@@ -12,8 +12,8 @@ namespace Spells
     {
         public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target)
         {
-            var visualBuff = ApiFunctionManager.AddBuffHudVisual("SummonerDot", 5.0f, 1, BuffType.COMBAT_DEHANCER, 
-                (ObjAiBase) target);
+            var visualBuff = ApiFunctionManager.AddBuffHudVisual("SummonerDot", 4.0f, 1, BuffType.COMBAT_DEHANCER, 
+                (ObjAiBase) target, 4.0f);
             var p = ApiFunctionManager.AddParticleTarget(owner, "Global_SS_Ignite.troy", target, 1);
             var damage = 10 + owner.Stats.Level * 4;
             target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_TRUE, DamageSource.DAMAGE_SOURCE_SPELL, false);
@@ -39,7 +39,6 @@ namespace Spells
             {
                 target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_TRUE, DamageSource.DAMAGE_SOURCE_SPELL, false);
                 ApiFunctionManager.RemoveParticle(p);
-                ApiFunctionManager.RemoveBuffHudVisual(visualBuff);
             });
         }
 

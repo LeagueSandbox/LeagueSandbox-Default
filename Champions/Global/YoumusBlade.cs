@@ -16,7 +16,7 @@ namespace Spells
 
         public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target)
         {
-            var buff = owner.AddBuffGameScript("YoumuusGhostblade", "YoumuusGhostblade", spell, 6.0f);
+            owner.AddBuffGameScript("YoumuusGhostblade", "YoumuusGhostblade", spell, 6.0f, true);
             var p = ApiFunctionManager.AddParticleTarget(owner, "spectral_fury_activate_speed.troy", owner, 2);
             ApiFunctionManager.CreateTimer(6.0f, () =>
             {

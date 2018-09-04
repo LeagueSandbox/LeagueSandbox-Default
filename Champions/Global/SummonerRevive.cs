@@ -25,14 +25,9 @@ namespace Spells
             owner.Respawn();
 
             var statMod = new StatsModifier();
-            statMod.MoveSpeed.PercentBonus = 125.0f / 100.0f;
             owner.AddStatModifier(statMod);
             ApiFunctionManager.AddParticleTarget(owner, "Global_SS_Revive.troy", owner);
-            var visualBuff = ApiFunctionManager.AddBuffHudVisual("SummonerReviveSpeedBoost", 12.0f, 1, BuffType.COMBAT_ENCHANCER, owner, 12.0f);
-            ApiFunctionManager.CreateTimer(12.0f, () =>
-            {
-                owner.RemoveStatModifier(statMod);
-            });
+            owner.AddBuffGameScript("SummonerReviveSpeedBoost", "SummonerReviveSpeedBoost", spell, 12.0f, true);
         }
 
         public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile)

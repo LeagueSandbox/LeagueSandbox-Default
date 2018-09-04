@@ -22,10 +22,9 @@ namespace Spells
         {
             var p = ApiFunctionManager.AddParticleTarget(owner, "Garen_Base_E_Spin.troy", owner, 1);
             var visualBuff = ApiFunctionManager.AddBuffHudVisual("GarenE", 3.0f, 1,
-                BuffType.COMBAT_ENCHANCER, owner);
+                BuffType.COMBAT_ENCHANCER, owner, 3.0f);
             ApiFunctionManager.CreateTimer(3.0f, () =>
             {
-                ApiFunctionManager.RemoveBuffHudVisual(visualBuff);
                 ApiFunctionManager.RemoveParticle(p);
             });
             for (var i = 0.0f; i < 3.0; i += 0.5f)

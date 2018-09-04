@@ -1,35 +1,31 @@
-using GameServerCore.Enums;
+﻿using GameServerCore.Enums;
 using LeagueSandbox.GameServer.API;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
 using LeagueSandbox.GameServer.GameObjects.Spells;
 using LeagueSandbox.GameServer.GameObjects.Stats;
 using LeagueSandbox.GameServer.Scripting.CSharp;
 
-namespace LuluWDebuff
+namespace SummonerExhaustDebuff
 {
-    internal class LuluWDebuff : IBuffGameScript
+    internal class SummonerExhaustDebuff : IBuffGameScript
     {
-        private UnitCrowdControl _crowdDisarm = new UnitCrowdControl(CrowdControlType.DISARM);
-        private UnitCrowdControl _crowdSilence = new UnitCrowdControl(CrowdControlType.SILENCE);
         private StatsModifier _statMod;
         private Buff _visualBuff;
 
         public void OnActivate(ObjAiBase unit, Spell ownerSpell)
         {
             _statMod = new StatsModifier();
-            _statMod.MoveSpeed.BaseBonus = _statMod.MoveSpeed.BaseBonus - 60;
-            unit.ApplyCrowdControl(_crowdDisarm);
-            unit.ApplyCrowdControl(_crowdSilence);
+            _statMod.MoveSpeed.PercentBonus = -0.3f;
+            _statMod.AttackSpeed.PercentBonus = -0.3f;
+            _statMod.Armor.BaseBonus = -10;
+            _statMod.MagicResist.BaseBonus = -10;
             unit.AddStatModifier(_statMod);
-            var time = 1 + 0.25f * ownerSpell.Level;
-            _visualBuff = ApiFunctionManager.AddBuffHudVisual("LuluWDebuff", time, 1, BuffType.COMBAT_DEHANCER, 
+            _visualBuff = ApiFunctionManager.AddBuffHudVisual("SummonerExhaustDebuff", 2.5f, 1, BuffType.COMBAT_DEHANCER,
                 unit);
         }
 
         public void OnDeactivate(ObjAiBase unit)
         {
-            unit.RemoveCrowdControl(_crowdDisarm);
-            unit.RemoveCrowdControl(_crowdSilence);
             unit.RemoveStatModifier(_statMod);
             ApiFunctionManager.RemoveBuffHudVisual(_visualBuff);
         }

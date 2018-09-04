@@ -20,20 +20,8 @@ namespace Spells
             var ai = target as ObjAiBase;
             if (ai != null)
             {
-                var statMod = new StatsModifier();
-                statMod.MoveSpeed.PercentBonus -= 30.0f / 100.0f;
-                statMod.AttackSpeed.PercentBonus -= 30.0f / 100.0f;
-                statMod.Armor.BaseBonus -= 10;
-                statMod.MagicResist.BaseBonus -= 10;
-                ai.AddStatModifier(statMod);
                 ApiFunctionManager.AddParticleTarget(owner, "Global_SS_Exhaust.troy", target);
-                var visualBuff = ApiFunctionManager.AddBuffHudVisual("SummonerExhaustDebuff", 2.5f, 1, BuffType.COMBAT_DEHANCER,
-                    (ObjAiBase)target);
-                ApiFunctionManager.CreateTimer(2.5f, () =>
-                {
-                    ApiFunctionManager.RemoveBuffHudVisual(visualBuff);
-                    ai.RemoveStatModifier(statMod);
-                });
+                ai.AddBuffGameScript("SummonerExhaustDebuff", "SummonerExhaustDebuff", spell, 2.5f, true);
             }
         }
 
