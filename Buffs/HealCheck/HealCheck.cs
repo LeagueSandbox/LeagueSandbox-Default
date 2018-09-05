@@ -1,4 +1,5 @@
-﻿using LeagueSandbox.GameServer.API;
+﻿using GameServerCore.Enums;
+using LeagueSandbox.GameServer.API;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
 using LeagueSandbox.GameServer.GameObjects.Spells;
 using LeagueSandbox.GameServer.Scripting.CSharp;
@@ -11,7 +12,7 @@ namespace HealCheck
 
         public void OnActivate(ObjAiBase unit, Spell ownerSpell)
         {
-            _healBuff = ApiFunctionManager.AddBuffHudVisual("SummonerHealCheck", 35.0f, 1, unit);
+            _healBuff = ApiFunctionManager.AddBuffHudVisual("SummonerHealCheck", 35.0f, 1, BuffType.COMBAT_DEHANCER, unit);
         }
 
         public void OnDeactivate(ObjAiBase unit)

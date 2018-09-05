@@ -30,7 +30,12 @@ namespace Spells
             var trueCoords = current + range;
 
             ApiFunctionManager.DashToLocation(owner, trueCoords.X, trueCoords.Y, 1200, false, "Spell3");
-            ApiFunctionManager.AddParticleTarget(owner, "Graves_Move_OnBuffActivate.troy", owner);
+            var p = ApiFunctionManager.AddParticleTarget(owner, "Graves_Move_OnBuffActivate.troy", owner);
+            owner.AddBuffGameScript("Quickdraw", "Quickdraw", spell, 4.0f, true);
+            ApiFunctionManager.CreateTimer(4.0f, () =>
+            {
+                ApiFunctionManager.RemoveParticle(p);
+            });
         }
 
         public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile)

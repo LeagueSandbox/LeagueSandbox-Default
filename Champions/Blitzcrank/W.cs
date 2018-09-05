@@ -1,3 +1,4 @@
+using GameServerCore.Enums;
 using LeagueSandbox.GameServer.API;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
@@ -20,13 +21,10 @@ namespace Spells
         public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target)
         {
             var p = ApiFunctionManager.AddParticleTarget(owner, "Overdrive_buf.troy", target, 1);
-            var buff = ((ObjAiBase) target).AddBuffGameScript("Overdrive", "Overdrive", spell);
-            var visualBuff = ApiFunctionManager.AddBuffHudVisual("Overdrive", 8.0f, 1, owner);
+            var buff = ((ObjAiBase) target).AddBuffGameScript("Overdrive", "Overdrive", spell, 8.0f);
             ApiFunctionManager.CreateTimer(8.0f, () =>
             {
                 ApiFunctionManager.RemoveParticle(p);
-                ApiFunctionManager.RemoveBuffHudVisual(visualBuff);
-                ((ObjAiBase) target).RemoveBuffGameScript(buff);
             });
         }
 

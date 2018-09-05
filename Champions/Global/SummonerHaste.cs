@@ -1,3 +1,4 @@
+using GameServerCore.Enums;
 using LeagueSandbox.GameServer.API;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
@@ -12,11 +13,7 @@ namespace Spells
     {
         public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target)
         {
-            var statMod = new StatsModifier();
-            statMod.MoveSpeed.PercentBonus = 27 / 100.0f;
-            owner.AddStatModifier(statMod);
-            var hasteBuff = ApiFunctionManager.AddBuffHudVisual("SummonerHaste", 10.0f, 1, owner, 10.0f);
-            ApiFunctionManager.CreateTimer(10.0f, () => { owner.RemoveStatModifier(statMod); });
+            owner.AddBuffGameScript("SummonerHasteBuff", "SummonerHasteBuff", spell, 10.0f, true);
         }
 
         public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target)

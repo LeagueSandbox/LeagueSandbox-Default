@@ -5,25 +5,25 @@ using LeagueSandbox.GameServer.GameObjects.Spells;
 using LeagueSandbox.GameServer.GameObjects.Stats;
 using LeagueSandbox.GameServer.Scripting.CSharp;
 
-namespace HealSpeed
+namespace SummonerReviveSpeedBoost
 {
-    internal class HealSpeed : IBuffGameScript
+    internal class SummonerReviveSpeedBoost : IBuffGameScript
     {
         private StatsModifier _statMod;
-        private Buff _healBuff;
+        private Buff _visualBuff;
 
         public void OnActivate(ObjAiBase unit, Spell ownerSpell)
         {
             _statMod = new StatsModifier();
-            _statMod.MoveSpeed.PercentBonus = 0.3f;
+            _statMod.MoveSpeed.PercentBonus = 1.25f;
             unit.AddStatModifier(_statMod);
-            _healBuff = ApiFunctionManager.AddBuffHudVisual("SummonerHeal", 1.0f, 1, BuffType.COMBAT_ENCHANCER, unit);
+            _visualBuff = ApiFunctionManager.AddBuffHudVisual("SummonerReviveSpeedBoost", 12.0f, 1, BuffType.COMBAT_ENCHANCER, unit);
         }
 
         public void OnDeactivate(ObjAiBase unit)
         {
             unit.RemoveStatModifier(_statMod);
-            ApiFunctionManager.RemoveBuffHudVisual(_healBuff);
+            ApiFunctionManager.RemoveBuffHudVisual(_visualBuff);
         }
 
         public void OnUpdate(double diff)

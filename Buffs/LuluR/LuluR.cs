@@ -1,4 +1,6 @@
-﻿using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
+﻿using GameServerCore.Enums;
+using LeagueSandbox.GameServer.API;
+using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
 using LeagueSandbox.GameServer.GameObjects.Spells;
 using LeagueSandbox.GameServer.GameObjects.Stats;
 using LeagueSandbox.GameServer.Scripting.CSharp;
@@ -12,6 +14,7 @@ namespace LuluR
         private float _meantimeDamage;
         private float _healthNow;
         private float _healthBonus;
+        private Buff _visualBuff;
 
         public void OnActivate(ObjAiBase unit, Spell ownerSpell)
         {
@@ -21,6 +24,8 @@ namespace LuluR
             _healthBonus = 150 + 150 * ownerSpell.Level;
             _statMod.HealthPoints.BaseBonus = _statMod.HealthPoints.BaseBonus + 150 + 150 * ownerSpell.Level;
             unit.Stats.CurrentHealth = unit.Stats.CurrentHealth + 150 + 150 * ownerSpell.Level;
+            _visualBuff = ApiFunctionManager.AddBuffHudVisual("LuluR", 7.0f, 1, BuffType.COMBAT_ENCHANCER,
+                unit);
             unit.AddStatModifier(_statMod);
         }
 
@@ -34,6 +39,7 @@ namespace LuluR
             {
                 unit.Stats.CurrentHealth = unit.Stats.CurrentHealth - bonusDamage;
             }
+            ApiFunctionManager.RemoveBuffHudVisual(_visualBuff);
         }
 
         public void OnUpdate(double diff)

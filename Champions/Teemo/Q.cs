@@ -39,13 +39,8 @@ namespace Spells
             var damage = 35 + spell.Level * 45 + ap;
             target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
             var time = 1.25f + 0.25f * spell.Level;
-            var buff = ((ObjAiBase) target).AddBuffGameScript("Blind", "Blind", spell);
-            var visualBuff = ApiFunctionManager.AddBuffHudVisual("Blind", time, 1, (ObjAiBase) target);
-            ApiFunctionManager.CreateTimer(time, () =>
-            {
-                ApiFunctionManager.RemoveBuffHudVisual(visualBuff);
-                ((ObjAiBase) target).RemoveBuffGameScript(buff);
-            });
+            ((ObjAiBase) target).AddBuffGameScript("Blind", "Blind", spell, time);
+            ApiFunctionManager.AddBuffHudVisual("Blind", time, 1, BuffType.COMBAT_DEHANCER, (ObjAiBase) target, time);
         }
 
         public void OnUpdate(double diff)

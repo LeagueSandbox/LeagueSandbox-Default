@@ -1,4 +1,6 @@
-﻿using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
+﻿using GameServerCore.Enums;
+using LeagueSandbox.GameServer.API;
+using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
 using LeagueSandbox.GameServer.GameObjects.Spells;
 using LeagueSandbox.GameServer.GameObjects.Stats;
 using LeagueSandbox.GameServer.Scripting.CSharp;
@@ -8,6 +10,7 @@ namespace Quickdraw
     internal class Quickdraw : IBuffGameScript
     {
         private StatsModifier _statMod = new StatsModifier();
+        private Buff _visualBuff;
 
         public void OnUpdate(double diff)
         {
@@ -16,12 +19,15 @@ namespace Quickdraw
 
         public void OnActivate(ObjAiBase unit, Spell ownerSpell)
         {
-            _statMod.AttackSpeed.PercentBonus = ownerSpell.Level * 10.0f / 100.0f;
+            _statMod.AttackSpeed.PercentBonus = 0.2f + (0.1f * ownerSpell.Level);
             unit.AddStatModifier(_statMod);
+            _visualBuff = ApiFunctionManager.AddBuffHudVisual("GravesMoveSteroid", 4.0f, 1, BuffType.COMBAT_ENCHANCER, 
+                unit);
         }
 
         public void OnDeactivate(ObjAiBase unit)
         {
+            ApiFunctionManager.RemoveBuffHudVisual(_visualBuff);
             unit.RemoveStatModifier(_statMod);
         }
     }
