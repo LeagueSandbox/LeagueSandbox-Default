@@ -58,6 +58,9 @@
     <Compile Include="Buffs\Overdrive\Overdrive.cs" />
     <Compile Include="Buffs\Quickdraw\Quickdraw.cs" />
     <Compile Include="Buffs\Silence\Silence.cs" />
+    <Compile Include="Buffs\SummonerExhaustDebuff\SummonerExhaustDebuff.cs" />
+    <Compile Include="Buffs\SummonerHasteBuff\SummonerHasteBuff.cs" />
+    <Compile Include="Buffs\SummonerReviveSpeedBoost\SummonerReviveSpeedBoost.cs" />
     <Compile Include="Buffs\YoumuusGhostblade\YoumuusGhostblade.cs" />
     <Compile Include="Champions\Akali\E.cs" />
     <Compile Include="Champions\Akali\Passive.cs" />
@@ -105,11 +108,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\GameServerCore\GameServerCore.csproj">
+    <ProjectReference Include="..\..\GameServerCore\GameServerCore.csproj">
       <Project>{DA3DE633-D75B-40B0-8833-099ABFBF43A2}</Project>
       <Name>GameServerCore</Name>
     </ProjectReference>
-    <ProjectReference Include="..\GameServerLib\GameServerLib.csproj">
+    <ProjectReference Include="..\..\GameServerLib\GameServerLib.csproj">
       <Project>{cb004023-b938-4ec6-b036-29ee2f55cfa4}</Project>
       <Name>GameServerLib</Name>
     </ProjectReference>
