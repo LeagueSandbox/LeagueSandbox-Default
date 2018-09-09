@@ -1,0 +1,12 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "ZhaoYunXinZhao"
+    },
+    "SpellFXOverrideSkins": {
+        "1": "ZhaoYunXinZhao"
+    },
+    "BuffName": "XenZhaoBattleCry",
+    "NotSingleTargetSpell": false,
+    "BuffTextureName": "XinZhao_BattleCry.dds",
+    "DoesntTriggerSpellCasts": false
+}

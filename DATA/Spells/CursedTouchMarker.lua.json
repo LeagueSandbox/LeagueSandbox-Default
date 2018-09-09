@@ -1,0 +1,6 @@
+{
+    "NonDispellable": true,
+    "PersistsThroughDeath": true,
+    "BuffName": "CursedTouchMarker",
+    "BuffTextureName": "SadMummy_CorpseExplosion.dds"
+}

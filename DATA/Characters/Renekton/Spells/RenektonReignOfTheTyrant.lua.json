@@ -1,0 +1,21 @@
+{
+    "AutoBuffActivateEffect3": "Renekton_Runewars_Shoulder_R.troy",
+    "SpellFXOverrideSkins": {
+        "1": "Renekton_VolcanoGod",
+        "2": "RenektonSkin06"
+    },
+    "BuffName": "RenekthonTyrantForm",
+    "AutoBuffActivateAttachBoneName4": "l_uparm",
+    "AutoBuffActivateEffect": "RenektonDominus_sword.troy",
+    "CastingBreaksStealth": true,
+    "BuffTextureName": "Renekton_Dominus.dds",
+    "AutoBuffActivateAttachBoneName3": "r_uparm",
+    "AutoBuffActivateAttachBoneName": "weapon",
+    "DoesntBreakShields": true,
+    "AutoBuffActivateEffect2": "RenektonDominus_aura.troy",
+    "AutoBuffActivateEffect4": "Renekton_Runewars_Shoulder_L.troy",
+    "NonDispellable": true,
+    "IsDamagingSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "NotSingleTargetSpell": true
+}

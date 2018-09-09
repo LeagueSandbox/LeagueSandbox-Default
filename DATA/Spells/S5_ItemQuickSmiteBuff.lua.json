@@ -1,0 +1,7 @@
+{
+    "PersistsThroughDeath": true,
+    "BuffName": "S5_LaneSigilBuff",
+    "AutoBuffActivateEffect": "GLOBAL_HASTE.troy",
+    "BuffTextureName": "Summoner_clairvoyance.dds",
+    "Nondispellable": true
+}

@@ -1,0 +1,6 @@
+{
+    "NonDispellable": true,
+    "PersistsThroughDeath": true,
+    "BuffName": "TwitchDeadlyVenomMarker",
+    "BuffTextureName": "Twitch_DeadlyVenom_temp.dds"
+}

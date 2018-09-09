@@ -1,0 +1,12 @@
+{
+    "DoesntBreakShields": "True",
+    "IsDamagingSpell": true,
+    "SpellFXOverrideSkins": {
+        "1": "FrostFireBrand",
+        "2": "ZombieBrand"
+    },
+    "PersistsThroughDeath": true,
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "SpellDamageRatio": 1.0
+}

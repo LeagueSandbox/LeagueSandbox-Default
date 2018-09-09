@@ -1,0 +1,6 @@
+{
+    "NonDispellable": true,
+    "PersistsThroughDeath": true,
+    "BuffName": "Paranoia",
+    "BuffTextureName": "Fiddlesticks_Paranoia.dds"
+}

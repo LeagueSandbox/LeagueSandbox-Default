@@ -1,0 +1,9 @@
+{
+    "DoesntBreakShields": "False",
+    "IsDamagingSpell": true,
+    "TriggersSpellCasts": true,
+    "BuffName": "GnarRKnockback",
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "BuffTextureName": "GnarBig_R.dds"
+}

@@ -1,0 +1,15 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "iBlitz",
+        "2": "BlitzcrankSkin07"
+    },
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": true,
+    "AutoCooldownByLevel": {
+        "1": 22.0,
+        "2": 20.0,
+        "3": 18.0,
+        "4": 16.0,
+        "5": 14.0
+    }
+}

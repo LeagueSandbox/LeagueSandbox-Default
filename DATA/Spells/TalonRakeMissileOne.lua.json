@@ -1,0 +1,8 @@
+{
+    "BuffName": "TalonRakeMissileOne",
+    "TriggersSpellCasts": false,
+    "IsDeathRecapSource": true,
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": true,
+    "SpellDamageRatio": 0.5
+}

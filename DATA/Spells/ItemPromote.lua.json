@@ -1,0 +1,19 @@
+{
+    "BuffName": "Black Shield",
+    "AutoBuffActivateEffect": "Global_Item_BoC_Buf.troy",
+    "NotSingleTargetSpell": false,
+    "BuffTextureName": "FallenAngel_BlackShield.dds",
+    "AutoBuffActivateAttachBoneName": "scroll",
+    "AutoCooldownByLevel": {
+        "1": 16.0,
+        "2": 16.0,
+        "3": 16.0,
+        "4": 16.0,
+        "5": 16.0
+    },
+    "AutoBuffActivateEffect2": "Global_Item_BoC_Buf.troy",
+    "DoOnPreDamageInExpirationOrder": true,
+    "OnPreDamagePriority": 2.0,
+    "DoesntTriggerSpellCasts": true,
+    "AutoBuffActivateAttachBoneName2": "Buffbone_Cstm_Weapon_1"
+}

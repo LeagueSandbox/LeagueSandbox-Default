@@ -1,0 +1,7 @@
+{
+    "DoesntBreakShields": true,
+    "BuffName": "Pick A Card Red",
+    "AutoBuffActivateEffect": "Card_Red.troy",
+    "BuffTextureName": "Cardmaster_red.dds",
+    "DoesntTriggerSpellCasts": true
+}

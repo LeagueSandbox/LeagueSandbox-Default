@@ -1,0 +1,9 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "CyberEzreal",
+        "2": "PhoenixQuinn"
+    },
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": true,
+    "IsDamagingSpell": true
+}

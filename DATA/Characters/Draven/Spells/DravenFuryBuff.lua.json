@@ -1,0 +1,13 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "DravenSkin03"
+    },
+    "BuffName": "DravenFuryBuff",
+    "AutoBuffActivateEffect": "Draven_Base_W_attack_buf.troy",
+    "NotSingleTargetSpell": true,
+    "BuffTextureName": "Draven_Bloodrage.dds",
+    "AutoBuffActivateAttachBoneName": "l_hand",
+    "AutoBuffActivateEffect2": "Draven_Base_W_attack_buf.troy",
+    "DoesntTriggerSpellCasts": false,
+    "AutoBuffActivateAttachBoneName2": "r_hand"
+}

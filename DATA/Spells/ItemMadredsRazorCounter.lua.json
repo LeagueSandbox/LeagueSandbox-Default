@@ -1,0 +1,6 @@
+{
+    "NonDispellable": true,
+    "PersistsThroughDeath": true,
+    "BuffName": "ItemMadredsRazorCounter",
+    "BuffTextureName": "ItemWrigglesLanternCounter.dds"
+}

@@ -1,0 +1,10 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "SteellegionGaren"
+    },
+    "BuffName": "GarenW",
+    "TriggersSpellCasts": true,
+    "NotSingleTargetSpell": true,
+    "BuffTextureName": "Garen_W.dds",
+    "DoesntTriggerSpellCasts": false
+}

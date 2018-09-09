@@ -1,0 +1,7 @@
+{
+    "AutoBuffActivateEvent": "DeathsCaress_buf.troy",
+    "BuffName": "NocturneParanoiaTarget",
+    "NotSingleTargetSpell": true,
+    "BuffTextureName": "Nocturne_Paranoia.dds",
+    "DoesntTriggerSpellCasts": false
+}

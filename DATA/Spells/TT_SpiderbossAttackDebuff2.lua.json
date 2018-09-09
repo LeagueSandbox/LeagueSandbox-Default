@@ -1,0 +1,6 @@
+{
+    "AutoBuffActivateEffect": "TT_spiderbossattackdebuff.troy",
+    "IsDeathRecapSource": true,
+    "BuffName": "TT_SpiderbossAttackDebuff",
+    "BuffTextureName": "Annie_Incinerate.dds"
+}

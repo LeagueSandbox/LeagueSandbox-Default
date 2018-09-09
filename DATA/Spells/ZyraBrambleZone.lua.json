@@ -1,0 +1,12 @@
+{
+    "DoesntBreakShields": true,
+    "IsDamagingSpell": true,
+    "SpellFXOverrideSkins": {
+        "1": "ReefMalphite",
+        "2": "ZyraSkin02"
+    },
+    "IsDeathRecapSource": true,
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "CastingBreaksStealth": true
+}

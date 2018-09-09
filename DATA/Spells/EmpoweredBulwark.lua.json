@@ -1,0 +1,6 @@
+{
+    "NonDispellable": true,
+    "PersistsThroughDeath": true,
+    "BuffName": "Empowered Bulwark",
+    "BuffTextureName": "ChemicalMan_EmpoweredBulwark.dds"
+}

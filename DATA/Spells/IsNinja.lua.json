@@ -1,0 +1,6 @@
+{
+    "NonDispellable": true,
+    "PersistsThroughDeath": true,
+    "BuffName": "Is Ninja",
+    "BuffTextureName": "GSB_stealth.dds"
+}

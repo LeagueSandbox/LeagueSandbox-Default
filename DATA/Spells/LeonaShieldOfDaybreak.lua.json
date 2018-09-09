@@ -1,0 +1,6 @@
+{
+    "BuffName": "LeonaShieldOfDaybreak",
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "BuffTextureName": "LeonaShieldOfDaybreak.DDS"
+}

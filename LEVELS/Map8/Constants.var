@@ -1,0 +1,150 @@
+
+; Global Character Data constants
+gcd_AttackDelay                         =      1.600 ; Attack delay coefficient
+gcd_AttackDelayCastPercent              =      0.300 ; Attack delay cast percent 0-1
+gcd_AttackMinDelay                      =      0.400 ; Attack min delay
+gcd_PercentAttackSpeedModMinimum        =     -0.950 ; The lowest Attack Speed Percent Mod penalty can go
+gcd_AttackMaxDelay                      =      5.000 ; Attack max delay
+gcd_CooldownMinimum                     =      0.000 ; Minimum cooldown time for a spell.
+gcd_PercentCooldownModMinimum           =     -0.400 ; The lowest Cooldown Percent Mod bonus can go.
+gcd_PercentRespawnTimeModMinimum        =     -0.950 ; The lowest RespawnTime Percent Mod bonus can go.
+gcd_PercentGoldLostOnDeathModMinimum    =     -0.950 ; The lowest GoldLostOnDeath Percent Mod bonus can go.
+gcd_PercentEXPBonusMinimum              =     -1.000 ; The lowest EXPBonus Percent Mod penalty can go.
+gcd_PercentEXPBonusMaximum              =      5.000 ; The highest EXPBonus Percent Mod bonus can go.
+
+; Damage Ratios
+dr_HeroToHero                           =      1.000 ;  
+dr_BuildingToHero                       =      1.100 ;  
+dr_UnitToHero                           =      0.850 ;  
+dr_HeroToUnit                           =      1.000 ;  
+dr_BuildingToUnit                       =      1.000 ;  
+dr_UnitToUnit                           =      1.000 ;  
+dr_HeroToBuilding                       =      1.000 ;  
+dr_BuildingToBuilding                   =      1.000 ;  
+dr_UnitToBuilding                       =      0.400 ;  
+
+; Call For Help variables
+cfh_Delay                               =      1.000 ; How often a unit will issue a Call For Help
+cfh_Stick                               =      1.500 ; How long a unit should ignore lower prioty calls while the curent target is not activly attacking
+cfh_Radius                              =    800.000 ; Units within this radius will hear your Call For Help
+cfh_Duration                            =      1.000 ; How long a unit will consider a Call For Help.  Mainly used to track whether a unit has already responded.
+cfh_MeleeRadius                         =    420.000 ; Attack range buffer distance for melee responders to a Call For Help
+cfh_RangedRadius                        =    170.000 ; Attack range buffer distance for ranged responders to a Call For Help
+cfh_TurretRadius                        =      0.000 ; Attack range buffer distance for turret responders to a Call For Help
+
+; obj_AI_Base variables
+ai_DrawTargetLines                      =          0 ; Render AI Helper lines to targets
+ai_DrawPathLines                        =          0 ; Render Current Path
+ai_DrawBoundCylinder                    =          0 ; Render Bounding Cylinder
+ai_DrawAcquisitionRange                 =          0 ; Render acquisition range
+ai_DrawAttackRadius                     =          0 ; Render Attack Radius
+ai_DrawBoundBox                         =          0 ; Render Bounding Box
+ai_AIToggle                             =          1 ; Enable/disable AI
+ai_DrawActualPosition                   =          0 ; Draws the actual position a unit is at based on its pathfinding position.
+ai_PathIgnoresBuildings                 =          1 ; Should AI pathing ignore buildings and not take them into account in their lane positioning?
+ai_ExpRadius2                           =   1600.000 ; Radius for Experience sharing 
+ai_StartingGold                         =   1375.000 ; Gold granted on startup
+ai_DefaultPetReturnRadius               =    200.000 ; Default pet return radius
+
+; Attack Range variables
+ar_StopAttackRangeModifier              =    100.000 ;  
+ar_AICharmedAcquisitionRange            =   1000.000 ; The acquisition range for charmed units.
+
+; AI Attack target selection variables
+ai_TargetDistanceFactorPerNeightbor     =      0.600 ; Impact of each neighbor on the cost to selecting this target 
+ai_TargetDistanceFactorPerAttacker      =      0.800 ; Impact of each attacker on the cost to selecting this target 
+ai_TargetRangeFactor                    =      0.700 ; Impact o target strait line distance from source on cost estimate 
+ai_TargetPathFactor                     =      0.500 ; Impact of actual path distance from source to target on final cost 
+ai_MinionTargetingHeroBoost             =    150.000 ; Additional distance added to distance between to discourage minons attacking heroes
+ai_TargetMaxNumAttackers                =          5 ; Maximun number of attackers already attacking target
+
+; Spell Vamp variables
+sv_SpellRatio                           =      1.000 ; Spell Vamp ratio for DAMAGESOURCE_SPELL
+sv_SpellAoERatio                        =      0.333 ; Spell Vamp ratio for DAMAGESOURCE_SPELLAOE
+sv_SpellPersistRatio                    =      1.000 ; Spell Vamp ratio for DAMAGESOURCE_SPELLPERSIST
+sv_PeriodicRatio                        =      0.000 ; Spell Vamp ratio for DAMAGESOURCE_PERIODIC
+sv_ProcRatio                            =      0.000 ; Spell Vamp ratio for DAMAGESOURCE_PROC
+sv_ReactiveRatio                        =      0.000 ; Spell Vamp ratio for DAMAGESOURCE_REACTIVE
+sv_OnDeathRatio                         =      0.000 ; Spell Vamp ratio for DAMAGESOURCE_ONDEATH
+sv_PetRatio                             =      0.000 ; Spell Vamp ratio for DAMAGESOURCE_PET
+
+; obj_AI_Hero variables
+ai_AmbientGoldDelay                     =     90.000 ; Delay before first ambient gold tick
+ai_AmbientGoldInterval                  =      5.000 ; Interval between ambient gold ticks
+ai_AmbientGoldAmount                    =     28.000 ; Gold granted on ambient gold tick
+ai_DisableAmbientGoldWhileDead          =          0 ; Disable ambient gold while dead
+ai_AmbientXPDelay                       =      0.000 ; Delay before first ambient XP tick
+ai_AmbientXPInterval                    =      1.000 ; Interval between ambient XP ticks
+ai_AmbientXPAmount                      =      7.200 ; XP granted on ambient XP tick
+ai_DisableAmbientXPWhileDead            =          0 ; Disable ambient XP while dead
+ai_GoldLostPerLevel                     =      0.000 ; Gold lost per level when you die
+ai_TimeDeadPerLevel                     =      4.000 ; Time in seconds spent dead per level
+ai_GoldHandicapCoefficient              =      0.000 ; Coefficient for gold handicapping
+ai_MinionDenialPercentage               =      0.000 ; Minion denial percentage
+
+; Server Culling
+ser_ClosenessLineOfSightThresholdTurret =    200.000 ; Distances greater then this for turrets perform the LOS check, otherwise they don't.  This was put in because of all the collision around Turrets. 
+
+; Spell global variables
+sg_SpellGlobalCooldown                  =      0.000 ; Global Cooldown for spells in seconds
+sg_SpellGlobalCooldown_Avatar           =      0.000 ; Global Cooldown for avatar spells in seconds
+
+; Barracks Variables
+bar_bSpawnEnabled                       =          1 ; Enable/disable spawn from barracks
+bar_Armor                               =          0 ; armor
+bar_MaxHP                               =       4000 ; max hp
+
+; Spawn Point variables
+sp_RegenRadius                          =   1100.000 ; The spawn point will heal units in this radius.
+sp_HealthRegenPercent                   =      0.155 ; The percentage of max HP a unit will regenerate per tick.  A float value between 0.0 and 1.0.
+sp_ManaRegenPercent                     =      0.155 ; The percentage of max Mana a unit will regenerate per tick.  A float value between 0.0 and 1.0.
+sp_RegenTickInterval                    =      1.000 ; Interval between spawn point regen ticks.
+
+; Attack Flags
+ca_RevealAttackerRange                  =    400.000 ; The range of reveal for attackers
+ca_RevealAttackerTimeOut                =      4.500 ; The timeout for the reveal for attackers
+hud_targeting_reticle_height            =   -150.000 ; Height of the location circular location casting reticle
+
+; obj_BarracksDampener variables
+
+; obj_AI_Hero variables
+events_TimeForMultiKill                 =     10.000 ; Amount of time for something to be considered a multikill (double kill etc...)
+events_TimerForAssist                   =     10.000 ; Amount of time for something to be considered a multikill (double kill etc...)
+
+; obj_HQ variables
+
+; obj_AI_Minion variables
+
+; obj_AI_Turret variables
+
+; Tutorial variables
+tut_TutorialModeOn                      =          0 ; Flag to turn TutorialMode On/Off
+
+; HUD variables
+hud_BlinkFrequency                      =       1000 ; Sets the 'peak to peak' duration (in ms) of one pulse of the HUD highlight glow.
+hud_DefaultBlinkCount                   =          3 ; Sets the default number of pulses a HUD element will blink when highlighted.
+
+; Camera Variables
+cam_KeyboardOrbitSpeedX                 =    100.000 ; Keyboard Orbit Speed x axis
+cam_KeyboardOrbitSpeedY                 =     50.000 ; Keyboard Orbit Speed y axis
+cam_MinX                                =    450.000 ; Minimum X position of camera
+cam_MinY                                =    920.000 ; Minimum Y position of camera
+cam_MaxX                                =  13600.000 ; Maximum X position of camera
+cam_MaxY                                =  12500.000 ; Maximum Y position of camera
+
+; Cursor variables
+cr_SpellCastFlashTime                   =      2.000 ; How long the cursor flashes when you cast a targeted spell
+cr_MouseScrollSpeed                     =   3900.000 ; Mouse Scroll Speed
+
+; Attack Flags
+ca_MinCastRotationSpeed                 =    250.000 ; Whats the minimum speed we will rotate to face a target during a spell cast?
+
+; obj_AI_Base variables
+
+; Item and Inventory variables
+it_UseExplicitItemInclusion             =          0 ; Only the items explicitly listed in LEVELS\[MapName]\Items.ini will be in the store.
+
+; FOW
+
+; Attack Range variables
+ar_ClosingAttackRangeModifier           =    300.000 ;  

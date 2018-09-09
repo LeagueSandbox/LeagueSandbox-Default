@@ -1,0 +1,22 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "KogMawSkin08"
+    },
+    "SpellFXOverrideSkins": {
+        "1": "KogMawSkin08"
+    },
+    "BuffName": "KogMawBioArcaneBarrage",
+    "AutoBuffActivateAttachBoneName4": "Fossil_EyeR",
+    "AutoBuffActivateEffect": "KogMaw_Base_W_buf.troy",
+    "CastingBreaksStealth": true,
+    "BuffTextureName": "KogMaw_BioArcaneBarrage.dds",
+    "AutoBuffActivateAttachBoneName3": "Fossil_EyeL",
+    "AutoBuffActivateAttachBoneName": "C_Tail",
+    "DoesntBreakShields": true,
+    "AutoBuffActivateEffect4": "KogMaw_Fossile_Eye_Glow.troy",
+    "AutoBuffActivateEffect3": "KogMaw_Fossile_Eye_Glow.troy",
+    "AutoBuffActivateAttachBoneName2": "BUFFBONE_CSTM_ANGLER",
+    "IsDamagingSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "NotSingleTargetSpell": true
+}

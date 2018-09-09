@@ -1,0 +1,10 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "SorakaSkin04"
+    },
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "SpellFXOverrideSkins": {
+        "1": "SorakaSkin04"
+    }
+}

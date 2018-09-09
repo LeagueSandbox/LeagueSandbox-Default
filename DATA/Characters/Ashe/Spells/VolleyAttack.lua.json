@@ -1,0 +1,9 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "AsheSkin06"
+    },
+    "TriggersSpellCasts": false,
+    "SpellDamageRatio": 0.5,
+    "DoesntTriggerSpellCasts": true,
+    "NotSingleTargetSpell": true
+}

@@ -1,0 +1,7 @@
+{
+    "IsDamagingSpell": true,
+    "NonDispellable": true,
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "SpellToggleSlot": 1.0
+}

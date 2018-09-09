@@ -1,0 +1,13 @@
+{
+    "PersistsThroughDeath": true,
+    "BuffName": "IreliaIdleParticle",
+    "AutoBuffActivateAttachBoneName4": "",
+    "AutoBuffActivateEffect": "",
+    "AutoBuffActivateEffect4": "",
+    "AutoBuffActivateAttachBoneName3": "",
+    "AutoBuffActivateAttachBoneName": "",
+    "AutoBuffActivateEffect2": "",
+    "NonDispellable": true,
+    "AutoBuffActivateAttachBoneName2": "",
+    "AutoBuffActivateEffect3": ""
+}

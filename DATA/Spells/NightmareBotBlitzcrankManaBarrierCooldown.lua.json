@@ -1,0 +1,6 @@
+{
+    "NonDispellable": true,
+    "PersistsThroughDeath": true,
+    "BuffName": "BlitzcrankManaBarrierCD",
+    "BuffTextureName": "Blitzcrank_ManaBarrierCD.dds"
+}

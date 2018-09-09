@@ -1,0 +1,7 @@
+{
+    "BuffName": "Spell Shield",
+    "AutoBuffActivateEffect": "Sivir_Base_E_shield.troy",
+    "NotSingleTargetSpell": true,
+    "BuffTextureName": "Sivir_E.dds",
+    "DoesntTriggerSpellCasts": false
+}

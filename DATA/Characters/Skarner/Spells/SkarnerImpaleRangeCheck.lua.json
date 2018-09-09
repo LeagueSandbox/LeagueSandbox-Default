@@ -1,0 +1,10 @@
+{
+    "BuffName": "SkarnerImpale",
+    "DoesntBreakShields": false,
+    "IsDamagingSpell": true,
+    "PopupMessage1": "game_floatingtext_Suppressed",
+    "BuffTextureName": "SkarnerImpale.dds",
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "CastingBreaksStealth": true
+}

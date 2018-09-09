@@ -1,0 +1,10 @@
+{
+    "DoesntBreakShields": true,
+    "BuffName": "Heartseeker",
+    "SpellFXOverrideSkins": {
+        "1": "PantheonSkin06"
+    },
+    "CastingBreaksStealth": true,
+    "DoesntTriggerSpellCasts": false,
+    "ChannelDuration": 0.75
+}

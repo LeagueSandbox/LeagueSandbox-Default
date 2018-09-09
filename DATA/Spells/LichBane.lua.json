@@ -1,0 +1,8 @@
+{
+    "AutoBuffActivateAttachBoneName": "L_Buffbone_Glb_Hand_Loc",
+    "BuffName": "LichBane",
+    "AutoBuffActivateEffect": "purplehands_buf.troy",
+    "AutoBuffActivateAttachBoneName2": "R_Buffbone_Glb_Hand_Loc",
+    "BuffTextureName": "126_Zeal_and_Sheen.dds",
+    "AutoBuffActivateEffect2": "purplehands_buf.troy"
+}

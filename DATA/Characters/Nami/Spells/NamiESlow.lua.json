@@ -1,0 +1,9 @@
+{
+    "BuffName": "NamiESlowtt",
+    "IsDamagingSpell": true,
+    "PopupMessage1": "game_floatingtext_Slowed",
+    "AutoBuffActivateEffect": "Global_Slow.troy",
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "BuffTextureName": "NamiE.dds"
+}

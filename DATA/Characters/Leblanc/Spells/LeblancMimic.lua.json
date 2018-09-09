@@ -1,0 +1,8 @@
+{
+    "DoesntBreakShields": true,
+    "IsDamagingSpell": true,
+    "AutoBuffActivateEffect": "",
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "CastingBreaksStealth": true
+}

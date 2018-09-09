@@ -1,0 +1,12 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "BroOlaf"
+    },
+    "DoesntBreakShields": true,
+    "IsDamagingSpell": true,
+    "BuffName": "Malady",
+    "BuffTextureName": "3114_Malady.dds",
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "CastingBreaksStealth": true
+}

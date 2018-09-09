@@ -1,0 +1,10 @@
+{
+    "AutoBuffActivateAttachBoneName": "BUFFBONE_GLB_WEAPON_1",
+    "AutoBuffActivateAttachBoneName2": "BUFFBONE_GLB_WEAPON_1",
+    "BuffName": "IreliaHitenStyleCharged",
+    "AutoBuffActivateEffect2": "irelia_hitenStlye_active_glow.troy",
+    "AutoBuffActivateEffect": "irelia_hitenStyle_activate.troy",
+    "NotSingleTargetSpell": false,
+    "BuffTextureName": "Irelia_HitenStyle.dds",
+    "DoesntTriggerSpellCasts": false
+}

@@ -1,0 +1,16 @@
+{
+    "AutoBuffActivateAttachBoneName2": "pelvis",
+    "AutoCooldownByLevel": {
+        "1": 120.0,
+        "2": 100.0,
+        "3": 80.0,
+        "4": 10.0,
+        "5": 10.0
+    },
+    "BuffName": "Ferocious Howl",
+    "AutoBuffActivateEffect2": "feroscioushowl_cas2.troy",
+    "AutoBuffActivateEffect": "minatuar_unbreakableWill_cas.troy",
+    "NotSingleTargetSpell": true,
+    "BuffTextureName": "Minotaur_FerociousHowl.dds",
+    "DoesntTriggerSpellCasts": false
+}

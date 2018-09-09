@@ -1,0 +1,6 @@
+{
+    "NonDispellable": true,
+    "PersistsThroughDeath": true,
+    "BuffName": "AatroxPassiveActivate",
+    "BuffTextureName": "Aatrox_Passive_Cooldown.dds"
+}

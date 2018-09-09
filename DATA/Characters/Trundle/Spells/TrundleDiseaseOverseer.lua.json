@@ -1,0 +1,11 @@
+{
+    "PersistsThroughDeath": true,
+    "BuffName": "TrundleDiseaseOverseer",
+    "CastingBreaksStealth": false,
+    "BuffTextureName": "Trundle_W.dds",
+    "DoesntBreakShields": true,
+    "NonDispellable": true,
+    "IsDamagingSpell": false,
+    "DoesntTriggerSpellCasts": true,
+    "NotSingleTargetSpell": true
+}

@@ -1,0 +1,10 @@
+{
+    "DoesntBreakShields": true,
+    "IsDamagingSpell": false,
+    "SpellFXOverrideSkins": {
+        "1": "TPAShen"
+    },
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": true,
+    "CastingBreaksStealth": true
+}

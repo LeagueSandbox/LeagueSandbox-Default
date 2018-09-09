@@ -1,0 +1,6 @@
+{
+    "NonDispellable": true,
+    "PersistsThroughDeath": true,
+    "BuffName": "Visionary",
+    "BuffTextureName": "Yeti_FrostNova.dds"
+}

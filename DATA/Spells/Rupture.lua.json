@@ -1,0 +1,13 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "DandyChogath",
+        "2": "BattlecastChogath"
+    },
+    "DoesntBreakShields": true,
+    "IsDamagingSpell": true,
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "SpellFXOverrideSkins": {
+        "1": "BattlecastChogath"
+    }
+}

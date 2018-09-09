@@ -1,0 +1,9 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "TPAShen"
+    },
+    "BuffName": "Shen Vorpal Star",
+    "NotSingleTargetSpell": true,
+    "BuffTextureName": "Shen_VorpalBlade.dds",
+    "DoesntTriggerSpellCasts": false
+}

@@ -1,0 +1,8 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "VarusAscended"
+    },
+    "DoesntBreakShields": true,
+    "BuffTextureName": "VarusW.dds",
+    "BuffName": "VarusWDebuff"
+}

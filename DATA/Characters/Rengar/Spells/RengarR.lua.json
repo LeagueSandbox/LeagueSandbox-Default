@@ -1,0 +1,12 @@
+{
+    "SpellToggleSlot": 1.0,
+    "SpellFXOverrideSkins": {
+        "1": "HunterRengar"
+    },
+    "IsDamagingSpell": false,
+    "BuffName": "RengarRBuff",
+    "BuffTextureName": "RengarUlt.dds",
+    "CastingBreaksStealth": true,
+    "DoesntTriggerSpellCasts": false,
+    "NotSingleTargetSpell": true
+}

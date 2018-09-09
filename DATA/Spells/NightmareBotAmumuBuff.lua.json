@@ -1,0 +1,5 @@
+{
+    "PersistsThroughDeath": true,
+    "BuffName": "NightmareBotAmumuBuff",
+    "BuffTextureName": "SadMummy_AuraOfDespair.dds"
+}

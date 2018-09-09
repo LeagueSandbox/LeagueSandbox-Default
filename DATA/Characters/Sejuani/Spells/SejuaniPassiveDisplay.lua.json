@@ -1,0 +1,5 @@
+{
+    "PersistsThroughDeath": true,
+    "BuffName": "SejuaniPassiveDisplay",
+    "BuffTextureName": "Sejuani_Passive.dds"
+}

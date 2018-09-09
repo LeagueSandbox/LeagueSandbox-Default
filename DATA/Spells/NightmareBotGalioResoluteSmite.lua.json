@@ -1,0 +1,17 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "GatekeeperGalio"
+    },
+    "SpellFXOverrideSkins": {
+        "1": "GatekeeperGalio"
+    },
+    "BuffName": "GalioResoluteSmite",
+    "PopupMessage1": "game_floatingtext_Slowed",
+    "AutoBuffActivateEffect": "Global_Slow.troy",
+    "CastingBreaksStealth": true,
+    "BuffTextureName": "Galio_ResoluteSmite.dds",
+    "DoesntBreakShields": true,
+    "IsDamagingSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "NotSingleTargetSpell": true
+}

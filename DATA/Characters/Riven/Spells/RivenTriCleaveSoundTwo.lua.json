@@ -1,0 +1,9 @@
+{
+    "SpellDamageRatio": 0.5,
+    "IsDamagingSpell": true,
+    "SpellToggleSlot": 1.0,
+    "BuffName": "RivenTriCleaveBuff",
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "BuffTextureName": "RivenBrokenWings.dds"
+}

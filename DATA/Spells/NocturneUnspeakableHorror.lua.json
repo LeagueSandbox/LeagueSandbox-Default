@@ -1,0 +1,11 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "CyberNocturne"
+    },
+    "DoesntBreakShields": false,
+    "BuffName": "NocturneUnspeakableHorror",
+    "BuffTextureName": "Nocturne_UnspeakableHorror.dds",
+    "SpellFXOverrideSkins": {
+        "1": "CyberNocturne"
+    }
+}

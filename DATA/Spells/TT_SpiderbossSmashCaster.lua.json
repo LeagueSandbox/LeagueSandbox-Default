@@ -1,0 +1,6 @@
+{
+    "AutoBuffActivateEffect": "PropelGeyser.troy",
+    "AutoBuffActivateAttachBoneName": "root",
+    "BuffName": "TTSpiderbossSmash",
+    "BuffTextureName": "48thSlave_SoulDrain.dds"
+}

@@ -1,0 +1,10 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "MonkeyKingSkin04"
+    },
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": true,
+    "SpellFXOverrideSkins": {
+        "1": "MonkeyKingSkin04"
+    }
+}

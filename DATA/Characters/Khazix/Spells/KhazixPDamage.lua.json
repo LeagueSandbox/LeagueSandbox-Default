@@ -1,0 +1,14 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "KhazixDroid",
+        "2": "KhazixSkin02"
+    },
+    "BuffName": "KhazixPDamage",
+    "CastingBreaksStealth": true,
+    "BuffTextureName": "Khazix_P.dds",
+    "DoesntBreakShields": false,
+    "IsDeathRecapSource": true,
+    "IsDamagingSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "NotSingleTargetSpell": true
+}

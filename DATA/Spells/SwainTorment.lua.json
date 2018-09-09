@@ -1,0 +1,8 @@
+{
+    "DoesntBreakShields": false,
+    "IsDamagingSpell": true,
+    "BuffName": "SwainTormentDoT",
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "BuffTextureName": "SwainTorment.dds"
+}

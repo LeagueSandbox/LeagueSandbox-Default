@@ -1,0 +1,13 @@
+{
+    "BuffName": "Malice And Spite",
+    "AutoBuffActivateEffect": "evelyn_maliceSpite_buf.troy",
+    "NotSingleTargetSpell": true,
+    "BuffTextureName": "Evelynn_Drink.dds",
+    "AutoBuffActivateAttachBoneName3": "",
+    "AutoBuffActivateAttachBoneName": "l_hand",
+    "AutoBuffActivateEffect2": "evelyn_maliceSpite_buf.troy",
+    "AutoBuffActivateEffect3": "evelyn_maliceSpite_speed_buf.troy",
+    "AutoBuffActivateAttachBoneName2": "r_hand",
+    "DoesntTriggerSpellCasts": false,
+    "CastingBreaksStealth": false
+}

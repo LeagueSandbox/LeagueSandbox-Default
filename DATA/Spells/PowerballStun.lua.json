@@ -1,0 +1,8 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "MetalRammus",
+        "2": "RoboRammus"
+    },
+    "BuffName": "PowerballStun",
+    "BuffTextureName": "Armordillo_Powerball.dds"
+}

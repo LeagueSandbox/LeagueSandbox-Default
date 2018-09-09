@@ -1,0 +1,8 @@
+{
+    "AutoBuffActivateAttachBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+    "BuffName": "ItemSmiteShield",
+    "AutoBuffActivateEffect": "Global_SS_Smite_Duel_Shield.troy",
+    "NotSingleTargetSpell": true,
+    "BuffTextureName": "Shen_Feint.dds",
+    "DoesntTriggerSpellCasts": false
+}

@@ -1,0 +1,14 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "VeigarSkin08"
+    },
+    "DoesntBreakShields": true,
+    "IsDamagingSpell": true,
+    "SpellFXOverrideSkins": {
+        "1": "BadSantaVeigar",
+        "2": "VeigarSkin08"
+    },
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "CastingBreaksStealth": true
+}

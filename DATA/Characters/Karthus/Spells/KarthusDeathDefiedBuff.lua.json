@@ -1,0 +1,6 @@
+{
+    "NonDispellable": true,
+    "PersistsThroughDeath": true,
+    "BuffName": "Death Defied Buff",
+    "BuffTextureName": "Karthus_Passive.dds"
+}

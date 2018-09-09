@@ -1,0 +1,7 @@
+{
+    "IsDamagingSpell": true,
+    "BuffName": "ForcePulse",
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "BuffTextureName": "Kassadin_ForcePulse.dds"
+}

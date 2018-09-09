@@ -1,0 +1,13 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "AsheSkin06"
+    },
+    "BuffName": "Frost Arrow",
+    "PopupMessage1": "game_floatingtext_Slowed",
+    "AutoBuffActivateEffect": "Global_Freeze.troy",
+    "NotSingleTargetSpell": true,
+    "BuffTextureName": "Ashe_Q_Debuff.dds",
+    "DoesntBreakShields": true,
+    "DoesntTriggerSpellCasts": true,
+    "IsDeathRecapSource": true
+}

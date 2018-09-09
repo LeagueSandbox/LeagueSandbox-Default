@@ -1,0 +1,15 @@
+{
+    "AutoCooldownByLevel": {
+        "1": 22.0,
+        "2": 20.0,
+        "3": 18.0,
+        "4": 16.0,
+        "5": 14.0
+    },
+    "SpellFXOverrideSkins": {
+        "1": "NautilusAstronaut"
+    },
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "PersistsThroughDeath": true
+}

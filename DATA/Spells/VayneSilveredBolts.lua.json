@@ -1,0 +1,15 @@
+{
+    "PersistsThroughDeath": true,
+    "BuffName": "VayneSilverBolts",
+    "CastingBreaksStealth": true,
+    "BuffTextureName": "Vayne_SilveredBolts.dds",
+    "DoesntBreakShields": true,
+    "SpellFXOverrideSkins": {
+        "1": ""
+    },
+    "IsDeathRecapSource": true,
+    "SpellToggleSlot": 2.0,
+    "IsDamagingSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "NotSingleTargetSpell": false
+}

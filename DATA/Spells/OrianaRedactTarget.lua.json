@@ -1,0 +1,14 @@
+{
+    "PersistsThroughDeath": true,
+    "BuffName": "RenekthonCleaveReady",
+    "AutoBuffActivateEffect": "",
+    "NotSingleTargetSpell": false,
+    "BuffTextureName": "AkaliCrescentSlash.dds",
+    "AutoBuffActivateAttachBoneName": "",
+    "AutoBuffActivateEffect2": "",
+    "SpellToggleSlot": 1.0,
+    "NonDispellable": true,
+    "AutoBuffActivateEffect3": "",
+    "DoesntTriggerSpellCasts": false,
+    "AutoBuffActivateAttachBoneName2": ""
+}

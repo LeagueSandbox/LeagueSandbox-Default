@@ -1,0 +1,13 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "UnderworldTwistedFate"
+    },
+    "BuffName": "Wild Cards",
+    "AutoBuffActivateEffect": "SealFate_tar.troy",
+    "NotSingleTargetSpell": false,
+    "BuffTextureName": "Cardmaster_PowerCard.dds",
+    "AutoBuffActivateEffect2": "LOC_Silence.troy",
+    "NonDispellable": true,
+    "DoesntTriggerSpellCasts": false,
+    "AutoBuffActivateAttachBoneName2": "C_BUFFBONE_GLB_HEAD_LOC"
+}

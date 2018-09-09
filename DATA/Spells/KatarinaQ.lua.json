@@ -1,0 +1,16 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "SurprisePartyFiddlesticks",
+        "2": "XmasKatarina"
+    },
+    "BuffName": "Silence",
+    "AutoBuffActivateEffect": "LOC_Silence.troy",
+    "CastingBreaksStealth": true,
+    "BuffTextureName": "Fiddlesticks_DarkWind.dds",
+    "AutoBuffActivateAttachBoneName": "C_BUFFBONE_GLB_HEAD_LOC",
+    "DoesntBreakShields": false,
+    "SpellDamageRatio": 1.0,
+    "IsDamagingSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "NotSingleTargetSpell": false
+}

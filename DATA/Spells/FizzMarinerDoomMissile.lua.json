@@ -1,0 +1,11 @@
+{
+    "PersistsThroughDeath": true,
+    "IsDamagingSpell": true,
+    "SpellFXOverrideSkins": {
+        "1": "FizzSkin04"
+    },
+    "BuffName": "Dark Binding",
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": true,
+    "BuffTextureName": "FallenAngel_DarkBinding.dds"
+}

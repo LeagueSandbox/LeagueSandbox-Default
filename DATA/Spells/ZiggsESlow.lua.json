@@ -1,0 +1,11 @@
+{
+    "BuffName": "ZiggsESlow",
+    "PopupMessage1": "game_floatingtext_Slowed",
+    "AutoBuffActivateEffect": "GLOBAL_SLOW.TROY",
+    "CastingBreaksStealth": false,
+    "BuffTextureName": "ZiggsE.dds",
+    "DoesntBreakShields": true,
+    "IsDamagingSpell": true,
+    "DoesntTriggerSpellCasts": true,
+    "NotSingleTargetSpell": false
+}

@@ -1,0 +1,21 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "RumbleSkin03"
+    },
+    "SpellFXOverrideSkins": {
+        "1": "RumbleSkin03"
+    },
+    "BuffName": "RumbleFlameThrower",
+    "TriggersSpellCasts": true,
+    "NotSingleTargetSpell": true,
+    "BuffTextureName": "Rumble_Flamespitter.dds",
+    "AutoCooldownByLevel": {
+        "1": 20.0,
+        "2": 16.0,
+        "3": 12.0,
+        "4": 8.0,
+        "5": 4.0
+    },
+    "DoesntTriggerSpellCasts": false,
+    "DoesntBreakShields": true
+}

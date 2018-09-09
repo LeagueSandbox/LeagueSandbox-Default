@@ -1,0 +1,8 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "Lissandra_skin01"
+    },
+    "PersistsThroughDeath": true,
+    "BuffName": "LissandraPassiveReady",
+    "BuffTextureName": "Lissandra_Passive.dds"
+}

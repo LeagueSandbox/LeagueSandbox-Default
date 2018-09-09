@@ -1,0 +1,10 @@
+{
+    "AutoBuffActivateAttachBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+    "PersistsThroughDeath": true,
+    "BuffName": "StaticField",
+    "NonDispellable": true,
+    "AutoBuffActivateEffect": "StaticField_ready.troy",
+    "NotSingleTargetSpell": false,
+    "BuffTextureName": "Blitzcrank_StaticField.dds",
+    "DoesntTriggerSpellCasts": false
+}

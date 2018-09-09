@@ -1,0 +1,10 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "CyberEzreal"
+    },
+    "IsDamagingSpell": true,
+    "IsDeathRecapSource": true,
+    "CastingBreaksStealth": true,
+    "DoesntTriggerSpellCasts": true,
+    "NotSingleTargetSpell": false
+}

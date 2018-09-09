@@ -1,0 +1,9 @@
+{
+    "DoesntBreakShields": true,
+    "IsDamagingSpell": false,
+    "BuffName": "Cleanse",
+    "BuffTextureName": "Summoner_boost.dds",
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": true,
+    "CastingBreaksStealth": false
+}

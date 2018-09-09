@@ -1,0 +1,9 @@
+{
+    "PersistsThroughDeath": true,
+    "BuffName": "CardMasterStack",
+    "IsDeathRecapSource": true,
+    "NonDispellable": true,
+    "NotSingleTargetSpell": false,
+    "BuffTextureName": "Cardmaster_RapidToss.dds",
+    "DoesntTriggerSpellCasts": false
+}

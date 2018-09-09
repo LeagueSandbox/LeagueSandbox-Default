@@ -1,0 +1,10 @@
+{
+    "SpellToggleSlot": 1.0,
+    "DoesntBreakShields": true,
+    "IsDamagingSpell": true,
+    "BuffName": "Flash Frost",
+    "BuffTextureName": "Cryophoenix_FrigidOrb.dds",
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": true,
+    "CastingBreaksStealth": true
+}

@@ -1,0 +1,14 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "ReefMalphite",
+        "2": "GlacialMalphite"
+    },
+    "BuffName": "ZedRHandler",
+    "CastingBreaksStealth": true,
+    "BuffTextureName": "shadowninja_R2.dds",
+    "DoesntBreakShields": false,
+    "SpellToggleSlot": 4.0,
+    "IsDamagingSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "NotSingleTargetSpell": true
+}

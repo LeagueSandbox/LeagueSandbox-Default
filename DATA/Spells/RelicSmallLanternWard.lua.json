@@ -1,0 +1,8 @@
+{
+    "BuffName": "SightWard",
+    "AutoBuffActivateEffect2": "Ward_Sight_Idle.troy",
+    "AutoBuffActivateEffect": "Global_Trinket_MiniYellow.troy",
+    "NotSingleTargetSpell": true,
+    "BuffTextureName": "1020_Glowing_Orb.dds",
+    "DoesntTriggerSpellCasts": true
+}

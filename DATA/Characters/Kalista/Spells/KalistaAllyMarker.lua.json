@@ -1,0 +1,5 @@
+{
+    "PersistsThroughDeath": true,
+    "BuffName": "KalistaAllyMarker",
+    "BuffTextureName": "Ahri_SoulEater.dds"
+}

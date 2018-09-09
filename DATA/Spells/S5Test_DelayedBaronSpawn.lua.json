@@ -1,0 +1,9 @@
+{
+    "PersistsThroughDeath": true,
+    "IsDamagingSpell": true,
+    "BuffName": "Iceblast",
+    "NonDispellable": true,
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "BuffTextureName": "Yeti_IceBlast.dds"
+}

@@ -1,0 +1,12 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "HeadhunterNidalee"
+    },
+    "DoesntBreakShields": true,
+    "IsDamagingSpell": false,
+    "BuffName": "BushwhackDamage",
+    "BuffTextureName": "NIdalee_W1.dds",
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "CastingBreaksStealth": true
+}

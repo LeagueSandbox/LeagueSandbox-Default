@@ -1,0 +1,10 @@
+{
+    "IsDeathRecapSource": true,
+    "PersistsThroughDeath": true,
+    "IsDamagingSpell": true,
+    "SpellToggleSlot": 3.0,
+    "BuffName": "KarthusDefile",
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": true,
+    "BuffTextureName": "Karthus_E.dds"
+}

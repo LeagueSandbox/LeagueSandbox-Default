@@ -1,0 +1,14 @@
+{
+    "PersistsThroughDeath": true,
+    "BuffName": "VarusPassiveBuffDisplay",
+    "AutoBuffActivateEffect": "VarusPassive.troy",
+    "CastingBreaksStealth": false,
+    "BuffTextureName": "VarusPassive.dds",
+    "DoesntBreakShields": true,
+    "SpellFXOverrideSkins": {
+        "1": "VarusAscended"
+    },
+    "IsDamagingSpell": true,
+    "DoesntTriggerSpellCasts": true,
+    "NotSingleTargetSpell": false
+}

@@ -1,0 +1,10 @@
+{
+    "AutoBuffActivateAttachBoneName": "L_Buffbone_Glb_Hand_Loc",
+    "AutoBuffActivateAttachBoneName2": "R_Buffbone_Glb_Hand_Loc",
+    "BuffName": "Blood Boil",
+    "AutoBuffActivateEffect2": "bloodboil_buf.troy",
+    "AutoBuffActivateEffect": "bloodboil_buf.troy",
+    "NotSingleTargetSpell": false,
+    "BuffTextureName": "Yeti_YetiSmash.dds",
+    "DoesntTriggerSpellCasts": false
+}

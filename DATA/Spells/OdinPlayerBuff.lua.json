@@ -1,0 +1,5 @@
+{
+    "PersistsThroughDeath": true,
+    "BuffName": "OdinPlayerBuff",
+    "BuffTextureName": "CrystalScarsAura.dds"
+}

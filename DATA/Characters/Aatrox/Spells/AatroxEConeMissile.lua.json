@@ -1,0 +1,15 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "FrostShyvana",
+        "2": "AatroxSkin02"
+    },
+    "BuffName": "AatroxEConeMissile",
+    "PopupMessage1": "game_floatingtext_Slowed",
+    "AutoBuffActivateEffect": "global_slow.troy",
+    "NotSingleTargetSpell": false,
+    "BuffTextureName": "Aatrox_E.dds",
+    "DoesntBreakShields": true,
+    "IsDeathRecapSource": true,
+    "DoesntTriggerSpellCasts": true,
+    "IsDamagingSpell": true
+}

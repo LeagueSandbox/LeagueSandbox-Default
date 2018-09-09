@@ -1,0 +1,12 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "ZhaoYunXinZhao"
+    },
+    "SpellFXOverrideSkins": {
+        "1": "ZhaoYunXinZhao"
+    },
+    "IsDamagingSpell": true,
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": true,
+    "SpellDamageRatio": 0.5
+}

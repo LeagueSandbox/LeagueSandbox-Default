@@ -1,0 +1,13 @@
+{
+    "PersistsThroughDeath": true,
+    "BuffName": "FioraDuelistHot",
+    "AutoBuffActivateEffect": "",
+    "NotSingleTargetSpell": false,
+    "BuffTextureName": "Fiora_Duelist.dds",
+    "AutoBuffActivateAttachBoneName": "",
+    "AutoBuffActivateEffect2": "",
+    "NonDispellable": true,
+    "AutoBuffActivateEffect3": "",
+    "DoesntTriggerSpellCasts": false,
+    "AutoBuffActivateAttachBoneName2": ""
+}

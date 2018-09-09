@@ -1,0 +1,16 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "BloodkingVladimir"
+    },
+    "SpellFXOverrideSkins": {
+        "1": "BloodkingVladimir"
+    },
+    "BuffName": "VladimirSanguinePool",
+    "TriggersSpellCasts": true,
+    "NotSingleTargetSpell": false,
+    "BuffTextureName": "Vladimir_SanguinePool.dds",
+    "IsDeathRecapSource": true,
+    "IsDamagingSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "SpellToggleSlot": 4.0
+}

@@ -1,0 +1,5 @@
+{
+    "OnPreDamagePriority": 10.0,
+    "BuffName": "MordekaiserCOTGDot",
+    "BuffTextureName": "Mordekaiser_COTG.dds"
+}

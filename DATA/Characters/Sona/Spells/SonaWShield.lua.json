@@ -1,0 +1,13 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "GuqinSona",
+        "2": "PaxSona"
+    },
+    "DoesntBreakShields": false,
+    "IsDamagingSpell": true,
+    "BuffName": "SonaWShield",
+    "BuffTextureName": "Sona_W_Gold.dds",
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "CastingBreaksStealth": true
+}

@@ -1,0 +1,10 @@
+{
+    "BuffName": "Shen Stand United Channel",
+    "DoesntBreakShields": true,
+    "IsDamagingSpell": false,
+    "BuffTextureName": "Shen_StandUnited.dds",
+    "ChannelDuration": 3.0,
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "CastingBreaksStealth": true
+}

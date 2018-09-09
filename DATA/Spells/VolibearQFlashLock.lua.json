@@ -1,0 +1,7 @@
+{
+    "BuffName": "Haste",
+    "AutoBuffActivateEffect": "",
+    "NotSingleTargetSpell": true,
+    "BuffTextureName": "Summoner_haste.dds",
+    "DoesntTriggerSpellCasts": true
+}

@@ -1,0 +1,11 @@
+{
+    "DoesntBreakShields": true,
+    "IsDamagingSpell": true,
+    "AutoBuffActivateEvent": "",
+    "SpellFXOverrideSkins": {
+        "1": "PhoenixQuinn"
+    },
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "CastingBreaksStealth": true
+}

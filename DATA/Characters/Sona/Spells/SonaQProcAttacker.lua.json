@@ -1,0 +1,12 @@
+{
+    "AutoBuffActivateAttachBoneName": "L_Buffbone_Glb_Hand_Loc",
+    "SpellFXOverrideSkins": {
+        "1": "PaxSona"
+    },
+    "BuffName": "SonaQProcAttacker",
+    "AutoBuffActivateAttachBoneName2": "R_Buffbone_Glb_Hand_Loc",
+    "AutoBuffActivateEffect": "Sona_Base_Q_Buff.troy",
+    "SpellDamageRatio": 1.0,
+    "BuffTextureName": "Sona_Q_Gold.dds",
+    "AutoBuffActivateEffect2": "Sona_Base_Q_Buff.troy"
+}

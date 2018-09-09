@@ -1,0 +1,6 @@
+{
+    "NonDispellable": true,
+    "PersistsThroughDeath": true,
+    "BuffName": "ItemFeralFlarecounter",
+    "BuffTextureName": "3160_Feral_Flare.dds"
+}

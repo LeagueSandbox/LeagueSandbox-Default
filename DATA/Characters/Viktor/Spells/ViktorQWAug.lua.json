@@ -1,0 +1,8 @@
+{
+    "PersistsThroughDeath": true,
+    "IsDamagingSpell": true,
+    "BuffName": "ViktorQWAug",
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "BuffTextureName": "3197_Hexcore3.dds"
+}

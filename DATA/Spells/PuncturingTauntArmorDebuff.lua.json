@@ -1,0 +1,8 @@
+{
+    "AutoBuffActivateAttachBoneName": "",
+    "BuffName": "PuncturingTaunt",
+    "AutoBuffActivateEffect": "",
+    "NotSingleTargetSpell": true,
+    "BuffTextureName": "Armordillo_ScaledPlating.dds",
+    "DoesntTriggerSpellCasts": false
+}

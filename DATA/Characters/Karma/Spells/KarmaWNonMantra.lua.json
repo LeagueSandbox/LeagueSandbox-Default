@@ -1,0 +1,29 @@
+{
+    "BuffName": "Spell Flux",
+    "CastingBreaksStealth": true,
+    "BuffTextureName": "Ryze_LightningFlux.dds",
+    "DoesntBreakShields": false,
+    "AutoCooldownByLevel": {
+        "1": 150.0,
+        "2": 120.0,
+        "3": 90.0
+    },
+    "ChainMissileParameters": {
+        "CanHitCaster": 1.0,
+        "CanHitFriends": 0.0,
+        "CanHitSameTargetConsecutively": 0.0,
+        "MaximumHits": {
+            "1": 5.0,
+            "2": 5.0,
+            "3": 5.0,
+            "4": 5.0,
+            "5": 5.0
+        },
+        "CanHitEnemies": 1.0,
+        "CanHitSameTarget": 1.0
+    },
+    "SpellDamageRatio": 1.0,
+    "IsDamagingSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "NotSingleTargetSpell": false
+}

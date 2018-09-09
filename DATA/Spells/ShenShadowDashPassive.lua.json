@@ -1,0 +1,6 @@
+{
+    "NonDispellable": true,
+    "PersistsThroughDeath": true,
+    "BuffName": "Shen Shadow Dash",
+    "BuffTextureName": "Shen_ShadowDash.dds"
+}

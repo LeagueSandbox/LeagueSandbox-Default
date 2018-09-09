@@ -1,0 +1,13 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "KogMawSkin08"
+    },
+    "SpellFXOverrideSkins": {
+        "1": "KogMawSkin08"
+    },
+    "IsDamagingSpell": true,
+    "BuffName": "EzrealEssenceFluxBuff",
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "BuffTextureName": "KogMaw_VoidOoze.dds"
+}

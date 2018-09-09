@@ -1,0 +1,10 @@
+{
+    "AutoBuffActivateAttachBoneName": "C_Buffbone_Glb_Center_Loc",
+    "PersistsThroughDeath": true,
+    "BuffName": "Elixer of Elusiveness",
+    "NonDispellable": true,
+    "AutoBuffActivateEffect": "PotionofElusiveness_itm.troy",
+    "NotSingleTargetSpell": true,
+    "BuffTextureName": "2038_Potion_of_Elusiveness.dds",
+    "DoesntTriggerSpellCasts": true
+}

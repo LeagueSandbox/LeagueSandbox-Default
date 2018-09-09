@@ -1,0 +1,6 @@
+{
+    "NonDispellable": true,
+    "PersistsThroughDeath": true,
+    "BuffName": "RenektonPredator",
+    "BuffTextureName": "Renekton_Predator.dds"
+}

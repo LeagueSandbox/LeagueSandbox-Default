@@ -1,0 +1,24 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "BroOlaf"
+    },
+    "AutoBuffActivateEffect3": "olaf_ragnorok_buff.troy",
+    "BuffName": "OlafRagnarok",
+    "AutoBuffActivateAttachBoneName4": "R_BUFFBONE_GLB_HAND_LOC",
+    "AutoBuffActivateEffect": "olaf_ragnorok_shield_02.troy",
+    "CastingBreaksStealth": true,
+    "BuffTextureName": "OlafRagnarok.dds",
+    "AutoBuffActivateAttachBoneName3": "L_BUFFBONE_GLB_HAND_LOC",
+    "AutoCooldownByLevel": {
+        "1": 120.0,
+        "2": 120.0,
+        "3": 120.0
+    },
+    "DoesntBreakShields": true,
+    "AutoBuffActivateEffect2": "olaf_ragnorok_shield_01.troy",
+    "AutoBuffActivateEffect4": "olaf_ragnorok_buff.troy",
+    "NonDispellable": true,
+    "IsDamagingSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "NotSingleTargetSpell": true
+}

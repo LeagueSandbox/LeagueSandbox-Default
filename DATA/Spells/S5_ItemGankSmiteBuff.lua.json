@@ -1,0 +1,6 @@
+{
+    "Nondispellable": true,
+    "PersistsThroughDeath": true,
+    "BuffName": "S5_ItemDuelSmiteBuff",
+    "BuffTextureName": "Summoner_clairvoyance.dds"
+}

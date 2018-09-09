@@ -1,0 +1,9 @@
+{
+    "DoesntBreakShields": true,
+    "IsDamagingSpell": true,
+    "BuffName": "RipsawWHealthCost",
+    "BuffTextureName": "DrMundo_AdrenalineRush.dds",
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": true,
+    "CastingBreaksStealth": false
+}

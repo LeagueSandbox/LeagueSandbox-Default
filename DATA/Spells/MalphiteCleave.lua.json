@@ -1,0 +1,11 @@
+{
+    "PersistsThroughDeath": true,
+    "IsDamagingSpell": true,
+    "CastingBreaksStealth": true,
+    "BuffTextureName": "Malphite_BrutalStrikes.dds",
+    "DoesntBreakShields": true,
+    "NonDispellable": true,
+    "IsDeathRecapSource": true,
+    "DoesntTriggerSpellCasts": true,
+    "BuffName": "MalphiteCleave"
+}

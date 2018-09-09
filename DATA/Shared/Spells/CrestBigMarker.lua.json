@@ -1,0 +1,6 @@
+{
+    "NonDispellable": true,
+    "PersistsThroughDeath": true,
+    "BuffName": "CrestoftheAncientGolem",
+    "BuffTextureName": "48thSlave_Tattoo.dds"
+}

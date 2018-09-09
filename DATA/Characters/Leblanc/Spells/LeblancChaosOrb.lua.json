@@ -1,0 +1,20 @@
+{
+    "SetSpellDamageRatio": 1.0,
+    "SpellFXOverrideSkins": {
+        "1": "LeblancSkin04"
+    },
+    "BuffName": "LeblancMarkOfSilence",
+    "TriggersSpellCasts": true,
+    "NotSingleTargetSpell": false,
+    "BuffTextureName": "LeblancMarkOfSilence.dds",
+    "AutoCooldownByLevel": {
+        "1": 16.0,
+        "2": 14.0,
+        "3": 12.0,
+        "4": 10.0,
+        "5": 8.0
+    },
+    "NonDispellable": true,
+    "DoesntTriggerSpellCasts": false,
+    "IsDamagingSpell": true
+}

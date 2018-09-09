@@ -1,0 +1,8 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "JaxSkin08"
+    },
+    "IsDeathRecapSource": true,
+    "BuffName": "JaxRelentlessAttack",
+    "BuffTextureName": "Armsmaster_CoupDeGrace.dds"
+}

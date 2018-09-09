@@ -1,0 +1,9 @@
+{
+    "DoesntBreakShields": false,
+    "IsDamagingSpell": true,
+    "BuffName": "IreliaTranscendentBlades",
+    "BuffTextureName": "Irelia_TranscendentBladesReady.dds",
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "CastingBreaksStealth": true
+}

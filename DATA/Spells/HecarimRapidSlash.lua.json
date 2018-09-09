@@ -1,0 +1,14 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "HecarimArcade"
+    },
+    "PersistsThroughDeath": true,
+    "BuffName": "HecarimRapidSlash",
+    "TriggersSpellCasts": true,
+    "SpellFXOverrideSkins": {
+        "1": "HecarimArcade"
+    },
+    "NotSingleTargetSpell": true,
+    "BuffTextureName": "Hecarim_Rampage.dds",
+    "DoesntTriggerSpellCasts": false
+}

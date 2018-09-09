@@ -1,0 +1,10 @@
+{
+    "AutoBuffActivateAttachBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+    "PersistsThroughDeath": true,
+    "BuffName": "ElixirOfRuin",
+    "NonDispellable": true,
+    "AutoBuffActivateEffect": "Global_item_ElixirOfRuin_Buff.troy",
+    "NotSingleTargetSpell": true,
+    "BuffTextureName": "2137_ElixirOfRuin.dds",
+    "DoesntTriggerSpellCasts": true
+}

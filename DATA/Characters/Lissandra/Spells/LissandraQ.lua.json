@@ -1,0 +1,18 @@
+{
+    "DoesntBreakShields": true,
+    "SpellFXOverrideSkins": {
+        "1": "Lissandra_skin01",
+        "2": "lissandraSkin02"
+    },
+    "TriggersSpellCasts": true,
+    "IsDeathRecapSource": true,
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "AutoCooldownByLevel": {
+        "1": 20.0,
+        "2": 16.0,
+        "3": 12.0,
+        "4": 8.0,
+        "5": 4.0
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "PersistsThroughDeath": true,
+    "BuffName": "Enchantment_Slayer_Stacks",
+    "NotSingleTargetSpell": true,
+    "BuffTextureName": "139_Strygwyrs_Reaver.dds",
+    "DoesntTriggerSpellCasts": false
+}

@@ -1,0 +1,5 @@
+{
+    "PersistsThroughDeath": true,
+    "BuffName": "NightmareBotEzrealBuff",
+    "BuffTextureName": "Ezreal_TrueshotBarrage.dds"
+}

@@ -1,0 +1,6 @@
+{
+    "AutoBuffActivateEffect": "TT_masterbuff1.troy",
+    "NonDispellable": true,
+    "BuffName": "TreelineMasterBuffT1Right",
+    "BuffTextureName": "TreelineMasterBuffT1Right.dds"
+}

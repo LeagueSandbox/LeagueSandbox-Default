@@ -1,0 +1,5 @@
+{
+    "PersistsThroughDeath": true,
+    "BuffName": "SkarnerPassive",
+    "BuffTextureName": "Skarner_Passive.dds"
+}

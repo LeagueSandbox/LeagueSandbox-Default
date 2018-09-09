@@ -1,0 +1,5 @@
+{
+    "PersistsThroughDeath": true,
+    "BuffName": "ViWMarker",
+    "BuffTextureName": "ViW.dds"
+}

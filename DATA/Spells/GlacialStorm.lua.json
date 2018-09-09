@@ -1,0 +1,13 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "BlackIceAnivia"
+    },
+    "BuffName": "GlacialStorm",
+    "CastingBreaksStealth": true,
+    "BuffTextureName": "Cryophoenix_GlacialStorm.dds",
+    "DoesntBreakShields": true,
+    "SpellToggleSlot": 4.0,
+    "IsDamagingSpell": true,
+    "DoesntTriggerSpellCasts": true,
+    "NotSingleTargetSpell": true
+}

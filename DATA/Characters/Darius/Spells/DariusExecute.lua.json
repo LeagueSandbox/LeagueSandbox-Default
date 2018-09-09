@@ -1,0 +1,12 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "DariusSkin04"
+    },
+    "PersistsThroughDeath": true,
+    "IsDamagingSpell": true,
+    "SpellFXOverrideSkins": {
+        "1": "Darius_ZaunKnight",
+        "2": "Darius_NorseKing",
+        "3": "DariusSkin04"
+    }
+}

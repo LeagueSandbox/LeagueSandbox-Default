@@ -1,0 +1,10 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "DravenSkin03"
+    },
+    "BuffName": "DravenFury",
+    "AutoBuffActivateEffect": "Draven_Base_W_move_buf.troy",
+    "NotSingleTargetSpell": true,
+    "BuffTextureName": "Draven_Bloodrage.dds",
+    "DoesntTriggerSpellCasts": false
+}

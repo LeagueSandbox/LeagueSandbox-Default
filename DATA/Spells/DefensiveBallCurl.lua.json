@@ -1,0 +1,7 @@
+{
+    "BuffName": "DefensiveBallCurl",
+    "SpellToggleSlot": 2.0,
+    "NotSingleTargetSpell": true,
+    "BuffTextureName": "Armordillo_ShellBash.dds",
+    "DoesntTriggerSpellCasts": false
+}

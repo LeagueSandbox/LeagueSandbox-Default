@@ -1,0 +1,16 @@
+{
+    "DoesntBreakShields": true,
+    "SpellFXOverrideSkins": {
+        "1": ""
+    },
+    "IsDeathRecapSource": true,
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "AutoCooldownByLevel": {
+        "1": 20.0,
+        "2": 18.0,
+        "3": 16.0,
+        "4": 14.0,
+        "5": 12.0
+    }
+}

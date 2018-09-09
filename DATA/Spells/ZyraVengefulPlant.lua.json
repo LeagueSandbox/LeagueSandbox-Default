@@ -1,0 +1,8 @@
+{
+    "AutoBuffActivateAttachBoneName": "Vine_5",
+    "IsDamagingSpell": true,
+    "AutoBuffActivateEffect": "Temp_Zyra_Plant_Enrage.troy",
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "SpellDamageRatio": 1.0
+}

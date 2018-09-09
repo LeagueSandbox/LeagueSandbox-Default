@@ -1,0 +1,6 @@
+{
+    "NonDispellable": true,
+    "PersistsThroughDeath": true,
+    "BuffName": "AatroxWtt",
+    "BuffTextureName": "Aatrox_SunderingStrikes.dds"
+}

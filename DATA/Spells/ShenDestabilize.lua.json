@@ -1,0 +1,10 @@
+{
+    "BuffName": "Shen Destabilize",
+    "DoesntBreakShields": true,
+    "IsDamagingSpell": false,
+    "TriggersSpellCasts": true,
+    "BuffTextureName": "GSB_Stun.dds",
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "CastingBreaksStealth": true
+}

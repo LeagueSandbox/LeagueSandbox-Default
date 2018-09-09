@@ -1,0 +1,6 @@
+{
+    "BuffTextureName": "Kalista_R.dds",
+    "AutoBuffActivateEffect4": "Kalista_Base_R_Zhonyas_Sound.troy",
+    "BuffName": "KalistaRInvuln",
+    "AutoBuffActivateAttachBoneName4": "C_Buffbone_Glb_Head_Loc"
+}

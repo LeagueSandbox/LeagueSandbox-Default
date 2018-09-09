@@ -1,0 +1,14 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "RivenSkin05"
+    },
+    "BuffName": "RivenFeint",
+    "AutoBuffActivateEffect": "Riven_Base_E_Shield.troy",
+    "CastingBreaksStealth": true,
+    "BuffTextureName": "RivenPathoftheExile.dds",
+    "DoesntBreakShields": true,
+    "OnPreDamagePriority": 3.0,
+    "IsDamagingSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "NotSingleTargetSpell": false
+}

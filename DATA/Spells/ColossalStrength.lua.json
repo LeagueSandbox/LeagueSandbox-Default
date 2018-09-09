@@ -1,0 +1,6 @@
+{
+    "NonDispellable": true,
+    "PersistsThroughDeath": true,
+    "BuffName": "Colossal Strength",
+    "BuffTextureName": "Minotaur_ColossalStrength.dds"
+}

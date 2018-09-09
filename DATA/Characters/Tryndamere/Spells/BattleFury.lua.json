@@ -1,0 +1,6 @@
+{
+    "NonDispellable": true,
+    "PersistsThroughDeath": true,
+    "BuffName": "Battle Fury",
+    "BuffTextureName": "Tryndamere_Passive.dds"
+}

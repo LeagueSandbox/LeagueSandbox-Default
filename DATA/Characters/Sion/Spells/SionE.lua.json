@@ -1,0 +1,12 @@
+{
+    "BuffName": "Death's Caress",
+    "CastingBreaksStealth": false,
+    "BuffTextureName": "Sion_E.dds",
+    "DoesntBreakShields": true,
+    "AutoBuffActivateEvent": "DeathsCaress_buf.troy",
+    "DoOnPreDamageInExpirationOrder": true,
+    "OnPreDamagePriority": 3.0,
+    "IsDamagingSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "NotSingleTargetSpell": true
+}

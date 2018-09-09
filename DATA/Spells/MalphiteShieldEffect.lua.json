@@ -1,0 +1,10 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "MalphiteSkin06"
+    },
+    "BuffName": "MalphiteObduracyEffect",
+    "NonDispellable": true,
+    "DoOnPreDamageInExpirationOrder": true,
+    "BuffTextureName": "Malphite_GraniteShield.dds",
+    "OnPreDamagePriority": 3.0
+}

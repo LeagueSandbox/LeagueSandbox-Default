@@ -1,0 +1,6 @@
+{
+    "NonDispellable": true,
+    "PersistsThroughDeath": true,
+    "BuffName": "LeonaSunlightPassive",
+    "BuffTextureName": "LeonaSunlight.dds"
+}

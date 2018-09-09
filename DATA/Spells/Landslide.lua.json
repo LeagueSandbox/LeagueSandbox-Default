@@ -1,0 +1,15 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "MalphiteSkin06"
+    },
+    "DoesntBreakShields": false,
+    "IsDamagingSpell": true,
+    "SpellFXOverrideSkins": {
+        "1": "ReefMalphite",
+        "2": "GlacialMalphite",
+        "3": "MalphiteSkin06"
+    },
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "CastingBreaksStealth": true
+}

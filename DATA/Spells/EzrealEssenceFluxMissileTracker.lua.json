@@ -1,0 +1,12 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "CyberEzreal"
+    },
+    "DoesntBreakShields": false,
+    "IsDamagingSpell": true,
+    "BuffName": "EzrealEssenceFluxBuff",
+    "BuffTextureName": "Ezreal_EssenceFlux.dds",
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "CastingBreaksStealth": true
+}

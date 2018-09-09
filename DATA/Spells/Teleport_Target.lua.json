@@ -1,0 +1,5 @@
+{
+    "PersistsThroughDeath": true,
+    "BuffName": "Teleport_Target",
+    "BuffTextureName": "Summoner_teleport.dds"
+}

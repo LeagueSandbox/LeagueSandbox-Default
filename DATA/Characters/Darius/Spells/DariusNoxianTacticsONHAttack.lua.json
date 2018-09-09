@@ -1,0 +1,13 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "DariusSkin04"
+    },
+    "SpellFXOverrideSkins": {
+        "1": "DariusSkin04"
+    },
+    "IsDamagingSpell": true,
+    "TriggersSpellCasts": true,
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "BuffTextureName": "Wolfman_SeverArmor.dds"
+}

@@ -1,0 +1,6 @@
+{
+    "NonDispellable": true,
+    "PersistsThroughDeath": true,
+    "BuffName": "APBonusDamageToTowers",
+    "BuffTextureName": "Minotaur_ColossalStrength.dds"
+}

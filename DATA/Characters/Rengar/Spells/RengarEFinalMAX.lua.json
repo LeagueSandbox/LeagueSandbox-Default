@@ -1,0 +1,20 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "HunterRengar"
+    },
+    "BuffName": "RengarERoot",
+    "PopupMessage1": "game_floatingtext_Snared",
+    "NotSingleTargetSpell": false,
+    "BuffTextureName": "RengarEReg.dds",
+    "AutoCooldownByLevel": {
+        "1": 12.0,
+        "2": 11.0,
+        "3": 10.0,
+        "4": 9.0,
+        "5": 8.0
+    },
+    "IsDeathRecapSource": true,
+    "DoesntBreakShields": false,
+    "DoesntTriggerSpellCasts": true,
+    "IsDamagingSpell": true
+}

@@ -1,0 +1,9 @@
+{
+    "AutoBuffActivateAttachBoneName": "C_Buffbone_GLb_Head_Loc",
+    "SpellFXOverrideSkins": {
+        "1": "SteelLegionLux"
+    },
+    "BuffName": "LuxIlluminatingFraulein",
+    "AutoBuffActivateEffect": "LuxDebuff.troy",
+    "BuffTextureName": "LuxIlluminatingFraulein.dds"
+}

@@ -1,0 +1,6 @@
+{
+    "BuffName": "ItemSmiteWeakness",
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "BuffTextureName": "SadMummy_AuraOfDespair.dds"
+}

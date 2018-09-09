@@ -1,0 +1,19 @@
+{
+    "BuffName": "SummonerBattleCry",
+    "AutoBuffActivateAttachBoneName4": "",
+    "AutoBuffActivateEffect": "Summoner_cast.troy",
+    "NotSingleTargetSpell": true,
+    "BuffTextureName": "Summoner_BattleCry.dds",
+    "AutoBuffActivateAttachBoneName3": "",
+    "AutoBuffActivateAttachBoneName": "",
+    "AutoCooldownByLevel": {
+        "1": 90.0,
+        "2": 90.0,
+        "3": 90.0
+    },
+    "AutoBuffActivateEffect2": "summoner_battlecry.troy",
+    "AutoBuffActivateEffect4": "",
+    "AutoBuffActivateEffect3": "summoner_battlecry_oc.troy",
+    "DoesntTriggerSpellCasts": true,
+    "AutoBuffActivateAttachBoneName2": ""
+}

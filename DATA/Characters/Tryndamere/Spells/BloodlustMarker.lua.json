@@ -1,0 +1,7 @@
+{
+    "PersistsThroughDeath": true,
+    "BuffName": "Blood Lust",
+    "AutoBuffActivateEffect": "",
+    "BuffTextureName": "DarkChampion_Bloodlust.dds",
+    "NonDispellable": true
+}

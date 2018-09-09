@@ -1,0 +1,6 @@
+{
+    "PersistsThroughDeath": true,
+    "DoesntBreakShields": true,
+    "BuffName": "RengarPassive",
+    "IsDeathRecapSource": true
+}

@@ -1,0 +1,7 @@
+{
+    "BuffName": "ZephyrsLamentBurn",
+    "IsDeathRecapSource": true,
+    "NotSingleTargetSpell": true,
+    "BuffTextureName": "3151_Liandrys_Lament.dds",
+    "DoesntTriggerSpellCasts": false
+}

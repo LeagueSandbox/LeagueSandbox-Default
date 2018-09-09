@@ -1,0 +1,18 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "ZombieBrand",
+        "2": "CyberNocturne"
+    },
+    "SpellFXOverrideSkins": {
+        "1": "OktoberGragas",
+        "2": "MetalWingedJudicator",
+        "3": "ClericSoraka",
+        "4": "SpiritUdyr"
+    },
+    "BuffName": "Recall",
+    "BuffTextureName": "RecallHome.dds",
+    "ChannelDuration": 8.0,
+    "CastingBreaksStealth": true,
+    "DoesntTriggerSpellCasts": true,
+    "NotSingleTargetSpell": true
+}

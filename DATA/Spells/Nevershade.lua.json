@@ -1,0 +1,6 @@
+{
+    "NonDispellable": true,
+    "PersistsThroughDeath": true,
+    "BuffName": "Nevershade",
+    "BuffTextureName": "DrMundo_AdrenalineRush.dds"
+}

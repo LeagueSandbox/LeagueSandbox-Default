@@ -1,0 +1,14 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "KhazixDroid"
+    },
+    "SpellFXOverrideSkins": {
+        "1": "KhazixDroid",
+        "2": "KhazixSkin02"
+    },
+    "IsDamagingSpell": true,
+    "TriggersSpellCasts": true,
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "BuffTextureName": "Wolfman_SeverArmor.dds"
+}

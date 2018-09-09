@@ -1,0 +1,13 @@
+{
+    "AutoCooldownByLevel": {
+        "1": 150.0,
+        "2": 135.0,
+        "3": 120.0
+    },
+    "BuffName": "Destiny",
+    "SpellDamageRatio": 0.75,
+    "AutoBuffActivateEffect": "DestinyEye.troy",
+    "NotSingleTargetSpell": true,
+    "BuffTextureName": "Destiny_temp.dds",
+    "DoesntTriggerSpellCasts": false
+}

@@ -1,0 +1,16 @@
+{
+    "PersistsThroughDeath": true,
+    "BuffName": "ZiggsPassiveBuff",
+    "CastingBreaksStealth": false,
+    "BuffTextureName": "ZiggsPassiveReady.dds",
+    "DoesntBreakShields": true,
+    "SpellFXOverrideSkins": {
+        "1": "ZiggsMadScientist",
+        "2": "ZiggsPoolParty",
+        "3": "ZiggsSnowday"
+    },
+    "IsDeathRecapSource": true,
+    "IsDamagingSpell": true,
+    "DoesntTriggerSpellCasts": true,
+    "NotSingleTargetSpell": false
+}

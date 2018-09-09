@@ -1,0 +1,12 @@
+{
+    "BuffName": "FioraFlurryMS",
+    "AutoBuffActivateEffect": "Fiora_Flurry_MS.troy",
+    "NotSingleTargetSpell": true,
+    "BuffTextureName": "Fiora_BurstofSpeed.dds",
+    "AutoBuffActivateAttachBoneName": "",
+    "AutoBuffActivateEffect2": "",
+    "SpellToggleSlot": 3.0,
+    "AutoBuffActivateEffect3": "",
+    "DoesntTriggerSpellCasts": false,
+    "AutoBuffActivateAttachBoneName2": ""
+}

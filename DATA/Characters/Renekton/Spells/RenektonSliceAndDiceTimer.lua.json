@@ -1,0 +1,13 @@
+{
+    "PersistsThroughDeath": true,
+    "BuffName": "RenekthonSliceAndDiceDelay",
+    "AutoBuffActivateEffect": "",
+    "NotSingleTargetSpell": false,
+    "BuffTextureName": "Renekton_SliceAndDiceDelay.dds",
+    "AutoBuffActivateAttachBoneName": "",
+    "AutoBuffActivateEffect2": "",
+    "NonDispellable": true,
+    "AutoBuffActivateEffect3": "",
+    "DoesntTriggerSpellCasts": false,
+    "AutoBuffActivateAttachBoneName2": ""
+}

@@ -1,0 +1,29 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "XerathDarkIron"
+    },
+    "SpellFXOverrideSkins": {
+        "1": "IronForgeXerath"
+    },
+    "IsDamagingSpell": false,
+    "NotSingleTargetSpell": true,
+    "BuffTextureName": "Xerath_Q1.dds",
+    "DoesntBreakShields": true,
+    "ChainMissileParameters": {
+        "CanHitCaster": 0.0,
+        "CanHitFriends": 0.0,
+        "CanHitSameTargetConsecutively": 0.0,
+        "MaximumHits": {
+            "1": 4.0,
+            "2": 4.0,
+            "3": 4.0,
+            "4": 4.0,
+            "5": 4.0
+        },
+        "CanHitEnemies": 1.0,
+        "CanHitSameTarget": 0.0
+    },
+    "OnPreDamagePriority": 3.0,
+    "DoesntTriggerSpellCasts": false,
+    "SpellToggleSlot": 1.0
+}

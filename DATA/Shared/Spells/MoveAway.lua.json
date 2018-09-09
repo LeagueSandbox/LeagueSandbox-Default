@@ -1,0 +1,10 @@
+{
+    "BuffTextureName": "Minotaur_TriumphantRoar.dds",
+    "DoesntBreakShields": false,
+    "IsDamagingSpell": false,
+    "BuffName": "MoveAway",
+    "NonDispellable": true,
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "CastingBreaksStealth": false
+}

@@ -1,0 +1,8 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "AzirSkin01"
+    },
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "IsDamagingSpell": true
+}

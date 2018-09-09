@@ -1,0 +1,29 @@
+{
+    "PersistsThroughDeath": true,
+    "BuffName": "KhazixR",
+    "CastingBreaksStealth": true,
+    "BuffTextureName": "Khazix_R_count.dds",
+    "DoesntBreakShields": true,
+    "SpellFXOverrideSkins": {
+        "1": "KhazixDroid",
+        "2": "KhazixSkin02"
+    },
+    "ChainMissileParameters": {
+        "CanHitCaster": 0.0,
+        "CanHitFriends": 0.0,
+        "CanHitSameTargetConsecutively": 0.0,
+        "MaximumHits": {
+            "1": 10.0,
+            "2": 10.0,
+            "3": 10.0,
+            "4": 10.0,
+            "5": 10.0
+        },
+        "CanHitEnemies": 1.0,
+        "CanHitSameTarget": 0.0
+    },
+    "SpellToggleSlot": 4.0,
+    "IsDamagingSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "NotSingleTargetSpell": false
+}

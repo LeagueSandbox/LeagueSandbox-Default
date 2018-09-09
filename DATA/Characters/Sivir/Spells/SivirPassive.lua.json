@@ -1,0 +1,6 @@
+{
+    "NonDispellable": true,
+    "PersistsThroughDeath": true,
+    "BuffName": "SivirPassive",
+    "BuffTextureName": "Sivir_Passive.dds"
+}

@@ -1,0 +1,12 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "ReefMalphite"
+    },
+    "DoesntBreakShields": false,
+    "IsDamagingSpell": true,
+    "BuffName": "KhazixQCheck",
+    "BuffTextureName": "SkarnerVirulentSlash.dds",
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "CastingBreaksStealth": true
+}

@@ -1,0 +1,8 @@
+{
+    "IsDamagingSpell": true,
+    "PopupMessage1": "game_floatingtext_Snared",
+    "BuffName": "Rune Prison",
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "BuffTextureName": "Ryze_PowerOverwhelming.dds"
+}

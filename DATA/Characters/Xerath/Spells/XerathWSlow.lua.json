@@ -1,0 +1,12 @@
+{
+    "BuffName": "Slow",
+    "SpellFXOverrideSkins": {
+        "1": "CyberEzreal"
+    },
+    "IsDamagingSpell": true,
+    "PopupMessage1": "game_floatingtext_Slowed",
+    "AutoBuffActivateEffect": "GLOBAL_SLOW.TROY",
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "BuffTextureName": "Chronokeeper_Timestop.dds"
+}

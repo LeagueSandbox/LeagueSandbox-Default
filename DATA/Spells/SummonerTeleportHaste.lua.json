@@ -1,0 +1,11 @@
+{
+    "BuffName": "SummonerTeleportHaste",
+    "AutoBuffActivateEffect": "Interventionspeed_buf.troy",
+    "CastingBreaksStealth": true,
+    "BuffTextureName": "Summoner_teleport.dds",
+    "DoesntBreakShields": false,
+    "SpellDamageRatio": 1.0,
+    "IsDamagingSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "NotSingleTargetSpell": false
+}

@@ -1,0 +1,10 @@
+{
+    "SpellDamageRatio": 1.0,
+    "DoesntBreakShields": false,
+    "IsDamagingSpell": true,
+    "BuffName": "CassiopeiaNoxiousBlastHaste",
+    "BuffTextureName": "Cassiopeia_NoxiousBlast.dds",
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "CastingBreaksStealth": true
+}

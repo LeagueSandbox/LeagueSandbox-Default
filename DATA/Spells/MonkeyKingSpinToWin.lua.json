@@ -1,0 +1,14 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "MonkeyKingSkin04"
+    },
+    "SpellFXOverrideSkins": {
+        "1": "MonkeyKingSkin04"
+    },
+    "BuffName": "MonkeyKingSpinToWin",
+    "TriggersSpellCasts": true,
+    "BuffTextureName": "MonkeyKingCyclone.dds",
+    "CastingBreaksStealth": true,
+    "DoesntTriggerSpellCasts": false,
+    "NotSingleTargetSpell": true
+}

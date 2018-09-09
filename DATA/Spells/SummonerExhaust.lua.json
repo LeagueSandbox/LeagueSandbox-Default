@@ -1,0 +1,10 @@
+{
+    "AutoBuffActivateAttachBoneName": "Buffbone_Glb_Ground_Loc",
+    "DoesntBreakShields": true,
+    "BuffName": "SummonerExhaustDebuff",
+    "BuffTextureName": "Summoner_Exhaust.dds",
+    "AutoBuffActivateEffect": "Global_ss_exhaust.troy",
+    "NotSingleTargetSpell": true,
+    "DoesntTriggerSpellCasts": true,
+    "CastingBreaksStealth": true
+}

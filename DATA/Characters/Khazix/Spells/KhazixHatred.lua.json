@@ -1,0 +1,6 @@
+{
+    "NonDispellable": true,
+    "PersistsThroughDeath": true,
+    "BuffName": "KhazixHatred",
+    "BuffTextureName": "Khazix_RengarHunt.dds"
+}

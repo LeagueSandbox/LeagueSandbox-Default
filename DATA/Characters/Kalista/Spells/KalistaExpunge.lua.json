@@ -1,0 +1,13 @@
+{
+    "PersistsThroughDeath": true,
+    "BuffName": "ExpungeAttackSpeed",
+    "AutoBuffActivateEffect": "twitch_ambush_buf.troy",
+    "NotSingleTargetSpell": true,
+    "BuffTextureName": "Twitch_Expunge.dds",
+    "AutoBuffActivateAttachBoneName": "r_hand",
+    "DoesntBreakShields": true,
+    "AutoBuffActivateEffect2": "twitch_ambush_buf.troy",
+    "IsDeathRecapSource": true,
+    "DoesntTriggerSpellCasts": false,
+    "AutoBuffActivateAttachBoneName2": "l_hand"
+}

@@ -1,0 +1,14 @@
+{
+    "SpellFXOverrideSkins": {
+        "1": "SurprisePartyFiddlesticks"
+    },
+    "BuffName": "Silence",
+    "CastingBreaksStealth": true,
+    "BuffTextureName": "Fiddlesticks_DarkWind.dds",
+    "DoesntBreakShields": false,
+    "IsDeathRecapSource": true,
+    "SpellDamageRatio": 1.0,
+    "IsDamagingSpell": true,
+    "DoesntTriggerSpellCasts": false,
+    "NotSingleTargetSpell": false
+}

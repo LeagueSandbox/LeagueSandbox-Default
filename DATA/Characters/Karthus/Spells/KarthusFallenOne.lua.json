@@ -1,0 +1,18 @@
+{
+    "SpellVOOverrideSkins": {
+        "1": "KarthusSkin04"
+    },
+    "PersistsThroughDeath": true,
+    "IsDamagingSpell": true,
+    "CastingBreaksStealth": true,
+    "AutoCooldownByLevel": {
+        "1": 180.0,
+        "2": 150.0,
+        "3": 120.0
+    },
+    "DoesntBreakShields": true,
+    "NonDispellable": true,
+    "ChannelDuration": 3.0,
+    "DoesntTriggerSpellCasts": false,
+    "NotSingleTargetSpell": true
+}

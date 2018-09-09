@@ -1,0 +1,6 @@
+{
+    "PersistsThroughDeath": true,
+    "IsDeathRecapSource": true,
+    "BuffName": "MissFortunePassive",
+    "BuffTextureName": "MissFortune_ImpureShots.dds"
+}

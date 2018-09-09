@@ -1,0 +1,10 @@
+{
+    "NonDispellable": true,
+    "AutoBuffActivateEffect2": "zhonyas_cylinder.troy",
+    "BuffName": "Zhonyas Ring",
+    "AutoBuffActivateAttachBoneName4": "C_Buffbone_Glb_Head_Loc",
+    "AutoBuffActivateEffect3": "zhonya_ring_self_skin.troy",
+    "AutoBuffActivateEffect4": "zhonyas_ring_activate.troy",
+    "BuffTextureName": "3157_Zhonyas_Hourglass.dds",
+    "AutoBuffActivateAttachBoneName3": "C_Buffbone_Glb_Head_Loc"
+}

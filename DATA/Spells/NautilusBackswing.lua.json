@@ -1,0 +1,13 @@
+{
+    "BuffName": "LuxShield",
+    "AutoBuffActivateEffect": "Naut_Shield.troy",
+    "CastingBreaksStealth": true,
+    "BuffTextureName": "LuxPrismaWrap.dds",
+    "AutoBuffActivateAttachBoneName": "",
+    "DoesntBreakShields": true,
+    "DoOnPreDamageInExpirationOrder": true,
+    "OnPreDamagePriority": 3.0,
+    "IsDamagingSpell": false,
+    "DoesntTriggerSpellCasts": false,
+    "NotSingleTargetSpell": true
+}

@@ -1,0 +1,7 @@
+{
+    "PersistsThroughDeath": true,
+    "BuffName": "FortifyBuff",
+    "NotSingleTargetSpell": false,
+    "BuffTextureName": "Summoner_fortify.dds",
+    "DoesntTriggerSpellCasts": false
+}

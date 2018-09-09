@@ -1,0 +1,8 @@
+{
+    "PersistsThroughDeath": true,
+    "BuffName": "Blood Awareness",
+    "SpellToggleSlot": 3.0,
+    "CastingBreaksStealth": false,
+    "BuffTextureName": "20.dds",
+    "DoesntTriggerSpellCasts": true
+}

@@ -1,0 +1,8 @@
+{
+    "DoesntBreakShields": "False",
+    "IsDamagingSpell": true,
+    "TriggersSpellCasts": true,
+    "AutoBuffActivateEffect": "HeroicCharge_cas2.troy",
+    "NotSingleTargetSpell": false,
+    "DoesntTriggerSpellCasts": false
+}

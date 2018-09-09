@@ -1,0 +1,8 @@
+{
+    "PersistsThroughDeath": true,
+    "BuffName": "AhriSoulCrusher",
+    "AutoBuffActivateEffect": "PotionofElusiveness_itm.troy",
+    "AutoBuffActivateEffect3": "PotionofGiantStrength_itm.troy",
+    "BuffTextureName": "3017_Egitai_Twinsoul.dds",
+    "AutoBuffActivateEffect2": "PotionofBrilliance_itm.troy"
+}

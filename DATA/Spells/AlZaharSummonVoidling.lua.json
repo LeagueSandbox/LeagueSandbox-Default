@@ -1,0 +1,6 @@
+{
+    "AutoBuffActivateEffect": "Voidling_Ready.troy",
+    "NonDispellable": true,
+    "BuffName": "AlZaharSummonVoidlingReady",
+    "BuffTextureName": "AlZahar_VoidlingReady.dds"
+}
