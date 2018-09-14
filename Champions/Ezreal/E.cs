@@ -26,21 +26,20 @@ namespace Spells
 
         public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target)
         {
-            var current = new Vector2(owner.X, owner.Y);
-            var to = new Vector2(spell.X, spell.Y) - current;
+            var to = new Vector2(spell.X, spell.Y) - owner.Position;
             Vector2 trueCoords;
             if (to.Length() > 475)
             {
                 to = Vector2.Normalize(to);
                 var range = to * 475;
-                trueCoords = current + range;
+                trueCoords = owner.Position + range;
             }
             else
             {
                 trueCoords = new Vector2(spell.X, spell.Y);
             }
 
-            ApiFunctionManager.AddParticle(owner, "Ezreal_arcaneshift_cas.troy", owner.X, owner.Y);
+            ApiFunctionManager.AddParticle(owner, "Ezreal_arcaneshift_cas.troy", owner.Position);
             ApiFunctionManager.TeleportTo(owner, trueCoords.X, trueCoords.Y);
             ApiFunctionManager.AddParticleTarget(owner, "Ezreal_arcaneshift_flash.troy", owner);
             AttackableUnit target2 = null;
@@ -50,12 +49,12 @@ namespace Spells
             {
                 if (owner.Team != value.Team && value is ObjAiBase)
                 {
-                    if (Vector2.Distance(new Vector2(trueCoords.X, trueCoords.Y), new Vector2(value.X, value.Y)) <=
+                    if (Vector2.Distance(new Vector2(trueCoords.X, trueCoords.Y), value.Position) <=
                         distance)
                     {
                         target2 = value;
                         distance = Vector2.Distance(new Vector2(trueCoords.X, trueCoords.Y),
-                            new Vector2(value.X, value.Y));
+                            value.Position);
                     }
                 }
             }

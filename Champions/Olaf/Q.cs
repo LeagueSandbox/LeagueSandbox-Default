@@ -25,15 +25,14 @@ namespace Spells
 
         public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target)
         {
-            var current = new Vector2(owner.X, owner.Y);
-            var to = new Vector2(spell.X, spell.Y) - current;
+            var to = new Vector2(spell.X, spell.Y) - owner.Position;
             Vector2 trueCoords;
 
             if (to.Length() > 1651)
             {
                 to = Vector2.Normalize(to);
                 var range = to * 1651;
-                trueCoords = current + range;
+                trueCoords = owner.Position + range;
             }
             else
             {

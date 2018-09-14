@@ -21,14 +21,14 @@ namespace Spells
 
         public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target)
         {
-            var current = new Vector2(owner.X, owner.Y);
-            var to = Vector2.Normalize(new Vector2(spell.X, spell.Y) - current);
+            //var current = new Vector2(owner.X, owner.Y);
+            var to = Vector2.Normalize(new Vector2(spell.X, spell.Y) - owner.Position);
             var range = to * 1100;
-            var trueCoords = current + range;
+            var trueCoords = owner.Position + range;
 
             spell.AddLaser("LucianQ", trueCoords.X, trueCoords.Y);
             spell.SpellAnimation("SPELL1", owner);
-            ApiFunctionManager.AddParticle(owner, "Lucian_Q_laser.troy", trueCoords.X, trueCoords.Y);
+            ApiFunctionManager.AddParticle(owner, "Lucian_Q_laser.troy", trueCoords);
             ApiFunctionManager.AddParticleTarget(owner, "Lucian_Q_cas.troy", owner);
         }
 

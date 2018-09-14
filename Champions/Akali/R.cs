@@ -25,11 +25,10 @@ namespace Spells
 
         public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target)
         {
-            var current = new Vector2(owner.X, owner.Y);
-            var to = Vector2.Normalize(new Vector2(target.X, target.Y) - current);
+            var to = Vector2.Normalize(target.Position - owner.Position);
             var range = to * 800;
 
-            var trueCoords = current + range;
+            var trueCoords = owner.Position + range;
 
             //TODO: Dash to the correct location (in front of the enemy champion) instead of far behind or inside them
             ApiFunctionManager.DashToLocation(owner, trueCoords.X, trueCoords.Y, 2200, false, "Attack1");
