@@ -21,7 +21,6 @@ namespace Spells
 
         public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target)
         {
-            //var current = new Vector2(owner.X, owner.Y);
             var to = Vector2.Normalize(new Vector2(spell.X, spell.Y) - owner.Position);
             var range = to * 1100;
             var trueCoords = owner.Position + range;
