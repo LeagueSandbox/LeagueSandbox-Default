@@ -1,0 +1,9 @@
+SpellVOOverrideSkins = {"CorporateMundo"}
+BuffName = "Sadism"
+AutoBuffActivateEffect = "dr_mundo_heal.troy"
+NotSingleTargetSpell = true
+BuffTextureName = "DrMundo_Sadism.dds"
+AutoCooldownByLevel = {90, 75, 60}
+NonDispellable = true
+DoesntTriggerSpellCasts = false
+IsDamagingSpell = true

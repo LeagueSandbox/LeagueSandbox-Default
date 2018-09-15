@@ -1,0 +1,3 @@
+PersistsThroughDeath = true
+BuffName = "NearSight"
+BuffTextureName = "Nocturne_Paranoia.dds"

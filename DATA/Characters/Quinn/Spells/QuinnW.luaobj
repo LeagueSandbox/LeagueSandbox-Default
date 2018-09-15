@@ -1,0 +1,9 @@
+SpellFXOverrideSkins = {"PhoenixQuinn", "QuinnValor_Phoenix", "QuinnSkin02", "QuinnValorSkin02"}
+BuffName = "QuinnW"
+NotSingleTargetSpell = false
+OnPreDamagePriority = 3
+DoesntBreakShields = true
+AutoBuffActivateEvent = "DeathsCaress_buf.troy"
+DoOnPreDamageInExpirationOrder = true
+DoesntTriggerSpellCasts = false
+IsDamagingSpell = true

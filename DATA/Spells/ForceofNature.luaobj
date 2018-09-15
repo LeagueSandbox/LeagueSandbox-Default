@@ -1,0 +1,2 @@
+BuffTextureName = "124_Gladiators_Pride.dds"
+BuffName = "ForceofNature"

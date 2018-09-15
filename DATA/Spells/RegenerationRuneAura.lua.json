@@ -1,7 +1,0 @@
-{
-    "PersistsThroughDeath": true,
-    "BuffName": "RegenerationAura",
-    "AutoBuffActivateEffect": "regen_rune_new_buf.troy",
-    "BuffTextureName": "Regeneration_Sigil.dds",
-    "Nondispellable": true
-}

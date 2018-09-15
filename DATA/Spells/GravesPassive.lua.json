@@ -1,7 +1,0 @@
-{
-    "PersistsThroughDeath": true,
-    "BuffName": "GravesPassive",
-    "NotSingleTargetSpell": true,
-    "BuffTextureName": "GravesTrueGrit.dds",
-    "DoesntTriggerSpellCasts": false
-}

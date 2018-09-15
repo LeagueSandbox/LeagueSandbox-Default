@@ -1,0 +1,3 @@
+PersistsThroughDeath = true
+BuffName = "Spirit Visage"
+BuffTextureName = "3065_Spirit_Visage.dds"

@@ -1,0 +1,7 @@
+AutoCooldownByLevel = {30, 26, 22, 18, 14}
+BuffName = "Bloodlust"
+SpellFXOverrideSkins = {"TryndamereDemonsword"}
+SpellToggleSlot = 1
+NotSingleTargetSpell = true
+BuffTextureName = "Tryndamere_Q.dds"
+DoesntTriggerSpellCasts = false

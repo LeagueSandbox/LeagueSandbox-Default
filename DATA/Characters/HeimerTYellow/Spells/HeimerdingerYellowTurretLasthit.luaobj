@@ -1,0 +1,7 @@
+DoesntBreakShields = false
+IsDamagingSpell = true
+SpellFXOverrideSkins = {"SpecialForcesGangplank"}
+SpellDamageRatio = 1
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+CastingBreaksStealth = true

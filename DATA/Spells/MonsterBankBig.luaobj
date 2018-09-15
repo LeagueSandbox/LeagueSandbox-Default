@@ -1,0 +1,4 @@
+AutoBuffActivateEffect = "treasure_chest_gold_sparkle.troy"
+AutoBuffActivateAttachBoneName = "C_BUFFBONE_GLB_HEAD_LOC"
+BuffName = "Monster Bank Big"
+BuffTextureName = "Treasure_Chest.dds"

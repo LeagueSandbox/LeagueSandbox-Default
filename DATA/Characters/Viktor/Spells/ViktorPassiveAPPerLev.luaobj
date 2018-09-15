@@ -1,0 +1,9 @@
+PersistsThroughDeath = true
+BuffName = "ViktorStormTimer"
+CastingBreaksStealth = true
+BuffTextureName = "ViktorChaosStormGuide.dds"
+DoesntBreakShields = true
+NonDispellable = true
+IsDamagingSpell = false
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = true

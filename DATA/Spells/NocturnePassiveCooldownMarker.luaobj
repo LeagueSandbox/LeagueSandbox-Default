@@ -1,0 +1,6 @@
+AutoBuffActivateAttachBoneName = ""
+BuffName = "Nocturne Passive Cooldown"
+AutoBuffActivateEffect = ""
+AutoBuffActivateAttachBoneName2 = ""
+BuffTextureName = "Nocturne_UmbraBlades_Grey.dds"
+AutoBuffActivateEffect2 = ""

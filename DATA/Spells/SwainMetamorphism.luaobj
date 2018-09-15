@@ -1,0 +1,9 @@
+BuffName = "SwainMetamorphism"
+CastingBreaksStealth = true
+BuffTextureName = "SwainRavenousFlock.dds"
+DoesntBreakShields = true
+SpellToggleSlot = 4
+NonDispellable = true
+IsDamagingSpell = false
+DoesntTriggerSpellCasts = true
+NotSingleTargetSpell = true

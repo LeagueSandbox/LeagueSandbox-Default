@@ -1,0 +1,7 @@
+SpellToggleSlot = 2
+IsDamagingSpell = false
+BuffName = "Pick A Card"
+AutoBuffActivateEffect = ""
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = true
+BuffTextureName = "CardMaster_FatesGambit.dds"

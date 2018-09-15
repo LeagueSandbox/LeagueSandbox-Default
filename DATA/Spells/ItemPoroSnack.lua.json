@@ -1,7 +1,0 @@
-{
-    "BuffName": "ItemHorn",
-    "AutoBuffActivateEffect": "TEMP_itemhorn_buff.troy",
-    "NotSingleTargetSpell": true,
-    "BuffTextureName": "Summoner_haste.dds",
-    "DoesntTriggerSpellCasts": true
-}

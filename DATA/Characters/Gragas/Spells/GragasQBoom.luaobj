@@ -1,0 +1,6 @@
+PersistsThroughDeath = true
+IsDamagingSpell = true
+SpellToggleSlot = 1
+CastingBreaksStealth = true
+DoesntTriggerSpellCasts = true
+NotSingleTargetSpell = false

@@ -1,0 +1,14 @@
+BuffName = ""
+IsDamagingSpell = false
+ChainMissileParameters = {
+  CanHitCaster = 0,
+  CanHitFriends = 0,
+  CanHitSameTargetConsecutively = 0,
+  MaximumHits = {4, 4, 4, 4, 4},
+  CanHitEnemies = 1,
+  CanHitSameTarget = 0
+}
+AutoBuffActivateEffect = ""
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+BuffTextureName = ""

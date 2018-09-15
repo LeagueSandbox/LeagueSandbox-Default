@@ -1,0 +1,10 @@
+PersistsThroughDeath = true
+BuffName = "ItemMiraclePermanentBlessing"
+AutoBuffActivateEffectFlags = "EFFCREATE_UPDATE_ORIENTATION"
+CastingBreaksStealth = true
+BuffTextureName = "3173_Eleisas_Miracle.dds"
+DoesntBreakShields = false
+NonDispellable = true
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = true

@@ -1,0 +1,9 @@
+BuffName = "BlindMonkSafeguard"
+AutoBuffActivateEffect = "enrage_buf.troy"
+NotSingleTargetSpell = false
+AutoBuffActivateAttachBoneName = "l_hand"
+DoesntBreakShields = false
+AutoBuffActivateEffect2 = "enrage_buf.troy"
+AutoCooldownByLevel = {22, 18, 14, 10, 6}
+DoesntTriggerSpellCasts = false
+AutoBuffActivateAttachBoneName2 = "r_hand"

@@ -1,0 +1,4 @@
+BuffName = "Haste"
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = true
+BuffTextureName = "Summoner_haste.dds"

@@ -1,0 +1,4 @@
+NonDispellable = true
+PersistsThroughDeath = true
+BuffName = "VolibearHatred"
+BuffTextureName = "VolibearHatred.dds"

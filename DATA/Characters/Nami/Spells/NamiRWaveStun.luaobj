@@ -1,0 +1,8 @@
+AutoBuffActivateAttachBoneName = "C_BUFFBONE_GLB_LAYOUT_LOC"
+DoesntBreakShields = true
+IsDamagingSpell = false
+BuffName = "MoveAway"
+BuffTextureName = "Minotaur_TriumphantRoar.dds"
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+CastingBreaksStealth = true

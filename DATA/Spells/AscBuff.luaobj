@@ -1,0 +1,3 @@
+OnPreDamagePriority = 5
+BuffName = "AscBuff"
+BuffTextureName = "Tenacity.dds"

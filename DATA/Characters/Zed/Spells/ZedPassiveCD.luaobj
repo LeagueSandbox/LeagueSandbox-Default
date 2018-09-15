@@ -1,0 +1,2 @@
+BuffTextureName = "shadowninja_P.dds"
+BuffName = "ZedPassiveCD"

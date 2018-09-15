@@ -1,0 +1,9 @@
+SpellVOOverrideSkins = {"SejuaniClassic"}
+SpellFXOverrideSkins = {"SejuaniSkin04", "SejuaniSkin05"}
+BuffName = "SejuaniArcticAssault"
+CastingBreaksStealth = true
+BuffTextureName = "Sejuani_Q.dds"
+DoesntBreakShields = false
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = true

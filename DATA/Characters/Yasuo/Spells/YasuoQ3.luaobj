@@ -1,0 +1,5 @@
+DoesntBreakShields = true
+BuffName = "YasuoQ3"
+SpellFXOverrideSkins = {"YasuoSkin02"}
+BuffTextureName = "Rumble_Junkyard Titan2.dds"
+DoesntTriggerSpellCasts = true

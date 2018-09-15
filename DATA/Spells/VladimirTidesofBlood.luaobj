@@ -1,0 +1,8 @@
+SpellVOOverrideSkins = {"BloodkingVladimir"}
+DoesntBreakShields = true
+IsDamagingSpell = true
+TriggersSpellCasts = true
+SpellFXOverrideSkins = {"BloodkingVladimir", "VladimirSkin06"}
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+BuffTextureName = "Vladimir_TidesofBlood.dds"

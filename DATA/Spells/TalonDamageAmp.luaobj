@@ -1,0 +1,3 @@
+AutoBuffActivateEffect = "talon_E_tar_dmg.troy"
+BuffName = "TalonDamageAmp"
+BuffTextureName = "TalonCutthroat.dds"

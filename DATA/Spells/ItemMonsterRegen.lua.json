@@ -1,7 +1,0 @@
-{
-    "BuffName": "ItemMonsterRegen",
-    "AutoBuffActivateEffect": "SRU_JungleBuff_HealthRegen.troy",
-    "NotSingleTargetSpell": true,
-    "BuffTextureName": "Regeneration_Sigil.dds",
-    "DoesntTriggerSpellCasts": false
-}

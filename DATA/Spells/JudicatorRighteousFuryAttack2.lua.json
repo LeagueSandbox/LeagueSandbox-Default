@@ -1,7 +1,0 @@
-{
-    "NotSingleTargetSpell": true,
-    "DoesntTriggerSpellCasts": true,
-    "SpellFXOverrideSkins": {
-        "1": "MetalWingedJudicator"
-    }
-}

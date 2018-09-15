@@ -1,0 +1,2 @@
+BuffTextureName = "AlZahar_SummonVoidling.dds"
+BuffName = "AlZaharVoidlingPhase2"

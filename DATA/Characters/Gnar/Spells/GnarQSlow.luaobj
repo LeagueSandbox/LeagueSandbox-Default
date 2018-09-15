@@ -1,0 +1,9 @@
+SpellVOOverrideSkins = {"HyenaWarwick"}
+IsDamagingSpell = true
+PopupMessage1 = "game_floatingtext_Slowed"
+AutoBuffActivateEffect = "GLOBAL_SLOW.TROY"
+NotSingleTargetSpell = false
+BuffTextureName = "GnarBig_Q.dds"
+TriggersSpellCasts = true
+DoesntTriggerSpellCasts = false
+BuffName = "GnarQSlow"

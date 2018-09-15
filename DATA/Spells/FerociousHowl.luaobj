@@ -1,0 +1,8 @@
+AutoBuffActivateAttachBoneName2 = "pelvis"
+AutoCooldownByLevel = {120, 100, 80, 10, 10}
+BuffName = "Ferocious Howl"
+AutoBuffActivateEffect2 = "feroscioushowl_cas2.troy"
+AutoBuffActivateEffect = "minatuar_unbreakableWill_cas.troy"
+NotSingleTargetSpell = true
+BuffTextureName = "Minotaur_FerociousHowl.dds"
+DoesntTriggerSpellCasts = false

@@ -1,0 +1,7 @@
+SpellVOOverrideSkins = {"KogMawSkin08"}
+SpellFXOverrideSkins = {"KogMawSkin08"}
+IsDamagingSpell = true
+BuffName = "EzrealEssenceFluxBuff"
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+BuffTextureName = "KogMaw_VoidOoze.dds"

@@ -1,7 +1,0 @@
-{
-    "BuffName": "BrandAblaze",
-    "IsDeathRecapSource": true,
-    "NotSingleTargetSpell": true,
-    "BuffTextureName": "BrandBlaze.dds",
-    "DoesntTriggerSpellCasts": false
-}

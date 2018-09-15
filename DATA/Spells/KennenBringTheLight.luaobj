@@ -1,0 +1,3 @@
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+DoesntBreakShields = true

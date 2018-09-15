@@ -1,6 +1,0 @@
-{
-    "NonDispellable": true,
-    "PersistsThroughDeath": true,
-    "BuffName": "Magical Sight",
-    "BuffTextureName": "096_Eye_of_the_Observer.dds"
-}

@@ -1,0 +1,4 @@
+NonDispellable = true
+PersistsThroughDeath = true
+BuffName = "KhazixHuntEnemy"
+BuffTextureName = "Khazix_P.dds"

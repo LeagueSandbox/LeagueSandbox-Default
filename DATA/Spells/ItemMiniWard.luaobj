@@ -1,0 +1,6 @@
+SpellFXOverrideSkins = {"SightWardBat", "SightWardStone", "SightWardSpider", "SightWardTree", "SightWardGhost", "SightWardSnowMan", "SightWardGingerBread", "SightWardBanner", "SightWardLantern"}
+BuffName = "ItemMiniWard"
+AutoBuffActivateEffect = "Ward_Sight_Idle.troy"
+NotSingleTargetSpell = true
+BuffTextureName = "2050_Explorer_Ward.dds"
+DoesntTriggerSpellCasts = true

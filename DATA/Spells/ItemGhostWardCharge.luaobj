@@ -1,0 +1,4 @@
+BuffName = "ItemGhostWardCharge"
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = true
+BuffTextureName = "2049_Sightstone.dds"

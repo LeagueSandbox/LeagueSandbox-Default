@@ -1,7 +1,0 @@
-{
-    "BuffName": "NetherBladeArmorPen",
-    "NonDispellable": true,
-    "NotSingleTargetSpell": true,
-    "BuffTextureName": "Voidwalker_NullBlade.dds",
-    "SpellToggleSlot": 2.0
-}

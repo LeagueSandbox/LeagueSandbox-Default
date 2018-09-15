@@ -1,0 +1,2 @@
+AutoBuffActivateEffect = "PropelGeyser.troy"
+AutoBuffActivateAttachBoneName = "root"

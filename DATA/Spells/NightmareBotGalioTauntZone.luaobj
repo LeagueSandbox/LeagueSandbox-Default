@@ -1,0 +1,6 @@
+DoesntBreakShields = true
+IsDamagingSpell = true
+SpellFXOverrideSkins = {"BadSantaVeigar"}
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+CastingBreaksStealth = true

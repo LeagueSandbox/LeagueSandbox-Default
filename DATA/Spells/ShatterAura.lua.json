@@ -1,7 +1,0 @@
-{
-    "IsDamagingSpell": true,
-    "BuffName": "ShatterAura",
-    "NotSingleTargetSpell": true,
-    "DoesntTriggerSpellCasts": false,
-    "BuffTextureName": "GemKnight_Shatter.dds"
-}

@@ -1,7 +1,0 @@
-{
-    "BuffName": "Mana Potion",
-    "AutoBuffActivateEffect": "Global_Item_ManaPotion.troy",
-    "NotSingleTargetSpell": true,
-    "BuffTextureName": "2004_Mana_Potion.dds",
-    "DoesntTriggerSpellCasts": true
-}

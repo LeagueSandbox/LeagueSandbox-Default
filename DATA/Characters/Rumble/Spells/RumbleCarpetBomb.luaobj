@@ -1,0 +1,5 @@
+SpellVOOverrideSkins = {"RumbleSkin03"}
+SpellFXOverrideSkins = {"RumbleSkin03"}
+IsDamagingSpell = true
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false

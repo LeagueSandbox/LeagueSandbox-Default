@@ -1,0 +1,5 @@
+SpellFXOverrideSkins = {"AzirSkin01"}
+IsDamagingSpell = true
+PopupMessage1 = "game_floatingtext_Knockup"
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false

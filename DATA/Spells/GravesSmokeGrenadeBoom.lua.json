@@ -1,8 +1,0 @@
-{
-    "AutoBuffActivateEffect": "Nearsight_glb.troy",
-    "SpellFXOverrideSkins": {
-        "1": "GravesSkin05"
-    },
-    "BuffName": "GravesSmokeGrenade",
-    "BuffTextureName": "GravesSmokeGrenade.dds"
-}

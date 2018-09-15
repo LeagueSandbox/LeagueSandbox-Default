@@ -1,0 +1,6 @@
+AutoCooldownByLevel = {90, 90, 90, 18, 14}
+BuffName = "Overdrive"
+SpellFXOverrideSkins = {"PiltoverCustomsBlitz", "iBlitz", "BlitzcrankSkin07"}
+NotSingleTargetSpell = true
+BuffTextureName = "Blitzcrank_Overdrive.dds"
+DoesntTriggerSpellCasts = false

@@ -1,0 +1,9 @@
+BuffName = "SummonerPromoteSR"
+AutoBuffActivateEffect = "bloodboil_buf.troy"
+NotSingleTargetSpell = true
+BuffTextureName = "Summoner_PromoteSR.dds"
+AutoBuffActivateAttachBoneName = "l_hand"
+AutoBuffActivateEffect2 = "bloodboil_buf.troy"
+AutoBuffActivateAttachBoneName2 = "r_hand"
+DoesntTriggerSpellCasts = true
+CastingBreaksStealth = true

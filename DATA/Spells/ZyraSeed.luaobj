@@ -1,0 +1,17 @@
+PersistsThroughDeath = true
+BuffName = "AkaliShadowDance"
+CastingBreaksStealth = true
+BuffTextureName = "AkaliShadowDance.dds"
+DoesntBreakShields = true
+ChainMissileParameters = {
+  CanHitCaster = 0,
+  CanHitFriends = 0,
+  CanHitSameTargetConsecutively = 0,
+  MaximumHits = {10, 10, 10, 10, 10},
+  CanHitEnemies = 1,
+  CanHitSameTarget = 0
+}
+SpellFXOverrideSkins = {"Zyra_hellvine", "ZyraSkin02"}
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = false

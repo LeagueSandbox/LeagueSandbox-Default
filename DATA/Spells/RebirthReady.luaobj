@@ -1,0 +1,5 @@
+PersistsThroughDeath = true
+BuffName = "RebirthReady"
+NonDispellable = true
+BuffTextureName = "Cryophoenix_Rebirth.dds"
+OnPreDamagePriority = 8

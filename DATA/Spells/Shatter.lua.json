@@ -1,9 +1,0 @@
-{
-    "DoesntBreakShields": false,
-    "IsDamagingSpell": true,
-    "BuffName": "Shatter",
-    "BuffTextureName": "GemKnight_Shatter.dds",
-    "NotSingleTargetSpell": true,
-    "DoesntTriggerSpellCasts": false,
-    "CastingBreaksStealth": true
-}

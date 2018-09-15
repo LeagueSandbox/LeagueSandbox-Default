@@ -1,7 +1,0 @@
-{
-    "NotSingleTargetSpell": true,
-    "DoesntTriggerSpellCasts": false,
-    "SpellFXOverrideSkins": {
-        "1": "UrfRiderCorki"
-    }
-}

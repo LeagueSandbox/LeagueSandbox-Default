@@ -1,0 +1,9 @@
+BuffName = "QuinnERoot"
+PopupMessage1 = "game_floatingtext_Slowed"
+NotSingleTargetSpell = false
+BuffTextureName = "Quinn_E.dds"
+AutoCooldownByLevel = {12, 11, 10, 9, 8}
+IsDeathRecapSource = true
+DoesntBreakShields = false
+DoesntTriggerSpellCasts = false
+IsDamagingSpell = true

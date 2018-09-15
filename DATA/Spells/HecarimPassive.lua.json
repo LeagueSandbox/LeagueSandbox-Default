@@ -1,8 +1,0 @@
-{
-    "PersistsThroughDeath": true,
-    "IsDamagingSpell": true,
-    "BuffName": "HecarimPassive",
-    "NotSingleTargetSpell": true,
-    "DoesntTriggerSpellCasts": true,
-    "BuffTextureName": "Hecarim_Warpath.dds"
-}

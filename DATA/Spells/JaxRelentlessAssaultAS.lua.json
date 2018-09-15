@@ -1,9 +1,0 @@
-{
-    "AutoBuffActivateAttachBoneName": "",
-    "BuffName": "JaxRelentlessAssaultAS",
-    "TriggersSpellCasts": true,
-    "AutoBuffActivateEffect": "",
-    "NotSingleTargetSpell": true,
-    "BuffTextureName": "Armsmaster_MasterOfArms.dds",
-    "DoesntTriggerSpellCasts": false
-}

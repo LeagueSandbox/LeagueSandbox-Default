@@ -1,0 +1,7 @@
+AutoCooldownByLevel = {0, 0, 0, 0, 0}
+BuffName = "ItemSeraphsEmbrace"
+DoOnPreDamageInExpirationOrder = true
+NonDispellable = true
+NotSingleTargetSpell = true
+BuffTextureName = "3040_Seraphs_Embrace.dds"
+DoesntTriggerSpellCasts = true

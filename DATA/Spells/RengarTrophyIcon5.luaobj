@@ -1,0 +1,2 @@
+BuffTextureName = "3421_Bonetooth_Necklace_G_5.DDS"
+PersistsThroughDeath = true

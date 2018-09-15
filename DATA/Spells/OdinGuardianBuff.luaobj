@@ -1,0 +1,6 @@
+AutoCooldownByLevel = {120, 100, 80, 10, 10}
+BuffName = "Ferocious Howl"
+AutoBuffActivateAttachBoneName2 = "pelvis"
+NotSingleTargetSpell = true
+BuffTextureName = "Minotaur_FerociousHowl.dds"
+DoesntTriggerSpellCasts = false

@@ -1,0 +1,10 @@
+SpellFXOverrideSkins = {"BraumSkin01"}
+BuffName = "BraumDRShield"
+CastingBreaksStealth = true
+BuffTextureName = "LeonaShieldOfDaybreak.DDS"
+AutoBuffActivateAttachBoneName = "C_BUFFBONE_GLB_HEAD_LOC"
+DoesntBreakShields = false
+SpellToggleSlot = 3
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = true

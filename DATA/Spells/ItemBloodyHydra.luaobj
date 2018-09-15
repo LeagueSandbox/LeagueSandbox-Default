@@ -1,0 +1,8 @@
+BuffName = "SummonerReviveSpeedBoost"
+DoesntBreakShields = false
+IsDamagingSpell = true
+AutoBuffActivateEffectFlags = "EFFCREATE_UPDATE_ORIENTATION"
+BuffTextureName = "Summoner_revive.dds"
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+CastingBreaksStealth = true

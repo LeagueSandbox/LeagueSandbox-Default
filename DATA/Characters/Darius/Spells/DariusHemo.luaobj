@@ -1,0 +1,4 @@
+BuffName = "DariusHemo"
+IsDeathRecapSource = true
+BuffTextureName = "Darius_Icon_Hemorrhage.dds"
+DoesntTriggerSpellCasts = true

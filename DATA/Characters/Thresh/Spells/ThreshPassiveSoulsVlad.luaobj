@@ -1,0 +1,7 @@
+AutoCooldownByLevel = {0, 0, 0, 0, 0}
+IsDamagingSpell = true
+SpellFXOverrideSkins = {"BloodkingVladimir"}
+BuffName = "SethDustToDust"
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+BuffTextureName = "Janna_EyeOfTheStorm.dds"

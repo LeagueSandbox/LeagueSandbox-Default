@@ -1,8 +1,0 @@
-{
-    "IsDamagingSpell": true,
-    "TriggersSpellCasts": true,
-    "BuffName": "EzrealEssenceFluxDebuff",
-    "NotSingleTargetSpell": false,
-    "DoesntTriggerSpellCasts": false,
-    "BuffTextureName": "FallenAngel_DarkBinding.dds"
-}

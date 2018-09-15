@@ -1,0 +1,3 @@
+AutoBuffActivateEffect = "Divineblessing_buf.troy"
+BuffName = "Rally Aura"
+BuffTextureName = "Summoner_rally.dds"

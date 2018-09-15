@@ -1,0 +1,7 @@
+SpellVOOverrideSkins = {"DandyChogath", "BattlecastChogath"}
+DoesntBreakShields = true
+IsDamagingSpell = true
+SpellFXOverrideSkins = {"BattlecastChogath"}
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+IsDeathRecapSource = true

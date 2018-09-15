@@ -1,0 +1,4 @@
+NonDispellable = true
+PersistsThroughDeath = true
+BuffName = "Pyromania Marker"
+BuffTextureName = "Annie_Passive.dds"

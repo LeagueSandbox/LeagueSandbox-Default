@@ -1,0 +1,3 @@
+PersistsThroughDeath = true
+BuffName = "ZacPassiveChunkDrop"
+BuffTextureName = "ZacPassive.dds"

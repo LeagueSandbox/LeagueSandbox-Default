@@ -1,0 +1,7 @@
+DoesntBreakShields = false
+IsDamagingSpell = true
+TriggersSpellCasts = true
+BuffTextureName = "Wolfman_SeverArmor.dds"
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+CastingBreaksStealth = true

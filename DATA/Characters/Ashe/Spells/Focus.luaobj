@@ -1,0 +1,4 @@
+NonDispellable = true
+PersistsThroughDeath = true
+BuffName = "Focus"
+BuffTextureName = "Ashe_Passive.dds"

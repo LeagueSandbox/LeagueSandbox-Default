@@ -1,0 +1,6 @@
+DoesntBreakShields = true
+IsDamagingSpell = false
+SpellFXOverrideSkins = {"TPAShen"}
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = true
+CastingBreaksStealth = true

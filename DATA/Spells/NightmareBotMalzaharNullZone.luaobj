@@ -1,0 +1,6 @@
+DoesntBreakShields = true
+IsDamagingSpell = true
+PersistsThroughDeath = true
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+BuffName = "AlZaharNullZone"

@@ -1,0 +1,9 @@
+SpellFXOverrideSkins = {"CyberEzreal"}
+BuffName = "RiftWalk"
+CastingBreaksStealth = true
+BuffTextureName = "Voidwalker_Riftwalk.dds"
+DoesntBreakShields = true
+AutoBuffActivateEvent = ""
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = true

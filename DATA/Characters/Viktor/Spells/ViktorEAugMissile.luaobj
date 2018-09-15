@@ -1,0 +1,5 @@
+SpellFXOverrideSkins = {"MakerViktor"}
+IsDamagingSpell = true
+TriggersSpellCasts = true
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = true

@@ -1,0 +1,2 @@
+NonDispellable = true
+PersistsThroughDeath = true

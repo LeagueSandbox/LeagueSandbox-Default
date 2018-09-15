@@ -1,7 +1,0 @@
-{
-    "BuffName": "Health Potion",
-    "AutoBuffActivateEffect": "Global_Item_HealthPotion.troy",
-    "NotSingleTargetSpell": true,
-    "BuffTextureName": "2003_Health_Potion.dds",
-    "DoesntTriggerSpellCasts": true
-}

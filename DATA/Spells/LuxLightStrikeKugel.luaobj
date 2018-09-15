@@ -1,0 +1,4 @@
+SpellFXOverrideSkins = {"SteelLegionLux"}
+PersistsThroughDeath = true
+BuffName = "LuxEEnd"
+BuffTextureName = "LuxLightStrikeKugel.dds"

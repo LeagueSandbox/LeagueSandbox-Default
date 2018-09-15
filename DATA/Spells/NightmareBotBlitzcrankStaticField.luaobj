@@ -1,0 +1,8 @@
+AutoBuffActivateAttachBoneName = "c_buffbone_glb_Center_loc"
+PersistsThroughDeath = true
+BuffName = "StaticField"
+NonDispellable = true
+AutoBuffActivateEffect = "StaticField_ready.troy"
+NotSingleTargetSpell = false
+BuffTextureName = "Blitzcrank_StaticField.dds"
+DoesntTriggerSpellCasts = false

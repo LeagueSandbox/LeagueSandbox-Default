@@ -1,0 +1,7 @@
+DoesntBreakShields = true
+SpellFXOverrideSkins = {"Lissandra_skin01", "lissandraSkin02"}
+TriggersSpellCasts = true
+IsDeathRecapSource = true
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+AutoCooldownByLevel = {20, 16, 12, 8, 4}

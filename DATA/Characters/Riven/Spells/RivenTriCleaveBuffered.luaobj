@@ -1,0 +1,7 @@
+SpellDamageRatio = 0,5
+IsDamagingSpell = true
+SpellToggleSlot = 1
+BuffName = "RenekthonCleaveReady"
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+BuffTextureName = "AkaliCrescentSlash.dds"

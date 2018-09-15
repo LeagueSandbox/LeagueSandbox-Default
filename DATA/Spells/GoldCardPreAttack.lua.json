@@ -1,7 +1,0 @@
-{
-    "DoesntBreakShields": true,
-    "BuffName": "Pick A Card Gold",
-    "AutoBuffActivateEffect": "Card_Yellow.troy",
-    "BuffTextureName": "Cardmaster_gold.dds",
-    "DoesntTriggerSpellCasts": true
-}

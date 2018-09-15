@@ -1,0 +1,9 @@
+PersistsThroughDeath = true
+BuffName = "YasuoDashWrapper"
+CastingBreaksStealth = false
+BuffTextureName = "Yasuo_E.dds"
+DoesntBreakShields = true
+IsDeathRecapSource = true
+IsDamagingSpell = false
+DoesntTriggerSpellCasts = true
+NotSingleTargetSpell = true

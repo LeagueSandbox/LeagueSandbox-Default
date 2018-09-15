@@ -1,0 +1,7 @@
+AutoBuffActivateAttachBoneName = "C_BUFFBONE_GLB_HEAD_LOC"
+SpellFXOverrideSkins = {"LeeSinSkin05"}
+BuffName = "BlindMonkSonicWave"
+AutoBuffActivateEffect = "global_Watched.troy"
+NotSingleTargetSpell = true
+BuffTextureName = "BlindMonkQOne.dds"
+DoesntTriggerSpellCasts = false

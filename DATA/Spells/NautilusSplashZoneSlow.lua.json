@@ -1,6 +1,0 @@
-{
-    "AutoBuffActivateEffect": "GLOBAL_SLOW.TROY",
-    "BuffTextureName": "Nautilus_RippleEffect.dds",
-    "BuffName": "NautilusSplashZoneSlow",
-    "PopupMessage1": "game_floatingtext_Slowed"
-}

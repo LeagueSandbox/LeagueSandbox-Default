@@ -1,0 +1,4 @@
+AutoBuffActivateEffect = "Global_Slow.troy"
+AutoBuffActivateAttachBoneName = ""
+BuffName = "ScurvyStrike"
+BuffTextureName = "Pirate_GrogSoakedBlade.dds"

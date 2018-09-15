@@ -1,0 +1,9 @@
+IsDamagingSpell = false
+AutoBuffActivateEffect = ""
+CastingBreaksStealth = true
+BuffTextureName = "Fiddlesticks_ConjureScarecrow.dds"
+DoesntBreakShields = false
+BuffName = "Drain"
+ChannelDuration = 6
+DoesntTriggerSpellCasts = true
+NotSingleTargetSpell = false

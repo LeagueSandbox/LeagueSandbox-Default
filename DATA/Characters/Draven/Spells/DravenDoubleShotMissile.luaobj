@@ -1,0 +1,8 @@
+BuffName = "Slow"
+SpellFXOverrideSkins = {"Draven_Gladiator", "DravenSkin03"}
+IsDamagingSpell = true
+PopupMessage1 = "game_floatingtext_Slowed"
+AutoBuffActivateEffect = "GLOBAL_SLOW.TROY"
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = true
+BuffTextureName = "Chronokeeper_Timestop.dds"

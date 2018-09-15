@@ -1,0 +1,3 @@
+PersistsThroughDeath = true
+BuffName = "HeimerdingerPentakill"
+BuffTextureName = "Heimerdinger_Passive_hidden.dds"

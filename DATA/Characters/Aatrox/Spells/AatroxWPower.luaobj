@@ -1,0 +1,8 @@
+SpellFXOverrideSkins = {"AatroxSkin02"}
+PersistsThroughDeath = true
+BuffName = "AatroxWPower"
+SpellToggleSlot = 2
+NonDispellable = true
+NotSingleTargetSpell = false
+BuffTextureName = "Aatrox_W1.dds"
+DoesntTriggerSpellCasts = false

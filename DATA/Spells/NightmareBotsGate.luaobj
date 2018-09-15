@@ -1,0 +1,6 @@
+AutoCooldownByLevel = {100, 85, 70, 55, 40}
+BuffName = "Gate"
+SpellFXOverrideSkins = {"UnderworldTwistedFate", "TwistedFateSkin08"}
+NotSingleTargetSpell = true
+BuffTextureName = "Cardmaster_Premonition.dds"
+DoesntTriggerSpellCasts = false

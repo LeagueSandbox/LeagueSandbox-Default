@@ -1,0 +1,8 @@
+SpellVOOverrideSkins = {"SkarnerSkin03"}
+SpellFXOverrideSkins = {"SkarnerSkin03"}
+IsDamagingSpell = true
+TriggersSpellCasts = true
+BuffName = "SkarnerFractureMissile"
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = true
+BuffTextureName = "Skarner_E.dds"

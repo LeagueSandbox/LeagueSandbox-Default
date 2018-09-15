@@ -1,0 +1,8 @@
+BuffName = "RivenTriCleaveBuff"
+SpellDamageRatio = 0,5
+IsDamagingSpell = true
+SpellToggleSlot = 1
+NonDispellable = true
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+BuffTextureName = "Riven_Buffer.dds"

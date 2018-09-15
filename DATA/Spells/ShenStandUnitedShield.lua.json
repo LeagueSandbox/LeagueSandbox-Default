@@ -1,9 +1,0 @@
-{
-    "AutoBuffActivateEvent": "DeathsCaress_buf.troy",
-    "BuffName": "Shen Stand United Shield",
-    "DoOnPreDamageInExpirationOrder": true,
-    "OnPreDamagePriority": 3.0,
-    "NotSingleTargetSpell": true,
-    "BuffTextureName": "Shen_StandUnited.dds",
-    "DoesntTriggerSpellCasts": false
-}

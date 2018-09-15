@@ -1,0 +1,8 @@
+BuffTextureName = "3069_Sword_of_Light_and_Shadow.dds"
+DoesntBreakShields = false
+IsDamagingSpell = false
+BuffName = "Mourning"
+AutoBuffActivateEffect = "bleeding_GLB2_tar.troy"
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = true
+CastingBreaksStealth = true

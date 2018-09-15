@@ -1,0 +1,2 @@
+AutoBuffActivateEffect = ""
+AutoBuffActivateAttachBoneName = ""

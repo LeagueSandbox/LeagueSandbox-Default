@@ -1,0 +1,5 @@
+AutoBuffActivateAttachBoneName = "C_Buffbone_Glb_Overhead_Loc"
+PersistsThroughDeath = true
+BuffName = "ThreeSistersLissandraDefeatedAshe"
+AutoBuffActivateEffect = "Freljord_Crown_Lissandra.troy"
+BuffTextureName = "ThreeSisters_Frostguard.dds"

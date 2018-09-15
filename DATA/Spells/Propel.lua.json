@@ -1,9 +1,0 @@
-{
-    "SpellDamageRatio": 0.75,
-    "IsDamagingSpell": true,
-    "PopupMessage1": "game_floatingtext_Knockup",
-    "BuffName": "Propelled",
-    "NotSingleTargetSpell": true,
-    "DoesntTriggerSpellCasts": false,
-    "BuffTextureName": "Minotaur_Pulverize.dds"
-}

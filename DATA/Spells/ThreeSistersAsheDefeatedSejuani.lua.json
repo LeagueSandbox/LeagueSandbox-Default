@@ -1,7 +1,0 @@
-{
-    "AutoBuffActivateAttachBoneName": "C_Buffbone_Glb_Overhead_Loc",
-    "PersistsThroughDeath": true,
-    "BuffName": "ThreeSistersAsheDefeatedSejuani",
-    "AutoBuffActivateEffect": "Freljord_Crown_Ashe.troy",
-    "BuffTextureName": "ThreeSisters_Averosan.dds"
-}

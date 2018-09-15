@@ -1,9 +1,0 @@
-{
-    "AutoBuffActivateAttachBoneName": "",
-    "PersistsThroughDeath": true,
-    "BuffName": "HexdrunkTimerCD",
-    "AutoBuffActivateEffect": "",
-    "AutoBuffActivateAttachBoneName2": "",
-    "BuffTextureName": "3155_Hexdrinker_Inactive.dds",
-    "AutoBuffActivateEffect2": ""
-}

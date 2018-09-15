@@ -1,0 +1,4 @@
+AutoBuffActivateEffect = "Cape_neg_buf.troy"
+IsDeathRecapSource = true
+BuffName = "DragonBurning"
+BuffTextureName = "Burning.dds"

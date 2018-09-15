@@ -1,0 +1,14 @@
+PersistsThroughDeath = true
+BuffName = "ziggsShortFuse"
+AutoBuffActivateEffect = "ZiggsPassive.troy"
+CastingBreaksStealth = false
+BuffTextureName = "ZiggsPassiveReady.dds"
+SpellFXOverrideSkins = {"ZiggsMadScientist", "ZiggsPoolParty", "ZiggsSnowday"}
+AutoBuffActivateAttachBoneName = "Bomb"
+DoesntBreakShields = true
+AutoBuffActivateEffect2 = "ZiggsPassive.troy"
+SpellToggleSlot = 2
+AutoBuffActivateAttachBoneName2 = "Bomb_b"
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = true
+NotSingleTargetSpell = false

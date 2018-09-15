@@ -1,0 +1,6 @@
+AutoCooldownByLevel = {44, 38, 30, 22, 14}
+BuffName = "Spell Shield"
+AutoBuffActivateEffect = "SpellBlock_eff.troy"
+NotSingleTargetSpell = true
+BuffTextureName = "Summoner_boost.dds"
+DoesntTriggerSpellCasts = false

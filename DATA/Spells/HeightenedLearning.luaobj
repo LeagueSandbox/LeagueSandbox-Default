@@ -1,0 +1,2 @@
+BuffTextureName = "Chronokeeper_Slow.dds"
+BuffName = "Heightened Learning"

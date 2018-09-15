@@ -1,0 +1,5 @@
+SpellVOOverrideSkins = {"CyberNocturne"}
+DoesntBreakShields = false
+BuffName = "NocturneUnspeakableHorror"
+BuffTextureName = "Nocturne_UnspeakableHorror.dds"
+SpellFXOverrideSkins = {"CyberNocturne"}

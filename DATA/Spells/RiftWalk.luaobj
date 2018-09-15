@@ -1,0 +1,8 @@
+AutoBuffActivateEvent = ""
+DoesntBreakShields = true
+IsDamagingSpell = true
+BuffName = "RiftWalk"
+BuffTextureName = "Voidwalker_Riftwalk.dds"
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+CastingBreaksStealth = true

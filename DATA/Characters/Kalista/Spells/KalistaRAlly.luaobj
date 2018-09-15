@@ -1,0 +1,5 @@
+DoesntBreakShields = true
+SpellFXOverrideSkins = {"ReefMalphite", "GlacialMalphite"}
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+IsDeathRecapSource = true

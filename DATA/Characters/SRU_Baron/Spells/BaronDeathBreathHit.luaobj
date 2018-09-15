@@ -1,0 +1,8 @@
+AutoBuffActivateAttachBoneName = ""
+DoesntBreakShields = true
+BuffName = "ShadowMark"
+TriggersSpellCasts = true
+AutoBuffActivateEffect = ""
+NotSingleTargetSpell = false
+BuffTextureName = "Evelynn_ReadyToBetray.dds"
+CastingBreaksStealth = false

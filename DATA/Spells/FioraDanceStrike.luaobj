@@ -1,0 +1,4 @@
+AutoCooldownByLevel = {22, 18, 14, 10, 6}
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = true
+DoesntBreakShields = true

@@ -1,8 +1,0 @@
-{
-    "SpellFXOverrideSkins": {
-        "1": "SteelLegionLux"
-    },
-    "NotSingleTargetSpell": true,
-    "BuffTextureName": "LuxCrashingBlitz2.dds",
-    "BuffName": "LuxLightBindingMis"
-}

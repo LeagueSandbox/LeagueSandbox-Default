@@ -1,0 +1,10 @@
+SpellVOOverrideSkins = {"RumbleSkin03"}
+SpellFXOverrideSkins = {"RumbleSkin03"}
+BuffName = "RumbleOverheat"
+AutoBuffActivateEffect = "LOC_Silence.troy"
+AutoBuffActivateEffect4 = "rumble_overheat_lite_02.troy"
+BuffTextureName = "Rumble_Junkyard Titan3.dds"
+AutoBuffActivateAttachBoneName = "C_BUFFBONE_GLB_HEAD_LOC"
+AutoBuffActivateEffect2 = "rumble_overheat.troy"
+AutoBuffActivateAttachBoneName2 = "spine"
+AutoBuffActivateEffect3 = "rumble_overheat_lite.troy"

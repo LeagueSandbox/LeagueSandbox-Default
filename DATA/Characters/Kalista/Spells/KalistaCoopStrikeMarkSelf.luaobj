@@ -1,0 +1,2 @@
+BuffTextureName = "Kalista_W.dds"
+BuffName = "KalistaPassiveCoopStrike"

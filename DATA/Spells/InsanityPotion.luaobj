@@ -1,0 +1,6 @@
+SpellFXOverrideSkins = {"SingedSkin06"}
+BuffName = "Insanity Potion"
+TriggersSpellCasts = true
+NotSingleTargetSpell = true
+BuffTextureName = "Singed_R.dds"
+DoesntTriggerSpellCasts = false

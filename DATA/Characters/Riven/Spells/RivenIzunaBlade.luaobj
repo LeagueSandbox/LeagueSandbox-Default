@@ -1,0 +1,10 @@
+SpellFXOverrideSkins = {"RivenSkin05"}
+BuffName = "Shen Feint Buff"
+AutoBuffActivateEffect = "LuxPrismaticWave_shield.troy"
+CastingBreaksStealth = true
+BuffTextureName = "Shen_Feint.dds"
+DoesntBreakShields = true
+OnPreDamagePriority = 3
+IsDamagingSpell = false
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = false

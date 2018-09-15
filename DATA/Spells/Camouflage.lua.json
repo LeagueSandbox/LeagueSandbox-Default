@@ -1,6 +1,0 @@
-{
-    "NonDispellable": true,
-    "PersistsThroughDeath": true,
-    "BuffName": "Camouflage",
-    "BuffTextureName": "Teemo_Camouflage.dds"
-}

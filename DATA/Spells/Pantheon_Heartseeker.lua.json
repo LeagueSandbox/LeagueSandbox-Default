@@ -1,7 +1,0 @@
-{
-    "DoesntBreakShields": true,
-    "BuffName": "Heartseeker",
-    "CastingBreaksStealth": true,
-    "DoesntTriggerSpellCasts": false,
-    "ChannelDuration": 0.75
-}

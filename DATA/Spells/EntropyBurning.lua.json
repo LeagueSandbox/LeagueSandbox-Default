@@ -1,7 +1,0 @@
-{
-    "BuffName": "Entropy",
-    "PopupMessage1": "game_floatingtext_Slowed",
-    "AutoBuffActivateEffect": "Cape_neg_buf.troy",
-    "BuffTextureName": "3184_Entropy.dds",
-    "AutoBuffActivateEffect2": "GLOBAL_SLOW.TROY"
-}

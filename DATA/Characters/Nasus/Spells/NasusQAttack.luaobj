@@ -1,0 +1,9 @@
+SpellVOOverrideSkins = {"NasusSkin05"}
+SpellFXOverrideSkins = {"NasusSkin05"}
+BuffName = "SiphoningStrike"
+AutoBuffActivateEffect = "nassus_siphonStrike_buf.troy"
+NotSingleTargetSpell = true
+BuffTextureName = "Nasus_SiphoningStrike.dds"
+AutoBuffActivateAttachBoneName = "buffbone_cstm_weapon_1"
+DoesntTriggerSpellCasts = false
+IsDeathRecapSource = true

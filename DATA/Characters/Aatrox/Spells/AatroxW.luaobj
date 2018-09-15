@@ -1,0 +1,4 @@
+NonDispellable = true
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = true
+PersistsThroughDeath = true

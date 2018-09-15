@@ -1,0 +1,15 @@
+SpellVOOverrideSkins = {"KogMawSkin08"}
+PersistsThroughDeath = true
+BuffName = "KogMawIcathianSurprise"
+AutoBuffActivateEffect = "KogMaw_Base_P_foam.troy"
+CastingBreaksStealth = true
+BuffTextureName = "KogMaw_IcathianSurprise.dds"
+SpellFXOverrideSkins = {"KogMawSkin08"}
+AutoBuffActivateAttachBoneName = "C_Mouth_d"
+DoesntBreakShields = true
+AutoBuffActivateEffect2 = "KogMaw_Base_P_splats.troy"
+IsDeathRecapSource = true
+NonDispellable = true
+IsDamagingSpell = false
+DoesntTriggerSpellCasts = true
+NotSingleTargetSpell = false

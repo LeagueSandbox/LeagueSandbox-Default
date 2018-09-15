@@ -1,0 +1,3 @@
+BuffTextureName = "Braum_R.dds"
+BuffName = "BraumPulseLineKnockup"
+PopupMessage1 = "game_floatingtext_Knockup"

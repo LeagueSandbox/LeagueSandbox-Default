@@ -1,9 +1,0 @@
-{
-    "DoesntBreakShields": true,
-    "IsDamagingSpell": false,
-    "PersistsThroughDeath": true,
-    "BuffName": "JaycePassive",
-    "NotSingleTargetSpell": true,
-    "DoesntTriggerSpellCasts": false,
-    "BuffTextureName": "JayceManOfTomorrow.dds"
-}

@@ -1,0 +1,16 @@
+BuffName = "UrgotTerrorCapacitor"
+NotSingleTargetSpell = true
+BuffTextureName = "UrgotTerrorCapacitor.dds"
+DoOnPreDamageInExpirationOrder = true
+ChainMissileParameters = {
+  CanHitCaster = 0,
+  CanHitFriends = 0,
+  CanHitSameTargetConsecutively = 0,
+  MaximumHits = {4, 4, 4, 4, 4},
+  CanHitEnemies = 1,
+  CanHitSameTarget = 0
+}
+SpellToggleSlot = 2
+OnPreDamagePriority = 3
+DoesntTriggerSpellCasts = false
+IsDamagingSpell = false

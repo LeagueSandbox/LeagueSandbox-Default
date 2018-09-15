@@ -1,0 +1,6 @@
+DoesntBreakShields = false
+IsDamagingSpell = true
+SpellFXOverrideSkins = {"MissFortuneSkin07"}
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = true
+SpellDamageRatio = 1

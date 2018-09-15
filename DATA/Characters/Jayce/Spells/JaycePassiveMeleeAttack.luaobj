@@ -1,0 +1,12 @@
+BuffName = "JaycePassiveMeleeAttack"
+TriggersSpellCasts = true
+AutoBuffActivateEffect = "JaycePassiveReadyMelee.troy"
+NotSingleTargetSpell = false
+BuffTextureName = "Jayce_HextechCapacitor_Hammer.dds"
+AutoBuffActivateAttachBoneName3 = "BUFFBONE_CSTM_WEAPON_GAP_2"
+AutoBuffActivateAttachBoneName = "BUFFBONE_CSTM_WEAPON_1"
+AutoBuffActivateEffect2 = "JaycePassiveReadyMelee.troy"
+AutoBuffActivateEffect3 = "JaycePassiveReadyMelee.troy"
+AutoBuffActivateAttachBoneName2 = "BUFFBONE_CSTM_WEAPON_GAP_1"
+DoesntTriggerSpellCasts = false
+IsDamagingSpell = true

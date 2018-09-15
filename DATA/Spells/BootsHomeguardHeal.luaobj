@@ -1,0 +1,7 @@
+DoesntBreakShields = false
+IsDamagingSpell = true
+AutoBuffActivateEffectFlags = "EFFCREATE_UPDATE_ORIENTATION"
+AutoBuffActivateEffect = "Boots_HomeguardHeal.troy"
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+CastingBreaksStealth = true

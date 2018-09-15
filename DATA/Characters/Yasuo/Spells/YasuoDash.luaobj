@@ -1,0 +1,7 @@
+DoesntBreakShields = true
+IsDamagingSpell = true
+SpellFXOverrideSkins = {"YasuoSkin02"}
+BuffName = "XenZhaoSweep"
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+CastingBreaksStealth = true

@@ -1,0 +1,5 @@
+BuffName = "SivirW"
+NonDispellable = true
+NotSingleTargetSpell = true
+BuffTextureName = "Sivir_W.dds"
+DoesntTriggerSpellCasts = false

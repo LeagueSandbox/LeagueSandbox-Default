@@ -1,7 +1,0 @@
-{
-    "PersistsThroughDeath": true,
-    "BuffName": "StyleBatteringRam",
-    "NonDispellable": true,
-    "SpellDamageRatio": 1.0,
-    "BuffTextureName": "StyleBatteringRam.dds"
-}

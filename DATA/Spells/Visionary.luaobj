@@ -1,0 +1,5 @@
+SpellVOOverrideSkins = {"NunuBot"}
+BuffName = "Visions"
+NonDispellable = true
+BuffTextureName = "Yeti_FrostNova.dds"
+AutoBuffActivateEffect = "Visionary_buf.troy"

@@ -1,8 +1,0 @@
-{
-    "SpellFXOverrideSkins": {
-        "1": "HecarimArcade"
-    },
-    "DoesntBreakShields": false,
-    "DoesntTriggerSpellCasts": true,
-    "IsDeathRecapSource": true
-}

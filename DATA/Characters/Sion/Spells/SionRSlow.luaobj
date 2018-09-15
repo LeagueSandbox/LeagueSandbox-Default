@@ -1,0 +1,6 @@
+IsDamagingSpell = true
+SpellToggleSlot = 1
+BuffName = "SionRSlow"
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+BuffTextureName = "Sion_R1.dds"

@@ -1,0 +1,3 @@
+PersistsThroughDeath = true
+BuffName = "JinxCatchMeEnemy"
+BuffTextureName = "Jinx_Hidden.dds"

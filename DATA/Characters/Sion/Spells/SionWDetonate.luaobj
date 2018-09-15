@@ -1,0 +1,10 @@
+BuffName = "SionW"
+CastingBreaksStealth = false
+BuffTextureName = "Sion_W1.dds"
+DoesntBreakShields = true
+AutoBuffActivateEvent = "DeathsCaress_buf.troy"
+DoOnPreDamageInExpirationOrder = true
+OnPreDamagePriority = 3
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = true
+NotSingleTargetSpell = true

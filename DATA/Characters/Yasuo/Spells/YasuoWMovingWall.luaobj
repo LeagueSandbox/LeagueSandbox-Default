@@ -1,0 +1,7 @@
+SpellVOOverrideSkins = {"YasuoSkin02"}
+DoesntBreakShields = true
+TriggersSpellCasts = true
+SpellFXOverrideSkins = {"YasuoSkin02"}
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+AutoCooldownByLevel = {20, 16, 12, 8, 4}

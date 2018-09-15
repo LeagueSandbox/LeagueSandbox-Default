@@ -1,0 +1,6 @@
+AutoBuffActivateAttachBoneName = "C_BUFFBONE_GLB_LAYOUT_LOC"
+BuffName = "BuffEliseSkitter"
+AutoBuffActivateEffect = "Elise_spider_W_move_buf.troy"
+NotSingleTargetSpell = false
+BuffTextureName = "EliseSpiderW.dds"
+DoesntTriggerSpellCasts = false

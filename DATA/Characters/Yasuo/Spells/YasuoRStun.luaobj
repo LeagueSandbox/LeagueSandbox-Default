@@ -1,0 +1,4 @@
+SpellToggleSlot = 4
+PersistsThroughDeath = true
+BuffName = "YasuoRStun"
+BuffTextureName = "Yasuo_R.dds"

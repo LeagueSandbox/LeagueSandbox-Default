@@ -1,0 +1,7 @@
+DoesntBreakShields = true
+IsDamagingSpell = false
+SpellFXOverrideSkins = {"HeadhunterNidalee"}
+BuffTextureName = "Bowmaster_ArchersMark.dds"
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+CastingBreaksStealth = true

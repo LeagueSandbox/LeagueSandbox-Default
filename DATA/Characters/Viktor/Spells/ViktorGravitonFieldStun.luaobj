@@ -1,0 +1,10 @@
+BuffName = "ViktorGravitonStun"
+PopupMessage1 = "game_floatingtext_Stunned"
+AutoBuffActivateEffect = "LOC_Stun.troy"
+CastingBreaksStealth = true
+BuffTextureName = "Viktor_W2.dds"
+AutoBuffActivateAttachBoneName = "C_BUFFBONE_GLB_CENTER_LOC"
+DoesntBreakShields = true
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = true

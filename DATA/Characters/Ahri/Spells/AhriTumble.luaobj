@@ -1,0 +1,17 @@
+SpellVOOverrideSkins = {"AhriSkin04"}
+PersistsThroughDeath = true
+BuffName = "AhriTumble"
+CastingBreaksStealth = true
+BuffTextureName = "Ahri_SpiritRush.dds"
+DoesntBreakShields = true
+ChainMissileParameters = {
+  CanHitCaster = 0,
+  CanHitFriends = 0,
+  CanHitSameTargetConsecutively = 0,
+  MaximumHits = {10, 10, 10, 10, 10},
+  CanHitEnemies = 1,
+  CanHitSameTarget = 0
+}
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = false

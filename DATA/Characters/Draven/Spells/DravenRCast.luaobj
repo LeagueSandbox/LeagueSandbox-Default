@@ -1,0 +1,5 @@
+SpellVOOverrideSkins = {"Draven_SoulReaper", "DravenSkin03"}
+SpellFXOverrideSkins = {"DravenSkin03"}
+IsDamagingSpell = true
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false

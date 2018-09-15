@@ -1,0 +1,2 @@
+BuffTextureName = "MissFortune_Strut.dds"
+BuffName = "MissFortuneStrutStacks"

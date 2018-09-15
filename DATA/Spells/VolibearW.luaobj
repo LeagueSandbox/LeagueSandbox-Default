@@ -1,0 +1,6 @@
+PersistsThroughDeath = true
+BuffName = "VolibearWBuff"
+TriggersSpellCasts = true
+NotSingleTargetSpell = true
+BuffTextureName = "DrMundo_Masochism.dds"
+DoesntTriggerSpellCasts = false

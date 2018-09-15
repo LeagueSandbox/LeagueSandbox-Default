@@ -1,0 +1,7 @@
+DoesntBreakShields = false
+IsDamagingSpell = false
+BuffName = "HeimerdingerQ"
+BuffTextureName = "Heimerdinger_Q1.dds"
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+CastingBreaksStealth = true

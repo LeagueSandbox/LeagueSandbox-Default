@@ -1,0 +1,12 @@
+BuffName = "WujuStyleSuperCharged"
+AutoBuffActivateAttachBoneName4 = "BUFFBONE_CSTM_sword4_loc"
+AutoBuffActivateEffect = "MasterYi_Base_E_SuperChraged_buf.troy"
+NotSingleTargetSpell = false
+BuffTextureName = "MasterYi_WujuStyleActive.dds"
+AutoBuffActivateAttachBoneName3 = "BUFFBONE_CSTM_sword3_loc"
+AutoBuffActivateAttachBoneName = "BUFFBONE_Cstm_Sword1_loc"
+AutoBuffActivateEffect2 = "MasterYi_Base_E_SuperChraged_Sword1_buf.troy"
+AutoBuffActivateEffect4 = "MasterYi_Base_E_SuperChraged_Sword4_buf.troy"
+AutoBuffActivateEffect3 = "MasterYi_Base_E_SuperChraged_Sword1_buf.troy"
+DoesntTriggerSpellCasts = false
+AutoBuffActivateAttachBoneName2 = "BUFFBONE_CSTM_sword2_loc"

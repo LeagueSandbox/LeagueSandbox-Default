@@ -1,9 +1,0 @@
-{
-    "DoesntBreakShields": false,
-    "IsDamagingSpell": false,
-    "PersistsThroughDeath": true,
-    "CastTime": 0.4,
-    "NotSingleTargetSpell": true,
-    "DoesntTriggerSpellCasts": true,
-    "CastingBreaksStealth": true
-}

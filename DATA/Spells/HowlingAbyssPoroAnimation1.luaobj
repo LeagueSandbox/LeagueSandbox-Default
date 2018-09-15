@@ -1,0 +1,4 @@
+AutoBuffActivateEffect = "tt_speedshrine_buf.troy"
+NonDispellable = true
+BuffName = "TT_SpeedShrine_Buff"
+BuffTextureName = "Odin_SpeedShrine.dds"

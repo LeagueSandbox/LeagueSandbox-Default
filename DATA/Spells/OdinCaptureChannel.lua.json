@@ -1,8 +1,0 @@
-{
-    "DoesntBreakShields": true,
-    "IsDamagingSpell": true,
-    "ChannelDuration": 30.0,
-    "NotSingleTargetSpell": true,
-    "DoesntTriggerSpellCasts": true,
-    "CastingBreaksStealth": true
-}

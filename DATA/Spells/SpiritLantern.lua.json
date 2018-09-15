@@ -1,8 +1,0 @@
-{
-    "DoesntBreakShields": true,
-    "BuffName": "SightWard",
-    "BuffTextureName": "1020_Glowing_Orb.dds",
-    "NotSingleTargetSpell": true,
-    "DoesntTriggerSpellCasts": true,
-    "CastingBreaksStealth": false
-}

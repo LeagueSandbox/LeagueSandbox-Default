@@ -1,0 +1,6 @@
+DoesntBreakShields = false
+IsDamagingSpell = true
+SpellFXOverrideSkins = {"Draven_Gladiator", "DravenSkin03"}
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+CastingBreaksStealth = true

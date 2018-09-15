@@ -1,0 +1,15 @@
+BuffName = "AkaliShadowDance"
+DoesntBreakShields = true
+IsDamagingSpell = true
+ChainMissileParameters = {
+  CanHitCaster = 0,
+  CanHitFriends = 0,
+  CanHitSameTargetConsecutively = 0,
+  MaximumHits = {10, 10, 10, 10, 10},
+  CanHitEnemies = 1,
+  CanHitSameTarget = 0
+}
+BuffTextureName = "AkaliShadowDance.dds"
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+CastingBreaksStealth = false

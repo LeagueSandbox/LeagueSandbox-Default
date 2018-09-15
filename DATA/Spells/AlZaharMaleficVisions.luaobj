@@ -1,0 +1,5 @@
+AutoBuffActivateAttachBoneName = "C_Buffbone_Glb_Head_Loc"
+DoesntBreakShields = false
+BuffName = "AlZaharMaleficVisions"
+AutoBuffActivateEffect = "AlzaharMaleficVisions_tar.troy"
+BuffTextureName = "AlZahar_MaleficVisions.dds"

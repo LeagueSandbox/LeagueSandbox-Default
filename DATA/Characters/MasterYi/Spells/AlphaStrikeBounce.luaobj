@@ -1,0 +1,13 @@
+IsDamagingSpell = true
+ChainMissileParameters = {
+  CanHitCaster = 0,
+  CanHitFriends = 0,
+  CanHitSameTargetConsecutively = 0,
+  MaximumHits = {1, 1, 1, 1, 1},
+  CanHitEnemies = 1,
+  CanHitSameTarget = 0
+}
+BuffName = "Alpha Striking"
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+BuffTextureName = "MasterYi_LeapStrike.dds"

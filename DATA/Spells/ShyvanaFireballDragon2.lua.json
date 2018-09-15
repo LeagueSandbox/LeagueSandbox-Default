@@ -1,9 +1,0 @@
-{
-    "DoesntBreakShields": true,
-    "IsDamagingSpell": true,
-    "NotSingleTargetSpell": true,
-    "DoesntTriggerSpellCasts": false,
-    "SpellFXOverrideSkins": {
-        "1": "FrostShyvana"
-    }
-}

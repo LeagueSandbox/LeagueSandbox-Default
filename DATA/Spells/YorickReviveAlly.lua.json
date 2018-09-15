@@ -1,7 +1,0 @@
-{
-    "PersistsThroughDeath": true,
-    "BuffName": "MordekaiserCOTGDot",
-    "AutoBuffActivateEffect": "mordekeiser_cotg_tar.troy",
-    "BuffTextureName": "Mordekaiser_COTG.dds",
-    "NonDispellable": true
-}

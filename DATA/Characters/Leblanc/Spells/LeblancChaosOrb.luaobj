@@ -1,0 +1,10 @@
+SetSpellDamageRatio = 1
+SpellFXOverrideSkins = {"LeblancSkin04"}
+BuffName = "LeblancMarkOfSilence"
+TriggersSpellCasts = true
+NotSingleTargetSpell = false
+BuffTextureName = "LeblancMarkOfSilence.dds"
+AutoCooldownByLevel = {16, 14, 12, 10, 8}
+NonDispellable = true
+DoesntTriggerSpellCasts = false
+IsDamagingSpell = true

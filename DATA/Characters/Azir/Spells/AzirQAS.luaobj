@@ -1,0 +1,4 @@
+SpellFXOverrideSkins = {"CyberEzreal"}
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+IsDamagingSpell = true

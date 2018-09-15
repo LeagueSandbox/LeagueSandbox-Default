@@ -1,0 +1,10 @@
+SpellFXOverrideSkins = {"SurprisePartyFiddlesticks"}
+BuffName = "Silence"
+CastingBreaksStealth = true
+BuffTextureName = "Fiddlesticks_DarkWind.dds"
+DoesntBreakShields = false
+IsDeathRecapSource = true
+SpellDamageRatio = 1
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = false

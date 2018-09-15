@@ -1,0 +1,6 @@
+AutoBuffActivateAttachBoneName = "Buffbone_Glb_Weapon_1"
+IsDamagingSpell = true
+SpellToggleSlot = 2
+IsDeathRecapSource = true
+BuffTextureName = "SejuaniNorthernWindsEnrage.dds"
+BuffName = "SejuaniNorthernWindsEnrage"

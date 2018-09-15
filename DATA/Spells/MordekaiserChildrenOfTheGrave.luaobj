@@ -1,0 +1,3 @@
+OnPreDamagePriority = 10
+BuffName = "MordekaiserCOTGDot"
+BuffTextureName = "Mordekaiser_COTG.dds"

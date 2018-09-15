@@ -1,0 +1,7 @@
+DoesntBreakShields = false
+IsDamagingSpell = true
+BuffName = "CaitlynYordleTrapSight"
+BuffTextureName = "Caitlyn_YordleSnapTrap.dds"
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+CastingBreaksStealth = false

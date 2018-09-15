@@ -1,0 +1,7 @@
+SpellVOOverrideSkins = {"GatekeeperGalio"}
+SpellFXOverrideSkins = {"GatekeeperGalio"}
+IsDamagingSpell = true
+TriggersSpellCasts = true
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+BuffName = "GalioRighteousGustMissile"

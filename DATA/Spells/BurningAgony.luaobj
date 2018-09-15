@@ -1,0 +1,9 @@
+BuffName = "BurningAgony"
+AutoBuffActivateEffect = "dr_mundo_burning_agony_cas_02.troy"
+NotSingleTargetSpell = true
+BuffTextureName = "DrMundo_BurningAgony.dds"
+DoesntBreakShields = true
+SpellToggleSlot = 2
+AutoBuffActivateAttachBoneName2 = "root"
+DoesntTriggerSpellCasts = true
+IsDamagingSpell = true

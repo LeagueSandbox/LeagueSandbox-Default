@@ -1,0 +1,4 @@
+SpellFXOverrideSkins = {"HecarimArcade"}
+DoesntBreakShields = false
+DoesntTriggerSpellCasts = true
+IsDeathRecapSource = true

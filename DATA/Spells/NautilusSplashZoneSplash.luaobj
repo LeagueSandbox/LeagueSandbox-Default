@@ -1,0 +1,6 @@
+DoesntBreakShields = false
+IsDamagingSpell = true
+SpellFXOverrideSkins = {"ReefMalphite"}
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+CastingBreaksStealth = true

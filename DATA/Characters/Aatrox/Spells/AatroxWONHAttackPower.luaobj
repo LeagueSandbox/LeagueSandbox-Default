@@ -1,0 +1,3 @@
+IsDeathRecapSource = true
+DoesntTriggerSpellCasts = true
+SpellFXOverrideSkins = {"AatroxSkin02"}

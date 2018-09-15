@@ -1,0 +1,3 @@
+NonDispellable = true
+BuffName = "PirateScurvy"
+BuffTextureName = "Pirate_RemoveScurvy.dds"

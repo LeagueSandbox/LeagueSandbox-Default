@@ -1,6 +1,0 @@
-{
-    "AutoBuffActivateEffect": "TT_spiderboss_buff.troy",
-    "NonDispellable": true,
-    "BuffName": "TTBossBuff",
-    "BuffTextureName": "TT_Spider_Icon.dds"
-}

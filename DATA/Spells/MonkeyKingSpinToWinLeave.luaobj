@@ -1,0 +1,13 @@
+BuffName = ""
+AutoBuffActivateEffect = ""
+CastingBreaksStealth = true
+BuffTextureName = ""
+SpellToggleSlot = 3
+AutoBuffActivateAttachBoneName = ""
+DoesntBreakShields = false
+AutoBuffActivateEffect2 = ""
+AutoBuffActivateEffect3 = ""
+AutoBuffActivateAttachBoneName2 = ""
+IsDamagingSpell = false
+DoesntTriggerSpellCasts = true
+NotSingleTargetSpell = false

@@ -1,0 +1,6 @@
+DoesntBreakShields = false
+IsDamagingSpell = true
+SpellFXOverrideSkins = {"XmasKatarina"}
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+SpellDamageRatio = 1

@@ -1,0 +1,4 @@
+BuffName = "VolibearQ"
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+BuffTextureName = "VolibearQ.dds"

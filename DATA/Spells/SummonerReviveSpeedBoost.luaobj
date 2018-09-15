@@ -1,0 +1,8 @@
+BuffTextureName = "Summoner_revive.dds"
+DoesntBreakShields = false
+IsDamagingSpell = true
+BuffName = "SummonerReviveSpeedBoost"
+AutoBuffActivateEffect = "Global_SS_Revive_buf.troy"
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+CastingBreaksStealth = true

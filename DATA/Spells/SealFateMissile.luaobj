@@ -1,0 +1,6 @@
+DoesntBreakShields = true
+TriggersSpellCasts = false
+SpellFXOverrideSkins = {"UnderworldTwistedFate"}
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = true
+SpellDamageRatio = 1

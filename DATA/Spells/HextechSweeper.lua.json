@@ -1,8 +1,0 @@
-{
-    "DoesntBreakShields": true,
-    "IsDamagingSpell": true,
-    "BuffTextureName": "055_Borses_Staff_of_Apocalypse.tga",
-    "NotSingleTargetSpell": false,
-    "DoesntTriggerSpellCasts": true,
-    "CastingBreaksStealth": true
-}

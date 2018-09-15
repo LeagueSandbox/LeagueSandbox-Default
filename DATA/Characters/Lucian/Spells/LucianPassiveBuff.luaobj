@@ -1,0 +1,4 @@
+BuffName = "LucianPassiveBuff"
+IsDeathRecapSource = true
+BuffTextureName = "Lucian_Passive.dds"
+IsDamagingSpell = false

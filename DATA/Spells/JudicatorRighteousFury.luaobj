@@ -1,0 +1,10 @@
+SpellFXOverrideSkins = {"MetalWingedJudicator", "KayleSkin07"}
+BuffName = "JudicatorRighteousFury"
+AutoBuffActivateEffect = "Flamesword.troy"
+CastingBreaksStealth = true
+BuffTextureName = "Kayle_E.dds"
+AutoBuffActivateAttachBoneName = "weapon"
+DoesntBreakShields = true
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = true

@@ -1,0 +1,2 @@
+BuffTextureName = "3178_IonicSparkCharge.dds"
+BuffName = "LightningRodCounter"

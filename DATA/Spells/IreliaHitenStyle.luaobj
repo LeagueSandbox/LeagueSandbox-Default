@@ -1,0 +1,6 @@
+PersistsThroughDeath = true
+BuffName = "IreliaHitenStyle"
+NonDispellable = true
+NotSingleTargetSpell = false
+BuffTextureName = "Irelia_HitenStyleReady.dds"
+DoesntTriggerSpellCasts = false

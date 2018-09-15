@@ -1,0 +1,5 @@
+PersistsThroughDeath = true
+BuffName = "JaxPassive"
+NotSingleTargetSpell = true
+BuffTextureName = "Armsmaster_CoupDeGrace.dds"
+DoesntTriggerSpellCasts = false

@@ -1,0 +1,1 @@
+SpellFXOverrideSkins = {"JaxSkin08"}

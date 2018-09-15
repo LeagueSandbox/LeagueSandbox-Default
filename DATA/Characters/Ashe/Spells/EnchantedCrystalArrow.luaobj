@@ -1,0 +1,11 @@
+SpellFXOverrideSkins = {"AsheSkin06"}
+BuffName = "Enchanted Crystal Arrow"
+PopupMessage1 = "game_floatingtext_Stunned"
+NotSingleTargetSpell = true
+BuffTextureName = "Ashe_R.dds"
+AutoBuffActivateEffect2 = "LOC_Stun.troy"
+TriggersSpellCasts = true
+SpellDamageRatio = 0,5
+AutoBuffActivateAttachBoneName2 = "C_BUFFBONE_GLB_CENTER_LOC"
+DoesntTriggerSpellCasts = false
+IsDamagingSpell = true

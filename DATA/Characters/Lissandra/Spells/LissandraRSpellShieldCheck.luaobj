@@ -1,0 +1,9 @@
+SpellVOOverrideSkins = {"ZombieBrand"}
+SpellFXOverrideSkins = {"ZombieBrand"}
+BuffName = "LissandraR"
+NotSingleTargetSpell = false
+BuffTextureName = "Lissandra_R.dds"
+AutoBuffActivateAttachBoneName = "C_BUFFBONE_GLB_HEAD_LOC"
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = true
+SpellDamageRatio = 1

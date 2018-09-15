@@ -1,9 +1,0 @@
-{
-    "DoesntBreakShields": true,
-    "IsDamagingSpell": false,
-    "BuffName": "WitsEndBuff",
-    "BuffTextureName": "3091_Wits_End.dds",
-    "NotSingleTargetSpell": true,
-    "DoesntTriggerSpellCasts": true,
-    "CastingBreaksStealth": true
-}

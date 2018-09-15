@@ -1,0 +1,5 @@
+AutoCooldownByLevel = {120, 100, 80, 10, 10}
+BuffName = "OdinShrineBombBuff"
+NotSingleTargetSpell = true
+BuffTextureName = "DrMundo_BurningAgony.dds"
+DoesntTriggerSpellCasts = false

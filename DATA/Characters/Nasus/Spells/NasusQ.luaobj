@@ -1,0 +1,7 @@
+SpellVOOverrideSkins = {"NasusSkin05"}
+SpellFXOverrideSkins = {"NasusSkin05"}
+BuffName = "SiphoningStrike"
+IsDeathRecapSource = true
+NotSingleTargetSpell = true
+BuffTextureName = "Nasus_Q.dds"
+DoesntTriggerSpellCasts = false

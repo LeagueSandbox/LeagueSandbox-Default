@@ -1,0 +1,3 @@
+PersistsThroughDeath = true
+BuffName = "ElisePassive"
+BuffTextureName = "ElisePassive.dds"

@@ -1,0 +1,5 @@
+PersistsThroughDeath = true
+BuffName = "ManaBarrierIcon"
+NonDispellable = true
+BuffTextureName = "Blitzcrank_ManaBarrier.dds"
+OnPreDamagePriority = 8

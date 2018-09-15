@@ -1,0 +1,10 @@
+BuffName = "SejuaniGlacialPrison"
+PopupMessage1 = "game_floatingtext_Stunned"
+AutoBuffActivateEffect = "Stun_glb.troy"
+CastingBreaksStealth = true
+BuffTextureName = "Sejuani_GlacialPrison.dds"
+AutoBuffActivateAttachBoneName = "BUFFBONE_GLB_GROUND_LOC"
+DoesntBreakShields = false
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = false

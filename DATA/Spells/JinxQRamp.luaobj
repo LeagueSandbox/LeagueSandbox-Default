@@ -1,0 +1,2 @@
+BuffTextureName = "Jinx_Q2_Buff.dds"
+BuffName = "JinxQRamp"

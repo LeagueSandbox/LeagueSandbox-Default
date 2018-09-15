@@ -1,0 +1,16 @@
+BuffName = "JarvanIVGoldenAegis"
+NotSingleTargetSpell = true
+BuffTextureName = "JarvanIV_GoldenAegis.dds"
+DoesntBreakShields = true
+ChainMissileParameters = {
+  CanHitCaster = 0,
+  CanHitFriends = 0,
+  CanHitSameTargetConsecutively = 0,
+  MaximumHits = {4, 4, 4, 4, 4},
+  CanHitEnemies = 1,
+  CanHitSameTarget = 0
+}
+OnPreDamagePriority = 3
+IsDamagingSpell = false
+DoesntTriggerSpellCasts = false
+SpellToggleSlot = 2

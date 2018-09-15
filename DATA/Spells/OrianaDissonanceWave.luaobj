@@ -1,0 +1,6 @@
+IsDamagingSpell = true
+TriggersSpellCasts = true
+BuffName = "EzrealEssenceFluxDebuff"
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+BuffTextureName = "KogMaw_VoidOoze.dds"

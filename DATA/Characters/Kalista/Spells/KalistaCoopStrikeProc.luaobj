@@ -1,0 +1,5 @@
+PersistsThroughDeath = true
+BuffName = "KalistaCoopStrikeProc"
+NonDispellable = true
+IsDeathRecapSource = true
+BuffTextureName = "Ahri_SoulEater.dds"

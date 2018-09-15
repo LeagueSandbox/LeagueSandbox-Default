@@ -1,0 +1,8 @@
+SpellVOOverrideSkins = {"NasusSkin05"}
+SpellFXOverrideSkins = {"NasusSkin05"}
+BuffName = "NasusW"
+PopupMessage1 = "game_floatingtext_Slowed"
+AutoBuffActivateEffect = "GLOBAL_SLOW.TROY"
+NotSingleTargetSpell = false
+BuffTextureName = "Nasus_W.dds"
+DoesntTriggerSpellCasts = false

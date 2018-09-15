@@ -1,0 +1,7 @@
+DoesntBreakShields = true
+IsDamagingSpell = true
+IsDeathRecapSource = true
+BuffName = "ScurvyStrike"
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = true
+CastingBreaksStealth = false

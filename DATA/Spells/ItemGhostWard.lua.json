@@ -1,7 +1,0 @@
-{
-    "BuffName": "ItemGhostWard",
-    "AutoBuffActivateEffect": "Ward_Sight_Idle.troy",
-    "NotSingleTargetSpell": true,
-    "BuffTextureName": "2049_Sightstone.dds",
-    "DoesntTriggerSpellCasts": true
-}

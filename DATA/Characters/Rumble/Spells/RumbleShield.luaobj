@@ -1,0 +1,9 @@
+SpellFXOverrideSkins = {"RumbleSkin03"}
+BuffName = "RumbleShield"
+CastingBreaksStealth = true
+BuffTextureName = "Rumble_Scrap Shield.dds"
+DoesntBreakShields = true
+OnPreDamagePriority = 3
+IsDamagingSpell = false
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = false

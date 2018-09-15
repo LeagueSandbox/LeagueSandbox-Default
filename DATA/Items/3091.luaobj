@@ -1,0 +1,1 @@
+AutoBuffActivateEffect = "WitsEnd__tar_itm.troy"

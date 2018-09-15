@@ -1,0 +1,4 @@
+NonDispellable = true
+PersistsThroughDeath = true
+BuffName = "Eternal Thirst"
+BuffTextureName = "Wolfman_InnerHunger.dds"

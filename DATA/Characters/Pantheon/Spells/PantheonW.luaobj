@@ -1,0 +1,7 @@
+DoesntBreakShields = true
+IsDamagingSpell = true
+SpellFXOverrideSkins = {"PantheonSkin06"}
+AutoBuffActivateEffect = "pantheon_aegis_self.troy"
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+CastingBreaksStealth = true

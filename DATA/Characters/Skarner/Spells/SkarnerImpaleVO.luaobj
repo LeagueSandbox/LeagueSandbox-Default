@@ -1,0 +1,7 @@
+BuffName = "VarusQ"
+IsDamagingSpell = true
+SpellToggleSlot = 1
+NonDispellable = true
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+BuffTextureName = "VarusQ.dds"

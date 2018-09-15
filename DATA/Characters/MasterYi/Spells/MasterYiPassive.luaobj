@@ -1,0 +1,4 @@
+NonDispellable = true
+PersistsThroughDeath = true
+BuffName = "MasterYiPassive"
+BuffTextureName = "MasterYi_Passive1.dds"

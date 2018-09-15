@@ -1,0 +1,3 @@
+AutoBuffActivateEffect = "Cape_neg_buf.troy"
+BuffName = "Burning"
+BuffTextureName = "Burning.dds"

@@ -1,8 +1,0 @@
-{
-    "PersistsThroughDeath": true,
-    "BuffName": "AkaliTwinAP",
-    "Nondispellable": true,
-    "AutoBuffActivateAttachBoneName2": "R_hand",
-    "BuffTextureName": "AkaliTwinDisciplines.dds",
-    "AutoBuffActivateEffect2": "akali_twinDisciplines_AP_buf.troy"
-}

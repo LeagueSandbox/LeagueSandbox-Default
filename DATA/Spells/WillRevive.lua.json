@@ -1,9 +1,0 @@
-{
-    "AutoBuffActivateAttachBoneName": "C_BUFFBONE_GLB_CENTER_LOC",
-    "PersistsThroughDeath": true,
-    "BuffName": "Guardian Angel",
-    "AutoBuffActivateEffect": "rebirthready.troy",
-    "OnPreDamagePriority": 6.0,
-    "BuffTextureName": "3026_Guardian_Angel.dds",
-    "NonDispellable": true
-}

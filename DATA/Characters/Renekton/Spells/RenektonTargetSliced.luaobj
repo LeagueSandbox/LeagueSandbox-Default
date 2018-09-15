@@ -1,0 +1,6 @@
+AutoBuffActivateAttachBoneName = ""
+PersistsThroughDeath = true
+BuffName = "RenekthonStackHolder"
+AutoBuffActivateEffect = ""
+BuffTextureName = "Cardmaster_RapidToss.dds"
+NonDispellable = true

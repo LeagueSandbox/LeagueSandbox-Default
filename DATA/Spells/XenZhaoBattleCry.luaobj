@@ -1,0 +1,6 @@
+SpellVOOverrideSkins = {"ZhaoYunXinZhao"}
+SpellFXOverrideSkins = {"ZhaoYunXinZhao"}
+BuffName = "XenZhaoBattleCry"
+NotSingleTargetSpell = false
+BuffTextureName = "XinZhao_BattleCry.dds"
+DoesntTriggerSpellCasts = false

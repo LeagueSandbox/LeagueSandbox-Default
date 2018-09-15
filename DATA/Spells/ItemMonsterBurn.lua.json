@@ -1,8 +1,0 @@
-{
-    "AutoBuffActivateAttachBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
-    "BuffName": "ItemMonsterBurn",
-    "AutoBuffActivateEffect": "SRU_JungleBuff_MonsterBurn.troy",
-    "NotSingleTargetSpell": true,
-    "BuffTextureName": "Burning.dds",
-    "DoesntTriggerSpellCasts": false
-}

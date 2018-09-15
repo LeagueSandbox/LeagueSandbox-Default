@@ -1,7 +1,0 @@
-{
-    "BuffName": "Slow",
-    "PopupMessage1": "game_floatingtext_Slowed",
-    "AutoBuffActivateEffect": "ChronoClockSlow_tar.troy",
-    "BuffTextureName": "Chronokeeper_Timestop.dds",
-    "AutoBuffActivateEffect2": "global_slow.troy"
-}

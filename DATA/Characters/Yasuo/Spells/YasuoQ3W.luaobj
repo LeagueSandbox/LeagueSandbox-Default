@@ -1,0 +1,18 @@
+SpellVOOverrideSkins = {"YasuoSkin02"}
+SpellFXOverrideSkins = {"YasuoSkin02"}
+BuffName = "YasuoQ3W"
+NotSingleTargetSpell = true
+BuffTextureName = "Yasuo_Q3.dds"
+DoesntBreakShields = true
+ChainMissileParameters = {
+  CanHitCaster = 0,
+  CanHitFriends = 0,
+  CanHitSameTargetConsecutively = 0,
+  MaximumHits = {4, 4, 4, 4, 4},
+  CanHitEnemies = 1,
+  CanHitSameTarget = 0
+}
+OnPreDamagePriority = 3
+IsDamagingSpell = false
+DoesntTriggerSpellCasts = false
+SpellToggleSlot = 1

@@ -1,0 +1,3 @@
+AutoBuffActivateEffect = "Jinx_Passive_Buff.troy"
+BuffName = "JinxPassiveKill"
+BuffTextureName = "Jinx_Passive.dds"

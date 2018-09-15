@@ -1,0 +1,5 @@
+DoesntBreakShields = true
+BuffName = "GnarEAttackSpeed"
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+BuffTextureName = "Gnar_E.dds"

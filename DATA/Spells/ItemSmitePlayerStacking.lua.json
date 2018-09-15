@@ -1,7 +1,0 @@
-{
-    "PersistsThroughDeath": true,
-    "BuffName": "ItemSmitePlayerStacking",
-    "NotSingleTargetSpell": true,
-    "BuffTextureName": "SmiteHeartOfConquest.dds",
-    "DoesntTriggerSpellCasts": false
-}

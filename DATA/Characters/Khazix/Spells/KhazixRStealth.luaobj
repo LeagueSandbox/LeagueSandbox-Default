@@ -1,0 +1,4 @@
+AutoBuffActivateEffect = "Global_Haste.troy"
+SpellFXOverrideSkins = {"KhazixDroid", "KhazixSkin02"}
+BuffName = "KhazixRStealth"
+BuffTextureName = "Khazix_R.dds"

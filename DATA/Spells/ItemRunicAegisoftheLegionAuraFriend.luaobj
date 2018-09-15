@@ -1,0 +1,2 @@
+BuffTextureName = "3107_Runic_Bulwark.dds"
+BuffName = "ItemRunicAegisFriend"

@@ -1,0 +1,7 @@
+SpellVOOverrideSkins = {"BroOlaf"}
+DoesntBreakShields = true
+IsDamagingSpell = true
+SpellFXOverrideSkins = {"PentakillOlaf"}
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = true
+CastingBreaksStealth = true

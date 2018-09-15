@@ -1,8 +1,0 @@
-{
-    "BuffName": "Time Warp",
-    "AutoBuffActivateEffect2": "Global_Haste.troy",
-    "AutoBuffActivateEffect": "ChronoClockFast_tar.troy",
-    "NotSingleTargetSpell": false,
-    "BuffTextureName": "Chronokeeper_Haste.dds",
-    "DoesntTriggerSpellCasts": false
-}

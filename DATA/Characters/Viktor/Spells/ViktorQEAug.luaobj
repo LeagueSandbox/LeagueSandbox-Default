@@ -1,0 +1,6 @@
+PersistsThroughDeath = true
+IsDamagingSpell = true
+BuffName = "ViktorQEAug"
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+BuffTextureName = "3197_Hexcore3.dds"

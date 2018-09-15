@@ -1,0 +1,7 @@
+SpellVOOverrideSkins = {"VeigarSkin08"}
+DoesntBreakShields = true
+IsDamagingSpell = true
+SpellFXOverrideSkins = {"BadSantaVeigar", "VeigarSkin08"}
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+CastingBreaksStealth = true

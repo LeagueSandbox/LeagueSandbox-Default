@@ -1,0 +1,6 @@
+AutoCooldownByLevel = {8, 7, 6, 5, 4}
+IsDamagingSpell = true
+SpellFXOverrideSkins = {"BadSantaVeigar"}
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+SpellDamageRatio = 1

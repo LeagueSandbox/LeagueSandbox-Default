@@ -1,0 +1,4 @@
+AutoBuffActivateEffect = "GLOBAL_HASTE.troy"
+Nondispellable = true
+BuffName = "S5_LaneSigilBuff"
+BuffTextureName = "Summoner_clairvoyance.dds"

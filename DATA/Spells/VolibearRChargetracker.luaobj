@@ -1,0 +1,14 @@
+BuffName = "VolibearRApplicator"
+AutoBuffActivateAttachBoneName4 = ""
+AutoBuffActivateEffect = ""
+CastingBreaksStealth = false
+BuffTextureName = "Minotaur_Pulverize.dds"
+AutoBuffActivateEffect4 = ""
+AutoBuffActivateAttachBoneName = ""
+DoesntBreakShields = true
+AutoBuffActivateEffect2 = ""
+AutoBuffActivateEffect3 = ""
+AutoBuffActivateAttachBoneName2 = ""
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = true
+NotSingleTargetSpell = false

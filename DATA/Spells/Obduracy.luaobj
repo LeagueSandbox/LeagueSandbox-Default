@@ -1,0 +1,6 @@
+DoesntBreakShields = false
+IsDamagingSpell = false
+SpellFXOverrideSkins = {"GlacialMalphite", "MalphiteSkin06"}
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+CastingBreaksStealth = true

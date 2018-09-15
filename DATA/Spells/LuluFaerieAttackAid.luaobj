@@ -1,0 +1,11 @@
+BuffName = "LuluShield"
+AutoBuffActivateEffect = ""
+CastingBreaksStealth = true
+BuffTextureName = "OriannaCommandRedact.dds"
+AutoBuffActivateAttachBoneName = ""
+DoesntBreakShields = true
+DoOnPreDamageInExpirationOrder = true
+OnPreDamagePriority = 3
+IsDamagingSpell = false
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = true

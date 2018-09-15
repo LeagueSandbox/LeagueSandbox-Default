@@ -1,0 +1,4 @@
+NonDispellable = true
+PersistsThroughDeath = true
+BuffName = "GarenPassiveCooldown"
+BuffTextureName = "Garen_PerseveranceCD.dds"

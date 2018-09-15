@@ -1,0 +1,6 @@
+AutoBuffActivateAttachBoneName = "R_Hand"
+BuffName = "TalonNoxianDiplomacyBuff"
+AutoBuffActivateEffect = "TEMP_Aatrox_W_Buff.troy"
+AutoBuffActivateAttachBoneName2 = "L_Hand"
+BuffTextureName = "TalonNoxianDiplomacy.dds"
+AutoBuffActivateEffect2 = "TEMP_Aatrox_W_Buff.troy"

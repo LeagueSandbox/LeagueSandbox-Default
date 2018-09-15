@@ -1,0 +1,6 @@
+DoesntBreakShields = false
+IsDamagingSpell = true
+SpellFXOverrideSkins = {"ReefMalphite", "NautilusAstronaut", "PhoenixQuinn", "QuinnValor_Phoenix", "QuinnSkin02", "QuinnValorSkin02"}
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+CastingBreaksStealth = true

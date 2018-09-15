@@ -1,0 +1,7 @@
+DoesntBreakShields = false
+IsDamagingSpell = true
+SpellToggleSlot = 3
+AutoBuffActivateEffect = ""
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = true
+CastingBreaksStealth = true

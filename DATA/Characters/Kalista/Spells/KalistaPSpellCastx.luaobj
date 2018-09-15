@@ -1,0 +1,10 @@
+SpellVOOverrideSkins = {"JannaForecast"}
+SpellFXOverrideSkins = {"JannaForecast"}
+BuffName = "BlackShield"
+NotSingleTargetSpell = false
+BuffTextureName = "FallenAngel_BlackShield.dds"
+AutoBuffActivateEvent = "DeathsCaress_buf.troy"
+DoOnPreDamageInExpirationOrder = true
+IsDamagingSpell = false
+DoesntTriggerSpellCasts = true
+OnPreDamagePriority = 3

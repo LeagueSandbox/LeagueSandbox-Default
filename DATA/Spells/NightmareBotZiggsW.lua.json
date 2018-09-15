@@ -1,9 +1,0 @@
-{
-    "SpellToggleSlot": 2.0,
-    "SpellFXOverrideSkins": {
-        "1": "ZiggsPoolParty",
-        "2": "ZiggsSnowday"
-    },
-    "BuffName": "ZiggsW",
-    "BuffTextureName": "ZiggsW.dds"
-}

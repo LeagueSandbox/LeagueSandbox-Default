@@ -1,0 +1,5 @@
+IsDamagingSpell = true
+BuffName = "HealthBomb"
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = true
+BuffTextureName = "Chronokeeper_Chronoblast.dds"

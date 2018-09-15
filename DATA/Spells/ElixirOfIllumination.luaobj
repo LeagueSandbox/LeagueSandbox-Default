@@ -1,0 +1,8 @@
+AutoBuffActivateAttachBoneName = "C_Buffbone_Glb_Center_Loc"
+PersistsThroughDeath = true
+BuffName = "ElixirOfIllumination"
+NonDispellable = true
+AutoBuffActivateEffect = "PotionofBrilliance_itm.troy"
+NotSingleTargetSpell = true
+BuffTextureName = "2048_Ichor_of_Illumination.dds"
+DoesntTriggerSpellCasts = true

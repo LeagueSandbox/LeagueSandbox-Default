@@ -1,0 +1,9 @@
+SpellFXOverrideSkins = {"HunterRengar"}
+BuffName = "Rengar9StackBuff"
+AutoBuffActivateEffect = "Global_haste.troy"
+NotSingleTargetSpell = true
+BuffTextureName = "RengarUlt.dds"
+SpellToggleSlot = 1
+IsDamagingSpell = false
+DoesntTriggerSpellCasts = false
+CastingBreaksStealth = true

@@ -1,0 +1,4 @@
+NonDispellable = true
+PersistsThroughDeath = true
+BuffName = "VoidStone"
+BuffTextureName = "Kassadin_VoidStone.dds"

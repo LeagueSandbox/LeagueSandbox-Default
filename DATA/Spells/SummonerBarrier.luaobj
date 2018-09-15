@@ -1,0 +1,15 @@
+OnPreDamagePriority = 3
+DoesntBreakShields = true
+IsDamagingSpell = false
+ChainMissileParameters = {
+  CanHitCaster = 0,
+  CanHitFriends = 0,
+  CanHitSameTargetConsecutively = 0,
+  MaximumHits = {4, 4, 4, 4, 4},
+  CanHitEnemies = 1,
+  CanHitSameTarget = 0
+}
+BuffName = "SummonerBarrier"
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = true
+BuffTextureName = "SummonerBarrier.dds"

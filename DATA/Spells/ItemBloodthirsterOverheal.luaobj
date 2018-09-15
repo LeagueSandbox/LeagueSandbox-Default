@@ -1,0 +1,10 @@
+SpellFXOverrideSkins = {"SteelLegionLux"}
+BuffName = "LuxShield"
+CastingBreaksStealth = true
+BuffTextureName = "2222_Transmutation_Crystal.dds"
+DoesntBreakShields = true
+DoOnPreDamageInExpirationOrder = true
+OnPreDamagePriority = 3
+IsDamagingSpell = false
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = true

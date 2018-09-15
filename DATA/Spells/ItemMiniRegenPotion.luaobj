@@ -1,0 +1,5 @@
+BuffName = "ItemMiniRegenPotion"
+AutoBuffActivateEffect = "Global_Item_HealthPotion.troy"
+NotSingleTargetSpell = true
+BuffTextureName = "2009_Mini_Pot.dds"
+DoesntTriggerSpellCasts = true

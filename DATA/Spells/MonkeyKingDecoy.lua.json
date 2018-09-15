@@ -1,9 +1,0 @@
-{
-    "SpellFXOverrideSkins": {
-        "1": "MonkeyKingSkin04"
-    },
-    "IsDamagingSpell": true,
-    "NotSingleTargetSpell": true,
-    "DoesntTriggerSpellCasts": false,
-    "SpellDamageRatio": 0.5
-}

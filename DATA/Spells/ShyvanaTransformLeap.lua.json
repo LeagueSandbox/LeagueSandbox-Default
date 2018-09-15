@@ -1,7 +1,0 @@
-{
-    "DoesntBreakShields": true,
-    "BuffName": "JarvanIVCataclysm",
-    "NotSingleTargetSpell": false,
-    "DoesntTriggerSpellCasts": true,
-    "BuffTextureName": "JarvanIV_Cataclysm.dds"
-}

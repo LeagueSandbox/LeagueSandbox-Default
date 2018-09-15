@@ -1,0 +1,4 @@
+NonDispellable = true
+PersistsThroughDeath = true
+BuffName = "BlessingoftheLizardElder"
+BuffTextureName = "48thSlave_WaveOfLoathing.dds"

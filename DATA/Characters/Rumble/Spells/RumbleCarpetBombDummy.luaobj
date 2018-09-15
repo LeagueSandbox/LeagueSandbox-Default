@@ -1,0 +1,4 @@
+IsDamagingSpell = true
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = true
+DoesntBreakShields = true

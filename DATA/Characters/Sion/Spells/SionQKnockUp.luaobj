@@ -1,0 +1,2 @@
+BuffTextureName = "Sion_Q.dds"
+BuffName = "SionQKnockUp"

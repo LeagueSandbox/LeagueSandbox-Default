@@ -1,0 +1,4 @@
+SpellFXOverrideSkins = {"ReefMalphite", "GlacialMalphite", "MalphiteSkin06"}
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+DoesntBreakShields = true

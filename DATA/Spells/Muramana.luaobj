@@ -1,0 +1,10 @@
+PersistsThroughDeath = true
+BuffName = "Muramana"
+AutoBuffActivateEffect = "ItemMuramanaToggle.troy"
+NotSingleTargetSpell = true
+BuffTextureName = "3042_Muramana.dds"
+AutoBuffActivateAttachBoneName = "BUFFBONE_GLB_WEAPON_1"
+AutoCooldownByLevel = {0, 0, 0, 0, 0}
+NonDispellable = true
+DoesntTriggerSpellCasts = true
+DoOnPreDamageInExpirationOrder = true

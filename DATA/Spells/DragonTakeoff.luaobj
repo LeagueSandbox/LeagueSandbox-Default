@@ -1,0 +1,9 @@
+BuffName = "Pulverize"
+PopupMessage1 = "game_floatingtext_Knockup"
+CastingBreaksStealth = true
+BuffTextureName = "Minotaur_Pulverize.dds"
+DoesntBreakShields = true
+SpellDamageRatio = 0,75
+IsDamagingSpell = false
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = true

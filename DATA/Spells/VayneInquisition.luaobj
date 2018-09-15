@@ -1,0 +1,10 @@
+BuffName = "VayneInquisition"
+AutoBuffActivateEffect = "vayne_ult_primary_buf.troy"
+NotSingleTargetSpell = true
+BuffTextureName = "Vayne_Inquisition.dds"
+AutoBuffActivateAttachBoneName = "C_BUFFBONE_GLB_CHEST_LOC"
+AutoCooldownByLevel = {75, 75, 75, 18, 14}
+AutoBuffActivateEffect2 = "vayne_ult_primary_buf_02.troy"
+AutoBuffActivateEffect3 = "vayne_ult_primary_buf_03.troy"
+DoesntTriggerSpellCasts = false
+AutoBuffActivateAttachBoneName2 = "C_BUFFBONE_GLB_CENTER_LOC"

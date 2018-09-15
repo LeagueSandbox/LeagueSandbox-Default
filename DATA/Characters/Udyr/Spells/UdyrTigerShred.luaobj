@@ -1,0 +1,1 @@
+SpellFXOverrideSkins = {"SpiritUdyr"}

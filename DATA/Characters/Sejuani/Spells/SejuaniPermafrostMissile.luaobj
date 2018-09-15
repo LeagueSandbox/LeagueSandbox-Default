@@ -1,0 +1,6 @@
+IsDamagingSpell = true
+SpellDamageRatio = 1
+BuffName = "AhriFoxFire"
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+BuffTextureName = "Ahri_FoxFire.dds"

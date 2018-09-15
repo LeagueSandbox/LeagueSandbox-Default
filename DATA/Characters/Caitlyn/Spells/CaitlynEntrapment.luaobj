@@ -1,0 +1,6 @@
+DoesntBreakShields = true
+SpellFXOverrideSkins = {"CaitlynSkin06"}
+AutoBuffActivateEffect = "DarkBinding_tar.troy"
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+SpellDamageRatio = 1

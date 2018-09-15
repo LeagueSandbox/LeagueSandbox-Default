@@ -1,8 +1,0 @@
-{
-    "PersistsThroughDeath": true,
-    "BuffName": "ElixirOfGold",
-    "NonDispellable": true,
-    "NotSingleTargetSpell": true,
-    "BuffTextureName": "2036_Test_Gold_Potion.dds",
-    "DoesntTriggerSpellCasts": true
-}

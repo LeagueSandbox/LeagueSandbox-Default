@@ -1,0 +1,10 @@
+PersistsThroughDeath = true
+IsDamagingSpell = false
+TriggersSpellCasts = true
+CastingBreaksStealth = true
+AutoBuffActivateAttachBoneName = "L_Hand"
+DoesntBreakShields = false
+NonDispellable = true
+AutoBuffActivateAttachBoneName2 = "R_Hand"
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = false

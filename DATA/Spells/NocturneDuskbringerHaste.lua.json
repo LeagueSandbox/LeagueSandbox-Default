@@ -1,8 +1,0 @@
-{
-    "AutoBuffActivateEffect": "Global_Haste.troy",
-    "SpellFXOverrideSkins": {
-        "1": "CyberNocturne"
-    },
-    "BuffName": "NocturneDuskbringer",
-    "BuffTextureName": "Nocturne_Duskbringer.dds"
-}

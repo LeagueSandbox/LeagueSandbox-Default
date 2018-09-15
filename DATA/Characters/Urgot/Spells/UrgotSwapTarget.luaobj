@@ -1,0 +1,6 @@
+DoesntBreakShields = true
+BuffName = "UrgotSwapTarget"
+AutoCooldownByLevel = {100, 85, 70, 55, 40}
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+BuffTextureName = "UrgotPositionReverser.dds"

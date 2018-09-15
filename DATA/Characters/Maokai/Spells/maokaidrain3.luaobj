@@ -1,0 +1,8 @@
+SpellToggleSlot = 4
+DoesntBreakShields = true
+IsDamagingSpell = true
+BuffName = "MaokaiDrain"
+BuffTextureName = "Maokai_R.dds"
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+CastingBreaksStealth = true

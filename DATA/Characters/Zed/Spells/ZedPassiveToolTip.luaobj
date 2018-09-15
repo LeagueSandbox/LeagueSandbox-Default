@@ -1,0 +1,2 @@
+BuffName = "ZedPassiveToolTip"
+PersistsThroughDeath = true

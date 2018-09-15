@@ -1,0 +1,11 @@
+SpellVOOverrideSkins = {"JannaForecast"}
+SpellFXOverrideSkins = {"JannaForecast"}
+BuffName = "Zephyr"
+CastingBreaksStealth = true
+BuffTextureName = "Janna_Zephyr.dds"
+AutoBuffActivateAttachBoneName = "C_BUFFBONE_GLB_HEAD_LOC"
+DoesntBreakShields = true
+SpellDamageRatio = 1
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = false

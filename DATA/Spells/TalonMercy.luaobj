@@ -1,0 +1,8 @@
+AutoBuffActivateAttachBoneName = ""
+PersistsThroughDeath = true
+BuffName = "BladeRogue_CheatDeath"
+AutoBuffActivateAttachBoneName4 = ""
+AutoBuffActivateEffect = ""
+AutoBuffActivateAttachBoneName2 = ""
+BuffTextureName = "22.dds"
+AutoBuffActivateAttachBoneName3 = ""

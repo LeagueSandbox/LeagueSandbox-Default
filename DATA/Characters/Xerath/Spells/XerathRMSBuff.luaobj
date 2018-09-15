@@ -1,0 +1,8 @@
+AutoBuffActivateAttachBoneName = "Buffbone_Glb_Ground_Loc"
+SpellFXOverrideSkins = {"CyberEzreal"}
+IsDamagingSpell = true
+BuffName = "XerathRMSBuff"
+AutoBuffActivateEffect = "Xerath_Base_R_MS.troy"
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+BuffTextureName = "Xerath_R1.dds"

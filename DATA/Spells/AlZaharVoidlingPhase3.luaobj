@@ -1,0 +1,6 @@
+AutoBuffActivateAttachBoneName = "BUFFBONE_GLB_HAND_R"
+BuffName = "AlZaharVoidlingPhase3"
+AutoBuffActivateEffect = "AlzaharVoidling_speed.troy"
+AutoBuffActivateAttachBoneName2 = "BUFFBONE_GLB_HAND_L"
+BuffTextureName = "AlZahar_SummonVoidling.dds"
+AutoBuffActivateEffect2 = "AlzaharVoidling_speed.troy"

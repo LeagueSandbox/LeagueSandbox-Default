@@ -1,0 +1,5 @@
+SpellVOOverrideSkins = {"TryndamereDemonsword"}
+SpellFXOverrideSkins = {""}
+AutoBuffActivateEffect = "shyvana_shadow_dargon_transform.troy"
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false

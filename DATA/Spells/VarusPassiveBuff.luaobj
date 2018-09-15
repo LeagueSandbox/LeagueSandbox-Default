@@ -1,0 +1,10 @@
+PersistsThroughDeath = true
+BuffName = "VarusPassiveBuff"
+CastingBreaksStealth = false
+BuffTextureName = "12.dds"
+DoesntBreakShields = true
+SpellFXOverrideSkins = {"VarusAscended"}
+NonDispellable = true
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = true
+NotSingleTargetSpell = false

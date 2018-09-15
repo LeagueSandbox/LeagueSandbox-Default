@@ -1,8 +1,0 @@
-{
-    "DoesntBreakShields": false,
-    "IsDamagingSpell": true,
-    "AutoBuffActivateEffectFlags": "EFFCREATE_UPDATE_ORIENTATION",
-    "NotSingleTargetSpell": true,
-    "DoesntTriggerSpellCasts": false,
-    "CastingBreaksStealth": true
-}

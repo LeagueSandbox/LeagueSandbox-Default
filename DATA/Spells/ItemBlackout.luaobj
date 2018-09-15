@@ -1,0 +1,4 @@
+NonDispellable = true
+CastingBreaksStealth = true
+DoesntTriggerSpellCasts = true
+PersistsThroughDeath = true

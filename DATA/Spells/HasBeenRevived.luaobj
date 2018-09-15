@@ -1,0 +1,6 @@
+PersistsThroughDeath = true
+BuffName = "HasBeenRevived"
+NonDispellable = true
+NotSingleTargetSpell = true
+BuffTextureName = "3026_Guardian_Angel_Charging.dds"
+DoesntTriggerSpellCasts = true

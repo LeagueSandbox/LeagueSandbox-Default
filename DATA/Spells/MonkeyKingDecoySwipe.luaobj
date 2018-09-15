@@ -1,0 +1,6 @@
+SpellVOOverrideSkins = {"MonkeyKingSkin04"}
+SpellFXOverrideSkins = {"MonkeyKingSkin04"}
+IsDamagingSpell = true
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+SpellDamageRatio = 0,5

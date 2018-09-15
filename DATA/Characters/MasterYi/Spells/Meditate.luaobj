@@ -1,0 +1,6 @@
+AutoCooldownByLevel = {50, 50, 50, 50, 50}
+BuffName = "Meditate"
+BuffTextureName = "MasterYi_W.dds"
+ChannelDuration = 4
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = true

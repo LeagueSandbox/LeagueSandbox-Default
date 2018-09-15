@@ -1,7 +1,0 @@
-{
-    "AutoBuffActivateAttachBoneName": "C_BUFFBONE_GLB_CENTER_LOC",
-    "BuffName": "Exalted with Baron Nashor",
-    "AutoBuffActivateEffect": "Exalted_buf.troy",
-    "BuffTextureName": "Averdrian_AstralBeam.dds",
-    "NonDispellable": true
-}

@@ -1,6 +1,0 @@
-{
-    "AutoBuffActivateEffect": "GLOBAL_SLOW.TROY",
-    "BuffTextureName": "Lulu_GiantGrowth.dds",
-    "BuffName": "LuluRSlow",
-    "PopupMessage1": "game_floatingtext_Slowed"
-}

@@ -1,0 +1,4 @@
+NonDispellable = true
+SpellToggleSlot = 4
+BuffName = "MordekaiserCOTGSelf"
+BuffTextureName = "Mordekaiser_COTG.dds"

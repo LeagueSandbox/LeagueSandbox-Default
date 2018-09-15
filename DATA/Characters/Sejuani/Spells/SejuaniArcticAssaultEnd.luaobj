@@ -1,0 +1,7 @@
+DoesntBreakShields = false
+IsDamagingSpell = true
+BuffName = "SejuaniArcticAssault"
+BuffTextureName = "Sejuani_Q.dds"
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+CastingBreaksStealth = true

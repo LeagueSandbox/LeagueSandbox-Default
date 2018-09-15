@@ -1,7 +1,0 @@
-{
-    "IsDamagingSpell": true,
-    "BuffName": "BurningAgony",
-    "NotSingleTargetSpell": true,
-    "DoesntTriggerSpellCasts": true,
-    "BuffTextureName": "DrMundo_BurningAgony.dds"
-}

@@ -1,0 +1,2 @@
+BuffTextureName = "Gnar_W_Debuff.dds"
+BuffName = "GnarWProc"

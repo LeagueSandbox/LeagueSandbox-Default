@@ -1,0 +1,9 @@
+SpellFXOverrideSkins = {"HunterRengar"}
+BuffName = "RengarEShred"
+CastingBreaksStealth = true
+BuffTextureName = "RengarEReg.dds"
+DoesntBreakShields = true
+AutoCooldownByLevel = {12, 11, 10, 9, 8}
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = false

@@ -1,0 +1,5 @@
+DoesntBreakShields = false
+BuffName = "BlindMonkSafeguard"
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+AutoCooldownByLevel = {22, 18, 14, 10, 6}

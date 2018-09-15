@@ -1,0 +1,16 @@
+IsDamagingSpell = true
+PopupMessage1 = "game_floatingtext_Silenced"
+AutoBuffActivateEffect = "LOC_Silence.troy"
+NotSingleTargetSpell = false
+BuffTextureName = "Fiddlesticks_DarkWind.dds"
+AutoBuffActivateAttachBoneName = "C_BUFFBONE_GLB_HEAD_LOC"
+ChainMissileParameters = {
+  CanHitCaster = 0,
+  CanHitFriends = 0,
+  CanHitSameTargetConsecutively = 0,
+  MaximumHits = {2, 4, 6, 8, 10},
+  CanHitEnemies = 1,
+  CanHitSameTarget = 1
+}
+DoesntTriggerSpellCasts = false
+BuffName = "Silence"

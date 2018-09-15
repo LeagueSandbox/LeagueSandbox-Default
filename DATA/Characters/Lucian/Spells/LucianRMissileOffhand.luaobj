@@ -1,0 +1,6 @@
+SpellFXOverrideSkins = {"CyberEzreal"}
+IsDamagingSpell = true
+IsDeathRecapSource = true
+CastingBreaksStealth = true
+DoesntTriggerSpellCasts = true
+NotSingleTargetSpell = false

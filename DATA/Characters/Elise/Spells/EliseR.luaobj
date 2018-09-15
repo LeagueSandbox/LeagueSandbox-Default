@@ -1,0 +1,11 @@
+PersistsThroughDeath = true
+BuffName = "BuffEliseSpiderForm"
+CastingBreaksStealth = true
+BuffTextureName = "EliseR.dds"
+DoesntBreakShields = true
+SpellToggleSlot = 4
+IsDeathRecapSource = true
+NonDispellable = true
+IsDamagingSpell = false
+DoesntTriggerSpellCasts = true
+NotSingleTargetSpell = true

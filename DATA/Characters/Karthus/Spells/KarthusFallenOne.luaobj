@@ -1,0 +1,10 @@
+SpellVOOverrideSkins = {"KarthusSkin04"}
+PersistsThroughDeath = true
+IsDamagingSpell = true
+CastingBreaksStealth = true
+AutoCooldownByLevel = {180, 150, 120}
+DoesntBreakShields = true
+NonDispellable = true
+ChannelDuration = 3
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = true

@@ -1,0 +1,3 @@
+PersistsThroughDeath = true
+BuffName = "NightmareBotKarthusBuff"
+BuffTextureName = "Karthus_Passive.dds"

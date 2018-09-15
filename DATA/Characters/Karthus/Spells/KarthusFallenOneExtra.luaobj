@@ -1,0 +1,8 @@
+ChannelDuration = 3
+DoesntBreakShields = true
+IsDamagingSpell = true
+PersistsThroughDeath = true
+NonDispellable = true
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+CastingBreaksStealth = true

@@ -1,0 +1,9 @@
+SpellVOOverrideSkins = {"LubuJarvanIV"}
+SpellFXOverrideSkins = {"LubuJarvanIV"}
+BuffName = "JarvanIVDemacianStandard"
+CastTime = 0,115
+NotSingleTargetSpell = true
+BuffTextureName = "JarvanIV_DemacianStandard.dds"
+DoesntBreakShields = true
+DoesntTriggerSpellCasts = false
+IsDamagingSpell = false

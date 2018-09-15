@@ -1,0 +1,8 @@
+DoOnPreDamageInExpirationOrder = true
+AutoCooldownByLevel = {16, 16, 16, 16, 16}
+BuffName = "Black Shield"
+OnPreDamagePriority = 2
+PersistsThroughDeath = true
+NotSingleTargetSpell = false
+BuffTextureName = "FallenAngel_BlackShield.dds"
+DoesntTriggerSpellCasts = true

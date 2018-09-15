@@ -1,0 +1,7 @@
+AutoBuffActivateAttachBoneName2 = "BUFFBONE_CSTM_WEAPON_1"
+IsDamagingSpell = true
+AutoBuffActivateEffect2 = "mordakaiser_maceOfSpades_activate.troy"
+BuffName = "MordekaiserMaceOfSpades"
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+BuffTextureName = "MordekaiserMaceOfSpades.dds"

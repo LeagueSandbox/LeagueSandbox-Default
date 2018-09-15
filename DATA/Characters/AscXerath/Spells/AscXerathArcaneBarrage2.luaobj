@@ -1,0 +1,8 @@
+SpellFXOverrideSkins = {"IronForgeXerath"}
+DoesntBreakShields = true
+IsDamagingSpell = true
+IsDeathRecapSource = true
+BuffName = "XerathArcaneBarrage2"
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+CastingBreaksStealth = true

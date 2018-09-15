@@ -1,0 +1,11 @@
+SpellVOOverrideSkins = {"KhazixDroid"}
+PersistsThroughDeath = true
+IsDamagingSpell = true
+PopupMessage1 = "game_floatingtext_Slowed"
+CastingBreaksStealth = true
+BuffTextureName = "Khazix_W_red.dds"
+DoesntBreakShields = false
+SpellFXOverrideSkins = {"KhazixDroid"}
+BuffName = "KhazixWEvoSlow"
+DoesntTriggerSpellCasts = true
+NotSingleTargetSpell = true

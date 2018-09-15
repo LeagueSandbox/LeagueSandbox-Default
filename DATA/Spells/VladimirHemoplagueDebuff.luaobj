@@ -1,0 +1,5 @@
+SpellFXOverrideSkins = {"BloodkingVladimir", "VladimirSkin06"}
+BuffName = "VladimirHemoplagueDebuff"
+NotSingleTargetSpell = true
+BuffTextureName = "Vladimir_Hemoplague.dds"
+DoesntTriggerSpellCasts = true

@@ -1,0 +1,8 @@
+AutoBuffActivateAttachBoneName = "C_Buffbone_Glb_Layout_Loc"
+AutoCooldownByLevel = {90, 90, 90}
+BuffName = "On The Hunt"
+NonDispellable = true
+AutoBuffActivateEffect = "Sivir_base_R_buf.troy"
+NotSingleTargetSpell = true
+BuffTextureName = "Sivir_R.dds"
+DoesntTriggerSpellCasts = false

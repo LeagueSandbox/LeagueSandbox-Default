@@ -1,0 +1,5 @@
+IsDamagingSpell = true
+BuffName = "WrathoftheAncients"
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+BuffTextureName = "Averdrian_AstralBeam.dds"

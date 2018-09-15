@@ -1,0 +1,7 @@
+DoesntBreakShields = true
+IsDamagingSpell = false
+PersistsThroughDeath = true
+AutoBuffActivateEffect = "GuinsoosRodofOblivion_buf.troy"
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = true
+CastingBreaksStealth = false

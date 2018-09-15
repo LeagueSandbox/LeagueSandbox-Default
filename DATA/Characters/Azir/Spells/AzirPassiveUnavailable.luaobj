@@ -1,0 +1,5 @@
+PersistsThroughDeath = true
+IsDamagingSpell = true
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+SpellFXOverrideSkins = {"CyberEzreal"}

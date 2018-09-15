@@ -1,0 +1,11 @@
+PersistsThroughDeath = true
+BuffName = ""
+AutoBuffActivateEffect = ""
+CastingBreaksStealth = true
+BuffTextureName = ""
+AutoBuffActivateAttachBoneName = ""
+DoesntBreakShields = false
+SpellFXOverrideSkins = {"ReefMalphite"}
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = true

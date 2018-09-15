@@ -1,0 +1,9 @@
+IsDamagingSpell = false
+PopupMessage1 = "game_floatingtext_Knockup"
+CastingBreaksStealth = false
+BuffTextureName = "Minotaur_TriumphantRoar.dds"
+DoesntBreakShields = false
+NonDispellable = true
+BuffName = "Move"
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = false

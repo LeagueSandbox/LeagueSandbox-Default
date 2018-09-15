@@ -1,0 +1,6 @@
+DoesntBreakShields = true
+IsDamagingSpell = true
+BuffTextureName = "Nidalee_E2.dds"
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+CastingBreaksStealth = true

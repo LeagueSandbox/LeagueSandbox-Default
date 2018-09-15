@@ -1,0 +1,9 @@
+SpellFXOverrideSkins = {"BlackIceAnivia"}
+BuffName = "Flash Frost"
+CastingBreaksStealth = true
+BuffTextureName = "Cryophoenix_FrigidOrb.dds"
+DoesntBreakShields = true
+SpellToggleSlot = 1
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = true
+NotSingleTargetSpell = true

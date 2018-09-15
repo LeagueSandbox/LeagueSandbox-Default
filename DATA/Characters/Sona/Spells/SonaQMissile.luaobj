@@ -1,0 +1,6 @@
+DoesntBreakShields = false
+IsDamagingSpell = true
+SpellFXOverrideSkins = {"PaxSona"}
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = true
+SpellDamageRatio = 1

@@ -1,0 +1,10 @@
+SpellFXOverrideSkins = {"ReefMalphite"}
+BuffName = ""
+AutoBuffActivateEffect = ""
+CastingBreaksStealth = true
+BuffTextureName = ""
+AutoBuffActivateAttachBoneName = ""
+DoesntBreakShields = false
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = true

@@ -1,0 +1,10 @@
+BuffName = "FioraQCD"
+AutoBuffActivateEffect = "FioraQLunge_buf.troy"
+CastingBreaksStealth = true
+BuffTextureName = "Fiora_Lunge.dds"
+AutoBuffActivateAttachBoneName = "Weapon"
+DoesntBreakShields = true
+AutoBuffActivateAttachBoneName2 = ""
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = true

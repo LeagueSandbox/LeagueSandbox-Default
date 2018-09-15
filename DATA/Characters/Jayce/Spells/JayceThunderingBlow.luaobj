@@ -1,0 +1,5 @@
+SpellVOOverrideSkins = {"Jayce_Sentinel"}
+IsDamagingSpell = true
+TriggersSpellCasts = true
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false

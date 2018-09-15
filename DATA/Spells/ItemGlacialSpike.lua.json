@@ -1,9 +1,0 @@
-{
-    "DoesntBreakShields": true,
-    "IsDamagingSpell": true,
-    "BuffName": "ItemGlacialSpike",
-    "BuffTextureName": "3092_Kages_Last_Breath.dds",
-    "NotSingleTargetSpell": false,
-    "DoesntTriggerSpellCasts": true,
-    "CastingBreaksStealth": true
-}

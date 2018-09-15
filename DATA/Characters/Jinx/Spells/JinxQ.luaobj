@@ -1,0 +1,8 @@
+SpellFXOverrideSkins = {"JinxSkin01"}
+PersistsThroughDeath = true
+BuffName = "JinxQ"
+TriggersSpellCasts = false
+NonDispellable = true
+NotSingleTargetSpell = true
+BuffTextureName = "Jinx_Q1.dds"
+DoesntTriggerSpellCasts = true

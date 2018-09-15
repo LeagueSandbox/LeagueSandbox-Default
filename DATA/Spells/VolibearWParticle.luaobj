@@ -1,0 +1,7 @@
+AutoBuffActivateAttachBoneName = "C_BUFFBONE_GLB_CENTER_LOC"
+AutoBuffActivateEffect2 = "Volibear_maxStack_indicator_cast.troy"
+AutoBuffActivateEffect3 = "Volibear_maxStack_indicator_cast.troy"
+AutoBuffActivateEffect = "Volibear_maxStack_indicator.troy"
+AutoBuffActivateEffect4 = ""
+AutoBuffActivateAttachBoneName2 = "L_BUFFBONE_GLB_HAND_LOC"
+AutoBuffActivateAttachBoneName3 = "R_BUFFBONE_GLB_HAND_LOC"

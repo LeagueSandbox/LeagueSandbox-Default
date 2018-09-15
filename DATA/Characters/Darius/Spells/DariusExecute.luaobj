@@ -1,0 +1,4 @@
+SpellVOOverrideSkins = {"DariusSkin04"}
+PersistsThroughDeath = true
+IsDamagingSpell = true
+SpellFXOverrideSkins = {"Darius_ZaunKnight", "Darius_NorseKing", "DariusSkin04"}

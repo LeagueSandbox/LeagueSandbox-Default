@@ -1,0 +1,3 @@
+PersistsThroughDeath = true
+BuffName = "RengarTrophyBuff"
+BuffTextureName = "3166_RengarTrophy.dds"

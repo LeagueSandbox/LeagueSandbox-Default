@@ -1,0 +1,5 @@
+PersistsThroughDeath = true
+AutoBuffActivateEffect = "RallyingBanner_itm.troy"
+CastingBreaksStealth = true
+DoesntTriggerSpellCasts = true
+NonDispellable = true

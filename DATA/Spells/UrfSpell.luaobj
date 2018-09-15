@@ -1,0 +1,11 @@
+Nondispellable = true
+BuffName = "AkaliMota"
+TriggersSpellCasts = true
+AutoBuffActivateEffect = ""
+CastingBreaksStealth = true
+BuffTextureName = "AkaliMota.dds"
+DoesntBreakShields = false
+AutoBuffActivateEffect2 = ""
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = false

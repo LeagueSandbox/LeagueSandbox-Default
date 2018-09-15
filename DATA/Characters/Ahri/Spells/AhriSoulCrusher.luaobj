@@ -1,0 +1,3 @@
+PersistsThroughDeath = true
+BuffName = "AhriSoulCrusher"
+BuffTextureName = "Ahri_SoulEater.dds"

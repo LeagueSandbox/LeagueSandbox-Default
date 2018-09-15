@@ -1,0 +1,2 @@
+BuffTextureName = "AkaliShadowDance.dds"
+BuffName = "AkaliShadowDance"

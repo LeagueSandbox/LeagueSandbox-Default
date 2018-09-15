@@ -1,0 +1,10 @@
+BuffName = "HeimerdingerR"
+AutoBuffActivateEffect = "Heimerdinger_Base_R_Antenna_Glow.troy"
+NotSingleTargetSpell = false
+BuffTextureName = "Heimerdinger_R.dds"
+AutoBuffActivateAttachBoneName = "R_Buffbone_Cstm_Antenna"
+AutoBuffActivateEffect2 = "Heimerdinger_Base_R_Antenna_Glow.troy"
+NonDispellable = true
+SpellToggleSlot = 4
+DoesntTriggerSpellCasts = true
+AutoBuffActivateAttachBoneName2 = "L_Buffbone_Cstm_Antenna"

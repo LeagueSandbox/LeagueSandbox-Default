@@ -1,0 +1,5 @@
+PersistsThroughDeath = true
+BuffName = "Detonating Shot"
+NonDispellable = true
+BuffTextureName = "Tristana_ExplosiveShot.dds"
+SpellFXOverrideSkins = {"RocketTristana"}

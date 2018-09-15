@@ -1,0 +1,8 @@
+IsDeathRecapSource = true
+SpellFXOverrideSkins = {"YasuoSkin02"}
+IsDamagingSpell = true
+SpellToggleSlot = 1
+BuffName = "RenekthonCleaveReady"
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+BuffTextureName = "AkaliCrescentSlash.dds"

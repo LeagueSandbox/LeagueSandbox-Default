@@ -1,0 +1,4 @@
+NonDispellable = true
+SpellFXOverrideSkins = {"Draven_Gladiator"}
+BuffName = "DravenPassive"
+BuffTextureName = "Draven_passive.dds"

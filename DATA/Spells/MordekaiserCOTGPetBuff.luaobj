@@ -1,0 +1,3 @@
+IsPetDurationBuff = true
+BuffName = "MordekaiserChildrenOfTheGravePetBuff"
+BuffTextureName = "DarkChampion_EndlessRage.dds"

@@ -1,9 +1,0 @@
-{
-    "PersistsThroughDeath": true,
-    "BuffName": "CardMasterStack",
-    "NonDispellable": true,
-    "BuffTextureName": "Cardmaster_RapidToss_Charging.dds",
-    "SpellFXOverrideSkins": {
-        "1": "UnderworldTwistedFate"
-    }
-}

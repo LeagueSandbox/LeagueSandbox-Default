@@ -1,0 +1,7 @@
+SpellVOOverrideSkins = {"BlackIceAnivia", "BirdCryophoenix"}
+DoesntBreakShields = false
+IsDamagingSpell = true
+SpellFXOverrideSkins = {"BlackIceAnivia"}
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+CastingBreaksStealth = true

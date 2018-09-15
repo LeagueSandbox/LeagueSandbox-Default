@@ -1,0 +1,11 @@
+SpellVOOverrideSkins = {"SpiritUdyr"}
+PersistsThroughDeath = true
+BuffName = "UdyrPhoenixStance"
+CastingBreaksStealth = true
+BuffTextureName = "Udyr_PhoenixStance.dds"
+DoesntBreakShields = false
+SpellFXOverrideSkins = {"SpiritUdyr"}
+SpellToggleSlot = 4
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = true

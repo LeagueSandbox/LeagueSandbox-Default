@@ -1,0 +1,3 @@
+PersistsThroughDeath = true
+BuffName = "SejuaniPassiveHitBuff"
+BuffTextureName = "Sejuani_Frost.dds"

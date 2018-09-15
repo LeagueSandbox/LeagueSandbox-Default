@@ -1,7 +1,0 @@
-{
-    "BuffName": "ItemSmiteSlow",
-    "AutoBuffActivateEffect": "Global_SS_Smite_Player_Slow.troy",
-    "NotSingleTargetSpell": true,
-    "BuffTextureName": "Smite_Blue.dds",
-    "DoesntTriggerSpellCasts": false
-}

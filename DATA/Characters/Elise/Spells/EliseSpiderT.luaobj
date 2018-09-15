@@ -1,0 +1,2 @@
+BuffTextureName = "Twitch_DeadlyVenom.dds"
+BuffName = "ElisePassive"

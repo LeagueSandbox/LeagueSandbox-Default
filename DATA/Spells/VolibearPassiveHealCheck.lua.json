@@ -1,6 +1,0 @@
-{
-    "NonDispellable": true,
-    "PersistsThroughDeath": true,
-    "BuffTextureName": "Blitzcrank_ManaBarrier.dds",
-    "OnPreDamagePriority": 8.0
-}

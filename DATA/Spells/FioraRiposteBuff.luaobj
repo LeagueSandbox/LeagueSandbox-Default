@@ -1,0 +1,12 @@
+PersistsThroughDeath = true
+BuffName = "FioraRiposteBuff"
+TriggersSpellCasts = true
+AutoBuffActivateEffect = ""
+NotSingleTargetSpell = true
+BuffTextureName = "Fiora_Parry.dds"
+AutoBuffActivateAttachBoneName3 = ""
+AutoBuffActivateAttachBoneName = ""
+AutoBuffActivateEffect2 = ""
+AutoBuffActivateEffect3 = ""
+DoesntTriggerSpellCasts = false
+AutoBuffActivateAttachBoneName2 = ""

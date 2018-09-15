@@ -1,0 +1,8 @@
+AutoBuffActivateAttachBoneName = "BUFFBONE_CSTM_WEAPONA"
+DoesntBreakShields = true
+SpellFXOverrideSkins = {"GravesSkin05"}
+TriggersSpellCasts = true
+AutoBuffActivateEffect = "Graves_ClusterShot_cas.troy"
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+AutoCooldownByLevel = {20, 16, 12, 8, 4}

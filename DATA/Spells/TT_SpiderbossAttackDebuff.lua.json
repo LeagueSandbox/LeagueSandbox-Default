@@ -1,6 +1,0 @@
-{
-    "AutoBuffActivateEffect": "TT_spiderboss_debuff.troy",
-    "IsDeathRecapSource": true,
-    "BuffName": "TT_SpiderbossAttackDebuff",
-    "BuffTextureName": "TT_SpiderbossAttackDebuff.dds"
-}

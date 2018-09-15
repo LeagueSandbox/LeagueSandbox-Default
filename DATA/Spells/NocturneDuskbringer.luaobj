@@ -1,0 +1,9 @@
+SpellVOOverrideSkins = {"CyberNocturne"}
+SpellFXOverrideSkins = {"CyberNocturne"}
+BuffName = "EzrealEssenceFluxDebuff"
+TriggersSpellCasts = true
+NotSingleTargetSpell = false
+BuffTextureName = "Nocturne_Duskbringer.dds"
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = false
+IsDeathRecapSource = true

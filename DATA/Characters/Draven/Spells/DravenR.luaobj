@@ -1,0 +1,7 @@
+SpellVOOverrideSkins = {"CyberEzreal"}
+DoesntBreakShields = true
+IsDamagingSpell = true
+SpellFXOverrideSkins = {"Draven_Gladiator", "DravenSkin03"}
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = true
+PersistsThroughDeath = true

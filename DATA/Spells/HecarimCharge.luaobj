@@ -1,0 +1,9 @@
+SpellFXOverrideSkins = {"CyberEzreal"}
+BuffName = ""
+PopupMessage1 = "game_floatingtext_Snared"
+AutoBuffActivateEffect = ""
+NotSingleTargetSpell = false
+BuffTextureName = ""
+AutoBuffActivateEffect2 = ""
+DoesntTriggerSpellCasts = false
+IsDamagingSpell = true

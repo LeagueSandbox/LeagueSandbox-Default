@@ -1,0 +1,2 @@
+BuffTextureName = "Heimerdinger_TechmaturgicalRepairBots.dds"
+BuffName = "HeimerPassive"

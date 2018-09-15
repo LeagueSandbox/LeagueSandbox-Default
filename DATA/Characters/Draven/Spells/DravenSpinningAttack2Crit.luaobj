@@ -1,0 +1,4 @@
+SpellVOOverrideSkins = {"Draven_SoulReaper"}
+SpellFXOverrideSkins = {"DravenSkin03"}
+BuffName = "DravenSpinning"
+BuffTextureName = "3071_The_Black_Cleaver.dds"

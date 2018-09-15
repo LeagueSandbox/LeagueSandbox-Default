@@ -1,0 +1,4 @@
+Nondispellable = true
+PersistsThroughDeath = true
+BuffName = "GalioRunicSkin"
+BuffTextureName = "Galio_RunicSkin.dds"

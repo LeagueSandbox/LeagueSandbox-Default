@@ -1,0 +1,8 @@
+BuffTextureName = "Cassiopeia_DeadlyCadence.dds"
+DoesntBreakShields = true
+IsDamagingSpell = false
+BuffName = "CassiopeiaDamageControlMinion"
+NonDispellable = true
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = true
+CastingBreaksStealth = false

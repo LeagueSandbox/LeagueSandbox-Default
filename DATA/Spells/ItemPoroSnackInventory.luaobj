@@ -1,0 +1,3 @@
+PersistsThroughDeath = true
+BuffName = "ItemHornCounter"
+BuffTextureName = "2051_Guardians_Horn_Counter.dds"

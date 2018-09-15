@@ -1,0 +1,13 @@
+PersistsThroughDeath = true
+BuffName = "DravenFuryPassive"
+AutoBuffActivateAttachBoneName4 = ""
+AutoBuffActivateEffect = ""
+NotSingleTargetSpell = true
+BuffTextureName = "Irelia_HitenStyleReady.dds"
+AutoBuffActivateAttachBoneName3 = ""
+AutoBuffActivateAttachBoneName = ""
+AutoBuffActivateEffect2 = ""
+AutoBuffActivateEffect4 = ""
+AutoBuffActivateEffect3 = ""
+DoesntTriggerSpellCasts = false
+AutoBuffActivateAttachBoneName2 = ""

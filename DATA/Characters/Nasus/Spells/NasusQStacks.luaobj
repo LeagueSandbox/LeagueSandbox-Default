@@ -1,0 +1,8 @@
+PersistsThroughDeath = true
+DoesntBreakShields = true
+IsDamagingSpell = true
+BuffName = "NasusQStacks"
+BuffTextureName = "Nasus_Q.dds"
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+CastingBreaksStealth = true

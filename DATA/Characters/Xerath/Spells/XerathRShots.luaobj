@@ -1,0 +1,6 @@
+SpellFXOverrideSkins = {"CyberEzreal"}
+IsDamagingSpell = true
+BuffName = "XerathRShots"
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+BuffTextureName = "Xerath_R1.dds"

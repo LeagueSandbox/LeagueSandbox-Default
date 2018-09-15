@@ -1,0 +1,2 @@
+BuffName = "DariusHemo"
+IsDeathRecapSource = true

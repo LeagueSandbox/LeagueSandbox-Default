@@ -1,0 +1,7 @@
+DoesntBreakShields = true
+IsDamagingSpell = true
+BuffName = "YasuoDashWrapperChaos"
+BuffTextureName = "Yasuo_E.dds"
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = true
+CastingBreaksStealth = true

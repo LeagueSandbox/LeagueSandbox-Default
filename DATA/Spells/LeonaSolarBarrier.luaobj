@@ -1,0 +1,6 @@
+BuffName = "LeonaSolarBarrier"
+TriggersSpellCasts = true
+SpellToggleSlot = 2
+NotSingleTargetSpell = true
+BuffTextureName = "LeonaSolarBarrier.dds"
+DoesntTriggerSpellCasts = false

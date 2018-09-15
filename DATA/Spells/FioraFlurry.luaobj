@@ -1,0 +1,6 @@
+BuffName = "FioraFlurry"
+SpellToggleSlot = 3
+AutoBuffActivateEffect = "Fiora_Flurry_AS.troy"
+NotSingleTargetSpell = true
+BuffTextureName = "Fiora_BurstofSpeed.dds"
+DoesntTriggerSpellCasts = false

@@ -1,0 +1,3 @@
+SpellVOOverrideSkins = {"BloodkingVladimir"}
+SpellFXOverrideSkins = {"BloodKingVladimir", "VladimirSkin06"}
+BuffTextureName = "Vladimir_HemoplagueImmune.dds"

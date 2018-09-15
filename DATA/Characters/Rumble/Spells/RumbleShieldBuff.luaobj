@@ -1,0 +1,6 @@
+AutoBuffActivateAttachBoneName = "Robot_Root"
+BuffName = "RumbleShieldBuff"
+AutoBuffActivateEffect = "rumble_shield_speed_buf.troy"
+AutoBuffActivateAttachBoneName2 = "BUFFBONE_CSTM_BOOSTER"
+BuffTextureName = "Rumble_Scrap Shield2.dds"
+AutoBuffActivateEffect2 = "rumble_shield_speed_buf_booster.troy"

@@ -1,0 +1,3 @@
+PersistsThroughDeath = true
+BuffName = "Heimerdinger Turret Ready"
+BuffTextureName = "Heimerdinger_Q1.dds"

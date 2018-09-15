@@ -1,0 +1,7 @@
+DoesntBreakShields = true
+IsDamagingSpell = false
+BuffName = "UdyrMonkeyAgilityBuff"
+BuffTextureName = "Udyr_MonkeysAgility.dds"
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = true
+CastingBreaksStealth = false

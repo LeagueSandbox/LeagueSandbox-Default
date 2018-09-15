@@ -1,0 +1,7 @@
+IsDeathRecapSource = true
+BuffName = "heal"
+TriggersSpellCasts = false
+SpellDamageRatio = 0,5
+NotSingleTargetSpell = true
+BuffTextureName = "3.dds"
+DoesntTriggerSpellCasts = true

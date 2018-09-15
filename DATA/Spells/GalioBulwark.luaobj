@@ -1,0 +1,8 @@
+SpellVOOverrideSkins = {"GatekeeperGalio"}
+SpellFXOverrideSkins = {"GatekeeperGalio"}
+IsDamagingSpell = true
+AutoBuffActivateEvent = "DeathsCaress_buf.troy"
+BuffName = "GalioBulwark"
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+BuffTextureName = "Galio_Bulwark.dds"

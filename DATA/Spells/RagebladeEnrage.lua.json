@@ -1,8 +1,0 @@
-{
-    "BuffName": "RagebladeEnrage",
-    "AutoBuffActivateEffect2": "summoner_battlecry_oc.troy",
-    "AutoBuffActivateEffect": "summoner_battlecry.troy",
-    "AutoBuffActivateEffect3": "TEMP_ItemRagebladeEnrage.troy",
-    "BuffTextureName": "RagebladeEnrage.dds",
-    "AutoBuffActivateAttachBoneName3": "BUFFBONE_GLB_WEAPON_1"
-}

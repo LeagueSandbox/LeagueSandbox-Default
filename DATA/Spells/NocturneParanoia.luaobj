@@ -1,0 +1,9 @@
+SpellFXOverrideSkins = {"CyberNocturne"}
+BuffName = "NocturneParanoia"
+CastingBreaksStealth = true
+BuffTextureName = "Nocturne_Paranoia.dds"
+DoesntBreakShields = true
+SpellToggleSlot = 4
+IsDamagingSpell = false
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = false

@@ -1,0 +1,5 @@
+PersistsThroughDeath = true
+BuffName = "FizzMalison"
+NonDispellable = true
+BuffTextureName = "Irelia_EquilibriumStrike.dds"
+SpellToggleSlot = 2

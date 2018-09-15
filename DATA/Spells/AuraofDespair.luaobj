@@ -1,0 +1,9 @@
+SpellFXOverrideSkins = {"BadrobotAmumu"}
+BuffName = "AuraofDespair"
+AutoBuffActivateEffect = "Despair_buf.troy"
+NotSingleTargetSpell = true
+BuffTextureName = "SadMummy_AuraofDespair.dds"
+AutoBuffActivateAttachBoneName = "C_BUFFBONE_GLB_HEAD_LOC"
+AutoBuffActivateEffect2 = "Despairpool_tar.troy"
+DoesntTriggerSpellCasts = true
+SpellToggleSlot = 2

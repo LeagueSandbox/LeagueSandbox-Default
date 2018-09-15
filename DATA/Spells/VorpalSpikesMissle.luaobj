@@ -1,0 +1,6 @@
+DoesntBreakShields = true
+IsDamagingSpell = true
+SpellFXOverrideSkins = {"BattlecastChogath"}
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = true
+IsDeathRecapSource = true

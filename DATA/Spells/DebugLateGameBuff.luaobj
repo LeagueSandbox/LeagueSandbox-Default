@@ -1,0 +1,4 @@
+BuffName = "DebugMidGameBuff"
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+IsDamagingSpell = false

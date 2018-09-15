@@ -1,0 +1,5 @@
+TriggersSpellCasts = false
+IsDeathRecapSource = true
+SpellDamageRatio = 0,5
+DoesntTriggerSpellCasts = true
+NotSingleTargetSpell = true

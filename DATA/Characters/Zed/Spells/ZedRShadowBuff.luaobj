@@ -1,0 +1,9 @@
+BuffName = "heal"
+AutoBuffActivateEffect = "Zed_Clone_Idle.troy"
+CastingBreaksStealth = true
+BuffTextureName = "2.dds"
+AutoBuffActivateAttachBoneName = "Buffbone_glb_ground_loc"
+DoesntBreakShields = false
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = true

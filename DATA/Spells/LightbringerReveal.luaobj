@@ -1,0 +1,6 @@
+DoesntBreakShields = true
+BuffName = "ShadowMark"
+TriggersSpellCasts = true
+NotSingleTargetSpell = false
+BuffTextureName = "Evelynn_ReadyToBetray.dds"
+CastingBreaksStealth = false

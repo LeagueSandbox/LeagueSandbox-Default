@@ -1,0 +1,2 @@
+BuffTextureName = "3176_Arcane_Helix.dds"
+PersistsThroughDeath = true

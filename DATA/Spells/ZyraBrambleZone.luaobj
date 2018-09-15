@@ -1,0 +1,7 @@
+DoesntBreakShields = true
+IsDamagingSpell = true
+SpellFXOverrideSkins = {"ReefMalphite", "ZyraSkin02"}
+IsDeathRecapSource = true
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+CastingBreaksStealth = true

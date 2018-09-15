@@ -1,0 +1,4 @@
+SpellToggleSlot = 1
+SpellFXOverrideSkins = {"ZhaoYunXinZhao"}
+BuffName = "XenZhaoComboTarget"
+BuffTextureName = "XinZhao_ThreeTalon.dds"

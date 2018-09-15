@@ -1,0 +1,2 @@
+BuffName = "RengarPassive"
+PersistsThroughDeath = true

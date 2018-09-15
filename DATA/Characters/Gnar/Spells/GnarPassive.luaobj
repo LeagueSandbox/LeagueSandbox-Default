@@ -1,0 +1,3 @@
+PersistsThroughDeath = true
+BuffName = "GnarPassive"
+BuffTextureName = "Gnar_Passive.dds"

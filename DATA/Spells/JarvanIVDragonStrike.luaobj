@@ -1,0 +1,8 @@
+SpellVOOverrideSkins = {"LubuJarvanIV"}
+SpellFXOverrideSkins = {"LubuJarvanIV"}
+IsDamagingSpell = true
+TriggersSpellCasts = true
+CastTime = 0,4
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+BuffTextureName = "JarvanIV_DragonStrike.dds"

@@ -1,0 +1,11 @@
+SpellFXOverrideSkins = {"SurprisePartyFiddlesticks", "XmasKatarina"}
+BuffName = "Silence"
+AutoBuffActivateEffect = "LOC_Silence.troy"
+CastingBreaksStealth = true
+BuffTextureName = "Fiddlesticks_DarkWind.dds"
+AutoBuffActivateAttachBoneName = "C_BUFFBONE_GLB_HEAD_LOC"
+DoesntBreakShields = false
+SpellDamageRatio = 1
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = false

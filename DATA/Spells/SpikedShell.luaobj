@@ -1,0 +1,4 @@
+NonDispellable = true
+PersistsThroughDeath = true
+BuffName = "Spiked Shell"
+BuffTextureName = "Armordillo_ScavengeArmor.dds"

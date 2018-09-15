@@ -1,0 +1,9 @@
+BuffName = "VarusQ"
+AutoBuffActivateEffect = ""
+NotSingleTargetSpell = false
+BuffTextureName = "VarusQ.dds"
+AutoBuffActivateEffect2 = ""
+NonDispellable = true
+SpellToggleSlot = 1
+DoesntTriggerSpellCasts = false
+IsDamagingSpell = true

@@ -1,0 +1,6 @@
+PersistsThroughDeath = true
+BuffName = "OdynsVeil"
+NonDispellable = true
+CastingBreaksStealth = true
+BuffTextureName = "3180_OdynsVeil.dds"
+DoesntTriggerSpellCasts = true

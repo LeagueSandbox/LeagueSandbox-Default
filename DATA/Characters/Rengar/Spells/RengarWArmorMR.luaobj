@@ -1,0 +1,4 @@
+BuffName = "RengarWBuff"
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+BuffTextureName = "RengarW.dds"

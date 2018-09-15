@@ -1,8 +1,0 @@
-{
-    "BuffName": "LeonaSolarBarrier",
-    "TriggersSpellCasts": true,
-    "SpellToggleSlot": 2.0,
-    "NotSingleTargetSpell": true,
-    "BuffTextureName": "LeonaSolarBarrier.dds",
-    "DoesntTriggerSpellCasts": false
-}

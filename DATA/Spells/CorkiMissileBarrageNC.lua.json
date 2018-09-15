@@ -1,6 +1,0 @@
-{
-    "NonDispellable": true,
-    "PersistsThroughDeath": true,
-    "BuffName": "CorkiMissileBarrageCounterNormal",
-    "BuffTextureName": "CorkiMissileBarrageNormal.dds"
-}

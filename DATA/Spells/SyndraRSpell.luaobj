@@ -1,0 +1,7 @@
+DoesntBreakShields = true
+IsDamagingSpell = true
+SpellFXOverrideSkins = {"SyndraJusticar", "SyndraSkin02"}
+IsDeathRecapSource = true
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+AutoCooldownByLevel = {0, 0, 0, 0, 0}

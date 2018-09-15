@@ -1,0 +1,8 @@
+AutoBuffActivateAttachBoneName = "C_Buffbone_Glb_Center_Loc"
+PersistsThroughDeath = true
+BuffName = "ElixirOfRuin"
+NonDispellable = true
+AutoBuffActivateEffect = "PotionofGiantStrength_itm.troy"
+NotSingleTargetSpell = true
+BuffTextureName = "2137_ElixirOfRuin.dds"
+DoesntTriggerSpellCasts = true

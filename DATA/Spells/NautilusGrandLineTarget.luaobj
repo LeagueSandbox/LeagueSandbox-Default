@@ -1,0 +1,9 @@
+PersistsThroughDeath = true
+IsDamagingSpell = true
+NotSingleTargetSpell = false
+BuffTextureName = "Nautilus_Target.dds"
+SpellFXOverrideSkins = {"NautilusAstronaut"}
+NonDispellable = true
+BuffName = "NautilusGrandLineTarget"
+DoesntTriggerSpellCasts = false
+SpellDamageRatio = 1

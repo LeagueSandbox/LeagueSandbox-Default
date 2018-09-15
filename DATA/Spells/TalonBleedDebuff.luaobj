@@ -1,0 +1,4 @@
+BuffName = "Bleed"
+IsDeathRecapSource = true
+BuffTextureName = "TalonNoxianDiplomacy.dds"
+DoesntTriggerSpellCasts = true

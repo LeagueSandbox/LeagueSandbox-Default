@@ -1,0 +1,4 @@
+PersistsThroughDeath = true
+IsDeathRecapSource = true
+BuffName = "NightmareBotFiddlesticksBuff"
+BuffTextureName = "Fiddlesticks_Crowstorm.dds"

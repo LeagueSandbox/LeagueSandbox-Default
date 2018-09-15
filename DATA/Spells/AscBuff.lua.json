@@ -1,5 +1,0 @@
-{
-    "OnPreDamagePriority": 5.0,
-    "BuffName": "AscBuff",
-    "BuffTextureName": "Tenacity.dds"
-}

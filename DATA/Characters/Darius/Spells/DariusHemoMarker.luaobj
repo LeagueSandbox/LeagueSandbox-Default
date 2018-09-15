@@ -1,0 +1,4 @@
+NonDispellable = true
+PersistsThroughDeath = true
+BuffName = "DariusHemoMarker"
+BuffTextureName = "Darius_Icon_Hemorrhage.dds"

@@ -1,0 +1,12 @@
+PersistsThroughDeath = true
+BuffName = "RenekthonSliceAndDiceDelay"
+AutoBuffActivateEffect = ""
+NotSingleTargetSpell = false
+BuffTextureName = "Renekton_Dice.dds"
+AutoBuffActivateAttachBoneName = ""
+AutoBuffActivateEffect2 = ""
+SpellToggleSlot = 3
+NonDispellable = true
+AutoBuffActivateEffect3 = ""
+DoesntTriggerSpellCasts = false
+AutoBuffActivateAttachBoneName2 = ""

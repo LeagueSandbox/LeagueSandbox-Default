@@ -1,0 +1,13 @@
+SpellVOOverrideSkins = {"TryndamereDemonsword"}
+SpellFXOverrideSkins = {"TryndamereDemonsword"}
+BuffName = "Undying Rage"
+AutoBuffActivateAttachBoneName4 = "spine"
+AutoBuffActivateEffect = "UndyingRage_buf.troy"
+NotSingleTargetSpell = true
+BuffTextureName = "Tryndamere_R.dds"
+AutoBuffActivateAttachBoneName = "c_buffbone_glb_layout_loc"
+AutoCooldownByLevel = {110, 100, 90}
+NonDispellable = true
+OnPreDamagePriority = 2
+DoesntTriggerSpellCasts = false
+AutoBuffActivateEffect4 = "UndyingRageSpine_glow.troy"

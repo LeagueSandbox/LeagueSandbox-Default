@@ -1,0 +1,9 @@
+SpellVOOverrideSkins = {"ZhaoYunXinZhao"}
+SpellFXOverrideSkins = {"ZhaoYunXinZhao"}
+BuffName = "XenZhaoSweep"
+CastingBreaksStealth = true
+DoesntBreakShields = true
+IsDamagingSpell = true
+IsDeathRecapSource = true
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = true

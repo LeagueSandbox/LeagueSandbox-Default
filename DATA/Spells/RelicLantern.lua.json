@@ -1,8 +1,0 @@
-{
-    "DoesntBreakShields": true,
-    "BuffName": "WriggleLantern",
-    "BuffTextureName": "3154_WriggleLantern.dds",
-    "NotSingleTargetSpell": true,
-    "DoesntTriggerSpellCasts": true,
-    "CastingBreaksStealth": false
-}

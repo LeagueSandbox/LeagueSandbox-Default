@@ -1,0 +1,7 @@
+DoesntBreakShields = false
+IsDamagingSpell = false
+BuffName = "BuffEliseSpider"
+BuffTextureName = "ElisePassive.dds"
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+CastingBreaksStealth = true

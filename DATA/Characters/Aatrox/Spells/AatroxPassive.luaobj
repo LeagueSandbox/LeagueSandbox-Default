@@ -1,0 +1,5 @@
+PersistsThroughDeath = true
+BuffName = "AatroxPassive"
+NonDispellable = true
+BuffTextureName = "Aatrox_Passive.dds"
+OnPreDamagePriority = 4

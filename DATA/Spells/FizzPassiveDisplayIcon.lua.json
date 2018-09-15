@@ -1,6 +1,0 @@
-{
-    "NonDispellable": true,
-    "PersistsThroughDeath": true,
-    "BuffName": "FizzSeastoneTrident",
-    "BuffTextureName": "FizzSeastonePassive.dds"
-}

@@ -1,0 +1,2 @@
+BuffTextureName = "MissFortune_BulletTime.dds"
+BuffName = "MissFortuneBulletSound"

@@ -1,0 +1,5 @@
+PersistsThroughDeath = true
+BuffName = "StyleBatteringRam"
+NonDispellable = true
+SpellDamageRatio = 1
+BuffTextureName = "StyleBatteringRam.dds"

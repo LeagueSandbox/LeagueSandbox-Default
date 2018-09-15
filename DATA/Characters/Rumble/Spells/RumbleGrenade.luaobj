@@ -1,0 +1,7 @@
+SpellFXOverrideSkins = {"RumbleSkin03"}
+IsDamagingSpell = true
+SpellToggleSlot = 3
+BuffName = "RumbleGrenade"
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+BuffTextureName = "Rumble_Electro Harpoon.dds"

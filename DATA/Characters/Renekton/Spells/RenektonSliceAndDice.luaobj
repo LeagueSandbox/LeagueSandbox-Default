@@ -1,0 +1,12 @@
+SpellFXOverrideSkins = {"Renekton_VolcanoGod", "RenektonSkin06"}
+BuffName = "RenekthonSliceAndDice"
+AutoBuffActivateEffect = "Global_Haste.troy"
+CastingBreaksStealth = true
+BuffTextureName = "Renekton_SliceAndDice.dds"
+AutoBuffActivateAttachBoneName = "lhnd"
+DoesntBreakShields = false
+AutoBuffActivateEffect2 = "Global_Haste.troy"
+AutoBuffActivateAttachBoneName2 = "rhnd"
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = true

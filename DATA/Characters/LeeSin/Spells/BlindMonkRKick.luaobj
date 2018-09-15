@@ -1,0 +1,17 @@
+BuffName = "BlindMonkDragonsRage"
+PopupMessage1 = "game_floatingtext_Knockup"
+AutoBuffActivateEffect = "blindMonk_R_self_mis.troy"
+NotSingleTargetSpell = false
+BuffTextureName = "BlindMonkR.dds"
+DoesntBreakShields = false
+ChainMissileParameters = {
+  CanHitCaster = 0,
+  CanHitFriends = 0,
+  CanHitSameTargetConsecutively = 0,
+  MaximumHits = {4, 4, 4, 4, 4},
+  CanHitEnemies = 1,
+  CanHitSameTarget = 0
+}
+IsDeathRecapSource = true
+DoesntTriggerSpellCasts = false
+IsDamagingSpell = true

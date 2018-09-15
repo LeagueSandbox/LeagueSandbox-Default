@@ -1,0 +1,6 @@
+AutoBuffActivateAttachBoneName = "L_hand"
+PersistsThroughDeath = true
+BuffName = "AkaliTwinDmg"
+AutoBuffActivateEffect = "akali_twinDisciplines_DMG_buf.troy"
+BuffTextureName = "AkaliTwinDisciplines.dds"
+Nondispellable = true

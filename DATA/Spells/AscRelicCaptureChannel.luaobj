@@ -1,0 +1,6 @@
+DoesntBreakShields = true
+IsDamagingSpell = true
+ChannelDuration = 7
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = true
+CastingBreaksStealth = true

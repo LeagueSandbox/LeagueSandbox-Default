@@ -1,0 +1,4 @@
+NonDispellable = true
+PersistsThroughDeath = true
+BuffName = "MejaisCap"
+BuffTextureName = "3041_Mejais_Soulstealer.dds"

@@ -1,0 +1,9 @@
+PersistsThroughDeath = true
+IsDamagingSpell = true
+NotSingleTargetSpell = false
+BuffTextureName = "ViR.dds"
+SpellFXOverrideSkins = {"NautilusAstronaut"}
+NonDispellable = true
+BuffName = "ViRTarget"
+DoesntTriggerSpellCasts = false
+SpellDamageRatio = 1

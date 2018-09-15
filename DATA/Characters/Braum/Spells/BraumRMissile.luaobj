@@ -1,0 +1,7 @@
+SpellFXOverrideSkins = {"BraumSkin01"}
+IsDamagingSpell = true
+TriggersSpellCasts = true
+BuffName = "MaokaiTrunkLineMissile"
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = true
+BuffTextureName = "Ezreal_EssenceFlux.dds"

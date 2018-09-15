@@ -1,0 +1,3 @@
+AutoBuffActivateEffect = ""
+PersistsThroughDeath = true
+BuffName = "LeonaZenithBladeBuffOrder"

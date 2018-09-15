@@ -1,7 +1,0 @@
-{
-    "PersistsThroughDeath": true,
-    "BuffName": "ItemSmitePlayerManager",
-    "NotSingleTargetSpell": true,
-    "BuffTextureName": "Chronokeeper_Slow.dds",
-    "DoesntTriggerSpellCasts": false
-}

@@ -1,0 +1,7 @@
+SpellVOOverrideSkins = {"Draven_SoulReaper"}
+SpellFXOverrideSkins = {"Draven_Gladiator", "DravenSkin03"}
+IsDamagingSpell = true
+BuffName = "DravenDoubleBump"
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+BuffTextureName = "Draven_TwinAxe.dds"

@@ -1,0 +1,7 @@
+BuffTextureName = "Evelynn_Ravage.dds"
+IsDamagingSpell = true
+BuffName = "Ravage"
+AutoBuffActivateEffect = "RendingShot_buf.troy"
+CastingBreaksStealth = true
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = false

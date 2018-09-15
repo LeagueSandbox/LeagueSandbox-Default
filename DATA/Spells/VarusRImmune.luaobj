@@ -1,0 +1,2 @@
+BuffTextureName = "FallenAngel_Purgatory.dds"
+BuffName = "SoulShackles"

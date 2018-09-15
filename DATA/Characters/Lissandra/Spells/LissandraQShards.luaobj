@@ -1,0 +1,7 @@
+DoesntBreakShields = true
+IsDamagingSpell = true
+SpellFXOverrideSkins = {"Lissandra_skin01"}
+IsDeathRecapSource = true
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = true
+BuffName = "LissandraQ"

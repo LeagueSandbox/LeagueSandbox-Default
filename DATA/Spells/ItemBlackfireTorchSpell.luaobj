@@ -1,0 +1,8 @@
+SpellDamageRatio = 1
+DoesntBreakShields = false
+IsDamagingSpell = true
+BuffName = "ItemBlackfireTorchSpell"
+BuffTextureName = "3188_Blackfire_Torch.dds"
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = true
+CastingBreaksStealth = true

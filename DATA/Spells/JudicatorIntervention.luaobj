@@ -1,0 +1,7 @@
+SpellVOOverrideSkins = {"MetalWingedJudicator"}
+AutoCooldownByLevel = {90, 90, 90, 90, 90}
+BuffName = "JudicatorIntervention"
+SpellFXOverrideSkins = {"MetalWingedJudicator"}
+NotSingleTargetSpell = true
+BuffTextureName = "Kayle_R.dds"
+DoesntTriggerSpellCasts = false

@@ -1,0 +1,9 @@
+SpellVOOverrideSkins = {"NasusSkin05"}
+PersistsThroughDeath = true
+IsDamagingSpell = true
+CastingBreaksStealth = true
+DoesntBreakShields = true
+NonDispellable = true
+SpellFXOverrideSkins = {"NasusSkin05"}
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = true

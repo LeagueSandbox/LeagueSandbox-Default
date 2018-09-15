@@ -1,0 +1,4 @@
+SpellVOOverrideSkins = {"KarmaClassic"}
+SpellToggleSlot = 4
+BuffName = "KarmaMantra"
+BuffTextureName = "Karma_R.dds"

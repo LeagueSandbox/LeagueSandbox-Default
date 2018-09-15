@@ -1,0 +1,7 @@
+DoesntBreakShields = false
+IsDamagingSpell = true
+BuffName = "ShadowWalkRevealedDebuff"
+BuffTextureName = "Evelynn_ShadowWalkGray.dds"
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+CastingBreaksStealth = false

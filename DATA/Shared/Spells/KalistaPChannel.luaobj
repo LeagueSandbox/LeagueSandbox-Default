@@ -1,0 +1,10 @@
+SpellFXOverrideSkins = {"SurprisePartyFiddlesticks", "CandyCaneFiddlesticks"}
+IsDamagingSpell = true
+CastingBreaksStealth = true
+BuffTextureName = "Fiddlesticks_ConjureScarecrow.dds"
+DoesntBreakShields = true
+IsDeathRecapSource = true
+BuffName = "Drain"
+ChannelDuration = 2
+DoesntTriggerSpellCasts = true
+NotSingleTargetSpell = false

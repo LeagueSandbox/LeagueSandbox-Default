@@ -1,0 +1,7 @@
+AutoCooldownByLevel = {150, 135, 120}
+BuffName = "Destiny"
+SpellDamageRatio = 0,75
+AutoBuffActivateEffect = "DestinyEye.troy"
+NotSingleTargetSpell = true
+BuffTextureName = "Destiny_temp.dds"
+DoesntTriggerSpellCasts = false

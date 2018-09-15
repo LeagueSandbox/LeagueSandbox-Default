@@ -1,8 +1,0 @@
-{
-    "DoesntBreakShields": false,
-    "IsDamagingSpell": true,
-    "SpellDamageRatio": 1.0,
-    "NotSingleTargetSpell": true,
-    "DoesntTriggerSpellCasts": false,
-    "CastingBreaksStealth": true
-}

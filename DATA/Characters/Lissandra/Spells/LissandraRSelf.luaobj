@@ -1,0 +1,8 @@
+SpellVOOverrideSkins = {"ZombieBrand"}
+SpellFXOverrideSkins = {"Lissandra_skin01", "lissandraSkin02"}
+IsDamagingSpell = true
+SpellDamageRatio = 1
+BuffName = "LissandraRSelf"
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+BuffTextureName = "Lissandra_R.dds"

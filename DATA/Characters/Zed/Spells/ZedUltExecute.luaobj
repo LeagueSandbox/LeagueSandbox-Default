@@ -1,0 +1,2 @@
+BuffTextureName = "shadowninja_R2.dds"
+BuffName = "ZedUltExecute"

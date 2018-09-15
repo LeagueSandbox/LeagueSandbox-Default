@@ -1,0 +1,4 @@
+SpellToggleSlot = 2
+PersistsThroughDeath = true
+BuffName = "ViWMarker"
+BuffTextureName = "ViW.dds"

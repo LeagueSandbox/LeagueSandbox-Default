@@ -1,0 +1,9 @@
+SpellVOOverrideSkins = {"ClassicTrundle"}
+BuffName = "TrundleQ"
+TriggersSpellCasts = true
+CastingBreaksStealth = true
+BuffTextureName = "Trundle_Q.dds"
+DoesntBreakShields = false
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = true
+NotSingleTargetSpell = false

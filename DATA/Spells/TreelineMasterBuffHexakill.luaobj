@@ -1,0 +1,3 @@
+PersistsThroughDeath = true
+BuffName = "TwistedAura"
+BuffTextureName = "TwistedAura.dds"

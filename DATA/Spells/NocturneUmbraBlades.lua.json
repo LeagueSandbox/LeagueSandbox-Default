@@ -1,8 +1,0 @@
-{
-    "AutoBuffActivateAttachBoneName": "BUFFBONE_CSTM_L_PALM",
-    "BuffName": "NocturneUmbraBlades",
-    "AutoBuffActivateEffect": "NocturnePassiveReady.troy",
-    "AutoBuffActivateAttachBoneName2": "BUFFBONE_CSTM_R_PALM",
-    "BuffTextureName": "Nocturne_UmbraBlades.dds",
-    "AutoBuffActivateEffect2": "NocturnePassiveReady.troy"
-}

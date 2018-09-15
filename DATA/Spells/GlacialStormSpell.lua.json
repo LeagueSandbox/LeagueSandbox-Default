@@ -1,8 +1,0 @@
-{
-    "AutoBuffActivateEffect": "RunePrison_tar.troy",
-    "NotSingleTargetSpell": true,
-    "DoesntTriggerSpellCasts": true,
-    "SpellFXOverrideSkins": {
-        "1": "BlackIceAnivia"
-    }
-}

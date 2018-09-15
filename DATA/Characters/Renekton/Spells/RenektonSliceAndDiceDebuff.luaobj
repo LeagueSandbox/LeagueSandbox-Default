@@ -1,0 +1,5 @@
+PersistsThroughDeath = true
+BuffName = "RenektonSliceAndDiceShred"
+NotSingleTargetSpell = false
+BuffTextureName = "Renekton_Dice.dds"
+DoesntTriggerSpellCasts = false

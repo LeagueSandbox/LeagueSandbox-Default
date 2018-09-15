@@ -1,0 +1,6 @@
+DoesntBreakShields = true
+SpellFXOverrideSkins = {""}
+IsDeathRecapSource = true
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+AutoCooldownByLevel = {20, 18, 16, 14, 12}

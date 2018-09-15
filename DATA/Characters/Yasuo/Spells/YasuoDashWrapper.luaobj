@@ -1,0 +1,10 @@
+SpellVOOverrideSkins = {"YasuoSkin02"}
+PersistsThroughDeath = true
+BuffName = "YasuoDashWrapper"
+CastingBreaksStealth = true
+BuffTextureName = "Yasuo_E.dds"
+DoesntBreakShields = true
+SpellFXOverrideSkins = {"YasuoSkin02"}
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = true
+NotSingleTargetSpell = true

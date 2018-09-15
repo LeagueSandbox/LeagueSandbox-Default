@@ -1,0 +1,6 @@
+BuffName = "RelicYellowWard"
+AutoBuffActivateEffect2 = "Global_Trinket_Yellow.troy"
+AutoBuffActivateEffect = "Ward_Wriggles_Idle.troy"
+NotSingleTargetSpell = true
+BuffTextureName = "RelicYellowWard.dds"
+DoesntTriggerSpellCasts = true

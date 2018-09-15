@@ -1,0 +1,9 @@
+PersistsThroughDeath = true
+BuffName = "SionPassiveTooltip"
+CastingBreaksStealth = false
+BuffTextureName = "Sion_W1.dds"
+DoesntBreakShields = true
+SpellFXOverrideSkins = {"ZiggsSnowday"}
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = true
+NotSingleTargetSpell = false
