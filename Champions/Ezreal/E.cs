@@ -1,4 +1,5 @@
 using System.Numerics;
+using GameServerCore.Domain.GameObjects;
 using GameServerCore.Enums;
 using LeagueSandbox.GameServer.API;
 using LeagueSandbox.GameServer.GameObjects;
@@ -43,7 +44,7 @@ namespace Spells
             ApiFunctionManager.AddParticle(owner, "Ezreal_arcaneshift_cas.troy", owner.X, owner.Y);
             ApiFunctionManager.TeleportTo(owner, trueCoords.X, trueCoords.Y);
             ApiFunctionManager.AddParticleTarget(owner, "Ezreal_arcaneshift_flash.troy", owner);
-            AttackableUnit target2 = null;
+            IAttackableUnit target2 = null;
             var units = ApiFunctionManager.GetUnitsInRange(owner, 700, true);
             float distance = 700;
             foreach (var value in units)
@@ -64,7 +65,7 @@ namespace Spells
             {
                 if (!((GameObject) target2 is BaseTurret))
                 {
-                    spell.AddProjectileTarget("EzrealArcaneShiftMissile", target2);
+                    spell.AddProjectileTarget("EzrealArcaneShiftMissile", (AttackableUnit)target2);
                 }
             }
         }

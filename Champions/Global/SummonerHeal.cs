@@ -1,4 +1,5 @@
 using System;
+using GameServerCore.Domain.GameObjects;
 using LeagueSandbox.GameServer.API;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
@@ -19,7 +20,7 @@ namespace Spells
         {
             var units = ApiFunctionManager.GetChampionsInRange(owner, 850, true);
             units.Remove(owner);
-            Champion mostWoundedAlliedChampion = null;
+            IChampion mostWoundedAlliedChampion = null;
             float lowestHealthPercentage = 100;
             float maxHealth;
             foreach(var value in units) {
@@ -47,7 +48,7 @@ namespace Spells
         {
         }
 
-        private void PerformHeal(Champion owner, Spell spell, Champion target)
+        private void PerformHeal(Champion owner, Spell spell, IChampion target)
         {
             float healthGain = 75 + (target.Stats.Level * 15);
             if (target.HasBuffGameScriptActive("HealCheck", "HealCheck"))

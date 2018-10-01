@@ -1,3 +1,4 @@
+using GameServerCore.Domain.GameObjects;
 using LeagueSandbox.GameServer.API;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
@@ -18,10 +19,10 @@ namespace Spells
         public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target)
         {
             var units = ApiFunctionManager.GetChampionsInRange(owner, 600, true);
-            Champion nearbychampion = null;
+            IChampion nearbychampion = null;
             float lowestManaPercentage = 100;
             float maxMana;
-            float newMana;
+            //float newMana; // not used?
             for (var i = 0; i <= units.Count - 1; i++)
             {
                 var value = units[i];

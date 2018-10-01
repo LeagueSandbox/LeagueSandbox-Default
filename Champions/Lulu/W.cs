@@ -1,3 +1,4 @@
+using GameServerCore.Domain.GameObjects;
 using GameServerCore.Enums;
 using LeagueSandbox.GameServer.API;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits;
@@ -46,9 +47,10 @@ namespace Spells
 
         public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile)
         {
+            // TODO: problematic code, if the target is only AttackableUnit crash will occure
             var champion = (Champion) target;
             var time = 1 + 0.25f * spell.Level;
-            var buff = ((ObjAiBase) target).AddBuffGameScript("LuluWDebuff", "LuluWDebuff", spell, time, true);
+            champion.AddBuffGameScript("LuluWDebuff", "LuluWDebuff", spell, time, true);
             var model = champion.Model;
             ChangeModel(owner.Skin, target);
 
