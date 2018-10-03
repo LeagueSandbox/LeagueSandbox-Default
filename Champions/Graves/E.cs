@@ -24,10 +24,9 @@ namespace Spells
 
         public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target)
         {
-            var current = new Vector2(owner.X, owner.Y);
-            var to = Vector2.Normalize(new Vector2(spell.X, spell.Y) - current);
+            var to = Vector2.Normalize(new Vector2(spell.X, spell.Y) - owner.Position);
             var range = to * 425;
-            var trueCoords = current + range;
+            var trueCoords = owner.Position + range;
 
             ApiFunctionManager.DashToLocation(owner, trueCoords.X, trueCoords.Y, 1200, false, "Spell3");
             var p = ApiFunctionManager.AddParticleTarget(owner, "Graves_Move_OnBuffActivate.troy", owner);

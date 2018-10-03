@@ -25,13 +25,12 @@ namespace Spells
 
         public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target)
         {
-            var current = new Vector2(owner.X, owner.Y);
-            var to = Vector2.Normalize(new Vector2(spell.X, spell.Y) - current);
+            var to = Vector2.Normalize(new Vector2(spell.X, spell.Y) - owner.Position);
             var range = to * 625;
-            var trueCoords = current + range;
+            var trueCoords = owner.Position + range;
 
             spell.AddCone("Incinerate", trueCoords.X, trueCoords.Y, 24.76f);
-            ApiFunctionManager.AddParticle(owner, "IIncinerate_buf.troy", trueCoords.X, trueCoords.Y);
+            ApiFunctionManager.AddParticle(owner, "IIncinerate_buf.troy", trueCoords);
             ApiFunctionManager.FaceDirection(owner, trueCoords, false);
             spell.SpellAnimation("SPELL2", owner);
             ApiFunctionManager.AddParticleTarget(owner, "Incinerate_cas.troy", owner);

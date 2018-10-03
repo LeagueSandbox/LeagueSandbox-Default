@@ -21,13 +21,12 @@ namespace Spells
 
         public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target)
         {
-            var current = new Vector2(owner.X, owner.Y);
-            var to = Vector2.Normalize(new Vector2(spell.X, spell.Y) - current);
+            var to = Vector2.Normalize(new Vector2(spell.X, spell.Y) - owner.Position);
             var range = to * 3340;
-            var trueCoords = current + range;
+            var trueCoords = owner.Position + range;
 
             spell.AddLaser("LuxMaliceCannon", trueCoords.X, trueCoords.Y);
-            ApiFunctionManager.AddParticle(owner, "LuxMaliceCannon_beam.troy", trueCoords.X, trueCoords.Y);
+            ApiFunctionManager.AddParticle(owner, "LuxMaliceCannon_beam.troy", trueCoords);
             ApiFunctionManager.FaceDirection(owner, trueCoords, false);
             spell.SpellAnimation("SPELL4", owner);
             ApiFunctionManager.AddParticleTarget(owner, "LuxMaliceCannon_cas.troy", owner);

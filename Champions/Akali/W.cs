@@ -23,13 +23,13 @@ namespace Spells
 
         public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target)
         {
-            var smokeBomb = ApiFunctionManager.AddParticle(owner, "akali_smoke_bomb_tar.troy", owner.X, owner.Y);
+            var smokeBomb = ApiFunctionManager.AddParticle(owner, "akali_smoke_bomb_tar.troy", owner.Position);
             /*
              * TODO: Display green border (akali_smoke_bomb_tar_team_green.troy) for the own team,
              * display red border (akali_smoke_bomb_tar_team_red.troy) for the enemy team
              * Currently only displaying the green border for everyone
             */
-            var smokeBombBorder = ApiFunctionManager.AddParticle(owner, "akali_smoke_bomb_tar_team_green.troy", owner.X, owner.Y);
+            var smokeBombBorder = ApiFunctionManager.AddParticle(owner, "akali_smoke_bomb_tar_team_green.troy", owner.Position);
             //TODO: Add invisibility
 
             ApiFunctionManager.CreateTimer(8.0f, () =>
