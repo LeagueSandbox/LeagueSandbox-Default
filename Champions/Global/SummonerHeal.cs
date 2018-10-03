@@ -1,10 +1,10 @@
 using System;
 using GameServerCore.Domain.GameObjects;
 using LeagueSandbox.GameServer.API;
-using LeagueSandbox.GameServer.GameObjects.AttackableUnits;
+using GameServerCore.Domain.GameObjects;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
 using LeagueSandbox.GameServer.GameObjects.Missiles;
-using LeagueSandbox.GameServer.GameObjects.Spells;
+using GameServerCore.Domain;
 using LeagueSandbox.GameServer.GameObjects.Stats;
 using LeagueSandbox.GameServer.Scripting.CSharp;
 
@@ -12,15 +12,15 @@ namespace Spells
 {
     public class SummonerHeal : IGameScript
     {
-        public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target)
+        public void OnStartCasting(IChampion owner, ISpell spell, IAttackableUnit target)
         {
         }
 
-        public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target)
+        public void OnFinishCasting(IChampion owner, ISpell spell, IAttackableUnit target)
         {
             var units = ApiFunctionManager.GetChampionsInRange(owner, 850, true);
             units.Remove(owner);
-            IChampion mostWoundedAlliedChampion = null;
+            IChampion mostWoundedAlliedIChampion = null;
             float lowestHealthPercentage = 100;
             float maxHealth;
             foreach(var value in units) {
@@ -31,24 +31,24 @@ namespace Spells
                     if (currentHealth * 100 / maxHealth < lowestHealthPercentage && owner != value)
                     {
                         lowestHealthPercentage = currentHealth * 100 / maxHealth;
-                        mostWoundedAlliedChampion = value;
+                        mostWoundedAlliedIChampion = value;
                     }
                 }
             }
 
-            if (mostWoundedAlliedChampion != null)
+            if (mostWoundedAlliedIChampion != null)
             {
-                PerformHeal(owner, spell, mostWoundedAlliedChampion);
+                PerformHeal(owner, spell, mostWoundedAlliedIChampion);
             }
 
             PerformHeal(owner, spell, owner);
         }
 
-        public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile)
+        public void ApplyEffects(IChampion owner, IAttackableUnit target, ISpell spell, IProjectile projectile)
         {
         }
 
-        private void PerformHeal(Champion owner, Spell spell, IChampion target)
+        private void PerformHeal(IChampion owner, ISpell spell, IChampion target)
         {
             float healthGain = 75 + (target.Stats.Level * 15);
             if (target.HasBuffGameScriptActive("HealCheck", "HealCheck"))
@@ -67,11 +67,11 @@ namespace Spells
         {
         }
 
-        public void OnActivate(Champion owner)
+        public void OnActivate(IChampion owner)
         {
         }
 
-        public void OnDeactivate(Champion owner)
+        public void OnDeactivate(IChampion owner)
         {
         }
     }

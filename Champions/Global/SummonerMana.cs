@@ -1,9 +1,9 @@
 using GameServerCore.Domain.GameObjects;
 using LeagueSandbox.GameServer.API;
-using LeagueSandbox.GameServer.GameObjects.AttackableUnits;
+using GameServerCore.Domain.GameObjects;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
 using LeagueSandbox.GameServer.GameObjects.Missiles;
-using LeagueSandbox.GameServer.GameObjects.Spells;
+using GameServerCore.Domain;
 using LeagueSandbox.GameServer.Scripting.CSharp;
 
 namespace Spells
@@ -12,14 +12,14 @@ namespace Spells
     {
         private const float PERCENT_MAX_MANA_HEAL = 0.40f;
 
-        public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target)
+        public void OnStartCasting(IChampion owner, ISpell spell, IAttackableUnit target)
         {
         }
 
-        public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target)
+        public void OnFinishCasting(IChampion owner, ISpell spell, IAttackableUnit target)
         {
             var units = ApiFunctionManager.GetChampionsInRange(owner, 600, true);
-            IChampion nearbychampion = null;
+            IChampion nearbyIChampion = null;
             float lowestManaPercentage = 100;
             float maxMana;
             //float newMana; // not used?
@@ -33,20 +33,20 @@ namespace Spells
                     if (currentMana * 100 / maxMana < lowestManaPercentage && owner != value)
                     {
                         lowestManaPercentage = currentMana * 100 / maxMana;
-                        nearbychampion = value;
+                        nearbyIChampion = value;
                     }
                 }
             }
 
-            if (nearbychampion != null)
+            if (nearbyIChampion != null)
             {
-                var mp2 = nearbychampion.Stats.CurrentMana;
-                var maxMp2 = nearbychampion.Stats.ManaPoints.Total;
+                var mp2 = nearbyIChampion.Stats.CurrentMana;
+                var maxMp2 = nearbyIChampion.Stats.ManaPoints.Total;
                 if (mp2 + maxMp2 * PERCENT_MAX_MANA_HEAL < maxMp2)
-                    nearbychampion.Stats.CurrentMana = mp2 + maxMp2 * PERCENT_MAX_MANA_HEAL;
+                    nearbyIChampion.Stats.CurrentMana = mp2 + maxMp2 * PERCENT_MAX_MANA_HEAL;
                 else
-                    nearbychampion.Stats.CurrentMana = maxMp2;
-                ApiFunctionManager.AddParticleTarget(nearbychampion, "global_ss_clarity_02.troy", nearbychampion);
+                    nearbyIChampion.Stats.CurrentMana = maxMp2;
+                ApiFunctionManager.AddParticleTarget(nearbyIChampion, "global_ss_clarity_02.troy", nearbyIChampion);
             }
 
             var mp = owner.Stats.CurrentMana;
@@ -58,7 +58,7 @@ namespace Spells
             ApiFunctionManager.AddParticleTarget(owner, "global_ss_clarity_02.troy", owner);
         }
 
-        public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile)
+        public void ApplyEffects(IChampion owner, IAttackableUnit target, ISpell spell, IProjectile projectile)
         {
         }
 
@@ -66,11 +66,11 @@ namespace Spells
         {
         }
 
-        public void OnActivate(Champion owner)
+        public void OnActivate(IChampion owner)
         {
         }
 
-        public void OnDeactivate(Champion owner)
+        public void OnDeactivate(IChampion owner)
         {
         }
     }

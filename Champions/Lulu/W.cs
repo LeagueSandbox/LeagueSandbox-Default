@@ -1,33 +1,33 @@
 using GameServerCore.Domain.GameObjects;
 using GameServerCore.Enums;
 using LeagueSandbox.GameServer.API;
-using LeagueSandbox.GameServer.GameObjects.AttackableUnits;
+using GameServerCore.Domain.GameObjects;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
 using LeagueSandbox.GameServer.GameObjects.Missiles;
-using LeagueSandbox.GameServer.GameObjects.Spells;
+using GameServerCore.Domain;
 using LeagueSandbox.GameServer.Scripting.CSharp;
 
 namespace Spells
 {
     public class LuluW : IGameScript
     {
-        public void OnActivate(Champion owner)
+        public void OnActivate(IChampion owner)
         {
         }
 
-        public void OnDeactivate(Champion owner)
+        public void OnDeactivate(IChampion owner)
         {
         }
 
-        public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target)
+        public void OnStartCasting(IChampion owner, ISpell spell, IAttackableUnit target)
         {
             spell.SpellAnimation("SPELL2", owner);
         }
 
-        public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target)
+        public void OnFinishCasting(IChampion owner, ISpell spell, IAttackableUnit target)
         {
-            var champion = (Champion) target;
-            if (champion.Team != owner.Team)
+            var IChampion = (IChampion) target;
+            if (IChampion.Team != owner.Team)
             {
                 spell.AddProjectileTarget("LuluWTwo", target);
             }
@@ -45,20 +45,20 @@ namespace Spells
             }
         }
 
-        public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile)
+        public void ApplyEffects(IChampion owner, IAttackableUnit target, ISpell spell, IProjectile projectile)
         {
-            // TODO: problematic code, if the target is only AttackableUnit crash will occure
-            var champion = (Champion) target;
+            // TODO: problematic code, if the target is only IAttackableUnit crash will occure
+            var IChampion = (IChampion) target;
             var time = 1 + 0.25f * spell.Level;
-            champion.AddBuffGameScript("LuluWDebuff", "LuluWDebuff", spell, time, true);
-            var model = champion.Model;
+            IChampion.AddBuffGameScript("LuluWDebuff", "LuluWDebuff", spell, time, true);
+            var model = IChampion.Model;
             ChangeModel(owner.Skin, target);
 
             var p = ApiFunctionManager.AddParticleTarget(owner, "Lulu_W_polymorph_01.troy", target, 1);
             ApiFunctionManager.CreateTimer(time, () =>
             {
                 ApiFunctionManager.RemoveParticle(p);
-                champion.Model = model;
+                IChampion.Model = model;
             });
             projectile.SetToRemove();
         }
@@ -67,24 +67,24 @@ namespace Spells
         {
         }
 
-        private void ChangeModel(int skinId, AttackableUnit target)
+        private void ChangeModel(int skinId, IAttackableUnit target)
         {
             switch (skinId)
             {
                 case 0:
-                    ((Champion) target).Model = "LuluSquill";
+                    ((IChampion) target).Model = "LuluSquill";
                     break;
                 case 1:
-                    ((Champion) target).Model = "LuluCupcake";
+                    ((IChampion) target).Model = "LuluCupcake";
                     break;
                 case 2:
-                    ((Champion) target).Model = "LuluKitty";
+                    ((IChampion) target).Model = "LuluKitty";
                     break;
                 case 3:
-                    ((Champion) target).Model = "LuluDragon";
+                    ((IChampion) target).Model = "LuluDragon";
                     break;
                 case 4:
-                    ((Champion) target).Model = "LuluSnowman";
+                    ((IChampion) target).Model = "LuluSnowman";
                     break;
             }
         }

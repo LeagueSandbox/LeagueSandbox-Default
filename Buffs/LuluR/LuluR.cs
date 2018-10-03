@@ -1,7 +1,7 @@
 ﻿using GameServerCore.Enums;
 using LeagueSandbox.GameServer.API;
-using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
-using LeagueSandbox.GameServer.GameObjects.Spells;
+using GameServerCore.Domain;
+using GameServerCore.Domain.GameObjects;
 using LeagueSandbox.GameServer.GameObjects.Stats;
 using LeagueSandbox.GameServer.Scripting.CSharp;
 
@@ -14,9 +14,9 @@ namespace LuluR
         private float _meantimeDamage;
         private float _healthNow;
         private float _healthBonus;
-        private Buff _visualBuff;
+        private IBuff _visualBuff;
 
-        public void OnActivate(ObjAiBase unit, Spell ownerSpell)
+        public void OnActivate(IObjAiBase unit, ISpell ownerSpell)
         {
             _statMod = new StatsModifier();
             _statMod.Size.PercentBonus = _statMod.Size.PercentBonus + 1;
@@ -29,7 +29,7 @@ namespace LuluR
             unit.AddStatModifier(_statMod);
         }
 
-        public void OnDeactivate(ObjAiBase unit)
+        public void OnDeactivate(IObjAiBase unit)
         {
             _healthNow = unit.Stats.CurrentHealth - _healthBonus;
             _meantimeDamage = _healthBefore - _healthNow;

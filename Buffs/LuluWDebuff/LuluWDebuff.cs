@@ -1,7 +1,7 @@
 using GameServerCore.Enums;
 using LeagueSandbox.GameServer.API;
-using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
-using LeagueSandbox.GameServer.GameObjects.Spells;
+using GameServerCore.Domain;
+using GameServerCore.Domain.GameObjects;
 using LeagueSandbox.GameServer.GameObjects.Stats;
 using LeagueSandbox.GameServer.Scripting.CSharp;
 
@@ -12,9 +12,9 @@ namespace LuluWDebuff
         private UnitCrowdControl _crowdDisarm = new UnitCrowdControl(CrowdControlType.DISARM);
         private UnitCrowdControl _crowdSilence = new UnitCrowdControl(CrowdControlType.SILENCE);
         private StatsModifier _statMod;
-        private Buff _visualBuff;
+        private IBuff _visualBuff;
 
-        public void OnActivate(ObjAiBase unit, Spell ownerSpell)
+        public void OnActivate(IObjAiBase unit, ISpell ownerSpell)
         {
             _statMod = new StatsModifier();
             _statMod.MoveSpeed.BaseBonus = _statMod.MoveSpeed.BaseBonus - 60;
@@ -26,7 +26,7 @@ namespace LuluWDebuff
                 unit);
         }
 
-        public void OnDeactivate(ObjAiBase unit)
+        public void OnDeactivate(IObjAiBase unit)
         {
             unit.RemoveCrowdControl(_crowdDisarm);
             unit.RemoveCrowdControl(_crowdSilence);

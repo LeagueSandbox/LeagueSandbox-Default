@@ -1,7 +1,7 @@
 using GameServerCore.Enums;
 using LeagueSandbox.GameServer.API;
-using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
-using LeagueSandbox.GameServer.GameObjects.Spells;
+using GameServerCore.Domain;
+using GameServerCore.Domain.GameObjects;
 using LeagueSandbox.GameServer.GameObjects.Stats;
 using LeagueSandbox.GameServer.Scripting.CSharp;
 
@@ -10,9 +10,9 @@ namespace LuluWBuff
     internal class LuluWBuff : IBuffGameScript
     {
         private StatsModifier _statMod;
-        private Buff _visualBuff;
+        private IBuff _visualBuff;
 
-        public void OnActivate(ObjAiBase unit, Spell ownerSpell)
+        public void OnActivate(IObjAiBase unit, ISpell ownerSpell)
         {
             var ap = ownerSpell.Owner.Stats.AbilityPower.Total * 0.001;
             _statMod = new StatsModifier();
@@ -23,7 +23,7 @@ namespace LuluWBuff
                 unit);
         }
 
-        public void OnDeactivate(ObjAiBase unit)
+        public void OnDeactivate(IObjAiBase unit)
         {
             ApiFunctionManager.RemoveBuffHudVisual(_visualBuff);
             unit.RemoveStatModifier(_statMod);
