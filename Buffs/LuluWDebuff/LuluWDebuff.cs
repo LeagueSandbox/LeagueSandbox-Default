@@ -1,5 +1,6 @@
 using GameServerCore.Enums;
 using LeagueSandbox.GameServer.API;
+using static LeagueSandbox.GameServer.API.ApiFunctionManager;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
 using LeagueSandbox.GameServer.GameObjects.Spells;
 using LeagueSandbox.GameServer.GameObjects.Stats;
@@ -22,7 +23,7 @@ namespace LuluWDebuff
             unit.ApplyCrowdControl(_crowdSilence);
             unit.AddStatModifier(_statMod);
             var time = 1 + 0.25f * ownerSpell.Level;
-            _visualBuff = ApiFunctionManager.AddBuffHudVisual("LuluWDebuff", time, 1, BuffType.COMBAT_DEHANCER, 
+            _visualBuff = AddBuffHudVisual("LuluWDebuff", time, 1, BuffType.COMBAT_DEHANCER, 
                 unit);
         }
 
@@ -31,7 +32,7 @@ namespace LuluWDebuff
             unit.RemoveCrowdControl(_crowdDisarm);
             unit.RemoveCrowdControl(_crowdSilence);
             unit.RemoveStatModifier(_statMod);
-            ApiFunctionManager.RemoveBuffHudVisual(_visualBuff);
+            RemoveBuffHudVisual(_visualBuff);
         }
 
         public void OnUpdate(double diff)

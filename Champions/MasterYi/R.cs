@@ -1,5 +1,5 @@
 using GameServerCore.Enums;
-using LeagueSandbox.GameServer.API;
+using static LeagueSandbox.GameServer.API.ApiFunctionManager;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
 using LeagueSandbox.GameServer.GameObjects.Missiles;
@@ -25,11 +25,11 @@ namespace Spells
 
         public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target)
         {
-            var p = ApiFunctionManager.AddParticleTarget(owner, "Highlander_buf.troy", target, 1);
+            var p = AddParticleTarget(owner, "Highlander_buf.troy", target, 1);
             ((ObjAiBase) target).AddBuffGameScript("Highlander", "Highlander", spell, 10.0f, true);
-            ApiFunctionManager.CreateTimer(10.0f, () =>
+            CreateTimer(10.0f, () =>
             {
-                ApiFunctionManager.RemoveParticle(p);
+                RemoveParticle(p);
             });
             //No increased durations on kills and assists yet
         }

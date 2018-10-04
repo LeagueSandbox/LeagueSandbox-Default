@@ -1,5 +1,5 @@
 using GameServerCore.Enums;
-using LeagueSandbox.GameServer.API;
+using static LeagueSandbox.GameServer.API.ApiFunctionManager;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
 using LeagueSandbox.GameServer.GameObjects.Missiles;
@@ -20,12 +20,12 @@ namespace Spells
 
         public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target)
         {
-            var p = ApiFunctionManager.AddParticleTarget(owner, "Lulu_R_cas.troy", target, 1);
+            var p = AddParticleTarget(owner, "Lulu_R_cas.troy", target, 1);
             ((ObjAiBase) target).AddBuffGameScript("LuluR", "LuluR", spell, 7.0f);
-            ApiFunctionManager.CreateTimer(7.0f, () =>
+            CreateTimer(7.0f, () =>
             {
-                ApiFunctionManager.RemoveParticle(p);
-                ApiFunctionManager.AddParticleTarget(owner, "Lulu_R_expire.troy", target, 1);
+                RemoveParticle(p);
+                AddParticleTarget(owner, "Lulu_R_expire.troy", target, 1);
             });
         }
 

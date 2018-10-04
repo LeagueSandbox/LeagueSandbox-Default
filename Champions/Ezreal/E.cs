@@ -1,7 +1,7 @@
 using System.Numerics;
 using GameServerCore.Domain.GameObjects;
 using GameServerCore.Enums;
-using LeagueSandbox.GameServer.API;
+using static LeagueSandbox.GameServer.API.ApiFunctionManager;
 using LeagueSandbox.GameServer.GameObjects;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
@@ -41,11 +41,11 @@ namespace Spells
                 trueCoords = new Vector2(spell.X, spell.Y);
             }
 
-            ApiFunctionManager.AddParticle(owner, "Ezreal_arcaneshift_cas.troy", owner.X, owner.Y);
-            ApiFunctionManager.TeleportTo(owner, trueCoords.X, trueCoords.Y);
-            ApiFunctionManager.AddParticleTarget(owner, "Ezreal_arcaneshift_flash.troy", owner);
+            AddParticle(owner, "Ezreal_arcaneshift_cas.troy", owner.X, owner.Y);
+            TeleportTo(owner, trueCoords.X, trueCoords.Y);
+            AddParticleTarget(owner, "Ezreal_arcaneshift_flash.troy", owner);
             IAttackableUnit target2 = null;
-            var units = ApiFunctionManager.GetUnitsInRange(owner, 700, true);
+            var units = GetUnitsInRange(owner, 700, true);
             float distance = 700;
             foreach (var value in units)
             {

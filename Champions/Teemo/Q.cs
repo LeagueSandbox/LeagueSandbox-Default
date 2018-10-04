@@ -1,6 +1,6 @@
 using System.Numerics;
 using GameServerCore.Enums;
-using LeagueSandbox.GameServer.API;
+using static LeagueSandbox.GameServer.API.ApiFunctionManager;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
 using LeagueSandbox.GameServer.GameObjects.Missiles;
@@ -40,7 +40,7 @@ namespace Spells
             target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
             var time = 1.25f + 0.25f * spell.Level;
             ((ObjAiBase) target).AddBuffGameScript("Blind", "Blind", spell, time);
-            ApiFunctionManager.AddBuffHudVisual("Blind", time, 1, BuffType.COMBAT_DEHANCER, (ObjAiBase) target, time);
+            AddBuffHudVisual("Blind", time, 1, BuffType.COMBAT_DEHANCER, (ObjAiBase) target, time);
         }
 
         public void OnUpdate(double diff)

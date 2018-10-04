@@ -1,5 +1,5 @@
 using GameServerCore.Enums;
-using LeagueSandbox.GameServer.API;
+using static LeagueSandbox.GameServer.API.ApiFunctionManager;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
 using LeagueSandbox.GameServer.GameObjects.Missiles;
@@ -16,9 +16,9 @@ namespace Spells
 
         public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target)
         {
-            var visualBuff = ApiFunctionManager.AddBuffHudVisual("Recall", 8.0f, 1, BuffType.COUNTER, owner, 8.0f);
-            var addParticle = ApiFunctionManager.AddParticleTarget(owner, "TeleportHome.troy", owner);
-            ApiFunctionManager.CreateTimer(8.0f, () =>
+            var visualBuff = AddBuffHudVisual("Recall", 8.0f, 1, BuffType.COUNTER, owner, 8.0f);
+            var addParticle = AddParticleTarget(owner, "TeleportHome.troy", owner);
+            CreateTimer(8.0f, () =>
             {
                 owner.Recall(owner);
             });

@@ -1,5 +1,4 @@
-﻿using GameServerCore.Enums;
-using LeagueSandbox.GameServer.API;
+﻿using static LeagueSandbox.GameServer.API.ApiFunctionManager;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
 using LeagueSandbox.GameServer.GameObjects.Missiles;
@@ -17,10 +16,10 @@ namespace Spells
         public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target)
         {
             owner.AddBuffGameScript("YoumuusGhostblade", "YoumuusGhostblade", spell, 6.0f, true);
-            var p = ApiFunctionManager.AddParticleTarget(owner, "spectral_fury_activate_speed.troy", owner, 2);
-            ApiFunctionManager.CreateTimer(6.0f, () =>
+            var p = AddParticleTarget(owner, "spectral_fury_activate_speed.troy", owner, 2);
+            CreateTimer(6.0f, () =>
             {
-                ApiFunctionManager.RemoveParticle(p);
+                RemoveParticle(p);
             });
         }
 
