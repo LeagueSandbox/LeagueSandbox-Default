@@ -1,8 +1,0 @@
-{
-    "SpellFXOverrideSkins": {
-        "1": "CaitlynSkin06"
-    },
-    "NotSingleTargetSpell": true,
-    "DoesntTriggerSpellCasts": false,
-    "IsDamagingSpell": true
-}

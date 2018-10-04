@@ -1,7 +1,0 @@
-{
-    "AutoBuffActivateAttachBoneName": "C_BUFFBONE_GLB_CENTER_LOC",
-    "BuffName": "Stun",
-    "PopupMessage1": "game_floatingtext_Stunned",
-    "AutoBuffActivateEffect": "LOC_Stun.troy",
-    "BuffTextureName": "Minotaur_TriumphantRoar.dds"
-}

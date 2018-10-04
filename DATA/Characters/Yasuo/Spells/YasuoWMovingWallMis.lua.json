@@ -1,7 +1,0 @@
-{
-    "DoesntBreakShields": true,
-    "TriggersSpellCasts": false,
-    "NotSingleTargetSpell": true,
-    "DoesntTriggerSpellCasts": true,
-    "SpellDamageRatio": 0.5
-}

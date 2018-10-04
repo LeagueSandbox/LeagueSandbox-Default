@@ -1,9 +1,0 @@
-{
-    "PersistsThroughDeath": true,
-    "BuffName": "Draw a Bead",
-    "TriggersSpellCasts": false,
-    "NonDispellable": true,
-    "NotSingleTargetSpell": true,
-    "BuffTextureName": "Tristana_DrawABead.dds",
-    "DoesntTriggerSpellCasts": true
-}

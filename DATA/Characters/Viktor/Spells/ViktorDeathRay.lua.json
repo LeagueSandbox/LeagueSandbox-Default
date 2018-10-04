@@ -1,8 +1,0 @@
-{
-    "SpellFXOverrideSkins": {
-        "1": "MakerViktor"
-    },
-    "NotSingleTargetSpell": false,
-    "DoesntTriggerSpellCasts": false,
-    "IsDamagingSpell": true
-}

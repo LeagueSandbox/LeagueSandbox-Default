@@ -1,8 +1,0 @@
-{
-    "PersistsThroughDeath": true,
-    "BuffName": "GarenCommandKill",
-    "NonDispellable": true,
-    "NotSingleTargetSpell": true,
-    "BuffTextureName": "Garen_W.dds",
-    "DoesntTriggerSpellCasts": true
-}

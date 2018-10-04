@@ -1,9 +1,0 @@
-{
-    "SpellFXOverrideSkins": {
-        "1": "ClericSoraka"
-    },
-    "BuffName": "Astral Blessing",
-    "NotSingleTargetSpell": false,
-    "BuffTextureName": "Soraka_W.dds",
-    "DoesntTriggerSpellCasts": false
-}

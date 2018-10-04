@@ -1,9 +1,0 @@
-{
-    "DoesntBreakShields": true,
-    "BuffName": "LeblancDisplacement",
-    "SpellFXOverrideSkins": {
-        "1": "LeblancSkin04"
-    },
-    "BuffTextureName": "LeblancDisplacementReturn.dds",
-    "SpellToggleSlot": 2.0
-}

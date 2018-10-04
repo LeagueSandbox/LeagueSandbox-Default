@@ -1,8 +1,0 @@
-{
-    "AutoBuffActivateAttachBoneName": "",
-    "PersistsThroughDeath": true,
-    "BuffName": "RenekthonPredator",
-    "AutoBuffActivateEffect": "",
-    "BuffTextureName": "Corki_RapidReload.dds",
-    "NonDispellable": true
-}

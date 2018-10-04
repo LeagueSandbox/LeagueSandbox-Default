@@ -1,9 +1,0 @@
-{
-    "PersistsThroughDeath": true,
-    "BuffName": "MissFortuneViciousStrikes",
-    "NonDispellable": true,
-    "BuffTextureName": "MissFortune_ImpureShots.dds",
-    "SpellFXOverrideSkins": {
-        "1": "MissFortuneSkin07"
-    }
-}

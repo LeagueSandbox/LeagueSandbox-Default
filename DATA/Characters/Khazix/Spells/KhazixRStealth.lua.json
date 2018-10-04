@@ -1,9 +1,0 @@
-{
-    "AutoBuffActivateEffect": "Global_Haste.troy",
-    "SpellFXOverrideSkins": {
-        "1": "KhazixDroid",
-        "2": "KhazixSkin02"
-    },
-    "BuffName": "KhazixRStealth",
-    "BuffTextureName": "Khazix_R.dds"
-}

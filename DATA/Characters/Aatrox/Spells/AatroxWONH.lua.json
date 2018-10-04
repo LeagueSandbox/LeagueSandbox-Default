@@ -1,7 +1,0 @@
-{
-    "BuffName": "TalonNoxianDiplomacy",
-    "IsDeathRecapSource": true,
-    "NotSingleTargetSpell": true,
-    "BuffTextureName": "Armsmaster_Empower.dds",
-    "DoesntTriggerSpellCasts": false
-}

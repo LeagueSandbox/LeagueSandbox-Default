@@ -1,8 +1,0 @@
-{
-    "PersistsThroughDeath": true,
-    "BuffName": "GarenPassiveHeal",
-    "NonDispellable": true,
-    "NotSingleTargetSpell": false,
-    "BuffTextureName": "Garen_Passive.dds",
-    "DoesntTriggerSpellCasts": false
-}

@@ -1,9 +1,0 @@
-{
-    "DoesntBreakShields": false,
-    "IsDamagingSpell": false,
-    "BuffName": "Jack In The Box",
-    "BuffTextureName": "Jester_DeathWard.dds",
-    "NotSingleTargetSpell": true,
-    "DoesntTriggerSpellCasts": false,
-    "CastingBreaksStealth": true
-}

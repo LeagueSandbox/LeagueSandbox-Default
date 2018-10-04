@@ -1,9 +1,0 @@
-{
-    "BuffName": "EzrealEssenceFluxDebuff",
-    "IsDamagingSpell": true,
-    "TriggersSpellCasts": true,
-    "AutoBuffActivateEffect": "GLOBAL_SLOW.troy",
-    "NotSingleTargetSpell": false,
-    "DoesntTriggerSpellCasts": false,
-    "BuffTextureName": "Ezreal_EssenceFlux.dds"
-}

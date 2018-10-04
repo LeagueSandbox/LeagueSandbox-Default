@@ -1,7 +1,0 @@
-{
-    "TriggersSpellCasts": false,
-    "SpellDamageRatio": 0.5,
-    "NotSingleTargetSpell": true,
-    "BuffTextureName": "Heimerdinger_HextechMicroRockets_2.dds",
-    "DoesntTriggerSpellCasts": true
-}

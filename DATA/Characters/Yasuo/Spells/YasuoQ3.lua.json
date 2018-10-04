@@ -1,9 +1,0 @@
-{
-    "DoesntBreakShields": true,
-    "BuffName": "YasuoQ3",
-    "SpellFXOverrideSkins": {
-        "1": "YasuoSkin02"
-    },
-    "BuffTextureName": "Rumble_Junkyard Titan2.dds",
-    "DoesntTriggerSpellCasts": true
-}

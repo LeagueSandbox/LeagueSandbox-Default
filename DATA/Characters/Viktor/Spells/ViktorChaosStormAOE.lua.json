@@ -1,8 +1,0 @@
-{
-    "NonDispellable": true,
-    "PersistsThroughDeath": true,
-    "DoesntTriggerSpellCasts": true,
-    "SpellFXOverrideSkins": {
-        "1": "MakerViktor"
-    }
-}

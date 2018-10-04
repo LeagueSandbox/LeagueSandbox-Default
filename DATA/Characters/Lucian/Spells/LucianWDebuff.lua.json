@@ -1,9 +1,0 @@
-{
-    "SpellFXOverrideSkins": {
-        "1": "CyberEzreal"
-    },
-    "IsDamagingSpell": true,
-    "NotSingleTargetSpell": false,
-    "DoesntTriggerSpellCasts": false,
-    "BuffTextureName": "Lucian_W_debuff.dds"
-}

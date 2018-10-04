@@ -1,9 +1,0 @@
-{
-    "DoesntBreakShields": true,
-    "IsDamagingSpell": true,
-    "NotSingleTargetSpell": false,
-    "DoesntTriggerSpellCasts": true,
-    "SpellFXOverrideSkins": {
-        "1": "LucianSkin01"
-    }
-}

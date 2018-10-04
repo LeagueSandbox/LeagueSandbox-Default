@@ -1,8 +1,0 @@
-{
-    "SpellVOOverrideSkins": {
-        "1": "ClassicTrundle"
-    },
-    "DoesntBreakShields": false,
-    "BuffTextureName": "Trundle_R.dds",
-    "BuffName": "TrundlePain"
-}

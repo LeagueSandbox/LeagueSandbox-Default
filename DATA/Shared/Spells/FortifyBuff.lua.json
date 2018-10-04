@@ -1,8 +1,0 @@
-{
-    "AutoBuffActivateAttachBoneName": "",
-    "BuffName": "FortifyBuff",
-    "AutoBuffActivateEffect": "",
-    "NotSingleTargetSpell": false,
-    "BuffTextureName": "Summoner_fortify.dds",
-    "DoesntTriggerSpellCasts": false
-}

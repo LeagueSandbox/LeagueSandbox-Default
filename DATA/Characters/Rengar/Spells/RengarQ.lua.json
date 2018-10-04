@@ -1,8 +1,0 @@
-{
-    "BuffName": "RengarQBuff",
-    "IsDeathRecapSource": true,
-    "BuffTextureName": "RengarQ.dds",
-    "CastingBreaksStealth": false,
-    "DoesntTriggerSpellCasts": false,
-    "NotSingleTargetSpell": true
-}

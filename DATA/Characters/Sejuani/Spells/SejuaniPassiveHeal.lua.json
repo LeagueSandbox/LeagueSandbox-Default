@@ -1,7 +1,0 @@
-{
-    "IsDamagingSpell": true,
-    "BuffName": "EliseHumanEHeal",
-    "NotSingleTargetSpell": false,
-    "DoesntTriggerSpellCasts": false,
-    "BuffTextureName": "EliseHumanE.dds"
-}

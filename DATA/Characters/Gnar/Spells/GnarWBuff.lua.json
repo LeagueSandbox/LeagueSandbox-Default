@@ -1,9 +1,0 @@
-{
-    "DoesntBreakShields": true,
-    "BuffName": "GnarWBuff",
-    "AutoBuffActivateEffect3": "Gnar_Base_W_Buff.troy",
-    "BuffTextureName": "Gnar_W.dds",
-    "SpellFXOverrideSkins": {
-        "1": "VarusAscended"
-    }
-}

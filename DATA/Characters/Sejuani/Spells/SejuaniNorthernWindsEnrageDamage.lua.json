@@ -1,8 +1,0 @@
-{
-    "AutoBuffActivateAttachBoneName": "Buffbone_Glb_Weapon_1",
-    "IsDamagingSpell": true,
-    "SpellToggleSlot": 2.0,
-    "IsDeathRecapSource": true,
-    "BuffTextureName": "SejuaniNorthernWindsEnrage.dds",
-    "BuffName": "SejuaniNorthernWindsEnrage"
-}

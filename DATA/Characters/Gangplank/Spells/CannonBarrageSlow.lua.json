@@ -1,6 +1,0 @@
-{
-    "AutoBuffActivateEffect": "GLOBAL_SLOW.TROY",
-    "BuffTextureName": "Pirate_CannonBarrage.dds",
-    "BuffName": "CannonBarrageSlow",
-    "PopupMessage1": "game_floatingtext_Slowed"
-}

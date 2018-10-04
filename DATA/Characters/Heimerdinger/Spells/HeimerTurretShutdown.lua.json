@@ -1,6 +1,0 @@
-{
-    "AutoBuffActivateEffect": "Heimer_TurretShutdown.troy",
-    "BuffTextureName": "Voidwalker_Spellseal.dds",
-    "BuffName": "Silence",
-    "PopupMessage1": "game_floatingtext_Silenced"
-}

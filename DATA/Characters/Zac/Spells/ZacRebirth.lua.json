@@ -1,6 +1,0 @@
-{
-    "OnPreDamagePriority": 4.0,
-    "PersistsThroughDeath": true,
-    "BuffName": "ZacRebirth",
-    "BuffTextureName": "Cryophoenix_Rebirth_Charging.dds"
-}

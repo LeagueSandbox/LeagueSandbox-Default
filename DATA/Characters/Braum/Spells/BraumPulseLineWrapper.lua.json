@@ -1,9 +1,0 @@
-{
-    "SpellFXOverrideSkins": {
-        "1": "CyberEzreal"
-    },
-    "IsDamagingSpell": true,
-    "PopupMessage1": "game_floatingtext_Snared",
-    "NotSingleTargetSpell": false,
-    "DoesntTriggerSpellCasts": false
-}

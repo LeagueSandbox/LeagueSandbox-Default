@@ -1,9 +1,0 @@
-{
-    "PersistsThroughDeath": true,
-    "IsDamagingSpell": true,
-    "NotSingleTargetSpell": false,
-    "DoesntTriggerSpellCasts": false,
-    "SpellFXOverrideSkins": {
-        "1": "CyberEzreal"
-    }
-}

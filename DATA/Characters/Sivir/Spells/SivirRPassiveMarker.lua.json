@@ -1,6 +1,0 @@
-{
-    "NonDispellable": true,
-    "PersistsThroughDeath": true,
-    "BuffName": "SivirRPassiveBuff",
-    "BuffTextureName": "Sivir_Deadeye.dds"
-}

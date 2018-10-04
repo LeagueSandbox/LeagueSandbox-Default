@@ -1,6 +1,0 @@
-{
-    "NonDispellable": true,
-    "PersistsThroughDeath": true,
-    "BuffName": "DravenPassive",
-    "BuffTextureName": "Draven_passive.dds"
-}

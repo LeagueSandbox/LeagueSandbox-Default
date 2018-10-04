@@ -1,8 +1,0 @@
-{
-    "SpellFXOverrideSkins": {
-        "1": "SpiritUdyr"
-    },
-    "IsDeathRecapSource": true,
-    "BuffName": "UdyrPhoenixActivation",
-    "BuffTextureName": "Udyr_PhoenixStance.dds"
-}

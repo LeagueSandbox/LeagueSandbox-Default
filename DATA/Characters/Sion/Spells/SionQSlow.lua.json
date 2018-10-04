@@ -1,9 +1,0 @@
-{
-    "SpellToggleSlot": 1.0,
-    "IsDamagingSpell": true,
-    "BuffName": "SionQSlow",
-    "AutoBuffActivateEffect": "Global_Slow.troy",
-    "NotSingleTargetSpell": false,
-    "DoesntTriggerSpellCasts": false,
-    "BuffTextureName": "Sion_Q.dds"
-}

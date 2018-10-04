@@ -1,8 +1,0 @@
-{
-    "AutoBuffActivateAttachBoneName": "R_Hand",
-    "BuffName": "RengarQBuff",
-    "AutoBuffActivateEffect": "Rengar_Base_Q_Buf_AttackSpeed.troy",
-    "AutoBuffActivateAttachBoneName2": "L_Hand",
-    "BuffTextureName": "RengarQ.dds",
-    "AutoBuffActivateEffect2": "Rengar_Base_Q_Buf_AttackSpeed.troy"
-}

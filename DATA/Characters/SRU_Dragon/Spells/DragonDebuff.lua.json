@@ -1,7 +1,0 @@
-{
-    "BuffName": "DragonBurning",
-    "PopupMessage1": "game_floatingtext_Slowed",
-    "AutoBuffActivateEffect": "SRU_dragon_BA1_tar.troy",
-    "IsDeathRecapSource": true,
-    "BuffTextureName": "Dragon_Debuff.dds"
-}

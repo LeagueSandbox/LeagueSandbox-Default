@@ -1,7 +1,0 @@
-{
-    "AutoBuffActivateAttachBoneName": "spine",
-    "BuffName": "SivirPassiveSpeed",
-    "AutoBuffActivateEffect": "Sivir_Base_passivehaste.troy",
-    "BuffTextureName": "Sivir_Passive.dds",
-    "NonDispellable": true
-}

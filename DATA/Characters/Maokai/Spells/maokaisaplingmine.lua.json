@@ -1,8 +1,0 @@
-{
-    "DoesntBreakShields": true,
-    "IsDamagingSpell": false,
-    "BuffTextureName": "Bowmaster_ArchersMark.dds",
-    "NotSingleTargetSpell": true,
-    "DoesntTriggerSpellCasts": false,
-    "CastingBreaksStealth": true
-}

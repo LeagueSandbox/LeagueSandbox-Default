@@ -1,8 +1,0 @@
-{
-    "SpellFXOverrideSkins": {
-        "1": "JinxSkin01"
-    },
-    "PersistsThroughDeath": true,
-    "BuffName": "JinxQIcon",
-    "BuffTextureName": "Jinx_Q2.dds"
-}

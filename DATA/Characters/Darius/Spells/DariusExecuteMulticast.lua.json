@@ -1,7 +1,0 @@
-{
-    "AutoBuffActivateAttachBoneName": "buffbone_cstm_weapon_1",
-    "PersistsThroughDeath": true,
-    "BuffName": "DariusExecuteMulticast",
-    "AutoBuffActivateEffect": "Darius_Base_R_Ready.troy",
-    "BuffTextureName": "Darius_Icon_Sudden_Death.dds"
-}

@@ -1,8 +1,0 @@
-{
-    "SpellFXOverrideSkins": {
-        "1": "CyberEzreal"
-    },
-    "NotSingleTargetSpell": false,
-    "DoesntTriggerSpellCasts": false,
-    "IsDamagingSpell": true
-}

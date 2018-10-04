@@ -1,6 +1,0 @@
-{
-    "AutoBuffActivateEffect": "nidalee_base_p.troy",
-    "AutoBuffActivateAttachBoneName": "BUFFBONE_GLB_GROUND_LOC",
-    "BuffName": "Prowl",
-    "BuffTextureName": "Nidalee_Passive.dds"
-}

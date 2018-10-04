@@ -1,9 +1,0 @@
-{
-    "SpellVOOverrideSkins": {
-        "1": "ClassicTrundle"
-    },
-    "BuffName": "TrundleTrollSmash",
-    "NotSingleTargetSpell": true,
-    "BuffTextureName": "Trundle_Q.dds",
-    "DoesntTriggerSpellCasts": false
-}

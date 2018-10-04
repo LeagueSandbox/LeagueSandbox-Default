@@ -1,9 +1,0 @@
-{
-    "DoesntBreakShields": false,
-    "IsDamagingSpell": true,
-    "BuffName": "MaokaiTrunkSmash",
-    "BuffTextureName": "GemKnight_Shatter.dds",
-    "NotSingleTargetSpell": false,
-    "DoesntTriggerSpellCasts": false,
-    "CastingBreaksStealth": true
-}

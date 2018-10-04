@@ -1,7 +1,0 @@
-{
-    "PersistsThroughDeath": true,
-    "BuffName": "Sru_CrabSpeedBoost",
-    "AutoBuffActivateEffect": "SRU_Crab_SpeedBuff.troy",
-    "BuffTextureName": "Crab_Circle_0.dds",
-    "AutoBuffActivateEffect2": "SRU_CrabSpeedBoost_Audio.troy"
-}

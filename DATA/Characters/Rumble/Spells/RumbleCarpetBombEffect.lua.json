@@ -1,6 +1,0 @@
-{
-    "BuffName": "Danger Zone",
-    "PersistsThroughDeath": true,
-    "BuffTextureName": "034_Steel_Shield.dds",
-    "DoesntTriggerSpellCasts": true
-}

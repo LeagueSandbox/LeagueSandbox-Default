@@ -1,8 +1,0 @@
-{
-    "AutoBuffActivateEffect": "Global_Haste.troy",
-    "SpellFXOverrideSkins": {
-        "1": "PaxSona"
-    },
-    "BuffName": "SonaEZone",
-    "BuffTextureName": "Sona_E.dds"
-}

@@ -1,7 +1,0 @@
-{
-    "IsDamagingSpell": true,
-    "SpellDamageRatio": 1.0,
-    "NotSingleTargetSpell": false,
-    "DoesntTriggerSpellCasts": false,
-    "BuffName": "TalonShadowAssaultMisTwo"
-}

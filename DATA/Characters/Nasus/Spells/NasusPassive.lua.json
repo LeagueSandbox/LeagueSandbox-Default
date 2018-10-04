@@ -1,6 +1,0 @@
-{
-    "NonDispellable": true,
-    "PersistsThroughDeath": true,
-    "BuffName": "NasusPassive",
-    "BuffTextureName": "Nasus_Passive.dds"
-}

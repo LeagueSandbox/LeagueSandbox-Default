@@ -1,8 +1,0 @@
-{
-    "AutoBuffActivateAttachBoneName": "l_hand",
-    "BuffName": "SejuaniNorthernWinds",
-    "SpellToggleSlot": 2.0,
-    "AutoBuffActivateAttachBoneName2": "r_hand",
-    "DoesntTriggerSpellCasts": true,
-    "BuffTextureName": "Sejuani_W2.dds"
-}

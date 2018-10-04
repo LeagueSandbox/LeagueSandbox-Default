@@ -1,9 +1,0 @@
-{
-    "DoesntBreakShields": true,
-    "IsDamagingSpell": false,
-    "BuffName": "Shen Shadow Dash",
-    "BuffTextureName": "Shen_ShadowDash.dds",
-    "NotSingleTargetSpell": true,
-    "DoesntTriggerSpellCasts": true,
-    "CastingBreaksStealth": true
-}

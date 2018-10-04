@@ -1,7 +1,0 @@
-{
-    "PersistsThroughDeath": true,
-    "BuffName": "NamiPassive",
-    "NonDispellable": true,
-    "DoesntTriggerSpellCasts": true,
-    "BuffTextureName": "Janna_Tailwind.dds"
-}

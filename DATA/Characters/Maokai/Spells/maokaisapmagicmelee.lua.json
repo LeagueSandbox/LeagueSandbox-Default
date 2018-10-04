@@ -1,8 +1,0 @@
-{
-    "AutoBuffActivateAttachBoneName": "L_BUFFBONE_GLB_HAND_LOC",
-    "BuffName": "MaokaiSapMagicMelee",
-    "AutoBuffActivateEffect": "Maokai_Base_P_cas.troy",
-    "AutoBuffActivateAttachBoneName2": "L_BUFFBONE_GLB_HAND_LOC",
-    "BuffTextureName": "Maokai_PassiveReady.dds",
-    "AutoBuffActivateEffect2": "Maokai_Base_P_active.troy"
-}

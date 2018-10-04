@@ -1,6 +1,0 @@
-{
-    "NonDispellable": true,
-    "PersistsThroughDeath": true,
-    "BuffName": "KalistaPassiveCoopStrike",
-    "BuffTextureName": "Kalista_Passive_Item.dds"
-}

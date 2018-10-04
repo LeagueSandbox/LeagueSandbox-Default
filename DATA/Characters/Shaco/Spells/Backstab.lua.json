@@ -1,6 +1,0 @@
-{
-    "NonDispellable": true,
-    "PersistsThroughDeath": true,
-    "BuffName": "Backstab",
-    "BuffTextureName": "Jester_CarefulStrikes.dds"
-}

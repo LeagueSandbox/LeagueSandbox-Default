@@ -1,9 +1,0 @@
-{
-    "BuffName": "SionWShieldStacks",
-    "IsDamagingSpell": true,
-    "SpellToggleSlot": 1.0,
-    "NonDispellable": true,
-    "NotSingleTargetSpell": false,
-    "DoesntTriggerSpellCasts": false,
-    "BuffTextureName": "Sion_W1.dds"
-}

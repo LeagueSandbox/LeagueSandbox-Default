@@ -1,7 +1,0 @@
-{
-    "AutoBuffActivateAttachBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
-    "SpellFXOverrideSkins": {
-        "1": "ThreshUndersea"
-    },
-    "AutoBuffActivateEffect": "maokai_sapling_activated_indicator.troy"
-}
