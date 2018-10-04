@@ -47,6 +47,8 @@
   <ItemGroup>
     <Compile Include="Buffs\Blind\Blind.cs" />
     <Compile Include="Buffs\Disarm\Disarm.cs" />
+    <Compile Include="Buffs\HealCheck\HealCheck.cs" />
+    <Compile Include="Buffs\HealSpeed\HealSpeed.cs" />
     <Compile Include="Buffs\Highlander\Highlander.cs" />
     <Compile Include="Buffs\Invulnerable\Invulnerable.cs" />
     <Compile Include="Buffs\LuluR\LuluR.cs" />
@@ -103,14 +105,17 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\GameServerCore\GameServerCore.csproj">
+    <ProjectReference Include="..\..\GameServerCore\GameServerCore.csproj">
       <Project>{DA3DE633-D75B-40B0-8833-099ABFBF43A2}</Project>
       <Name>GameServerCore</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\..\GameServerLib\GameServerLib.csproj">
+    <ProjectReference Include="..\..\GameServerLib\GameServerLib.csproj">
       <Project>{cb004023-b938-4ec6-b036-29ee2f55cfa4}</Project>
       <Name>GameServerLib</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
