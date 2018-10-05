@@ -63,9 +63,9 @@ namespace Spells
 
             if (target2 != null)
             {
-                if (!((GameObject) target2 is BaseTurret))
+                if (!(target2 is IBaseTurret))
                 {
-                    spell.AddProjectileTarget("EzrealArcaneShiftMissile", (IAttackableUnit)target2);
+                    spell.AddProjectileTarget("EzrealArcaneShiftMissile", target2);
                 }
             }
         }

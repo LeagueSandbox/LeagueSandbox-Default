@@ -18,10 +18,7 @@ namespace Spells
         {
             var visualBuff = ApiFunctionManager.AddBuffHudVisual("Recall", 8.0f, 1, BuffType.COUNTER, owner, 8.0f);
             var addParticle = ApiFunctionManager.AddParticleTarget(owner, "TeleportHome.troy", owner);
-            ApiFunctionManager.CreateTimer(8.0f, () =>
-            {
-                owner.Recall(owner);
-            });
+            ApiFunctionManager.CreateTimer(8.0f, owner.Recall);
         }
 
         public void ApplyEffects(IChampion owner, IAttackableUnit target, ISpell spell, IProjectile projectile)
