@@ -1,0 +1,9 @@
+PersistsThroughDeath = true
+BuffName = "Scurvy"
+CastingBreaksStealth = true
+BuffTextureName = "Pirate_GrogSoakedBlade.dds"
+DoesntBreakShields = true
+NonDispellable = true
+IsDamagingSpell = false
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = true

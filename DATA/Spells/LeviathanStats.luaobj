@@ -1,0 +1,4 @@
+NonDispellable = true
+PersistsThroughDeath = true
+BuffName = "LeviathanCap"
+BuffTextureName = "3138_Leviathan.dds"

@@ -1,0 +1,7 @@
+AutoCooldownByLevel = {12, 11, 10, 9, 8}
+IsDamagingSpell = true
+SpellFXOverrideSkins = {"VelkozSkin01"}
+BuffName = "VelkozR"
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+BuffTextureName = "Velkoz_R.dds"

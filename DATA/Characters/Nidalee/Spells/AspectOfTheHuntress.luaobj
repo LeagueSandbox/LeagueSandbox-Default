@@ -1,0 +1,11 @@
+PersistsThroughDeath = true
+BuffName = "AspectOfTheCougar"
+CastingBreaksStealth = true
+BuffTextureName = "Nidalee_AspectOfTheCougar.dds"
+DoesntBreakShields = true
+SpellFXOverrideSkins = {"HeadhunterNidalee"}
+SpellToggleSlot = 4
+NonDispellable = true
+IsDamagingSpell = false
+DoesntTriggerSpellCasts = true
+NotSingleTargetSpell = true

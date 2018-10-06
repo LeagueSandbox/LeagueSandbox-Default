@@ -1,0 +1,6 @@
+DoesntBreakShields = true
+IsDamagingSpell = true
+SpellFXOverrideSkins = {"FrostShyvana"}
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = true
+IsDeathRecapSource = true

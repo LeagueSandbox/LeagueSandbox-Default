@@ -1,0 +1,9 @@
+PersistsThroughDeath = true
+BuffName = "SionPassiveSpeed"
+CastingBreaksStealth = false
+BuffTextureName = "Sion_Passive2.dds"
+DoesntBreakShields = true
+SpellFXOverrideSkins = {"ZiggsSnowday"}
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = false

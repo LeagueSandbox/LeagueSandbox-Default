@@ -1,0 +1,7 @@
+AutoBuffActivateEffect2 = "Global_Slow.troy"
+IsDamagingSpell = true
+BuffName = "S5Test_TowerWrath"
+AutoBuffActivateEffect = "Global_Debuff_ArmorPen.troy"
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+BuffTextureName = "48thSlave_Enfeeble.dds"

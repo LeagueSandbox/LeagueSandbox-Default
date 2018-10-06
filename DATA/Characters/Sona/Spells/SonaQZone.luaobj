@@ -1,0 +1,8 @@
+SpellFXOverrideSkins = {"PaxSona"}
+DoesntBreakShields = false
+IsDamagingSpell = true
+SpellDamageRatio = 1
+BuffName = "SonaQZone"
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = true
+BuffTextureName = "Sona_Q.dds"

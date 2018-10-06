@@ -1,0 +1,7 @@
+DoesntBreakShields = false
+IsDamagingSpell = true
+SpellFXOverrideSkins = {"CyberEzreal"}
+BuffName = "Dark Binding"
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = true
+BuffTextureName = "FallenAngel_DarkBinding.dds"

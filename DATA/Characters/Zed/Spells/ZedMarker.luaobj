@@ -1,0 +1,4 @@
+NonDispellable = true
+IsDeathRecapSource = true
+BuffName = "ZedMarker"
+PersistsThroughDeath = true

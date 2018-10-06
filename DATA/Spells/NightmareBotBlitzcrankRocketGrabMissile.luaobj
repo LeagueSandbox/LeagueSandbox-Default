@@ -1,0 +1,4 @@
+SpellFXOverrideSkins = {"iBlitz", "BlitzcrankSkin07"}
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = true
+AutoCooldownByLevel = {22, 20, 18, 16, 14}

@@ -1,0 +1,2 @@
+BuffTextureName = "Summoner_heal.dds"
+BuffName = "HealCheck"

@@ -1,0 +1,4 @@
+NonDispellable = true
+PersistsThroughDeath = true
+BuffName = "CannibalismMaxHPGained"
+BuffTextureName = "Sion_SpiritFeast.dds"

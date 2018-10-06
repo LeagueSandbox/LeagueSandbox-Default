@@ -1,0 +1,8 @@
+SpellVOOverrideSkins = {"YasuoSkin02"}
+DoesntBreakShields = false
+BuffName = "YasuoRKnockUpCombo"
+SpellFXOverrideSkins = {"YasuoSkin02"}
+AutoCooldownByLevel = {22, 18, 14, 10, 6}
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+BuffTextureName = "Yasuo_R.dds"

@@ -1,0 +1,8 @@
+SpellFXOverrideSkins = {"CaitlynSkin06"}
+DoesntBreakShields = true
+IsDamagingSpell = true
+BuffName = "CaitlynAceintheHole"
+BuffTextureName = "Caitlyn_AceintheHole.dds"
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+ChannelDuration = 1

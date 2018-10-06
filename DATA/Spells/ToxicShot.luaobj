@@ -1,0 +1,8 @@
+SpellToggleSlot = 3
+SpellFXOverrideSkins = {"AstronautTeemo"}
+IsDamagingSpell = true
+BuffName = "Toxic Attack"
+BuffTextureName = "Teemo_PoisonedDart.dds"
+CastingBreaksStealth = true
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = false

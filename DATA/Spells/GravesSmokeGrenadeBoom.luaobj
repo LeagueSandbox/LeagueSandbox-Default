@@ -1,0 +1,4 @@
+AutoBuffActivateEffect = "Nearsight_glb.troy"
+SpellFXOverrideSkins = {"GravesSkin05"}
+BuffName = "GravesSmokeGrenade"
+BuffTextureName = "GravesSmokeGrenade.dds"

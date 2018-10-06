@@ -1,0 +1,5 @@
+Nondispellable = true
+BuffName = "OdinShrineBombBuff"
+AutoBuffActivateAttachBoneName2 = "root"
+BuffTextureName = "DrMundo_BurningAgony.dds"
+AutoBuffActivateEffect2 = "dr_mundo_burning_agony_cas_02.troy"

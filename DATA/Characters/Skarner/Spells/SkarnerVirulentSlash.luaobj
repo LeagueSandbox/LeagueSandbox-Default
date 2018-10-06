@@ -1,0 +1,9 @@
+SpellVOOverrideSkins = {"SkarnerSkin03"}
+SpellFXOverrideSkins = {"SkarnerSkin03"}
+BuffName = "SkarnerVirulentSlash"
+CastingBreaksStealth = true
+BuffTextureName = "Skarner_Q.dds"
+DoesntBreakShields = false
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = true

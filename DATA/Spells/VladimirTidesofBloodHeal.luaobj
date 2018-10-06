@@ -1,0 +1,6 @@
+DoesntBreakShields = false
+IsDamagingSpell = true
+SpellFXOverrideSkins = {"VladimirSkin06"}
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = true
+SpellDamageRatio = 1

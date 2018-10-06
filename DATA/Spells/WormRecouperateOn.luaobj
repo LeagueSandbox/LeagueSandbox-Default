@@ -1,0 +1,10 @@
+PersistsThroughDeath = true
+BuffName = "WormRecouperateOn"
+AutoBuffActivateEffect = ""
+NotSingleTargetSpell = false
+BuffTextureName = "3011_Dawnseeker.dds"
+AutoBuffActivateAttachBoneName = ""
+AutoBuffActivateEffect2 = ""
+AutoBuffActivateEffect3 = ""
+DoesntTriggerSpellCasts = false
+AutoBuffActivateAttachBoneName2 = ""

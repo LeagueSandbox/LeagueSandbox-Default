@@ -1,0 +1,11 @@
+SpellFXOverrideSkins = {"MetalRammus", "RoboRammus"}
+BuffName = "PowerBall"
+AutoBuffActivateEffect = "ArmordilloSpin.troy"
+CastingBreaksStealth = true
+BuffTextureName = "Armordillo_Powerball.dds"
+DoesntBreakShields = false
+AutoBuffActivateEffect2 = "Powerball_buf.troy"
+SpellToggleSlot = 1
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = true

@@ -1,0 +1,4 @@
+SpellToggleSlot = 2
+SpellFXOverrideSkins = {"ZiggsPoolParty", "ZiggsSnowday"}
+BuffName = "ZiggsW"
+BuffTextureName = "ZiggsW.dds"

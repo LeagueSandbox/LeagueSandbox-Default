@@ -1,0 +1,8 @@
+AutoCooldownByLevel = {20, 16, 12, 8, 4}
+DoesntBreakShields = true
+BuffName = "Slow"
+TriggersSpellCasts = true
+AutoBuffActivateEffect = "GLOBAL_SLOW.TROY"
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+BuffTextureName = "Chronokeeper_Timestop.dds"

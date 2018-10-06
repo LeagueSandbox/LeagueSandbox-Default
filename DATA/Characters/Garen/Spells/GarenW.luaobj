@@ -1,0 +1,6 @@
+SpellFXOverrideSkins = {"SteellegionGaren"}
+BuffName = "GarenW"
+TriggersSpellCasts = true
+NotSingleTargetSpell = true
+BuffTextureName = "Garen_W.dds"
+DoesntTriggerSpellCasts = false

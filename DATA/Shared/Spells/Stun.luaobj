@@ -1,0 +1,3 @@
+BuffTextureName = "GSB_stun.dds"
+BuffName = "Stun"
+PopupMessage1 = "game_floatingtext_Stunned"

@@ -1,0 +1,7 @@
+DoesntBreakShields = true
+IsDamagingSpell = false
+SpellFXOverrideSkins = {"SorakaSkin04"}
+AutoCooldownByLevel = {0, 0, 0, 0, 0}
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = true
+CastingBreaksStealth = false

@@ -1,0 +1,9 @@
+BuffName = "GragasWAttackBuff"
+AutoBuffActivateEffect = "Gragas_Base_W_Buf_Hands.troy"
+NotSingleTargetSpell = true
+BuffTextureName = "GragasDrunkenRageAttack.dds"
+AutoBuffActivateAttachBoneName = "L_BUFFBONE_GLB_HAND_LOC"
+AutoCooldownByLevel = {50, 50, 50, 50, 50}
+AutoBuffActivateEffect2 = "Gragas_Base_W_Buf_Hands.troy"
+DoesntTriggerSpellCasts = false
+AutoBuffActivateAttachBoneName2 = "R_BUFFBONE_GLB_HAND_LOC"

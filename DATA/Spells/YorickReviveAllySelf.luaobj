@@ -1,0 +1,5 @@
+PersistsThroughDeath = true
+BuffName = "YorickOmenPreDeath"
+AutoBuffActivateEffect = "yorick_ult_revive_tar.troy"
+BuffTextureName = "YorickOmenOfDeath.dds"
+NonDispellable = true

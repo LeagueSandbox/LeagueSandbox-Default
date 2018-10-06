@@ -1,0 +1,13 @@
+SpellFXOverrideSkins = {"HecarimArcade"}
+BuffName = "HecarimRampAttack"
+AutoBuffActivateEffect = "Hecarim_E_weapon_buf.troy"
+CastingBreaksStealth = true
+BuffTextureName = "3057_Sheen.dds"
+AutoBuffActivateAttachBoneName = "Weapon"
+DoesntBreakShields = false
+AutoBuffActivateEffect2 = "Hecarim_E_weapon_buf2.troy"
+SpellToggleSlot = 1
+AutoBuffActivateAttachBoneName2 = "BUFFBONE_GLB_WEAPON_1"
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = true

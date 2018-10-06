@@ -1,0 +1,9 @@
+PersistsThroughDeath = true
+BuffName = "KhazixEEvo"
+CastingBreaksStealth = true
+BuffTextureName = "Judicator_Reckoning.dds"
+DoesntBreakShields = false
+SpellFXOverrideSkins = {"ReefMalphite"}
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = true

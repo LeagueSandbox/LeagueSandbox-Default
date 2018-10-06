@@ -1,0 +1,5 @@
+SpellVOOverrideSkins = {"CyberEzreal"}
+SpellFXOverrideSkins = {"CyberEzreal"}
+IsDamagingSpell = true
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false

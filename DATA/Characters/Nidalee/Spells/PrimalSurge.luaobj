@@ -1,0 +1,12 @@
+SpellFXOverrideSkins = {"HeadhunterNidalee"}
+BuffName = "PrimalSurge"
+AutoBuffActivateAttachBoneName4 = "R_BUFFBONE_GLB_HAND_LOC"
+AutoBuffActivateEffect3 = "Nidalee_Base_E_Buf.troy"
+CastingBreaksStealth = true
+BuffTextureName = "Nidalee_E1.dds"
+AutoBuffActivateAttachBoneName3 = "L_BUFFBONE_GLB_HAND_LOC"
+DoesntBreakShields = true
+AutoBuffActivateEffect4 = "Nidalee_Base_E_Buf.troy"
+IsDamagingSpell = false
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = true

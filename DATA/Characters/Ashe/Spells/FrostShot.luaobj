@@ -1,0 +1,15 @@
+TriggersSpellCasts = false
+BuffName = "Frost Shot"
+AutoBuffActivateAttachBoneName4 = "Bow_05"
+AutoBuffActivateEffect = "Ashe_Base_q_buf.troy"
+NotSingleTargetSpell = true
+BuffTextureName = "Ashe_Q.dds"
+AutoBuffActivateAttachBoneName3 = "Bow_03"
+AutoBuffActivateAttachBoneName = "Bow_04"
+AutoBuffActivateEffect4 = "Ashe_Base_q_buf.troy"
+AutoBuffActivateEffect2 = "Ashe_Base_q_buf.troy"
+SpellToggleSlot = 1
+NonDispellable = true
+AutoBuffActivateEffect3 = "Ashe_Base_q_buf.troy"
+DoesntTriggerSpellCasts = true
+AutoBuffActivateAttachBoneName2 = "Bow_02"

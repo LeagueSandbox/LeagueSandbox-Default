@@ -1,0 +1,7 @@
+DoesntBreakShields = false
+IsDamagingSpell = true
+SpellDamageRatio = 1
+AutoBuffActivateEffect = "hexTech_dmg_shield_duration.troy"
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = true
+CastingBreaksStealth = true

@@ -1,0 +1,6 @@
+AutoBuffActivateAttachBoneName = "C_BUFFBONE_GLB_HEAD_LOC"
+BuffName = "ItemSmiteChallenge"
+AutoBuffActivateEffect = "global_Watched.troy"
+NotSingleTargetSpell = true
+BuffTextureName = "Smite_Red.dds"
+DoesntTriggerSpellCasts = false

@@ -1,0 +1,13 @@
+SpellVOOverrideSkins = {"BroOlaf"}
+BuffName = "OlafRagnarok"
+AutoBuffActivateAttachBoneName4 = "R_BUFFBONE_GLB_HAND_LOC"
+AutoBuffActivateEffect3 = "olaf_ragnorok_buff.troy"
+CastingBreaksStealth = true
+BuffTextureName = "Olaf_R.dds"
+AutoBuffActivateAttachBoneName3 = "L_BUFFBONE_GLB_HAND_LOC"
+DoesntBreakShields = true
+AutoCooldownByLevel = {120, 120, 120}
+AutoBuffActivateEffect4 = "olaf_ragnorok_buff.troy"
+IsDamagingSpell = false
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = true

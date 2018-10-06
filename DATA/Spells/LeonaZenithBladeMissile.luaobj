@@ -1,0 +1,8 @@
+SpellToggleSlot = 1
+DoesntBreakShields = true
+IsDamagingSpell = true
+BuffName = "Blind"
+BuffTextureName = "Teemo_TranquilizingShot.dds"
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = true
+CastingBreaksStealth = true

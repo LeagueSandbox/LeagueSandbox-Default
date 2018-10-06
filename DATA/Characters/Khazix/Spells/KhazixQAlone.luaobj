@@ -1,0 +1,8 @@
+SpellFXOverrideSkins = {"KhazixDroid"}
+DoesntBreakShields = false
+IsDamagingSpell = true
+BuffName = "KhazixPDamage"
+BuffTextureName = "SkarnerVirulentSlash.dds"
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+CastingBreaksStealth = true

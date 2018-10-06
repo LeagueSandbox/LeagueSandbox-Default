@@ -1,0 +1,4 @@
+AutoBuffActivateEffect = "Global_Haste.troy"
+SpellFXOverrideSkins = {"CyberNocturne"}
+BuffName = "NocturneDuskbringer"
+BuffTextureName = "Nocturne_Duskbringer.dds"

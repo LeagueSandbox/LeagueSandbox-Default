@@ -1,0 +1,8 @@
+BuffName = "Pantheon Grand Skyfall"
+DoesntBreakShields = true
+IsDamagingSpell = true
+BuffTextureName = "Pantheon_GrandSkyfall.dds"
+ChannelDuration = 2
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+CastingBreaksStealth = true

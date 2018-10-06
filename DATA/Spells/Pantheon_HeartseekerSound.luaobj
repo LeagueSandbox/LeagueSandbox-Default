@@ -1,0 +1,2 @@
+BuffTextureName = "Pantheon_HSS.dds"
+BuffName = "Pantheon HeartseekerSound"

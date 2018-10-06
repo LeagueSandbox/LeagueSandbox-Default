@@ -1,0 +1,11 @@
+BuffName = "OrianaRedactShield"
+AutoBuffActivateEffect = "OrianaProtectShield.troy"
+CastingBreaksStealth = true
+BuffTextureName = "OriannaCommandRedact.dds"
+AutoBuffActivateAttachBoneName = "C_Buffbone_Glb_Center_Loc"
+DoesntBreakShields = true
+DoOnPreDamageInExpirationOrder = true
+OnPreDamagePriority = 3
+IsDamagingSpell = false
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = true

@@ -1,0 +1,10 @@
+PersistsThroughDeath = true
+BuffName = "ZiggsPassiveBuff"
+CastingBreaksStealth = false
+BuffTextureName = "ZiggsPassiveReady.dds"
+DoesntBreakShields = true
+SpellFXOverrideSkins = {"ZiggsMadScientist", "ZiggsPoolParty", "ZiggsSnowday"}
+IsDeathRecapSource = true
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = true
+NotSingleTargetSpell = false

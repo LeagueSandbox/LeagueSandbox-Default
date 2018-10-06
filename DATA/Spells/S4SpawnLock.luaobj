@@ -1,0 +1,4 @@
+SpellFXOverrideSkins = {"SteelLegionLux"}
+NotSingleTargetSpell = true
+BuffTextureName = "LuxCrashingBlitz2.dds"
+BuffName = "LuxLightBindingMis"

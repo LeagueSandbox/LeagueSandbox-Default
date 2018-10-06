@@ -1,0 +1,7 @@
+SpellVOOverrideSkins = {"KhazixDroid"}
+SpellFXOverrideSkins = {"KhazixDroid", "KhazixSkin02"}
+IsDamagingSpell = true
+TriggersSpellCasts = true
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+BuffTextureName = "Wolfman_SeverArmor.dds"

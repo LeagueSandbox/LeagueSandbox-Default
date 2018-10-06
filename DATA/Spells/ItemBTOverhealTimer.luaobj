@@ -1,0 +1,2 @@
+BuffTextureName = "3072_The_Bloodthirster_Shield.dds"
+BuffName = "ItemBTOverhealTimer"

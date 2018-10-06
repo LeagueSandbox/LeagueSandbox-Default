@@ -1,0 +1,9 @@
+PersistsThroughDeath = true
+IsDamagingSpell = true
+NotSingleTargetSpell = false
+BuffTextureName = "Xerath_MageChains.dds"
+SpellFXOverrideSkins = {"IronForgeXerath"}
+NonDispellable = true
+BuffName = "XerathBolt"
+DoesntTriggerSpellCasts = false
+SpellDamageRatio = 1

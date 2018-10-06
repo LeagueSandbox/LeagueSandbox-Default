@@ -1,0 +1,2 @@
+BuffTextureName = "BlindMonk_BlindingStrike.dds"
+BuffName = "CamoflagueBuff"

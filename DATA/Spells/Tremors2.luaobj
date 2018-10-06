@@ -1,0 +1,8 @@
+SpellFXOverrideSkins = {"RoboRammus"}
+DoesntBreakShields = true
+IsDamagingSpell = true
+BuffName = "Tremors2"
+BuffTextureName = "Armordillo_RecklessCharge.dds"
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+CastingBreaksStealth = true

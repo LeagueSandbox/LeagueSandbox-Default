@@ -1,0 +1,9 @@
+SpellVOOverrideSkins = {"KarmaClassic"}
+BuffName = "KarmaQ"
+TriggersSpellCasts = true
+AutoBuffActivateEffect = "Highlander_buf.troy"
+NotSingleTargetSpell = true
+BuffTextureName = "Karma_E1.dds"
+AutoCooldownByLevel = {20, 16, 12, 8, 4}
+DoesntTriggerSpellCasts = false
+DoesntBreakShields = true

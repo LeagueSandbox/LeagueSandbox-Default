@@ -1,0 +1,5 @@
+PersistsThroughDeath = true
+BuffName = "MissFortuneViciousStrikes"
+NonDispellable = true
+BuffTextureName = "MissFortune_ImpureShots.dds"
+SpellFXOverrideSkins = {"MissFortuneSkin07"}

@@ -1,0 +1,5 @@
+AutoBuffActivateAttachBoneName = "C_Buffbone_GLb_Head_Loc"
+SpellFXOverrideSkins = {"SteelLegionLux"}
+BuffName = "LuxIlluminatingFraulein"
+AutoBuffActivateEffect = "LuxDebuff.troy"
+BuffTextureName = "LuxIlluminatingFraulein.dds"

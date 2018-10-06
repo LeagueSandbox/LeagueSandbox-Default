@@ -1,0 +1,5 @@
+BuffName = "SummonerHeal"
+BuffTextureName = "Summoner_heal.dds"
+CastingBreaksStealth = true
+DoesntTriggerSpellCasts = true
+NotSingleTargetSpell = true

@@ -1,0 +1,6 @@
+SpellVOOverrideSkins = {"KhazixDroid"}
+PersistsThroughDeath = true
+BuffName = "MissileBarrageCheck"
+NonDispellable = true
+BuffTextureName = "Corki_MissileBarrage.dds"
+SpellFXOverrideSkins = {"KhazixDroid", "KhazixSkin02"}

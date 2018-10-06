@@ -1,0 +1,1 @@
+DoesntBreakShields = true

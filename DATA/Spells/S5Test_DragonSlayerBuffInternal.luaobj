@@ -1,0 +1,3 @@
+PersistsThroughDeath = true
+BuffName = "S5Test_DragonSlayer"
+BuffTextureName = "ShyvanaDragonsDescent.dds"

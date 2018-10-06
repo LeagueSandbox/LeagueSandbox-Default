@@ -1,0 +1,13 @@
+SpellVOOverrideSkins = {"AatroxSkin02"}
+SpellFXOverrideSkins = {"AatroxSkin01", "AatroxSkin02"}
+BuffName = "AatroxR"
+AutoBuffActivateEffect = "Aatrox_Base_RModel.troy"
+CastingBreaksStealth = true
+BuffTextureName = "Aatrox_R.dds"
+DoesntBreakShields = true
+AutoBuffActivateEffect2 = "Aatrox_Base_R_Decal.troy"
+AutoBuffActivateAttachBoneName2 = "Spine2"
+NonDispellable = true
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = true

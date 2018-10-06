@@ -1,0 +1,2 @@
+BuffTextureName = "NightmareBotSpiritShacoCooldown.dds"
+NonDispellable = true

@@ -1,0 +1,10 @@
+PersistsThroughDeath = true
+BuffName = "SionPassiveZombie"
+NotSingleTargetSpell = false
+BuffTextureName = "Sion_Passive1.dds"
+DisplayName = "game_buff_displayname_SionPassiveZombie"
+DoesntBreakShields = true
+SpellFXOverrideSkins = {"ZiggsSnowday"}
+CastingBreaksStealth = false
+DoesntTriggerSpellCasts = true
+IsDamagingSpell = true

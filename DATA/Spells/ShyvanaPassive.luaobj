@@ -1,0 +1,9 @@
+PersistsThroughDeath = true
+BuffName = "ShyvanaPassive"
+CastingBreaksStealth = false
+BuffTextureName = "ShyvanaReinforcedScales.dds"
+DoesntBreakShields = true
+NonDispellable = true
+IsDamagingSpell = false
+DoesntTriggerSpellCasts = true
+NotSingleTargetSpell = true

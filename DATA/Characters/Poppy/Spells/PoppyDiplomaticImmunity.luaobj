@@ -1,0 +1,8 @@
+AutoBuffActivateEvent = ""
+DoesntBreakShields = false
+IsDamagingSpell = true
+BuffName = "PoppyDiplomaticImmunity"
+BuffTextureName = "Poppy_DiplomaticImmunity.dds"
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+CastingBreaksStealth = true

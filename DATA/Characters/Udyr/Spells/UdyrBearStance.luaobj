@@ -1,0 +1,15 @@
+SpellVOOverrideSkins = {"SpiritUdyr"}
+PersistsThroughDeath = true
+BuffName = "UdyrBearStance"
+AutoBuffActivateAttachBoneName4 = "L_Hand"
+AutoBuffActivateEffect3 = "Udyr_Spirit_Bear_Arms_R.troy"
+CastingBreaksStealth = true
+BuffTextureName = "Udyr_BearStance.dds"
+AutoBuffActivateAttachBoneName3 = "R_hand"
+DoesntBreakShields = true
+SpellFXOverrideSkins = {"SpiritUdyr"}
+SpellToggleSlot = 3
+AutoBuffActivateEffect4 = "Udyr_Spirit_Bear_Arms_L.troy"
+IsDamagingSpell = false
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = true

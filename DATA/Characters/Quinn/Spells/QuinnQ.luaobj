@@ -1,0 +1,7 @@
+SpellFXOverrideSkins = {"CyberEzreal", "PhoenixQuinn"}
+IsDamagingSpell = true
+PopupMessage1 = "game_floatingtext_Blinded"
+BuffName = "Blind"
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+BuffTextureName = "Quinn_Q.dds"

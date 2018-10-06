@@ -1,0 +1,9 @@
+SpellFXOverrideSkins = {"ReefMalphite", "GlacialMalphite"}
+BuffName = "ZedRHandler"
+CastingBreaksStealth = true
+BuffTextureName = "shadowninja_R2.dds"
+DoesntBreakShields = false
+SpellToggleSlot = 4
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = true

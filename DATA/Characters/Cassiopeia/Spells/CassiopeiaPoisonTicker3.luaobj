@@ -1,0 +1,10 @@
+PersistsThroughDeath = true
+BuffName = "CassiopeiaPoisonTicker3"
+CastingBreaksStealth = true
+BuffTextureName = "Cassiopeia_DeadlyCadence3.dds"
+DoesntBreakShields = false
+SpellDamageRatio = 1
+NonDispellable = true
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = false

@@ -1,0 +1,4 @@
+AutoBuffActivateEffect = "Global_Slow.troy"
+BuffTextureName = "Rumble_R.dds"
+BuffName = "RumbleCarpetBombSlow"
+PopupMessage1 = "game_floatingtext_Slowed"

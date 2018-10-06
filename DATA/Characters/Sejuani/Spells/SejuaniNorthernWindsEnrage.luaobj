@@ -1,0 +1,6 @@
+AutoBuffActivateAttachBoneName = "Buffbone_Glb_Weapon_1"
+SpellFXOverrideSkins = {"SejuaniSkin04"}
+BuffName = "SejuaniNorthernWindsEnrage"
+IsDeathRecapSource = true
+BuffTextureName = "Sejuani_W.dds"
+SpellToggleSlot = 2

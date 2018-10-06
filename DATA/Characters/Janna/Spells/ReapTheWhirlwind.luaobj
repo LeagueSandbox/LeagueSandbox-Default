@@ -1,0 +1,10 @@
+SpellVOOverrideSkins = {"JannaForecast"}
+SpellFXOverrideSkins = {"JannaForecast"}
+IsDamagingSpell = true
+CastingBreaksStealth = true
+BuffTextureName = "Janna_ReapTheWhirlwind.dds"
+DoesntBreakShields = false
+BuffName = "Reap The Whirlwind"
+ChannelDuration = 3
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = true

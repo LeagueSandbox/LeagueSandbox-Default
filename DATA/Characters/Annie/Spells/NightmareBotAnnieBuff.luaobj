@@ -1,0 +1,3 @@
+PersistsThroughDeath = true
+BuffName = "NightmareBotAnnieBuff"
+BuffTextureName = "Annie_R1.dds"

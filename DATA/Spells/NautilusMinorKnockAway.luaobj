@@ -1,0 +1,7 @@
+DoesntBreakShields = false
+IsDamagingSpell = true
+PopupMessage1 = "game_floatingtext_Stunned"
+AutoBuffActivateEffect = ""
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+CastingBreaksStealth = true

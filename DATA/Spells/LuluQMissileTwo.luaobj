@@ -1,0 +1,8 @@
+BuffName = "EzrealEssenceFluxDebuff"
+SpellFXOverrideSkins = {"luluSkin04"}
+IsDamagingSpell = true
+TriggersSpellCasts = true
+AutoBuffActivateEffect = "GLOBAL_SLOW.troy"
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = true
+BuffTextureName = "Ezreal_EssenceFlux.dds"

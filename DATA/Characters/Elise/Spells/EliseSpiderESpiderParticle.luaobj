@@ -1,0 +1,6 @@
+AutoCooldownByLevel = {80, 80, 80}
+IsDamagingSpell = true
+BuffName = "Soul Shackles"
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+BuffTextureName = "FallenAngel_Purgatory.dds"

@@ -1,0 +1,2 @@
+BuffTextureName = "YorickUnholyCovenant.dds"
+BuffName = "KalistaWRunToMe"

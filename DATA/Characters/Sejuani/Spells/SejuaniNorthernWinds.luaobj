@@ -1,0 +1,6 @@
+AutoBuffActivateAttachBoneName = "l_hand"
+SpellFXOverrideSkins = {"SejuaniSkin04"}
+BuffName = "SejuaniNorthernWinds"
+SpellToggleSlot = 2
+BuffTextureName = "Sejuani_W2.dds"
+AutoBuffActivateAttachBoneName2 = "r_hand"

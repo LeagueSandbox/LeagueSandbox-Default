@@ -1,0 +1,8 @@
+SpellDamageRatio = 1
+DoesntBreakShields = false
+IsDamagingSpell = true
+BuffName = "DeathfireGraspSpell"
+BuffTextureName = "3128_Deathfire_Grasp.dds"
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = true
+CastingBreaksStealth = true

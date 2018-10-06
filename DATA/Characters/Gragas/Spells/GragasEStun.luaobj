@@ -1,0 +1,3 @@
+SpellFXOverrideSkins = {"MetalRammus", "RoboRammus"}
+BuffName = "MoveAway"
+BuffTextureName = "GragasBodySlam.dds"

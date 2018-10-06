@@ -1,0 +1,9 @@
+SpellFXOverrideSkins = {"IronForgeXerath"}
+BuffName = "XerathMageChains"
+AutoBuffActivateEffect = "LOC_Stun.troy"
+NotSingleTargetSpell = false
+BuffTextureName = "Xerath_E1.dds"
+AutoBuffActivateAttachBoneName = "C_Buffbone_Glb_Center_Loc"
+SpellDamageRatio = 1
+DoesntTriggerSpellCasts = false
+IsDamagingSpell = true

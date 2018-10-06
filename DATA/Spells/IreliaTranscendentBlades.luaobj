@@ -1,0 +1,15 @@
+AutoBuffActivateAttachBoneName2 = ""
+BuffName = "IreliaTranscendentBlades"
+AutoBuffActivateEffect4 = ""
+AutoBuffActivateEffect = ""
+CastingBreaksStealth = true
+BuffTextureName = "Irelia_TranscendentBladesReady.dds"
+AutoBuffActivateAttachBoneName3 = ""
+AutoBuffActivateAttachBoneName = ""
+DoesntBreakShields = true
+AutoBuffActivateEffect2 = ""
+AutoBuffActivateEffect3 = ""
+NonDispellable = true
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = true

@@ -1,0 +1,7 @@
+DoesntBreakShields = true
+IsDamagingSpell = true
+SpellFXOverrideSkins = {"VelkozSkin01"}
+AutoCooldownByLevel = {12, 11, 10, 9, 8}
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+SpellToggleSlot = 3

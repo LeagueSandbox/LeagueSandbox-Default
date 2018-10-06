@@ -1,0 +1,8 @@
+SpellFXOverrideSkins = {"GravesSkin05"}
+DoesntBreakShields = true
+IsDamagingSpell = false
+BuffName = "Shen Shadow Dash"
+BuffTextureName = "Shen_ShadowDash.dds"
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+CastingBreaksStealth = true

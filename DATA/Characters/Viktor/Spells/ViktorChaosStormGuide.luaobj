@@ -1,0 +1,7 @@
+DoesntBreakShields = true
+IsDamagingSpell = true
+IsPetDurationBuff = true
+BuffName = "ViktorChaosStormGuide"
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = true
+BuffTextureName = "Viktor_R1.dds"

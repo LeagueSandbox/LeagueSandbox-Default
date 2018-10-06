@@ -1,0 +1,1 @@
+AutoBuffActivateEffect = "GuardianAngel_tar.troy"

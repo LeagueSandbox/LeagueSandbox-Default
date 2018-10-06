@@ -1,0 +1,3 @@
+AutoBuffActivateEffect = "Highlander_buf.troy"
+BuffName = "Haste"
+BuffTextureName = "Chronokeeper_Recall.dds"

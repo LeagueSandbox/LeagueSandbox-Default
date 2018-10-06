@@ -1,0 +1,3 @@
+PersistsThroughDeath = true
+DoesntTriggerSpellCasts = true
+Nondispellable = true

@@ -1,0 +1,3 @@
+BuffTextureName = "Kalista_R.dds"
+BuffName = "KalistaRAllyStun"
+PopupMessage1 = "game_floatingtext_Knockup"

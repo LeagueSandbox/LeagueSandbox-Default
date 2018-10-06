@@ -1,0 +1,4 @@
+AutoBuffActivateEffect = "Global_Slow.troy"
+BuffTextureName = "ViktorGravitonField.dds"
+BuffName = "ViktorGravitonSlow"
+PopupMessage1 = "game_floatingtext_Slowed"

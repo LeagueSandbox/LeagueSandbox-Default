@@ -1,0 +1,7 @@
+DoesntBreakShields = true
+IsDamagingSpell = false
+PersistsThroughDeath = true
+NonDispellable = true
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = true
+CastingBreaksStealth = false

@@ -1,0 +1,6 @@
+AutoCooldownByLevel = {160, 140, 120}
+BuffName = "Chrono Shift"
+NonDispellable = true
+OnPreDamagePriority = 4
+BuffTextureName = "Chronokeeper_Timetwister.dds"
+PersistsThroughDeath = true

@@ -1,0 +1,8 @@
+SpellVOOverrideSkins = {"FizzSkin04"}
+DoesntBreakShields = true
+IsDamagingSpell = true
+SpellFXOverrideSkins = {"FizzSkin04"}
+BuffName = "XenZhaoSweep"
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+CastingBreaksStealth = true

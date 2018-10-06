@@ -1,0 +1,5 @@
+AutoCooldownByLevel = {22, 20, 18, 16, 14}
+SpellFXOverrideSkins = {"NautilusAstronaut"}
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+PersistsThroughDeath = true

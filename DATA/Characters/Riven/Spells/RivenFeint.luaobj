@@ -1,0 +1,10 @@
+SpellFXOverrideSkins = {"RivenSkin05"}
+BuffName = "RivenFeint"
+AutoBuffActivateEffect = "Riven_Base_E_Shield.troy"
+CastingBreaksStealth = true
+BuffTextureName = "RivenPathoftheExile.dds"
+DoesntBreakShields = true
+OnPreDamagePriority = 3
+IsDamagingSpell = false
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = false

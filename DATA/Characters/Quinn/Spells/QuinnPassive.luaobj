@@ -1,0 +1,8 @@
+PersistsThroughDeath = true
+DoesntBreakShields = false
+IsDamagingSpell = true
+BuffName = "QuinnPassive"
+BuffTextureName = "Quinn_Passive.dds"
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+CastingBreaksStealth = true

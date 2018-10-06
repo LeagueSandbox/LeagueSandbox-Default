@@ -1,0 +1,3 @@
+PersistsThroughDeath = true
+BuffName = "InternalTestBuff"
+BuffTextureName = "GSB_invulnerability.dds"

@@ -1,0 +1,8 @@
+BuffTextureName = "GemKnight_Radiance.dds"
+DoesntBreakShields = true
+IsDamagingSpell = false
+BuffName = "RadianceAura"
+AutoBuffActivateEffect = ""
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = true
+CastingBreaksStealth = false

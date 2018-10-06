@@ -1,0 +1,8 @@
+SpellVOOverrideSkins = {"ZombieBrand", "CyberNocturne"}
+SpellFXOverrideSkins = {"OktoberGragas", "MetalWingedJudicator", "ClericSoraka"}
+BuffName = "Recall"
+BuffTextureName = "RecallHome.dds"
+ChannelDuration = 5,5
+CastingBreaksStealth = true
+DoesntTriggerSpellCasts = true
+NotSingleTargetSpell = true

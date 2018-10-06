@@ -1,0 +1,5 @@
+BuffName = "Molten Shield"
+AutoBuffActivateEffect = "Annie_E_buf.troy"
+NotSingleTargetSpell = true
+BuffTextureName = "Annie_E.dds"
+DoesntTriggerSpellCasts = false

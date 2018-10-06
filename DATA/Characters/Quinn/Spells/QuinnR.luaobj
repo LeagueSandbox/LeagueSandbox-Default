@@ -1,0 +1,8 @@
+SpellFXOverrideSkins = {"PhoenixQuinn"}
+DoesntBreakShields = true
+IsDamagingSpell = false
+IsDeathRecapSource = true
+NonDispellable = true
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+CastingBreaksStealth = true

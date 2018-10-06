@@ -1,0 +1,4 @@
+NonDispellable = true
+PersistsThroughDeath = true
+BuffName = "AatroxWtt"
+BuffTextureName = "MasterYi_SunderingStrikes.dds"

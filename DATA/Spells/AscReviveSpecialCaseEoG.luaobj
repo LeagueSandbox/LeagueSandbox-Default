@@ -1,0 +1,7 @@
+PersistsThroughDeath = true
+BuffName = "SightWard"
+SpellFXOverrideSkins = {"SightWardBat", "SightWardGhost", "SightWardSpider", "SightWardTree", "SightWardStone", "SightWardSnowMan", "SightWardGingerBread", "SightWardLantern", "SightWardBanner"}
+AutoBuffActivateEffect = "Ward_Sight_Idle.troy"
+NotSingleTargetSpell = true
+BuffTextureName = "1020_Glowing_Orb.dds"
+DoesntTriggerSpellCasts = true

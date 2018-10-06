@@ -1,0 +1,5 @@
+BuffName = "WriggleLanternWard"
+AutoBuffActivateEffect = "Ward_Wriggles_Idle.troy"
+NotSingleTargetSpell = true
+BuffTextureName = "3154_WrigglesLantern.dds"
+DoesntTriggerSpellCasts = true

@@ -1,0 +1,11 @@
+SpellVOOverrideSkins = {"BattlecastChogath"}
+PersistsThroughDeath = true
+BuffName = "Vorpal Spikes"
+CastingBreaksStealth = false
+BuffTextureName = "GreenTerror_ChitinousExoplates.dds"
+DoesntBreakShields = true
+SpellFXOverrideSkins = {"BattlecastChogath"}
+SpellToggleSlot = 3
+IsDamagingSpell = false
+DoesntTriggerSpellCasts = true
+NotSingleTargetSpell = true

@@ -1,0 +1,4 @@
+AutoBuffActivateEffect = "PotionofBrilliance_itm.troy"
+NonDispellable = true
+BuffName = "OdinCenterRelic"
+BuffTextureName = "StormShield.dds"

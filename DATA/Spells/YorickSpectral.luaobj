@@ -1,0 +1,9 @@
+PersistsThroughDeath = true
+BuffName = "YorickSpectralPreHit"
+AutoBuffActivateEffect = "yorick_spectralGhoul_attack_buf_self.troy"
+BuffTextureName = "YorickOmenOfWarPreHit.dds"
+AutoBuffActivateAttachBoneName = "l_hand"
+DoesntBreakShields = true
+AutoBuffActivateEffect2 = "yorick_spectralGhoul_attack_buf_self.troy"
+NonDispellable = true
+AutoBuffActivateAttachBoneName2 = "r_hand"

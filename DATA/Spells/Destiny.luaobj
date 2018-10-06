@@ -1,0 +1,9 @@
+SpellFXOverrideSkins = {"UnderworldTwistedFate"}
+BuffName = "Destiny"
+AutoBuffActivateEffect = "DestinyEye.troy"
+NotSingleTargetSpell = true
+BuffTextureName = "Destiny_temp.dds"
+AutoBuffActivateAttachBoneName = "C_BUFFBONE_GLB_OVERHEAD_LOC"
+AutoCooldownByLevel = {150, 135, 120}
+DoesntTriggerSpellCasts = false
+SpellDamageRatio = 0,75

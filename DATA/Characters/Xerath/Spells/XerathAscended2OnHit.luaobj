@@ -1,0 +1,4 @@
+Nondispellable = true
+PersistsThroughDeath = true
+BuffName = "XerathAscended2OnHit"
+BuffTextureName = "Xerath_Passive1.dds"

@@ -1,0 +1,6 @@
+AutoBuffActivateEvent = "DeathsCaress_buf.troy"
+BuffName = "NocturneParanoiaTarget"
+AutoBuffActivateEffect = ""
+NotSingleTargetSpell = true
+BuffTextureName = "Nocturne_Paranoia.dds"
+DoesntTriggerSpellCasts = false

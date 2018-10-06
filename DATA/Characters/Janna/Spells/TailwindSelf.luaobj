@@ -1,0 +1,4 @@
+NonDispellable = true
+PersistsThroughDeath = true
+BuffName = "TailwindSelf"
+BuffTextureName = "Janna_Tailwind.dds"

@@ -1,0 +1,11 @@
+PersistsThroughDeath = true
+BuffName = "VarusW"
+CastingBreaksStealth = true
+BuffTextureName = "VarusW.dds"
+DoesntBreakShields = true
+SpellFXOverrideSkins = {""}
+IsDeathRecapSource = true
+SpellToggleSlot = 2
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = false

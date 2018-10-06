@@ -1,0 +1,23 @@
+AutoBuffActivateEffect4 = "Jayce_Hex_Buff_Ready2.troy"
+SpellToggleSlot = 2
+BuffName = "ApolloWRbuff"
+AutoBuffActivateAttachBoneName4 = "Buffbone_CSTM_Weapon_Gap_2"
+AutoBuffActivateEffect = "Jayce_Hex_Buff_Ready.troy"
+NotSingleTargetSpell = true
+OnPreDamagePriority = 3
+AutoBuffActivateAttachBoneName3 = "Buffbone_CSTM_Exhaust_6"
+AutoBuffActivateAttachBoneName = "Buffbone_CSTM_Exhaust_4"
+DoesntBreakShields = true
+AutoBuffActivateEffect2 = "Jayce_Hex_Buff_Ready.troy"
+ChainMissileParameters = {
+  CanHitCaster = 0,
+  CanHitFriends = 0,
+  CanHitSameTargetConsecutively = 0,
+  MaximumHits = {4, 4, 4, 4, 4},
+  CanHitEnemies = 1,
+  CanHitSameTarget = 0
+}
+AutoBuffActivateEffect3 = "Jayce_Hex_Buff_Ready.troy"
+AutoBuffActivateAttachBoneName2 = "Buffbone_CSTM_Exhaust_5"
+DoesntTriggerSpellCasts = false
+IsDamagingSpell = false

@@ -1,0 +1,4 @@
+AutoBuffActivateEffect = "Global_Haste.troy"
+SpellFXOverrideSkins = {"PaxSona"}
+BuffName = "SonaEHaste"
+BuffTextureName = "Sona_E_Gold.dds"

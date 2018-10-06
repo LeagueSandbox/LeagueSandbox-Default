@@ -1,0 +1,9 @@
+SpellVOOverrideSkins = {"RumbleSkin03"}
+SpellFXOverrideSkins = {"RumbleSkin03"}
+BuffName = "RumbleFlameThrower"
+TriggersSpellCasts = true
+NotSingleTargetSpell = true
+BuffTextureName = "Rumble_Flamespitter.dds"
+AutoCooldownByLevel = {20, 16, 12, 8, 4}
+DoesntTriggerSpellCasts = false
+DoesntBreakShields = true

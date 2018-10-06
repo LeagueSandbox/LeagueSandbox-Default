@@ -1,0 +1,8 @@
+SpellFXOverrideSkins = {"BadrobotAmumu"}
+PersistsThroughDeath = true
+IsDamagingSpell = true
+BuffName = "Tantrum"
+NonDispellable = true
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+BuffTextureName = "SadMummy_Tantrum.dds"

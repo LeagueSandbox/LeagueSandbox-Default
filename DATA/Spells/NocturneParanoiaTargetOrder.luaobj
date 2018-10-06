@@ -1,0 +1,6 @@
+SpellFXOverrideSkins = {"CyberNocturne"}
+BuffName = "NocturneParanoiaTarget"
+AutoBuffActivateEvent = "DeathsCaress_buf.troy"
+NotSingleTargetSpell = true
+BuffTextureName = "Nocturne_Paranoia.dds"
+DoesntTriggerSpellCasts = false

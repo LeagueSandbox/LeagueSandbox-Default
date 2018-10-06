@@ -1,0 +1,5 @@
+SpellFXOverrideSkins = {"SightWardBat", "SightWardStone", "SightWardSpider", "SightWardTree", "SightWardGhost", "SightWardSnowMan", "SightWardGingerBread", "SightWardLantern", "SightWardBanner"}
+BuffName = "Magical Sight Ward"
+NotSingleTargetSpell = true
+BuffTextureName = "096_Eye_of_the_Observer.dds"
+DoesntTriggerSpellCasts = true

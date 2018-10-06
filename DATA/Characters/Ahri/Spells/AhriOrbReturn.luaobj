@@ -1,0 +1,3 @@
+AutoBuffActivateAttachBoneName = "root"
+SpellFXOverrideSkins = {"AhriSkin04"}
+AutoBuffActivateEffect = "Ahri_OrbofDeception.troy"

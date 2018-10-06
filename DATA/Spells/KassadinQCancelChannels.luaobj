@@ -1,0 +1,6 @@
+IsDamagingSpell = true
+BuffName = "NullLance"
+AutoBuffActivateEffect = "Null_Lance_buf.troy"
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+BuffTextureName = "Averdrian_AstralBeam.dds"

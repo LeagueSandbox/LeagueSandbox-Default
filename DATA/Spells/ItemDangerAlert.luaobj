@@ -1,0 +1,2 @@
+BuffName = "ItemDangerAlert"
+NonDispellable = true

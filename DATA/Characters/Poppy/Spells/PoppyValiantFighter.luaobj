@@ -1,0 +1,4 @@
+NonDispellable = true
+PersistsThroughDeath = true
+BuffName = "PoppyValiantFighter"
+BuffTextureName = "Poppy_ValiantFighter.dds"

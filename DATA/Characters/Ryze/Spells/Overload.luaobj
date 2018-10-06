@@ -1,0 +1,8 @@
+SetSpellDamageRatio = 1
+AutoCooldownByLevel = {16, 14, 12, 10, 8}
+IsDamagingSpell = true
+TriggersSpellCasts = true
+NonDispellable = true
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+PersistsThroughDeath = true

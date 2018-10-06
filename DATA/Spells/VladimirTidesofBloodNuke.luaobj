@@ -1,0 +1,7 @@
+DoesntBreakShields = true
+IsDamagingSpell = true
+SpellFXOverrideSkins = {"BloodkingVladimir", "VladimirSkin06"}
+IsDeathRecapSource = true
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = true
+SpellDamageRatio = 1

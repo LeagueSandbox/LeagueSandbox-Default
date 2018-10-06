@@ -1,0 +1,8 @@
+SpellVOOverrideSkins = {"MonkeyKingSkin04"}
+SpellFXOverrideSkins = {"MonkeyKingSkin04"}
+BuffName = "MonkeyKingSpinToWin"
+TriggersSpellCasts = true
+BuffTextureName = "MonkeyKingCyclone.dds"
+CastingBreaksStealth = true
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = true

@@ -1,0 +1,7 @@
+AutoCooldownByLevel = {80, 80, 80}
+IsDamagingSpell = true
+SpellFXOverrideSkins = {"VarusAscended"}
+BuffName = "VarusRShackles"
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+BuffTextureName = "VarusR.dds"

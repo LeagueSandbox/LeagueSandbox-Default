@@ -1,0 +1,8 @@
+SpellDamageRatio = 1
+DoesntBreakShields = false
+IsDamagingSpell = true
+BuffName = "Haste"
+BuffTextureName = "Summoner_Haste.dds"
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = true
+CastingBreaksStealth = true

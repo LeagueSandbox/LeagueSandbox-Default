@@ -1,0 +1,6 @@
+SpellVOOverrideSkins = {"BroOlaf"}
+DoesntBreakShields = true
+IsDamagingSpell = true
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+CastingBreaksStealth = true

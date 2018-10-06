@@ -1,0 +1,5 @@
+BuffName = "PowerFist"
+IsDeathRecapSource = true
+NotSingleTargetSpell = true
+BuffTextureName = "Blitzcrank_PowerFist.dds"
+DoesntTriggerSpellCasts = false

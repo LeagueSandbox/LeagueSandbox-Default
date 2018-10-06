@@ -1,0 +1,9 @@
+PersistsThroughDeath = true
+IsDamagingSpell = true
+CastingBreaksStealth = true
+BuffTextureName = "Sona_W_Gold.dds"
+DoesntBreakShields = false
+SpellFXOverrideSkins = {"GuqinSona", "PaxSona"}
+SpellToggleSlot = 4
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = true

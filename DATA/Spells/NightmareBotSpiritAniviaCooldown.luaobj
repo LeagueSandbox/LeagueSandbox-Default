@@ -1,0 +1,1 @@
+BuffTextureName = "Cryophoenix_Rebirth_Charging.dds"

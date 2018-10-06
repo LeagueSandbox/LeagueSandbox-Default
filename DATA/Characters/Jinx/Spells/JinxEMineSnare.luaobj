@@ -1,0 +1,9 @@
+BuffName = "JinxEMineSnare"
+PopupMessage1 = "game_floatingtext_Snared"
+AutoBuffActivateEffect = "Jinx_E_Mine_Debuff.troy"
+CastingBreaksStealth = false
+BuffTextureName = "Jinx_E.dds"
+DoesntBreakShields = false
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = false

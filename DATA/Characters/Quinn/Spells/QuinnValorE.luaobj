@@ -1,0 +1,10 @@
+SpellFXOverrideSkins = {"PhoenixQuinn", "QuinnValor_Phoenix"}
+BuffName = "QuinnE"
+CastingBreaksStealth = true
+BuffTextureName = "Quinn_E.dds"
+DoesntBreakShields = true
+AutoBuffActivateEvent = ""
+IsDeathRecapSource = true
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = true

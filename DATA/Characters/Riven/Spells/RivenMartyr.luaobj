@@ -1,0 +1,7 @@
+DoesntBreakShields = false
+BuffName = "BlindMonkSafeguard"
+SpellFXOverrideSkins = {"RivenSkin05"}
+IsDeathRecapSource = true
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+AutoCooldownByLevel = {22, 18, 14, 10, 6}

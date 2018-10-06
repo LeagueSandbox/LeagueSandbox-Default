@@ -1,0 +1,9 @@
+SpellFXOverrideSkins = {"Lissandra_skin01", "lissandraSkin02"}
+BuffName = "LissandraE"
+CastingBreaksStealth = true
+BuffTextureName = "Lissandra_E.dds"
+DoesntBreakShields = true
+SpellToggleSlot = 3
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = false

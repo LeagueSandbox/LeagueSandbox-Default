@@ -1,0 +1,1 @@
+ChannelDuration = 3

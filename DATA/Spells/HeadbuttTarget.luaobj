@@ -1,0 +1,2 @@
+BuffTextureName = "Minotaur_Headbutt.dds"
+BuffName = "Headbutt"

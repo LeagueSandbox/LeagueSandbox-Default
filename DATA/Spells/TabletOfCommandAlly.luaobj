@@ -1,0 +1,5 @@
+PersistsThroughDeath = true
+BuffName = "TabletOfCommandAlly"
+NotSingleTargetSpell = true
+BuffTextureName = "3060_Banner_of_Command.dds"
+DoesntTriggerSpellCasts = true

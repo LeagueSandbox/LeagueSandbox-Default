@@ -1,0 +1,8 @@
+AutoBuffActivateEffect2 = "Global_Poison.troy"
+AutoBuffActivateAttachBoneName2 = "C_BUFFBONE_GLB_HEAD_LOC"
+IsDamagingSpell = true
+TriggersSpellCasts = true
+BuffName = "EliseSpiderQ"
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+BuffTextureName = "EliseSpiderQ.dds"

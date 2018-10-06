@@ -1,0 +1,4 @@
+BuffName = "GravesPassiveCounter"
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+BuffTextureName = "GravesTrueGrit.dds"

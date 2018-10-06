@@ -1,0 +1,11 @@
+PersistsThroughDeath = true
+BuffName = "RaiseMorale"
+TriggersSpellCasts = true
+CastingBreaksStealth = true
+BuffTextureName = "Pirate_RaiseMorale.dds"
+DoesntBreakShields = true
+IsPetDurationBuff = true
+NonDispellable = true
+IsDamagingSpell = false
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = false

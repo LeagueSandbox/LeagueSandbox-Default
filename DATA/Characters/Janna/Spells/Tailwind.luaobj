@@ -1,0 +1,2 @@
+BuffTextureName = "Janna_Tailwind.dds"
+BuffName = "Tailwind"

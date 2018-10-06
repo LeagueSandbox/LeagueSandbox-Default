@@ -1,0 +1,6 @@
+PersistsThroughDeath = true
+BuffName = "GarenPassive"
+NonDispellable = true
+NotSingleTargetSpell = false
+BuffTextureName = "Garen_Perseverance.dds"
+DoesntTriggerSpellCasts = false

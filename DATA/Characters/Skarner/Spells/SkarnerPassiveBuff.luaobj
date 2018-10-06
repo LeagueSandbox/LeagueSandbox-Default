@@ -1,0 +1,4 @@
+SpellVOOverrideSkins = {"SkarnerSkin03"}
+SpellFXOverrideSkins = {"SkarnerSkin03"}
+BuffName = "SkarnerPassiveBuff"
+BuffTextureName = "Skarner_Passive.dds"

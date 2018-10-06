@@ -1,0 +1,6 @@
+IsDamagingSpell = true
+PopupMessage1 = "game_floatingtext_Stunned"
+BuffName = "ThreshQ"
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+BuffTextureName = "Thresh_Q.dds"

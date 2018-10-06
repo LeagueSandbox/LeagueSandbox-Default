@@ -1,0 +1,4 @@
+SpellVOOverrideSkins = {"SorakaSkin04"}
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+SpellFXOverrideSkins = {"SorakaSkin04"}

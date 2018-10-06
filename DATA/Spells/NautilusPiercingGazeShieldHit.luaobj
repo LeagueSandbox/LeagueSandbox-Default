@@ -1,0 +1,10 @@
+BuffName = "LuxShield"
+AutoBuffActivateEffect = "Naut_Shield.troy"
+CastingBreaksStealth = true
+BuffTextureName = "LuxPrismaWrap.dds"
+DoesntBreakShields = true
+DoOnPreDamageInExpirationOrder = true
+OnPreDamagePriority = 3
+IsDamagingSpell = false
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = true

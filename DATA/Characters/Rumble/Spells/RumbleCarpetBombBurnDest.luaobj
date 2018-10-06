@@ -1,0 +1,6 @@
+DoesntBreakShields = true
+TriggersSpellCasts = true
+AutoCooldownByLevel = {20, 16, 12, 8, 4}
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+SpellToggleSlot = 3

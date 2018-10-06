@@ -1,0 +1,7 @@
+DoesntBreakShields = "True"
+IsDamagingSpell = true
+SpellFXOverrideSkins = {"FrostFireBrand", "ZombieBrand"}
+PersistsThroughDeath = true
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+SpellDamageRatio = 1

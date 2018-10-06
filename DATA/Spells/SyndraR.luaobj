@@ -1,0 +1,10 @@
+PersistsThroughDeath = true
+BuffName = "Time Bomb"
+AutoBuffActivateEffect = "Syndra_R_Spheres_ready.troy"
+NotSingleTargetSpell = false
+BuffTextureName = "Chronokeeper_Chronoblast.dds"
+AutoBuffActivateAttachBoneName = "spine"
+DoesntBreakShields = true
+SpellFXOverrideSkins = {"SyndraSkin02"}
+DoesntTriggerSpellCasts = false
+IsDamagingSpell = true

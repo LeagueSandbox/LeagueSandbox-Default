@@ -2,9 +2,6 @@
 [Bb]in/
 [Oo]bj/
 
-# App config
-app.config
-
 #test VS2015
 GameServer.sln.ide/
 

@@ -1,0 +1,15 @@
+PersistsThroughDeath = true
+BuffName = "ShyvanaDoubleAttack"
+AutoBuffActivateAttachBoneName4 = "L_Hand"
+AutoBuffActivateEffect = "Shyvana_Base_doubleAttack_buf.troy"
+CastingBreaksStealth = false
+BuffTextureName = "ShyvanaTwinBite.dds"
+AutoBuffActivateAttachBoneName3 = "R_Hand"
+AutoBuffActivateAttachBoneName = "R_Hand"
+DoesntBreakShields = true
+AutoBuffActivateEffect2 = "Shyvana_Base_doubleAttack_buf.troy"
+IsDeathRecapSource = true
+NonDispellable = true
+AutoBuffActivateEffect4 = "shyvana_shadow_double_attack_armL.troy"
+AutoBuffActivateAttachBoneName2 = "L_Hand"
+AutoBuffActivateEffect3 = "shyvana_shadow_double_attack_armR.troy"

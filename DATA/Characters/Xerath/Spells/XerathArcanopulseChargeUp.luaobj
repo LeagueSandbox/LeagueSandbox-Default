@@ -1,0 +1,17 @@
+SpellVOOverrideSkins = {"XerathDarkIron"}
+SpellFXOverrideSkins = {"IronForgeXerath"}
+IsDamagingSpell = false
+NotSingleTargetSpell = true
+BuffTextureName = "Xerath_Q1.dds"
+DoesntBreakShields = true
+ChainMissileParameters = {
+  CanHitCaster = 0,
+  CanHitFriends = 0,
+  CanHitSameTargetConsecutively = 0,
+  MaximumHits = {4, 4, 4, 4, 4},
+  CanHitEnemies = 1,
+  CanHitSameTarget = 0
+}
+OnPreDamagePriority = 3
+DoesntTriggerSpellCasts = false
+SpellToggleSlot = 1

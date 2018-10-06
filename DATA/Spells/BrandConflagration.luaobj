@@ -1,0 +1,6 @@
+SpellVOOverrideSkins = {"ZombieBrand"}
+SpellFXOverrideSkins = {"ZombieBrand"}
+IsDamagingSpell = true
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+SpellDamageRatio = 1

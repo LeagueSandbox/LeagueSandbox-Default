@@ -1,0 +1,4 @@
+AutoBuffActivateEffect = "S5_Blue_Aura.troy"
+NonDispellable = true
+BuffName = "CrestoftheAncientGolemAura"
+BuffTextureName = "48thSlave_Tattoo.dds"

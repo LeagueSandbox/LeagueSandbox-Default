@@ -1,0 +1,6 @@
+PersistsThroughDeath = true
+BuffName = ""
+NonDispellable = true
+NotSingleTargetSpell = true
+BuffTextureName = ""
+DoesntTriggerSpellCasts = false

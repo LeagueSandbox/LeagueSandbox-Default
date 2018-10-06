@@ -1,0 +1,2 @@
+BuffTextureName = "3075_Thornmail.dds"
+BuffName = "Thornmail"

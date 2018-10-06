@@ -1,0 +1,8 @@
+SpellFXOverrideSkins = {"BloodkingVladimir"}
+AutoCooldownByLevel = {0, 0, 0, 0, 0}
+IsDamagingSpell = true
+BuffName = "EvelynnWSlow"
+AutoBuffActivateEffect = "Global_Slow.troy"
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+BuffTextureName = "Evelynn_Drink.dds"

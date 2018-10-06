@@ -1,0 +1,3 @@
+PersistsThroughDeath = true
+BuffName = "KhazixEvolve"
+BuffTextureName = "KogMaw_IcathianSurprise.dds"

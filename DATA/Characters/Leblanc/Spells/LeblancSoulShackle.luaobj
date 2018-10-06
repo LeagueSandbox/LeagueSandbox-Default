@@ -1,0 +1,6 @@
+AutoCooldownByLevel = {22, 20, 18, 16, 14}
+BuffName = "LeblancShackleBeam"
+SpellFXOverrideSkins = {"LeblancSkin04"}
+NotSingleTargetSpell = false
+BuffTextureName = "LeblancConjureChains.dds"
+DoesntTriggerSpellCasts = false

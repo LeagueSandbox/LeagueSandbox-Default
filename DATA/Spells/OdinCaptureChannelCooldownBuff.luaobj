@@ -1,0 +1,11 @@
+PersistsThroughDeath = true
+BuffName = "OdinCaptureChannelCooldownBuff"
+AutoBuffActivateEffect = ""
+CastingBreaksStealth = false
+BuffTextureName = "Odin_Interrupted.dds"
+AutoBuffActivateAttachBoneName = ""
+DoesntBreakShields = true
+NonDispellable = true
+IsDamagingSpell = false
+DoesntTriggerSpellCasts = true
+NotSingleTargetSpell = false

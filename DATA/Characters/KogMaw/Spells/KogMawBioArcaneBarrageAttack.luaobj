@@ -1,0 +1,4 @@
+SpellVOOverrideSkins = {"NewYearDragonKogMaw", "KogmawSkin08"}
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = true
+SpellFXOverrideSkins = {"NewYearDragonKogMaw", "KogMawSkin08"}

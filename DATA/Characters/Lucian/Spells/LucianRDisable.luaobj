@@ -1,0 +1,6 @@
+PersistsThroughDeath = true
+BuffName = "LucianR"
+AutoBuffActivateEffect = "Lucian_R_self.troy"
+SpellToggleSlot = 4
+DoesntTriggerSpellCasts = true
+BuffTextureName = "Lucian_R.dds"

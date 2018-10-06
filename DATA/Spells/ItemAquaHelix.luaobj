@@ -1,0 +1,6 @@
+AutoBuffActivateAttachBoneName = "l_hand"
+BuffName = "LichBane"
+AutoBuffActivateEffect = "bluehands_buf.troy"
+AutoBuffActivateAttachBoneName2 = "r_hand"
+BuffTextureName = "3025_Frozen_Fist.dds"
+AutoBuffActivateEffect2 = "bluehands_buf.troy"

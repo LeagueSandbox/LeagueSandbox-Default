@@ -1,0 +1,5 @@
+IsDamagingSpell = true
+IsDeathRecapSource = true
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+SpellDamageRatio = 0,5

@@ -1,0 +1,4 @@
+SpellFXOverrideSkins = {"ViRacer"}
+PersistsThroughDeath = true
+BuffName = "ViRTarget"
+BuffTextureName = "ViR.dds"

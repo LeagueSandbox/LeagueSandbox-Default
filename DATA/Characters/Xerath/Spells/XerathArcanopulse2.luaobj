@@ -1,0 +1,4 @@
+SpellFXOverrideSkins = {"IronForgeXerath"}
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+IsDamagingSpell = true

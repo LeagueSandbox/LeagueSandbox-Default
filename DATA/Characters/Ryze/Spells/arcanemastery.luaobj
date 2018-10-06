@@ -1,0 +1,9 @@
+PersistsThroughDeath = true
+BuffName = "Arcane Mastery"
+CastingBreaksStealth = false
+BuffTextureName = "Ryze_SpellStrike.dds"
+DoesntBreakShields = true
+NonDispellable = true
+IsDamagingSpell = false
+DoesntTriggerSpellCasts = true
+NotSingleTargetSpell = false

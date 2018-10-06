@@ -1,0 +1,4 @@
+AutoBuffActivateEffect = ""
+AutoBuffActivateAttachBoneName = ""
+BuffName = "Explosive Shot Debuff"
+BuffTextureName = "Tristana_ExplosiveShot.dds"

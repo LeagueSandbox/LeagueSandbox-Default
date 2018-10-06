@@ -1,0 +1,6 @@
+AutoBuffActivateAttachBoneName = "L_Buffbone_Glb_Hand_Loc"
+BuffName = "RaiseMoraleTeamBuff"
+AutoBuffActivateEffect = "pirate_attack_buf_01.troy"
+AutoBuffActivateAttachBoneName2 = "R_Buffbone_Glb_Hand_Loc"
+BuffTextureName = "Pirate_RaiseMorale.dds"
+AutoBuffActivateEffect2 = "pirate_attack_buf_01.troy"

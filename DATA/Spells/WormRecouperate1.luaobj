@@ -1,0 +1,5 @@
+BuffName = "WormRecouperate1"
+NonDispellable = true
+NotSingleTargetSpell = false
+BuffTextureName = "1035_Short_Sword.dds"
+DoesntTriggerSpellCasts = false

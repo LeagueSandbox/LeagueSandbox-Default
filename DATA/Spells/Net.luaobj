@@ -1,0 +1,3 @@
+AutoBuffActivateEffect = "LOC_Stun.troy"
+BuffName = "Net"
+AutoBuffActivateAttachBoneName = "C_BUFFBONE_GLB_CENTER_LOC"

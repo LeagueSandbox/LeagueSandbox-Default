@@ -1,0 +1,2 @@
+BuffTextureName = "Jayce_HextechCapacitor_Cannon.dds"
+BuffName = "JaycePassiveShred"

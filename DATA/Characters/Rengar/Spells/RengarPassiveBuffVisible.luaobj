@@ -1,0 +1,2 @@
+BuffTextureName = "RengarPassive.dds"
+BuffName = "RengarPassiveBuff"

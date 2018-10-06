@@ -1,0 +1,2 @@
+BuffTextureName = "Kennen_MarkOfStorm.dds"
+BuffName = "KennenMoSDiminish"

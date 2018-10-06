@@ -1,0 +1,11 @@
+SpellVOOverrideSkins = {"SkarnerSkin03"}
+SpellFXOverrideSkins = {"SkarnerSkin03"}
+BuffName = "SkarnerFracture"
+AutoBuffActivateEffect = "Skarner_Base_Q_Activate_R.troy"
+CastingBreaksStealth = true
+BuffTextureName = "Skarner_E.dds"
+AutoBuffActivateAttachBoneName = "tail_t"
+DoesntBreakShields = false
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = false

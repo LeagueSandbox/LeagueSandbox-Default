@@ -1,0 +1,6 @@
+DoesntBreakShields = true
+IsDamagingSpell = true
+SpellFXOverrideSkins = {"GhostBrideMorgana"}
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+PersistsThroughDeath = true

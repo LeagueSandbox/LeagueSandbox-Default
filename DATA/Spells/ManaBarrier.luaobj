@@ -1,0 +1,7 @@
+AutoCooldownByLevel = {0, 0, 0, 0, 0}
+BuffName = "ManaBarrier"
+DoOnPreDamageInExpirationOrder = true
+NonDispellable = true
+NotSingleTargetSpell = true
+BuffTextureName = "Blitzcrank_ManaBarrier.dds"
+DoesntTriggerSpellCasts = false

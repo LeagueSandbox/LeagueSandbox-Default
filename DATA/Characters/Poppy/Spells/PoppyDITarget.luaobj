@@ -1,0 +1,4 @@
+AutoBuffActivateEffect = "DiplomaticImmunity_tar.troy"
+NonDispellable = true
+BuffName = "PoppyDITarget"
+BuffTextureName = "Poppy_DiplomaticImmunity.dds"

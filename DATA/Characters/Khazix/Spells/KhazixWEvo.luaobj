@@ -1,0 +1,10 @@
+SpellVOOverrideSkins = {"KhazixDroid"}
+PersistsThroughDeath = true
+BuffName = "KhazixWEvo"
+CastingBreaksStealth = true
+BuffTextureName = "Khazix_W_red.dds"
+DoesntBreakShields = false
+SpellFXOverrideSkins = {"KhazixDroid", "KhazixSkin02"}
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = true
+NotSingleTargetSpell = true

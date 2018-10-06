@@ -1,0 +1,5 @@
+DoesntBreakShields = true
+BuffName = "KhazixWMissile"
+SpellFXOverrideSkins = {"KhazixDroid", "KhazixSkin02"}
+BuffTextureName = "GreenTerror_ChitinousExoplates.dds"
+DoesntTriggerSpellCasts = true

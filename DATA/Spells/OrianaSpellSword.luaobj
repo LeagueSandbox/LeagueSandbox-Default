@@ -1,0 +1,8 @@
+BuffTextureName = "OriannaPowerDagger.dds"
+PersistsThroughDeath = true
+BuffName = "OrianaSpellSword"
+IsDeathRecapSource = true
+NonDispellable = true
+CastingBreaksStealth = false
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = true

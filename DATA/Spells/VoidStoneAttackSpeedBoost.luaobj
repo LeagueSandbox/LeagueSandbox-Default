@@ -1,0 +1,2 @@
+BuffTextureName = "Voidwalker_Netherburn.dds"
+BuffName = "VoidStoneEmpowered"

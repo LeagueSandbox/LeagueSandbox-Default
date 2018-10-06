@@ -1,0 +1,8 @@
+SpellFXOverrideSkins = {"GuqinSona", "PaxSona"}
+DoesntBreakShields = false
+IsDamagingSpell = true
+PersistsThroughDeath = true
+BuffTextureName = "Sona_E_Gold.dds"
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+CastingBreaksStealth = true

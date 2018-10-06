@@ -1,0 +1,2 @@
+BuffTextureName = "Ahri_Charm.dds"
+BuffName = "AhriSeduceDoom"

@@ -1,0 +1,7 @@
+PersistsThroughDeath = true
+BuffName = "BraumWPassiveStatsDoubler"
+TriggersSpellCasts = true
+SpellFXOverrideSkins = {"BraumSkin01"}
+NotSingleTargetSpell = true
+BuffTextureName = "Braum_W.dds"
+DoesntTriggerSpellCasts = false

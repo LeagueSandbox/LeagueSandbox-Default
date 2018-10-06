@@ -1,0 +1,4 @@
+AutoBuffActivateEffect = "odin_minion_tower_buf.troy"
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+BuffName = "OdinMinionTaunt"

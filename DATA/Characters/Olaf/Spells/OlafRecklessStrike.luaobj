@@ -1,0 +1,9 @@
+SpellVOOverrideSkins = {"BroOlaf"}
+SpellFXOverrideSkins = {"PentakillOlaf"}
+IsDamagingSpell = true
+TriggersSpellCasts = true
+CastingBreaksStealth = true
+BuffTextureName = "Wolfman_SeverArmor.dds"
+DoesntBreakShields = false
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = false

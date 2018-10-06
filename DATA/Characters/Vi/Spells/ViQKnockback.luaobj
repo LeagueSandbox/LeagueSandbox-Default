@@ -1,0 +1,2 @@
+BuffTextureName = "ViQ.dds"
+BuffName = "ViQKnockBack"

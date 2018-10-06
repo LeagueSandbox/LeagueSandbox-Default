@@ -1,0 +1,7 @@
+SpellFXOverrideSkins = {"GlacialMalphite", "MalphiteSkin06"}
+IsDamagingSpell = false
+BuffName = "MalphiteDamageBuff"
+BuffTextureName = "Malphite_BrutalStrikes.dds"
+CastingBreaksStealth = true
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = true

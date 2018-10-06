@@ -1,0 +1,5 @@
+DoesntBreakShields = true
+BuffName = "Pick A Card Blue"
+AutoBuffActivateEffect = "Card_Blue.troy"
+BuffTextureName = "Cardmaster_blue.dds"
+DoesntTriggerSpellCasts = true

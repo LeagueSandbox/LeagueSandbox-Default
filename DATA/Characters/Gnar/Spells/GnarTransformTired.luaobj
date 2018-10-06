@@ -1,0 +1,7 @@
+DoesntBreakShields = true
+BuffName = "GnarTransformTired"
+SpellFXOverrideSkins = {"RocketTristana"}
+AutoCooldownByLevel = {20, 18, 16, 14, 12}
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+BuffTextureName = "GnarTransformTired.dds"

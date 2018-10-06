@@ -1,0 +1,7 @@
+DoesntBreakShields = true
+IsDamagingSpell = true
+AutoBuffActivateEvent = ""
+SpellFXOverrideSkins = {"PhoenixQuinn"}
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+CastingBreaksStealth = true

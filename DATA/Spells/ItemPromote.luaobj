@@ -1,0 +1,11 @@
+BuffName = "Black Shield"
+AutoBuffActivateEffect = "Global_Item_BoC_Buf.troy"
+NotSingleTargetSpell = false
+BuffTextureName = "FallenAngel_BlackShield.dds"
+AutoBuffActivateAttachBoneName = "scroll"
+AutoCooldownByLevel = {16, 16, 16, 16, 16}
+AutoBuffActivateEffect2 = "Global_Item_BoC_Buf.troy"
+DoOnPreDamageInExpirationOrder = true
+OnPreDamagePriority = 2
+DoesntTriggerSpellCasts = true
+AutoBuffActivateAttachBoneName2 = "Buffbone_Cstm_Weapon_1"

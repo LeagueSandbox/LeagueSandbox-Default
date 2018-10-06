@@ -1,0 +1,2 @@
+BuffTextureName = "GW_Debuff.dds"
+BuffName = "GrievousWound"

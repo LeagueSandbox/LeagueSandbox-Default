@@ -1,0 +1,9 @@
+PersistsThroughDeath = true
+BuffName = "ZyraPassiveDeathDisplay"
+CastingBreaksStealth = true
+BuffTextureName = "KogMaw_IcathianSurprise.dds"
+DoesntBreakShields = true
+NonDispellable = true
+IsDamagingSpell = false
+DoesntTriggerSpellCasts = true
+NotSingleTargetSpell = false

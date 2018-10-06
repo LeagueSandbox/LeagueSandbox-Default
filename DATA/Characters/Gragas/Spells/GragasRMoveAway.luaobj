@@ -1,0 +1,2 @@
+BuffTextureName = "GragasExplosiveCask.dds"
+BuffName = "MoveAway"

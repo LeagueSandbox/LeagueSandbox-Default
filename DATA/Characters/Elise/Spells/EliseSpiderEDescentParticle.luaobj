@@ -1,0 +1,9 @@
+IsDamagingSpell = true
+CastingBreaksStealth = true
+BuffTextureName = "EliseSpiderE.dds"
+DoesntBreakShields = true
+SpellToggleSlot = 3
+BuffName = "BuffEliseRappel"
+ChannelDuration = 2,5
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = true

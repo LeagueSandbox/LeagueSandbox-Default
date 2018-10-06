@@ -1,0 +1,7 @@
+DoesntBreakShields = true
+IsDamagingSpell = false
+PersistsThroughDeath = true
+CastTime = 0,115
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+BuffName = "ApolloPassive"

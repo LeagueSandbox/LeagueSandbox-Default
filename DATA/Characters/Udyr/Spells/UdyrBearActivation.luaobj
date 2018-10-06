@@ -1,0 +1,9 @@
+SpellFXOverrideSkins = {"SpiritUdyr"}
+BuffName = "UdyrBearActivation"
+AutoBuffActivateEffect = "Udyr_BearStance.troy"
+CastingBreaksStealth = false
+BuffTextureName = "Udyr_BearStance.dds"
+DoesntBreakShields = true
+IsDamagingSpell = false
+DoesntTriggerSpellCasts = true
+NotSingleTargetSpell = true

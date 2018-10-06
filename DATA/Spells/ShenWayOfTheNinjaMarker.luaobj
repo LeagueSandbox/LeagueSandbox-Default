@@ -1,0 +1,4 @@
+NonDispellable = true
+PersistsThroughDeath = true
+BuffName = "ShenWayOfTheNinjaMarker"
+BuffTextureName = "Shen_KiStrike.dds"

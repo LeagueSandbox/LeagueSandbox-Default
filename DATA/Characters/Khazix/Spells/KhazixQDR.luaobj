@@ -1,0 +1,9 @@
+SpellVOOverrideSkins = {"KhazixDroid"}
+SpellFXOverrideSkins = {"KhazixDroid"}
+BuffName = "KhazixQDR"
+TriggersSpellCasts = true
+NotSingleTargetSpell = false
+BuffTextureName = "Khazix_Q.dds"
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = false
+IsDeathRecapSource = true

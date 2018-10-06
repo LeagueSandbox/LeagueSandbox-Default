@@ -1,0 +1,17 @@
+SpellVOOverrideSkins = {"RumbleSkin03"}
+SpellFXOverrideSkins = {"RumbleSkin03"}
+BuffName = "OlafRagnarok"
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = true
+IsDamagingSpell = false
+AutoBuffActivateAttachBoneName4 = "R_BUFFBONE_GLB_HAND_LOC"
+AutoBuffActivateEffect = "olaf_ragnorok_shield_02.troy"
+CastingBreaksStealth = true
+BuffTextureName = "OlafRagnarok.dds"
+AutoBuffActivateAttachBoneName3 = "L_BUFFBONE_GLB_HAND_LOC"
+DoesntBreakShields = true
+AutoBuffActivateEffect2 = "olaf_ragnorok_shield_01.troy"
+NonDispellable = true
+AutoBuffActivateEffect3 = "olaf_ragnorok_buff.troy"
+AutoCooldownByLevel = {120, 120, 120}
+AutoBuffActivateEffect4 = "olaf_ragnorok_buff.troy"

@@ -1,0 +1,8 @@
+SpellVOOverrideSkins = {"HecarimArcade"}
+DoesntBreakShields = true
+BuffName = "HecarimW"
+TriggersSpellCasts = true
+SpellFXOverrideSkins = {"HecarimArcade"}
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+BuffTextureName = "Hecarim_SpiritofDread.dds"

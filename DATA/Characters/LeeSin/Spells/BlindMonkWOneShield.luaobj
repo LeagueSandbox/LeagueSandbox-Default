@@ -1,0 +1,9 @@
+BuffName = "BlindMonkSafeguard"
+AutoBuffActivateEffect = "blindMonk_W_shield_self.troy"
+CastingBreaksStealth = true
+BuffTextureName = "BlindMonkWOne.dds"
+DoesntBreakShields = true
+OnPreDamagePriority = 3
+IsDamagingSpell = false
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = false

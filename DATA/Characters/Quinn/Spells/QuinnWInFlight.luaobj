@@ -1,0 +1,6 @@
+AutoBuffActivateEvent = "DeathsCaress_buf.troy"
+IsDamagingSpell = true
+DoOnPreDamageInExpirationOrder = true
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+OnPreDamagePriority = 3

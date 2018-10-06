@@ -1,0 +1,6 @@
+DoesntBreakShields = true
+IsDamagingSpell = false
+BuffName = "DefensiveBallCurl"
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = true
+CastingBreaksStealth = false

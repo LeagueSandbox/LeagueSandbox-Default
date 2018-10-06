@@ -1,0 +1,2 @@
+BuffTextureName = "PlantKing_AnimateEntangler.dds"
+BuffName = "Wrath of the Ancients"

@@ -1,0 +1,3 @@
+PersistsThroughDeath = true
+BuffName = "NightmareBotMonkeyKingBuff"
+BuffTextureName = "MonkeyKingDecoy.dds"

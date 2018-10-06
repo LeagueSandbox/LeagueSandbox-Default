@@ -1,0 +1,10 @@
+SpellFXOverrideSkins = {"GangsterTwitch", "PunkTwitch", "TwitchSkin06"}
+AutoBuffActivateAttachBoneName4 = "c_buffbone_glb_layout_loc"
+AutoBuffActivateEffect = "Twitch_Base_R_Weapon_Glow.troy"
+NotSingleTargetSpell = true
+AutoBuffActivateAttachBoneName3 = "L_bow"
+AutoBuffActivateEffect2 = "Twitch_Base_R_Weapon_Glow.troy"
+AutoBuffActivateEffect4 = "Twitch_Base_R_Buff.troy"
+AutoBuffActivateAttachBoneName2 = "r_bow"
+DoesntTriggerSpellCasts = true
+AutoBuffActivateEffect3 = "Twitch_Base_R_Weapon_Glow.troy"

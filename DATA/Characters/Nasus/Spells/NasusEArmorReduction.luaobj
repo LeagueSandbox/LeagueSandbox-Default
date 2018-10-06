@@ -1,0 +1,2 @@
+BuffTextureName = "Nasus_E.dds"
+BuffName = "NasusE"

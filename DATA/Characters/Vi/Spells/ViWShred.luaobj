@@ -1,0 +1,2 @@
+BuffTextureName = "ViW.dds"
+BuffName = "ViW"

@@ -1,0 +1,3 @@
+PersistsThroughDeath = true
+BuffName = "SejuaniPassive"
+BuffTextureName = "Sejuani_passive.dds"

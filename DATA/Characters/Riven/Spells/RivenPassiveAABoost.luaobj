@@ -1,0 +1,10 @@
+BuffName = "RivenPassiveAABoost"
+AutoBuffActivateEffect = "Riven_Base_P_Buff.troy"
+NotSingleTargetSpell = false
+BuffTextureName = "RivenRunicBlades.dds"
+AutoBuffActivateAttachBoneName = "r_hand"
+DoesntBreakShields = false
+AutoBuffActivateEffect2 = "Riven_Skin05_P_Buff.troy"
+AutoCooldownByLevel = {22, 18, 14, 10, 6}
+DoesntTriggerSpellCasts = false
+AutoBuffActivateAttachBoneName2 = "r_hand"

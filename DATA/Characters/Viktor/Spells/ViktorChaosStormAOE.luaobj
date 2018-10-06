@@ -1,0 +1,4 @@
+NonDispellable = true
+PersistsThroughDeath = true
+DoesntTriggerSpellCasts = true
+SpellFXOverrideSkins = {"MakerViktor"}

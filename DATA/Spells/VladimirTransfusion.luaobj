@@ -1,0 +1,3 @@
+SpellVOOverrideSkins = {"BloodkingVladimir"}
+DoesntBreakShields = true
+SpellFXOverrideSkins = {"BloodkingVladimir", "VladimirSkin06"}

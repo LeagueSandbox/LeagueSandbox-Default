@@ -1,0 +1,3 @@
+BuffTextureName = "Sion_E.dds"
+BuffName = "SionESlow"
+PopupMessage1 = "game_floatingtext_Slowed"

@@ -1,0 +1,17 @@
+BuffName = "Spell Flux"
+CastingBreaksStealth = true
+BuffTextureName = "Ryze_LightningFlux.dds"
+DoesntBreakShields = false
+AutoCooldownByLevel = {150, 120, 90}
+ChainMissileParameters = {
+  CanHitCaster = 1,
+  CanHitFriends = 0,
+  CanHitSameTargetConsecutively = 0,
+  MaximumHits = {5, 5, 5, 5, 5},
+  CanHitEnemies = 1,
+  CanHitSameTarget = 1
+}
+SpellDamageRatio = 1
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = false

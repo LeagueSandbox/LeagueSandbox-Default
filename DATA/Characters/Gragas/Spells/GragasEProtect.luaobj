@@ -1,0 +1,7 @@
+DoesntBreakShields = false
+IsDamagingSpell = true
+BuffName = "GragasBodySlam"
+BuffTextureName = "GragasBodySlam.dds"
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+CastingBreaksStealth = true

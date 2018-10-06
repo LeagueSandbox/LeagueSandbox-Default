@@ -1,0 +1,3 @@
+PersistsThroughDeath = true
+BuffName = "YasuoPassiveMSCharge"
+BuffTextureName = "Yasuo_Passive.dds"

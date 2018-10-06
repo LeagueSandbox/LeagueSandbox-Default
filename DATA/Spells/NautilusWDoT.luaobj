@@ -1,0 +1,8 @@
+IsDeathRecapSource = true
+DoesntBreakShields = true
+IsDamagingSpell = false
+BuffName = "NautilusWDoT"
+BuffTextureName = "Nautilus_Wrath.dds"
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = true
+CastingBreaksStealth = true

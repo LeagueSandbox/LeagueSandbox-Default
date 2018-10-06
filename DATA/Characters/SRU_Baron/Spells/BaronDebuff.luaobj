@@ -1,0 +1,4 @@
+AutoBuffActivateEffect = "SRU_baron_debuff.troy"
+IsDeathRecapSource = true
+BuffName = "BaronDebuff"
+BuffTextureName = "Baron_Debuff1.dds"

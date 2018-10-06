@@ -1,0 +1,3 @@
+BuffTextureName = "Chronokeeper_Timestop.dds"
+BuffName = "Slow"
+PopupMessage1 = "game_floatingtext_Slowed"

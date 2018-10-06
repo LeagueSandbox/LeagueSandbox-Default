@@ -1,0 +1,6 @@
+DoesntBreakShields = true
+BuffName = "Heartseeker"
+SpellFXOverrideSkins = {"PantheonSkin06"}
+CastingBreaksStealth = true
+DoesntTriggerSpellCasts = false
+ChannelDuration = 0,75

@@ -1,0 +1,10 @@
+SpellFXOverrideSkins = {"SpiritUdyr"}
+BuffName = "UdyrTurtleActivation"
+CastingBreaksStealth = false
+BuffTextureName = "Udyr_TurtleStance.dds"
+DoesntBreakShields = true
+DoOnPreDamageInExpirationOrder = true
+OnPreDamagePriority = 3
+IsDamagingSpell = false
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = true

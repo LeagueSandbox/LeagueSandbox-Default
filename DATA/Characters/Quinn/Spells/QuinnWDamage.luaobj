@@ -1,0 +1,3 @@
+IsDeathRecapSource = true
+BuffName = "game_spell_displayname_QuinnWDamage"
+BuffTextureName = "Quinn_Passive.dds"

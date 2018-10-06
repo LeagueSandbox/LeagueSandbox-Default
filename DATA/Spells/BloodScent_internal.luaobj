@@ -1,0 +1,6 @@
+PersistsThroughDeath = true
+BuffName = "Blood Awareness"
+SpellToggleSlot = 3
+CastingBreaksStealth = false
+BuffTextureName = "20.dds"
+DoesntTriggerSpellCasts = true

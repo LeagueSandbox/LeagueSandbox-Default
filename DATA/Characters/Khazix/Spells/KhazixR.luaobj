@@ -1,0 +1,18 @@
+PersistsThroughDeath = true
+BuffName = "KhazixR"
+CastingBreaksStealth = true
+BuffTextureName = "Khazix_R_count.dds"
+DoesntBreakShields = true
+SpellFXOverrideSkins = {"KhazixDroid", "KhazixSkin02"}
+ChainMissileParameters = {
+  CanHitCaster = 0,
+  CanHitFriends = 0,
+  CanHitSameTargetConsecutively = 0,
+  MaximumHits = {10, 10, 10, 10, 10},
+  CanHitEnemies = 1,
+  CanHitSameTarget = 1
+}
+SpellToggleSlot = 4
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = false

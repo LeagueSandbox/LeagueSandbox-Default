@@ -1,0 +1,6 @@
+AutoCooldownByLevel = {80, 80, 80}
+IsDamagingSpell = true
+BuffName = "VarusRShackles"
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+BuffTextureName = "VarusR.dds"

@@ -1,0 +1,2 @@
+BuffTextureName = "ElisePassive.dds"
+BuffName = "BuffEliseSpider"

@@ -1,0 +1,3 @@
+PersistsThroughDeath = true
+BuffName = "S5_AspectOfTheDragon"
+BuffTextureName = "Dragonbuff_Final.dds"

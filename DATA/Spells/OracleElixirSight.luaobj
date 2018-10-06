@@ -1,0 +1,7 @@
+PersistsThroughDeath = true
+BuffName = "OracleElixir"
+PermeatesThroughDeath = true
+NonDispellable = true
+NotSingleTargetSpell = true
+BuffTextureName = "2026_Arcane_Protection_Potion.dds"
+DoesntTriggerSpellCasts = true

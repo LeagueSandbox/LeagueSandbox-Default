@@ -1,0 +1,7 @@
+SpellVOOverrideSkins = {"NewYearDragonKogMaw", "KogMawSkin08"}
+DoesntBreakShields = true
+IsDamagingSpell = true
+SpellFXOverrideSkins = {"NewYearDragonKogMaw", "KogMawSkin08"}
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+CastingBreaksStealth = true

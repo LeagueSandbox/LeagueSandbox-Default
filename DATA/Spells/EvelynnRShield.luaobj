@@ -1,0 +1,6 @@
+SpellVOOverrideSkins = {"BloodkingVladimir"}
+DoesntBreakShields = false
+BuffName = "EvelynnRShield"
+CastingBreaksStealth = false
+BuffTextureName = "Evelynn_AgonysEmbrace.dds"
+SpellFXOverrideSkins = {"BloodkingVladimir"}

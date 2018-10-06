@@ -1,0 +1,4 @@
+AutoBuffActivateAttachBoneName = "C_BUFFBONE_GLB_CHEST_LOC"
+IsDeathRecapSource = true
+SpellFXOverrideSkins = {"SyndraSkin02"}
+AutoBuffActivateEffect = "maokai_sapling_activated_indicator.troy"

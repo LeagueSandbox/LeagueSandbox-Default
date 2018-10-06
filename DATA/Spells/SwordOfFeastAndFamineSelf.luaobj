@@ -1,0 +1,2 @@
+BuffTextureName = "3153_Blade_of_the_Ruined_King.dds"
+BuffName = "SwordofFeastandFamineSelf"

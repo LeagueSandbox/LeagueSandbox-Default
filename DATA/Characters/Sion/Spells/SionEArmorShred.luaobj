@@ -1,0 +1,2 @@
+BuffTextureName = "Sion_E.dds"
+BuffName = "SionEArmorShred"

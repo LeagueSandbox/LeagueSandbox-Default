@@ -1,0 +1,2 @@
+BuffTextureName = "JarvanIV_MartialCadence.dds"
+BuffName = "JarvanIVMartialCadenceCheck"

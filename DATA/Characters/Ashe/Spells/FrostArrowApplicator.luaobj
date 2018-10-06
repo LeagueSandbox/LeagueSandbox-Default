@@ -1,0 +1,6 @@
+BuffName = "FrostArrow"
+TriggersSpellCasts = false
+AutoBuffActivateEffect = "Global_Freeze.troy"
+NotSingleTargetSpell = true
+BuffTextureName = "Ashe_Q_Debuff.dds"
+DoesntTriggerSpellCasts = true

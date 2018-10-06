@@ -1,0 +1,8 @@
+SpellFXOverrideSkins = {"SurprisePartyFiddlesticks", "CandyCaneFiddlesticks"}
+AutoCooldownByLevel = {150, 120, 100}
+IsDamagingSpell = true
+BuffName = "Crowstorm"
+BuffTextureName = "Fiddlesticks_Crowstorm.dds"
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+ChannelDuration = 1,5

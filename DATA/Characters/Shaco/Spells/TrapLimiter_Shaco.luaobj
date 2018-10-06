@@ -1,0 +1,2 @@
+BuffTextureName = "Jester_DeathWard.dds"
+PersistsThroughDeath = true

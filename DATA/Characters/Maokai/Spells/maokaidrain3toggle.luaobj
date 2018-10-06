@@ -1,0 +1,8 @@
+SpellToggleSlot = 4
+DoesntBreakShields = true
+IsDamagingSpell = true
+BuffName = "GlacialStorm"
+BuffTextureName = "Cryophoenix_GlacialStorm.dds"
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = true
+CastingBreaksStealth = true

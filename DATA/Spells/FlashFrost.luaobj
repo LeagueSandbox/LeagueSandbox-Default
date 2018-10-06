@@ -1,0 +1,12 @@
+SpellVOOverrideSkins = {"BlackIceAnivia"}
+SpellFXOverrideSkins = {"BlackIceAnivia"}
+BuffName = "Flash Frost"
+AutoBuffActivateEffect = "globalpoison.troy"
+CastingBreaksStealth = true
+BuffTextureName = "Cryophoenix_FrigidOrb.dds"
+AutoBuffActivateAttachBoneName = "C_BUFFBONE_GLB_HEAD_LOC"
+DoesntBreakShields = true
+SpellToggleSlot = 1
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = false

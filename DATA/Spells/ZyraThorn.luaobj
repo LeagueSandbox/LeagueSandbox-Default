@@ -1,0 +1,5 @@
+SpellFXOverrideSkins = {"ZyraSkin02"}
+IsDamagingSpell = true
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+SpellDamageRatio = 1

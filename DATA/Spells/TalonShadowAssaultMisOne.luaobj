@@ -1,0 +1,5 @@
+BuffName = "BladeRogue_AOE_Knives"
+TriggersSpellCasts = false
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = true
+SpellDamageRatio = 0,5

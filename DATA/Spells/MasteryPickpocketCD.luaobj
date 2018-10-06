@@ -1,0 +1,2 @@
+BuffTextureName = "MasteryPickpocket.dds"
+BuffName = "MasteryPickpocket"

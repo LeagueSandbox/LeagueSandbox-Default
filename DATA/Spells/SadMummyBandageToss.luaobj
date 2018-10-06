@@ -1,0 +1,6 @@
+DoesntBreakShields = false
+IsDamagingSpell = true
+AutoCooldownByLevel = {18, 16, 14, 12, 10}
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+CastingBreaksStealth = true

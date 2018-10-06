@@ -1,0 +1,8 @@
+SpellToggleSlot = 1
+AutoBuffActivateEffect2 = "Twitch_Base_Q_Invisible.troy"
+IsDamagingSpell = false
+BuffName = "TwitchHideInShadows"
+BuffTextureName = "Twitch_Q.dds"
+CastingBreaksStealth = true
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = true

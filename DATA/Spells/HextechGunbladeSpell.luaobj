@@ -1,0 +1,8 @@
+SpellDamageRatio = 1
+DoesntBreakShields = false
+IsDamagingSpell = true
+BuffName = "HextechGunblade"
+BuffTextureName = "3146_Hextech_Gunblade.dds"
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = true
+CastingBreaksStealth = true

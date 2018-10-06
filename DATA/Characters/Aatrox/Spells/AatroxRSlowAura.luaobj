@@ -1,0 +1,6 @@
+IsDamagingSpell = true
+BuffName = "Iceblast"
+AutoBuffActivateEffect = "summoner_battlecry.troy"
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+BuffTextureName = "Vladimir_Transfusion.dds"

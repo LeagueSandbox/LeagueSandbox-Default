@@ -1,0 +1,5 @@
+SpellVOOverrideSkins = {"FizzSkin04"}
+SpellFXOverrideSkins = {"FizzSkin04"}
+IsDamagingSpell = true
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false

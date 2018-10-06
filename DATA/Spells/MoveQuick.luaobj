@@ -1,0 +1,6 @@
+SpellFXOverrideSkins = {"SuperTeemo"}
+BuffName = "Move Quick2"
+SpellToggleSlot = 2
+NotSingleTargetSpell = true
+BuffTextureName = "Teemo_MoveQuick.dds"
+DoesntTriggerSpellCasts = false

@@ -1,0 +1,8 @@
+SpellFXOverrideSkins = {"XmasKatarina"}
+DoesntBreakShields = false
+IsDamagingSpell = true
+TriggersSpellCasts = true
+ChannelDuration = 2,4
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+CastingBreaksStealth = true

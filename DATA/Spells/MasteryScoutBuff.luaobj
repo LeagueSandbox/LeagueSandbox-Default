@@ -1,0 +1,4 @@
+BuffName = "FortifyBuff"
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+BuffTextureName = "Summoner_fortify.dds"

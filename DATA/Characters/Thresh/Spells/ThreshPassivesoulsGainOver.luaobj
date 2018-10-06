@@ -1,0 +1,3 @@
+PersistsThroughDeath = true
+BuffName = "ThreshPassiveSoulsGainOver"
+BuffTextureName = "Thresh_Passive.dds"

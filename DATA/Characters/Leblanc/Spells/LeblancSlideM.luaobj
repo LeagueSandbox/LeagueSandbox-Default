@@ -1,0 +1,5 @@
+DoesntBreakShields = true
+BuffName = "LeblancDisplacementM"
+SpellFXOverrideSkins = {"LeblancSkin04"}
+BuffTextureName = "LeblancDisplacementReturnM.dds"
+SpellToggleSlot = 4

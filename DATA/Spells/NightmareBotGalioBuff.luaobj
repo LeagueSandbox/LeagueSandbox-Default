@@ -1,0 +1,3 @@
+PersistsThroughDeath = true
+BuffName = "NightmareBotGalioBuff"
+BuffTextureName = "Galio_ResoluteSmite.dds"

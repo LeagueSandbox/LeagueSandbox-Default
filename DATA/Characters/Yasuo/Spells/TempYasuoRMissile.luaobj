@@ -1,0 +1,10 @@
+PersistsThroughDeath = true
+BuffName = "AkaliMota"
+TriggersSpellCasts = true
+CastingBreaksStealth = true
+BuffTextureName = "AkaliMota.dds"
+DoesntBreakShields = false
+Nondispellable = true
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = false

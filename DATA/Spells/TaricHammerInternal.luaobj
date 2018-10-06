@@ -1,0 +1,10 @@
+SpellFXOverrideSkins = {""}
+BuffName = "TaricHammerInternal"
+AutoBuffActivateEffect = "Taric_HammerInternal.troy"
+CastingBreaksStealth = true
+BuffTextureName = ""
+AutoBuffActivateAttachBoneName = "weapon"
+DoesntBreakShields = false
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = true

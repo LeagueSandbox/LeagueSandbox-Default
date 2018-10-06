@@ -1,0 +1,2 @@
+BuffTextureName = "139_Strygwyrs_Reaver.dds"
+BuffName = "Rageblade"

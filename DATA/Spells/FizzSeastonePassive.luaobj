@@ -1,0 +1,13 @@
+SpellFXOverrideSkins = {"FizzSkin04"}
+BuffName = "FizzSeastoneActive"
+AutoBuffActivateEffect = "Fizz_SeastonePassive_Weapon.troy"
+CastingBreaksStealth = true
+BuffTextureName = "FizzSeastoneActive.dds"
+AutoBuffActivateAttachBoneName = "BUFFBONE_CSTM_WEAPON_1"
+DoesntBreakShields = true
+AutoBuffActivateEffect2 = "Fizz_SeastonePassive.troy"
+SpellToggleSlot = 2
+AutoBuffActivateAttachBoneName2 = "Chest"
+IsDamagingSpell = false
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = true

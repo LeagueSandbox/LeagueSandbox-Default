@@ -1,0 +1,24 @@
+BuffName = "JayceHyperCharge"
+AutoBuffActivateEffect4 = "Jayce_Hex_Buff_Ready2.troy"
+OnPreDamagePriority = 3
+AutoBuffActivateAttachBoneName = "Buffbone_CSTM_Exhaust_1"
+DoesntTriggerSpellCasts = false
+IsDamagingSpell = false
+AutoBuffActivateAttachBoneName4 = "Buffbone_CSTM_Weapon_Gap_1"
+AutoBuffActivateEffect3 = "Jayce_Hex_Buff_Ready.troy"
+BuffTextureName = "Jayce_HyperCharge.dds"
+AutoBuffActivateAttachBoneName3 = "Buffbone_CSTM_Exhaust_3"
+DoesntBreakShields = true
+AutoBuffActivateEffect2 = "Jayce_Hex_Buff_Ready.troy"
+ChainMissileParameters = {
+  CanHitCaster = 0,
+  CanHitFriends = 0,
+  CanHitSameTargetConsecutively = 0,
+  MaximumHits = {4, 4, 4, 4, 4},
+  CanHitEnemies = 1,
+  CanHitSameTarget = 0
+}
+NotSingleTargetSpell = true
+AutoBuffActivateEffect = "Jayce_Hex_Buff_Ready.troy"
+SpellToggleSlot = 2
+AutoBuffActivateAttachBoneName2 = "Buffbone_CSTM_Exhaust_2"

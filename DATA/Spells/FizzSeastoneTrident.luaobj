@@ -1,0 +1,6 @@
+AutoBuffActivateAttachBoneName = "root"
+PersistsThroughDeath = true
+BuffName = "FizzMalison"
+AutoBuffActivateEffect = "Fizz_SeastoneTrident.troy"
+IsDeathRecapSource = true
+BuffTextureName = "FizzSeastoneActive.dds"

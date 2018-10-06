@@ -1,0 +1,6 @@
+AutoCooldownByLevel = {22, 20, 18, 16, 14}
+BuffName = "UrgotSwapDef"
+SpellFXOverrideSkins = {"BattlecastUrgot"}
+NotSingleTargetSpell = false
+BuffTextureName = "UrgotPositionReverser.dds"
+DoesntTriggerSpellCasts = false

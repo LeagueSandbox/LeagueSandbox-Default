@@ -1,0 +1,2 @@
+BuffTextureName = "Malphite_UnstoppableForce.dds"
+BuffName = "UnstoppableForceStun"

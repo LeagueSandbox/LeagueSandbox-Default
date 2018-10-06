@@ -1,0 +1,7 @@
+SpellVOOverrideSkins = {"SkarnerSkin03"}
+SpellFXOverrideSkins = {"SkarnerSkin03"}
+BuffName = "SkarnerExoskeleton"
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = true
+BuffTextureName = "Skarner_W.dds"
+AutoBuffActivateAttachBoneName3 = "chest"

@@ -1,0 +1,4 @@
+NonDispellable = true
+PersistsThroughDeath = true
+BuffName = "PantheonPassiveCounter"
+BuffTextureName = "Pantheon_AOZ_Charging.dds"

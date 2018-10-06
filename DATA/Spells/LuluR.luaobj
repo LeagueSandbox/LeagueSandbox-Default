@@ -1,0 +1,6 @@
+PersistsThroughDeath = true
+BuffName = "LuluR"
+AutoBuffActivateEffect = "lulu_R_tar_buf.troy"
+NotSingleTargetSpell = false
+BuffTextureName = "Lulu_GiantGrowth.dds"
+DoesntTriggerSpellCasts = false

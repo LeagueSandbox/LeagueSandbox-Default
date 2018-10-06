@@ -1,0 +1,6 @@
+IsDamagingSpell = true
+IsDeathRecapSource = true
+BuffName = "CounterStrike"
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+BuffTextureName = "Armsmaster_Disarm.dds"

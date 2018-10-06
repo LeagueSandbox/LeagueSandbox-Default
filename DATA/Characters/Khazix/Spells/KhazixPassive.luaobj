@@ -1,0 +1,9 @@
+PersistsThroughDeath = true
+BuffName = "KhazixPassive"
+CastingBreaksStealth = true
+BuffTextureName = "Khazix_P.dds"
+DoesntBreakShields = false
+SpellFXOverrideSkins = {"KhazixSkin02"}
+IsDamagingSpell = true
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = true

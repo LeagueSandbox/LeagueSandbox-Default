@@ -1,0 +1,2 @@
+BuffTextureName = "Bowmaster_ArchersMark.dds"
+PersistsThroughDeath = true

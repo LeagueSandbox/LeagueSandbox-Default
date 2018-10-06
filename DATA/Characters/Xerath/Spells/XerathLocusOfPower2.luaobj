@@ -1,0 +1,8 @@
+SpellFXOverrideSkins = {"IronForgeXerath"}
+DoesntBreakShields = true
+IsDamagingSpell = true
+BuffName = "XerathR"
+BuffTextureName = "Xerath_R1.dds"
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = true
+CastingBreaksStealth = true

@@ -1,0 +1,5 @@
+PersistsThroughDeath = true
+BuffName = "LeblancPassiveCooldown"
+NonDispellable = true
+IsDeathRecapSource = true
+BuffTextureName = "LeblancMirrorImage_Charging.dds"

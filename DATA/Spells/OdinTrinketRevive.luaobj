@@ -1,0 +1,4 @@
+AutoBuffActivateEffect = "global_ss_revive.troy"
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = true
+BuffName = "OdinTrinketRevive"

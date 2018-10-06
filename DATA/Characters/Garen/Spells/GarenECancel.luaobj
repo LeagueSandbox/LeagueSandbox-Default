@@ -1,0 +1,6 @@
+DoesntBreakShields = false
+IsDamagingSpell = false
+SpellToggleSlot = 3
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = true
+CastingBreaksStealth = true

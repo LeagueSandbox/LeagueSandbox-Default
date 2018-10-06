@@ -1,0 +1,8 @@
+SpellDamageRatio = 0,5
+SpellFXOverrideSkins = {"BattlecastUrgot"}
+BuffName = "Slow"
+TriggersSpellCasts = false
+AutoBuffActivateEffect = "GLOBAL_SLOW.TROY"
+NotSingleTargetSpell = true
+BuffTextureName = "Chronokeeper_Timestop.dds"
+DoesntTriggerSpellCasts = true

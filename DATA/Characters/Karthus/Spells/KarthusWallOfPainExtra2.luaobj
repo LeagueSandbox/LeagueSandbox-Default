@@ -1,0 +1,7 @@
+DoesntBreakShields = true
+IsDamagingSpell = true
+BuffName = "Wall of Pain"
+BuffTextureName = "Karthus_W.dds"
+NotSingleTargetSpell = true
+DoesntTriggerSpellCasts = false
+CastingBreaksStealth = true

@@ -1,0 +1,5 @@
+BuffName = "GravesPassiveGrit"
+AutoBuffActivateEffect = "GravesTrueGrit.troy"
+NotSingleTargetSpell = true
+BuffTextureName = "GravesTrueGrit.dds"
+DoesntTriggerSpellCasts = false

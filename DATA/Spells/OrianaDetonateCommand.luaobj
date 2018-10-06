@@ -1,0 +1,4 @@
+IsDamagingSpell = true
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = false
+PopupMessage1 = "game_floatingtext_Snared"

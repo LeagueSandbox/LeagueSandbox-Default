@@ -1,0 +1,7 @@
+SpellFXOverrideSkins = {"YasuoSkin02"}
+IsDamagingSpell = true
+TriggersSpellCasts = true
+BuffName = "YasuoQ"
+NotSingleTargetSpell = false
+DoesntTriggerSpellCasts = true
+BuffTextureName = "Yasuo_Q2.dds"

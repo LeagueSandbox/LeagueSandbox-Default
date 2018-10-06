@@ -1,0 +1,9 @@
+SpellFXOverrideSkins = {"PantheonSkin06"}
+IsDamagingSpell = true
+CastingBreaksStealth = true
+BuffTextureName = "Pantheon_GrandSkyfall.dds"
+DoesntBreakShields = true
+BuffName = "PantheonR"
+ChannelDuration = 2
+DoesntTriggerSpellCasts = false
+NotSingleTargetSpell = true

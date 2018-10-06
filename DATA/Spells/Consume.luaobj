@@ -1,0 +1,6 @@
+SpellVOOverrideSkins = {"NunuBot"}
+AutoCooldownByLevel = {35, 30, 25, 20, 15}
+AutoBuffActivateEffect = "Consume_buf.troy"
+NotSingleTargetSpell = false
+BuffTextureName = "Yeti_Consume.dds"
+DoesntTriggerSpellCasts = false

@@ -1,0 +1,3 @@
+IsDeathRecapSource = true
+BuffName = "BaronTarget"
+BuffTextureName = "Baron_Debuff2.dds"

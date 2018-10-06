@@ -1,0 +1,3 @@
+AutoBuffActivateEffect = "RunePrison_tar.troy"
+DoesntBreakShields = true
+SpellFXOverrideSkins = {"SingedSkin06"}

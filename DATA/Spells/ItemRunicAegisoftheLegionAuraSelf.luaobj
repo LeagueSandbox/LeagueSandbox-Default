@@ -1,0 +1,3 @@
+AutoBuffActivateEffect = "Aegis_buf.troy"
+BuffName = "ItemRunicAegisSelf"
+BuffTextureName = "3107_Runic_Bulwark.dds"

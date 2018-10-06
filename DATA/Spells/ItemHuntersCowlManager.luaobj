@@ -1,0 +1,5 @@
+PersistsThroughDeath = true
+BuffName = "ItemHuntersCowlManager"
+NotSingleTargetSpell = true
+BuffTextureName = "Chronokeeper_Slow.dds"
+DoesntTriggerSpellCasts = false

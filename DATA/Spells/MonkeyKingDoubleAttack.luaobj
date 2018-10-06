@@ -1,0 +1,11 @@
+PersistsThroughDeath = true
+BuffName = "MonkeyKingDoubleAttack"
+AutoBuffActivateEffect = "MonkeyKing_Base_Q_Buf_A.troy"
+CastingBreaksStealth = false
+BuffTextureName = "MonkeyKingCrushingBlow.dds"
+AutoBuffActivateAttachBoneName = "weapon_a_bend3"
+DoesntBreakShields = true
+AutoBuffActivateEffect2 = "MonkeyKing_Base_Q_Buf_B.troy"
+NonDispellable = true
+AutoBuffActivateAttachBoneName2 = "weapon_b_bend3"
+SpellFXOverrideSkins = {"MonkeyKingSkin04"}

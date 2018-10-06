@@ -1,0 +1,5 @@
+BuffName = "HexdrunkEmpowered"
+AutoBuffActivateEffect = "hexTech_dmg_shield_duration.troy"
+DoOnPreDamageInExpirationOrder = true
+BuffTextureName = "3155_Hexdrinker.dds"
+OnPreDamagePriority = 2

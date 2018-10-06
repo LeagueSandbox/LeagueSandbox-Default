@@ -1,0 +1,14 @@
+SpellVOOverrideSkins = {"DariusSkin04"}
+SpellFXOverrideSkins = {"Darius_ZaunKnight", "DariusSkin04"}
+BuffName = "DariusNoxianTacticsActive"
+AutoBuffActivateAttachBoneName4 = "BUFFBONE_CSTM_WEAPON_9"
+AutoBuffActivateEffect = "darius_Base_W_weapon_01.troy"
+NotSingleTargetSpell = true
+BuffTextureName = "Darius_Icon_Hamstring.dds"
+AutoBuffActivateAttachBoneName = "weapon"
+AutoBuffActivateEffect2 = "darius_Base_W_weapon_01.troy"
+IsDeathRecapSource = true
+AutoBuffActivateEffect4 = "darius_Base_W_weapon_04.troy"
+AutoBuffActivateEffect3 = "darius_Base_W_weapon_03.troy"
+DoesntTriggerSpellCasts = false
+AutoBuffActivateAttachBoneName2 = "L_BUFFBONE_GLB_HAND_LOC"

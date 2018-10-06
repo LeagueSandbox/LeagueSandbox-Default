@@ -1,0 +1,7 @@
+SpellVOOverrideSkins = {"JannaForecast"}
+PersistsThroughDeath = true
+BuffName = "Howling Gale"
+SpellToggleSlot = 1
+NotSingleTargetSpell = true
+BuffTextureName = "Janna_HowlingGale.dds"
+DoesntTriggerSpellCasts = false

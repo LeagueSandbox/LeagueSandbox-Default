@@ -1,0 +1,9 @@
+PersistsThroughDeath = true
+BuffName = "ShadowWalk"
+CastTime = 0,5
+NotSingleTargetSpell = true
+BuffTextureName = "Evelynn_ReadyToBetray.dds"
+NonDispellable = true
+SpellToggleSlot = 2
+DoesntTriggerSpellCasts = false
+CastingBreaksStealth = true

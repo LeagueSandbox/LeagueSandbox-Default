@@ -1,0 +1,5 @@
+AutoBuffActivateAttachBoneName = "root"
+BuffName = "SummonerBattleCry"
+AutoBuffActivateEffect = "OntheHunt_buf.troy"
+BuffTextureName = "Summoner_BattleCry.dds"
+AutoBuffActivateEffect2 = ""
