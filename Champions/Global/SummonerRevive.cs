@@ -1,10 +1,8 @@
-using GameServerCore.Enums;
-using LeagueSandbox.GameServer.API;
+using static LeagueSandbox.GameServer.API.ApiFunctionManager;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
 using LeagueSandbox.GameServer.GameObjects.Missiles;
 using LeagueSandbox.GameServer.GameObjects.Spells;
-using LeagueSandbox.GameServer.GameObjects.Stats;
 using LeagueSandbox.GameServer.Scripting.CSharp;
 
 namespace Spells
@@ -23,10 +21,7 @@ namespace Spells
             }
 
             owner.Respawn();
-
-            var statMod = new StatsModifier();
-            owner.AddStatModifier(statMod);
-            ApiFunctionManager.AddParticleTarget(owner, "Global_SS_Revive.troy", owner);
+            AddParticleTarget(owner, "Global_SS_Revive.troy", owner);
             owner.AddBuffGameScript("SummonerReviveSpeedBoost", "SummonerReviveSpeedBoost", spell, 12.0f, true);
         }
 

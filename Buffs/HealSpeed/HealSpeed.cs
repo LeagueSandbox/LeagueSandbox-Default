@@ -1,5 +1,5 @@
 ﻿using GameServerCore.Enums;
-using LeagueSandbox.GameServer.API;
+using static LeagueSandbox.GameServer.API.ApiFunctionManager;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
 using LeagueSandbox.GameServer.GameObjects.Spells;
 using LeagueSandbox.GameServer.GameObjects.Stats;
@@ -17,13 +17,13 @@ namespace HealSpeed
             _statMod = new StatsModifier();
             _statMod.MoveSpeed.PercentBonus = 0.3f;
             unit.AddStatModifier(_statMod);
-            _healBuff = ApiFunctionManager.AddBuffHudVisual("SummonerHeal", 1.0f, 1, BuffType.COMBAT_ENCHANCER, unit);
+            _healBuff = AddBuffHudVisual("SummonerHeal", 1.0f, 1, BuffType.COMBAT_ENCHANCER, unit);
         }
 
         public void OnDeactivate(ObjAiBase unit)
         {
             unit.RemoveStatModifier(_statMod);
-            ApiFunctionManager.RemoveBuffHudVisual(_healBuff);
+            RemoveBuffHudVisual(_healBuff);
         }
 
         public void OnUpdate(double diff)

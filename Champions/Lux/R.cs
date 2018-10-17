@@ -1,6 +1,6 @@
 using System.Numerics;
 using GameServerCore.Enums;
-using LeagueSandbox.GameServer.API;
+using static LeagueSandbox.GameServer.API.ApiFunctionManager;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
 using LeagueSandbox.GameServer.GameObjects.Missiles;
@@ -27,10 +27,10 @@ namespace Spells
             var trueCoords = current + range;
 
             spell.AddLaser("LuxMaliceCannon", trueCoords.X, trueCoords.Y);
-            ApiFunctionManager.AddParticle(owner, "LuxMaliceCannon_beam.troy", trueCoords.X, trueCoords.Y);
-            ApiFunctionManager.FaceDirection(owner, trueCoords, false);
+            AddParticle(owner, "LuxMaliceCannon_beam.troy", trueCoords.X, trueCoords.Y);
+            FaceDirection(owner, trueCoords, false);
             spell.SpellAnimation("SPELL4", owner);
-            ApiFunctionManager.AddParticleTarget(owner, "LuxMaliceCannon_cas.troy", owner);
+            AddParticleTarget(owner, "LuxMaliceCannon_cas.troy", owner);
         }
 
         public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target)

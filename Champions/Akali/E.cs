@@ -1,7 +1,7 @@
 using System.Linq;
 using GameServerCore;
 using GameServerCore.Enums;
-using LeagueSandbox.GameServer.API;
+using static LeagueSandbox.GameServer.API.ApiFunctionManager;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
 using LeagueSandbox.GameServer.GameObjects.Missiles;
@@ -29,7 +29,7 @@ namespace Spells
             var ap = owner.Stats.AbilityPower.Total * 0.3f;
             var ad = owner.Stats.AttackDamage.Total * 0.6f;
             var damage = 40 + spell.Level * 30 + ap + ad;
-            foreach (var enemyTarget in ApiFunctionManager.GetUnitsInRange(owner, 300, true)
+            foreach (var enemyTarget in GetUnitsInRange(owner, 300, true)
                 .Where(x => x.Team == CustomConvert.GetEnemyTeam(owner.Team)))
             {
                 enemyTarget.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL,

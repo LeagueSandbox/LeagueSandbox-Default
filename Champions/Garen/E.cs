@@ -1,5 +1,5 @@
 using GameServerCore.Enums;
-using LeagueSandbox.GameServer.API;
+using static LeagueSandbox.GameServer.API.ApiFunctionManager;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
 using LeagueSandbox.GameServer.GameObjects.Missiles;
@@ -20,22 +20,22 @@ namespace Spells
 
         public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target)
         {
-            var p = ApiFunctionManager.AddParticleTarget(owner, "Garen_Base_E_Spin.troy", owner, 1);
-            var visualBuff = ApiFunctionManager.AddBuffHudVisual("GarenE", 3.0f, 1,
+            var p = AddParticleTarget(owner, "Garen_Base_E_Spin.troy", owner, 1);
+            var visualBuff = AddBuffHudVisual("GarenE", 3.0f, 1,
                 BuffType.COMBAT_ENCHANCER, owner, 3.0f);
-            ApiFunctionManager.CreateTimer(3.0f, () =>
+            CreateTimer(3.0f, () =>
             {
-                ApiFunctionManager.RemoveParticle(p);
+                RemoveParticle(p);
             });
             for (var i = 0.0f; i < 3.0; i += 0.5f)
             {
-                ApiFunctionManager.CreateTimer(i, () => { ApplySpinDamage(owner, spell, target); });
+                CreateTimer(i, () => { ApplySpinDamage(owner, spell, target); });
             }
         }
 
         private void ApplySpinDamage(Champion owner, Spell spell, AttackableUnit target)
         {
-            var units = ApiFunctionManager.GetUnitsInRange(owner, 500, true);
+            var units = GetUnitsInRange(owner, 500, true);
             foreach (var unit in units)
             {
                 if (unit.Team != owner.Team)

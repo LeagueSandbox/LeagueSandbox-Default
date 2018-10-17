@@ -1,5 +1,5 @@
 using System.Numerics;
-using LeagueSandbox.GameServer.API;
+using static LeagueSandbox.GameServer.API.ApiFunctionManager;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
 using LeagueSandbox.GameServer.GameObjects.Missiles;
@@ -31,10 +31,9 @@ namespace Spells
                 trueCoords = new Vector2(spell.X, spell.Y);
             }
 
-            ApiFunctionManager.AddParticle(owner, "global_ss_flash.troy", owner.X, owner.Y);
-            ApiFunctionManager.TeleportTo(owner, trueCoords.X, trueCoords.Y);
-
-            ApiFunctionManager.AddParticleTarget(owner, "global_ss_flash_02.troy", owner);
+            AddParticle(owner, "global_ss_flash.troy", owner.X, owner.Y);
+            TeleportTo(owner, trueCoords.X, trueCoords.Y);
+            AddParticleTarget(owner, "global_ss_flash_02.troy", owner);
         }
 
         public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile)

@@ -1,5 +1,5 @@
 using System.Numerics;
-using LeagueSandbox.GameServer.API;
+using static LeagueSandbox.GameServer.API.ApiFunctionManager;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
 using LeagueSandbox.GameServer.GameObjects.Missiles;
@@ -29,7 +29,7 @@ namespace Spells
             var range = to * 445;
             var trueCoords = current + range;
 
-            ApiFunctionManager.DashToLocation(owner, trueCoords.X, trueCoords.Y, 1500, false, "SPELL3");
+            DashToLocation(owner, trueCoords.X, trueCoords.Y, 1500, false, "SPELL3");
         }
 
         public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile)

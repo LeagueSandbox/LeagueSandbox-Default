@@ -58,6 +58,9 @@
     <Compile Include="Buffs\Overdrive\Overdrive.cs" />
     <Compile Include="Buffs\Quickdraw\Quickdraw.cs" />
     <Compile Include="Buffs\Silence\Silence.cs" />
+    <Compile Include="Buffs\SummonerExhaustDebuff\SummonerExhaustDebuff.cs" />
+    <Compile Include="Buffs\SummonerHasteBuff\SummonerHasteBuff.cs" />
+    <Compile Include="Buffs\SummonerReviveSpeedBoost\SummonerReviveSpeedBoost.cs" />
     <Compile Include="Buffs\YoumuusGhostblade\YoumuusGhostblade.cs" />
     <Compile Include="Champions\Akali\E.cs" />
     <Compile Include="Champions\Akali\Passive.cs" />
