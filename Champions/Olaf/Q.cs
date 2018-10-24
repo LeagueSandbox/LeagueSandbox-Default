@@ -6,6 +6,7 @@ using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
 using LeagueSandbox.GameServer.GameObjects.Missiles;
 using LeagueSandbox.GameServer.GameObjects.Spells;
 using LeagueSandbox.GameServer.Scripting.CSharp;
+using GameServerCore;
 
 namespace Spells
 {
@@ -48,8 +49,9 @@ namespace Spells
             AddParticleTarget(owner, "olaf_axeThrow_tar.troy", target, 1);
             var ad = owner.Stats.AttackDamage.Total * 1.1f;
             var ap = owner.Stats.AttackDamage.Total * 0.0f;
-            var damage = 15 + spell.Level * 20 + ad + ap;
-            target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_PHYSICAL, DamageSource.DAMAGE_SOURCE_ATTACK, false);
+            var damage = new Damage(15 + spell.Level * 20 + ad + ap, DamageType.DAMAGE_TYPE_PHYSICAL, 
+            DamageSource.DAMAGE_SOURCE_ATTACK, false);
+            target.TakeDamage(owner, damage);
         }
 
         public void OnUpdate(double diff)

@@ -5,6 +5,9 @@ using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
 using LeagueSandbox.GameServer.GameObjects.Missiles;
 using LeagueSandbox.GameServer.GameObjects.Spells;
 using LeagueSandbox.GameServer.Scripting.CSharp;
+using GameServerCore.Domain.GameObjects;
+using GameServerCore;
+using GameServerCore.Enums;
 
 namespace Spells
 {
@@ -34,6 +37,21 @@ namespace Spells
 
         public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile)
         {
+            IChampion champion = target as IChampion;
+            if (champion != null)
+            {
+                if (owner.Team != champion.Team)
+                {
+                    var damage = new Damage(25 + (spell.Level * 45) + (owner.Stats.AbilityPower.Total * 0.8f),
+                        DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
+                    champion.TakeDamage(owner, damage);
+                }
+                else
+                {
+                    champion.AddBuffGameScript("EzrealEssenceFluxBuff", "EzrealEssenceFluxBuff", spell,
+                        5.0f, true);
+                }
+            }
         }
 
         public void OnUpdate(double diff)

@@ -5,6 +5,7 @@ using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
 using LeagueSandbox.GameServer.GameObjects.Missiles;
 using LeagueSandbox.GameServer.GameObjects.Spells;
 using LeagueSandbox.GameServer.Scripting.CSharp;
+using GameServerCore;
 
 namespace Spells
 {
@@ -14,14 +15,14 @@ namespace Spells
         {
             var visualBuff = AddBuffHudVisual("SummonerDot", 4.0f, 1, BuffType.COMBAT_DEHANCER, (ObjAiBase) target, 4.0f);
             var p = AddParticleTarget(owner, "Global_SS_Ignite.troy", target, 1);
-            var damage = 10 + owner.Stats.Level * 4;
-            target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_TRUE, DamageSource.DAMAGE_SOURCE_SPELL, false);
+            var damage = new Damage(10 + owner.Stats.Level * 4, DamageType.DAMAGE_TYPE_TRUE, 
+                DamageSource.DAMAGE_SOURCE_SUMMONER_SPELL, false);
+            target.TakeDamage(owner, damage);
             for(float i = 1.0f; i < 5; ++i)
             {
                 CreateTimer(1.0f * i, () =>
                 {
-                    target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_TRUE, DamageSource.DAMAGE_SOURCE_SPELL,
-                        false);
+                    target.TakeDamage(owner, damage);
                 });
             }
             CreateTimer(4.0f, () =>

@@ -1,4 +1,5 @@
 using System;
+using GameServerCore;
 using GameServerCore.Enums;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
@@ -29,14 +30,14 @@ namespace Spells
 
         public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile)
         {
-            var isCrit = new Random().Next(0, 100) < owner.Stats.CriticalChance.Total;
+            var isCrit = new Random().Next(0, 100) < (owner.Stats.CriticalChance.Total * 100);
             var baseDamage = new[] {20, 45, 70, 95, 120}[spell.Level - 1] + owner.Stats.AttackDamage.Total;
-            var damage = isCrit ? baseDamage * owner.Stats.CriticalDamage.Total / 100 : baseDamage;
+            var damage = new Damage(isCrit ? baseDamage * owner.Stats.CriticalDamage.Total / 100 : baseDamage,
+                DamageType.DAMAGE_TYPE_PHYSICAL, DamageSource.DAMAGE_SOURCE_ATTACK, isCrit);
             var goldIncome = new[] {4, 5, 6, 7, 8}[spell.Level - 1];
             if (target != null && !target.IsDead)
             {
-                target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_PHYSICAL, DamageSource.DAMAGE_SOURCE_ATTACK,
-                    false);
+                target.TakeDamage(owner, damage);
                 if (target.IsDead)
                 {
                     owner.Stats.Gold += goldIncome;

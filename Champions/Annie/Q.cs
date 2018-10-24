@@ -1,3 +1,4 @@
+using GameServerCore;
 using GameServerCore.Enums;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
@@ -29,11 +30,11 @@ namespace Spells
         public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile)
         {
             var ap = owner.Stats.AbilityPower.Total * 0.8f;
-            var damage = 45 + spell.Level * 35 + ap;
+            var damage = new Damage(45 + spell.Level * 35 + ap, DamageType.DAMAGE_TYPE_MAGICAL, 
+                DamageSource.DAMAGE_SOURCE_SPELL, false);
             if (target != null && !target.IsDead)
             {
-                target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL,
-                    false);
+                target.TakeDamage(owner, damage);
                 if (target.IsDead)
                 {
                     spell.LowerCooldown(0, spell.GetCooldown());

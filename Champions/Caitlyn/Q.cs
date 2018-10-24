@@ -1,5 +1,6 @@
 using System;
 using System.Numerics;
+using GameServerCore;
 using GameServerCore.Enums;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
@@ -37,8 +38,9 @@ namespace Spells
             var reduc = Math.Min(projectile.ObjectsHit.Count, 5);
             var baseDamage = new[] {20, 60, 100, 140, 180}[spell.Level - 1] +
                              1.3f * owner.Stats.AttackDamage.Total;
-            var damage = baseDamage * (1 - reduc / 10);
-            target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_PHYSICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
+            var damage = new Damage(baseDamage * (1 - reduc / 10), DamageType.DAMAGE_TYPE_PHYSICAL, 
+                DamageSource.DAMAGE_SOURCE_SPELL, false);
+            target.TakeDamage(owner, damage);
         }
 
         public void OnUpdate(double diff)
