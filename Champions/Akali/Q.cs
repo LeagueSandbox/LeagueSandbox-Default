@@ -6,6 +6,7 @@ using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
 using LeagueSandbox.GameServer.GameObjects.Missiles;
 using LeagueSandbox.GameServer.GameObjects.Spells;
 using LeagueSandbox.GameServer.Scripting.CSharp;
+using GameServerCore;
 
 namespace Spells
 {
@@ -25,19 +26,16 @@ namespace Spells
 
         public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target)
         {
-            var current = new Vector2(owner.X, owner.Y);
-            var to = Vector2.Normalize(new Vector2(target.X, target.Y) - current);
-            var range = to * 1150;
-            var trueCoords = current + range;
-            spell.AddProjectile("AkaliMota", trueCoords.X, trueCoords.Y);
+            spell.AddProjectileTarget("AkaliMota", target);
         }
 
         public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile)
         {
             var ap = owner.Stats.AbilityPower.Total * 0.4f;
-            var damage = 15 + spell.Level * 20 + ap;
-            target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_PHYSICAL, DamageSource.DAMAGE_SOURCE_ATTACK, false);
-            AddParticleTarget(owner, "akali_markOftheAssasin_marker_tar_02.troy", target, 1, "");
+            var damage = new Damage(15 + spell.Level * 20 + ap, DamageType.DAMAGE_TYPE_PHYSICAL, 
+            DamageSource.DAMAGE_SOURCE_ATTACK, false);
+            target.TakeDamage(owner, damage);
+            AddParticleTarget(owner, "akali_markOftheAssasin_marker_tar_02.troy", target);
             projectile.SetToRemove();
         }
 

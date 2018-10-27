@@ -1,3 +1,4 @@
+using GameServerCore;
 using GameServerCore.Enums;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
@@ -31,9 +32,10 @@ namespace Spells
             if (target != null && !target.IsDead)
             {
                 // 250/475/700
-                var damage = 250 + owner.Stats.AttackDamage.Total * 2;
-                target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_PHYSICAL, DamageSource.DAMAGE_SOURCE_SPELL,
-                    false);
+                var bonusAD = owner.Stats.AttackDamage.Total - owner.Stats.AttackDamage.BaseValue;
+                var damage = new Damage(25 + (225 * spell.Level) + (bonusAD * 2), DamageType.DAMAGE_TYPE_PHYSICAL, 
+                DamageSource.DAMAGE_SOURCE_SPELL, false);
+                target.TakeDamage(owner, damage);
             }
 
             projectile.SetToRemove();

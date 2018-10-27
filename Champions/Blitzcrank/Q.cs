@@ -6,6 +6,7 @@ using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
 using LeagueSandbox.GameServer.GameObjects.Missiles;
 using LeagueSandbox.GameServer.GameObjects.Spells;
 using LeagueSandbox.GameServer.Scripting.CSharp;
+using GameServerCore;
 
 namespace Spells
 {
@@ -36,8 +37,9 @@ namespace Spells
         public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile)
         {
             var ap = owner.Stats.AbilityPower.Total;
-            var damage = 25 + spell.Level * 55 + ap;
-            target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
+            var damage = new Damage(25 + spell.Level * 55 + ap, DamageType.DAMAGE_TYPE_MAGICAL, 
+                DamageSource.DAMAGE_SOURCE_SPELL, false);
+            target.TakeDamage(owner, damage);
             if (!target.IsDead)
             {
                 AddParticleTarget(owner, "Blitzcrank_Grapplin_tar.troy", target, 1, "L_HAND");

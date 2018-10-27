@@ -6,6 +6,7 @@ using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
 using LeagueSandbox.GameServer.GameObjects.Missiles;
 using LeagueSandbox.GameServer.GameObjects.Spells;
 using LeagueSandbox.GameServer.Scripting.CSharp;
+using GameServerCore;
 
 namespace Spells
 {
@@ -32,7 +33,7 @@ namespace Spells
             var trueCoords = current + range;
 
             //TODO: Dash to the correct location (in front of the enemy champion) instead of far behind or inside them
-            DashToLocation(owner, trueCoords.X, trueCoords.Y, 2200, false, "Attack1");
+            DashToUnit(owner, target, 2200, false, "Attack1");
             AddParticleTarget(owner, "akali_shadowDance_tar.troy", target, 1, "");
         }
 
@@ -40,9 +41,9 @@ namespace Spells
         {
             var bonusAd = owner.Stats.AttackDamage.Total - owner.Stats.AttackDamage.BaseValue;
             var ap = owner.Stats.AbilityPower.Total * 0.9f;
-            var damage = 200 + spell.Level * 150 + bonusAd + ap;
-            target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_MAGICAL,
+            var damage = new Damage(200 + spell.Level * 150 + bonusAd + ap, DamageType.DAMAGE_TYPE_MAGICAL,
                 DamageSource.DAMAGE_SOURCE_SPELL, false);
+            target.TakeDamage(owner, damage);
         }
 
         public void OnUpdate(double diff)

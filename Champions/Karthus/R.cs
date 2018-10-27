@@ -32,12 +32,12 @@ namespace Spells
         public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target)
         {
             var ap = owner.Stats.AbilityPower.Total;
-            var damage = 100 + spell.Level * 150 + ap * 0.6f;
+            var damage = new Damage(100 + spell.Level * 150 + ap * 0.6f, DamageType.DAMAGE_TYPE_MAGICAL, 
+                DamageSource.DAMAGE_SOURCE_SPELL, false);
             foreach (var enemyTarget in GetChampionsInRange(owner, 20000, true)
                 .Where(x => x.Team == CustomConvert.GetEnemyTeam(owner.Team)))
             {
-                enemyTarget.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL,
-                    false);
+                enemyTarget.TakeDamage(owner, damage);
             }
         }
 

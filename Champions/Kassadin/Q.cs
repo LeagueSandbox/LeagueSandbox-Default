@@ -5,6 +5,7 @@ using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
 using LeagueSandbox.GameServer.GameObjects.Missiles;
 using LeagueSandbox.GameServer.GameObjects.Spells;
 using LeagueSandbox.GameServer.Scripting.CSharp;
+using GameServerCore;
 
 namespace Spells
 {
@@ -31,12 +32,12 @@ namespace Spells
         public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile)
         {
             var ap = owner.Stats.AbilityPower.Total * 0.7f;
-            var damage = 30 + spell.Level * 50 + ap;
+            var damage = new Damage(30 + spell.Level * 50 + ap, DamageType.DAMAGE_TYPE_MAGICAL, 
+                DamageSource.DAMAGE_SOURCE_SPELL, false);
 
             if (target != null && !target.IsDead)
             {
-                target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL,
-                    false);
+                target.TakeDamage(owner, damage);
                 if (target.IsDead)
                 {
                 }

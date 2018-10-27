@@ -6,6 +6,7 @@ using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
 using LeagueSandbox.GameServer.GameObjects.Missiles;
 using LeagueSandbox.GameServer.GameObjects.Spells;
 using LeagueSandbox.GameServer.Scripting.CSharp;
+using GameServerCore;
 
 namespace Spells
 {
@@ -46,8 +47,9 @@ namespace Spells
         public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile)
         {
             var ap = owner.Stats.AbilityPower.Total * 0.8f;
-            var damage = 80 + (spell.Level - 1) * 50 + ap;
-            target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
+            var damage = new Damage(80 + (spell.Level - 1) * 50 + ap, DamageType.DAMAGE_TYPE_MAGICAL, 
+                DamageSource.DAMAGE_SOURCE_SPELL, false);
+            target.TakeDamage(owner, damage);
             var slowDuration = new[] {0, 1, 1.25f, 1.5f, 1.75f, 2}[spell.Level];
             AddBuff("Slow", slowDuration, 1, BuffType.SLOW, (ObjAiBase) target, owner);
             AddParticleTarget(owner, "caitlyn_entrapment_tar.troy", target);

@@ -5,6 +5,8 @@ using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
 using LeagueSandbox.GameServer.GameObjects.Missiles;
 using LeagueSandbox.GameServer.GameObjects.Spells;
 using LeagueSandbox.GameServer.Scripting.CSharp;
+using System;
+using GameServerCore;
 
 namespace Spells
 {
@@ -36,17 +38,24 @@ namespace Spells
         private void ApplySpinDamage(Champion owner, Spell spell, AttackableUnit target)
         {
             var units = GetUnitsInRange(owner, 500, true);
+            var isCrit = new Random().Next(0, 100) < (owner.Stats.CriticalChance.Total * 100);
+            var bonusCritDamage = 1.0f;
+            if(isCrit)
+            {
+                bonusCritDamage = (owner.Stats.CriticalDamage.Total - 0.5f);
+            }
             foreach (var unit in units)
             {
                 if (unit.Team != owner.Team)
                 {
                     //PHYSICAL DAMAGE PER SECOND: 20 / 45 / 70 / 95 / 120 (+ 70 / 80 / 90 / 100 / 110% AD)
                     var ad = new[] {.7f, .8f, .9f, 1f, 1.1f}[spell.Level - 1] * owner.Stats.AttackDamage.Total *
-                               0.5f;
+                               0.5f * bonusCritDamage;
                     var damage = new[] {20, 45, 70, 95, 120}[spell.Level - 1] * 0.5f + ad;
                     if (unit is Minion) damage *= 0.75f;
-                    target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_PHYSICAL, DamageSource.DAMAGE_SOURCE_SPELL,
-                        false);
+                    var finalDamage = new Damage(damage, DamageType.DAMAGE_TYPE_PHYSICAL, 
+                        DamageSource.DAMAGE_SOURCE_SPELL, isCrit);
+                    unit.TakeDamage(owner, finalDamage);
                 }
             }
         }

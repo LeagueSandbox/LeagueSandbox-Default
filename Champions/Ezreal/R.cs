@@ -7,6 +7,7 @@ using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
 using LeagueSandbox.GameServer.GameObjects.Missiles;
 using LeagueSandbox.GameServer.GameObjects.Spells;
 using LeagueSandbox.GameServer.Scripting.CSharp;
+using GameServerCore;
 
 namespace Spells
 {
@@ -40,9 +41,9 @@ namespace Spells
             var reduc = Math.Min(projectile.ObjectsHit.Count, 7);
             var bonusAd = owner.Stats.AttackDamage.Total - owner.Stats.AttackDamage.BaseValue;
             var ap = owner.Stats.AbilityPower.Total * 0.9f;
-            var damage = 200 + spell.Level * 150 + bonusAd + ap;
-            target.TakeDamage(owner, damage * (1 - reduc / 10), DamageType.DAMAGE_TYPE_MAGICAL,
-                DamageSource.DAMAGE_SOURCE_SPELL, false);
+            var damage = new Damage((200 + spell.Level * 150 + bonusAd + ap) * (1 - reduc / 10), 
+                DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
+            target.TakeDamage(owner, damage);
         }
 
         public void OnUpdate(double diff)
