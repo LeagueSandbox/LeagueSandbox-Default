@@ -1,8 +1,6 @@
 using GameServerCore.Domain.GameObjects;
 using LeagueSandbox.GameServer.API;
-using GameServerCore.Domain.GameObjects;
-using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
-using LeagueSandbox.GameServer.GameObjects.Missiles;
+using static LeagueSandbox.GameServer.API.ApiFunctionManager;
 using GameServerCore.Domain;
 using LeagueSandbox.GameServer.Scripting.CSharp;
 
@@ -18,44 +16,25 @@ namespace Spells
 
         public void OnFinishCasting(IChampion owner, ISpell spell, IAttackableUnit target)
         {
-            var units = ApiFunctionManager.GetChampionsInRange(owner, 600, true);
-            IChampion nearbyIChampion = null;
-            float lowestManaPercentage = 100;
-            float maxMana;
-            //float newMana; // not used?
-            for (var i = 0; i <= units.Count - 1; i++)
+            foreach (var unit in GetChampionsInRange(owner, 600, true))
             {
-                var value = units[i];
-                if (owner.Team == value.Team && i != 0)
+                if (unit.Team == owner.Team)
                 {
-                    var currentMana = value.Stats.CurrentMana;
-                    maxMana = value.Stats.ManaPoints.Total;
-                    if (currentMana * 100 / maxMana < lowestManaPercentage && owner != value)
-                    {
-                        lowestManaPercentage = currentMana * 100 / maxMana;
-                        nearbyIChampion = value;
-                    }
+                    RestoreMana(owner);
                 }
             }
+        }
 
-            if (nearbyIChampion != null)
-            {
-                var mp2 = nearbyIChampion.Stats.CurrentMana;
-                var maxMp2 = nearbyIChampion.Stats.ManaPoints.Total;
-                if (mp2 + maxMp2 * PERCENT_MAX_MANA_HEAL < maxMp2)
-                    nearbyIChampion.Stats.CurrentMana = mp2 + maxMp2 * PERCENT_MAX_MANA_HEAL;
-                else
-                    nearbyIChampion.Stats.CurrentMana = maxMp2;
-                ApiFunctionManager.AddParticleTarget(nearbyIChampion, "global_ss_clarity_02.troy", nearbyIChampion);
-            }
-
-            var mp = owner.Stats.CurrentMana;
-            var maxMp = owner.Stats.ManaPoints.Total;
-            if (mp + maxMp * PERCENT_MAX_MANA_HEAL < maxMp)
-                owner.Stats.CurrentMana = mp + maxMp * PERCENT_MAX_MANA_HEAL;
+        private void RestoreMana(IChampion target)
+        {
+            
+            var maxMp = target.Stats.ManaPoints.Total;
+            var newMp = target.Stats.CurrentMana + (maxMp * PERCENT_MAX_MANA_HEAL);
+            if (newMp < maxMp)
+                target.Stats.CurrentMana = newMp;
             else
-                owner.Stats.CurrentMana = maxMp;
-            ApiFunctionManager.AddParticleTarget(owner, "global_ss_clarity_02.troy", owner);
+                target.Stats.CurrentMana = maxMp;
+            AddParticleTarget(target, "global_ss_clarity_02.troy", target);
         }
 
         public void ApplyEffects(IChampion owner, IAttackableUnit target, ISpell spell, IProjectile projectile)

@@ -1,11 +1,7 @@
 using System;
 using GameServerCore.Domain.GameObjects;
-using LeagueSandbox.GameServer.API;
-using GameServerCore.Domain.GameObjects;
-using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
-using LeagueSandbox.GameServer.GameObjects.Missiles;
 using GameServerCore.Domain;
-using LeagueSandbox.GameServer.GameObjects.Stats;
+using static LeagueSandbox.GameServer.API.ApiFunctionManager;
 using LeagueSandbox.GameServer.Scripting.CSharp;
 
 namespace Spells
@@ -18,7 +14,7 @@ namespace Spells
 
         public void OnFinishCasting(IChampion owner, ISpell spell, IAttackableUnit target)
         {
-            var units = ApiFunctionManager.GetChampionsInRange(owner, 850, true);
+            var units = GetChampionsInRange(owner, 850, true);
             units.Remove(owner);
             IChampion mostWoundedAlliedIChampion = null;
             float lowestHealthPercentage = 100;
@@ -59,8 +55,8 @@ namespace Spells
             target.Stats.CurrentHealth = Math.Min(newHealth, target.Stats.HealthPoints.Total);
             target.AddBuffGameScript("HealSpeed", "HealSpeed", spell, 1.0f, true);
             target.AddBuffGameScript("HealCheck", "HealCheck", spell, 35.0f, true);
-            ApiFunctionManager.AddParticleTarget(owner, "global_ss_heal_02.troy", target);
-            ApiFunctionManager.AddParticleTarget(owner, "global_ss_heal_speedboost.troy", target);
+            AddParticleTarget(owner, "global_ss_heal_02.troy", target);
+            AddParticleTarget(owner, "global_ss_heal_speedboost.troy", target);
         }
 
         public void OnUpdate(double diff)

@@ -1,8 +1,6 @@
 using System.Numerics;
-using LeagueSandbox.GameServer.API;
 using GameServerCore.Domain.GameObjects;
-using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
-using LeagueSandbox.GameServer.GameObjects.Missiles;
+using static LeagueSandbox.GameServer.API.ApiFunctionManager;
 using GameServerCore.Domain;
 using LeagueSandbox.GameServer.Scripting.CSharp;
 
@@ -20,7 +18,7 @@ namespace Spells
 
         public void OnStartCasting(IChampion owner, ISpell spell, IAttackableUnit target)
         {
-            ApiFunctionManager.AddParticleTarget(owner, "ezreal_bow_yellow.troy", owner, 1, "L_HAND");
+            AddParticleTarget(owner, "ezreal_bow_yellow.troy", owner, 1, "L_HAND");
         }
 
         public void OnFinishCasting(IChampion owner, ISpell spell, IAttackableUnit target)

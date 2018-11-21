@@ -1,8 +1,6 @@
 using GameServerCore.Enums;
-using LeagueSandbox.GameServer.API;
 using GameServerCore.Domain.GameObjects;
-using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
-using LeagueSandbox.GameServer.GameObjects.Missiles;
+using static LeagueSandbox.GameServer.API.ApiFunctionManager;
 using GameServerCore.Domain;
 using LeagueSandbox.GameServer.Scripting.CSharp;
 
@@ -16,9 +14,9 @@ namespace Spells
 
         public void OnFinishCasting(IChampion owner, ISpell spell, IAttackableUnit target)
         {
-            var visualBuff = ApiFunctionManager.AddBuffHudVisual("Recall", 8.0f, 1, BuffType.COUNTER, owner, 8.0f);
-            var addParticle = ApiFunctionManager.AddParticleTarget(owner, "TeleportHome.troy", owner);
-            ApiFunctionManager.CreateTimer(8.0f, owner.Recall);
+            var visualBuff = AddBuffHudVisual("Recall", 8.0f, 1, BuffType.COUNTER, owner, 8.0f);
+            var addParticle = AddParticleTarget(owner, "TeleportHome.troy", owner);
+            CreateTimer(8.0f, owner.Recall);
         }
 
         public void ApplyEffects(IChampion owner, IAttackableUnit target, ISpell spell, IProjectile projectile)

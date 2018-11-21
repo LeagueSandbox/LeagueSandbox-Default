@@ -1,8 +1,6 @@
 using System.Numerics;
-using LeagueSandbox.GameServer.API;
 using GameServerCore.Domain.GameObjects;
-using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
-using LeagueSandbox.GameServer.GameObjects.Missiles;
+using static LeagueSandbox.GameServer.API.ApiFunctionManager;
 using GameServerCore.Domain;
 using LeagueSandbox.GameServer.Scripting.CSharp;
 
@@ -31,10 +29,9 @@ namespace Spells
                 trueCoords = new Vector2(spell.X, spell.Y);
             }
 
-            ApiFunctionManager.AddParticle(owner, "global_ss_flash.troy", owner.X, owner.Y);
-            ApiFunctionManager.TeleportTo(owner, trueCoords.X, trueCoords.Y);
-
-            ApiFunctionManager.AddParticleTarget(owner, "global_ss_flash_02.troy", owner);
+            AddParticle(owner, "global_ss_flash.troy", owner.X, owner.Y);
+            TeleportTo(owner, trueCoords.X, trueCoords.Y);
+            AddParticleTarget(owner, "global_ss_flash_02.troy", owner);
         }
 
         public void ApplyEffects(IChampion owner, IAttackableUnit target, ISpell spell, IProjectile projectile)

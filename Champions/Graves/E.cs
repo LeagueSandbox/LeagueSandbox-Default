@@ -1,8 +1,6 @@
 using System.Numerics;
-using LeagueSandbox.GameServer.API;
 using GameServerCore.Domain.GameObjects;
-using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
-using LeagueSandbox.GameServer.GameObjects.Missiles;
+using static LeagueSandbox.GameServer.API.ApiFunctionManager;
 using GameServerCore.Domain;
 using LeagueSandbox.GameServer.Scripting.CSharp;
 
@@ -29,12 +27,12 @@ namespace Spells
             var range = to * 425;
             var trueCoords = current + range;
 
-            ApiFunctionManager.DashToLocation(owner, trueCoords.X, trueCoords.Y, 1200, false, "Spell3");
-            var p = ApiFunctionManager.AddParticleTarget(owner, "Graves_Move_OnBuffActivate.troy", owner);
+            DashToLocation(owner, trueCoords.X, trueCoords.Y, 1200, false, "Spell3");
             owner.AddBuffGameScript("Quickdraw", "Quickdraw", spell, 4.0f, true);
-            ApiFunctionManager.CreateTimer(4.0f, () =>
+            var p = AddParticleTarget(owner, "Graves_Move_OnBuffActivate.troy", owner);
+            CreateTimer(4.0f, () =>
             {
-                ApiFunctionManager.RemoveParticle(p);
+                RemoveParticle(p);
             });
         }
 

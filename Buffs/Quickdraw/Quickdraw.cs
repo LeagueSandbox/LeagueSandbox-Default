@@ -1,7 +1,7 @@
 ﻿using GameServerCore.Enums;
-using LeagueSandbox.GameServer.API;
 using GameServerCore.Domain;
 using GameServerCore.Domain.GameObjects;
+using static LeagueSandbox.GameServer.API.ApiFunctionManager;
 using LeagueSandbox.GameServer.GameObjects.Stats;
 using LeagueSandbox.GameServer.Scripting.CSharp;
 
@@ -21,13 +21,13 @@ namespace Quickdraw
         {
             _statMod.AttackSpeed.PercentBonus = 0.2f + (0.1f * ownerSpell.Level);
             unit.AddStatModifier(_statMod);
-            _visualBuff = ApiFunctionManager.AddBuffHudVisual("GravesMoveSteroid", 4.0f, 1, BuffType.COMBAT_ENCHANCER, 
+            _visualBuff = AddBuffHudVisual("GravesMoveSteroid", 4.0f, 1, BuffType.COMBAT_ENCHANCER, 
                 unit);
         }
 
         public void OnDeactivate(IObjAiBase unit)
         {
-            ApiFunctionManager.RemoveBuffHudVisual(_visualBuff);
+            RemoveBuffHudVisual(_visualBuff);
             unit.RemoveStatModifier(_statMod);
         }
     }

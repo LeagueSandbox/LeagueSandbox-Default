@@ -1,10 +1,7 @@
-using GameServerCore.Enums;
-using LeagueSandbox.GameServer.API;
 using GameServerCore.Domain.GameObjects;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
-using LeagueSandbox.GameServer.GameObjects.Missiles;
 using GameServerCore.Domain;
-using LeagueSandbox.GameServer.GameObjects.Stats;
+using static LeagueSandbox.GameServer.API.ApiFunctionManager;
 using LeagueSandbox.GameServer.Scripting.CSharp;
 
 namespace Spells
@@ -20,7 +17,7 @@ namespace Spells
             var ai = target as ObjAiBase;
             if (ai != null)
             {
-                ApiFunctionManager.AddParticleTarget(owner, "Global_SS_Exhaust.troy", target);
+                AddParticleTarget(owner, "Global_SS_Exhaust.troy", target);
                 ai.AddBuffGameScript("SummonerExhaustDebuff", "SummonerExhaustDebuff", spell, 2.5f, true);
             }
         }

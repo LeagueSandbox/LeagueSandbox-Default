@@ -1,9 +1,6 @@
 using GameServerCore.Domain.GameObjects;
-using GameServerCore.Enums;
-using LeagueSandbox.GameServer.API;
-using GameServerCore.Domain.GameObjects;
+using static LeagueSandbox.GameServer.API.ApiFunctionManager;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
-using LeagueSandbox.GameServer.GameObjects.Missiles;
 using GameServerCore.Domain;
 using LeagueSandbox.GameServer.Scripting.CSharp;
 
@@ -33,14 +30,14 @@ namespace Spells
             }
             else
             {
-                var p1 = ApiFunctionManager.AddParticleTarget(owner, "Lulu_W_buf_02.troy", target, 1);
-                var p2 = ApiFunctionManager.AddParticleTarget(owner, "Lulu_W_buf_01.troy", target, 1);
+                var p1 = AddParticleTarget(owner, "Lulu_W_buf_02.troy", target, 1);
+                var p2 = AddParticleTarget(owner, "Lulu_W_buf_01.troy", target, 1);
                 var time = 2.5f + 0.5f * spell.Level;
                 ((ObjAiBase) target).AddBuffGameScript("LuluWBuff", "LuluWBuff", spell, time, true);
-                ApiFunctionManager.CreateTimer(time, () =>
+                CreateTimer(time, () =>
                 {
-                    ApiFunctionManager.RemoveParticle(p1);
-                    ApiFunctionManager.RemoveParticle(p2);
+                    RemoveParticle(p1);
+                    RemoveParticle(p2);
                 });
             }
         }
@@ -55,10 +52,10 @@ namespace Spells
             var model = champion.Model;
             ChangeModel(owner.Skin, target);
 
-            var p = ApiFunctionManager.AddParticleTarget(owner, "Lulu_W_polymorph_01.troy", target, 1);
-            ApiFunctionManager.CreateTimer(time, () =>
+            var p = AddParticleTarget(owner, "Lulu_W_polymorph_01.troy", target, 1);
+            CreateTimer(time, () =>
             {
-                ApiFunctionManager.RemoveParticle(p);
+                RemoveParticle(p);
                 champion.ChangeModel(model);
             });
             projectile.SetToRemove();

@@ -1,7 +1,7 @@
 using GameServerCore.Enums;
-using LeagueSandbox.GameServer.API;
 using GameServerCore.Domain;
 using GameServerCore.Domain.GameObjects;
+using static LeagueSandbox.GameServer.API.ApiFunctionManager;
 using LeagueSandbox.GameServer.GameObjects.Stats;
 using LeagueSandbox.GameServer.Scripting.CSharp;
 
@@ -18,12 +18,12 @@ namespace Overdrive
             _statMod.MoveSpeed.PercentBonus = _statMod.MoveSpeed.PercentBonus + (12f + ownerSpell.Level * 4) / 100f;
             _statMod.AttackSpeed.PercentBonus = _statMod.AttackSpeed.PercentBonus + (22f + 8f * ownerSpell.Level) / 100f;
             unit.AddStatModifier(_statMod);
-            _visualBuff = ApiFunctionManager.AddBuffHudVisual("Overdrive", 8.0f, 1, BuffType.COMBAT_ENCHANCER, unit);
+            _visualBuff = AddBuffHudVisual("Overdrive", 8.0f, 1, BuffType.COMBAT_ENCHANCER, unit);
         }
 
         public void OnDeactivate(IObjAiBase unit)
         {
-            ApiFunctionManager.RemoveBuffHudVisual(_visualBuff);
+            RemoveBuffHudVisual(_visualBuff);
             unit.RemoveStatModifier(_statMod);
         }
 

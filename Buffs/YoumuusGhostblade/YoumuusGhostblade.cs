@@ -1,7 +1,7 @@
 ﻿using GameServerCore.Domain;
 using GameServerCore.Domain.GameObjects;
 using GameServerCore.Enums;
-using LeagueSandbox.GameServer.API;
+using static LeagueSandbox.GameServer.API.ApiFunctionManager;
 using LeagueSandbox.GameServer.GameObjects.Stats;
 using LeagueSandbox.GameServer.Scripting.CSharp;
 
@@ -17,13 +17,13 @@ namespace YoumuusGhostblade
             _statMod = new StatsModifier();
             _statMod.MoveSpeed.PercentBonus = 0.2f;
             _statMod.AttackSpeed.PercentBonus = 0.4f;
-            _visualBuff = ApiFunctionManager.AddBuffHudVisual("SpectralFury", 6.0f, 1, BuffType.COMBAT_ENCHANCER, unit);
+            _visualBuff = AddBuffHudVisual("SpectralFury", 6.0f, 1, BuffType.COMBAT_ENCHANCER, unit);
             unit.AddStatModifier(_statMod);
         }
 
         public void OnDeactivate(IObjAiBase unit)
         {
-            ApiFunctionManager.RemoveBuffHudVisual(_visualBuff);
+            RemoveBuffHudVisual(_visualBuff);
             unit.RemoveStatModifier(_statMod);
         }
 

@@ -2,8 +2,7 @@ using System.Numerics;
 using GameServerCore.Enums;
 using LeagueSandbox.GameServer.API;
 using GameServerCore.Domain.GameObjects;
-using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
-using LeagueSandbox.GameServer.GameObjects.Missiles;
+using static LeagueSandbox.GameServer.API.ApiFunctionManager;
 using GameServerCore.Domain;
 using LeagueSandbox.GameServer.Scripting.CSharp;
 
@@ -32,8 +31,8 @@ namespace Spells
             var trueCoords = current + range;
 
             //TODO: Dash to the correct location (in front of the enemy IChampion) instead of far behind or inside them
-            ApiFunctionManager.DashToLocation(owner, trueCoords.X, trueCoords.Y, 2200, false, "Attack1");
-            ApiFunctionManager.AddParticleTarget(owner, "akali_shadowDance_tar.troy", target, 1, "");
+            DashToLocation(owner, trueCoords.X, trueCoords.Y, 2200, false, "Attack1");
+            AddParticleTarget(owner, "akali_shadowDance_tar.troy", target, 1, "");
         }
 
         public void ApplyEffects(IChampion owner, IAttackableUnit target, ISpell spell, IProjectile projectile)

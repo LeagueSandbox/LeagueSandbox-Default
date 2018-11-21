@@ -1,9 +1,7 @@
 using System.Numerics;
 using GameServerCore.Enums;
-using LeagueSandbox.GameServer.API;
 using GameServerCore.Domain.GameObjects;
-using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
-using LeagueSandbox.GameServer.GameObjects.Missiles;
+using static LeagueSandbox.GameServer.API.ApiFunctionManager;
 using GameServerCore.Domain;
 using LeagueSandbox.GameServer.Scripting.CSharp;
 
@@ -45,7 +43,7 @@ namespace Spells
 
         public void ApplyEffects(IChampion owner, IAttackableUnit target, ISpell spell, IProjectile projectile)
         {
-            ApiFunctionManager.AddParticleTarget(owner, "olaf_axeThrow_tar.troy", target, 1);
+            AddParticleTarget(owner, "olaf_axeThrow_tar.troy", target, 1);
             var ad = owner.Stats.AttackDamage.Total * 1.1f;
             var ap = owner.Stats.AttackDamage.Total * 0.0f;
             var damage = 15 + spell.Level * 20 + ad + ap;

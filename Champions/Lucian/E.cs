@@ -1,8 +1,6 @@
 using System.Numerics;
-using LeagueSandbox.GameServer.API;
 using GameServerCore.Domain.GameObjects;
-using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
-using LeagueSandbox.GameServer.GameObjects.Missiles;
+using static LeagueSandbox.GameServer.API.ApiFunctionManager;
 using GameServerCore.Domain;
 using LeagueSandbox.GameServer.Scripting.CSharp;
 
@@ -29,7 +27,7 @@ namespace Spells
             var range = to * 445;
             var trueCoords = current + range;
 
-            ApiFunctionManager.DashToLocation(owner, trueCoords.X, trueCoords.Y, 1500, false, "SPELL3");
+            DashToLocation(owner, trueCoords.X, trueCoords.Y, 1500, false, "SPELL3");
         }
 
         public void ApplyEffects(IChampion owner, IAttackableUnit target, ISpell spell, IProjectile projectile)

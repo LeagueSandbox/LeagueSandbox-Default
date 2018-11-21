@@ -1,8 +1,6 @@
 ﻿using GameServerCore.Enums;
-using LeagueSandbox.GameServer.API;
 using GameServerCore.Domain.GameObjects;
-using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
-using LeagueSandbox.GameServer.GameObjects.Missiles;
+using static LeagueSandbox.GameServer.API.ApiFunctionManager;
 using GameServerCore.Domain;
 using LeagueSandbox.GameServer.Scripting.CSharp;
 using System.Numerics;
@@ -31,10 +29,10 @@ namespace Spells
             var trueCoords = current + range;
 
             spell.AddCone("Incinerate", trueCoords.X, trueCoords.Y, 24.76f);
-            ApiFunctionManager.AddParticle(owner, "IIncinerate_buf.troy", trueCoords.X, trueCoords.Y);
-            ApiFunctionManager.FaceDirection(owner, trueCoords, false);
+            AddParticle(owner, "IIncinerate_buf.troy", trueCoords.X, trueCoords.Y);
+            FaceDirection(owner, trueCoords, false);
             spell.SpellAnimation("SPELL2", owner);
-            ApiFunctionManager.AddParticleTarget(owner, "Incinerate_cas.troy", owner);
+            AddParticleTarget(owner, "Incinerate_cas.troy", owner);
         }
 
         public void ApplyEffects(IChampion owner, IAttackableUnit target, ISpell spell, IProjectile projectile)

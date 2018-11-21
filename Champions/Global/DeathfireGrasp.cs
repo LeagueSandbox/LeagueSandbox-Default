@@ -1,5 +1,5 @@
 ﻿using LeagueSandbox.GameServer.GameObjects;
-using LeagueSandbox.GameServer.API;
+using static LeagueSandbox.GameServer.API.ApiFunctionManager;
 using LeagueSandbox.GameServer.Scripting.CSharp;
 using GameServerCore.Domain.GameObjects;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
@@ -14,14 +14,13 @@ namespace Spells
         public void OnStartCasting(IChampion owner, ISpell spell, IAttackableUnit target)
         {
             spell.AddProjectileTarget("DeathfireGraspSpell",target);
-            var p1 = ApiFunctionManager.AddParticleTarget(owner, "deathFireGrasp_tar.troy", target);
-            var p2 = ApiFunctionManager.AddParticleTarget(owner, "obj_DeathfireGrasp_debuff.troy", target);
-            ApiFunctionManager.AddBuffHudVisual("DeathfireGraspSpell", 4.0f, 1, BuffType.COMBAT_DEHANCER,
-                (ObjAiBase)target, 4.0f);
-            ApiFunctionManager.CreateTimer(4.0f, () =>
+            var p1 = AddParticleTarget(owner, "deathFireGrasp_tar.troy", target);
+            var p2 = AddParticleTarget(owner, "obj_DeathfireGrasp_debuff.troy", target);
+            AddBuffHudVisual("DeathfireGraspSpell", 4.0f, 1, BuffType.COMBAT_DEHANCER, (ObjAiBase)target, 4.0f);
+            CreateTimer(4.0f, () =>
             {
-                ApiFunctionManager.RemoveParticle(p1);
-                ApiFunctionManager.RemoveParticle(p2);
+                RemoveParticle(p1);
+                RemoveParticle(p2);
             });
         }
 

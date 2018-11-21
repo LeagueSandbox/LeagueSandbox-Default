@@ -1,9 +1,8 @@
 ﻿using System.Numerics;
 using GameServerCore.Enums;
-using LeagueSandbox.GameServer.API;
 using GameServerCore.Domain.GameObjects;
+using static LeagueSandbox.GameServer.API.ApiFunctionManager;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
-using LeagueSandbox.GameServer.GameObjects.Missiles;
 using GameServerCore.Domain;
 using LeagueSandbox.GameServer.Scripting.CSharp;
 
@@ -39,7 +38,7 @@ namespace Spells
             // Calculate dash coords/vector
             var dash = Vector2.Negate(to) * 500;
             var dashCoords = current + dash;
-            ApiFunctionManager.DashToLocation(owner, dashCoords.X, dashCoords.Y, 1000, true, "Spell3b");
+            DashToLocation(owner, dashCoords.X, dashCoords.Y, 1000, true, "Spell3b");
             spell.AddProjectile("CaitlynEntrapmentMissile", trueCoords.X, trueCoords.Y);
         }
 
@@ -49,9 +48,9 @@ namespace Spells
             var damage = 80 + (spell.Level - 1) * 50 + ap;
             target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
             var slowDuration = new[] {0, 1, 1.25f, 1.5f, 1.75f, 2}[spell.Level];
-            ApiFunctionManager.AddBuff("Slow", slowDuration, 1, BuffType.SLOW, (ObjAiBase) target, owner);
-            ApiFunctionManager.AddParticleTarget(owner, "caitlyn_entrapment_tar.troy", target);
-            ApiFunctionManager.AddParticleTarget(owner, "caitlyn_entrapment_slow.troy", target);
+            AddBuff("Slow", slowDuration, 1, BuffType.SLOW, (ObjAiBase) target, owner);
+            AddParticleTarget(owner, "caitlyn_entrapment_tar.troy", target);
+            AddParticleTarget(owner, "caitlyn_entrapment_slow.troy", target);
             projectile.SetToRemove();
         }
     }

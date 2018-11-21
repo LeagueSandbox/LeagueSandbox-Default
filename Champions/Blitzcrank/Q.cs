@@ -1,9 +1,8 @@
 using System.Numerics;
 using GameServerCore.Enums;
-using LeagueSandbox.GameServer.API;
 using GameServerCore.Domain.GameObjects;
+using static LeagueSandbox.GameServer.API.ApiFunctionManager;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
-using LeagueSandbox.GameServer.GameObjects.Missiles;
 using GameServerCore.Domain;
 using LeagueSandbox.GameServer.Scripting.CSharp;
 
@@ -40,12 +39,12 @@ namespace Spells
             target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
             if (!target.IsDead)
             {
-                ApiFunctionManager.AddParticleTarget(owner, "Blitzcrank_Grapplin_tar.troy", target, 1, "L_HAND");
+                AddParticleTarget(owner, "Blitzcrank_Grapplin_tar.troy", target, 1, "L_HAND");
                 var current = new Vector2(owner.X, owner.Y);
                 var to = Vector2.Normalize(new Vector2(spell.X, spell.Y) - current);
                 var range = to * 50;
                 var trueCoords = current + range;
-                ApiFunctionManager.DashToLocation((ObjAiBase) target, trueCoords.X, trueCoords.Y,
+                DashToLocation((ObjAiBase) target, trueCoords.X, trueCoords.Y,
                     spell.SpellData.MissileSpeed, true);
             }
 
