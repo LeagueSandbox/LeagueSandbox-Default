@@ -3,29 +3,29 @@ using GameServerCore.Domain.GameObjects;
 using GameServerCore.Enums;
 using static LeagueSandbox.GameServer.API.ApiFunctionManager;
 using LeagueSandbox.GameServer.GameObjects;
-using LeagueSandbox.GameServer.GameObjects.AttackableUnits;
+using GameServerCore.Domain.GameObjects;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
 using LeagueSandbox.GameServer.GameObjects.Missiles;
-using LeagueSandbox.GameServer.GameObjects.Spells;
+using GameServerCore.Domain;
 using LeagueSandbox.GameServer.Scripting.CSharp;
 
 namespace Spells
 {
     public class EzrealArcaneShift : IGameScript
     {
-        public void OnActivate(Champion owner)
+        public void OnActivate(IChampion owner)
         {
         }
 
-        public void OnDeactivate(Champion owner)
+        public void OnDeactivate(IChampion owner)
         {
         }
 
-        public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target)
+        public void OnStartCasting(IChampion owner, ISpell spell, IAttackableUnit target)
         {
         }
 
-        public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target)
+        public void OnFinishCasting(IChampion owner, ISpell spell, IAttackableUnit target)
         {
             var current = new Vector2(owner.X, owner.Y);
             var to = new Vector2(spell.X, spell.Y) - current;
@@ -63,14 +63,14 @@ namespace Spells
 
             if (target2 != null)
             {
-                if (!((GameObject) target2 is BaseTurret))
+                if (!(target2 is IBaseTurret))
                 {
-                    spell.AddProjectileTarget("EzrealArcaneShiftMissile", (AttackableUnit)target2);
+                    spell.AddProjectileTarget("EzrealArcaneShiftMissile", target2);
                 }
             }
         }
 
-        public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile)
+        public void ApplyEffects(IChampion owner, IAttackableUnit target, ISpell spell, IProjectile projectile)
         {
             target.TakeDamage(owner, 25f + spell.Level * 50f + owner.Stats.AbilityPower.Total * 0.75f,
                 DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);

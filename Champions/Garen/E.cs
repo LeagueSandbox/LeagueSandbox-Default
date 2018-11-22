@@ -1,24 +1,23 @@
 using GameServerCore.Enums;
+using GameServerCore.Domain.GameObjects;
 using static LeagueSandbox.GameServer.API.ApiFunctionManager;
-using LeagueSandbox.GameServer.GameObjects.AttackableUnits;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
-using LeagueSandbox.GameServer.GameObjects.Missiles;
-using LeagueSandbox.GameServer.GameObjects.Spells;
+using GameServerCore.Domain;
 using LeagueSandbox.GameServer.Scripting.CSharp;
 
 namespace Spells
 {
     public class GarenE : IGameScript
     {
-        public void OnActivate(Champion owner)
+        public void OnActivate(IChampion owner)
         {
         }
 
-        public void OnDeactivate(Champion owner)
+        public void OnDeactivate(IChampion owner)
         {
         }
 
-        public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target)
+        public void OnStartCasting(IChampion owner, ISpell spell, IAttackableUnit target)
         {
             var p = AddParticleTarget(owner, "Garen_Base_E_Spin.troy", owner, 1);
             var visualBuff = AddBuffHudVisual("GarenE", 3.0f, 1,
@@ -33,7 +32,7 @@ namespace Spells
             }
         }
 
-        private void ApplySpinDamage(Champion owner, Spell spell, AttackableUnit target)
+        private void ApplySpinDamage(IChampion owner, ISpell spell, IAttackableUnit target)
         {
             var units = GetUnitsInRange(owner, 500, true);
             foreach (var unit in units)
@@ -45,17 +44,17 @@ namespace Spells
                                0.5f;
                     var damage = new[] {20, 45, 70, 95, 120}[spell.Level - 1] * 0.5f + ad;
                     if (unit is Minion) damage *= 0.75f;
-                    target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_PHYSICAL, DamageSource.DAMAGE_SOURCE_SPELL,
+                    unit.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_PHYSICAL, DamageSource.DAMAGE_SOURCE_SPELL,
                         false);
                 }
             }
         }
 
-        public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target)
+        public void OnFinishCasting(IChampion owner, ISpell spell, IAttackableUnit target)
         {
         }
 
-        public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile)
+        public void ApplyEffects(IChampion owner, IAttackableUnit target, ISpell spell, IProjectile projectile)
         {
         }
 

@@ -1,6 +1,7 @@
 using LeagueSandbox.GameServer.API;
-using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
-using LeagueSandbox.GameServer.GameObjects.Spells;
+using GameServerCore.Domain;
+using GameServerCore.Domain.GameObjects;
+using GameServerCore.Enums;
 using LeagueSandbox.GameServer.Scripting.CSharp;
 
 namespace Invulnerable
@@ -9,12 +10,12 @@ namespace Invulnerable
     {
         private UnitCrowdControl _crowd = new UnitCrowdControl(CrowdControlType.INVULNERABLE);
 
-        public void OnActivate(ObjAiBase unit, Spell ownerSpell)
+        public void OnActivate(IObjAiBase unit, ISpell ownerSpell)
         {
             unit.ApplyCrowdControl(_crowd);
         }
 
-        public void OnDeactivate(ObjAiBase unit)
+        public void OnDeactivate(IObjAiBase unit)
         {
             unit.RemoveCrowdControl(_crowd);
         }

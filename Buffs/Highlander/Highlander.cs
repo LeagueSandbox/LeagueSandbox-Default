@@ -1,8 +1,8 @@
 using GameServerCore.Enums;
 using static LeagueSandbox.GameServer.API.ApiFunctionManager;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits;
-using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
-using LeagueSandbox.GameServer.GameObjects.Spells;
+using GameServerCore.Domain;
+using GameServerCore.Domain.GameObjects;
 using LeagueSandbox.GameServer.GameObjects.Stats;
 using LeagueSandbox.GameServer.Scripting.CSharp;
 
@@ -11,9 +11,9 @@ namespace Highlander
     internal class Highlander : IBuffGameScript
     {
         private StatsModifier _statMod;
-        private Buff _visualBuff;
+        private IBuff _visualBuff;
 
-        public void OnActivate(ObjAiBase unit, Spell ownerSpell)
+        public void OnActivate(IObjAiBase unit, ISpell ownerSpell)
         {
             _statMod = new StatsModifier();
             _statMod.MoveSpeed.PercentBonus = _statMod.MoveSpeed.PercentBonus + (15f + ownerSpell.Level * 10) / 100f;
@@ -23,7 +23,7 @@ namespace Highlander
             //Immunity to slowness not added
         }
 
-        public void OnDeactivate(ObjAiBase unit)
+        public void OnDeactivate(IObjAiBase unit)
         {
             RemoveBuffHudVisual(_visualBuff);
             unit.RemoveStatModifier(_statMod);

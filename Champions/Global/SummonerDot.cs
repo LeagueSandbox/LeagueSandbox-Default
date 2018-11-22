@@ -1,16 +1,15 @@
 using GameServerCore.Enums;
+using GameServerCore.Domain.GameObjects;
 using static LeagueSandbox.GameServer.API.ApiFunctionManager;
-using LeagueSandbox.GameServer.GameObjects.AttackableUnits;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
-using LeagueSandbox.GameServer.GameObjects.Missiles;
-using LeagueSandbox.GameServer.GameObjects.Spells;
+using GameServerCore.Domain;
 using LeagueSandbox.GameServer.Scripting.CSharp;
 
 namespace Spells
 {
     public class SummonerDot : IGameScript
     {
-        public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target)
+        public void OnStartCasting(IChampion owner, ISpell spell, IAttackableUnit target)
         {
             var visualBuff = AddBuffHudVisual("SummonerDot", 4.0f, 1, BuffType.COMBAT_DEHANCER, (ObjAiBase) target, 4.0f);
             var p = AddParticleTarget(owner, "Global_SS_Ignite.troy", target, 1);
@@ -30,11 +29,11 @@ namespace Spells
             });
         }
 
-        public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target)
+        public void OnFinishCasting(IChampion owner, ISpell spell, IAttackableUnit target)
         {
         }
 
-        public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile)
+        public void ApplyEffects(IChampion owner, IAttackableUnit target, ISpell spell, IProjectile projectile)
         {
         }
 
@@ -42,11 +41,11 @@ namespace Spells
         {
         }
 
-        public void OnActivate(Champion owner)
+        public void OnActivate(IChampion owner)
         {
         }
 
-        public void OnDeactivate(Champion owner)
+        public void OnDeactivate(IChampion owner)
         {
         }
     }

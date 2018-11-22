@@ -1,26 +1,24 @@
 using System.Linq;
 using GameServerCore;
 using GameServerCore.Enums;
+using GameServerCore.Domain.GameObjects;
 using static LeagueSandbox.GameServer.API.ApiFunctionManager;
-using LeagueSandbox.GameServer.GameObjects.AttackableUnits;
-using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
-using LeagueSandbox.GameServer.GameObjects.Missiles;
-using LeagueSandbox.GameServer.GameObjects.Spells;
+using GameServerCore.Domain;
 using LeagueSandbox.GameServer.Scripting.CSharp;
 
 namespace Spells
 {
     public class FallenOne : IGameScript
     {
-        public void OnActivate(Champion owner)
+        public void OnActivate(IChampion owner)
         {
         }
 
-        public void OnDeactivate(Champion owner)
+        public void OnDeactivate(IChampion owner)
         {
         }
 
-        public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target)
+        public void OnStartCasting(IChampion owner, ISpell spell, IAttackableUnit target)
         {
             foreach (var enemyTarget in GetChampionsInRange(owner, 20000, true)
                 .Where(x => x.Team == CustomConvert.GetEnemyTeam(owner.Team)))
@@ -29,7 +27,7 @@ namespace Spells
             }
         }
 
-        public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target)
+        public void OnFinishCasting(IChampion owner, ISpell spell, IAttackableUnit target)
         {
             var ap = owner.Stats.AbilityPower.Total;
             var damage = 100 + spell.Level * 150 + ap * 0.6f;
@@ -41,7 +39,7 @@ namespace Spells
             }
         }
 
-        public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile)
+        public void ApplyEffects(IChampion owner, IAttackableUnit target, ISpell spell, IProjectile projectile)
         {
         }
 

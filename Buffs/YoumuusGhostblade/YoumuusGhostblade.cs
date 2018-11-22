@@ -1,7 +1,7 @@
-﻿using GameServerCore.Enums;
+﻿using GameServerCore.Domain;
+using GameServerCore.Domain.GameObjects;
+using GameServerCore.Enums;
 using static LeagueSandbox.GameServer.API.ApiFunctionManager;
-using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
-using LeagueSandbox.GameServer.GameObjects.Spells;
 using LeagueSandbox.GameServer.GameObjects.Stats;
 using LeagueSandbox.GameServer.Scripting.CSharp;
 
@@ -10,9 +10,9 @@ namespace YoumuusGhostblade
     internal class YoumuusGhostblade : IBuffGameScript
     {
         private StatsModifier _statMod;
-        private Buff _visualBuff;
+        private IBuff _visualBuff;
 
-        public void OnActivate(ObjAiBase unit, Spell ownerSpell)
+        public void OnActivate(IObjAiBase unit, ISpell ownerSpell)
         {
             _statMod = new StatsModifier();
             _statMod.MoveSpeed.PercentBonus = 0.2f;
@@ -21,7 +21,7 @@ namespace YoumuusGhostblade
             unit.AddStatModifier(_statMod);
         }
 
-        public void OnDeactivate(ObjAiBase unit)
+        public void OnDeactivate(IObjAiBase unit)
         {
             RemoveBuffHudVisual(_visualBuff);
             unit.RemoveStatModifier(_statMod);
