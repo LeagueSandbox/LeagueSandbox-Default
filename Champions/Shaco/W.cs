@@ -14,7 +14,6 @@ namespace Spells
 {
     public class JackInTheBox : IGameScript
     {
-        private IGame game;
         public float petTimeAlive = 0.00f;
 
         public void OnActivate(IChampion owner)
@@ -35,8 +34,6 @@ namespace Spells
 
         public void OnFinishCasting(IChampion owner, ISpell spell, IAttackableUnit target)
         {
-            bool game = owner.RefGame.IsRunning;
-            
             var fearduration = 0.5f + (0.25 * (spell.Level - 1));
             var jackduration = 5.0f;
             var apbonus = owner.Stats.AbilityPower.Total * 0.2f;
@@ -51,44 +48,45 @@ namespace Spells
 
             if (owner.WithinRange(ownerPos, spellPos, castrange))
             {
-                IMinion Jack = new Minion(owner.RefGame, owner, spell.X, spell.Y, "ShacoBox", "ShacoBox", sightrange, 0);
-                owner.RefGame.ObjectManager.AddObject(Jack);
-                Jack.SetVisibleByTeam(owner.Team, true);
+                IMinion m = AddMinion(owner, "ShacoBox", "ShacoBox", spell.X, spell.Y, sightrange);
                 AddParticle(owner, "JackintheboxPoof.troy", spell.X, spell.Y);
 
-                if (Jack.IsVisibleByTeam(owner.Team))
+                if (m.IsVisibleByTeam(owner.Team))
                 {
                     try
                     {
-                        if (!Jack.IsDead)
+                        if (!m.IsDead)
                         {
-                            var units = GetUnitsInRange(Jack, sightrange, true);
+                            var units = GetUnitsInRange(m, sightrange, true);
                             foreach (var value in units)
                             {
                                 if (owner.Team != value.Team && value is IAttackableUnit && !(value is IBaseTurret) && !(value is IObjAnimatedBuilding))
                                 {
-                                    //TODO: Change TakeDamage to activate on Jack AutoAttackHit and not use CreateTimer
-                                    Jack.SetTargetUnit(value);
-                                    Jack.AutoAttackTarget = value;
-                                    Jack.AutoAttackProjectileSpeed = 1450;
-                                    Jack.AutoAttackHit(value);
+                                    //TODO: Change TakeDamage to activate on Jack AutoAttackHit, not use CreateTimer, and make Pets use owner stats
+                                    m.SetTargetUnit(value);
+                                    m.AutoAttackTarget = value;
+                                    m.AutoAttackProjectileSpeed = 1450;
+                                    m.AutoAttackHit(value);
                                     for (petTimeAlive = 0.0f; petTimeAlive < jackduration; petTimeAlive += attspeed)
                                     {
                                         CreateTimer(petTimeAlive, () => {
-                                            if (!(value.IsDead))
+                                            if (!value.IsDead && !m.IsDead)
                                             {
-                                                value.TakeDamage(Jack, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
+                                                value.TakeDamage(m, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
                                             }
                                         });
                                     }
                                 }
                             }
-                            // Sorry for using 2 timers, couldn't find out how to do it more effectively.
                             CreateTimer(jackduration, () =>
                             {
-                                Jack.Die(Jack);
+                                if (!m.IsDead)
+                                {
+                                    m.Die(m);
+                                    RemoveMinion(m, m);
+                                }
                             });
-                    }
+                        }
                     }
                     catch (Exception ex)
                     {
