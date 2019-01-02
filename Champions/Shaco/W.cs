@@ -34,63 +34,56 @@ namespace Spells
 
         public void OnFinishCasting(IChampion owner, ISpell spell, IAttackableUnit target)
         {
-            var fearduration = 0.5f + (0.25 * (spell.Level - 1));
-            var jackduration = 5.0f;
-            var apbonus = owner.Stats.AbilityPower.Total * 0.2f;
-            var damage = 35 + ((15 * (spell.Level - 1)) + apbonus);
-            var attspeed = 1 / 1.8f; // 1.8 attacks a second = .55... seconds per attack
+            IMinion m = AddMinion(owner, "ShacoBox", "ShacoBox", spell.X, spell.Y);
+            AddParticle(owner, "JackintheboxPoof.troy", spell.X, spell.Y);
+
             var castrange = spell.SpellData.CastRange[0];
-            //TODO: Implement Fear buff
+            var apbonus = owner.Stats.AbilityPower.Total * 0.2f;
+            var damage = 35 + ((15 * (spell.Level - 1)) + apbonus); //TODO: Should replace minion AA damage
+            var jackduration = 5.0f; //TODO: Split into Active duration and Hidden duration when Invisibility is implemented
+            var attackrange = m.Stats.Range.Total;
+            var attspeed = 1 / 1.8f; // 1.8 attacks a second = ~.56 seconds per attack, could not extrapolate from minion stats
+            //TODO: Implement Fear buff and ShacoBoxSpell
             //var fearrange = 300;
-            var sightrange = 600;
+            var fearduration = 0.5f + (0.25 * (spell.Level - 1));
             var ownerPos = new Vector2(owner.X, owner.Y);
             var spellPos = new Vector2(spell.X, spell.Y);
 
             if (owner.WithinRange(ownerPos, spellPos, castrange))
             {
-                IMinion m = AddMinion(owner, "ShacoBox", "ShacoBox", spell.X, spell.Y, sightrange);
-                AddParticle(owner, "JackintheboxPoof.troy", spell.X, spell.Y);
-
                 if (m.IsVisibleByTeam(owner.Team))
                 {
-                    try
+                    if (!m.IsDead)
                     {
-                        if (!m.IsDead)
+                        var units = GetUnitsInRange(m, attackrange, true);
+                        foreach (var value in units)
                         {
-                            var units = GetUnitsInRange(m, sightrange, true);
-                            foreach (var value in units)
+                            if (owner.Team != value.Team && value is IAttackableUnit && !(value is IBaseTurret) && !(value is IObjAnimatedBuilding))
                             {
-                                if (owner.Team != value.Team && value is IAttackableUnit && !(value is IBaseTurret) && !(value is IObjAnimatedBuilding))
+                                //TODO: Change TakeDamage to activate on Jack AutoAttackHit, not use CreateTimer, and make Pets use owner spell stats
+                                m.SetTargetUnit(value);
+                                m.AutoAttackTarget = value;
+                                m.AutoAttackProjectileSpeed = 1450;
+                                m.AutoAttackHit(value);
+                                for (petTimeAlive = 0.0f; petTimeAlive < jackduration; petTimeAlive += attspeed)
                                 {
-                                    //TODO: Change TakeDamage to activate on Jack AutoAttackHit, not use CreateTimer, and make Pets use owner stats
-                                    m.SetTargetUnit(value);
-                                    m.AutoAttackTarget = value;
-                                    m.AutoAttackProjectileSpeed = 1450;
-                                    m.AutoAttackHit(value);
-                                    for (petTimeAlive = 0.0f; petTimeAlive < jackduration; petTimeAlive += attspeed)
-                                    {
-                                        CreateTimer(petTimeAlive, () => {
-                                            if (!value.IsDead && !m.IsDead)
-                                            {
-                                                value.TakeDamage(m, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
-                                            }
-                                        });
-                                    }
+                                    CreateTimer(petTimeAlive, () => {
+                                        if (!value.IsDead && !m.IsDead)
+                                        {
+                                            value.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
+                                        }
+                                    });
                                 }
                             }
-                            CreateTimer(jackduration, () =>
-                            {
-                                if (!m.IsDead)
-                                {
-                                    m.Die(m);
-                                    RemoveMinion(m, m);
-                                }
-                            });
                         }
-                    }
-                    catch (Exception ex)
-                    {
-                        Console.WriteLine(ex.ToString());
+                        CreateTimer(jackduration, () =>
+                        {
+                            if (!m.IsDead)
+                            {
+                                m.Die(m);
+                                RemoveMinion(m, m); // Without this, minion does not always die, causing enemy AI to forever target "dead" minion.
+                            }
+                        });
                     }
                 }
             }
@@ -101,10 +94,6 @@ namespace Spells
         }
 
         public void OnUpdate(double diff)
-        {
-        }
-
-        public void OnData()
         {
         }
     }
