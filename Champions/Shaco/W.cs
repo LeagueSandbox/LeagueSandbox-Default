@@ -34,14 +34,10 @@ namespace Spells
 
         public void OnFinishCasting(IChampion owner, ISpell spell, IAttackableUnit target)
         {
-            IMinion m = AddMinion(owner, "ShacoBox", "ShacoBox", spell.X, spell.Y);
-            AddParticle(owner, "JackintheboxPoof.troy", spell.X, spell.Y);
-
             var castrange = spell.SpellData.CastRange[0];
             var apbonus = owner.Stats.AbilityPower.Total * 0.2f;
             var damage = 35 + ((15 * (spell.Level - 1)) + apbonus); //TODO: Should replace minion AA damage
             var jackduration = 5.0f; //TODO: Split into Active duration and Hidden duration when Invisibility is implemented
-            var attackrange = m.Stats.Range.Total;
             var attspeed = 1 / 1.8f; // 1.8 attacks a second = ~.56 seconds per attack, could not extrapolate from minion stats
             //TODO: Implement Fear buff and ShacoBoxSpell
             //var fearrange = 300;
@@ -51,6 +47,11 @@ namespace Spells
 
             if (owner.WithinRange(ownerPos, spellPos, castrange))
             {
+                IMinion m = AddMinion(owner, "ShacoBox", "ShacoBox", spell.X, spell.Y);
+                AddParticle(owner, "JackintheboxPoof.troy", spell.X, spell.Y);
+
+                var attackrange = m.Stats.Range.Total;
+
                 if (m.IsVisibleByTeam(owner.Team))
                 {
                     if (!m.IsDead)
@@ -97,4 +98,3 @@ namespace Spells
         {
         }
     }
-}
