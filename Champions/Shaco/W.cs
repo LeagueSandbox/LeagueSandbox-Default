@@ -81,7 +81,7 @@ namespace Spells
                         {
                             if (!m.IsDead)
                             {
-                                RemoveMinion(m, m); // Without this, minion does not always die, causing enemy AI to forever target "dead" minion.
+                                m.Die(m); //TODO: Fix targeting issues
                             }
                         });
                     }
