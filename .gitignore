@@ -119,3 +119,7 @@ GameServer/Settings/Settings.json
 GameServer/Settings/GameInfo.json
 GameServerApp/Settings/Settings.json
 GameServerApp/Settings/GameInfo.json
+.vs/LeagueSandbox-Default/v15/Server/sqlite3/db.lock
+.vs/LeagueSandbox-Default/v15/Server/sqlite3/storage.ide
+.vs/LeagueSandbox-Default/v15/Server/sqlite3/storage.ide-shm
+.vs/LeagueSandbox-Default/v15/Server/sqlite3/storage.ide-wal

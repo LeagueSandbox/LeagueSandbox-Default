@@ -104,6 +104,7 @@
     <Compile Include="Champions\Lux\R.cs" />
     <Compile Include="Champions\MasterYi\R.cs" />
     <Compile Include="Champions\Olaf\Q.cs" />
+    <Compile Include="Champions\Shaco\W.cs" />
     <Compile Include="Champions\Teemo\Q.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
