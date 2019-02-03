@@ -5,7 +5,7 @@ using LeagueSandbox.GameServer.Scripting.CSharp;
 
 namespace Snare
 {
-    internal class Disarm : IBuffGameScript
+    internal class Snare : IBuffGameScript
     {
         private UnitCrowdControl _crowd = new UnitCrowdControl(CrowdControlType.SNARE);
 
