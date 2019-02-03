@@ -29,7 +29,7 @@ namespace Spells
             var to = Vector2.Normalize(new Vector2(spell.X, spell.Y) - current);
             var range = to * 1150;
             var trueCoords = current + range;
-            spell.AddProjectile("CaitlynPiltoverPeacemaker", trueCoords.X, trueCoords.Y, true);
+            spell.AddProjectile("CaitlynPiltoverPeacemaker", owner.X, owner.Y, trueCoords.X, trueCoords.Y, true);
         }
 
         public void ApplyEffects(IChampion owner, IAttackableUnit target, ISpell spell, IProjectile projectile)

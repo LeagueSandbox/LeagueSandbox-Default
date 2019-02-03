@@ -27,7 +27,7 @@ namespace Spells
             var to = Vector2.Normalize(new Vector2(target.X, target.Y) - current);
             var range = to * 1150;
             var trueCoords = current + range;
-            spell.AddProjectile("AkaliMota", trueCoords.X, trueCoords.Y);
+            spell.AddProjectile("AkaliMota", owner.X, owner.Y, trueCoords.X, trueCoords.Y);
         }
 
         public void ApplyEffects(IChampion owner, IAttackableUnit target, ISpell spell, IProjectile projectile)

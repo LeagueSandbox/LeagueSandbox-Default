@@ -28,7 +28,7 @@ namespace Spells
             var range = to * 900;
             var trueCoords = current + range;
 
-            spell.AddProjectile("LucianWMissile", trueCoords.X, trueCoords.Y);
+            spell.AddProjectile("LucianWMissile", owner.X, owner.Y, trueCoords.X, trueCoords.Y);
         }
 
         public void ApplyEffects(IChampion owner, IAttackableUnit target, ISpell spell, IProjectile projectile)

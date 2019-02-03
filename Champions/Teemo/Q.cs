@@ -29,7 +29,7 @@ namespace Spells
             var range = to * 580;
             var trueCoords = current + range;
 
-            spell.AddProjectile("ToxicShot", trueCoords.X, trueCoords.Y);
+            spell.AddProjectile("ToxicShot", owner.X, owner.Y, trueCoords.X, trueCoords.Y);
         }
 
         public void ApplyEffects(IChampion owner, IAttackableUnit target, ISpell spell, IProjectile projectile)
