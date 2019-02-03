@@ -31,7 +31,7 @@ namespace Spells
             var to = Vector2.Normalize(new Vector2(spell.X, spell.Y) - castcoords);
             var range = to * 1500f;
             var trueCoords = castcoords + range;
-            spell.AddProjectileCoords("JavelinToss", castcoords.X, castcoords.Y, trueCoords.X, trueCoords.Y, true);
+            spell.AddProjectile("JavelinToss", castcoords.X, castcoords.Y, trueCoords.X, trueCoords.Y, true);
         }
 
         public void ApplyEffects(IChampion owner, IAttackableUnit target, ISpell spell, IProjectile projectile)
