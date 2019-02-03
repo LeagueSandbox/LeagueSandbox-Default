@@ -38,7 +38,7 @@ namespace Spells
                 trueCoords = new Vector2(spell.X, spell.Y);
             }
 
-            spell.AddProjectile("OlafAxeThrowDamage", trueCoords.X, trueCoords.Y);
+            spell.AddProjectile("OlafAxeThrowDamage", owner.X, owner.Y, trueCoords.X, trueCoords.Y);
         }
 
         public void ApplyEffects(IChampion owner, IAttackableUnit target, ISpell spell, IProjectile projectile)

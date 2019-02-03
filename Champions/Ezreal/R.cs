@@ -30,7 +30,7 @@ namespace Spells
             var range = to * 20000;
             var trueCoords = current + range;
 
-            spell.AddProjectile("EzrealTrueshotBarrage", trueCoords.X, trueCoords.Y, true);
+            spell.AddProjectile("EzrealTrueshotBarrage", owner.X, owner.Y, trueCoords.X, trueCoords.Y, true);
         }
 
         public void ApplyEffects(IChampion owner, IAttackableUnit target, ISpell spell, IProjectile projectile)

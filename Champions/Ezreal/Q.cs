@@ -28,7 +28,7 @@ namespace Spells
             var to = Vector2.Normalize(new Vector2(spell.X, spell.Y) - current);
             var range = to * 1150;
             var trueCoords = current + range;
-            spell.AddProjectile("EzrealMysticShotMissile", trueCoords.X, trueCoords.Y);
+            spell.AddProjectile("EzrealMysticShotMissile", owner.X, owner.Y, trueCoords.X, trueCoords.Y);
         }
 
         public void ApplyEffects(IChampion owner, IAttackableUnit target, ISpell spell, IProjectile projectile)
