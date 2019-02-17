@@ -67,8 +67,7 @@ namespace Spells
             owner.Stats.Range.FlatBonus += 75;
             var b1 = AddBuffHudVisual("Takedown", 4f, 1, BuffType.COMBAT_ENCHANCER, owner);
             for (marktimeactive = 0.0f; marktimeactive < marktime; marktimeactive += updateinterval)
-            {
-                LogInfo("Current Mark Time: " + marktimeactive);
+            {               
                 if (mark == null)
                 {
                     RemoveParticle(mark);
@@ -76,8 +75,7 @@ namespace Spells
                 }                
                 CreateTimer(marktimeactive, () => {
                     if (owner.IsAttacking && owner.AutoAttackTarget != null && mark != null)
-                    {
-                        LogInfo("You auto attacked a marked target.");
+                    {                        
                         RemoveBuffHudVisual(b1);
                         RemoveParticle(mark);
                         OnProc(owner.AutoAttackTarget, false);
