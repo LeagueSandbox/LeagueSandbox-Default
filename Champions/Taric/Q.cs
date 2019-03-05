@@ -20,9 +20,8 @@ namespace Spells
             if (target.Team == owner.Team)
             {
                 var p1 = AddParticleTarget(owner, "Imbue_glow.troy", target, 1);
-                var p2 = AddParticleTarget(owner, "Imbue_cas.troy", owner, 1);
-                var time = 2.5f + 0.5f * spell.Level;
-                CreateTimer(time, () =>
+                var p2 = AddParticleTarget(owner, "Imbue_cas.troy", owner, 1);                
+                CreateTimer(1.75f, () =>
                 {
                     RemoveParticle(p1);
                     RemoveParticle(p2);
@@ -51,7 +50,6 @@ namespace Spells
 
             if (target == owner && spell.Target == owner)
             {
-                healthGain = 0;
                 var Sap = owner.Stats.AbilityPower.Total * 0.42f;
                 var Sbhp = (owner.Stats.HealthPoints.Total - owner.Stats.HealthPoints.BaseValue) * 0.07f;
                 healthGain = 28 + spell.Level * 56 + Sap + Sbhp;
