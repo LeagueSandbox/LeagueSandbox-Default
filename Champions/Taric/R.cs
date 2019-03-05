@@ -21,15 +21,7 @@ namespace Spells
 
         public void OnStartCasting(IChampion owner, ISpell spell, IAttackableUnit target)
         {
-            var hasbuff = owner.HasBuffGameScriptActive("TaricPassive", "TaricPassive");
-            if (hasbuff == false)
-            {
-                owner.AddBuffGameScript("TaricPassive", "TaricPassive", spell, 8.0f, true);
-            }
-            if (hasbuff == true)
-            {
-                return;
-            }
+            //Wait for API of Passive
         }
 
         public void OnFinishCasting(IChampion owner, ISpell spell, IAttackableUnit target)
