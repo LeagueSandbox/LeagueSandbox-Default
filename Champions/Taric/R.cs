@@ -53,7 +53,7 @@ namespace Spells
             foreach (var allyTarget in GetUnitsInRange(owner, 1100, true)
                 .Where(x => x.Team != CustomConvert.GetEnemyTeam(owner.Team)))
             {
-                if (owner.Team == allyTarget.Team && owner != allyTarget && hasbuff == false && allyTarget is IChampion || allyTarget is IMinion)
+                if (owner.Team == allyTarget.Team && owner != allyTarget && hasbuff == false && allyTarget is IChampion)
                 {
                     ((ObjAiBase)allyTarget).AddBuffGameScript("Radiance_ally", "Radiance_ally", spell, 10.0f, true);
                 }
@@ -67,11 +67,7 @@ namespace Spells
                     RemoveParticle(p3);
                 });
             }
-            if (hasbuff == true)
-            {
-                return;
-            }
-
+            
             CreateTimer(10.0f, () =>
             {
                 RemoveParticle(p1);
