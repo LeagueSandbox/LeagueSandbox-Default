@@ -23,8 +23,7 @@ namespace Radiance_ally
 
         public void OnDeactivate(IObjAiBase unit)
         {
-            unit.RemoveStatModifier(_statMod);
-            //RemoveBuffHudVisual(_healBuff);
+            unit.RemoveStatModifier(_statMod);            
         }
 
         public void OnUpdate(double diff)
