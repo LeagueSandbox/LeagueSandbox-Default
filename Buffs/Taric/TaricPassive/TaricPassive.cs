@@ -12,8 +12,6 @@ namespace TaricPassive
     {
         
         private IBuff _visualBuff;
-        //private IObjAiBase unit;
-        //private ISpell ownerSpell;
         public IChampion _owner;
         public void OnActivate(IObjAiBase unit, ISpell ownerSpell)
         {
@@ -25,7 +23,6 @@ namespace TaricPassive
                     RemoveBuffHudVisual(_visualBuff);
                 }
             }
-            //unit.AutoAttackHit(target);
         }       
 
         public void OnHit(IObjAiBase unit)
