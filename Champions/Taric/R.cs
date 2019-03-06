@@ -21,7 +21,7 @@ namespace Spells
 
         public void OnStartCasting(IChampion owner, ISpell spell, IAttackableUnit target)
         {
-            //Wait for API of Passive
+            
         }
 
         public void OnFinishCasting(IChampion owner, ISpell spell, IAttackableUnit target)
