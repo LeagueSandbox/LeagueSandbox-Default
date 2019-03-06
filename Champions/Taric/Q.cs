@@ -3,7 +3,6 @@ using GameServerCore.Domain.GameObjects;
 using GameServerCore.Domain;
 using static LeagueSandbox.GameServer.API.ApiFunctionManager;
 using LeagueSandbox.GameServer.Scripting.CSharp;
-using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
 
 namespace Spells
 {
