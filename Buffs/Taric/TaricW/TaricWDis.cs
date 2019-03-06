@@ -13,9 +13,7 @@ namespace TaricWDis
         private IBuff _visualBuff;        
         public void OnActivate(IObjAiBase unit,ISpell spell)
         {
-            
-            _visualBuff = AddBuffHudVisual("Shatter", 4f, 1, BuffType.COMBAT_DEHANCER, unit);            
-            //Immunity to slowness not added
+            _visualBuff = AddBuffHudVisual("Shatter", 4f, 1, BuffType.COMBAT_DEHANCER, unit);
         }
 
         public void OnDeactivate(IObjAiBase unit)
