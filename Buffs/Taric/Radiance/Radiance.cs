@@ -20,11 +20,6 @@ namespace Radiance
             unit.AddStatModifier(_statMod);
             var a =_healBuff = AddBuffHudVisual("Radiance", 10.0f, 1, BuffType.COMBAT_ENCHANCER, unit,10.0f);
             var b =_healBuff = AddBuffHudVisual("RadianceAura", 10.0f, 1, BuffType.COMBAT_ENCHANCER, unit,10.0f);
-            //CreateTimer(10.0f, () =>
-            // {
-            //     RemoveBuffHudVisual(a);
-            //     RemoveBuffHudVisual(b);
-            // });
         }
 
         public void OnDeactivate(IObjAiBase unit)
