@@ -12,7 +12,6 @@ namespace Spells
         public void OnStartCasting(IChampion owner, ISpell spell, IAttackableUnit target)
         {
             spell.SpellAnimation("SPELL1", owner);
-            //Wait for API of passive
         }
 
         public void OnFinishCasting(IChampion owner, ISpell spell, IAttackableUnit target)
