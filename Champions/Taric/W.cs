@@ -45,7 +45,7 @@ namespace Spells
                 .Where(x => x.Team == CustomConvert.GetEnemyTeam(owner.Team)))
             {
                 var hasbuff = ((ObjAiBase)enemys).HasBuffGameScriptActive("TaricWDis", "TaricWDis");
-                if (enemys is IChampion || enemys is IMinion && enemys != owner)
+                if (enemys is IAttackableUnit && enemys != owner)
                 {
                     enemys.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
                     var p2 = AddParticleTarget(owner, "Shatter_tar.troy", enemys, 1);
