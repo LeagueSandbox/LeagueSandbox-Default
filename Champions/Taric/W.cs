@@ -18,7 +18,7 @@ namespace Spells
 
         public void OnActivate(IChampion owner)
         {
-            //TODO: Add Shatter's Passive
+            
         }
        
         public void OnDeactivate(IChampion owner)
@@ -39,8 +39,7 @@ namespace Spells
             var reduce = spell.Level * 5 + armor * 0.05f;
             var p1 = AddParticleTarget(owner, "Shatter_nova.troy", owner, 1);
             _statMod.Armor.FlatBonus -= reduce;
-
-            // W Damage(AOE) and Disarmor
+            
             foreach (var enemys in GetUnitsInRange(owner, 375, true)
                 .Where(x => x.Team == CustomConvert.GetEnemyTeam(owner.Team)))
             {
