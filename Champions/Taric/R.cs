@@ -35,7 +35,7 @@ namespace Spells
             foreach (var enemyTarget in GetUnitsInRange(owner, 375, true)
                 .Where(x => x.Team == CustomConvert.GetEnemyTeam(owner.Team)))
             {
-                if (owner.Team != enemyTarget.Team && enemyTarget is IMinion || enemyTarget is ILaneMinion || enemyTarget is IChampion)
+                if (owner.Team != enemyTarget.Team && enemyTarget is IAttackableUnit)
                 {
                     enemyTarget.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL,false);
                     var ep1 = AddParticleTarget(owner, "Taric_GemStorm_Tar.troy", enemyTarget, 1.25f);
@@ -53,7 +53,7 @@ namespace Spells
             foreach (var allyTarget in GetUnitsInRange(owner, 1100, true)
                 .Where(x => x.Team != CustomConvert.GetEnemyTeam(owner.Team)))
             {
-                if (owner.Team == allyTarget.Team && owner != allyTarget && hasbuff == false && allyTarget is IChampion)
+                if (owner.Team == allyTarget.Team && owner != allyTarget && hasbuff == false && allyTarget is IAttackableUnit)
                 {
                     ((ObjAiBase)allyTarget).AddBuffGameScript("Radiance_ally", "Radiance_ally", spell, 10.0f, true);
                 }
