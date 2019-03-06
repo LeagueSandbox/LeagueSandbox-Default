@@ -25,8 +25,7 @@ namespace Spells
         }
 
         public void OnFinishCasting(IChampion owner, ISpell spell, IAttackableUnit target)
-        {
-            //this is for fixing bug about fail cast spell
+        {            
             if (owner.GetDistanceTo(target) > 625)
             {
                 return;
