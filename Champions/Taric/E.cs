@@ -26,6 +26,7 @@ namespace Spells
 
         public void OnFinishCasting(IChampion owner, ISpell spell, IAttackableUnit target)
         {
+            //this is for fixing bug about fail cast spell
             if (owner.GetDistanceTo(target) > 625)
             {
                 return;
@@ -33,8 +34,7 @@ namespace Spells
             else
             {
                 spell.AddProjectileTarget("Dazzle", target, true);
-            }
-            //for a little bug of casting spell will reduce mana,but the range and projectile didn't within and comes out
+            }            
         }
 
         public void ApplyEffects(IChampion owner, IAttackableUnit target, ISpell spell, IProjectile projectile)
