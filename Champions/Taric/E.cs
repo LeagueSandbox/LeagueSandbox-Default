@@ -50,7 +50,7 @@ namespace Spells
 
             target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
 
-            AddBuffHudVisual("Stun", time, 1, BuffType.COMBAT_DEHANCER, (ObjAiBase)target, time);
+            ((ObjAiBase)target).AddBuffGameScript("TaricEhud", "TaricEhud", spell, time, true);
             ((ObjAiBase)target).AddBuffGameScript("Stun", "Stun", spell, time, true);
             var p1 = AddParticleTarget(owner, "Dazzle_tar.troy", target);
             var p102 = AddParticleTarget(owner, "Global_Stun.troy", target, 1.25f, "head");
