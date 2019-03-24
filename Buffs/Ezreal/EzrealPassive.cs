@@ -20,7 +20,6 @@ namespace RisingSpell
             _statMod.AttackSpeed.PercentBonus += (10f / 100f)* stacks;
             unit.AddStatModifier(_statMod);
             _visualBuff = AddBuffHudVisual("EzrealRisingSpellForce", 6.0f, stacks, BuffType.COMBAT_ENCHANCER, unit);
-            //Immunity to slowness not added
         }
 
         public void OnDeactivate(IObjAiBase unit)
