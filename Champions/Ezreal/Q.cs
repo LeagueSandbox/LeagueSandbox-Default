@@ -54,7 +54,6 @@ namespace Spells
                 stacks = 5;
             }
             owner.AddBuffGameScript("RisingSpell", "RisingSpell", spell, 6f, true);
-            //Passive(owner,spell,target);
             CreateTimer(6f, () =>
             {
                 if (hasbuff == false)
