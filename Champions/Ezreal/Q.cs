@@ -10,7 +10,7 @@ namespace Spells
     public class EzrealMysticShot : IGameScript
     {
         public static byte stacks = 0;
-        static IBuff buff;
+        private static float counting = 0.0f;   
         
         public void OnActivate(IChampion owner)
         {
@@ -53,14 +53,22 @@ namespace Spells
             {
                 stacks = 5;
             }
+            counting = 0.0f;
             owner.AddBuffGameScript("RisingSpell", "RisingSpell", spell, 6f, true);
-            CreateTimer(6f, () =>
+            for (counting = 0.0f; counting <= 6.1f; counting += 0.1f)
             {
-                if (hasbuff == false)
+                if (counting >= 6.0f)
                 {
-                    stacks = 0;
+                    if (hasbuff)
+                    {
+                        return;
+                    }
+                    if (hasbuff == false)
+                    {
+                        stacks = 0;
+                    }
                 }
-            });
+            }
         }
 
         public void OnUpdate(double diff)
