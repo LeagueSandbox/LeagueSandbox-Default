@@ -9,8 +9,12 @@ namespace Spells
 {
     public class EzrealMysticShot : IGameScript
     {
+        public static byte stacks = 0;
+        static IBuff buff;
+        
         public void OnActivate(IChampion owner)
         {
+            
         }
 
         public void OnDeactivate(IChampion owner)
@@ -33,6 +37,7 @@ namespace Spells
 
         public void ApplyEffects(IChampion owner, IAttackableUnit target, ISpell spell, IProjectile projectile)
         {
+            var hasbuff = owner.HasBuffGameScriptActive("RisingSpell", "RisingSpell");
             var ad = owner.Stats.AttackDamage.Total * 1.1f;
             var ap = owner.Stats.AbilityPower.Total * 0.4f;
             var damage = 15 + spell.Level * 20 + ad + ap;
@@ -41,8 +46,22 @@ namespace Spells
             {
                 owner.Spells[i].LowerCooldown(1);
             }
-
             projectile.SetToRemove();
+
+            stacks++;
+            if (stacks > 5)
+            {
+                stacks = 5;
+            }
+            owner.AddBuffGameScript("RisingSpell", "RisingSpell", spell, 6f, true);
+            //Passive(owner,spell,target);
+            CreateTimer(6f, () =>
+            {
+                if (hasbuff == false)
+                {
+                    stacks = 0;
+                }
+            });
         }
 
         public void OnUpdate(double diff)
