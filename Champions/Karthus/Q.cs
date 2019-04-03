@@ -1,5 +1,3 @@
-using System.Linq;
-using GameServerCore;
 using GameServerCore.Enums;
 using GameServerCore.Domain.GameObjects;
 using static LeagueSandbox.GameServer.API.ApiFunctionManager;
