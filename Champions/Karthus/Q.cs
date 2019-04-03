@@ -43,7 +43,6 @@ namespace Spells
                         {
                             damage *= 2;
                             AddParticle(owner, "Karthus_Base_Q_Hit_Single.troy", spell.X, spell.Y);
-                            //AddParticle(owner, "ZiggsR_Nova.troy", spell.X, spell.Y);
                             units.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, true);
                         }
                         if (range.Count > 2)
@@ -55,7 +54,7 @@ namespace Spells
                 }
                 m.SetToRemove();
                 AddParticle(owner, "Karthus_Base_Q_Explosion.troy", spell.X, spell.Y);
-                AddParticle(owner, "Karthus_Base_Q_Explosion_Sound.troy", spell.X, spell.Y,4);
+                AddParticle(owner, "Karthus_Base_Q_Explosion_Sound.troy", spell.X, spell.Y);
             });
         }   
 
