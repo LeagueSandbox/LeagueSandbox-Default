@@ -10,7 +10,8 @@ namespace Radiance
     internal class Radiance : IBuffGameScript
     {
         private StatsModifier _statMod;
-        private IBuff _healBuff;
+        private IBuff _Buff01;
+        private IBuff _Buff02;
 
         public void OnActivate(IObjAiBase unit, ISpell ownerSpell)
         {
@@ -18,8 +19,8 @@ namespace Radiance
             _statMod.AttackDamage.FlatBonus += 10f + ownerSpell.Level * 20;
             _statMod.AbilityPower.FlatBonus += 10f + ownerSpell.Level * 20;
             unit.AddStatModifier(_statMod);
-            var a =_healBuff = AddBuffHudVisual("Radiance", 10.0f, 1, BuffType.COMBAT_ENCHANCER, unit,10.0f);
-            var b =_healBuff = AddBuffHudVisual("RadianceAura", 10.0f, 1, BuffType.COMBAT_ENCHANCER, unit,10.0f);
+            _Buff01 = AddBuffHudVisual("Radiance", 10.0f, 1, BuffType.COMBAT_ENCHANCER, unit,10.0f);
+            _Buff02 = AddBuffHudVisual("RadianceAura", 10.0f, 1, BuffType.COMBAT_ENCHANCER, unit,10.0f);
         }
 
         public void OnDeactivate(IObjAiBase unit)
