@@ -19,11 +19,6 @@ namespace TaricWDis
         public void OnDeactivate(IObjAiBase unit)
         {
             RemoveBuffHudVisual(_visualBuff);
-            
-        }
-
-        private void OnAutoAttack(AttackableUnit target, bool isCrit)
-        {
         }
 
         public void OnUpdate(double diff)
