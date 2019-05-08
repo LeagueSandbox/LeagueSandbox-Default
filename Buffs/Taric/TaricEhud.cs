@@ -14,18 +14,13 @@ namespace TaricEhud
         public void OnActivate(IObjAiBase unit,ISpell spell)
         {
             var time = 1.1f + 0.1f * spell.Level;
-            _visualBuff = AddBuffHudVisual("Stun", time, 1, BuffType.COMBAT_DEHANCER, unit);            
-            //Immunity to slowness not added
+            _visualBuff = AddBuffHudVisual("Stun", time, 1, BuffType.COMBAT_DEHANCER, unit);
         }
 
         public void OnDeactivate(IObjAiBase unit)
         {
             RemoveBuffHudVisual(_visualBuff);
             
-        }
-
-        private void OnAutoAttack(AttackableUnit target, bool isCrit)
-        {
         }
 
         public void OnUpdate(double diff)
