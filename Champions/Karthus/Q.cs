@@ -24,26 +24,27 @@ namespace Spells
             AddParticle(owner, "Karthus_Base_Q_Skull_Child.troy", spell.X, spell.Y);
             CreateTimer(0.5f, () =>
             {
-                IGameObject m = AddMinion(owner, "TestCube", "TestCube", spell.X, spell.Y);
-                var range = GetUnitsInRange(m, 100, true);
+                IGameObject m = AddParticle(owner, "Karthus_Base_Q_Explosion.troy", spell.X, spell.Y);
+                var spellPosition = GetUnitsInRange(m, 150, true);
                 var ap = owner.Stats.AbilityPower.Total;
                 var damage = 20f + spell.Level * 20f + ap * 0.3f;
                 
-                foreach (var units in range)
+                foreach (var units in spellPosition
+                .Where(x => x.Team == CustomConvert.GetEnemyTeam(owner.Team)))
                 {
-                    if (units.Team != owner.Team && units is IChampion || units is IMinion)
+                    if (units is IChampion || units is IMinion)
                     {
-                        if (range.Count == 1)
+                        if (spellPosition.Count == 0)
                         {
                             AddParticle(owner, "Karthus_Base_Q_Hit_Miss.troy", spell.X, spell.Y);
                         }
-                        if (range.Count == 2)
+                        if (spellPosition.Count == 1)
                         {
                             damage *= 2;
                             AddParticle(owner, "Karthus_Base_Q_Hit_Single.troy", spell.X, spell.Y);
                             units.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, true);
                         }
-                        if (range.Count > 2)
+                        if (spellPosition.Count > 1)
                         {
                             AddParticle(owner, "Karthus_Base_Q_Hit_Many.troy", spell.X, spell.Y);
                             units.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
@@ -51,7 +52,6 @@ namespace Spells
                     }
                 }
                 m.SetToRemove();
-                AddParticle(owner, "Karthus_Base_Q_Explosion.troy", spell.X, spell.Y);
                 AddParticle(owner, "Karthus_Base_Q_Explosion_Sound.troy", spell.X, spell.Y);
             });
         }   
