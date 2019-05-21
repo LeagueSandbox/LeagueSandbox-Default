@@ -43,14 +43,14 @@ namespace Spells
         private void PerformHeal(IChampion owner, ISpell spell, IAttackableUnit target)
         {
             var ap = owner.Stats.AbilityPower.Total * 0.3f;
-            var bhp = (owner.Stats.HealthPoints.Total - owner.Stats.HealthPoints.BaseValue) * 0.05f;
-            float healthGain = 20 + spell.Level * 40 + ap + bhp;
+            var BaseHp = (owner.Stats.HealthPoints.Total - owner.Stats.HealthPoints.BaseValue) * 0.05f;
+            float healthGain = 20 + spell.Level * 40 + ap + BaseHp;
 
             if (target == owner && spell.Target == owner)
             {
-                var Sap = owner.Stats.AbilityPower.Total * 0.42f;
-                var Sbhp = (owner.Stats.HealthPoints.Total - owner.Stats.HealthPoints.BaseValue) * 0.07f;
-                healthGain = 28 + spell.Level * 56 + Sap + Sbhp;
+                var selfAp = owner.Stats.AbilityPower.Total * 0.42f;
+                var selfBaseHp = (owner.Stats.HealthPoints.Total - owner.Stats.HealthPoints.BaseValue) * 0.07f;
+                healthGain = 28 + spell.Level * 56 + selfAp + selfBaseHp;
             }
 
             var newHealth = target.Stats.CurrentHealth + healthGain;
