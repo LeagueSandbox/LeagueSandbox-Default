@@ -41,18 +41,18 @@ namespace Spells
             var damage = 10 + spell.Level * 30 + ap * 0.2f;
             if (owner.GetDistanceTo(target) <= 460)
             {
-                damage = 15 + spell.Level * 45 + ap * 0.3f;
-                if (owner.GetDistanceTo(target) <= 295)
-                {
-                    damage = 20 + spell.Level * 60 + ap * 0.4f;
-                }
+            damage = 15 + spell.Level * 45 + ap * 0.3f;                
+            }
+            if (owner.GetDistanceTo(target) <= 295)
+            {
+            damage = 20 + spell.Level * 60 + ap * 0.4f;
             }
 
             target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
 
             ((ObjAiBase)target).AddBuffGameScript("TaricEhud", "TaricEhud", spell, time, true);
             ((ObjAiBase)target).AddBuffGameScript("Stun", "Stun", spell, time, true);
-            var p1 = AddParticleTarget(owner, "Dazzle_tar.troy", target);
+            AddParticleTarget(owner, "Dazzle_tar.troy", target);
             var p102 = AddParticleTarget(owner, "Global_Stun.troy", target, 1.25f, "head");
             var p103 = AddParticleTarget(owner, "Taric_HammerFlare.troy", target, 1);
 
