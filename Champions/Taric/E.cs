@@ -41,11 +41,11 @@ namespace Spells
             var damage = 10 + spell.Level * 30 + ap * 0.2f;
             if (owner.GetDistanceTo(target) <= 460)
             {
-            damage = 15 + spell.Level * 45 + ap * 0.3f;                
+                damage = 15 + spell.Level * 45 + ap * 0.3f;                
             }
             if (owner.GetDistanceTo(target) <= 295)
             {
-            damage = 20 + spell.Level * 60 + ap * 0.4f;
+                damage = 20 + spell.Level * 60 + ap * 0.4f;
             }
 
             target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
