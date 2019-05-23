@@ -31,7 +31,7 @@ namespace Spells
             var armor = owner.Stats.Armor.Total;
             var damage = spell.Level * 40 + armor * 0.2f;
             var reduce = spell.Level * 5 + armor * 0.05f;
-            var p1 = AddParticleTarget(owner, "Shatter_nova.troy", owner, 1);
+            AddParticleTarget(owner, "Shatter_nova.troy", owner, 1);
 
             foreach (var enemys in GetUnitsInRange(owner, 375, true)
                 .Where(x => x.Team == CustomConvert.GetEnemyTeam(owner.Team)))
