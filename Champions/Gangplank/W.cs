@@ -30,7 +30,7 @@ namespace Spells
         public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target)
         {	
             float ap = owner.Stats.AbilityPower.Total * 0.1f;
-            //owner.RestoreHealth(15*ap); //dont know which function replaces RestoreHealth in current fork
+            owner.Stats.CurrentHealth += 15*ap; 
             var buff = ((ObjAIBase) target).AddBuffGameScript("GangplankW", "GangplankW", spell);
             CreateTimer(5.0f, () =>
             {
