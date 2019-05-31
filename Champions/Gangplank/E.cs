@@ -9,9 +9,9 @@ using GameServerCore;
 
 namespace Spells
 {
-    public class RaiseMorale : GameScript
+    public class RaiseMorale : IGameScript
     {
-        public void OnActivate(Champion owner)
+        public void OnActivate(IChampion owner)
         {
         }
 
@@ -19,15 +19,15 @@ namespace Spells
         {
         }
 
-        public void OnDeactivate(Champion owner)
+        public void OnDeactivate(IChampion owner)
         {
         }
 
-        public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target)
+        public void OnStartCasting(IChampion owner, ISpell spell, IAttackableUnit target)
         {
         }
 
-        public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target)
+        public void OnFinishCasting(IChampion owner, ISpell spell, IAttackableUnit target)
         {		
             Particle p = AddParticleTarget(owner, "pirate_raiseMorale_cas.troy", target, 1);
             Particle p2 = AddParticleTarget(owner, "pirate_raiseMorale_mis.troy", target, 1);
@@ -43,10 +43,18 @@ namespace Spells
                 if (allyTarget is IAttackableUnit && owner != allyTarget && hasbuff == false)
                 {
                     ((ObjAIBase) allyTarget).AddBuffGameScript("GangplankE", "GangplankE", spell, 7.0f, true);
-                    AddBuffHUDVisual("RaiseMorale", 7.0f, 1, target);
+                    var visualBuffally = AddBuffHUDVisual("RaiseMorale", 7.0f, 1, target);
                     Particle p_ally1 = AddParticleTarget(owner, "pirate_raiseMorale_cas.troy", target, 1);
                     Particle p_ally2 = AddParticleTarget(owner, "pirate_raiseMorale_mis.troy", target, 1);
                     Particle p_ally3 = AddParticleTarget(owner, "pirate_raiseMorale_tar.troy", target, 1);
+                    
+                    CreateTimer(7.0f, () => //timer to remove particle and hudvisual for allies //idk if its good
+                    {
+                        RemoveParticle(p_ally1);
+                        RemoveParticle(p_ally2);
+                        RemoveParticle(p_ally3);
+                        RemoveBuffHUDVisual(visualBuffally);
+                    });
                 }
             }
             
@@ -56,15 +64,16 @@ namespace Spells
                 RemoveParticle(p);
                 RemoveParticle(p2);
                 RemoveParticle(p3);
-                RemoveParticle(p_ally1);
-                RemoveParticle(p_ally2);
-                RemoveParticle(p_ally3);
+                //RemoveParticle(p_ally1);
+                //RemoveParticle(p_ally2);
+                //RemoveParticle(p_ally3);
                 RemoveBuffHUDVisual(visualBuff);
+                //RemoveBuffHUDVisual(visualBuffally);
                 owner.RemoveBuffGameScript(buff);
             });				
         }
 
-        public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile)
+        public void ApplyEffects(IChampion owner, IAttackableUnit target, ISpell spell, IProjectile projectile)
         {
         }
 
