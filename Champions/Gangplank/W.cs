@@ -2,6 +2,7 @@ using GameServerCore.Domain.GameObjects;
 using static LeagueSandbox.GameServer.API.ApiFunctionManager;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
 using LeagueSandbox.GameServer.Scripting.CSharp;
+using GameServerCore.Enums;
 
 namespace Spells
 {
@@ -27,10 +28,10 @@ namespace Spells
 
         public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target)
         {	
-            float ad = owner.GetStats().AttackDamage.Total * 0.1f;
-            owner.RestoreHealth(15*ad);
+            float ap = owner.Stats.AbilityPower.Total * 0.1f;
+            //owner.RestoreHealth(15*ap); //dont know which function replaces RestoreHealth in current fork
             var buff = ((ObjAIBase) target).AddBuffGameScript("GangplankW", "GangplankW", spell);
-            ApiFunctionManager.CreateTimer(5.0f, () =>
+            CreateTimer(5.0f, () =>
             {
                 //ApiFunctionManager.RemoveBuffHUDVisual(visualBuff);
                 owner.RemoveBuffGameScript(buff);
