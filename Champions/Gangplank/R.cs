@@ -1,10 +1,10 @@
 using System.Collections.Generic;
-using LeagueSandbox.GameServer.Logic.GameObjects;
-using LeagueSandbox.GameServer.Logic.API;
-using LeagueSandbox.GameServer.Logic.GameObjects.AttackableUnits;
-using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
+using GameServerCore.Domain.GameObjects;
+using static LeagueSandbox.GameServer.API.ApiFunctionManager;
+using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
+using LeagueSandbox.GameServer.Scripting.CSharp;
 using System.Numerics;
-using LeagueSandbox.GameServer.Logic;
+using GameServerCore;
 
 namespace Spells
 {
