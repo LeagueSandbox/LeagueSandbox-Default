@@ -3,18 +3,18 @@ using LeagueSandbox.GameServer.Scripting.CSharp;
 
 namespace GangplankW
 {
-    internal class GangplankW : BuffGameScript
+    internal class GangplankW : IBuffGameScript
     {
         private ChampionStatModifier _statMod;
 
-        public void OnActivate(ObjAIBase unit, Spell ownerSpell)
+        public void OnActivate(IObjAIBase unit, ISpell ownerSpell)
         {
             _statMod = new ChampionStatModifier();
             _statMod.MoveSpeed.PercentBonus = _statMod.MoveSpeed.PercentBonus + (10f + 5f * ownerSpell.Level) / 100f;
             unit.AddStatModifier(_statMod);
         }
 
-        public void OnDeactivate(ObjAIBase unit)
+        public void OnDeactivate(IObjAIBase unit)
         {
             unit.RemoveStatModifier(_statMod);
         }
