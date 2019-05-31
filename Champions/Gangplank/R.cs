@@ -9,7 +9,7 @@ using GameServerCore;
 
 namespace Spells
 {
-    public class CannonBarrage : GameScript
+    public class CannonBarrage : IGameScript
     {
 
         public void OnActivate(IChampion owner)
@@ -81,9 +81,9 @@ namespace Spells
             Particle p4 = AddParticleTarget(owner,"pirate_cannonBarrage_aoe_indicator_red.troy", ZoneCenter1);
 			
 	    
-	    for (int i = 0; i < 12; i++) //`for` instead of 12 timers // dont know if its working well ingame
+	    for (float p = 0.0f; p <= 12; p += 0.5f) //`for` instead of 12 timers // dont know if its working well ingame
 	    {
-		CreateTimer(0.5f, () =>
+		CreateTimer(p, () =>
 		{
 		    //TODO remove n1-n5 repeating (ZoneCenter 1-10)
 		    //List<int> listNs = new List<int>(); //generated numbers list
