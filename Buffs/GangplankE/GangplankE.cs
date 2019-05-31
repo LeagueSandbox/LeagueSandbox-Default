@@ -24,7 +24,7 @@ namespace GangplankE
             Particle p_ally3 = AddParticleTarget(owner, "pirate_raiseMorale_tar.troy", unit, 1);
         }
 
-        public void OnDeactivate(ObjAIBase unit)
+        public void OnDeactivate(IObjAIBase unit)
         {
             unit.RemoveStatModifier(_statMod);
             
