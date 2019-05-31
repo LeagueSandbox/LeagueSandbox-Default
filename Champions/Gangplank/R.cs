@@ -27,7 +27,7 @@ namespace Spells
 
         public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target)
         {
-            Target ZoneCenter;
+            Target ZoneCenter1;
             Target ZoneCenter2;
             Target ZoneCenter3;
             Target ZoneCenter4;
@@ -46,7 +46,7 @@ namespace Spells
                 var to = Vector2.Normalize(targetLocation - ownerLocation);
                 var range = to * 30000;
                 var trueCoords = ownerLocation + range;
-                ZoneCenter = new Target(trueCoords.X, trueCoords.Y); 
+                ZoneCenter1 = new Target(trueCoords.X, trueCoords.Y); 
                 ZoneCenter2 = new Target(trueCoords.X+225, trueCoords.Y+225); 
                 ZoneCenter3 = new Target(trueCoords.X-225, trueCoords.Y+225); 
                 ZoneCenter4 = new Target(trueCoords.X-125, trueCoords.Y-325); 
@@ -59,7 +59,7 @@ namespace Spells
             }
             else
             {
-                ZoneCenter = new Target(spell.X, spell.Y);
+                ZoneCenter1 = new Target(spell.X, spell.Y);
                 ZoneCenter2 = new Target(spell.X+225, spell.Y+225); 
                 ZoneCenter3 = new Target(spell.X-225, spell.Y+225); 
                 ZoneCenter4 = new Target(spell.X-125, spell.Y-325); 
@@ -75,127 +75,34 @@ namespace Spells
             AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter7);
             AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter6);
             AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter5);
-			DamageTargetsInZone(owner, spell, target, ZoneCenter);
-            Particle p2 = AddParticleTarget(owner,"pirate_cannonBarrage_glow.troy", ZoneCenter);
-            Particle p3 = AddParticleTarget(owner,"pirate_cannonBarrage_point.troy", ZoneCenter);
-            Particle p4 = AddParticleTarget(owner,"pirate_cannonBarrage_aoe_indicator_red.troy", ZoneCenter);
-			ApiFunctionManager.CreateTimer(0.5f, () =>
-            {
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter2);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter3);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter4);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter5);
-			DamageTargetsInZone(owner, spell, target, ZoneCenter);
-            });
-            CreateTimer(1.0f, () =>
-            {
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter2);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter8);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter4);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter9);
-			DamageTargetsInZone(owner, spell, target, ZoneCenter);
-            });
-            CreateTimer(1.5f, () =>
-            {
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter10);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter2);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter3);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter7);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter5);
-			DamageTargetsInZone(owner, spell, target, ZoneCenter);
-            });
-            CreateTimer(2.0f, () =>
-            {
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter8);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter2);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter9);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter4);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter6);
-			DamageTargetsInZone(owner, spell, target, ZoneCenter);
-            });
-            CreateTimer(2.5f, () =>
-            {
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter2);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter3);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter4);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter5);
-			DamageTargetsInZone(owner, spell, target, ZoneCenter);
-            });
-            CreateTimer(3.0f, () =>
-            {
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter6);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter5);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter8);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter2);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter10);
-			DamageTargetsInZone(owner, spell, target, ZoneCenter);
-            });
-            CreateTimer(3.5f, () =>
-            {
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter2);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter3);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter4);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter5);
-			DamageTargetsInZone(owner, spell, target, ZoneCenter);
-            });
-            CreateTimer(4.0f, () =>
-            {
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter10);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter2);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter3);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter7);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter5);
-			DamageTargetsInZone(owner, spell, target, ZoneCenter);
-            });
-            CreateTimer(4.5f, () =>
-            {
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter2);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter8);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter4);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter9);
-			DamageTargetsInZone(owner, spell, target, ZoneCenter);
-            });
-            CreateTimer(5.0f, () =>
-            {
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter2);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter3);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter4);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter5);
-			DamageTargetsInZone(owner, spell, target, ZoneCenter);
-            });
-            CreateTimer(5.5f, () =>
-            {
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter3);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter2);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter7);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter6);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter5);
-			DamageTargetsInZone(owner, spell, target, ZoneCenter);
-            });
-            CreateTimer(6.0f, () =>
-            {
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter9);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter3);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter8);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter4);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter);
-			DamageTargetsInZone(owner, spell, target, ZoneCenter);
-            });
-            CreateTimer(6.5f, () =>
-            {
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter2);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter8);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter4);
-            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter5);
-			DamageTargetsInZone(owner, spell, target, ZoneCenter);
-            });
+			DamageTargetsInZone(owner, spell, target, ZoneCenter1);
+            Particle p2 = AddParticleTarget(owner,"pirate_cannonBarrage_glow.troy", ZoneCenter1);
+            Particle p3 = AddParticleTarget(owner,"pirate_cannonBarrage_point.troy", ZoneCenter1);
+            Particle p4 = AddParticleTarget(owner,"pirate_cannonBarrage_aoe_indicator_red.troy", ZoneCenter1);
+			
+	    
+	    for (int i = 0; i < 12; i++) //`for` instead of 12 timers // dont know if its working well ingame
+	    {
+		CreateTimer(0.5f, () =>
+		{
+		    //TODO remove n1-n5 repeating (ZoneCenter 1-10)
+		    //List<int> listNs = new List<int>(); //generated numbers list
+		    //listNs.Contains(n1-5)); //listNs.Add(n1-5)); for do{}while
+		Random r = new Random();
+		int n1 = r.Next(0, 10);
+		int n2 = r.Next(0, 10);
+		int n3 = r.Next(0, 10);
+		int n4 = r.Next(0, 10);
+		int n5 = r.Next(0, 10);
+		AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter+n1);
+		AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter+n2);
+		AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter+n3);
+		AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter+n4);
+		AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter+n5);
+		DamageTargetsInZone(owner, spell, target, ZoneCenter1);
+		});
+	    }
+	    
             CreateTimer(7.0f, () =>
             {
                 RemoveParticle(p2);
