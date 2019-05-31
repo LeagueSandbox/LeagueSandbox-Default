@@ -1,5 +1,6 @@
 using GameServerCore.Domain.GameObjects;
 using LeagueSandbox.GameServer.Scripting.CSharp;
+using GameServerCore;
 
 namespace GangplankE
 {
@@ -8,7 +9,7 @@ namespace GangplankE
         private ChampionStatModifier _statMod;
         private IBuff _hudvisual;
 
-        public void OnActivate(IObjAIBase unit, ISpell ownerSpell)
+        public void OnActivate(IChampion owner, IObjAIBase unit, ISpell ownerSpell)
         {
             _statMod = new ChampionStatModifier();
             _statMod.AttackSpeed.PercentBonus = _statMod.AttackSpeed.PercentBonus + (10f + 20f * ownerSpell.Level) / 100f;
