@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using GameServerCore.Enums;
 using GameServerCore.Domain.GameObjects;
 using static LeagueSandbox.GameServer.API.ApiFunctionManager;
 using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
@@ -69,144 +70,144 @@ namespace Spells
                 ZoneCenter9 = new Target(spell.X+125, spell.Y-372); 
                 ZoneCenter10 = new Target(spell.X-355, spell.Y-411); 
             }
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter3);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter2);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter7);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter6);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter5);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter3);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter2);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter7);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter6);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter5);
 			DamageTargetsInZone(owner, spell, target, ZoneCenter);
-            Particle p2 = ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_glow.troy", ZoneCenter);
-            Particle p3 = ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_point.troy", ZoneCenter);
-            Particle p4 = ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_aoe_indicator_red.troy", ZoneCenter);
+            Particle p2 = AddParticleTarget(owner,"pirate_cannonBarrage_glow.troy", ZoneCenter);
+            Particle p3 = AddParticleTarget(owner,"pirate_cannonBarrage_point.troy", ZoneCenter);
+            Particle p4 = AddParticleTarget(owner,"pirate_cannonBarrage_aoe_indicator_red.troy", ZoneCenter);
 			ApiFunctionManager.CreateTimer(0.5f, () =>
             {
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter2);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter3);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter4);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter5);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter2);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter3);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter4);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter5);
 			DamageTargetsInZone(owner, spell, target, ZoneCenter);
             });
-            ApiFunctionManager.CreateTimer(1.0f, () =>
+            CreateTimer(1.0f, () =>
             {
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter2);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter8);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter4);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter9);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter2);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter8);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter4);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter9);
 			DamageTargetsInZone(owner, spell, target, ZoneCenter);
             });
-            ApiFunctionManager.CreateTimer(1.5f, () =>
+            CreateTimer(1.5f, () =>
             {
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter10);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter2);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter3);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter7);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter5);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter10);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter2);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter3);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter7);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter5);
 			DamageTargetsInZone(owner, spell, target, ZoneCenter);
             });
-            ApiFunctionManager.CreateTimer(2.0f, () =>
+            CreateTimer(2.0f, () =>
             {
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter8);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter2);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter9);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter4);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter6);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter8);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter2);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter9);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter4);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter6);
 			DamageTargetsInZone(owner, spell, target, ZoneCenter);
             });
-            ApiFunctionManager.CreateTimer(2.5f, () =>
+            CreateTimer(2.5f, () =>
             {
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter2);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter3);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter4);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter5);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter2);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter3);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter4);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter5);
 			DamageTargetsInZone(owner, spell, target, ZoneCenter);
             });
-            ApiFunctionManager.CreateTimer(3.0f, () =>
+            CreateTimer(3.0f, () =>
             {
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter6);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter5);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter8);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter2);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter10);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter6);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter5);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter8);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter2);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter10);
 			DamageTargetsInZone(owner, spell, target, ZoneCenter);
             });
-            ApiFunctionManager.CreateTimer(3.5f, () =>
+            CreateTimer(3.5f, () =>
             {
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter2);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter3);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter4);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter5);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter2);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter3);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter4);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter5);
 			DamageTargetsInZone(owner, spell, target, ZoneCenter);
             });
-            ApiFunctionManager.CreateTimer(4.0f, () =>
+            CreateTimer(4.0f, () =>
             {
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter10);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter2);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter3);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter7);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter5);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter10);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter2);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter3);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter7);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter5);
 			DamageTargetsInZone(owner, spell, target, ZoneCenter);
             });
-            ApiFunctionManager.CreateTimer(4.5f, () =>
+            CreateTimer(4.5f, () =>
             {
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter2);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter8);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter4);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter9);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter2);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter8);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter4);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter9);
 			DamageTargetsInZone(owner, spell, target, ZoneCenter);
             });
-            ApiFunctionManager.CreateTimer(5.0f, () =>
+            CreateTimer(5.0f, () =>
             {
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter2);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter3);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter4);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter5);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter2);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter3);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter4);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter5);
 			DamageTargetsInZone(owner, spell, target, ZoneCenter);
             });
-            ApiFunctionManager.CreateTimer(5.5f, () =>
+            CreateTimer(5.5f, () =>
             {
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter3);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter2);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter7);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter6);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter5);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter3);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter2);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter7);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter6);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter5);
 			DamageTargetsInZone(owner, spell, target, ZoneCenter);
             });
-            ApiFunctionManager.CreateTimer(6.0f, () =>
+            CreateTimer(6.0f, () =>
             {
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter9);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter3);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter8);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter4);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter9);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter3);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter8);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter4);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter);
 			DamageTargetsInZone(owner, spell, target, ZoneCenter);
             });
-            ApiFunctionManager.CreateTimer(6.5f, () =>
+            CreateTimer(6.5f, () =>
             {
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter2);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter8);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter4);
-            ApiFunctionManager.AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter5);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter2);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter8);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter4);
+            AddParticleTarget(owner,"pirate_cannonBarrage_tar.troy", ZoneCenter5);
 			DamageTargetsInZone(owner, spell, target, ZoneCenter);
             });
-            ApiFunctionManager.CreateTimer(7.0f, () =>
+            CreateTimer(7.0f, () =>
             {
-                ApiFunctionManager.RemoveParticle(p2);
-                ApiFunctionManager.RemoveParticle(p3);
-                ApiFunctionManager.RemoveParticle(p4);
+                RemoveParticle(p2);
+                RemoveParticle(p3);
+                RemoveParticle(p4);
             });
         }
 
         public void DamageTargetsInZone(Champion owner, Spell spell, AttackableUnit target, Target ZoneCenter)
         {
             List<AttackableUnit> units = ApiFunctionManager.GetUnitsInRange(ZoneCenter, 525, true);
-            var ap = owner.GetStats().AbilityPower.Total * 0.2f;
+            var ap = owner.Stats.AbilityPower.Total * 0.2f;
             var damage = ((new float[] { 78.125f, 115.875f, 138.75f })[spell.Level - 1]) + ap;
             foreach (AttackableUnit unit in units)
             {
