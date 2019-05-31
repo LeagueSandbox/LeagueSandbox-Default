@@ -30,7 +30,27 @@ namespace Spells
         public void OnFinishCasting(IChampion owner, ISpell spell, IAttackableUnit target)
         {	
             float ap = owner.Stats.AbilityPower.Total * 0.1f;
-            owner.Stats.CurrentHealth += 15*ap; 
+            
+            
+            // DONT KNOW IF ITS WORKING BUT I THINK THAT SHOULD BE FINE //
+            if (owner.Stats.CurrentHealth+15*ap >= owner.Stats.HealthPoints) // checking health (protection against possible increase of health points)
+            {
+                owner.Stats.CurrentHealth == owner.Stats.HealthPoints;
+            }
+            else if (owner.Stats.CurrentHealth == owner.Stats.HealthPoints)  // checking health (protection against possible increase of health points)
+            {
+                //return null; // do nothing
+            }
+            else if (owner.Stats.CurrentHealth+15*ap < owner.Stats.HealthPoints) // if everything is fine heal gp
+            {
+                owner.Stats.CurrentHealth += 15*ap;
+            }
+            else
+            {
+                //return null; // do nothing
+            }
+            // DONT KNOW IF ITS WORKING BUT I THINK THAT SHOULD BE FINE //
+            
             var buff = ((ObjAIBase) target).AddBuffGameScript("GangplankW", "GangplankW", spell);
             CreateTimer(5.0f, () =>
             {
