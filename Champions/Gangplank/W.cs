@@ -7,9 +7,9 @@ using GameServerCore.Enums;
 
 namespace Spells
 {
-    public class RemoveScurvy : GameScript
+    public class RemoveScurvy : IGameScript
     {
-        public void OnActivate(Champion owner)
+        public void OnActivate(IChampion owner)
         {
 
         }
@@ -18,16 +18,16 @@ namespace Spells
         {
         }
 
-        public void OnDeactivate(Champion owner)
+        public void OnDeactivate(IChampion owner)
         {
 
         }
 
-        public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target)
+        public void OnStartCasting(IChampion owner, ISpell spell, IAttackableUnit target)
         {	
         }
 
-        public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target)
+        public void OnFinishCasting(IChampion owner, ISpell spell, IAttackableUnit target)
         {	
             float ap = owner.Stats.AbilityPower.Total * 0.1f;
             owner.Stats.CurrentHealth += 15*ap; 
@@ -36,10 +36,10 @@ namespace Spells
             {
                 //ApiFunctionManager.RemoveBuffHUDVisual(visualBuff);
                 owner.RemoveBuffGameScript(buff);
-            });				
+            });	
         }
 
-        public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile)
+        public void ApplyEffects(IChampion owner, IAttackableUnit target, ISpell spell, IProjectile projectile)
         {
         }
 
