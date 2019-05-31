@@ -19,9 +19,9 @@ namespace GangplankE
             var time = 7.0f;
             _hudvisual = AddBuffHUDVisual("RaiseMorale", time, 1, unit);
             
-            AddParticleTarget(owner, "pirate_raiseMorale_cas.troy", unit, 1);
-            AddParticleTarget(owner, "pirate_raiseMorale_mis.troy", unit, 1);
-            AddParticleTarget(owner, "pirate_raiseMorale_tar.troy", unit, 1);
+            var p1 = AddParticleTarget(owner, "pirate_raiseMorale_cas.troy", unit, 1);
+            var p2 = AddParticleTarget(owner, "pirate_raiseMorale_mis.troy", unit, 1);
+            var p3 = AddParticleTarget(owner, "pirate_raiseMorale_tar.troy", unit, 1);
         }
 
         public void OnDeactivate(IObjAIBase unit)
@@ -29,6 +29,9 @@ namespace GangplankE
             unit.RemoveStatModifier(_statMod);
             
             RemoveBuffHudVisual(_hudvisual);
+            RemoveParticle(p1);
+            RemoveParticle(p2);
+            RemoveParticle(p3);
         }
 
         public void OnUpdate(double diff)
