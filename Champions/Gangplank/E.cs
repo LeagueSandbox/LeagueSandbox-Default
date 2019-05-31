@@ -1,7 +1,7 @@
-using LeagueSandbox.GameServer.Logic.GameObjects;
-using LeagueSandbox.GameServer.Logic.API;
-using LeagueSandbox.GameServer.Logic.GameObjects.AttackableUnits;
-using LeagueSandbox.GameServer.Logic.Scripting.CSharp;
+using GameServerCore.Domain.GameObjects;
+using static LeagueSandbox.GameServer.API.ApiFunctionManager;
+using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
+using LeagueSandbox.GameServer.Scripting.CSharp;
 
 namespace Spells
 {
@@ -23,6 +23,10 @@ namespace Spells
 
         public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target)
         {
+        }
+
+        public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target)
+        {		
             Particle p = ApiFunctionManager.AddParticleTarget(owner, "pirate_raiseMorale_cas.troy", target, 1);
             Particle p2 = ApiFunctionManager.AddParticleTarget(owner, "pirate_raiseMorale_mis.troy", target, 1);
             Particle p3 = ApiFunctionManager.AddParticleTarget(owner, "pirate_raiseMorale_tar.troy", target, 1);
@@ -36,10 +40,6 @@ namespace Spells
                 ApiFunctionManager.RemoveBuffHUDVisual(visualBuff);
                 owner.RemoveBuffGameScript(buff);
             });				
-        }
-
-        public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target)
-        {		
         }
 
         public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile)
