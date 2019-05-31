@@ -43,18 +43,18 @@ namespace Spells
                 if (allyTarget is IAttackableUnit && owner != allyTarget && hasbuff == false)
                 {
                     ((ObjAIBase) allyTarget).AddBuffGameScript("GangplankE", "GangplankE", spell, 7.0f, true);
-                    var visualBuffally = AddBuffHUDVisual("RaiseMorale", 7.0f, 1, target);
-                    Particle p_ally1 = AddParticleTarget(owner, "pirate_raiseMorale_cas.troy", target, 1);
-                    Particle p_ally2 = AddParticleTarget(owner, "pirate_raiseMorale_mis.troy", target, 1);
-                    Particle p_ally3 = AddParticleTarget(owner, "pirate_raiseMorale_tar.troy", target, 1);
+                    //var visualBuffally = AddBuffHUDVisual("RaiseMorale", 7.0f, 1, target); //buff
+                    //Particle p_ally1 = AddParticleTarget(owner, "pirate_raiseMorale_cas.troy", target, 1); //buff
+                    //Particle p_ally2 = AddParticleTarget(owner, "pirate_raiseMorale_mis.troy", target, 1); //buff
+                    //Particle p_ally3 = AddParticleTarget(owner, "pirate_raiseMorale_tar.troy", target, 1); //buff
                     
-                    CreateTimer(7.0f, () => //timer to remove particle and hudvisual for allies //idk if its good
-                    {
-                        RemoveParticle(p_ally1);
-                        RemoveParticle(p_ally2);
-                        RemoveParticle(p_ally3);
-                        RemoveBuffHUDVisual(visualBuffally);
-                    });
+                    //CreateTimer(7.0f, () => 
+                    //{
+                    //    RemoveParticle(p_ally1);
+                    //    RemoveParticle(p_ally2);
+                    //    RemoveParticle(p_ally3);
+                    //    RemoveBuffHUDVisual(visualBuffally);
+                    //});
                 }
             }
             
