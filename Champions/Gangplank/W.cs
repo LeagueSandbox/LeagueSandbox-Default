@@ -51,7 +51,7 @@ namespace Spells
             }
             // DONT KNOW IF ITS WORKING BUT I THINK THAT SHOULD BE FINE //
             
-            var buff = ((ObjAIBase) target).AddBuffGameScript("GangplankW", "GangplankW", spell);
+            var buff = ((ObjAIBase) owner).AddBuffGameScript("GangplankW", "GangplankW", spell);
             CreateTimer(5.0f, () =>
             {
                 //ApiFunctionManager.RemoveBuffHUDVisual(visualBuff);
