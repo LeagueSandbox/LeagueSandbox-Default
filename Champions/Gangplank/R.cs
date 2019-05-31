@@ -12,20 +12,20 @@ namespace Spells
     public class CannonBarrage : GameScript
     {
 
-        public void OnActivate(Champion owner)
+        public void OnActivate(IChampion owner)
         {
 
         }
 
-        public void OnDeactivate(Champion owner)
+        public void OnDeactivate(IChampion owner)
         {
         }
 
-        public void OnStartCasting(Champion owner, Spell spell, AttackableUnit target)
+        public void OnStartCasting(IChampion owner, ISpell spell, IAttackableUnit target)
         {
         }
 
-        public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target)
+        public void OnFinishCasting(IChampion owner, ISpell spell, IAttackableUnit target)
         {
             Target ZoneCenter1;
             Target ZoneCenter2;
@@ -111,16 +111,16 @@ namespace Spells
             });
         }
 
-        public void DamageTargetsInZone(Champion owner, Spell spell, AttackableUnit target, Target ZoneCenter)
+        public void DamageTargetsInZone(IChampion owner, ISpell spell, IAttackableUnit target, Target ZoneCenter)
         {
-            List<AttackableUnit> units = ApiFunctionManager.GetUnitsInRange(ZoneCenter, 525, true);
+            List<IAttackableUnit> units = GetUnitsInRange(ZoneCenter, 525, true);
             var ap = owner.Stats.AbilityPower.Total * 0.2f;
             var damage = ((new float[] { 78.125f, 115.875f, 138.75f })[spell.Level - 1]) + ap;
-            foreach (AttackableUnit unit in units)
+            foreach (IAttackableUnit unit in units)
             {
                 if (unit.Team != owner.Team)
                 {
-                    if (unit is Champion || unit is Minion || unit is Monster)
+                    if (unit is IChampion || unit is Minion || unit is Monster)
                     {
                         unit.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, false);
                     }
@@ -128,7 +128,7 @@ namespace Spells
             }
         }
 
-        public void ApplyEffects(Champion owner, AttackableUnit target, Spell spell, Projectile projectile)
+        public void ApplyEffects(IChampion owner, IAttackableUnit target, ISpell spell, Projectile projectile)
         {
         }
 
