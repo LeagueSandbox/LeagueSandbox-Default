@@ -111,7 +111,7 @@ namespace Spells
             });
         }
 
-        public void DamageTargetsInZone(IChampion owner, ISpell spell, IAttackableUnit target, Target ZoneCenter)
+        public void DamageTargetsInZone(IChampion owner, ISpell spell, IAttackableUnit target, ITarget ZoneCenter)
         {
             List<IAttackableUnit> units = GetUnitsInRange(ZoneCenter, 525, true);
             var ap = owner.Stats.AbilityPower.Total * 0.2f;
@@ -128,7 +128,7 @@ namespace Spells
             }
         }
 
-        public void ApplyEffects(IChampion owner, IAttackableUnit target, ISpell spell, Projectile projectile)
+        public void ApplyEffects(IChampion owner, IAttackableUnit target, ISpell spell, IProjectile projectile)
         {
         }
 
