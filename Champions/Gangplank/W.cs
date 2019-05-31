@@ -37,10 +37,6 @@ namespace Spells
             {
                 owner.Stats.CurrentHealth == owner.Stats.HealthPoints;
             }
-            else if (owner.Stats.CurrentHealth == owner.Stats.HealthPoints)  // checking health (protection against possible increase of health points)
-            {
-                //return null; // do nothing
-            }
             else if (owner.Stats.CurrentHealth+15*ap < owner.Stats.HealthPoints) // if everything is fine heal gp
             {
                 owner.Stats.CurrentHealth += 15*ap;
