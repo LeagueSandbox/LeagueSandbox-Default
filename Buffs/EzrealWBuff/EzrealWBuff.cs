@@ -25,7 +25,7 @@ namespace EzrealWBuff
 
             unit.AddStatModifier(_statMod);
 
-            _visualBuff = AddBuffHudVisual("Essence Flux", 5f, 1, BuffType.COMBAT_ENCHANCER, unit);
+            _visualBuff = AddBuffHudVisual("EzrealEssenceFluxBuff", 5f, 1, BuffType.COMBAT_ENCHANCER, unit);
         }
 
         public void OnDeactivate(IObjAiBase unit)
