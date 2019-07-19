@@ -2,6 +2,8 @@ using System.Numerics;
 using GameServerCore.Domain.GameObjects;
 using static LeagueSandbox.GameServer.API.ApiFunctionManager;
 using GameServerCore.Domain;
+using GameServerCore.Enums;
+using LeagueSandbox.GameServer.GameObjects.Other;
 using LeagueSandbox.GameServer.Scripting.CSharp;
 
 namespace Spells
@@ -32,6 +34,26 @@ namespace Spells
 
         public void ApplyEffects(IChampion owner, IAttackableUnit target, ISpell spell, IProjectile projectile)
         {
+            var champion = target as IChampion;
+
+            if (champion == null)
+            {
+                return;
+            }
+
+            var buffTime = 5f;
+            var ownerAbilityPowerTotal = owner.Stats.AbilityPower.Total;
+
+            if (champion.Team.Equals(owner.Team) && !champion.Equals(owner))
+            {
+                champion.AddBuffGameScript("EzrealWBuff", "EzrealWBuff", spell, buffTime, true);
+            }
+            else
+            {
+                var damage = 25 + (45 * spell.Level) + (ownerAbilityPowerTotal * 0.8f);
+
+                target.TakeDamage(owner, damage, DamageType.DAMAGE_TYPE_MAGICAL, DamageSource.DAMAGE_SOURCE_SPELL, DamageText.DAMAGE_TEXT_NORMAL);
+            }
         }
 
         public void OnUpdate(double diff)
