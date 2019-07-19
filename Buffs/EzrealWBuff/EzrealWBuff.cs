@@ -37,7 +37,7 @@ namespace EzrealWBuff
 
         public void OnUpdate(double diff)
         {
-            throw new NotImplementedException();
+            
         }
     }
 }
