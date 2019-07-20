@@ -1,5 +1,7 @@
 using GameServerCore.Domain.GameObjects;
 using GameServerCore.Domain;
+using LeagueSandbox.GameServer.API;
+using LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI;
 using LeagueSandbox.GameServer.Scripting.CSharp;
 
 namespace Spells
@@ -26,7 +28,21 @@ namespace Spells
 
         public void OnActivate(IChampion owner)
         {
+            ApiEventManager.OnChampionDamageTaken.AddListener(this, owner, () =>
+            {
+                if (owner.HasBuffGameScriptActive("Recall", "Recall"))
+                {
+                    ((ObjAiBase)owner).RemoveBuffGameScriptsWithName("Recall", "Recall");
+                }
+            });
 
+            ApiEventManager.OnChampionMove.AddListener(this, owner, () =>
+            {
+                if (owner.HasBuffGameScriptActive("Recall", "Recall"))
+                {
+                    ((ObjAiBase)owner).RemoveBuffGameScriptsWithName("Recall", "Recall");
+                }
+            });
         }
 
         public void OnDeactivate(IChampion owner)
