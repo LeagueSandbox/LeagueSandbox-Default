@@ -1,4 +1,4 @@
-﻿using GameServerCore.Domain;
+using GameServerCore.Domain;
 using GameServerCore.Domain.GameObjects;
 using GameServerCore.Enums;
 using LeagueSandbox.GameServer.GameObjects;
@@ -22,7 +22,7 @@ namespace Recall
             _createdParticle = AddParticleTarget(champion, "TeleportHome.troy", champion);
 
             // @TODO Change to a less hacky way of implementing recall checking
-            CreateTimer(7.9f, () =>
+            CreateTimer(7.9f, () => 
             {
                 _canRecall = true;
             });
