@@ -1,11 +1,5 @@
-using System.Collections.Generic;
-using System.Linq;
-using GameServerCore.Enums;
 using GameServerCore.Domain.GameObjects;
-using static LeagueSandbox.GameServer.API.ApiFunctionManager;
 using GameServerCore.Domain;
-using LeagueSandbox.GameServer.GameObjects;
-using LeagueSandbox.GameServer.GameObjects.Spells;
 using LeagueSandbox.GameServer.Scripting.CSharp;
 
 namespace Spells
