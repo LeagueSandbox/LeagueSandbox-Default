@@ -12,29 +12,14 @@ namespace Spells
 {
     public class Recall : IGameScript
     {
-        private Particle _recallParticle;
-
         public void OnStartCasting(IChampion owner, ISpell spell, IAttackableUnit target)
         {
         }
 
         public void OnFinishCasting(IChampion owner, ISpell spell, IAttackableUnit target)
         {
-            bool ownerHasRecallActive = owner.HasBuffGameScriptActive("Recall", "Recall");
-
+            // @TODO Find out if possible to check for champion movement
             owner.AddBuffGameScript("Recall", "Recall", spell, 8.0f, true);
-
-            if (!ownerHasRecallActive)
-            {
-                _recallParticle = AddParticleTarget(owner, "TeleportHome.troy", owner);
-            }
-            else
-            {
-                RemoveParticle(_recallParticle);
-
-                _recallParticle = AddParticleTarget(owner, "TeleportHome.troy", owner);
-            }
-            
         }
 
         public void ApplyEffects(IChampion owner, IAttackableUnit target, ISpell spell, IProjectile projectile)

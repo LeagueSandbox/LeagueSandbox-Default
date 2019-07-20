@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using GameServerCore.Domain;
 using GameServerCore.Domain.GameObjects;
 using GameServerCore.Enums;
+using LeagueSandbox.GameServer.GameObjects;
 using LeagueSandbox.GameServer.Scripting.CSharp;
 using static LeagueSandbox.GameServer.API.ApiFunctionManager;
 
@@ -14,25 +15,32 @@ namespace Recall
     class Recall : IBuffGameScript
     {
         private IBuff _visualBuff;
-        private GameScriptTimer _recallTimer;
+        private Particle _createdParticle;
+
+        private bool _canRecall;
 
         public void OnActivate(IObjAiBase unit, ISpell ownerSpell)
         {
-            _visualBuff = AddBuffHudVisual("Recall", 8.0f, 1, BuffType.COMBAT_ENCHANCER, unit);
+            IChampion champion = unit as IChampion;
 
-            _recallTimer = CreateTimer(7.9f, () =>
+            _visualBuff = AddBuffHudVisual("Recall", 8.0f, 1, BuffType.COMBAT_ENCHANCER, champion);
+            _createdParticle = AddParticleTarget(champion, "TeleportHome.troy", champion);
+
+            // @TODO Change to a less hacky way of implementing recall checking
+            CreateTimer(7.9f, () =>
             {
-                ((IChampion) unit).Recall();
+                _canRecall = true;
             });
         }
 
         public void OnDeactivate(IObjAiBase unit)
         {
             RemoveBuffHudVisual(_visualBuff);
+            RemoveParticle(_createdParticle);
 
-            if (!_recallTimer.IsDead())
+            if (_canRecall)
             {
-                _recallTimer.EndTimerWithoutCallback();
+                ((IChampion)unit).Recall();
             }
         }
 
