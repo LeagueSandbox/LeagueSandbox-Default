@@ -24,12 +24,7 @@ namespace Spells
 
         public void OnFinishCasting(IChampion owner, ISpell spell, IAttackableUnit target)
         {
-            var current = new Vector2(owner.X, owner.Y);
-            var to = Vector2.Normalize(new Vector2(spell.X, spell.Y) - current);
-            var range = to * 580;
-            var trueCoords = current + range;
-
-            spell.AddProjectile("ToxicShot", owner.X, owner.Y, trueCoords.X, trueCoords.Y);
+            spell.AddProjectileTarget("ToxicShot", target);
         }
 
         public void ApplyEffects(IChampion owner, IAttackableUnit target, ISpell spell, IProjectile projectile)
@@ -40,6 +35,7 @@ namespace Spells
             var time = 1.25f + 0.25f * spell.Level;
             ((ObjAiBase) target).AddBuffGameScript("Blind", "Blind", spell, time);
             AddBuffHudVisual("Blind", time, 1, BuffType.COMBAT_DEHANCER, (ObjAiBase) target, time);
+            projectile.SetToRemove();
         }
 
         public void OnUpdate(double diff)
