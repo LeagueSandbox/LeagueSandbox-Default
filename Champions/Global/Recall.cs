@@ -36,6 +36,14 @@ namespace Spells
                 }
             });
 
+            ApiEventManager.OnChampionCrowdControlled.AddListener(this, owner, () =>
+            {
+                if (owner.HasBuffGameScriptActive("Recall", "Recall"))
+                {
+                    ((ObjAiBase)owner).RemoveBuffGameScriptsWithName("Recall", "Recall");
+                }
+            });
+
             ApiEventManager.OnChampionMove.AddListener(this, owner, () =>
             {
                 if (owner.HasBuffGameScriptActive("Recall", "Recall"))
