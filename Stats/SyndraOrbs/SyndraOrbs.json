@@ -71,7 +71,7 @@
         "HealthBar": {
             "ParallaxOffset": "0",
             "XOffset": "0",
-            "YOffset": 64537
+            "YOffset": -999
         },
         "IdleParticles": {
             "NumberOfParticles": "0"

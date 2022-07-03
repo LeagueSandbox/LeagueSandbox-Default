@@ -26,7 +26,7 @@
             "Cooldown3": 1.5,
             "Cooldown4": 1.5,
             "Cooldown5": 1.5,
-            "DelayTotalTimePercent": 65535,
+            "DelayTotalTimePercent": -1,
             "Description": "game_spell_description_AzirW",
             "DisplayName": "game_spell_displayname_AzirW",
             "DynamicExtended": "game_spell_levelup_AzirW",

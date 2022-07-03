@@ -27,7 +27,7 @@
             "Skeleton": "Heimerdinger_Skin05.skl",
             "SkinScale": 1,
             "Texture": "Heimerdinger_Skin05_TX_CM.dds",
-            "YOffset": 65535
+            "YOffset": -1
         },
         "UNKNOWN_HASHES": {
             "708066840": "Heimerdinger_Grab_Hand, Heimerdinger_Antenna, Heimerdinger_Recall"

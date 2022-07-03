@@ -15,7 +15,7 @@
             "Skeleton": "sightWard_spider.skl",
             "SkinScale": 0.8,
             "Texture": "sightWard_spider_TX_CM.dds",
-            "YOffset": 65532
+            "YOffset": -4
         }
     }
 }

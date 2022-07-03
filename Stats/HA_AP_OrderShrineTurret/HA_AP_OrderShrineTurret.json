@@ -12,7 +12,7 @@
             "ArmorMaterial": "Stone",
             "ArmorPerLevel": 0,
             "AttackDelayCastOffsetPercent": 0.1,
-            "AttackDelayOffsetPercent": 65535,
+            "AttackDelayOffsetPercent": -1,
             "AttackRange": "1100",
             "AttackSpeed": 1.6,
             "AttackSpeedPerLevel": 2.125,
