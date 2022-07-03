@@ -30,7 +30,7 @@
         },
         "SpellData": {
             "AfterEffectName": "OrianaBasicAttack_tar.troy",
-            "AIBlockLevel": 65535,
+            "AIBlockLevel": -1,
             "AIEndOnly": "0",
             "AILifetime": "-1.0000",
             "AIRadius": "-1.0000",

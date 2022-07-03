@@ -30,7 +30,7 @@
         },
         "SpellData": {
             "AfterEffectName": "missing_lingering.troy",
-            "AIBlockLevel": 65535,
+            "AIBlockLevel": -1,
             "AIEndOnly": "0",
             "AILifetime": "-1.0000",
             "AIRadius": "-1.0000",
@@ -94,7 +94,7 @@
             "Cooldown6": 0,
             "DeathRecapPriority": "0",
             "DelayCastOffsetPercent": -0.5,
-            "DelayTotalTimePercent": 65535,
+            "DelayTotalTimePercent": -1,
             "Description": "game_spell_description_ZyraThornPlantMissile",
             "DisableCastBar": "0",
             "DisplayName": "game_spell_displayname_ZyraThornPlantMissile",
