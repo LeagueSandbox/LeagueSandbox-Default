@@ -48,7 +48,7 @@
             "Passive1LuaName": "Spiked Shell",
             "Passive1Name": "game_character_passiveName_RammusDBC",
             "Passive2Level3": 18,
-            "Passive2Level4": 65535,
+            "Passive2Level4": -1,
             "PassLev1Desc1": "game_character_passiveDescription_RammusDBC",
             "PathfindingCollisionRadius": 35,
             "SelectionHeight": "120",
@@ -155,10 +155,10 @@
             "RecItem6": 3026
         },
         "UNKNOWN_HASHES": {
-            "170020181": 65535,
-            "170020182": 65535,
-            "170020183": 65535,
-            "170020184": 65535,
+            "170020181": -1,
+            "170020182": -1,
+            "170020183": -1,
+            "170020184": -1,
             "1729141654": "0.2",
             "1729141655": "0.4",
             "1729141656": "0.6",

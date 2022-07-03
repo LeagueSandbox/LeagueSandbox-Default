@@ -9,7 +9,7 @@
         "Data": {
             "BaseFactorMPRegen": "0",
             "BaseMP": "600",
-            "BaseStaticMPRegen": 65535,
+            "BaseStaticMPRegen": -1,
             "ExpGivenOnDeath": 0,
             "GameplayCollisionRadius": "50.0",
             "GoldGivenOnDeath": "10.0",

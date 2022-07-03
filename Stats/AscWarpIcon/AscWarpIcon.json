@@ -23,7 +23,7 @@
             "BaseHP": "50000",
             "BaseMP": "0",
             "BaseStaticHPRegen": "0",
-            "BaseStaticMPRegen": 65535,
+            "BaseStaticMPRegen": -1,
             "ChasingAttackRangePercent": 0.8,
             "CritAttack": "",
             "CritAttack_AttackDelayCastOffsetPercent": 0.0121875,

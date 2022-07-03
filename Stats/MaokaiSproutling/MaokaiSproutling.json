@@ -24,7 +24,7 @@
             "BaseHP": 1,
             "BaseMP": 25,
             "BaseStaticHPRegen": "0",
-            "BaseStaticMPRegen": 65535,
+            "BaseStaticMPRegen": -1,
             "ChasingAttackRangePercent": 0.8,
             "Classification": "Arcane",
             "CritAttack_AttackDelayCastOffsetPercent": 0.0121875,

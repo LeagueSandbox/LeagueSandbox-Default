@@ -85,7 +85,7 @@
         },
         "Useable": {
             "AllyCanUse": 1,
-            "CooldownSpellSlot": 65535,
+            "CooldownSpellSlot": -1,
             "HeroUseSpell": "LanternWAlly",
             "IsUseable": 1,
             "MinionUseable": "0"
